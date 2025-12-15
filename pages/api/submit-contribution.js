@@ -14,7 +14,12 @@ const GITHUB_REPO_NAME = process.env.GITHUB_REPO_NAME;
 const GITHUB_BASE_BRANCH = process.env.GITHUB_BASE_BRANCH || 'main';
 
 async function parseForm(req) {
-  const form = new IncomingForm({ multiples: false });
+  const form = new IncomingForm({
+    multiples: false,
+    // Allow empty file inputs so optional file fields don't throw
+    allowEmptyFiles: true,
+    minFileSize: 0,
+  });
 
   return new Promise((resolve, reject) => {
     form.parse(req, (err, fields, files) => {
@@ -145,7 +150,7 @@ async function handleSingleQuestionSubmission({ fields, files, branchName }) {
 
   let questionImagePath = null;
   const questionImageFile = files.questionImage;
-  if (questionImageFile && questionImageFile.filepath) {
+  if (questionImageFile && questionImageFile.filepath && questionImageFile.size > 0) {
     const ext = path.extname(questionImageFile.originalFilename || '') || '.png';
     const safeExt = ['.png', '.jpg', '.jpeg', '.gif', '.webp'].includes(ext.toLowerCase()) ? ext : '.png';
     const filename = `question-${Date.now()}${safeExt}`;
@@ -172,6 +177,34 @@ async function handleSingleQuestionSubmission({ fields, files, branchName }) {
     answer: correctOption,
   };
 
+  // Option images (optional for each option)
+  const optionImageFiles = [
+    files.optionImage1,
+    files.optionImage2,
+    files.optionImage3,
+    files.optionImage4,
+  ];
+
+  for (let i = 0; i < optionImageFiles.length; i += 1) {
+    const file = optionImageFiles[i];
+    if (!file || !file.filepath || file.size === 0) continue;
+
+    const ext = path.extname(file.originalFilename || '') || '.png';
+    const safeExt = ['.png', '.jpg', '.jpeg', '.gif', '.webp'].includes(ext.toLowerCase())
+      ? ext
+      : '.png';
+    const filename = `option-${i + 1}-${Date.now()}${safeExt}`;
+    const optionImagePath = `public/images/${filename}`;
+
+    await putBinaryFile(optionImagePath, {
+      filePath: file.filepath,
+      message: 'Add option image from contribution form',
+      branch: branchName,
+    });
+
+    newQuestion.options[i].image = optionImagePath.replace(/^public\//, '');
+  }
+
   const updatedQuestions = [...questions, newQuestion];
   const prettyJson = JSON.stringify(updatedQuestions, null, 2) + '\n';
 
@@ -196,7 +229,7 @@ async function handlePdfSubmission({ fields, files, branchName }) {
   const subjectRaw = String(fields.subject || '').trim();
   const pdfFile = files.pdfFile;
 
-  if (!year || !subjectRaw || !pdfFile || !pdfFile.filepath) {
+  if (!year || !subjectRaw || !pdfFile || !pdfFile.filepath || pdfFile.size === 0) {
     throw new Error('Invalid PDF submission data.');
   }
 

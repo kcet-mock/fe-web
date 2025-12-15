@@ -118,30 +118,62 @@ export default function ContributePage() {
 
                   <div className="filter-group">
                     <label className="filter-label">Options (A–D)</label>
-                    <input
-                      name="option1"
-                      placeholder="Option 1 (A)"
-                      className="select"
-                      required
-                    />
-                    <input
-                      name="option2"
-                      placeholder="Option 2 (B)"
-                      className="select"
-                      required
-                    />
-                    <input
-                      name="option3"
-                      placeholder="Option 3 (C)"
-                      className="select"
-                      required
-                    />
-                    <input
-                      name="option4"
-                      placeholder="Option 4 (D)"
-                      className="select"
-                      required
-                    />
+                    <div className="filter-group">
+                      <input
+                        name="option1"
+                        placeholder="Option 1 (A) text"
+                        className="select"
+                        required
+                      />
+                      <input
+                        name="optionImage1"
+                        type="file"
+                        accept="image/*"
+                        className="select"
+                      />
+                    </div>
+                    <div className="filter-group">
+                      <input
+                        name="option2"
+                        placeholder="Option 2 (B) text"
+                        className="select"
+                        required
+                      />
+                      <input
+                        name="optionImage2"
+                        type="file"
+                        accept="image/*"
+                        className="select"
+                      />
+                    </div>
+                    <div className="filter-group">
+                      <input
+                        name="option3"
+                        placeholder="Option 3 (C) text"
+                        className="select"
+                        required
+                      />
+                      <input
+                        name="optionImage3"
+                        type="file"
+                        accept="image/*"
+                        className="select"
+                      />
+                    </div>
+                    <div className="filter-group">
+                      <input
+                        name="option4"
+                        placeholder="Option 4 (D) text"
+                        className="select"
+                        required
+                      />
+                      <input
+                        name="optionImage4"
+                        type="file"
+                        accept="image/*"
+                        className="select"
+                      />
+                    </div>
                   </div>
 
                   <div className="filter-group">
