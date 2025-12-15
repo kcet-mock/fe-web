@@ -135,6 +135,10 @@ export default function MockTestPage() {
                 const selectedOption = answers[index];
                 const questionNumber = index + 1;
                 const options = q.options || [];
+                const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
+                const questionImageSrc = q.question?.image
+                  ? `${basePathPrefix}${q.question.image.replace(/^\/+/, '')}`
+                  : null;
                 return (
                   <div key={questionNumber} className="question-block">
                     <div className="question-header">
@@ -145,10 +149,10 @@ export default function MockTestPage() {
                     {q.question?.text && (
                       <p className="question-text">{q.question.text}</p>
                     )}
-                    {q.question?.image && (
+                    {questionImageSrc && (
                       <div className="question-image">
                         <img
-                          src={q.question.image}
+                          src={questionImageSrc}
                           alt={`Question ${questionNumber}`}
                           style={{ maxWidth: '100%', height: 'auto' }}
                         />
@@ -157,6 +161,9 @@ export default function MockTestPage() {
                     <div className="options-list">
                       {options.map((option, optionIndex) => {
                         const isSelected = selectedOption === optionIndex;
+                        const optionImageSrc = option?.image
+                          ? `${basePathPrefix}${option.image.replace(/^\/+/, '')}`
+                          : null;
                         return (
                           <button
                             type="button"
@@ -171,11 +178,11 @@ export default function MockTestPage() {
                                 isSelected ? ' option-circle--selected' : ''
                               }`}
                             />
-                                {option?.text && <span>{option.text}</span>}
-                            {option?.image && (
+                            {option?.text && <span>{option.text}</span>}
+                            {optionImageSrc && (
                               <div className="option-image">
                                 <img
-                                  src={option.image}
+                                  src={optionImageSrc}
                                   alt={`Question ${questionNumber} option ${optionIndex + 1}`}
                                   style={{ maxWidth: '100%', height: 'auto' }}
                                 />

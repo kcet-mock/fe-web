@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import questionsData from '../data/questions.json';
 
 const QUESTIONS = questionsData;
@@ -11,6 +12,7 @@ function formatTime(totalSeconds) {
 }
 
 export default function ResultsPage() {
+  const router = useRouter();
   const [result, setResult] = useState(null);
 
   useEffect(() => {
@@ -149,6 +151,10 @@ export default function ResultsPage() {
                 const selected = result.answers[index];
                 const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
                 const options = q.options || [];
+                const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
+                const questionImageSrc = q.question?.image
+                  ? `${basePathPrefix}${q.question.image.replace(/^\/+/, '')}`
+                  : null;
 
                 let statusLabel = 'Not attempted';
                 let statusClass = 'status-pill status-pill--skipped';
@@ -174,10 +180,10 @@ export default function ResultsPage() {
                     {q.question?.text && (
                       <p className="question-text">{q.question.text}</p>
                     )}
-                    {q.question?.image && (
+                    {questionImageSrc && (
                       <div className="question-image">
                         <img
-                          src={q.question.image}
+                          src={questionImageSrc}
                           alt={`Question ${questionNumber}`}
                           style={{ maxWidth: '100%', height: 'auto' }}
                         />
@@ -186,7 +192,9 @@ export default function ResultsPage() {
                     <div className="options-list">
                       {options.map((option, optionIndex) => {
                         const optionText = option?.text;
-                        const optionImage = option?.image;
+                        const optionImage = option?.image
+                          ? `${basePathPrefix}${option.image.replace(/^\/+/, '')}`
+                          : null;
                         const isCorrectOption = optionIndex === correctIndex;
                         const isSelectedOption = optionIndex === selected;
 
