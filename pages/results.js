@@ -1,0 +1,227 @@
+import { useEffect, useMemo, useState } from 'react';
+import Link from 'next/link';
+import questionsData from '../data/questions.json';
+
+const QUESTIONS = questionsData;
+
+function formatTime(totalSeconds) {
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+
+export default function ResultsPage() {
+  const [result, setResult] = useState(null);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      const stored = window.sessionStorage.getItem('kcetMockTestResult');
+      if (!stored) return;
+      const parsed = JSON.parse(stored);
+      setResult(parsed);
+    } catch (e) {
+      // Ignore parsing/storage errors and show fallback UI
+    }
+  }, []);
+
+  const summary = useMemo(() => {
+    if (!result) return null;
+
+    const answers = result.answers || {};
+    let correct = 0;
+    let wrong = 0;
+    let notAttempted = 0;
+
+    QUESTIONS.forEach((q, index) => {
+      const selected = answers[index];
+      const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
+
+      if (selected === undefined) {
+        notAttempted += 1;
+      } else if (selected === correctIndex) {
+        correct += 1;
+      } else {
+        wrong += 1;
+      }
+    });
+
+    return { correct, wrong, notAttempted };
+  }, [result]);
+
+  if (!result) {
+    return (
+      <main className="main-layout main-layout--top">
+        <section className="card">
+          <header className="card-header">
+            <div>
+              <div className="badge">Results</div>
+              <h1 className="title">No result data found</h1>
+              <p className="subtitle">
+                Please complete a mock test first. Once you submit your test,
+                you will see a detailed breakdown of your performance here.
+              </p>
+            </div>
+          </header>
+          <div className="test-layout">
+            <div className="test-questions">
+              <p className="question-text">
+                Go back to the mock test page to start a new attempt.
+              </p>
+              <Link href="/mock-test" className="button-primary">
+                Start mock test
+              </Link>
+            </div>
+          </div>
+        </section>
+      </main>
+    );
+  }
+
+  const { timeTakenSeconds, totalQuestions, correctCount, attemptedCount } = result;
+  const { correct, wrong, notAttempted } = summary || {};
+
+  return (
+    <main className="main-layout main-layout--top">
+      <section className="card">
+        <header className="card-header">
+          <div>
+            <div className="badge">Results</div>
+            <h1 className="title">Mock test summary</h1>
+            <p className="subtitle">
+              Review your performance, understand which questions you got right
+              or wrong, and identify topics to revise.
+            </p>
+          </div>
+        </header>
+
+        <div className="results-layout">
+          <div className="results-summary">
+            <div className="results-metrics">
+              <div className="results-metric-card">
+                <div className="results-metric-label">Score</div>
+                <div className="results-metric-value">
+                  {correctCount} / {totalQuestions}
+                </div>
+                <div className="results-metric-sub">
+                  Attempted {attemptedCount} question{attemptedCount === 1 ? '' : 's'}
+                </div>
+              </div>
+              <div className="results-metric-card">
+                <div className="results-metric-label">Time taken</div>
+                <div className="results-metric-value">{formatTime(timeTakenSeconds)}</div>
+                <div className="results-metric-sub">of 60:00 total</div>
+              </div>
+              <div className="results-metric-card">
+                <div className="results-metric-label">Breakdown</div>
+                <div className="results-breakdown-row">
+                  <span className="status-pill status-pill--correct">Correct: {correct}</span>
+                  <span className="status-pill status-pill--wrong">Wrong: {wrong}</span>
+                  <span className="status-pill status-pill--skipped">
+                    Not attempted: {notAttempted}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="results-actions">
+              <Link href="/mock-test" className="button-secondary">
+                Retake mock test
+              </Link>
+              <Link href="/" className="button-primary">
+                Back to home
+              </Link>
+            </div>
+          </div>
+
+          <div className="results-questions">
+            <div className="badge-soft">Question-wise review</div>
+            <h2 className="page-section-title" style={{ marginTop: '0.75rem' }}>
+              Which questions were correct, wrong or not attempted
+            </h2>
+            <p className="question-text">
+              Options below are read-only: you can&apos;t change any answers here.
+              Use this view purely to analyse your performance.
+            </p>
+
+            <div className="questions-stack">
+              {QUESTIONS.map((q, index) => {
+                const questionNumber = index + 1;
+                const selected = result.answers[index];
+                const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
+                const options = q.options || [];
+
+                let statusLabel = 'Not attempted';
+                let statusClass = 'status-pill status-pill--skipped';
+
+                if (selected !== undefined) {
+                  if (selected === correctIndex) {
+                    statusLabel = 'Correct';
+                    statusClass = 'status-pill status-pill--correct';
+                  } else {
+                    statusLabel = 'Wrong';
+                    statusClass = 'status-pill status-pill--wrong';
+                  }
+                }
+
+                return (
+                  <div key={questionNumber} className="question-block">
+                    <div className="question-header results-question-header">
+                      <span className="badge-soft">
+                        Question {questionNumber} of {QUESTIONS.length}
+                      </span>
+                      <span className={statusClass}>{statusLabel}</span>
+                    </div>
+                    {q.question?.text && (
+                      <p className="question-text">{q.question.text}</p>
+                    )}
+                    {q.question?.image && (
+                      <div className="question-image">
+                        <img
+                          src={q.question.image}
+                          alt={`Question ${questionNumber}`}
+                          style={{ maxWidth: '100%', height: 'auto' }}
+                        />
+                      </div>
+                    )}
+                    <div className="options-list">
+                      {options.map((option, optionIndex) => {
+                        const optionText = option?.text;
+                        const optionImage = option?.image;
+                        const isCorrectOption = optionIndex === correctIndex;
+                        const isSelectedOption = optionIndex === selected;
+
+                        let optionClass = 'option-pill option-pill--static';
+                        if (isCorrectOption) {
+                          optionClass += ' option-pill--correct';
+                        }
+                        if (isSelectedOption && !isCorrectOption) {
+                          optionClass += ' option-pill--wrong';
+                        }
+
+                        return (
+                          <div key={optionIndex} className={optionClass}>
+                            <span className="option-circle" />
+                            {optionText && <span>{optionText}</span>}
+                            {optionImage && (
+                              <div className="option-image">
+                                <img
+                                  src={optionImage}
+                                  alt={`Question ${questionNumber} option ${optionIndex + 1}`}
+                                  style={{ maxWidth: '100%', height: 'auto' }}
+                                />
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

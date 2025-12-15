@@ -1,0 +1,19 @@
+{
+  "name": "kcet",
+  "version": "1.0.0",
+  "description": "KCET is a karnataka CET mock website(nextjs project)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}

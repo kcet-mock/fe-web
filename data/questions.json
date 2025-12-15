@@ -1,0 +1,782 @@
+[
+  {
+    "question": {
+      "text": "When pollen grains of a flower of a plant pollinate the stigma of flower of another plant, it is called",
+      "image": null
+    },
+    "options": [
+      { "text": "Autogamy", "image": null },
+      { "text": "Dichogamy", "image": null },
+      { "text": "Geitonogamy", "image": null },
+      { "text": "Xenogamy", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Fusion of a male gamete with the central cell in the embryo sac of an angiosperm is called ......",
+      "image": null
+    },
+    "options": [
+      { "text": "Triple fusion", "image": null },
+      { "text": "Syngamy", "image": null },
+      { "text": "Apomixis", "image": null },
+      { "text": "Double fertilization", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Which of these options is true in the context of the diagram of a pollen grain (referring to cells 'A' and 'B')?",
+      "image": null
+    },
+    "options": [
+      { "text": "'A' is a vegetative cell which gives rise to male gametes and 'B' is a generative cell which produces pollen tube", "image": null },
+      { "text": "'A' is a generative cell which gives rise to pollen tube and 'B' is a vegetative cell which form male gametes", "image": null },
+      { "text": "'A' is a vegetative cell with abundant food reserve and 'B' is a generative cell which form male gametes", "image": null },
+      { "text": "'A' is a generative cell which forms male gametes and 'B' is a vegetative cell which produces pollen tube", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Match the hormone with its site of production: a. hCG and hPL, b. Progesterone, c. Androgens, d. Relaxin. Sites: i. Ovary, ii. Placenta, iii. Corpus luteum, iv. Leydig cells. Choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "a-iii, b-i, c-iv, d-ii", "image": null },
+      { "text": "a-iv, b-i, c-ii, d-iii", "image": null },
+      { "text": "a-i, b-ii, c-iv, d-iii", "image": null },
+      { "text": "a-ii, b-iii, c-iv, d-i", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Choose the correct sequence of sperm transport during ejaculation",
+      "image": null
+    },
+    "options": [
+      { "text": "Seminiferous tubules → rete testis → epididymis → vasa efferentia → vas deferens → ejaculatory duct", "image": null },
+      { "text": "Seminiferous tubules → vasa efferentia → rete testis → epididymis → vas deferens → ejaculatory duct", "image": null },
+      { "text": "Seminiferous tubules → rete testis → epididymis → vas deferens → vasa efferentia → ejaculatory duct", "image": null },
+      { "text": "Seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Select the mismatched pair:",
+      "image": null
+    },
+    "options": [
+      { "text": "First month of pregnancy - Formation of heart", "image": null },
+      { "text": "Second month of pregnancy - Movement of foetus", "image": null },
+      { "text": "Third month of pregnancy - Formation of most of the major organ systems", "image": null },
+      { "text": "Six month of pregnancy - Eye lids separate and eye lashes are found", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Out of the following options, identify which one is NOT a natural method of contraception ?",
+      "image": null
+    },
+    "options": [
+      { "text": "Implants", "image": null },
+      { "text": "Lactational amenorrhea", "image": null },
+      { "text": "Periodic abstinence", "image": null },
+      { "text": "Coitus interruptus", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "In zygote intrafallopian tube transfer, the embryo upto ______ stage is transferred into the fallopian tube",
+      "image": null
+    },
+    "options": [
+      { "text": "16 blastomeres", "image": null },
+      { "text": "8 blastomeres", "image": null },
+      { "text": "32 blastomeres", "image": null },
+      { "text": "2 blastomeres", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "Read the following statements: Statement I: MTP is to get rid off wanted pregnancies due to a causal unprotected intercourse or failure of contraceptives used during coitus or rapes. Statement II: MTPs are performed legally by qualified doctors by giving proper medical justification. Choose the correct answer:",
+      "image": null
+    },
+    "options": [
+      { "text": "Statements I and II are incorrect", "image": null },
+      { "text": "Statement I is correct but Statement II is incorrect", "image": null },
+      { "text": "Statement I is incorrect but Statement II is correct", "image": null },
+      { "text": "Statements I and II are correct", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "How many types of gametes will be formed by a parent with genotype 'AaBbCc'?",
+      "image": null
+    },
+    "options": [
+      { "text": "4", "image": null },
+      { "text": "8", "image": null },
+      { "text": "12", "image": null },
+      { "text": "6", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "When a single gene exhibits multiple phenotypic expression, the phenomenon is called",
+      "image": null
+    },
+    "options": [
+      { "text": "Incomplete dominance", "image": null },
+      { "text": "Pleiotropy", "image": null },
+      { "text": "Co-dominance", "image": null },
+      { "text": "Polygenic inheritance", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "A colourblind man marries a carrier woman. The percentage of their colourblind progeny in the next generation will be",
+      "image": null
+    },
+    "options": [
+      { "text": "50%", "image": null },
+      { "text": "75%", "image": null },
+      { "text": "100%", "image": null },
+      { "text": "25%", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Identify which one of the given pair of options is correct with respect to Down's syndrome and Turner's syndrome. (Options refer to rows in a provided symptom table).",
+      "image": null
+    },
+    "options": [
+      { "text": "b (Round head/Overall masculine development)", "image": null },
+      { "text": "c (Broad palm/Sterile females with rudimentary ovaries)", "image": null },
+      { "text": "d (Additional copy of an X-chromosome/Absence of an X-chromosome)", "image": null },
+      { "text": "a (Gynaecomastia in man/Short-statured individual)", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "RNA polymerase II is responsible for the transcription of",
+      "image": null
+    },
+    "options": [
+      { "text": "rRNA", "image": null },
+      { "text": "hnRNA", "image": null },
+      { "text": "snRNA", "image": null },
+      { "text": "tRNA", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "Which of the following enzymes increases the permeability of the bacterial cell to lactose?",
+      "image": null
+    },
+    "options": [
+      { "text": "Permease", "image": null },
+      { "text": "Transacetylase", "image": null },
+      { "text": "Amylase", "image": null },
+      { "text": "β-galactosidase", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Which of the following statements are correct with reference to prokaryotic genome? (a) Monocistronic structural genes (b) Introns absent in structural genes (c) Transcription and translation are coupled processes (d) Primary transcript undergoes splicing (e) Only one RNA polymerase is present. Choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "Only b, c and e are correct", "image": null },
+      { "text": "Only a, d and e are correct", "image": null },
+      { "text": "Only a, b and c are correct", "image": null },
+      { "text": "Only a, b and d are correct", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "When a change in the gene frequency of a population occurs by chance, it is called",
+      "image": null
+    },
+    "options": [
+      { "text": "Gene migration", "image": null },
+      { "text": "Genetic recombination", "image": null },
+      { "text": "Genetic drift", "image": null },
+      { "text": "Founder effect", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Darwin's finches represent one of the best examples of",
+      "image": null
+    },
+    "options": [
+      { "text": "Adaptive radiation", "image": null },
+      { "text": "Chemical evolution", "image": null },
+      { "text": "Genetic equilibrium", "image": null },
+      { "text": "Seasonal migration", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Choose the correct statements from the following: (a) Charles Darwin travelled around the world in a ship called HMS Beagle (b) There has been gradual evolution of life forms (c) According to Darwin, fitness refers to physical fitness only (d) Fossils are remains of hard parts of life forms found in rocks (e) Hugo De Vries, a naturalist worked in Malay Archipelago.",
+      "image": null
+    },
+    "options": [
+      { "text": "a, c and e are correct", "image": null },
+      { "text": "a, b and d are correct", "image": null },
+      { "text": "a, c and d are correct", "image": null },
+      { "text": "a, b and e are correct", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "In which of the following, HIV replicates and produces its progeny viruses?",
+      "image": null
+    },
+    "options": [
+      { "text": "Memory T-lymphocytes", "image": null },
+      { "text": "Killer T-lymphocytes", "image": null },
+      { "text": "Suppressor T-lymphocytes", "image": null },
+      { "text": "Helper T-lymphocytes", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Which of the following are the techniques for detection of cancer of internal organs? (a) Radiography, MRI (b) MRI, computed tomography (c) Widal test, radiography (d) MRI, widal test",
+      "image": null
+    },
+    "options": [
+      { "text": "a and c", "image": null },
+      { "text": "b and c", "image": null },
+      { "text": "b and d", "image": null },
+      { "text": "a and b", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Malignant malaria is caused by",
+      "image": null
+    },
+    "options": [
+      { "text": "Plasmodium vivax", "image": null },
+      { "text": "Plasmodium falciparum", "image": null },
+      { "text": "Plasmodium rubrum", "image": null },
+      { "text": "Plasmodium malariae", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "The drug prescribed to the patients who have undergone organ transplant is ______ and is produced by ______",
+      "image": null
+    },
+    "options": [
+      { "text": "Stain, Monascus purpureus", "image": null },
+      { "text": "Cyclosporin-A, Trichoderma polysporum", "image": null },
+      { "text": "Statin, Trichoderma polysporum", "image": null },
+      { "text": "Cyclosporin-A, Monascus purpureus", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "Read the following statements and select the correct option. Statement I: Biocontrol refers to the use of biological methods for controlling plant diseases and pests. Statement II: Trichoderma species are effective biocontrol agents for several plant pathogens",
+      "image": null
+    },
+    "options": [
+      { "text": "Both statement I and statement II are incorrect", "image": null },
+      { "text": "Statement I is incorrect but statement II is correct", "image": null },
+      { "text": "Both statement I and statement II are correct", "image": null },
+      { "text": "Statement I is correct and statement II is incorrect", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Match the column-I with Column-II. Column-I: (a) Streptococcus (b) Penicillium (c) Methanogens (d) Anabaena. Column-II: (i. Free living nitrogen fixing bacteria, ii. Clot buster, iii. Source of antibiotic, iv. Biogas production). Choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "a-ii, b-iv, c-iii, d-i", "image": null },
+      { "text": "a-iv, b-iii, c-i, d-ii", "image": null },
+      { "text": "a-iv, b-i, c-iii, d-ii", "image": null },
+      { "text": "a-ii, b-iii, c-iv, d-i", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Match the contents of List-I with List-II. List-I: (a) Bioreactors (b) Downstream processing (c) Recombinant protein (d) PCR. List-II: (i. Insulin produced by rDNA technology, ii. Vessels which convert raw material into specific Product, iii. Detect mutated genes in suspected cancer patient, iv. Involves separation and purification). Choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "a-iv, b-ii, c-iii, d-i", "image": null },
+      { "text": "a-i, b-ii, c-iv, d-iii", "image": null },
+      { "text": "a-ii, b-i, c-iii, d-iv", "image": null },
+      { "text": "a-ii, b-iv, c-i, d-iii", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "The part of plasmid that codes for proteins involved in the replication of the PBR322 plasmid is",
+      "image": null
+    },
+    "options": [
+      { "text": "Selectable marker", "image": null },
+      { "text": "\"rop\"", "image": null },
+      { "text": "Cloning site", "image": null },
+      { "text": "Ori site", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "To isolate DNA from fungal cells, bacterial cells and plant cells, the enzymes required are respectively",
+      "image": null
+    },
+    "options": [
+      { "text": "Lysozyme, Proteases and Ribonuclease", "image": null },
+      { "text": "Chitinase, Lysozyme and Cellulase", "image": null },
+      { "text": "Cellulase, Protease and Lysozyme", "image": null },
+      { "text": "Lysozyme, Cellulase and Chitinase", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "In mature insulin, which of the peptide is not present?",
+      "image": null
+    },
+    "options": [
+      { "text": "B-peptide", "image": null },
+      { "text": "C-peptide", "image": null },
+      { "text": "A and B peptides", "image": null },
+      { "text": "A-peptide", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "A scientist wants to produce virus-free plant in tissue culture. Which part of the plant will he use as an explant? (a) Mature stem (b) Axillary meristem (c) Apical meristem (d) Mesophyll cells. Choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "b and c", "image": null },
+      { "text": "b only", "image": null },
+      { "text": "c and d", "image": null },
+      { "text": "a only", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Some strains of Bacillus thuringiensis produce proteins that kill insects. Which one of the following is not killed by proteins of Bacillus thuringiensis?",
+      "image": null
+    },
+    "options": [
+      { "text": "Armyworm", "image": null },
+      { "text": "Cotton bollworm", "image": null },
+      { "text": "Tapeworm", "image": null },
+      { "text": "Tobacco budworm", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Which one of the following population attributes, contributes to increase in population density?",
+      "image": null
+    },
+    "options": [
+      { "text": "Mortality and Emmigration", "image": null },
+      { "text": "Natality and Emmigration", "image": null },
+      { "text": "Mortality and Immigration", "image": null },
+      { "text": "Natality and Immigration", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "If 8 individuals in a laboratory population of 80 fruit flies died during a specified time interval, the death rate in the population during that period is",
+      "image": null
+    },
+    "options": [
+      { "text": "0.001 individual/time interval", "image": null },
+      { "text": "0.1 individual/time interval", "image": null },
+      { "text": "1 individual/time interval", "image": null },
+      { "text": "0.01 individual/time interval", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "Choose the correct sequence of steps involved in decomposition",
+      "image": null
+    },
+    "options": [
+      { "text": "Fragmentation → Leaching → Catabolism → Mineralisation → Humification", "image": null },
+      { "text": "Fragmentation → Mineralisation → Humification → Leaching → Catabolism", "image": null },
+      { "text": "Fragmentation → Leaching → Catabolism → Humification → Mineralisation", "image": null },
+      { "text": "Fragmentation → Catabolism → Leaching → Humification → Mineralisation", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "With respect to limitation of Ecological pyramids, which of the following statements are correct? a) It does not take into account the same species belonging to two or more trophic levels. b) It assumes a simple food chain, something that almost never existed in nature. c) It accommodates saprophytes d) It does not accommodate a food web. Choose the correct answer.",
+      "image": null
+    },
+    "options": [
+      { "text": "b and c", "image": null },
+      { "text": "c and d", "image": null },
+      { "text": "a, b and d", "image": null },
+      { "text": "a and b", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "The 'Sixth Extinction' of species, presently in progress, is ______ times faster than the previous five episodes of mass extinctions.",
+      "image": null
+    },
+    "options": [
+      { "text": "100 to 1000", "image": null },
+      { "text": "1000 to 10000", "image": null },
+      { "text": "1 to 10", "image": null },
+      { "text": "10 to 100", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Species diversity ______ as we move away from the ______ towards ______",
+      "image": null
+    },
+    "options": [
+      { "text": "Decreases, Equator, Poles", "image": null },
+      { "text": "Decreases, Poles, Equator", "image": null },
+      { "text": "Stable, Equator, Poles", "image": null },
+      { "text": "Increases, Equator, Poles", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "The students identify the given pedigree chart as (Pedigree chart data is not included in the source text, only the question is available)",
+      "image": null
+    },
+    "options": [
+      { "text": "Autosomal recessive", "image": null },
+      { "text": "Sex-linked document", "image": null },
+      { "text": "Sex-linked recessive", "image": null },
+      { "text": "Autosomal dominant", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "A student observed the T.S. of a plant organ slide under microscope. He observed the vascular bundles in the stelar region as conjoint collateral and open. Based on these features of vascular bundle, identify the correct option from below.",
+      "image": null
+    },
+    "options": [
+      { "text": "Dicot Stem", "image": null },
+      { "text": "Monocot Root", "image": null },
+      { "text": "Monocot Stem", "image": null },
+      { "text": "Dicot Root", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "A student observed the slide of mitosis under the microscope and observed that the chromosomes were placed at the opposite poles. Which stage was the student observing?",
+      "image": null
+    },
+    "options": [
+      { "text": "Anaphase", "image": null },
+      { "text": "Metaphase", "image": null },
+      { "text": "Telophase", "image": null },
+      { "text": "Prophase", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Identify the incorrect statement with respect to the rules of Binomial Nomenclature.",
+      "image": null
+    },
+    "options": [
+      { "text": "Biological names are generally in Latin or Latinised irrespective of their origin", "image": null },
+      { "text": "Biological names are underlined separately when handwritten", "image": null },
+      { "text": "Biological names are printed in Italics to indicate their non-Latin origin", "image": null },
+      { "text": "The first word represents the genus while second component denotes the specific epithet", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Match Column-I (Bacteria: a. Coccus, b. Bacillus, c. Vibrium, d. Spirillum) with Column-II (Shape: i. Rod-shaped, ii. Spiral, iii. Spherical, iv. Comma-shaped) and choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "a-iii, b-i, c-iv, d-ii", "image": null },
+      { "text": "a-iii, b-ii, c-iv, d-i", "image": null },
+      { "text": "a-iv, b-iii, c-ii, d-i", "image": null },
+      { "text": "a-iv, b-i, c-ii, d-iii", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Read the given statements and choose the correct option: Statement I: Gemmae are green, unicellular, sexual buds which develop in receptacles called gemma cups. Statement II: Protonema develops directly from a spore",
+      "image": null
+    },
+    "options": [
+      { "text": "Statement I is true but Statement II is false", "image": null },
+      { "text": "Statement I is false but Statement II is true", "image": null },
+      { "text": "Both Statement I and Statement II are false", "image": null },
+      { "text": "Both Statement I and Statement II are false", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "During a field trip, a student observed a marine organism with worm-like body. The cylindrical body was divisible into proboscis, collar and a long truck. The organism may be",
+      "image": null
+    },
+    "options": [
+      { "text": "Ophiura", "image": null },
+      { "text": "Pterophyllum", "image": null },
+      { "text": "Trygon", "image": null },
+      { "text": "Balanoglossus", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Identify the types of aestivation in corolla labeled as 'a', 'b', 'c' and 'd' (Diagram is not included in the source text)",
+      "image": null
+    },
+    "options": [
+      { "text": "a-Imbricate, b-Valvate, c-Vexillary, d-Twisted", "image": null },
+      { "text": "a-Vexillary, b-Imbricate, c-Twisted, d- Valvate", "image": null },
+      { "text": "a- Vexillary, b-Imbricate, c- Valvate, d- Twisted", "image": null },
+      { "text": "a- Vexillary, b- Twisted, c- Imbricate, d- Valvate", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "Match the Column-I with Column-II. Choose the correct option.",
+      "image": "/image.png"
+    },
+    "options": [
+      { "text": "a-ii, b-iii, c-iv, d-i", "image": null },
+      { "text": "a-ii, b-iv, c-iii, d-i", "image": null },
+      { "text": "a-iii, b-iv, c-i, d-ii", "image": null },
+      { "text": "a-i, b-ii, c-iii,d-iv", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "Which of the following statements are correct with respect to Frogs? (a) Bidder's canals are present in male Frogs (b) Copulatory pads are present in male Frogs (c) Sound producing vocal sacs are present in male Frogs (d) Cloaca is present male Frog only. Choose the most appropriate answer.",
+      "image": null
+    },
+    "options": [
+      { "text": "a and b", "image": null },
+      { "text": "a and c", "image": null },
+      { "text": "b and d", "image": null },
+      { "text": "a and d", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "The reserve material in prokaryotic cells are stored in the cytoplasm in the form of",
+      "image": null
+    },
+    "options": [
+      { "text": "Inclusion bodies", "image": null },
+      { "text": "Exclusion and inclusion bodies", "image": null },
+      { "text": "Fat bodies", "image": null },
+      { "text": "Exclusion bodies", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "The cell wall less prokaryote among the following is",
+      "image": null
+    },
+    "options": [
+      { "text": "Blue-Green Algae", "image": null },
+      { "text": "Cyanobacteria", "image": null },
+      { "text": "Mycoplasma", "image": null },
+      { "text": "Bacteria", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Observe the graph (missing from the source text) showing the concept of activation energy of enzyme and choose the correct option for M and N.",
+      "image": "/image1.png"
+    },
+    "options": [
+      { "text": "M-Activation energy with enzyme, N-Activation energy without enzyme", "image": null },
+      { "text": "M-High temperature, High activation energy, N-Low temperature, Low activation energy", "image": null },
+      { "text": "M-High substrate, High activation energy, N-Low substrate, Low activation energy", "image": null },
+      { "text": "M-Activation energy without enzyme, N-Activation energy with enzyme", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Match the stages of prophase I (a) Leptotene, (b) Zygotene, (c) Pachytene, (d) Diplotene, (e) Diakinesis) with their features (i) Exchange of genetic materials between non-sister chromatids of the homologous chromosomes, (ii) Chromosomes visible under light microscope, (iii) Dissolution of synaptonemal complex, (iv) Chromosomes start pairing together, (v) Terminalisation of chiasmata) and choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "a-v, b-iv, c-i, d-iii, e-ii", "image": null },
+      { "text": "a-iv, b-i, c-ii, d-iii, e-v", "image": null },
+      { "text": "a-ii, b-iv, c-i, d-iii, e-v", "image": null },
+      { "text": "a-i, b-ii, c-iii, d-iv, e-v", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "Read the given statements and choose the correct option: Statement I: In Calvin cycle, Carboxylation is catalysed by PEP Carboxylase. Statement II: In Hatch-Slack pathway, Carboxylation is catalysed by RuBP Carboxylase",
+      "image": null
+    },
+    "options": [
+      { "text": "Statement I is true but Statement Il is false", "image": null },
+      { "text": "Both Statement I and Statement I are false", "image": null },
+      { "text": "Statement I is false but Statement II is true", "image": null },
+      { "text": "Both Statement I and Statement II are true", "image": null }
+    ],
+    "answer": 3
+  },
+  {
+    "question": {
+      "text": "The TCA cycle starts with the condensation of acetyl group with",
+      "image": null
+    },
+    "options": [
+      { "text": "Citric acid", "image": null },
+      { "text": "α-Ketoglutaric acid", "image": null },
+      { "text": "Succinic acid", "image": null },
+      { "text": "Oxaloacetic acid", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Match the plant growth hormones of Column-I (a) Abscisic acid, (b) Gibberellins, (c) Kinetin, (d) Auxin) with suitable chemical derivatives present in Column-II (i) Adenine derivative, (ii) Indole acetic acid, (iii) Carotenoid derivative, (iv) Terpens) and choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "a-iii, b-i, c-iv, d-ii", "image": null },
+      { "text": "a-iii, b-iv, c-i, d-ii", "image": null },
+      { "text": "a-iii, b-i, c-ii, d-iv", "image": null },
+      { "text": "a-i, b-ii, c-iii, d-iv", "image": null }
+    ],
+    "answer": 2
+  },
+  {
+    "question": {
+      "text": "The respiratory mechanism controlled by medulla oblongata can be altered by",
+      "image": null
+    },
+    "options": [
+      { "text": "Chemosensitive area in the medulla", "image": null },
+      { "text": "Both Pneumotaxic and Chemosensitive areas of pons and medulla oblongata", "image": null },
+      { "text": "Corpus callosum of brain", "image": null },
+      { "text": "Pneumotaxic center in the pons", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Which among the three layers of blood vessel wall - Tunica intima, Tunica media and Tunica Externa is comparatively thin in the veins?",
+      "image": null
+    },
+    "options": [
+      { "text": "Tunica intima", "image": null },
+      { "text": "Tunica externa", "image": null },
+      { "text": "Both tunica media and tunica externa", "image": null },
+      { "text": "Tunica media", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "In nephron, transport of substances: like sodium chloride and urea is facilitated by the special arrangement called counter current mechanism that comprises of",
+      "image": null
+    },
+    "options": [
+      { "text": "Henle's loop and glomerulus", "image": null },
+      { "text": "Vasa Recta and collecting duct", "image": null },
+      { "text": "Ascending limb and collecting duct", "image": null },
+      { "text": "Henle's loop and Vasa Recta", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "In the mechanism of muscle contraction or shortening of muscle, the ______ get reduced whereas the ______ retain the length.",
+      "image": null
+    },
+    "options": [
+      { "text": "I bands, A bands", "image": null },
+      { "text": "Z line, I bands", "image": null },
+      { "text": "A bands, Z line", "image": null },
+      { "text": "A bands, I bands", "image": null }
+    ],
+    "answer": 1
+  },
+  {
+    "question": {
+      "text": "Identify the correct sequence of action potential as it arrives at the axon terminal from the choices given below:",
+      "image": null
+    },
+    "options": [
+      { "text": "Axon terminal → Synaptic cleft → Synaptic vesicles → Post-synaptic membrane → Post-synaptic neuron", "image": null },
+      { "text": "Axon terminal → Post-synaptic membrane → Synaptic cleft → Synaptic vesicles → Post-synaptic neuron", "image": null },
+      { "text": "Axon terminal → Synaptic vesicles → Post-synaptic membrane → Synaptic cleft → Post-synaptic neuron", "image": null },
+      { "text": "Axon terminal → Synaptic vesicles → Synaptic cleft → Post-synaptic membrane → Post-synaptic neuron", "image": null }
+    ],
+    "answer": 4
+  },
+  {
+    "question": {
+      "text": "Identify the statement/s given below that does not correspond to the functions of cortisol (i) Maintains cardiovascular system and kidney functions (ii) Produces anti-inflammatory reactions (iii) Maintains electrolyte balance, osmosis and blood pressure (iv) Suppresses immune response (v) Stimulates RBC production. Choose the correct option.",
+      "image": null
+    },
+    "options": [
+      { "text": "(iii) and (v) only", "image": null },
+      { "text": "(ii) only", "image": null },
+      { "text": "(iv) only", "image": null },
+      { "text": "(i) and (ii) only", "image": null }
+    ],
+    "answer": 3
+  }
+]
