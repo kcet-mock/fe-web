@@ -157,8 +157,8 @@
   },
   {
     "question": {
-      "text": "Identify which one of the given pair of options is correct with respect to Down's syndrome and Turner's syndrome. (Options refer to rows in a provided symptom table).",
-      "image": null
+      "text": "Identify which one of the given pair of options is correct with respect to Down's syndrome and Turner's syndrome.",
+      "image": "image4.png"
     },
     "options": [
       { "text": "b (Round head/Overall masculine development)", "image": null },
@@ -483,7 +483,7 @@
   {
     "question": {
       "text": "The students identify the given pedigree chart as (Pedigree chart data is not included in the source text, only the question is available)",
-      "image": null
+      "image": "image5.png"
     },
     "options": [
       { "text": "Autosomal recessive", "image": null },
