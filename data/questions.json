@@ -40,8 +40,8 @@
   },
   {
     "question": {
-      "text": "Match the hormone with its site of production: a. hCG and hPL, b. Progesterone, c. Androgens, d. Relaxin. Sites: i. Ovary, ii. Placenta, iii. Corpus luteum, iv. Leydig cells. Choose the correct option.",
-      "image": null
+      "text": "Match the hormone with its site of production:",
+      "image": "image3.png"
     },
     "options": [
       { "text": "a-iii, b-i, c-iv, d-ii", "image": null },
@@ -587,7 +587,7 @@
   {
     "question": {
       "text": "Match the Column-I with Column-II. Choose the correct option.",
-      "image": "/image.png"
+      "image": "image2.png"
     },
     "options": [
       { "text": "a-ii, b-iii, c-iv, d-i", "image": null },
