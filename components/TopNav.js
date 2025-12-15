@@ -9,8 +9,8 @@ export default function TopNav() {
           <span className="top-nav-title">KCET Mock</span>
         </Link>
         <nav className="top-nav-links">
-          <Link href="/" className="top-nav-link">
-            Home
+          <Link href="/contribute" className="top-nav-link">
+            Contribute
           </Link>
         </nav>
       </div>
