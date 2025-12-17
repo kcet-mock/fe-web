@@ -153,10 +153,24 @@ export default function ResultsPage() {
                     } else {
                       itemClass += ' question-summary-item--skipped';
                     }
+
+                    const handleJump = () => {
+                      if (typeof document === 'undefined') return;
+                      const target = document.getElementById(`question-${index + 1}`);
+                      if (!target) return;
+                      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    };
+
                     return (
-                      <div key={index} className={itemClass}>
+                      <button
+                        type="button"
+                        key={index}
+                        className={itemClass}
+                        onClick={handleJump}
+                        aria-label={`Jump to question ${index + 1}`}
+                      >
                         {index + 1}
-                      </div>
+                      </button>
                     );
                   })}
                 </div>
@@ -207,7 +221,11 @@ export default function ResultsPage() {
                 }
 
                 return (
-                  <div key={questionNumber} className="question-block">
+                  <div
+                    key={questionNumber}
+                    id={`question-${questionNumber}`}
+                    className="question-block"
+                  >
                     <div className="question-header results-question-header">
                       <span className="badge-soft">
                         Question {questionNumber} of {QUESTIONS.length}

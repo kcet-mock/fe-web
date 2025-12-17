@@ -48,6 +48,13 @@ function DesktopTimerWithSummary({ remaining, running, finished, answers, questi
     ? Math.round((attemptedCount / totalQuestions) * 100)
     : 0;
 
+  const scrollToQuestion = (questionNumber) => {
+    if (typeof document === 'undefined') return;
+    const target = document.getElementById(`question-${questionNumber}`);
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <aside className="test-sidebar only-desktop">
       <div className="timer-panel timer-panel--floating">
@@ -71,14 +78,17 @@ function DesktopTimerWithSummary({ remaining, running, finished, answers, questi
             {questions.map((_, index) => {
               const isAttempted = answers[index] !== undefined;
               return (
-                <div
+                <button
+                  type="button"
                   key={index}
                   className={`question-summary-item${
                     isAttempted ? ' question-summary-item--attempted' : ''
                   }`}
+                  onClick={() => scrollToQuestion(index + 1)}
+                  aria-label={`Jump to question ${index + 1}`}
                 >
                   {index + 1}
-                </div>
+                </button>
               );
             })}
           </div>
@@ -204,7 +214,11 @@ export default function MockTestPage() {
                   ? `${basePathPrefix}${q.question.image.replace(/^\/+/, '')}`
                   : null;
                 return (
-                  <div key={questionNumber} className="question-block">
+                  <div
+                    key={questionNumber}
+                    id={`question-${questionNumber}`}
+                    className="question-block"
+                  >
                     <div className="question-header">
                       <span className="badge-soft">
                         Question {questionNumber} of {QUESTIONS.length}
