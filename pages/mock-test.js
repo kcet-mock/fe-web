@@ -97,7 +97,7 @@ export default function MockTestPage() {
 
   return (
     <main className="main-layout main-layout--top">
-      <section className="card">
+      <section>
         <header className="card-header">
           <div>
             <div className="badge">Mock Test · Option 1</div>
@@ -107,7 +107,7 @@ export default function MockTestPage() {
               time like the real exam.
             </p>
           </div>
-          <div className="timer-panel">
+          <div className="timer-panel timer-panel--floating">
             <span className="timer-label">Remaining time</span>
             <span className="timer-display">{formatTime(remaining)}</span>
             {finished ? (
@@ -121,7 +121,7 @@ export default function MockTestPage() {
         </header>
 
         <div className="test-layout">
-          <div className="test-questions">
+          <div>
             <div className="badge-soft">Sample questions</div>
             <h2 className="page-section-title" style={{ marginTop: '0.75rem' }}>
               All questions on a single page

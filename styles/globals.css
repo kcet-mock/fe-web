@@ -284,6 +284,20 @@ a {
   gap: 0.3rem;
 }
 
+.timer-panel--floating {
+  position: fixed;
+  top: 4.5rem;
+  right: 1.5rem;
+  z-index: 30;
+  align-items: flex-end;
+  text-align: right;
+  background: #ffffff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(209, 213, 219, 0.9);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.12);
+}
+
 .test-layout {
   display: flex;
   flex-direction: column;

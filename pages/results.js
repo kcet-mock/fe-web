@@ -85,7 +85,7 @@ export default function ResultsPage() {
 
   return (
     <main className="main-layout main-layout--top">
-      <section className="card">
+      <section>
         <header className="card-header">
           <div>
             <div className="badge">Results</div>
@@ -97,8 +97,7 @@ export default function ResultsPage() {
           </div>
         </header>
 
-        <div className="results-layout">
-          <div className="results-summary">
+        <div className="results-summary">
             <div className="results-metrics">
               <div className="results-metric-card">
                 <div className="results-metric-label">Score</div>
@@ -135,7 +134,7 @@ export default function ResultsPage() {
             </div>
           </div>
 
-          <div className="results-questions">
+          <div style={{ marginTop: '1.5rem' }}>
             <div className="badge-soft">Question-wise review</div>
             <h2 className="page-section-title" style={{ marginTop: '0.75rem' }}>
               Which questions were correct, wrong or not attempted
@@ -228,7 +227,6 @@ export default function ResultsPage() {
               })}
             </div>
           </div>
-        </div>
       </section>
     </main>
   );
