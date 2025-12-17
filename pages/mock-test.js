@@ -15,6 +15,70 @@ function formatTime(totalSeconds) {
 // Questions data is sourced from data/questions.json
 const QUESTIONS = questionsData;
 
+function TimerContent({ remaining, running, finished }) {
+  return (
+    <>
+      <span className="timer-label">Remaining time</span>
+      <span className="timer-display">{formatTime(remaining)}</span>
+      {finished ? (
+        <span className="timer-label">Time&apos;s up! Submit your test.</span>
+      ) : running ? (
+        <span className="timer-label">Timer is running</span>
+      ) : (
+        <span className="timer-label">Timer is paused</span>
+      )}
+    </>
+  );
+}
+
+function MobileTimer({ remaining, running, finished }) {
+  return (
+    <div className="only-mobile">
+      <div className="timer-panel timer-panel--mobile">
+        <TimerContent remaining={remaining} running={running} finished={finished} />
+      </div>
+    </div>
+  );
+}
+
+function DesktopTimerWithSummary({ remaining, running, finished, answers, questions }) {
+  const attemptedCount = Object.keys(answers).length;
+  const totalQuestions = questions.length;
+
+  return (
+    <aside className="test-sidebar only-desktop">
+      <div className="timer-panel timer-panel--floating">
+        <TimerContent remaining={remaining} running={running} finished={finished} />
+
+        <div style={{ marginTop: '0.75rem' }}>
+          <div className="page-section-subtitle" style={{ marginBottom: '0.35rem' }}>
+            Test summary
+          </div>
+          <div className="test-sidebar-summary-row">
+            <span>Attempted: {attemptedCount}</span>
+            <span>Unattempted: {totalQuestions - attemptedCount}</span>
+          </div>
+          <div className="question-summary-grid">
+            {questions.map((_, index) => {
+              const isAttempted = answers[index] !== undefined;
+              return (
+                <div
+                  key={index}
+                  className={`question-summary-item${
+                    isAttempted ? ' question-summary-item--attempted' : ''
+                  }`}
+                >
+                  {index + 1}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </aside>
+  );
+}
+
 export default function MockTestPage() {
   const router = useRouter();
   const [remaining, setRemaining] = useState(TEST_DURATION_SECONDS);
@@ -107,18 +171,9 @@ export default function MockTestPage() {
               time like the real exam.
             </p>
           </div>
-          <div className="timer-panel timer-panel--floating">
-            <span className="timer-label">Remaining time</span>
-            <span className="timer-display">{formatTime(remaining)}</span>
-            {finished ? (
-              <span className="timer-label">Time&apos;s up! Submit your test.</span>
-            ) : running ? (
-              <span className="timer-label">Timer is running</span>
-            ) : (
-              <span className="timer-label">Timer is paused</span>
-            )}
-          </div>
         </header>
+
+        <MobileTimer remaining={remaining} running={running} finished={finished} />
 
         <div className="test-layout">
           <div>
@@ -206,6 +261,14 @@ export default function MockTestPage() {
               </button>
             </div>
           </div>
+
+          <DesktopTimerWithSummary
+            remaining={remaining}
+            running={running}
+            finished={finished}
+            answers={answers}
+            questions={QUESTIONS}
+          />
         </div>
       </section>
     </main>
