@@ -4,10 +4,10 @@ const repoName = 'fe-web';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Note: API routes (used for GitHub PR creation) are not compatible
-  // with `output: 'export'`, so this app now runs in the default
-  // server mode instead of static export.
-  // Serve the app from /fe-web when built for production (e.g. custom base path)
+  // Generate a fully static export so GitHub Pages
+  // can serve files from the ./out directory.
+  output: 'export',
+  // Serve the app from /fe-web when built for production (GitHub Pages repo path)
   basePath: isProd ? `/${repoName}` : '',
   assetPrefix: isProd ? `/${repoName}/` : '',
 };
