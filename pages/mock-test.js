@@ -44,6 +44,9 @@ function MobileTimer({ remaining, running, finished }) {
 function DesktopTimerWithSummary({ remaining, running, finished, answers, questions }) {
   const attemptedCount = Object.keys(answers).length;
   const totalQuestions = questions.length;
+  const attemptedPercent = totalQuestions
+    ? Math.round((attemptedCount / totalQuestions) * 100)
+    : 0;
 
   return (
     <aside className="test-sidebar only-desktop">
@@ -55,8 +58,14 @@ function DesktopTimerWithSummary({ remaining, running, finished, answers, questi
             Test summary
           </div>
           <div className="test-sidebar-summary-row">
-            <span>Attempted: {attemptedCount}</span>
-            <span>Unattempted: {totalQuestions - attemptedCount}</span>
+            <span>Progress</span>
+            <span>{attemptedPercent}%</span>
+          </div>
+          <div className="test-summary-progress">
+            <div
+              className="test-summary-progress-bar"
+              style={{ width: `${attemptedPercent}%` }}
+            />
           </div>
           <div className="question-summary-grid">
             {questions.map((_, index) => {
