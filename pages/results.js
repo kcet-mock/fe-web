@@ -90,6 +90,65 @@ export default function ResultsPage() {
     ? Math.round((attemptedCount / totalQuestions) * 100)
     : 0;
 
+  const breakdownCard = (
+    <div className="results-metric-card">
+      <div className="results-metric-label">Breakdown</div>
+      <div className="results-breakdown-row">
+        <span className="status-pill status-pill--correct">Correct: {correct}</span>
+        <span className="status-pill status-pill--wrong">Wrong: {wrong}</span>
+        <span className="status-pill status-pill--skipped">Not attempted: {notAttempted}</span>
+      </div>
+      <div
+        className="page-section-subtitle"
+        style={{ marginTop: '0.6rem', marginBottom: '0.35rem' }}
+      >
+        Test summary
+      </div>
+      <div className="test-sidebar-summary-row">
+        <span>Progress</span>
+        <span>{attemptedPercent}%</span>
+      </div>
+      <div className="test-summary-progress">
+        <div
+          className="test-summary-progress-bar"
+          style={{ width: `${attemptedPercent}%` }}
+        />
+      </div>
+      <div className="question-summary-grid">
+        {QUESTIONS.map((_, index) => {
+          const status = questionStatuses ? questionStatuses[index] : 'skipped';
+          let itemClass = 'question-summary-item';
+          if (status === 'correct') {
+            itemClass += ' question-summary-item--correct';
+          } else if (status === 'wrong') {
+            itemClass += ' question-summary-item--wrong';
+          } else {
+            itemClass += ' question-summary-item--skipped';
+          }
+
+          const handleJump = () => {
+            if (typeof document === 'undefined') return;
+            const target = document.getElementById(`question-${index + 1}`);
+            if (!target) return;
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          };
+
+          return (
+            <button
+              type="button"
+              key={index}
+              className={itemClass}
+              onClick={handleJump}
+              aria-label={`Jump to question ${index + 1}`}
+            >
+              {index + 1}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+
   return (
     <main className="main-layout main-layout--top">
       <section>
@@ -104,100 +163,50 @@ export default function ResultsPage() {
           </div>
         </header>
 
-        <div className="results-summary">
-            <div className="results-metrics">
-              <div className="results-metric-card">
-                <div className="results-metric-label">Score</div>
-                <div className="results-metric-value">
-                  {correctCount} / {totalQuestions}
+        <div className="results-layout">
+          <div>
+            <div className="results-summary">
+              <div className="results-metrics">
+                <div className="results-metric-card">
+                  <div className="results-metric-label">Score</div>
+                  <div className="results-metric-value">
+                    {correctCount} / {totalQuestions}
+                  </div>
+                  <div className="results-metric-sub">
+                    Attempted {attemptedCount} question{attemptedCount === 1 ? '' : 's'}
+                  </div>
                 </div>
-                <div className="results-metric-sub">
-                  Attempted {attemptedCount} question{attemptedCount === 1 ? '' : 's'}
+                <div className="results-metric-card">
+                  <div className="results-metric-label">Time taken</div>
+                  <div className="results-metric-value">{formatTime(timeTakenSeconds)}</div>
+                  <div className="results-metric-sub">of 60:00 total</div>
                 </div>
               </div>
-              <div className="results-metric-card">
-                <div className="results-metric-label">Time taken</div>
-                <div className="results-metric-value">{formatTime(timeTakenSeconds)}</div>
-                <div className="results-metric-sub">of 60:00 total</div>
-              </div>
-              <div className="results-metric-card">
-                <div className="results-metric-label">Breakdown</div>
-                <div className="results-breakdown-row">
-                  <span className="status-pill status-pill--correct">Correct: {correct}</span>
-                  <span className="status-pill status-pill--wrong">Wrong: {wrong}</span>
-                  <span className="status-pill status-pill--skipped">
-                    Not attempted: {notAttempted}
-                  </span>
-                </div>
-                <div className="page-section-subtitle" style={{ marginTop: '0.6rem', marginBottom: '0.35rem' }}>
-                  Test summary
-                </div>
-                <div className="test-sidebar-summary-row">
-                  <span>Progress</span>
-                  <span>{attemptedPercent}%</span>
-                </div>
-                <div className="test-summary-progress">
-                  <div
-                    className="test-summary-progress-bar"
-                    style={{ width: `${attemptedPercent}%` }}
-                  />
-                </div>
-                <div className="question-summary-grid">
-                  {QUESTIONS.map((_, index) => {
-                    const status = questionStatuses ? questionStatuses[index] : 'skipped';
-                    let itemClass = 'question-summary-item';
-                    if (status === 'correct') {
-                      itemClass += ' question-summary-item--correct';
-                    } else if (status === 'wrong') {
-                      itemClass += ' question-summary-item--wrong';
-                    } else {
-                      itemClass += ' question-summary-item--skipped';
-                    }
 
-                    const handleJump = () => {
-                      if (typeof document === 'undefined') return;
-                      const target = document.getElementById(`question-${index + 1}`);
-                      if (!target) return;
-                      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    };
+              <div className="only-mobile">{breakdownCard}</div>
 
-                    return (
-                      <button
-                        type="button"
-                        key={index}
-                        className={itemClass}
-                        onClick={handleJump}
-                        aria-label={`Jump to question ${index + 1}`}
-                      >
-                        {index + 1}
-                      </button>
-                    );
-                  })}
-                </div>
+              <div className="results-actions">
+                <Link href="/mock-test" className="button-secondary">
+                  Retake mock test
+                </Link>
+                <Link href="/" className="button-primary">
+                  Back to home
+                </Link>
               </div>
             </div>
-            <div className="results-actions">
-              <Link href="/mock-test" className="button-secondary">
-                Retake mock test
-              </Link>
-              <Link href="/" className="button-primary">
-                Back to home
-              </Link>
-            </div>
-          </div>
 
-          <div style={{ marginTop: '1.5rem' }}>
-            <div className="badge-soft">Question-wise review</div>
-            <h2 className="page-section-title" style={{ marginTop: '0.75rem' }}>
-              Which questions were correct, wrong or not attempted
-            </h2>
-            <p className="question-text">
-              Options below are read-only: you can&apos;t change any answers here.
-              Use this view purely to analyse your performance.
-            </p>
+            <div style={{ marginTop: '1.5rem' }}>
+              <div className="badge-soft">Question-wise review</div>
+              <h2 className="page-section-title" style={{ marginTop: '0.75rem' }}>
+                Which questions were correct, wrong or not attempted
+              </h2>
+              <p className="question-text">
+                Options below are read-only: you can&apos;t change any answers here.
+                Use this view purely to analyse your performance.
+              </p>
 
-            <div className="questions-stack">
-              {QUESTIONS.map((q, index) => {
+              <div className="questions-stack">
+                {QUESTIONS.map((q, index) => {
                 const questionNumber = index + 1;
                 const selected = result.answers[index];
                 const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
@@ -220,69 +229,75 @@ export default function ResultsPage() {
                   }
                 }
 
-                return (
-                  <div
-                    key={questionNumber}
-                    id={`question-${questionNumber}`}
-                    className="question-block"
-                  >
-                    <div className="question-header results-question-header">
-                      <span className="badge-soft">
-                        Question {questionNumber} of {QUESTIONS.length}
-                      </span>
-                      <span className={statusClass}>{statusLabel}</span>
-                    </div>
-                    {q.question?.text && (
-                      <p className="question-text">{q.question.text}</p>
-                    )}
-                    {questionImageSrc && (
-                      <div className="question-image">
-                        <img
-                          src={questionImageSrc}
-                          alt={`Question ${questionNumber}`}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                        />
+                  return (
+                    <div
+                      key={questionNumber}
+                      id={`question-${questionNumber}`}
+                      className="question-block"
+                    >
+                      <div className="question-header results-question-header">
+                        <span className="badge-soft">
+                          Question {questionNumber} of {QUESTIONS.length}
+                        </span>
+                        <span className={statusClass}>{statusLabel}</span>
                       </div>
-                    )}
-                    <div className="options-list">
-                      {options.map((option, optionIndex) => {
-                        const optionText = option?.text;
-                        const optionImage = option?.image
-                          ? `${basePathPrefix}${option.image.replace(/^\/+/, '')}`
-                          : null;
-                        const isCorrectOption = optionIndex === correctIndex;
-                        const isSelectedOption = optionIndex === selected;
+                      {q.question?.text && (
+                        <p className="question-text">{q.question.text}</p>
+                      )}
+                      {questionImageSrc && (
+                        <div className="question-image">
+                          <img
+                            src={questionImageSrc}
+                            alt={`Question ${questionNumber}`}
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                          />
+                        </div>
+                      )}
+                      <div className="options-list">
+                        {options.map((option, optionIndex) => {
+                          const optionText = option?.text;
+                          const optionImage = option?.image
+                            ? `${basePathPrefix}${option.image.replace(/^\/+/, '')}`
+                            : null;
+                          const isCorrectOption = optionIndex === correctIndex;
+                          const isSelectedOption = optionIndex === selected;
 
-                        let optionClass = 'option-pill option-pill--static';
-                        if (isCorrectOption) {
-                          optionClass += ' option-pill--correct';
-                        }
-                        if (isSelectedOption && !isCorrectOption) {
-                          optionClass += ' option-pill--wrong';
-                        }
+                          let optionClass = 'option-pill option-pill--static';
+                          if (isCorrectOption) {
+                            optionClass += ' option-pill--correct';
+                          }
+                          if (isSelectedOption && !isCorrectOption) {
+                            optionClass += ' option-pill--wrong';
+                          }
 
-                        return (
-                          <div key={optionIndex} className={optionClass}>
-                            <span className="option-circle" />
-                            {optionText && <span>{optionText}</span>}
-                            {optionImage && (
-                              <div className="option-image">
-                                <img
-                                  src={optionImage}
-                                  alt={`Question ${questionNumber} option ${optionIndex + 1}`}
-                                  style={{ maxWidth: '100%', height: 'auto' }}
-                                />
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })}
+                          return (
+                            <div key={optionIndex} className={optionClass}>
+                              <span className="option-circle" />
+                              {optionText && <span>{optionText}</span>}
+                              {optionImage && (
+                                <div className="option-image">
+                                  <img
+                                    src={optionImage}
+                                    alt={`Question ${questionNumber} option ${optionIndex + 1}`}
+                                    style={{ maxWidth: '100%', height: 'auto' }}
+                                  />
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
           </div>
+
+          <aside className="results-sidebar only-desktop">
+            <div className="results-sidebar-panel">{breakdownCard}</div>
+          </aside>
+        </div>
       </section>
     </main>
   );

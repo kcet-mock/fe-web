@@ -504,8 +504,14 @@ a {
 
 .results-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.9fr);
+  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
   gap: 1.5rem;
+}
+
+.results-sidebar-panel {
+  position: sticky;
+  top: 1.5rem;
+  z-index: 30;
 }
 
 .results-summary {
