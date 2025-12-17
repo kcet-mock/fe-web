@@ -287,7 +287,7 @@ a {
 .timer-panel--floating {
   position: sticky;
   top: 1.5rem;
-  z-index: 10;
+  z-index: 30;
   align-items: stretch;
   text-align: left;
   background: #ffffff;
