@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import questionsData from '../data/questions.json';
@@ -104,6 +104,7 @@ export default function MockTestPage() {
   const [running, setRunning] = useState(true);
   const [finished, setFinished] = useState(false);
   const [answers, setAnswers] = useState({});
+  const hasAutoSubmittedRef = useRef(false);
 
   useEffect(() => {
     if (!running || finished) return;
@@ -123,10 +124,19 @@ export default function MockTestPage() {
     return () => clearInterval(interval);
   }, [running, finished]);
 
+  useEffect(() => {
+    if (!finished) return;
+    if (hasAutoSubmittedRef.current) return;
+    hasAutoSubmittedRef.current = true;
+    handleSubmit();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
+
   const handleStart = () => {
     setRemaining(TEST_DURATION_SECONDS);
     setFinished(false);
     setRunning(true);
+    hasAutoSubmittedRef.current = false;
   };
 
   const handlePause = () => {
