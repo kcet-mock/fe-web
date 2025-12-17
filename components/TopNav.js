@@ -8,11 +8,7 @@ export default function TopNav() {
           <span className="top-nav-logo-circle" />
           <span className="top-nav-title">KCET Mock</span>
         </Link>
-        <nav className="top-nav-links">
-          <Link href="/contribute" className="top-nav-link">
-            Contribute
-          </Link>
-        </nav>
+        <nav className="top-nav-links" />
       </div>
     </header>
   );
