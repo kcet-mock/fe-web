@@ -34,6 +34,7 @@ export default function ResultsPage() {
     let correct = 0;
     let wrong = 0;
     let notAttempted = 0;
+    const questionStatuses = [];
 
     QUESTIONS.forEach((q, index) => {
       const selected = answers[index];
@@ -41,14 +42,17 @@ export default function ResultsPage() {
 
       if (selected === undefined) {
         notAttempted += 1;
+        questionStatuses[index] = 'skipped';
       } else if (selected === correctIndex) {
         correct += 1;
+        questionStatuses[index] = 'correct';
       } else {
         wrong += 1;
+        questionStatuses[index] = 'wrong';
       }
     });
 
-    return { correct, wrong, notAttempted };
+    return { correct, wrong, notAttempted, questionStatuses };
   }, [result]);
 
   if (!result) {
@@ -81,7 +85,10 @@ export default function ResultsPage() {
   }
 
   const { timeTakenSeconds, totalQuestions, correctCount, attemptedCount } = result;
-  const { correct, wrong, notAttempted } = summary || {};
+  const { correct, wrong, notAttempted, questionStatuses } = summary || {};
+  const attemptedPercent = totalQuestions
+    ? Math.round((attemptedCount / totalQuestions) * 100)
+    : 0;
 
   return (
     <main className="main-layout main-layout--top">
@@ -121,6 +128,37 @@ export default function ResultsPage() {
                   <span className="status-pill status-pill--skipped">
                     Not attempted: {notAttempted}
                   </span>
+                </div>
+                <div className="page-section-subtitle" style={{ marginTop: '0.6rem', marginBottom: '0.35rem' }}>
+                  Test summary
+                </div>
+                <div className="test-sidebar-summary-row">
+                  <span>Progress</span>
+                  <span>{attemptedPercent}%</span>
+                </div>
+                <div className="test-summary-progress">
+                  <div
+                    className="test-summary-progress-bar"
+                    style={{ width: `${attemptedPercent}%` }}
+                  />
+                </div>
+                <div className="question-summary-grid">
+                  {QUESTIONS.map((_, index) => {
+                    const status = questionStatuses ? questionStatuses[index] : 'skipped';
+                    let itemClass = 'question-summary-item';
+                    if (status === 'correct') {
+                      itemClass += ' question-summary-item--correct';
+                    } else if (status === 'wrong') {
+                      itemClass += ' question-summary-item--wrong';
+                    } else {
+                      itemClass += ' question-summary-item--skipped';
+                    }
+                    return (
+                      <div key={index} className={itemClass}>
+                        {index + 1}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>

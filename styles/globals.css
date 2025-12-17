@@ -383,6 +383,24 @@ a {
   color: #166534;
 }
 
+.question-summary-item--correct {
+  background: rgba(22, 163, 74, 0.14);
+  border-color: #22c55e;
+  color: #166534;
+}
+
+.question-summary-item--wrong {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: #ef4444;
+  color: #b91c1c;
+}
+
+.question-summary-item--skipped {
+  background: #f3f4f6;
+  border-color: rgba(209, 213, 219, 0.9);
+  color: #6b7280;
+}
+
 .test-questions {
   background: #f9fafb;
   border-radius: 1rem;
