@@ -185,7 +185,7 @@ export default function MockTestPage() {
       }
     }
 
-    router.push('/results');
+    router.replace('/results');
   };
 
   return (
