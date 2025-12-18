@@ -1,11 +1,12 @@
 import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
 export default function MockTestPage() {
   const router = useRouter();
 
-  if (typeof window !== 'undefined') {
+  useEffect(() => {
     router.replace('/mock-test/bio');
-  }
+  }, [router]);
 
   return null;
 }
