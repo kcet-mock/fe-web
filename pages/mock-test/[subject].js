@@ -221,6 +221,8 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
     });
 
     if (typeof window !== 'undefined') {
+      const sessionIdFromQuery =
+        typeof router?.query?.session_id === 'string' ? router.query.session_id : undefined;
       const payload = {
         answers,
         timeTakenSeconds,
@@ -229,6 +231,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
         attemptedCount: answeredCount,
         subject,
         questionIds: selectedIds,
+        session_id: sessionIdFromQuery,
       };
 
       try {

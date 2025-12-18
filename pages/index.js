@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useMemo, useState } from 'react';
+import { v7 as uuidv7 } from 'uuid';
 
 export default function Home() {
   const router = useRouter();
@@ -13,8 +14,11 @@ export default function Home() {
   );
   const [subject, setSubject] = useState(SUBJECTS[0]?.value || 'bio');
 
+  const generateSessionId = () => uuidv7();
+
   const handleStartMockTest = () => {
-    router.push(`/mock-test/${encodeURIComponent(subject)}`);
+    const sessionId = generateSessionId();
+    router.push(`/mock-test/${encodeURIComponent(subject)}?session_id=${encodeURIComponent(sessionId)}`);
   };
 
   return (
