@@ -4,9 +4,10 @@
   "description": "KCET is a karnataka CET mock website(nextjs project)",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "NEXT_PUBLIC_INTERNAL_PAGES=true next dev",
+    "dev:internal": "NEXT_PUBLIC_INTERNAL_PAGES=true NODE_ENV=development node scripts/internal_questions_server.mjs",
+    "build": "node scripts/build_static.mjs",
+    "start": "NEXT_PUBLIC_INTERNAL_PAGES=false next start",
     "lint": "eslint ."
   },
   "keywords": [],
