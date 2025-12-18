@@ -346,6 +346,7 @@ export default function InternalQuestionEditPage() {
         throw new Error(json.error || 'Save failed');
       }
       setSaved(true);
+      router.push(`/internal/questions/view?id=${encodeURIComponent(id)}`);
     } catch (e) {
       setError(e?.message || 'Save failed');
     } finally {

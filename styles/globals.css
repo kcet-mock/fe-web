@@ -288,12 +288,15 @@ a {
 .add-part-wrap {
   position: relative;
   display: inline-flex;
+  justify-content: center;
 }
 
 .add-part-menu {
   position: absolute;
-  left: 0;
-  bottom: calc(100% + 0.35rem);
+  left: 50%;
+  top: 100%;
+  bottom: auto;
+  transform: translateX(-50%);
   display: none;
   gap: 0.35rem;
   padding: 0.35rem;
