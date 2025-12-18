@@ -1,0 +1,21 @@
+{
+  "id": "fff9d0c0-d20b-4301-98fa-3d1893158b0f",
+  "question": [
+    "A sinusoidal voltage produced by an AC generator at any instant t is given by an equation V = 311 sin 314 t. The rms value of voltage and frequency are respectively"
+  ],
+  "options": [
+    [
+      "200V, 50 Hz"
+    ],
+    [
+      "220 V, 100 Hz"
+    ],
+    [
+      "220 V, 50 Hz"
+    ],
+    [
+      "200V, 100 Hz"
+    ]
+  ],
+  "answer": 3
+}

@@ -1,0 +1,21 @@
+{
+  "id": "7ee61f5d-eb49-44c5-bc0d-33a28783e4b7",
+  "question": [
+    "Which of the following statements is correct for an n-type semiconductor?"
+  ],
+  "options": [
+    [
+      "The donor energy level lies closely above the top of the valance band"
+    ],
+    [
+      "The donor energy level lies at the half way mark of forbidden energy gap"
+    ],
+    [
+      "The donor energy level does not exist"
+    ],
+    [
+      "The donor energy level lies just the bottom of the conduction band"
+    ]
+  ],
+  "answer": 4
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4b03013f-98da-4bf6-a57b-fc9b106c64b2",
+  "question": [
+    "The angle between the particle velocity and wave velocity in a transverse wave is [except when the particle passes through the mean position]"
+  ],
+  "options": [
+    [
+      "$\\frac{\\pi}{4}$ radian"
+    ],
+    [
+      "$\\frac{\\pi}{2}$ radian"
+    ],
+    [
+      "$\\pi$ radian"
+    ],
+    [
+      "Zero radian"
+    ]
+  ],
+  "answer": 2
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9203b778-fa36-43fa-90c4-dfd26d667386",
+  "question": [
+    "If AB is incident plane wave front then refracted wave front in ($n_2 > n_1$)",
+    "images/q46_diagram.png"
+  ],
+  "options": [
+    [
+      "Diagram 1"
+    ],
+    [
+      "Diagram 2"
+    ],
+    [
+      "Diagram 3"
+    ],
+    [
+      "Diagram 4"
+    ]
+  ],
+  "answer": 1
+}

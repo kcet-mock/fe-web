@@ -1,0 +1,23 @@
+{
+  "id": "84da9b68-d6db-4e30-97c4-afe0ed3ddc0c",
+  "question": [
+    "Match the following types of nuclei with examples shown:",
+    "A. Isotopes, B. Isobars, C. Isotones",
+    "i. Li7, Be7, ii. 8O18, 9F19, iii. 1H1, 1H2"
+  ],
+  "options": [
+    [
+      "A-ii, B-iii, C-i"
+    ],
+    [
+      "A-i, B-iii, C-ii"
+    ],
+    [
+      "A-iii, B-ii, C-i"
+    ],
+    [
+      "A-iii, B-i, C-ii"
+    ]
+  ],
+  "answer": 4
+}

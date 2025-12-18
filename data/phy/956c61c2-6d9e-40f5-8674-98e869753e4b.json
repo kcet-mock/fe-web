@@ -1,0 +1,22 @@
+{
+  "id": "956c61c2-6d9e-40f5-8674-98e869753e4b",
+  "question": [
+    "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained as indicated. Assuming no heat energy loss occurs through the curved surfaces of the rods, the temperature at the junction x is",
+    "images/q11_diagram.png"
+  ],
+  "options": [
+    [
+      "$60^{\\circ}C$"
+    ],
+    [
+      "$30^{\\circ}C$"
+    ],
+    [
+      "$20^{\\circ}C$"
+    ],
+    [
+      "$45^{\\circ}C$"
+    ]
+  ],
+  "answer": 1
+}

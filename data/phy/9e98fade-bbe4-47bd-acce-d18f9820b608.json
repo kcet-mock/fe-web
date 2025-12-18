@@ -1,0 +1,22 @@
+{
+  "id": "9e98fade-bbe4-47bd-acce-d18f9820b608",
+  "question": [
+    "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the variation of photo current I with the frequency v of incident light is",
+    "images/q35_graphs.png"
+  ],
+  "options": [
+    [
+      "Graph 1"
+    ],
+    [
+      "Graph 2"
+    ],
+    [
+      "Graph 3"
+    ],
+    [
+      "Graph 4"
+    ]
+  ],
+  "answer": 1
+}

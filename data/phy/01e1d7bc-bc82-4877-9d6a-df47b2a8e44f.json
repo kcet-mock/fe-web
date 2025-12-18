@@ -1,0 +1,21 @@
+{
+  "id": "01e1d7bc-bc82-4877-9d6a-df47b2a8e44f",
+  "question": [
+    "A solenoid is 1m long and 4 cm in diameter. It has five layers of windings of 1000 turns each and carries a current of 7A. The magnetic field at the centre of the solenoid is"
+  ],
+  "options": [
+    [
+      "$50.4396 \\times 10^{-2} T$"
+    ],
+    [
+      "$4.396 \\times 10^{-2} T$"
+    ],
+    [
+      "$243.96 \\times 10^{-2} T$"
+    ],
+    [
+      "$439.6 T$"
+    ]
+  ],
+  "answer": 2
+}

@@ -1,0 +1,21 @@
+{
+  "id": "69e804db-6527-4bad-957f-dc2bd7441141",
+  "question": [
+    "In domestic electric mains supply, the voltage and the current are"
+  ],
+  "options": [
+    [
+      "AC voltage and DC current"
+    ],
+    [
+      "DC voltage and DC current"
+    ],
+    [
+      "DC voltage and AC current"
+    ],
+    [
+      "AC voltage and AC current"
+    ]
+  ],
+  "answer": 4
+}

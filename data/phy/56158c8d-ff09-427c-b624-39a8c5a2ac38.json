@@ -1,0 +1,22 @@
+{
+  "id": "56158c8d-ff09-427c-b624-39a8c5a2ac38",
+  "question": [
+    "You are given a dipole of charge +q and -q separated by a distance 2R. A sphere 'A' of radius 'R' passes through the centre of the dipole as shown below and another sphere 'B' of radius '2R' passes through the charge +q. Then the electric flux through the sphere A is",
+    "images/q17_diagram.png"
+  ],
+  "options": [
+    [
+      "$q/\\epsilon_0$"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "$2q/\\epsilon_0$"
+    ],
+    [
+      "$-q/\\epsilon_0$"
+    ]
+  ],
+  "answer": 4
+}

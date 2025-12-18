@@ -1,0 +1,25 @@
+{
+  "id": "1a11a632-e03a-4d8c-8109-6a4af90c5e75",
+  "question": [
+    "In determining the refractive index of a glass slab using a travelling microscope, the following readings are tabulated:",
+    "(a) Reading of travelling microscope for ink mark = 5.123 cm",
+    "(b) Reading of travelling microscope for ink mark through glass slab = 6.123 cm",
+    "(c) Reading of travelling microscope for chalk dust on glass slab = 8.123 cm",
+    "From the data, the refractive index of a glass slab is"
+  ],
+  "options": [
+    [
+      "1.500"
+    ],
+    [
+      "1.601"
+    ],
+    [
+      "1.399"
+    ],
+    [
+      "1.390"
+    ]
+  ],
+  "answer": 1
+}

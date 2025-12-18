@@ -1,0 +1,22 @@
+{
+  "id": "8453e895-538e-47c5-a4fb-a87c1ab721e4",
+  "question": [
+    "A convex lens has power P. It is cut into two halves along its principal axis. Further one piece (out of two halves) is cut into two halves perpendicular to the principal axis as shown in figure. Choose the incorrect option for the reported lens pieces",
+    "images/q43_diagram.png"
+  ],
+  "options": [
+    [
+      "Power of L2 is P/2"
+    ],
+    [
+      "Power of L3 is P/2"
+    ],
+    [
+      "Power of L1 is P"
+    ],
+    [
+      "Power of L1 is P/2"
+    ]
+  ],
+  "answer": 4
+}

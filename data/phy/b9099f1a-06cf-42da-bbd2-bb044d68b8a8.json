@@ -1,0 +1,21 @@
+{
+  "id": "b9099f1a-06cf-42da-bbd2-bb044d68b8a8",
+  "question": [
+    "Which of the following statements is not true?"
+  ],
+  "options": [
+    [
+      "Work done to move a charge on an equipotential surface is not zero"
+    ],
+    [
+      "Equipotential surfaces are the surfaces where the potential is constant"
+    ],
+    [
+      "Equipotential surfaces for a uniform electric field are parallel and equidistant from each other"
+    ],
+    [
+      "Electric field is always perpendicular to an equipotential surfaces."
+    ]
+  ],
+  "answer": 1
+}

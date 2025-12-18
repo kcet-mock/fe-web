@@ -37,3 +37,25 @@ KCET is a Karnataka CET mock website (Next.js project).
 ## Notes
 
 - The question content and PDF URLs are placeholders. Replace them with real KCET questions and actual PDF file paths or static files in the `public` folder.
+
+
+
+Convert to PDF attachment json format
+if the question or choice has an image use image/<random-uuid>.jpg as placeholder
+```
+[
+	{
+		"answer": 2,
+		"id": "dec5bb5c-1e49-4606-a2d4-41decdf76515",
+		"question": [
+			"In zygote intrafallopian tube transfer, the embryo upto ______ stage is transferred into the fallopian tube"
+		],
+		"options": [
+			["16 blastomeres"],
+			["8 blastomeres"],
+			["32 blastomeres"],
+			["2 blastomeres"]
+		]
+	}
+]
+```

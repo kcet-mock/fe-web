@@ -1,0 +1,22 @@
+{
+  "id": "ff6d9886-f1b3-4b53-8e6f-e4b478d89905",
+  "question": [
+    "When a bar magnet is pushed towards the coil, along its axis, as shown in the figure, the galvanometer pointer deflects towards X. When this magnet is pulled away from the coil, the galvanometer pointer",
+    "images/q36_diagram.png"
+  ],
+  "options": [
+    [
+      "Deflects towards X'"
+    ],
+    [
+      "Does not deflect"
+    ],
+    [
+      "Oscillates"
+    ],
+    [
+      "Deflects towards X"
+    ]
+  ],
+  "answer": 1
+}
