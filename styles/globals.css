@@ -250,6 +250,65 @@ a {
   transform: translateY(-1px);
 }
 
+.icon-button {
+  appearance: none;
+  background: transparent;
+  color: inherit;
+  border: 1px solid rgba(209, 213, 219, 0.9);
+  border-radius: 9999px;
+  padding: 0.35rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: background 0.1s ease, border-color 0.1s ease, transform 0.1s ease;
+}
+
+.icon-button:hover {
+  background: #ffffff;
+  border-color: #38bdf8;
+  transform: translateY(-1px);
+}
+
+.icon-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.drag-handle {
+  cursor: grab;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.add-part-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
+.add-part-menu {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 0.35rem);
+  display: none;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  background: #ffffff;
+  border: 1px solid rgba(209, 213, 219, 0.9);
+  border-radius: 9999px;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.12);
+  z-index: 50;
+}
+
+.add-part-wrap:hover .add-part-menu,
+.add-part-wrap:focus-within .add-part-menu {
+  display: inline-flex;
+}
+
 .chip-row {
   display: flex;
   flex-wrap: wrap;

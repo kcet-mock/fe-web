@@ -167,11 +167,41 @@ export default function InternalQuestionsListPage() {
                         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                           <Link
                             href={`/internal/questions/edit?id=${encodeURIComponent(id)}`}
-                            className="button-secondary"
+                            className=""
                             aria-label={`Edit ${id}`}
                             title="Edit"
+                            style={{
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              padding: '0.35rem',
+                              background: 'transparent',
+                              border: 'none',
+                              borderRadius: '9999px',
+                              lineHeight: 1,
+                            }}
                           >
-                            ✎
+                            <svg
+                              width="18"
+                              height="18"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                              aria-hidden="true"
+                            >
+                              <path
+                                d="M4 20h4l10.5-10.5a1.5 1.5 0 0 0 0-2.12L15.62 4.5a1.5 1.5 0 0 0-2.12 0L3 15v5z"
+                                stroke="currentColor"
+                                strokeWidth="1.8"
+                                strokeLinejoin="round"
+                              />
+                              <path
+                                d="M13.5 6.5l4 4"
+                                stroke="currentColor"
+                                strokeWidth="1.8"
+                                strokeLinejoin="round"
+                              />
+                            </svg>
                           </Link>
                         </div>
                       </div>

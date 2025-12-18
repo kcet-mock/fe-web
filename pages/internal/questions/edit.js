@@ -1,11 +1,18 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import Image from 'next/image';
 
 function isImageToken(token) {
   return (
     typeof token === 'string' && (token.startsWith('images/') || token.startsWith('image/'))
   );
+}
+
+function imageTokenToSrc(token, basePathPrefix) {
+  const stripped = token.startsWith('image/') ? token.slice('image/'.length) : token;
+  const relativePath = stripped.replace(/^\/+/, '');
+  return `${basePathPrefix}${relativePath}`;
 }
 
 function normalizeParts(parts) {
@@ -22,6 +29,7 @@ export async function getStaticProps() {
 export default function InternalQuestionEditPage() {
   const router = useRouter();
   const id = typeof router.query.id === 'string' ? router.query.id : '';
+  const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -129,13 +137,8 @@ export default function InternalQuestionEditPage() {
 
     try {
       const token = await uploadSelectedFile(file);
-      const { key, mode, index } = uploadTarget;
-
-      if (mode === 'replace' && typeof index === 'number') {
-        setPartsByKey(key, (prev) => prev.map((p, i) => (i === index ? token : p)));
-      } else {
-        setPartsByKey(key, (prev) => [...prev, token]);
-      }
+      const { key } = uploadTarget;
+      setPartsByKey(key, (prev) => [...prev, token]);
     } catch (err) {
       setUploadError(String(err?.message || err || 'Upload failed'));
     } finally {
@@ -144,8 +147,37 @@ export default function InternalQuestionEditPage() {
   };
 
   const renderPartsEditor = (label, parts, setParts, key) => {
+    const isQuestion = key === 'question';
+
     const updatePart = (index, value) => {
       setParts((prev) => prev.map((p, i) => (i === index ? value : p)));
+    };
+
+    const onDragStart = (e, fromIndex) => {
+      if (uploading) return;
+      try {
+        e.dataTransfer.effectAllowed = 'move';
+        e.dataTransfer.setData('text/plain', String(fromIndex));
+      } catch {
+        // ignore
+      }
+    };
+
+    const onDropOnIndex = (e, toIndex) => {
+      e.preventDefault();
+      const raw = e.dataTransfer?.getData?.('text/plain');
+      const fromIndex = Number(raw);
+      if (!Number.isInteger(fromIndex)) return;
+      if (fromIndex === toIndex) return;
+
+      setParts((prev) => {
+        if (fromIndex < 0 || fromIndex >= prev.length) return prev;
+        if (toIndex < 0 || toIndex >= prev.length) return prev;
+        const next = [...prev];
+        const [item] = next.splice(fromIndex, 1);
+        next.splice(toIndex, 0, item);
+        return next;
+      });
     };
 
     const removePart = (index) => {
@@ -153,23 +185,11 @@ export default function InternalQuestionEditPage() {
     };
 
     const addTextPart = () => setParts((prev) => [...prev, '']);
-    const addImagePart = () => openFilePicker({ key, mode: 'add', index: null });
+    const addImagePart = () => openFilePicker({ key });
 
     return (
       <div style={{ marginTop: '1rem' }}>
         <div className="page-section-subtitle">{label}</div>
-        <p className="question-text" style={{ marginTop: '0.35rem' }}>
-          Use plain text parts, or an image path starting with <b>images/</b>.
-        </p>
-
-        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
-          <button type="button" className="button-secondary" onClick={addTextPart} disabled={uploading}>
-            Add text
-          </button>
-          <button type="button" className="button-secondary" onClick={addImagePart} disabled={uploading}>
-            Add image
-          </button>
-        </div>
 
         <div style={{ display: 'grid', gap: '0.5rem', marginTop: '0.75rem' }}>
           {parts.map((part, index) => {
@@ -179,48 +199,74 @@ export default function InternalQuestionEditPage() {
                 key={`${label}-${index}`}
                 style={{
                   display: 'grid',
-                  gridTemplateColumns: '1fr auto auto',
+                  gridTemplateColumns: 'auto 1fr auto',
                   gap: '0.5rem',
                   alignItems: 'start',
                 }}
+                onDragOver={(e) => e.preventDefault()}
+                onDrop={(e) => onDropOnIndex(e, index)}
               >
-                {img ? (
-                  <input
-                    value={part}
-                    onChange={(e) => updatePart(index, e.target.value)}
-                    placeholder="images/your_file.png"
-                    style={{ width: '100%' }}
-                  />
-                ) : (
-                  <textarea
-                    value={part}
-                    onChange={(e) => updatePart(index, e.target.value)}
-                    rows={2}
-                    style={{ width: '100%' }}
-                  />
-                )}
-
-                {img ? (
-                  <button
-                    type="button"
-                    className="button-secondary"
-                    onClick={() => openFilePicker({ key, mode: 'replace', index })}
-                    disabled={uploading}
-                  >
-                    Replace
-                  </button>
-                ) : (
-                  <div />
-                )}
-
                 <button
                   type="button"
-                  className="button-secondary"
-                  onClick={() => removePart(index)}
+                  className="icon-button drag-handle"
+                  draggable={!uploading}
+                  onDragStart={(e) => onDragStart(e, index)}
                   disabled={uploading}
+                  aria-label="Drag to reorder"
+                  title="Drag to reorder"
                 >
-                  Remove
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M9 7h.01M9 12h.01M9 17h.01M15 7h.01M15 12h.01M15 17h.01" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" />
+                  </svg>
                 </button>
+
+                {img ? (
+                  <div>
+                    <div className="question-image">
+                      <Image
+                        src={imageTokenToSrc(part, basePathPrefix)}
+                        alt={`${label} ${index + 1}`}
+                        width={1200}
+                        height={800}
+                        style={{ maxWidth: '100%', height: 'auto' }}
+                      />
+                    </div>
+                  </div>
+                ) : (
+                  isQuestion ? (
+                    <textarea
+                      value={part}
+                      onChange={(e) => updatePart(index, e.target.value)}
+                      rows={4}
+                      style={{ width: '100%' }}
+                    />
+                  ) : (
+                    <input
+                      value={part}
+                      onChange={(e) => updatePart(index, e.target.value)}
+                      style={{ width: '100%' }}
+                    />
+                  )
+                )}
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+                  <button
+                    type="button"
+                    className="icon-button"
+                    onClick={() => removePart(index)}
+                    disabled={uploading}
+                    aria-label="Remove"
+                    title="Remove"
+                  >
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                      <path d="M9 3h6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                      <path d="M4 6h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                      <path d="M7 6l1 15h8l1-15" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                      <path d="M10 11v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                      <path d="M14 11v6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                    </svg>
+                  </button>
+                </div>
               </div>
             );
           })}
@@ -230,6 +276,52 @@ export default function InternalQuestionEditPage() {
               No parts yet.
             </p>
           ) : null}
+
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '0.75rem' }}>
+            <div className="add-part-wrap">
+              <button
+                type="button"
+                className="icon-button"
+                onClick={addTextPart}
+                disabled={uploading}
+                aria-label="Add text part"
+                title="Add"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M12 5v14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <path d="M5 12h14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                </svg>
+              </button>
+
+              <div className="add-part-menu" role="menu" aria-label="Add part">
+                <button
+                  type="button"
+                  className="icon-button"
+                  onClick={addTextPart}
+                  disabled={uploading}
+                  aria-label="Add text"
+                  title="Add text"
+                >
+                  <span style={{ fontWeight: 800, fontSize: '0.9rem', lineHeight: 1 }}>A</span>
+                </button>
+
+                <button
+                  type="button"
+                  className="icon-button"
+                  onClick={addImagePart}
+                  disabled={uploading}
+                  aria-label="Add image"
+                  title="Add image"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M5 7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7z" stroke="currentColor" strokeWidth="1.8" />
+                    <path d="M9 10.5a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5z" fill="currentColor" />
+                    <path d="M6.5 17l4-4 3 3 2-2 2.5 3" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
