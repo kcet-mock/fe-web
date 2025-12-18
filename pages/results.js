@@ -7,7 +7,7 @@ export async function getStaticProps() {
   const path = await import('path');
 
   const baseDir = process.cwd();
-  const questionsDir = path.join(baseDir, 'data', 'questions');
+  const questionsDir = path.join(baseDir, 'data', 'bio');
   const allPath = path.join(questionsDir, 'all.json');
 
   const allRaw = await fs.readFile(allPath, 'utf-8');
