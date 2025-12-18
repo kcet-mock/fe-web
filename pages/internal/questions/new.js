@@ -30,6 +30,8 @@ export default function InternalQuestionNewPage() {
   const router = useRouter();
   const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
 
+  const [dragState, setDragState] = useState(null);
+
   const [error, setError] = useState('');
   const [createdId, setCreatedId] = useState('');
   const [loading, setLoading] = useState(false);
@@ -125,21 +127,57 @@ export default function InternalQuestionNewPage() {
       } catch {
         // ignore
       }
+
+      setDragState({ key, fromIndex, overIndex: fromIndex, overAfter: false });
     };
 
-    const onDropOnIndex = (e, toIndex) => {
+    const onDragOverRow = (e, index) => {
+      if (!dragState || dragState.key !== key) return;
       e.preventDefault();
-      const raw = e.dataTransfer?.getData?.('text/plain');
-      const fromIndex = Number(raw);
+      try {
+        e.dataTransfer.dropEffect = 'move';
+      } catch {
+        // ignore
+      }
+
+      const rect = e.currentTarget.getBoundingClientRect();
+      const overAfter = e.clientY > rect.top + rect.height / 2;
+      setDragState((prev) => {
+        if (!prev || prev.key !== key) return prev;
+        if (prev.overIndex === index && prev.overAfter === overAfter) return prev;
+        return { ...prev, overIndex: index, overAfter };
+      });
+    };
+
+    const onDrop = (e, fallbackToEnd) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const state = dragState && dragState.key === key ? dragState : null;
+      setDragState(null);
+      if (!state) return;
+
+      const fromIndex = state.fromIndex;
       if (!Number.isInteger(fromIndex)) return;
-      if (fromIndex === toIndex) return;
+
+      let toIndex;
+      if (fallbackToEnd) {
+        toIndex = parts.length;
+      } else {
+        const base = Number.isInteger(state.overIndex) ? state.overIndex : parts.length - 1;
+        toIndex = base + (state.overAfter ? 1 : 0);
+      }
 
       setParts((prev) => {
         if (fromIndex < 0 || fromIndex >= prev.length) return prev;
-        if (toIndex < 0 || toIndex >= prev.length) return prev;
+        const clampedTo = Math.max(0, Math.min(toIndex, prev.length));
+        let insertIndex = clampedTo;
+        if (insertIndex > fromIndex) insertIndex -= 1;
+        if (insertIndex === fromIndex) return prev;
+
         const next = [...prev];
         const [item] = next.splice(fromIndex, 1);
-        next.splice(toIndex, 0, item);
+        next.splice(insertIndex, 0, item);
         return next;
       });
     };
@@ -155,9 +193,18 @@ export default function InternalQuestionNewPage() {
       <div style={{ marginTop: '1rem' }}>
         <div className="page-section-subtitle">{label}</div>
 
-        <div style={{ display: 'grid', gap: '0.5rem', marginTop: '0.75rem' }}>
+        <div
+          style={{ display: 'grid', gap: '0.5rem', marginTop: '0.75rem' }}
+          onDragOver={(e) => {
+            if (dragState && dragState.key === key) e.preventDefault();
+          }}
+          onDrop={(e) => onDrop(e, true)}
+        >
           {parts.map((part, index) => {
             const img = isImageToken(part);
+            const isOver = dragState && dragState.key === key && dragState.overIndex === index;
+            const showTop = isOver && !dragState.overAfter;
+            const showBottom = isOver && dragState.overAfter;
             return (
               <div
                 key={`${label}-${index}`}
@@ -166,15 +213,23 @@ export default function InternalQuestionNewPage() {
                   gridTemplateColumns: 'auto 1fr auto',
                   gap: '0.5rem',
                   alignItems: 'start',
+                  borderTop: showTop ? '2px solid #38bdf8' : undefined,
+                  borderBottom: showBottom ? '2px solid #38bdf8' : undefined,
+                  paddingTop: showTop ? '0.35rem' : undefined,
+                  paddingBottom: showBottom ? '0.35rem' : undefined,
                 }}
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={(e) => onDropOnIndex(e, index)}
+                onDragOver={(e) => onDragOverRow(e, index)}
+                onDrop={(e) => {
+                  e.stopPropagation();
+                  onDrop(e, false);
+                }}
               >
                 <button
                   type="button"
                   className="icon-button drag-handle"
                   draggable={!uploading}
                   onDragStart={(e) => onDragStart(e, index)}
+                  onDragEnd={() => setDragState(null)}
                   disabled={uploading}
                   aria-label="Drag to reorder"
                   title="Drag to reorder"
