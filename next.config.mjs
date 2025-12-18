@@ -7,6 +7,9 @@ const nextConfig = {
   // Generate a fully static export so GitHub Pages
   // can serve files from the ./out directory.
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
   // Serve the app from /fe-web when built for production (GitHub Pages repo path)
   basePath: isProd ? `/${repoName}` : '',
   assetPrefix: isProd ? `/${repoName}/` : '',

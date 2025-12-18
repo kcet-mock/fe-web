@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 export async function getStaticProps() {
@@ -49,13 +50,14 @@ export default function ResultsPage({ questions }) {
       const stored = window.sessionStorage.getItem('kcetMockTestResult');
       if (!stored) return;
       const parsed = JSON.parse(stored);
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setResult(parsed);
     } catch (e) {
       // Ignore parsing/storage errors and show fallback UI
     }
   }, []);
 
-  const summary = useMemo(() => {
+  const summary = (() => {
     if (!result) return null;
 
     const answers = result.answers || {};
@@ -81,7 +83,7 @@ export default function ResultsPage({ questions }) {
     });
 
     return { correct, wrong, notAttempted, questionStatuses };
-  }, [result]);
+  })();
 
   if (!result) {
     return (
@@ -235,25 +237,25 @@ export default function ResultsPage({ questions }) {
 
               <div className="questions-stack">
                 {QUESTIONS.map((q, index) => {
-                const questionNumber = index + 1;
-                const selected = result.answers[index];
-                const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
-                const options = Array.isArray(q.options) ? q.options : [];
-                const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
-                const questionParts = Array.isArray(q.question) ? q.question : [];
+                  const questionNumber = index + 1;
+                  const selected = result.answers[index];
+                  const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
+                  const options = Array.isArray(q.options) ? q.options : [];
+                  const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
+                  const questionParts = Array.isArray(q.question) ? q.question : [];
 
-                let statusLabel = 'Not attempted';
-                let statusClass = 'status-pill status-pill--skipped';
+                  let statusLabel = 'Not attempted';
+                  let statusClass = 'status-pill status-pill--skipped';
 
-                if (selected !== undefined) {
-                  if (selected === correctIndex) {
-                    statusLabel = 'Correct';
-                    statusClass = 'status-pill status-pill--correct';
-                  } else {
-                    statusLabel = 'Wrong';
-                    statusClass = 'status-pill status-pill--wrong';
+                  if (selected !== undefined) {
+                    if (selected === correctIndex) {
+                      statusLabel = 'Correct';
+                      statusClass = 'status-pill status-pill--correct';
+                    } else {
+                      statusLabel = 'Wrong';
+                      statusClass = 'status-pill status-pill--wrong';
+                    }
                   }
-                }
 
                   return (
                     <div
@@ -267,14 +269,17 @@ export default function ResultsPage({ questions }) {
                         </span>
                         <span className={statusClass}>{statusLabel}</span>
                       </div>
+
                       {questionParts.map((part, partIndex) => {
                         if (isImageToken(part)) {
                           const src = imageTokenToSrc(part, basePathPrefix);
                           return (
                             <div key={`q-${partIndex}`} className="question-image">
-                              <img
+                              <Image
                                 src={src}
                                 alt={`Question ${questionNumber}`}
+                                width={1200}
+                                height={800}
                                 style={{ maxWidth: '100%', height: 'auto' }}
                               />
                             </div>
@@ -287,6 +292,7 @@ export default function ResultsPage({ questions }) {
                           </p>
                         );
                       })}
+
                       <div className="options-list">
                         {options.map((optionParts, optionIndex) => {
                           const parts = Array.isArray(optionParts) ? optionParts : [];
@@ -309,9 +315,11 @@ export default function ResultsPage({ questions }) {
                                   const src = imageTokenToSrc(part, basePathPrefix);
                                   return (
                                     <div key={`o-${partIndex}`} className="option-image">
-                                      <img
+                                      <Image
                                         src={src}
                                         alt={`Question ${questionNumber} option ${optionIndex + 1}`}
+                                        width={1200}
+                                        height={800}
                                         style={{ maxWidth: '100%', height: 'auto' }}
                                       />
                                     </div>

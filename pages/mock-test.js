@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 // 60-minute mock test timer (in seconds)
@@ -264,9 +265,11 @@ export default function MockTestPage({ questions }) {
                         const src = imageTokenToSrc(part, basePathPrefix);
                         return (
                           <div key={`q-${partIndex}`} className="question-image">
-                            <img
+                            <Image
                               src={src}
                               alt={`Question ${questionNumber}`}
+                              width={1200}
+                              height={800}
                               style={{ maxWidth: '100%', height: 'auto' }}
                             />
                           </div>
@@ -302,9 +305,11 @@ export default function MockTestPage({ questions }) {
                                 const src = imageTokenToSrc(part, basePathPrefix);
                                 return (
                                   <div key={`o-${partIndex}`} className="option-image">
-                                    <img
+                                    <Image
                                       src={src}
                                       alt={`Question ${questionNumber} option ${optionIndex + 1}`}
+                                      width={1200}
+                                      height={800}
                                       style={{ maxWidth: '100%', height: 'auto' }}
                                     />
                                   </div>
