@@ -35,7 +35,13 @@ let moved = false;
 
 try {
   if (await exists(tempDir)) {
-    throw new Error(`Temp dir already exists: ${tempDir}`);
+    // Recover from a previous failed run.
+    if (await exists(internalDir)) {
+      throw new Error(
+        `Both internal dir and temp dir exist; cannot recover safely. internal=${internalDir} temp=${tempDir}`,
+      );
+    }
+    await fs.rename(tempDir, internalDir);
   }
 
   if (await exists(internalDir)) {
@@ -47,6 +53,8 @@ try {
   await run(nextBin, ['build'], env);
 } finally {
   if (moved) {
+    // Next can recreate `pages/internal` during build; ensure restore is always clean.
+    await fs.rm(internalDir, { recursive: true, force: true });
     await fs.rename(tempDir, internalDir);
   }
 }

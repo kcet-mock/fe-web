@@ -2,6 +2,7 @@ import http from 'node:http';
 import { URL } from 'node:url';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import formidable from 'formidable';
 
 const PORT = Number(process.env.INTERNAL_PORT || 8787);
 
@@ -70,12 +71,61 @@ function routeMatch(pathname, method) {
     return { kind: 'collection' };
   }
 
+  if (pathname === '/api/internal/images' && method === 'POST') {
+    return { kind: 'image-upload' };
+  }
+
   const m = pathname.match(/^\/api\/internal\/questions\/([^/]+)$/);
   if (m && (method === 'GET' || method === 'PUT' || method === 'DELETE')) {
     return { kind: 'item', id: decodeURIComponent(m[1]) };
   }
 
   return null;
+}
+
+function guessExtension({ originalFilename, mimetype }) {
+  const ext = path.extname(originalFilename || '').toLowerCase();
+  if (ext && ext.length <= 8) return ext;
+
+  const mt = String(mimetype || '').toLowerCase();
+  if (mt === 'image/png') return '.png';
+  if (mt === 'image/jpeg') return '.jpg';
+  if (mt === 'image/webp') return '.webp';
+  if (mt === 'image/gif') return '.gif';
+  return '.png';
+}
+
+async function moveFile(src, dest) {
+  try {
+    await fs.rename(src, dest);
+  } catch (e) {
+    if (e && e.code === 'EXDEV') {
+      await fs.copyFile(src, dest);
+      await fs.unlink(src);
+      return;
+    }
+    throw e;
+  }
+}
+
+async function parseMultipartSingleFile(req) {
+  const form = formidable({
+    multiples: false,
+    keepExtensions: true,
+    maxFileSize: 15 * 1024 * 1024,
+  });
+
+  return await new Promise((resolve, reject) => {
+    form.parse(req, (err, fields, files) => {
+      if (err) return reject(err);
+      const file = files?.file;
+      if (!file) return resolve({ fields, file: null });
+
+      // Formidable may return an array depending on client.
+      const f = Array.isArray(file) ? file[0] : file;
+      resolve({ fields, file: f || null });
+    });
+  });
 }
 
 const server = http.createServer(async (req, res) => {
@@ -111,6 +161,32 @@ const server = http.createServer(async (req, res) => {
       await writeJsonFile(path.join(questionsDir, `${id}.json`), q);
       await writeJsonFile(allPath, [...ids, id]);
       sendJson(res, 201, { id });
+      return;
+    }
+
+    if (match.kind === 'image-upload' && req.method === 'POST') {
+      const { file } = await parseMultipartSingleFile(req);
+      if (!file) {
+        sendJson(res, 400, { error: 'Missing file field (multipart/form-data name="file")' });
+        return;
+      }
+
+      const mimetype = file.mimetype;
+      if (typeof mimetype === 'string' && !mimetype.toLowerCase().startsWith('image/')) {
+        sendJson(res, 400, { error: 'Only image uploads are allowed' });
+        return;
+      }
+
+      const publicImagesDir = path.join(process.cwd(), 'public', 'images');
+      await fs.mkdir(publicImagesDir, { recursive: true });
+
+      const uuid = globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
+      const ext = guessExtension({ originalFilename: file.originalFilename, mimetype: file.mimetype });
+      const filename = `${uuid}${ext}`;
+      const destAbs = path.join(publicImagesDir, filename);
+
+      await moveFile(file.filepath, destAbs);
+      sendJson(res, 201, { token: `images/${filename}` });
       return;
     }
 
