@@ -139,7 +139,23 @@ const server = http.createServer(async (req, res) => {
 
     if (match.kind === 'collection' && req.method === 'GET') {
       const ids = await readAllIds();
-      sendJson(res, 200, { ids });
+      const wantsFull = url.searchParams.get('full') === '1' || url.searchParams.get('full') === 'true';
+      if (!wantsFull) {
+        sendJson(res, 200, { ids });
+        return;
+      }
+
+      const questions = await Promise.all(
+        ids.map(async (id) => {
+          try {
+            return await readJsonFile(path.join(questionsDir, `${id}.json`));
+          } catch {
+            return null;
+          }
+        })
+      );
+
+      sendJson(res, 200, { ids, questions: questions.filter(Boolean) });
       return;
     }
 

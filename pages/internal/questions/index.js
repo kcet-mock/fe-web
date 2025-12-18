@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export async function getStaticProps() {
   if (process.env.NEXT_PUBLIC_INTERNAL_PAGES !== 'true') return { notFound: true };
@@ -7,19 +8,24 @@ export async function getStaticProps() {
 }
 
 export default function InternalQuestionsListPage() {
-  const [ids, setIds] = useState([]);
+  const [questions, setQuestions] = useState([]);
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch('/api/internal/questions');
+        setLoading(true);
+        const res = await fetch('/api/internal/questions?full=1');
         if (!res.ok) throw new Error('Failed to load');
         const json = await res.json();
-        if (!cancelled) setIds(Array.isArray(json.ids) ? json.ids : []);
+        const list = Array.isArray(json.questions) ? json.questions : [];
+        if (!cancelled) setQuestions(list);
       } catch (e) {
         if (!cancelled) setError('Failed to load questions (dev-only).');
+      } finally {
+        if (!cancelled) setLoading(false);
       }
     })();
     return () => {
@@ -27,16 +33,24 @@ export default function InternalQuestionsListPage() {
     };
   }, []);
 
+  const isImageToken = (token) => {
+    return typeof token === 'string' && (token.startsWith('images/') || token.startsWith('image/'));
+  };
+
+  const imageTokenToSrc = (token, basePathPrefix) => {
+    const stripped = token.startsWith('image/') ? token.slice('image/'.length) : token;
+    const relativePath = stripped.replace(/^\/+/, '');
+    return `${basePathPrefix}${relativePath}`;
+  };
+
   return (
     <main className="main-layout main-layout--top">
-      <section className="card">
-        <header className="card-header">
-          <div>
-            <div className="badge">Internal · Dev only</div>
-            <h1 className="title">Questions</h1>
-            <p className="subtitle">List all questions, open, edit, or add new.</p>
-          </div>
-        </header>
+      <section>
+        <div>
+          <div className="badge">Internal · Dev only</div>
+          <h1 className="title">Questions</h1>
+          <p className="subtitle">List all questions directly and edit them.</p>
+        </div>
 
         <div className="test-layout">
           <div className="test-questions">
@@ -53,27 +67,116 @@ export default function InternalQuestionsListPage() {
               <p className="question-text" style={{ marginTop: '1rem' }}>
                 {error}
               </p>
+            ) : loading ? (
+              <p className="question-text" style={{ marginTop: '1rem' }}>
+                Loading…
+              </p>
             ) : (
               <div style={{ marginTop: '1rem' }}>
                 <div className="page-section-subtitle" style={{ marginBottom: '0.5rem' }}>
-                  Total: {ids.length}
+                  Total: {questions.length}
                 </div>
                 <div className="questions-stack">
-                  {ids.map((id) => (
-                    <div key={id} className="question-block">
-                      <div className="question-header" style={{ justifyContent: 'space-between' }}>
-                        <span className="badge-soft">{id}</span>
-                        <div style={{ display: 'flex', gap: '0.5rem' }}>
-                          <Link href={`/internal/questions/view?id=${encodeURIComponent(id)}`} className="button-secondary">
-                            View
-                          </Link>
-                          <Link href={`/internal/questions/edit?id=${encodeURIComponent(id)}`} className="button-primary">
-                            Edit
+                  {questions.map((q) => {
+                    const id = q?.id;
+                    const basePathPrefix = typeof window !== 'undefined' && window.__NEXT_DATA__?.assetPrefix
+                      ? String(window.__NEXT_DATA__.assetPrefix)
+                      : '/';
+
+                    if (!id) return null;
+
+                    const questionParts = Array.isArray(q.question) ? q.question : [];
+                    const options = Array.isArray(q.options) ? q.options : [];
+                    const answer = typeof q.answer === 'number' ? q.answer : null;
+
+                    return (
+                      <div
+                        key={id}
+                        style={{
+                          display: 'grid',
+                          gridTemplateColumns: '1fr auto',
+                          gap: '0.75rem',
+                          alignItems: 'start',
+                        }}
+                      >
+                        <div className="question-block">
+                          <div className="question-header">
+                            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                              <span className="badge-soft">{id}</span>
+                              {typeof answer === 'number' ? (
+                                <span className="badge-soft">Answer: {answer}</span>
+                              ) : null}
+                            </div>
+                          </div>
+
+                          {questionParts.map((part, idx) => {
+                            if (isImageToken(part)) {
+                              const src = imageTokenToSrc(part, basePathPrefix);
+                              return (
+                                <div key={`q-${idx}`} className="question-image">
+                                  <Image
+                                    src={src}
+                                    alt={`Question ${id}`}
+                                    width={1200}
+                                    height={800}
+                                    style={{ maxWidth: '100%', height: 'auto' }}
+                                  />
+                                </div>
+                              );
+                            }
+                            return (
+                              <p key={`q-${idx}`} className="question-text">
+                                {part}
+                              </p>
+                            );
+                          })}
+
+                          <div className="options-list">
+                            {options.map((optParts, optIdx) => {
+                              const parts = Array.isArray(optParts) ? optParts : [];
+                              const isCorrect = optIdx === (typeof answer === 'number' ? answer - 1 : -1);
+                              return (
+                                <div
+                                  key={`opt-${optIdx}`}
+                                  className={`option-pill option-pill--static${isCorrect ? ' option-pill--correct' : ''}`}
+                                >
+                                  <span className="option-circle" />
+                                  {parts.map((part, idx) => {
+                                    if (isImageToken(part)) {
+                                      const src = imageTokenToSrc(part, basePathPrefix);
+                                      return (
+                                        <div key={`o-${idx}`} className="option-image">
+                                          <Image
+                                            src={src}
+                                            alt={`Option ${optIdx + 1}`}
+                                            width={1200}
+                                            height={800}
+                                            style={{ maxWidth: '100%', height: 'auto' }}
+                                          />
+                                        </div>
+                                      );
+                                    }
+                                    return <span key={`o-${idx}`}>{part}</span>;
+                                  })}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+
+                        <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                          <Link
+                            href={`/internal/questions/edit?id=${encodeURIComponent(id)}`}
+                            className="button-secondary"
+                            aria-label={`Edit ${id}`}
+                            title="Edit"
+                          >
+                            ✎
                           </Link>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             )}
