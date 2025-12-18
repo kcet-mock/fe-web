@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import questionsData from '../data/questions.json';
 
 // 60-minute mock test timer (in seconds)
 const TEST_DURATION_SECONDS = 60 * 60;
@@ -12,8 +11,26 @@ function formatTime(totalSeconds) {
   return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
 
-// Questions data is sourced from data/questions.json
-const QUESTIONS = questionsData;
+export async function getStaticProps() {
+  const fs = await import('fs/promises');
+  const path = await import('path');
+
+  const baseDir = process.cwd();
+  const questionsDir = path.join(baseDir, 'data', 'questions');
+  const allPath = path.join(questionsDir, 'all.json');
+
+  const allRaw = await fs.readFile(allPath, 'utf-8');
+  const ids = JSON.parse(allRaw);
+  const questions = await Promise.all(
+    (Array.isArray(ids) ? ids : []).map(async (id) => {
+      const filePath = path.join(questionsDir, `${id}.json`);
+      const raw = await fs.readFile(filePath, 'utf-8');
+      return JSON.parse(raw);
+    })
+  );
+
+  return { props: { questions } };
+}
 
 function isImageToken(token) {
   return typeof token === 'string' && token.startsWith('image/');
@@ -107,8 +124,9 @@ function DesktopTimerWithSummary({ remaining, running, finished, answers, questi
   );
 }
 
-export default function MockTestPage() {
+export default function MockTestPage({ questions }) {
   const router = useRouter();
+  const QUESTIONS = Array.isArray(questions) ? questions : [];
   const [remaining, setRemaining] = useState(TEST_DURATION_SECONDS);
   const [running, setRunning] = useState(true);
   const [finished, setFinished] = useState(false);

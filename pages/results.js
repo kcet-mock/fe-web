@@ -1,9 +1,27 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import questionsData from '../data/questions.json';
 
-const QUESTIONS = questionsData;
+export async function getStaticProps() {
+  const fs = await import('fs/promises');
+  const path = await import('path');
+
+  const baseDir = process.cwd();
+  const questionsDir = path.join(baseDir, 'data', 'questions');
+  const allPath = path.join(questionsDir, 'all.json');
+
+  const allRaw = await fs.readFile(allPath, 'utf-8');
+  const ids = JSON.parse(allRaw);
+  const questions = await Promise.all(
+    (Array.isArray(ids) ? ids : []).map(async (id) => {
+      const filePath = path.join(questionsDir, `${id}.json`);
+      const raw = await fs.readFile(filePath, 'utf-8');
+      return JSON.parse(raw);
+    })
+  );
+
+  return { props: { questions } };
+}
 
 function isImageToken(token) {
   return typeof token === 'string' && token.startsWith('image/');
@@ -20,9 +38,10 @@ function formatTime(totalSeconds) {
   return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
 
-export default function ResultsPage() {
+export default function ResultsPage({ questions }) {
   const router = useRouter();
   const [result, setResult] = useState(null);
+  const QUESTIONS = Array.isArray(questions) ? questions : [];
 
   useEffect(() => {
     if (typeof window === 'undefined') return;

@@ -1,0 +1,21 @@
+{
+  "answer": 4,
+  "id": "bd7301b4-7417-4ef5-8bac-f3d21817323e",
+  "question": [
+    "Match the contents of List-I with List-II. List-I: (a) Bioreactors (b) Downstream processing (c) Recombinant protein (d) PCR. List-II: (i. Insulin produced by rDNA technology, ii. Vessels which convert raw material into specific Product, iii. Detect mutated genes in suspected cancer patient, iv. Involves separation and purification). Choose the correct option."
+  ],
+  "options": [
+    [
+      "a-iv, b-ii, c-iii, d-i"
+    ],
+    [
+      "a-i, b-ii, c-iv, d-iii"
+    ],
+    [
+      "a-ii, b-i, c-iii, d-iv"
+    ],
+    [
+      "a-ii, b-iv, c-i, d-iii"
+    ]
+  ]
+}

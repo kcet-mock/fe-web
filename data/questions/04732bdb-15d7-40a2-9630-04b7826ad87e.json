@@ -1,0 +1,21 @@
+{
+  "answer": 4,
+  "id": "04732bdb-15d7-40a2-9630-04b7826ad87e",
+  "question": [
+    "Identify the correct sequence of action potential as it arrives at the axon terminal from the choices given below:"
+  ],
+  "options": [
+    [
+      "Axon terminal → Synaptic cleft → Synaptic vesicles → Post-synaptic membrane → Post-synaptic neuron"
+    ],
+    [
+      "Axon terminal → Post-synaptic membrane → Synaptic cleft → Synaptic vesicles → Post-synaptic neuron"
+    ],
+    [
+      "Axon terminal → Synaptic vesicles → Post-synaptic membrane → Synaptic cleft → Post-synaptic neuron"
+    ],
+    [
+      "Axon terminal → Synaptic vesicles → Synaptic cleft → Post-synaptic membrane → Post-synaptic neuron"
+    ]
+  ]
+}

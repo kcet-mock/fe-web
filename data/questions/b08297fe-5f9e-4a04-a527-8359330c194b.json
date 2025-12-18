@@ -1,0 +1,21 @@
+{
+  "answer": 2,
+  "id": "b08297fe-5f9e-4a04-a527-8359330c194b",
+  "question": [
+    "How many types of gametes will be formed by a parent with genotype 'AaBbCc'?"
+  ],
+  "options": [
+    [
+      "4"
+    ],
+    [
+      "8"
+    ],
+    [
+      "12"
+    ],
+    [
+      "6"
+    ]
+  ]
+}
