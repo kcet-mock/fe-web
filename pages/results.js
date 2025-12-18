@@ -25,11 +25,14 @@ export async function getStaticProps() {
 }
 
 function isImageToken(token) {
-  return typeof token === 'string' && token.startsWith('image/');
+  return (
+    typeof token === 'string' && (token.startsWith('images/') || token.startsWith('image/'))
+  );
 }
 
 function imageTokenToSrc(token, basePathPrefix) {
-  const relativePath = token.slice('image/'.length).replace(/^\/+/, '');
+  const stripped = token.startsWith('image/') ? token.slice('image/'.length) : token;
+  const relativePath = stripped.replace(/^\/+/, '');
   return `${basePathPrefix}${relativePath}`;
 }
 
