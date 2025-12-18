@@ -15,6 +15,15 @@ function formatTime(totalSeconds) {
 // Questions data is sourced from data/questions.json
 const QUESTIONS = questionsData;
 
+function isImageToken(token) {
+  return typeof token === 'string' && token.startsWith('image/');
+}
+
+function imageTokenToSrc(token, basePathPrefix) {
+  const relativePath = token.slice('image/'.length).replace(/^\/+/, '');
+  return `${basePathPrefix}${relativePath}`;
+}
+
 function TimerContent({ remaining, running, finished }) {
   return (
     <>
@@ -218,11 +227,9 @@ export default function MockTestPage() {
               {QUESTIONS.map((q, index) => {
                 const selectedOption = answers[index];
                 const questionNumber = index + 1;
-                const options = q.options || [];
+                const options = Array.isArray(q.options) ? q.options : [];
                 const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
-                const questionImageSrc = q.question?.image
-                  ? `${basePathPrefix}${q.question.image.replace(/^\/+/, '')}`
-                  : null;
+                const questionParts = Array.isArray(q.question) ? q.question : [];
                 return (
                   <div
                     key={questionNumber}
@@ -234,24 +241,30 @@ export default function MockTestPage() {
                         Question {questionNumber} of {QUESTIONS.length}
                       </span>
                     </div>
-                    {q.question?.text && (
-                      <p className="question-text">{q.question.text}</p>
-                    )}
-                    {questionImageSrc && (
-                      <div className="question-image">
-                        <img
-                          src={questionImageSrc}
-                          alt={`Question ${questionNumber}`}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                        />
-                      </div>
-                    )}
+                    {questionParts.map((part, partIndex) => {
+                      if (isImageToken(part)) {
+                        const src = imageTokenToSrc(part, basePathPrefix);
+                        return (
+                          <div key={`q-${partIndex}`} className="question-image">
+                            <img
+                              src={src}
+                              alt={`Question ${questionNumber}`}
+                              style={{ maxWidth: '100%', height: 'auto' }}
+                            />
+                          </div>
+                        );
+                      }
+
+                      return (
+                        <p key={`q-${partIndex}`} className="question-text">
+                          {part}
+                        </p>
+                      );
+                    })}
                     <div className="options-list">
-                      {options.map((option, optionIndex) => {
+                      {options.map((optionParts, optionIndex) => {
                         const isSelected = selectedOption === optionIndex;
-                        const optionImageSrc = option?.image
-                          ? `${basePathPrefix}${option.image.replace(/^\/+/, '')}`
-                          : null;
+                        const parts = Array.isArray(optionParts) ? optionParts : [];
                         return (
                           <button
                             type="button"
@@ -266,16 +279,22 @@ export default function MockTestPage() {
                                 isSelected ? ' option-circle--selected' : ''
                               }`}
                             />
-                            {option?.text && <span>{option.text}</span>}
-                            {optionImageSrc && (
-                              <div className="option-image">
-                                <img
-                                  src={optionImageSrc}
-                                  alt={`Question ${questionNumber} option ${optionIndex + 1}`}
-                                  style={{ maxWidth: '100%', height: 'auto' }}
-                                />
-                              </div>
-                            )}
+                            {parts.map((part, partIndex) => {
+                              if (isImageToken(part)) {
+                                const src = imageTokenToSrc(part, basePathPrefix);
+                                return (
+                                  <div key={`o-${partIndex}`} className="option-image">
+                                    <img
+                                      src={src}
+                                      alt={`Question ${questionNumber} option ${optionIndex + 1}`}
+                                      style={{ maxWidth: '100%', height: 'auto' }}
+                                    />
+                                  </div>
+                                );
+                              }
+
+                              return <span key={`o-${partIndex}`}>{part}</span>;
+                            })}
                           </button>
                         );
                       })}
