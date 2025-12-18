@@ -1,12 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
+const SUBJECTS = [
+  { value: 'bio', label: 'Biology' },
+  { value: 'phy', label: 'Physics' },
+];
+
 function isImageToken(token) {
-  return (
-    typeof token === 'string' && (token.startsWith('images/') || token.startsWith('image/'))
-  );
+  return typeof token === 'string' && (token.startsWith('images/') || token.startsWith('image/'));
 }
 
 function imageTokenToSrc(token, basePathPrefix) {
@@ -21,11 +24,57 @@ function formatTime(totalSeconds) {
   return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
 
-export default function ResultsPage() {
+export async function getStaticPaths() {
+  return {
+    paths: SUBJECTS.map((s) => ({ params: { subject: s.value } })),
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const fs = await import('fs/promises');
+  const path = await import('path');
+
+  const subject = typeof params?.subject === 'string' ? params.subject : 'bio';
+
+  let allIds = [];
+  if (subject === 'phy') {
+    const { ALL_QUESTION_IDS } = await import('../../data/phy/_all.js');
+    allIds = ALL_QUESTION_IDS;
+  } else {
+    const { ALL_QUESTION_IDS } = await import('../../data/bio/_all.js');
+    allIds = ALL_QUESTION_IDS;
+  }
+
+  const questionsDir = path.join(process.cwd(), 'data', subject);
+  const questions = await Promise.all(
+    allIds.map(async (id) => {
+      const filePath = path.join(questionsDir, `${id}.json`);
+      const raw = await fs.readFile(filePath, 'utf-8');
+      return JSON.parse(raw);
+    })
+  );
+
+  return { props: { subject, questions } };
+}
+
+export default function ResultsSubjectPage({ subject, questions }) {
   const router = useRouter();
   const [result, setResult] = useState(null);
-  const [loadedQuestions, setLoadedQuestions] = useState([]);
-  const QUESTIONS = Array.isArray(loadedQuestions) ? loadedQuestions : [];
+  const ALL_QUESTIONS = Array.isArray(questions) ? questions : [];
+
+  const questionsById = useMemo(() => {
+    const map = new Map();
+    ALL_QUESTIONS.forEach((q) => {
+      if (q && typeof q.id === 'string') map.set(q.id, q);
+    });
+    return map;
+  }, [ALL_QUESTIONS]);
+
+  const selectedQuestions = useMemo(() => {
+    const ids = Array.isArray(result?.questionIds) ? result.questionIds : [];
+    return ids.map((id) => questionsById.get(id)).filter(Boolean);
+  }, [result, questionsById]);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -33,41 +82,11 @@ export default function ResultsPage() {
       const stored = window.sessionStorage.getItem('kcetMockTestResult');
       if (!stored) return;
       const parsed = JSON.parse(stored);
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setResult(parsed);
     } catch (e) {
-      // Ignore parsing/storage errors and show fallback UI
+      // ignore
     }
   }, []);
-
-  useEffect(() => {
-    if (!result) return;
-
-    const subject = typeof result.subject === 'string' ? result.subject : 'bio';
-    const ids = Array.isArray(result.questionIds) ? result.questionIds : [];
-    if (!ids.length) return;
-
-    let cancelled = false;
-    (async () => {
-      try {
-        const resp = await fetch('/api/mock-test/questions', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ subject, ids }),
-        });
-        if (!resp.ok) return;
-        const data = await resp.json();
-        const qs = Array.isArray(data?.questions) ? data.questions : [];
-        if (!cancelled) setLoadedQuestions(qs);
-      } catch (e) {
-        // Ignore network errors; UI will show fallback.
-      }
-    })();
-
-    return () => {
-      cancelled = true;
-    };
-  }, [result]);
 
   const summary = (() => {
     if (!result) return null;
@@ -78,7 +97,7 @@ export default function ResultsPage() {
     let notAttempted = 0;
     const questionStatuses = [];
 
-    QUESTIONS.forEach((q, index) => {
+    selectedQuestions.forEach((q, index) => {
       const selected = answers[index];
       const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
 
@@ -97,6 +116,8 @@ export default function ResultsPage() {
     return { correct, wrong, notAttempted, questionStatuses };
   })();
 
+  const subjectLabel = SUBJECTS.find((s) => s.value === subject)?.label || subject;
+
   if (!result) {
     return (
       <main className="main-layout main-layout--top">
@@ -105,44 +126,13 @@ export default function ResultsPage() {
             <div>
               <div className="badge">Results</div>
               <h1 className="title">No result data found</h1>
-              <p className="subtitle">
-                Please complete a mock test first. Once you submit your test,
-                you will see a detailed breakdown of your performance here.
-              </p>
+              <p className="subtitle">Please complete a mock test first.</p>
             </div>
           </header>
           <div className="test-layout">
             <div className="test-questions">
-              <p className="question-text">
-                Go back to the mock test page to start a new attempt.
-              </p>
-              <Link href="/mock-test" className="button-primary">
-                Start mock test
-              </Link>
-            </div>
-          </div>
-        </section>
-      </main>
-    );
-  }
-
-  if (!QUESTIONS.length) {
-    return (
-      <main className="main-layout main-layout--top">
-        <section className="card">
-          <header className="card-header">
-            <div>
-              <div className="badge">Results</div>
-              <h1 className="title">Loading questions…</h1>
-              <p className="subtitle">
-                Fetching the questions for your completed mock test.
-              </p>
-            </div>
-          </header>
-          <div className="test-layout">
-            <div className="test-questions">
-              <Link href="/" className="button-secondary">
-                Back to home
+              <Link href={`/mock-test/${encodeURIComponent(subject)}`} className="button-primary">
+                Start mock test · {subjectLabel}
               </Link>
             </div>
           </div>
@@ -153,9 +143,7 @@ export default function ResultsPage() {
 
   const { timeTakenSeconds, totalQuestions, correctCount, attemptedCount } = result;
   const { correct, wrong, notAttempted, questionStatuses } = summary || {};
-  const attemptedPercent = totalQuestions
-    ? Math.round((attemptedCount / totalQuestions) * 100)
-    : 0;
+  const attemptedPercent = totalQuestions ? Math.round((attemptedCount / totalQuestions) * 100) : 0;
 
   const breakdownCard = (
     <div className="results-metric-card">
@@ -165,10 +153,7 @@ export default function ResultsPage() {
         <span className="status-pill status-pill--wrong">Wrong: {wrong}</span>
         <span className="status-pill status-pill--skipped">Not attempted: {notAttempted}</span>
       </div>
-      <div
-        className="page-section-subtitle"
-        style={{ marginTop: '0.6rem', marginBottom: '0.35rem' }}
-      >
+      <div className="page-section-subtitle" style={{ marginTop: '0.6rem', marginBottom: '0.35rem' }}>
         Test summary
       </div>
       <div className="test-sidebar-summary-row">
@@ -176,22 +161,15 @@ export default function ResultsPage() {
         <span>{attemptedPercent}%</span>
       </div>
       <div className="test-summary-progress">
-        <div
-          className="test-summary-progress-bar"
-          style={{ width: `${attemptedPercent}%` }}
-        />
+        <div className="test-summary-progress-bar" style={{ width: `${attemptedPercent}%` }} />
       </div>
       <div className="question-summary-grid">
-        {QUESTIONS.map((_, index) => {
+        {selectedQuestions.map((_, index) => {
           const status = questionStatuses ? questionStatuses[index] : 'skipped';
           let itemClass = 'question-summary-item';
-          if (status === 'correct') {
-            itemClass += ' question-summary-item--correct';
-          } else if (status === 'wrong') {
-            itemClass += ' question-summary-item--wrong';
-          } else {
-            itemClass += ' question-summary-item--skipped';
-          }
+          if (status === 'correct') itemClass += ' question-summary-item--correct';
+          else if (status === 'wrong') itemClass += ' question-summary-item--wrong';
+          else itemClass += ' question-summary-item--skipped';
 
           const handleJump = () => {
             if (typeof document === 'undefined') return;
@@ -222,11 +200,8 @@ export default function ResultsPage() {
         <header className="card-header">
           <div>
             <div className="badge">Results</div>
-            <h1 className="title">Mock test summary</h1>
-            <p className="subtitle">
-              Review your performance, understand which questions you got right
-              or wrong, and identify topics to revise.
-            </p>
+            <h1 className="title">Mock test summary · {subjectLabel}</h1>
+            <p className="subtitle">Review your performance and revise efficiently.</p>
           </div>
         </header>
 
@@ -253,7 +228,7 @@ export default function ResultsPage() {
               <div className="only-mobile">{breakdownCard}</div>
 
               <div className="results-actions">
-                <Link href="/mock-test" className="button-secondary">
+                <Link href={`/mock-test/${encodeURIComponent(subject)}`} className="button-secondary">
                   Retake mock test
                 </Link>
                 <Link href="/" className="button-primary">
@@ -269,11 +244,10 @@ export default function ResultsPage() {
               </h2>
               <p className="question-text">
                 Options below are read-only: you can&apos;t change any answers here.
-                Use this view purely to analyse your performance.
               </p>
 
               <div className="questions-stack">
-                {QUESTIONS.map((q, index) => {
+                {selectedQuestions.map((q, index) => {
                   const questionNumber = index + 1;
                   const selected = result.answers[index];
                   const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
@@ -295,14 +269,10 @@ export default function ResultsPage() {
                   }
 
                   return (
-                    <div
-                      key={questionNumber}
-                      id={`question-${questionNumber}`}
-                      className="question-block"
-                    >
-                      <div className="question-header results-question-header">
+                    <div key={q.id || questionNumber} id={`question-${questionNumber}`} className="question-block">
+                      <div className="question-header">
                         <span className="badge-soft">
-                          Question {questionNumber} of {QUESTIONS.length}
+                          Question {questionNumber} of {selectedQuestions.length}
                         </span>
                         <span className={statusClass}>{statusLabel}</span>
                       </div>
@@ -332,21 +302,16 @@ export default function ResultsPage() {
 
                       <div className="options-list">
                         {options.map((optionParts, optionIndex) => {
+                          const isSelected = selected === optionIndex;
                           const parts = Array.isArray(optionParts) ? optionParts : [];
-                          const isCorrectOption = optionIndex === correctIndex;
-                          const isSelectedOption = optionIndex === selected;
 
                           let optionClass = 'option-pill option-pill--static';
-                          if (isCorrectOption) {
-                            optionClass += ' option-pill--correct';
-                          }
-                          if (isSelectedOption && !isCorrectOption) {
-                            optionClass += ' option-pill--wrong';
-                          }
+                          if (optionIndex === correctIndex) optionClass += ' option-pill--correct';
+                          else if (isSelected && optionIndex !== correctIndex) optionClass += ' option-pill--wrong';
 
                           return (
                             <div key={optionIndex} className={optionClass}>
-                              <span className="option-circle" />
+                              <span className={`option-circle${isSelected ? ' option-circle--selected' : ''}`} />
                               {parts.map((part, partIndex) => {
                                 if (isImageToken(part)) {
                                   const src = imageTokenToSrc(part, basePathPrefix);
@@ -362,7 +327,6 @@ export default function ResultsPage() {
                                     </div>
                                   );
                                 }
-
                                 return <span key={`o-${partIndex}`}>{part}</span>;
                               })}
                             </div>
@@ -373,12 +337,14 @@ export default function ResultsPage() {
                   );
                 })}
               </div>
+
+              <div className="only-desktop" style={{ marginTop: '1.25rem' }}>
+                {breakdownCard}
+              </div>
             </div>
           </div>
 
-          <aside className="results-sidebar only-desktop">
-            <div className="results-sidebar-panel">{breakdownCard}</div>
-          </aside>
+          <aside className="only-desktop">{breakdownCard}</aside>
         </div>
       </section>
     </main>

@@ -1,6 +1,22 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useMemo, useState } from 'react';
 
 export default function Home() {
+  const router = useRouter();
+  const SUBJECTS = useMemo(
+    () => [
+      { value: 'bio', label: 'Biology' },
+      { value: 'phy', label: 'Physics' },
+    ],
+    []
+  );
+  const [subject, setSubject] = useState(SUBJECTS[0]?.value || 'bio');
+
+  const handleStartMockTest = () => {
+    router.push(`/mock-test/${encodeURIComponent(subject)}`);
+  };
+
   return (
     <main className="main-layout">
       <section className="card">
@@ -21,21 +37,44 @@ export default function Home() {
         </header>
 
         <div className="actions-grid">
-          <Link href="/mock-test">
-            <div className="action-card">
-              <div className="action-label">Option 1</div>
-              <div className="action-title">Take mock test</div>
-              <p className="action-desc">
-                Start an exam-mode session with a visible countdown timer
-                and focused test layout.
-              </p>
-              <div className="chip-row">
-                <span className="chip">Realistic UI</span>
-                <span className="chip">Live timer</span>
-                <span className="chip">Full-screen focus</span>
-              </div>
+          <div className="action-card" role="group" aria-label="Take mock test">
+            <div className="action-label">Option 1</div>
+            <div className="action-title">Take mock test</div>
+            <p className="action-desc">
+              Pick a subject, then start an exam-mode session with a visible countdown timer.
+            </p>
+
+            <div className="filter-group" style={{ marginTop: '0.85rem' }}>
+              <div className="filter-label">Subject</div>
+              <select
+                className="select"
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+              >
+                {SUBJECTS.map((s) => (
+                  <option key={s.value} value={s.value}>
+                    {s.label}
+                  </option>
+                ))}
+              </select>
             </div>
-          </Link>
+
+            <div style={{ marginTop: '0.75rem', display: 'flex' }}>
+              <button
+                type="button"
+                className="button-primary"
+                onClick={handleStartMockTest}
+              >
+                Start
+              </button>
+            </div>
+
+            <div className="chip-row" style={{ marginTop: '0.75rem' }}>
+              <span className="chip">Live timer</span>
+              <span className="chip">Focused layout</span>
+              <span className="chip">Random questions</span>
+            </div>
+          </div>
 
           <Link href="/previous-papers">
             <div className="action-card">
