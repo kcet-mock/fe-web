@@ -9,6 +9,8 @@ const DEFAULT_QUESTION_COUNT = 60;
 const SUBJECTS = [
   { value: 'bio', label: 'Biology' },
   { value: 'phy', label: 'Physics' },
+  { value: 'chem', label: 'Chemistry' },
+  { value: 'mat', label: 'Mathematics' },
 ];
 
 function formatTime(totalSeconds) {
@@ -126,10 +128,12 @@ export async function getStaticProps({ params }) {
   const subject = typeof params?.subject === 'string' ? params.subject : 'bio';
 
   let allIds = [];
-  if (subject === 'phy') {
-    const { ALL_QUESTION_IDS } = await import('../../data/phy/_all.js');
+  try {
+    const { ALL_QUESTION_IDS } = await import(`../../data/${subject}/_all.js`);
     allIds = ALL_QUESTION_IDS;
-  } else {
+  } catch (error) {
+    console.error(`Failed to load questions for subject: ${subject}`, error);
+    // Fallback to biology if subject data not found
     const { ALL_QUESTION_IDS } = await import('../../data/bio/_all.js');
     allIds = ALL_QUESTION_IDS;
   }
