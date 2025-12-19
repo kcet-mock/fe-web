@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1085-7784-bad5-f39538f60f8e",
+  "question": [
+    "The derivative of $\\sin x$ with respect to $\\log x$ is"
+  ],
+  "choices": [
+    [
+      "$\\cos x$"
+    ],
+    [
+      "$x \\cos x$"
+    ],
+    [
+      "$\\cos x \\log x$"
+    ],
+    [
+      "$\\frac{\\cos x}{x}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let $u = \\sin x$, $v = \\log x$.",
+    "We need $du/dv = (du/dx) / (dv/dx)$.",
+    "$du/dx = \\cos x$.",
+    "$dv/dx = 1/x$.",
+    "$du/dv = \\cos x / (1/x) = x \\cos x$."
+  ]
+}

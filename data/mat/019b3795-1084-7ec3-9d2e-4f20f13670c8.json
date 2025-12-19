@@ -1,0 +1,27 @@
+{
+  "id": "019b3795-1084-7ec3-9d2e-4f20f13670c8",
+  "question": [
+    "If $|\\vec{a}|=10$, $|\\vec{b}|=2$ and $\\vec{a}\\cdot\\vec{b}=12$, then the value of $|\\vec{a}\\times\\vec{b}|$ is"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "10"
+    ],
+    [
+      "14"
+    ],
+    [
+      "16"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Lagrange's Identity: $|\\vec{a} \\times \\vec{b}|^2 + (\\vec{a} \\cdot \\vec{b})^2 = |\\vec{a}|^2 |\\vec{b}|^2$.",
+    "$|\\vec{a} \\times \\vec{b}|^2 + 144 = 100 \\times 4 = 400$.",
+    "$|\\vec{a} \\times \\vec{b}|^2 = 400 - 144 = 256$.",
+    "$|\\vec{a} \\times \\vec{b}| = 16$."
+  ]
+}

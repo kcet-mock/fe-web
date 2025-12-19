@@ -1,0 +1,26 @@
+{
+  "id": "019b3795-1083-78c4-8a46-e7d919f36b4a",
+  "question": [
+    "If A is a square matrix such that $A^{2}=A,$ then $(I-A)^{3}$ is"
+  ],
+  "choices": [
+    [
+      "$I-A$"
+    ],
+    [
+      "$A-I$"
+    ],
+    [
+      "$I+A$"
+    ],
+    [
+      "$-I-A$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Expand $(I-A)^3 = I^3 - 3I^2A + 3IA^2 - A^3$.",
+    "Since $A^2 = A$, then $A^3 = A \\cdot A^2 = A \\cdot A = A$.",
+    "Substitute: $I - 3A + 3A - A = I - A$."
+  ]
+}

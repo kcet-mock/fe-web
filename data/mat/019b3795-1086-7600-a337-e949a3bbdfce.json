@@ -1,0 +1,27 @@
+{
+  "id": "019b3795-1086-7600-a337-e949a3bbdfce",
+  "question": [
+    "The area of the region bounded by the curve $y = x^2$ and the line $y = 16$ is"
+  ],
+  "choices": [
+    [
+      "32/3 sq. units"
+    ],
+    [
+      "256/3 sq. units"
+    ],
+    [
+      "64/3 sq. units"
+    ],
+    [
+      "128/3 sq. units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Due to symmetry about y-axis, Area = $2 \\int_0^{16} x dy = 2 \\int_0^{16} \\sqrt{y} dy$.",
+    "$2 [\\frac{2}{3} y^{3/2}]_0^{16} = \\frac{4}{3} (16)^{3/2}$.",
+    "$16^{3/2} = 64$.",
+    "Area = $\\frac{4}{3} \\times 64 = \\frac{256}{3}$."
+  ]
+}

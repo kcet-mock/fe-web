@@ -1,0 +1,30 @@
+{
+  "id": "019b3795-1083-71e1-b16a-08a6a8a44044",
+  "question": [
+    "If $4^{th}$, $10^{th}$ and $16^{th}$ terms of a G.P. are x, y and z respectively, then"
+  ],
+  "choices": [
+    [
+      "$z=\\sqrt{xy}$"
+    ],
+    [
+      "$y=\\sqrt{xz}$"
+    ],
+    [
+      "$x=\\sqrt{yz}$"
+    ],
+    [
+      "$y=\\frac{x+z}{2}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let GP be a, ar, ar^2...",
+    "$x = T_4 = ar^3$.",
+    "$y = T_{10} = ar^9$.",
+    "$z = T_{16} = ar^{15}$.",
+    "Check GP property of indices: 4, 10, 16 are in AP (diff 6).",
+    "So x, y, z are in GP.",
+    "$y^2 = xz \\Rightarrow y = \\sqrt{xz}$."
+  ]
+}

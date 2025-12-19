@@ -1,0 +1,27 @@
+{
+  "id": "019b3795-1084-7c01-9b75-396d45de3d8a",
+  "question": [
+    "The length of the latus rectum of $x^{2} + 3y^{2} = 12$ is"
+  ],
+  "choices": [
+    [
+      "$\\frac{2}{\\sqrt{3}}$ units"
+    ],
+    [
+      "$\\frac{1}{3}$ units"
+    ],
+    [
+      "$\\frac{4}{\\sqrt{3}}$ units"
+    ],
+    [
+      "$\\frac{2}{4}$ units"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Standard form: Divide by 12. $\\frac{x^2}{12} + \\frac{y^2}{4} = 1$.",
+    "$a^2 = 12, b^2 = 4$. Since $a > b$, ellipse is horizontal.",
+    "Length of Latus Rectum = $\\frac{2b^2}{a}$.",
+    "$L = \\frac{2(4)}{\\sqrt{12}} = \\frac{8}{2\\sqrt{3}} = \\frac{4}{\\sqrt{3}}$."
+  ]
+}

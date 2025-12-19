@@ -1,0 +1,27 @@
+{
+  "id": "019b3795-1086-7ca3-b8f6-08d2e17e5ad3",
+  "question": [
+    "General solution of the differential equation $\\frac{dy}{dx} + y \\tan x = \\sec x$ is"
+  ],
+  "choices": [
+    [
+      "$y \\sec x = \\tan x + c$"
+    ],
+    [
+      "$y \\tan x = \\sec x + c$"
+    ],
+    [
+      "$\\csc x = y \\tan x + c$"
+    ],
+    [
+      "$x \\sec x = \\tan y + c$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "IF = $e^{\\int \\tan x dx} = e^{\\log \\sec x} = \\sec x$.",
+    "Solution: $y(\\text{IF}) = \\int Q(\\text{IF}) dx$.",
+    "$y \\sec x = \\int \\sec x \\cdot \\sec x dx = \\int \\sec^2 x dx$.",
+    "$y \\sec x = \\tan x + c$."
+  ]
+}

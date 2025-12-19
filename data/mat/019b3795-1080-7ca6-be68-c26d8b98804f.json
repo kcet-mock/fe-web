@@ -1,0 +1,31 @@
+{
+  "id": "019b3795-1080-7ca6-be68-c26d8b98804f",
+  "question": [
+    "Domain of the function f, given by $f(x)=\\frac{1}{\\sqrt{(x-2)(x-5)}}$ is"
+  ],
+  "choices": [
+    [
+      "$(-\\infty,2]\\cup[5,\\infty)$"
+    ],
+    [
+      "$(-\\infty,2)\\cup(5,\\infty)$"
+    ],
+    [
+      "$(-\\infty,3)\\cup[5,\\infty)$"
+    ],
+    [
+      "$(-\\infty,3]\\cup(5,\\infty)$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For the function to be defined, the expression inside the square root in the denominator must be strictly positive.",
+    "$(x-2)(x-5) > 0$.",
+    "The critical points are 2 and 5.",
+    "For $x < 2$, both factors are negative, product is positive.",
+    "For $2 < x < 5$, one is positive, one is negative, product is negative.",
+    "For $x > 5$, both are positive, product is positive.",
+    "Since it is in the denominator, it cannot be zero, so we use open intervals.",
+    "Domain is $(-\\infty, 2) \\cup (5, \\infty)$."
+  ]
+}

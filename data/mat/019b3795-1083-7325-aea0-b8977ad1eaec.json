@@ -1,0 +1,26 @@
+{
+  "id": "019b3795-1083-7325-aea0-b8977ad1eaec",
+  "question": [
+    "The number of diagonals that can be drawn in an octagon is"
+  ],
+  "choices": [
+    [
+      "15"
+    ],
+    [
+      "20"
+    ],
+    [
+      "28"
+    ],
+    [
+      "12"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Formula for diagonals in n-sided polygon: $\\frac{n(n-3)}{2}$.",
+    "For octagon, n=8.",
+    "$\\frac{8(8-3)}{2} = \\frac{8 \\times 5}{2} = \\frac{40}{2} = 20$."
+  ]
+}

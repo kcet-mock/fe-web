@@ -1,0 +1,25 @@
+{
+  "id": "019b3795-1086-7506-aeab-5cdb087e1fbd",
+  "question": [
+    "The distance of the point P(-3, 4, 5) from yz plane is"
+  ],
+  "choices": [
+    [
+      "4 units"
+    ],
+    [
+      "5 units"
+    ],
+    [
+      "-3 units"
+    ],
+    [
+      "3 units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Distance of point $(x, y, z)$ from yz-plane is $|x|$.",
+    "$| -3 | = 3$."
+  ]
+}

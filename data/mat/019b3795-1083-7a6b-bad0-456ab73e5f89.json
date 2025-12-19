@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1083-7a6b-bad0-456ab73e5f89",
+  "question": [
+    "If A and B are two matrices such that AB is an identity matrix and the order of matrix B is $3\\times4$, then the order of matrix A is"
+  ],
+  "choices": [
+    [
+      "$3\\times4$"
+    ],
+    [
+      "$3\\times3$"
+    ],
+    [
+      "$4\\times3$"
+    ],
+    [
+      "$4\\times4$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Let order of A be $m \\times n$. Order of B is $3 \\times 4$.",
+    "For AB to exist, $n = 3$.",
+    "The result AB has order $m \\times 4$.",
+    "Since AB = Identity matrix, it must be square. So $m = 4$.",
+    "Order of A is $4 \\times 3$."
+  ]
+}

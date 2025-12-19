@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1086-799a-8e26-dbd4e980bee7",
+  "question": [
+    "$\\int_{0}^{1} \\log(\\frac{1}{x} - 1) dx$ is"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "$\\log_e 2$"
+    ],
+    [
+      "$\\log(\\frac{1}{2})$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "$\\log(1/x - 1) = \\log(\\frac{1-x}{x}) = \\log(1-x) - \\log x$.",
+    "Use property $\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$.",
+    "Let I = $\\int \\log(1-x) - \\log x$.",
+    "Replace x with 1-x: $\\int \\log(1-(1-x)) - \\log(1-x) = \\int \\log x - \\log(1-x) = -I$.",
+    "So $I = -I \\Rightarrow 2I = 0 \\Rightarrow I = 0$."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b3795-1081-79c7-9fea-85a22497ee81",
+  "question": [
+    "The mean deviation about the mean for the data 4, 7, 8, 9, 10, 12, 13, 17 is"
+  ],
+  "choices": [
+    [
+      "10"
+    ],
+    [
+      "3"
+    ],
+    [
+      "8.5"
+    ],
+    [
+      "4.03"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Calculate Mean ($\\mu$): $(4+7+8+9+10+12+13+17) / 8 = 80 / 8 = 10$.",
+    "Calculate deviations $|x_i - \\mu|$: $|4-10|=6, |7-10|=3, |8-10|=2, |9-10|=1, |10-10|=0, |12-10|=2, |13-10|=3, |17-10|=7$.",
+    "Sum of deviations: $6+3+2+1+0+2+3+7 = 24$.",
+    "Mean Deviation: $\\frac{1}{N} \\sum |x_i - \\mu| = 24 / 8 = 3$."
+  ]
+}

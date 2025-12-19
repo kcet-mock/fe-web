@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1081-7d5b-acaf-aa151cbd6c32",
+  "question": [
+    "Consider the following statements:",
+    "Statement (I): In a LPP, the objective function is always linear.",
+    "Statement (II): In a LPP, the linear inequalities on variables are called constraints.",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true, Statement (II) is true"
+    ],
+    [
+      "Statement (I) is true, Statement (II) is false"
+    ],
+    [
+      "Both Statements (I) and (II) are false"
+    ],
+    [
+      "Statement (I) is false, Statement (II) is true"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement I: By definition, Linear Programming Problems involve a linear objective function. True.",
+    "Statement II: The restrictions in the form of linear inequalities are indeed called constraints. True."
+  ]
+}

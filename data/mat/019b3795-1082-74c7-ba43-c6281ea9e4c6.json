@@ -1,0 +1,25 @@
+{
+  "id": "019b3795-1082-74c7-ba43-c6281ea9e4c6",
+  "question": [
+    "If $Z_{1}$ and $Z_{2}$ are two non-zero complex numbers, then which of the following is not true?"
+  ],
+  "choices": [
+    [
+      "$\\overline{Z_{1}+Z_{2}}=\\overline{Z_{1}}+\\overline{Z_{2}}$"
+    ],
+    [
+      "$|Z_{1}Z_{2}|=|Z_{1}|.|Z_{2}|$"
+    ],
+    [
+      "$\\overline{Z_{1}Z_{2}}=\\overline{Z_{1}}.\\overline{Z_{2}}$"
+    ],
+    [
+      "$|Z_{1}+Z_{2}|\\ge|Z_{1}|+|Z_{2}|$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Triangle inequality states $|Z_1 + Z_2| \\le |Z_1| + |Z_2|$.",
+    "Option (4) claims $\\ge$, which is generally false (unless collinear in same direction, but 'not true' implies checking for general validity)."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "019b3795-1081-7a9b-85c7-f9e96f0c81ff",
+  "question": [
+    "Let the functions \"f\" and \"g\" be $f:[0,\\frac{\\pi}{2}]\\rightarrow R$ given by $f(x)=\\sin x$ and $g:[0,\\frac{\\pi}{2}]\\rightarrow R$ given by $g(x)=\\cos x$.",
+    "Consider the following statements:",
+    "Statement (I): f and g are one-one",
+    "Statement (II): $f+g$ is one-one",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true, statement (II) is false"
+    ],
+    [
+      "Statement (I) is false, statement (II) is true"
+    ],
+    [
+      "Both statements (I) and (II) are true"
+    ],
+    [
+      "Both statements (I) and (II) are false"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In $[0, \\pi/2]$, $\\sin x$ is strictly increasing, so f is one-one. $\\cos x$ is strictly decreasing, so g is one-one. Statement I is True.",
+    "Consider $h(x) = f(x) + g(x) = \\sin x + \\cos x$.",
+    "$h(0) = 0 + 1 = 1$.",
+    "$h(\\pi/2) = 1 + 0 = 1$.",
+    "Since $h(0) = h(\\pi/2)$, $f+g$ is not one-one. Statement II is False."
+  ]
+}

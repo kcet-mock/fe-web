@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1084-7920-9b9a-5207cf42128d",
+  "question": [
+    "Consider the following statements:",
+    "Statement (I): If either $|\\vec{a}|=0$ or $|\\vec{b}|=0$, then $\\vec{a}\\cdot\\vec{b}=0$",
+    "Statement (II): If $\\vec{a}\\times\\vec{b}=\\vec{0}$, then $\\vec{a}$ is perpendicular to $\\vec{b}$.",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true but Statement (II) is false"
+    ],
+    [
+      "Statement (I) is false but Statement (II) is true"
+    ],
+    [
+      "Both Statement (I) and Statement (II) is true"
+    ],
+    [
+      "Both Statement (I) and Statement (II) is false"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement I: If magnitude is 0, vector is zero vector. Dot product with zero vector is 0. True.",
+    "Statement II: Cross product is zero implies vectors are parallel (or one is zero), not perpendicular. False."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1082-704c-9fca-301ea6526608",
+  "question": [
+    "If A and B are two events such that $A \\subset B$ and $P(B) \\ne 0$ then which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "$P(A|B) = \\frac{P(B)}{P(A)}$"
+    ],
+    [
+      "$P(A|B) < P(A)$"
+    ],
+    [
+      "$P(A|B) \\ge P(A)$"
+    ],
+    [
+      "$P(A) = P(B)$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Since $A \\subset B$, $A \\cap B = A$.",
+    "$P(A|B) = P(A \\cap B) / P(B) = P(A) / P(B)$.",
+    "Since $P(B) \\le 1$, $1/P(B) \\ge 1$.",
+    "Therefore, $P(A)/P(B) \\ge P(A)$.",
+    "So $P(A|B) \\ge P(A)$."
+  ]
+}

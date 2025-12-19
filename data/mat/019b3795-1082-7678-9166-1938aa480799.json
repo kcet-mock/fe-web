@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1082-7678-9166-1938aa480799",
+  "question": [
+    "Consider the following statements.",
+    "Statement (I): If E and F are two independent events, then E' and F' are also independent.",
+    "Statement (II): Two mutually exclusive events with non-zero probabilities of occurrence cannot be independent.",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true and statement (II) is false"
+    ],
+    [
+      "Statement (I) is false and statement (II) is true"
+    ],
+    [
+      "Both the statements are true"
+    ],
+    [
+      "Both the statements are false"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Statement I: Standard property of independent events. If P(E \\cap F) = P(E)P(F), then P(E' \\cap F') = P(E')P(F') holds. True.",
+    "Statement II: If mutually exclusive, $P(A \\cap B) = 0$. If independent, $P(A \\cap B) = P(A)P(B)$. Since probabilities are non-zero, $P(A)P(B) \\neq 0$. Thus they cannot be equal. Mutually exclusive events (non-empty) are dependent. True."
+  ]
+}

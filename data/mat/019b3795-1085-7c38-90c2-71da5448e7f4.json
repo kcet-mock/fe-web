@@ -1,0 +1,26 @@
+{
+  "id": "019b3795-1085-7c38-90c2-71da5448e7f4",
+  "question": [
+    "The minimum value of $1 - \\sin x$ is"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Range of $\\sin x$ is [-1, 1].",
+    "Minimum value of $1 - \\sin x$ occurs when $\\sin x$ is maximum (1).",
+    "$1 - 1 = 0$."
+  ]
+}

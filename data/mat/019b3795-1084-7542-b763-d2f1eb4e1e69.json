@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1084-7542-b763-d2f1eb4e1e69",
+  "question": [
+    "The system of equations $4x+6y=5$ and $8x+12y=10$ has"
+  ],
+  "choices": [
+    [
+      "No solution"
+    ],
+    [
+      "Infinitely many solutions"
+    ],
+    [
+      "A unique solution"
+    ],
+    [
+      "Only two solutions"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Check ratios of coefficients:",
+    "$a_1/a_2 = 4/8 = 1/2$.",
+    "$b_1/b_2 = 6/12 = 1/2$.",
+    "$c_1/c_2 = 5/10 = 1/2$.",
+    "Since all ratios are equal, the lines are coincident. Infinitely many solutions."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "019b3795-1084-74f0-8822-da417bdd1ca4",
+  "question": [
+    "If a line makes angles 90°, 60° and $\\theta$ with x, y and z axes respectively, where $\\theta$ is acute, then the value of $\\theta$ is"
+  ],
+  "choices": [
+    [
+      "$\\frac{\\pi}{6}$"
+    ],
+    [
+      "$\\frac{\\pi}{4}$"
+    ],
+    [
+      "$\\frac{\\pi}{3}$"
+    ],
+    [
+      "$\\frac{\\pi}{2}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Direction cosines relation: $\\cos^2 \\alpha + \\cos^2 \\beta + \\cos^2 \\gamma = 1$.",
+    "$\\cos^2 90^\\circ + \\cos^2 60^\\circ + \\cos^2 \\theta = 1$.",
+    "$0 + (1/2)^2 + \\cos^2 \\theta = 1$.",
+    "$1/4 + \\cos^2 \\theta = 1 \\Rightarrow \\cos^2 \\theta = 3/4$.",
+    "$\\cos \\theta = \\frac{\\sqrt{3}}{2}$ (acute).",
+    "$\\theta = 30^\\circ = \\pi/6$."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b3795-1086-7713-88bc-4c3f1a449844",
+  "question": [
+    "The value of $\\int_{-1}^{1} \\sin^5 x \\cos^4 x dx$ is"
+  ],
+  "choices": [
+    [
+      "$-\\pi/2$"
+    ],
+    [
+      "$\\pi$"
+    ],
+    [
+      "$\\pi/2$"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let $f(x) = \\sin^5 x \\cos^4 x$.",
+    "$f(-x) = (-\\sin x)^5 (\\cos x)^4 = -\\sin^5 x \\cos^4 x = -f(x)$.",
+    "The function is odd.",
+    "Integral of an odd function over symmetric interval [-a, a] is 0."
+  ]
+}

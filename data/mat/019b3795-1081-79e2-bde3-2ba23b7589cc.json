@@ -1,0 +1,29 @@
+{
+  "id": "019b3795-1081-79e2-bde3-2ba23b7589cc",
+  "question": [
+    "Let $A=\\{a,b,c\\}$, then the number of equivalence relations on A containing (b, c) is"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "3"
+    ],
+    [
+      "2"
+    ],
+    [
+      "4"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Relation must be reflexive: contains (a,a), (b,b), (c,c).",
+    "Must contain (b,c). By symmetry, must contain (c,b).",
+    "Case 1: $R_1 = \\{(a,a), (b,b), (c,c), (b,c), (c,b)\\}$. This is transitive. (1 relation)",
+    "Case 2: Add (a,b). Must add (b,a). By transitivity with (b,c), must add (a,c) and (c,a).",
+    "$R_2 = A \\times A$ (Universal relation).",
+    "Any intermediate relation fails transitivity. So there are exactly 2 relations."
+  ]
+}

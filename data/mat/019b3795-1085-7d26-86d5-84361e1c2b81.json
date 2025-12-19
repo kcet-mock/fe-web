@@ -1,0 +1,28 @@
+{
+  "id": "019b3795-1085-7d26-86d5-84361e1c2b81",
+  "question": [
+    "The value of $\\int \\frac{dx}{(x+1)(x+2)}$ is"
+  ],
+  "choices": [
+    [
+      "$\\log |x+1| - \\log |x+2| + c$"
+    ],
+    [
+      "$\\log |x+2| - \\log |x+1| + c$"
+    ],
+    [
+      "$\\log |x+2| + \\log |x+1| + c$"
+    ],
+    [
+      "$\\log |\\frac{x+1}{x+2}| + c$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Partial fractions: $\\frac{1}{(x+1)(x+2)} = \\frac{A}{x+1} + \\frac{B}{x+2}$.",
+    "$1 = A(x+2) + B(x+1)$.",
+    "x=-1: A=1.",
+    "x=-2: B=-1.",
+    "$\\int (\\frac{1}{x+1} - \\frac{1}{x+2}) dx = \\log |x+1| - \\log |x+2| + c = \\log |\\frac{x+1}{x+2}| + c$."
+  ]
+}
