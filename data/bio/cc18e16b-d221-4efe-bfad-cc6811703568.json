@@ -1,10 +1,9 @@
 {
-  "answer": 4,
   "id": "cc18e16b-d221-4efe-bfad-cc6811703568",
   "question": [
     "In nephron, transport of substances: like sodium chloride and urea is facilitated by the special arrangement called counter current mechanism that comprises of"
   ],
-  "options": [
+  "choices": [
     [
       "Henle's loop and glomerulus"
     ],
@@ -17,5 +16,6 @@
     [
       "Henle's loop and Vasa Recta"
     ]
-  ]
+  ],
+  "correctAnswer": 3
 }

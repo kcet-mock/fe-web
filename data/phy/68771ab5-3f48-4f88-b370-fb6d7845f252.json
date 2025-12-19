@@ -3,7 +3,7 @@
   "question": [
     "Which of the following statements is true in respect of diamagnetic susbtances?"
   ],
-  "options": [
+  "choices": [
     [
       "They are feebly attracted by magnets"
     ],
@@ -17,5 +17,5 @@
       "Susceptibility is small and negative"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

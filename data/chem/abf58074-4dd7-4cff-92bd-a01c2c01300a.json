@@ -4,7 +4,7 @@
     "The major product formed when 1 – Bromo – 3 – Chlorocyclobutane reacts with metallic sodium in dry",
     "ether is"
   ],
-  "options": [
+  "choices": [
     [
       ""
     ],
@@ -15,5 +15,5 @@
       ""
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

@@ -86,8 +86,8 @@ export default function InternalQuestionsListPage() {
                     if (!id) return null;
 
                     const questionParts = Array.isArray(q.question) ? q.question : [];
-                    const options = Array.isArray(q.options) ? q.options : [];
-                    const answer = typeof q.answer === 'number' ? q.answer : null;
+                    const options = Array.isArray(q.choices) ? q.choices : [];
+                    const answer = typeof q.correctAnswer === 'number' ? q.correctAnswer : null;
 
                     return (
                       <div

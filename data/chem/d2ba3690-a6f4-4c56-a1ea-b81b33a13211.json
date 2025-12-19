@@ -3,7 +3,7 @@
   "question": [
     "A member of the Lanthanoid series which is well known to exhibit +4 oxidation state is"
   ],
-  "options": [
+  "choices": [
     [
       "Samarium"
     ],
@@ -17,5 +17,5 @@
       "Cerium"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

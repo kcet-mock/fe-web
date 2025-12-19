@@ -4,7 +4,7 @@
     "Two fly wheels are connected by a non-slipping belt as shown in the figure. $I_1 = 4 kg m^2$, $r_1 = 20cm$, $I_2 = 20 kg m^2$ and $r_2 = 30cm$. A torque of 10 Nm is applied on the smaller wheel. Then match the entries of column I with appropriate entries of column II.",
     "images/q6_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "a-ii, b-iii, c-i"
     ],
@@ -18,5 +18,5 @@
       "a-iii, b-ii, c-i"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

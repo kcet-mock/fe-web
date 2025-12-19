@@ -3,7 +3,7 @@
   "question": [
     "In the following pairs, the one in which both transition metal ions are colourless is"
   ],
-  "options": [
+  "choices": [
     [
       "Sc3+, Zn2+"
     ],
@@ -17,5 +17,5 @@
       "Ti4+, Cu2+"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

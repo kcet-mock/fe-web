@@ -7,7 +7,7 @@
     "Which of the following doesn’t form triad?",
     "images/f0bd648d-5e30-4d2d-a9b9-23a45fea6cf5.png"
   ],
-  "options": [
+  "choices": [
     [
       "Ba, Sr, Ca"
     ],
@@ -21,5 +21,5 @@
       "Li, Na, K"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

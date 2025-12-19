@@ -3,7 +3,7 @@
   "question": [
     "Catalysts are used to increase the rate of a chemical reaction. Because it"
   ],
-  "options": [
+  "choices": [
     [
       "Increases the activation energy of the reaction"
     ],
@@ -17,5 +17,5 @@
       "Increases the potential energy barrier"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

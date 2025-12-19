@@ -9,7 +9,7 @@
     "(IV) Aryl Diazonium salts (d) Conversion to alcohols",
     "images/4a8a875d-4f2f-4971-91c7-c64b8fbd7049.png"
   ],
-  "options": [
+  "choices": [
     [
       "I – c, II – b, III – a, IV – d"
     ],
@@ -23,5 +23,5 @@
       "I – b, II – a, III – d, IV – c"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

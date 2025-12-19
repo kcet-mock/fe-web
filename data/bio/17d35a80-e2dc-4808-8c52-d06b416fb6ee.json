@@ -1,10 +1,9 @@
 {
-  "answer": 4,
   "id": "17d35a80-e2dc-4808-8c52-d06b416fb6ee",
   "question": [
     "Choose the correct sequence of sperm transport during ejaculation"
   ],
-  "options": [
+  "choices": [
     [
       "Seminiferous tubules → rete testis → epididymis → vasa efferentia → vas deferens → ejaculatory duct"
     ],
@@ -17,5 +16,6 @@
     [
       "Seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct"
     ]
-  ]
+  ],
+  "correctAnswer": 3
 }

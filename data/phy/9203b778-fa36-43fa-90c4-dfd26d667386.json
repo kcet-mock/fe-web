@@ -4,7 +4,7 @@
     "If AB is incident plane wave front then refracted wave front in ($n_2 > n_1$)",
     "images/q46_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "Diagram 1"
     ],
@@ -18,5 +18,5 @@
       "Diagram 4"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

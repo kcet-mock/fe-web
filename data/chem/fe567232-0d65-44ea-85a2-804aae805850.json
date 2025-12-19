@@ -4,7 +4,7 @@
     "Oxidation of Toluene with chromyl chloride followed by hydrolysis gives Benzaldehyde. This reaction is",
     "known as _______"
   ],
-  "options": [
+  "choices": [
     [
       "Etard Reaction"
     ],
@@ -18,5 +18,5 @@
       "Cannizzaro Reaction"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

@@ -3,7 +3,7 @@
   "question": [
     "Which of the following statements is not true?"
   ],
-  "options": [
+  "choices": [
     [
       "Work done to move a charge on an equipotential surface is not zero"
     ],
@@ -17,5 +17,5 @@
       "Electric field is always perpendicular to an equipotential surfaces."
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

@@ -3,7 +3,7 @@
   "question": [
     "The range of electrical conductivity ($\\sigma$) and resistivity ($\\rho$) for metals, among the following, is"
   ],
-  "options": [
+  "choices": [
     [
       "$\\rho \\to 10^{-5}$ to $10^{-6}$, $\\sigma \\to 10^5$ to $10^6$"
     ],
@@ -17,5 +17,5 @@
       "$\\rho \\to 10^{-2}$ to $10^{-8}$, $\\sigma \\to 10^2$ to $10^8$"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

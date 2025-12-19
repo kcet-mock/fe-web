@@ -1,11 +1,10 @@
 {
-  "answer": 1,
   "id": "68764b0a-9d80-4a0a-9b82-15611e1a0f28",
   "question": [
     "The students identify the given pedigree chart as (Pedigree chart data is not included in the source text, only the question is available)",
     "images/90cfa405-4e3e-4b81-a061-0156baeb44c0.png"
   ],
-  "options": [
+  "choices": [
     [
       "Autosomal recessive"
     ],
@@ -18,5 +17,6 @@
     [
       "Autosomal dominant"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }

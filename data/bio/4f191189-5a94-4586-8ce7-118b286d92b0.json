@@ -1,10 +1,9 @@
 {
-  "answer": 3,
   "id": "4f191189-5a94-4586-8ce7-118b286d92b0",
   "question": [
     "Some strains of Bacillus thuringiensis produce proteins that kill insects. Which one of the following is not killed by proteins of Bacillus thuringiensis?"
   ],
-  "options": [
+  "choices": [
     [
       "Armyworm"
     ],
@@ -17,5 +16,6 @@
     [
       "Tobacco budworm"
     ]
-  ]
+  ],
+  "correctAnswer": 2
 }

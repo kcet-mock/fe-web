@@ -1,10 +1,9 @@
 {
-  "answer": 2,
   "id": "39118820-d5e4-4ad7-8523-96c3160c457d",
   "question": [
     "In mature insulin, which of the peptide is not present?"
   ],
-  "options": [
+  "choices": [
     [
       "B-peptide"
     ],
@@ -17,5 +16,6 @@
     [
       "A-peptide"
     ]
-  ]
+  ],
+  "correctAnswer": 1
 }

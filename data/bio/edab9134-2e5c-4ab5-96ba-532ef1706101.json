@@ -1,10 +1,9 @@
 {
-  "answer": 1,
   "id": "edab9134-2e5c-4ab5-96ba-532ef1706101",
   "question": [
     "A student observed the slide of mitosis under the microscope and observed that the chromosomes were placed at the opposite poles. Which stage was the student observing?"
   ],
-  "options": [
+  "choices": [
     [
       "Anaphase"
     ],
@@ -17,5 +16,6 @@
     [
       "Prophase"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }

@@ -3,7 +3,7 @@
   "question": [
     "If the radius of first Bohr orbit is r, then the radius of the second Bohr orbit will be"
   ],
-  "options": [
+  "choices": [
     [
       "8r"
     ],
@@ -17,5 +17,5 @@
       "2r"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

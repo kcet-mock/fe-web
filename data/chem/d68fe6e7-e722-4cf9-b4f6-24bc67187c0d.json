@@ -6,7 +6,7 @@
     "(a) Increasing the concentration of CO (b) Increasing the concentration of 2H O",
     "(c) Decreasing the concentration of 4CH (d) Decreasing the concentration of 2H"
   ],
-  "options": [
+  "choices": [
     [
       "a and c"
     ],
@@ -20,5 +20,5 @@
       "a and b"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

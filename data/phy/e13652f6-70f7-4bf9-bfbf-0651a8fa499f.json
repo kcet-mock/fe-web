@@ -3,7 +3,7 @@
   "question": [
     "If $v_p, L_p$ and $r_a, v_a, L_a$ are radii, velocities and angular momenta of a planet at perihelion and aphelion of its elliptical orbit around the Sun respectively, then"
   ],
-  "options": [
+  "choices": [
     [
       "$r_p > r_a, v_p > v_a, L_a > L_p$"
     ],
@@ -17,5 +17,5 @@
       "$r_p < r_a, v_p < v_a, L_a < L_p$"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

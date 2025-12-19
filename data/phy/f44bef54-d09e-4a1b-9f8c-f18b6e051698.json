@@ -4,7 +4,7 @@
     "A metallic sphere of radius R carrying a charge q is kept at certain distance from another metallic sphere of radius R/4 carrying a charge Q. What is the electric flux at any point inside the metallic sphere of radius R due to the sphere of radius R/4?",
     "images/q16_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "$\\frac{q}{\\epsilon_0}$"
     ],
@@ -18,5 +18,5 @@
       "$\\frac{Q}{\\epsilon_0}$"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

@@ -4,7 +4,7 @@
     "If r and r1 denotes the angles inside the prism having angle of prism $50^{\\circ}$ considering that during interval of time from t = 0 to t = t, r varies with time as $r = 10^{\\circ} + t$. During the time r1 will vary with time as",
     "images/q45_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "$40^{\\circ} + t$"
     ],
@@ -18,5 +18,5 @@
       "$40^{\\circ} - t$"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

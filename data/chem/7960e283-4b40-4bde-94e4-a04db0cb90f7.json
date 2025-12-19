@@ -3,7 +3,7 @@
   "question": [
     "Ethyl alcohol is heated with concentrated sulphuric acid at 413 K. The major product"
   ],
-  "options": [
+  "choices": [
     [
       "2 5 2 5C H O C H "
     ],
@@ -17,5 +17,5 @@
       "3 2 5CH COOC H"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

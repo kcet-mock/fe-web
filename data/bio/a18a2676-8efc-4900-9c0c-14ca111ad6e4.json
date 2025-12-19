@@ -1,10 +1,9 @@
 {
-  "answer": 4,
   "id": "a18a2676-8efc-4900-9c0c-14ca111ad6e4",
   "question": [
     "In which of the following, HIV replicates and produces its progeny viruses?"
   ],
-  "options": [
+  "choices": [
     [
       "Memory T-lymphocytes"
     ],
@@ -17,5 +16,6 @@
     [
       "Helper T-lymphocytes"
     ]
-  ]
+  ],
+  "correctAnswer": 3
 }

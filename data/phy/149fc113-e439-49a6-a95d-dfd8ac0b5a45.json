@@ -4,7 +4,7 @@
     "The variations of resistivity $\\rho$ with absolute temperature T for three different materials X, Y and Z are shown in the graph below. Identify the materials X, Y and Z.",
     "images/q25_graph.png"
   ],
-  "options": [
+  "choices": [
     [
       "X copper, Y - semiconductor, Z - nichrome"
     ],
@@ -18,5 +18,5 @@
       "X copper, Y - nichrome, Z - semiconductor"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

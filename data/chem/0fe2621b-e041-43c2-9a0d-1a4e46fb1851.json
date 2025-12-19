@@ -9,7 +9,7 @@
     "(IV) Picric acid  (d) 7.1",
     "images/0fe2621b-e041-43c2-9a0d-1a4e46fb1851.png"
   ],
-  "options": [
+  "choices": [
     [
       "I – c, II – d, III – a, IV – b"
     ],
@@ -23,5 +23,5 @@
       "I – b, II – a, III – d, IV – c"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

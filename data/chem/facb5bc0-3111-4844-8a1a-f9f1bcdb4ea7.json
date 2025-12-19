@@ -11,7 +11,7 @@
     "Choose the correct answer from the options given below.",
     "images/facb5bc0-3111-4844-8a1a-f9f1bcdb4ea7.png"
   ],
-  "options": [
+  "choices": [
     [
       "a-iv, b-iii, c-ii, d-i"
     ],
@@ -25,5 +25,5 @@
       "a-iii, b-ii, c-i, d-iv"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

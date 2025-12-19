@@ -4,7 +4,7 @@
     "In the following circuit, the terminal voltage across the cell is",
     "images/q23_circuit.png"
   ],
-  "options": [
+  "choices": [
     [
       "1.68 V"
     ],
@@ -18,5 +18,5 @@
       "0.52 V"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

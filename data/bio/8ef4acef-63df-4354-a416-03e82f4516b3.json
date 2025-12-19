@@ -4,7 +4,7 @@
     "Match the hormone with its site of production:",
     "images/f17c1277-d884-45e7-bbd6-279e262ea4cf.png"
   ],
-  "options": [
+  "choices": [
     [
       "a-iii, b-i, c-iv, d-ii"
     ],
@@ -18,5 +18,5 @@
       "a-ii, b-iii, c-iv, d-i"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

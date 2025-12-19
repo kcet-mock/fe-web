@@ -4,7 +4,7 @@
     "The IUPAC name of the given organic compound is",
     "2 HC C CH CH CH CH    "
   ],
-  "options": [
+  "choices": [
     [
       "Hexa – 1 – yn – 3,5 – diene"
     ],
@@ -18,5 +18,5 @@
       "Hexa – 3,5 – dien – 1 – yne"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

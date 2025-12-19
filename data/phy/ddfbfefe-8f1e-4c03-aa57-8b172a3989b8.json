@@ -3,7 +3,7 @@
   "question": [
     "The total energy carried by the light wave when it travels from a rarer to a non-reflecting and non absorbing medium"
   ],
-  "options": [
+  "choices": [
     [
       "remains same"
     ],
@@ -17,5 +17,5 @@
       "decreases"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

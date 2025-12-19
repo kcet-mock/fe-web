@@ -3,7 +3,7 @@
   "question": [
     "If we consider an electron and a photon of same de-Broglie wavelength, then they will have same"
   ],
-  "options": [
+  "choices": [
     [
       "Angular momentum"
     ],
@@ -17,5 +17,5 @@
       "Momentum"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

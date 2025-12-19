@@ -3,7 +3,7 @@
   "question": [
     "In the reaction between hydrogen sulphide and acidified permanganate solution,"
   ],
-  "options": [
+  "choices": [
     [
       "H 2S is reduced to S, 4MnO is oxidised to 2Mn"
     ],
@@ -17,5 +17,5 @@
       "H 2S is oxidised to S, 4MnO is reduced to 2Mn"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

@@ -4,7 +4,7 @@
     "Two cells of emfs $E_1$ and $E_2$ and internal resistances $r_1$ and $r_2$ $(E_2 > E_1$ and $r_2 > r_1)$ respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is $E_{eq}$. Then",
     "images/q24_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "$E_1 < E_{eq} < E_2$ and $E_{eq}$ is nearer $E_2$"
     ],
@@ -18,5 +18,5 @@
       "$E_1 < E_{eq} < E_2$ and $E_{eq}$ is nearer $E_1$"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

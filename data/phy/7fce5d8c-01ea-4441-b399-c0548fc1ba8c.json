@@ -4,7 +4,7 @@
     "The graph between variation of resistance of a metal wire as a function of its diameter keeping other parameters like length and temperature constant is",
     "images/q27_graphs.png"
   ],
-  "options": [
+  "choices": [
     [
       "Graph 1"
     ],
@@ -18,5 +18,5 @@
       "Graph 4"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

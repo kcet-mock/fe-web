@@ -1,10 +1,9 @@
 {
-  "answer": 1,
   "id": "a9894f47-b5cd-4c5e-9534-3770dab1e27d",
   "question": [
     "Which of the following statements are correct with reference to prokaryotic genome? (a) Monocistronic structural genes (b) Introns absent in structural genes (c) Transcription and translation are coupled processes (d) Primary transcript undergoes splicing (e) Only one RNA polymerase is present. Choose the correct option."
   ],
-  "options": [
+  "choices": [
     [
       "Only b, c and e are correct"
     ],
@@ -17,5 +16,6 @@
     [
       "Only a, b and d are correct"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }

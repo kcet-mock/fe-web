@@ -6,7 +6,7 @@
     "II. The linear momentum is conserved.",
     "III. The kinetic energy during $\\Delta t$ (the collision time) is not conserved."
   ],
-  "options": [
+  "choices": [
     [
       "II and III only"
     ],
@@ -20,5 +20,5 @@
       "I and II only"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

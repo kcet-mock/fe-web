@@ -3,7 +3,7 @@
   "question": [
     "The organic compound  can be classified as ________________"
   ],
-  "options": [
+  "choices": [
     [
       "Allylic halide"
     ],
@@ -17,5 +17,5 @@
       "Alkyl halide"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

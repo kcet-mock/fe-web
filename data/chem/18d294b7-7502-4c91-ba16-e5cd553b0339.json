@@ -6,7 +6,7 @@
     "Benzaldehyde.",
     "Among the above statements, identify the correct statement."
   ],
-  "options": [
+  "choices": [
     [
       "Both statements – I and II are false"
     ],
@@ -20,5 +20,5 @@
       "Both statements – I and II are true."
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

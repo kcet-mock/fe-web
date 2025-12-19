@@ -99,7 +99,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
 
     selectedQuestions.forEach((q, index) => {
       const selected = answers[index];
-      const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
+      const correctIndex = typeof q.correctAnswer === 'number' ? q.correctAnswer : -1;
 
       if (selected === undefined) {
         notAttempted += 1;
@@ -250,8 +250,8 @@ export default function ResultsSubjectPage({ subject, questions }) {
                 {selectedQuestions.map((q, index) => {
                   const questionNumber = index + 1;
                   const selected = result.answers[index];
-                  const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
-                  const options = Array.isArray(q.options) ? q.options : [];
+                  const correctIndex = typeof q.correctAnswer === 'number' ? q.correctAnswer : -1;
+                  const options = Array.isArray(q.choices) ? q.choices : [];
                   const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
                   const questionParts = Array.isArray(q.question) ? q.question : [];
 

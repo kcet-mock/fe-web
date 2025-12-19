@@ -3,7 +3,7 @@
   "question": [
     "A potential at a point A is 3 V and that at another point B is 5V. What is the work done in carrying a charge of 5m C from B to A?"
   ],
-  "options": [
+  "choices": [
     [
       "-0.04 J"
     ],
@@ -17,5 +17,5 @@
       "-40 J"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

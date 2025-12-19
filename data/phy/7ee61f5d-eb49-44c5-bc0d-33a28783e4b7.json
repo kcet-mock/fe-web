@@ -3,7 +3,7 @@
   "question": [
     "Which of the following statements is correct for an n-type semiconductor?"
   ],
-  "options": [
+  "choices": [
     [
       "The donor energy level lies closely above the top of the valance band"
     ],
@@ -17,5 +17,5 @@
       "The donor energy level lies just the bottom of the conduction band"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

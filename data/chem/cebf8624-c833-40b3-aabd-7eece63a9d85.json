@@ -3,7 +3,7 @@
   "question": [
     "Which of the following reagents are suitable to differentiate Aniline and N-methylaniline chemical"
   ],
-  "options": [
+  "choices": [
     [
       "Acetic anhydride"
     ],
@@ -17,5 +17,5 @@
       "Chloroform and Alcoholic potassium hydroxide"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

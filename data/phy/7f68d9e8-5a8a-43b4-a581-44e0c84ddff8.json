@@ -3,7 +3,7 @@
   "question": [
     "Given, a current carrying wire of non-uniform cross-section, which of the following is constant throughout the length of wire?"
   ],
-  "options": [
+  "choices": [
     [
       "Drift speed"
     ],
@@ -17,5 +17,5 @@
       "Current, electric field and drift speed"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

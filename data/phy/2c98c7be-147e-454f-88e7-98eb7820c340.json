@@ -3,7 +3,7 @@
   "question": [
     "Two similar galvanometers are covered into an ammeter and a milliammeter. The shunt resistance of ammeter as compared to the shunt resistance of milliammeter will be"
   ],
-  "options": [
+  "choices": [
     [
       "Zero"
     ],
@@ -17,5 +17,5 @@
       "Equal"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

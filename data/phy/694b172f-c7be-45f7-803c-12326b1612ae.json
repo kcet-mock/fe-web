@@ -4,7 +4,7 @@
     "A series LCR circuit containing an AC source of 100V has an inductor and a capacitor of reactances 24$\\Omega$ and 16$\\Omega$ respectively. If a resistance of 6$\\Omega$ is connected in series, then the potential difference across the series combination of inductor and capacitor only is",
     "images/q40_circuit.png"
   ],
-  "options": [
+  "choices": [
     [
       "80 V"
     ],
@@ -18,5 +18,5 @@
       "40 V"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

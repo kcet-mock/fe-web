@@ -4,7 +4,7 @@
     "Variation of solubility with temperature t for a gas in liquid is shown by the following graphs. The correct",
     "representation is"
   ],
-  "options": [
+  "choices": [
     [
       ""
     ],
@@ -15,5 +15,5 @@
       ""
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

@@ -3,7 +3,7 @@
   "question": [
     "Identify the correct statement"
   ],
-  "options": [
+  "choices": [
     [
       "A current carrying conductor produces an electric field around it."
     ],
@@ -17,5 +17,5 @@
       "The magnetic field inside a solenoid is non-uniform"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

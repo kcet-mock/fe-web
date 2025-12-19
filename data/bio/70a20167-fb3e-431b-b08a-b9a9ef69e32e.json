@@ -1,10 +1,9 @@
 {
-  "answer": 4,
   "id": "70a20167-fb3e-431b-b08a-b9a9ef69e32e",
   "question": [
     "Which of the following are the techniques for detection of cancer of internal organs? (a) Radiography, MRI (b) MRI, computed tomography (c) Widal test, radiography (d) MRI, widal test"
   ],
-  "options": [
+  "choices": [
     [
       "a and c"
     ],
@@ -17,5 +16,6 @@
     [
       "a and b"
     ]
-  ]
+  ],
+  "correctAnswer": 3
 }

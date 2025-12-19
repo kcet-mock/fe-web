@@ -5,7 +5,7 @@
     "     g g g2 5 2 22N O 4NO O  initial concentration of 2 5N Ois 12.0molLand after 300",
     "min, it is reduced to 11.4molL. The rate of production of 2NO(in 1 1molL min )  is"
   ],
-  "options": [
+  "choices": [
     [
       "42.5 10"
     ],
@@ -19,5 +19,5 @@
       "34 10"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

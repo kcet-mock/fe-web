@@ -3,7 +3,7 @@
   "question": [
     "A particle is in uniform circular motion. The equation of its trajectory is given by $(x-2)^2 + y^2 = 25$, where x and y are in meter. The speed of the particle is 2$ms^{-1}$, when the particle attains the lowest ‘y’ co-ordinate, the acceleration of the particle is (in $ms^{-2}$)"
   ],
-  "options": [
+  "choices": [
     [
       "0.4j"
     ],
@@ -17,5 +17,5 @@
       "0.4i"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

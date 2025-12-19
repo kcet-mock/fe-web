@@ -3,7 +3,7 @@
   "question": [
     "A gas is taken from state A to state B along two different paths 1 and 2. The heat absorbed and work done by the system along these two paths are $Q_1$ and $Q_2$ and $W_1$ and $W_2$ respectively. Then"
   ],
-  "options": [
+  "choices": [
     [
       "$W_1 = W_2$"
     ],
@@ -17,5 +17,5 @@
       "$Q_1 = Q_2$"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

@@ -9,7 +9,7 @@
     "(d) It is a high spin complex",
     "(e) The complex is paramagnetic"
   ],
-  "options": [
+  "choices": [
     [
       "a,c,d and e"
     ],
@@ -23,5 +23,5 @@
       "a,b,c and d"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

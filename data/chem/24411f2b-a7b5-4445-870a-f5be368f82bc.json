@@ -4,7 +4,7 @@
     "The change in hybridization (if any) of the ‘Al’ atom in the following reaction is",
     "3 4AlCl Cl AlCl  "
   ],
-  "options": [
+  "choices": [
     [
       "No change in the hybridization state"
     ],
@@ -18,5 +18,5 @@
       "3 2sp tosp"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

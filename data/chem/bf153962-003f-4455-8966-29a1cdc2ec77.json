@@ -3,7 +3,7 @@
   "question": [
     "The number of orbitals associated with ‘N’ shell of an atom is"
   ],
-  "options": [
+  "choices": [
     [
       "16"
     ],
@@ -17,5 +17,5 @@
       "4"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

@@ -3,7 +3,7 @@
   "question": [
     "The electronic conductance depends on"
   ],
-  "options": [
+  "choices": [
     [
       "Nature of electrolyte added"
     ],
@@ -17,5 +17,5 @@
       "Size of the ions"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

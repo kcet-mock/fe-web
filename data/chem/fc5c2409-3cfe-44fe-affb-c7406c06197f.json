@@ -3,7 +3,7 @@
   "question": [
     "The correct sequence of amino acids, hormone, vitamin, carbohydrates respectively is"
   ],
-  "options": [
+  "choices": [
     [
       "Thiamine, Thyroxine, Vitamin A, Glucose"
     ],
@@ -17,5 +17,5 @@
       "Aspartic acid, Insulin, Ascorbic acid, rhamnose"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

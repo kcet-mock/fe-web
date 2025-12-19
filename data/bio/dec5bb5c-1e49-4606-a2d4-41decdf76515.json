@@ -1,10 +1,9 @@
 {
-  "answer": 2,
   "id": "dec5bb5c-1e49-4606-a2d4-41decdf76515",
   "question": [
     "In zygote intrafallopian tube transfer, the embryo upto ______ stage is transferred into the fallopian tube"
   ],
-  "options": [
+  "choices": [
     [
       "16 blastomeres"
     ],
@@ -17,5 +16,6 @@
     [
       "2 blastomeres"
     ]
-  ]
+  ],
+  "correctAnswer": 1
 }

@@ -5,7 +5,7 @@
     "A. Isotopes, B. Isobars, C. Isotones",
     "i. Li7, Be7, ii. 8O18, 9F19, iii. 1H1, 1H2"
   ],
-  "options": [
+  "choices": [
     [
       "A-ii, B-iii, C-i"
     ],
@@ -19,5 +19,5 @@
       "A-iii, B-i, C-ii"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

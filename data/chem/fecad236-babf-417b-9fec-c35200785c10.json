@@ -4,7 +4,7 @@
     "In the titration of potassium permanganate (KMnO 4) against Ferrous ammonium sulphate (FAS) solution,",
     "dilute sulphuric acid but not nitric acid is used to maintain acidic medium, because"
   ],
-  "options": [
+  "choices": [
     [
       "It is difficult to identify the end point"
     ],
@@ -18,5 +18,5 @@
       "Nitric acid is a weak acid than sulphuric acid"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

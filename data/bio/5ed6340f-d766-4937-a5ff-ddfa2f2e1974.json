@@ -1,10 +1,9 @@
 {
-  "answer": 4,
   "id": "5ed6340f-d766-4937-a5ff-ddfa2f2e1974",
   "question": [
     "Which one of the following population attributes, contributes to increase in population density?"
   ],
-  "options": [
+  "choices": [
     [
       "Mortality and Emmigration"
     ],
@@ -17,5 +16,6 @@
     [
       "Natality and Immigration"
     ]
-  ]
+  ],
+  "correctAnswer": 3
 }

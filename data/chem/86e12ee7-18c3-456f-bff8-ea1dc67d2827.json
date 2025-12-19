@@ -4,7 +4,7 @@
     "In the preparation of sodium fusion extract, the purpose of fusing organic compound with a piece of",
     "sodium metal is to"
   ],
-  "options": [
+  "choices": [
     [
       "Convert the organic compound into vapour state"
     ],
@@ -18,5 +18,5 @@
       "Decrease the melting point of the compound"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

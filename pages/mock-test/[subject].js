@@ -216,7 +216,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
     selectedQuestions.forEach((q, index) => {
       const selected = answers[index];
       if (selected === undefined) return;
-      const correctIndex = typeof q.answer === 'number' ? q.answer - 1 : -1;
+      const correctIndex = typeof q.correctAnswer === 'number' ? q.correctAnswer : -1;
       if (selected === correctIndex) correctCount += 1;
     });
 
@@ -274,7 +274,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
               {QUESTIONS.map((q, index) => {
                 const selectedOption = answers[index];
                 const questionNumber = index + 1;
-                const options = Array.isArray(q.options) ? q.options : [];
+                const options = Array.isArray(q.choices) ? q.choices : [];
                 const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
                 const questionParts = Array.isArray(q.question) ? q.question : [];
 

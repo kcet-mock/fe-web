@@ -3,7 +3,7 @@
   "question": [
     "Which one of the following reactions has H U   ?"
   ],
-  "options": [
+  "choices": [
     [
       " 3 2CaCO s CaO s CO g  "
     ],
@@ -17,5 +17,5 @@
       " 2 2 3N g 3H g 2NH g "
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

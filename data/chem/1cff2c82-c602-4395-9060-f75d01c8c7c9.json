@@ -3,7 +3,7 @@
   "question": [
     "The group reagent NH 4Cl(s) and aqueous NH 3 will precipitate which of the following ion?"
   ],
-  "options": [
+  "choices": [
     [
       "4NH"
     ],
@@ -17,5 +17,5 @@
       "2Ca"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

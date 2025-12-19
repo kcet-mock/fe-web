@@ -1,10 +1,9 @@
 {
-  "answer": 3,
   "id": "2ac13901-c41f-453f-baa7-33e87459497d",
   "question": [
     "Read the following statements: Statement I: MTP is to get rid off wanted pregnancies due to a causal unprotected intercourse or failure of contraceptives used during coitus or rapes. Statement II: MTPs are performed legally by qualified doctors by giving proper medical justification. Choose the correct answer:"
   ],
-  "options": [
+  "choices": [
     [
       "Statements I and II are incorrect"
     ],
@@ -17,5 +16,6 @@
     [
       "Statements I and II are correct"
     ]
-  ]
+  ],
+  "correctAnswer": 2
 }

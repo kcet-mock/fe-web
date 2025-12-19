@@ -4,7 +4,7 @@
     "Charges are uniformly spread on the surface of a conducting sphere. The electric field from the centre of sphere to a point outside the sphere varies with distance r from the centre as",
     "images/q19_graphs.png"
   ],
-  "options": [
+  "choices": [
     [
       "Graph 1"
     ],
@@ -18,5 +18,5 @@
       "Graph 4"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

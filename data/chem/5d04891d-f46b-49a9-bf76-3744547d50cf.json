@@ -3,7 +3,7 @@
   "question": [
     "Among the following, identify the compound that is not an isomer of hexane"
   ],
-  "options": [
+  "choices": [
     [
       ""
     ],
@@ -14,5 +14,5 @@
       ""
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

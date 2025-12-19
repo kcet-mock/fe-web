@@ -3,7 +3,7 @@
   "question": [
     "In domestic electric mains supply, the voltage and the current are"
   ],
-  "options": [
+  "choices": [
     [
       "AC voltage and DC current"
     ],
@@ -17,5 +17,5 @@
       "AC voltage and AC current"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

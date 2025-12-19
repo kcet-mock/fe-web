@@ -1,10 +1,9 @@
 {
-  "answer": 1,
   "id": "2c0ee6ff-d3fd-4be0-a2a3-8597dffb6c48",
   "question": [
     "The 'Sixth Extinction' of species, presently in progress, is ______ times faster than the previous five episodes of mass extinctions."
   ],
-  "options": [
+  "choices": [
     [
       "100 to 1000"
     ],
@@ -17,5 +16,6 @@
     [
       "10 to 100"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }

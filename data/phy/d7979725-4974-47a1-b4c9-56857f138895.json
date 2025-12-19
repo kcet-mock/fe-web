@@ -3,7 +3,7 @@
   "question": [
     "The image formed by an objective lens of a compound microscope is"
   ],
-  "options": [
+  "choices": [
     [
       "Real and diminished"
     ],
@@ -17,5 +17,5 @@
       "Virtual and diminished"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

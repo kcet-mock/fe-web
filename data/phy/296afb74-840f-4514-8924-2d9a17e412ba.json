@@ -3,7 +3,7 @@
   "question": [
     "Which of the following expression can be deduced on the basis of dimensional analysis? (All symbols have their usual meanings)"
   ],
-  "options": [
+  "choices": [
     [
       "x = A cos wt"
     ],
@@ -17,5 +17,5 @@
       "$s = ut + \\frac{1}{2} at^2$"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

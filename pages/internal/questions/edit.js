@@ -66,12 +66,12 @@ export default function InternalQuestionEditPage() {
 
         if (cancelled) return;
         setQuestionParts(normalizeParts(q.question));
-        const opts = Array.isArray(q.options) ? q.options : [];
+        const opts = Array.isArray(q.choices) ? q.choices : [];
         setOpt1Parts(normalizeParts(opts[0]));
         setOpt2Parts(normalizeParts(opts[1]));
         setOpt3Parts(normalizeParts(opts[2]));
         setOpt4Parts(normalizeParts(opts[3]));
-        setAnswer(String(typeof q.answer === 'number' ? q.answer : 1));
+        setAnswer(String(typeof q.correctAnswer === 'number' ? q.correctAnswer : 0));
       } catch (e) {
         if (!cancelled) setError('Failed to load question.');
       } finally {
@@ -87,13 +87,13 @@ export default function InternalQuestionEditPage() {
   const payload = useMemo(() => {
     return {
       question: normalizeParts(questionParts),
-      options: [
+      choices: [
         normalizeParts(opt1Parts),
         normalizeParts(opt2Parts),
         normalizeParts(opt3Parts),
         normalizeParts(opt4Parts),
       ],
-      answer: Number(answer),
+      correctAnswer: Number(answer),
     };
   }, [questionParts, opt1Parts, opt2Parts, opt3Parts, opt4Parts, answer]);
 

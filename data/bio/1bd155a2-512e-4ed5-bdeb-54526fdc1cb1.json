@@ -1,11 +1,10 @@
 {
-  "answer": 2,
   "id": "1bd155a2-512e-4ed5-bdeb-54526fdc1cb1",
   "question": [
     "Match the Column-I with Column-II. Choose the correct option.",
     "images/d8659ab8-530d-4269-8206-4bd9076e5a01.png"
   ],
-  "options": [
+  "choices": [
     [
       "a-ii, b-iii, c-iv, d-i"
     ],
@@ -18,5 +17,6 @@
     [
       "a-i, b-ii, c-iii,d-iv"
     ]
-  ]
+  ],
+  "correctAnswer": 1
 }

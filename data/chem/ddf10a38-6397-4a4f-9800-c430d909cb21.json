@@ -7,7 +7,7 @@
     "(c) Zero’s preceding to first non-zero digit are significant",
     "(d) In the answer of calculation 12.11 18.0 1.012  has three significant figures"
   ],
-  "options": [
+  "choices": [
     [
       "b, c and d"
     ],
@@ -21,5 +21,5 @@
       "a and b only"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

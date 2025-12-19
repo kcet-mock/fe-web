@@ -3,7 +3,7 @@
   "question": [
     "For a given half cell, 3Al 3e Al   on increasing of aluminium ion, the electrode potential will"
   ],
-  "options": [
+  "choices": [
     [
       "Decrease"
     ],
@@ -17,5 +17,5 @@
       "Increase"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

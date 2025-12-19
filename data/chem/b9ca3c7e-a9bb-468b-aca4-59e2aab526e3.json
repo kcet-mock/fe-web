@@ -4,7 +4,7 @@
     "Chlorobenzene reacts with bromine gas in the presence of Anhyd AlBr 3 to yield p-Bromochlorobenzene.",
     "This reaction is classified as ___________"
   ],
-  "options": [
+  "choices": [
     [
       "Elimination reaction"
     ],
@@ -18,5 +18,5 @@
       "Addition reaction"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

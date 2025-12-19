@@ -1,10 +1,9 @@
 {
-  "answer": 1,
   "id": "e56285d6-d1a3-47c4-8ca5-3882971ba088",
   "question": [
     "In the mechanism of muscle contraction or shortening of muscle, the ______ get reduced whereas the ______ retain the length."
   ],
-  "options": [
+  "choices": [
     [
       "I bands, A bands"
     ],
@@ -17,5 +16,6 @@
     [
       "A bands, I bands"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }

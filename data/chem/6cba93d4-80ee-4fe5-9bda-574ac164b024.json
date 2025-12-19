@@ -3,7 +3,7 @@
   "question": [
     "In the given graph, aEfor the reverse reaction will be"
   ],
-  "options": [
+  "choices": [
     [
       "125 KJ"
     ],
@@ -17,5 +17,5 @@
       "305 KJ"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

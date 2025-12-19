@@ -3,10 +3,10 @@
   "question": [
     "Which of the following is not an aromatic compound"
   ],
-  "options": [
+  "choices": [
     [
       ""
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

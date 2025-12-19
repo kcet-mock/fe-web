@@ -5,7 +5,7 @@
     "boils at 1.013 bar is ______ (given, bKfor water is 052K kg mol-1. Boiling point for pure water",
     "is 373.15K)"
   ],
-  "options": [
+  "choices": [
     [
       "373.67 K"
     ],
@@ -19,5 +19,5 @@
       "373.202 K"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

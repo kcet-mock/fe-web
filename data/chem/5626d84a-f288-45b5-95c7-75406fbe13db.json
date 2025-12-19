@@ -3,7 +3,7 @@
   "question": [
     "Which of the following methods of expressing concentration are unitless?"
   ],
-  "options": [
+  "choices": [
     [
       "Molality and Mole fraction"
     ],
@@ -11,5 +11,5 @@
       "Molality and Molarity"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

@@ -4,7 +4,7 @@
     "The variations of kinetic energy $K(x)$, potential energy $U(x)$ and total energy as a function of displacement of a particle in SHM is as shown in the figure. The value of $|x_0|$ is",
     "images/q14_graph.png"
   ],
-  "options": [
+  "choices": [
     [
       "2A"
     ],
@@ -18,5 +18,5 @@
       "$\\frac{A}{2}$"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

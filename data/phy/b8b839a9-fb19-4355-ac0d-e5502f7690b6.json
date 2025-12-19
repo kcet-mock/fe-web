@@ -3,7 +3,7 @@
   "question": [
     "Which of the following statements is incorrect with reference of ‘Nuclear force’?"
   ],
-  "options": [
+  "choices": [
     [
       "Nuclear force becomes attractive for nucleon distances larger than 0.8 fm"
     ],
@@ -17,5 +17,5 @@
       "Potential energy is minimum, if the separation between the nucleons is 0.8 fm"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

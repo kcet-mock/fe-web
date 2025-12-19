@@ -4,7 +4,7 @@
     "The circuit shown in figure contains two ideal diodes $D_1$ and $D_2$. If a cell of emf 3V and negligible internal resistance is connected as shown, then the current through 70$\\Omega$ resistance, (in ampere) is",
     "images/q53_circuit.png"
   ],
-  "options": [
+  "choices": [
     [
       "0.01"
     ],
@@ -18,5 +18,5 @@
       "0"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

@@ -5,7 +5,7 @@
     "of water? Assume that 2Nexerts a partial pressure of 0.987 bar.",
     "[Given HKfor 2Nat 293 K is 76.48 K bar]"
   ],
-  "options": [
+  "choices": [
     [
       "30.716 10"
     ],
@@ -19,5 +19,5 @@
       "37.16 10"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

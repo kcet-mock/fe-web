@@ -1,11 +1,10 @@
 {
-  "answer": 2,
   "id": "2d34bbe3-a9e4-4639-b600-20752b513f98",
   "question": [
     "Identify which one of the given pair of options is correct with respect to Down's syndrome and Turner's syndrome.",
     "images/e1ad2564-894a-49ec-a7b8-6bc4a343d723.png"
   ],
-  "options": [
+  "choices": [
     [
       "b (Round head/Overall masculine development)"
     ],
@@ -18,5 +17,6 @@
     [
       "a (Gynaecomastia in man/Short-statured individual)"
     ]
-  ]
+  ],
+  "correctAnswer": 1
 }

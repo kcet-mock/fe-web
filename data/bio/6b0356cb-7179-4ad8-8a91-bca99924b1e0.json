@@ -1,10 +1,9 @@
 {
-  "answer": 3,
   "id": "6b0356cb-7179-4ad8-8a91-bca99924b1e0",
   "question": [
     "Identify the incorrect statement with respect to the rules of Binomial Nomenclature."
   ],
-  "options": [
+  "choices": [
     [
       "Biological names are generally in Latin or Latinised irrespective of their origin"
     ],
@@ -17,5 +16,6 @@
     [
       "The first word represents the genus while second component denotes the specific epithet"
     ]
-  ]
+  ],
+  "correctAnswer": 2
 }

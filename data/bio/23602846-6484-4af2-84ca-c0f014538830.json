@@ -1,10 +1,9 @@
 {
-  "answer": 2,
   "id": "23602846-6484-4af2-84ca-c0f014538830",
   "question": [
     "Malignant malaria is caused by"
   ],
-  "options": [
+  "choices": [
     [
       "Plasmodium vivax"
     ],
@@ -17,5 +16,6 @@
     [
       "Plasmodium malariae"
     ]
-  ]
+  ],
+  "correctAnswer": 1
 }

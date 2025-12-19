@@ -3,7 +3,7 @@
   "question": [
     "At $27^{\\circ}C$ temperature, the mean kinetic energy of the atoms of an ideal gas is $E_1$. If the temperature is increased to $327^{\\circ}C$ then the mean kinetic energy of the atoms will be"
   ],
-  "options": [
+  "choices": [
     [
       "$\\frac{E_1}{\\sqrt{2}}$"
     ],
@@ -17,5 +17,5 @@
       "$\\frac{E_1}{2}$"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

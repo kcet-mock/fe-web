@@ -3,7 +3,7 @@
   "question": [
     "Which of the following is a correct statement?"
   ],
-  "options": [
+  "choices": [
     [
       "Gauss's law is true for any open surface"
     ],
@@ -17,5 +17,5 @@
       "Gauss's law is true for any closed surface"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

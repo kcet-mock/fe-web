@@ -4,7 +4,7 @@
     "According to the Heisenberg’s Uncertainty principle, the value of b. x  for an object whose mass is",
     "10–6 kg is  34h 6.626 10 Js "
   ],
-  "options": [
+  "choices": [
     [
       "24 2 13.0 10 m s  "
     ],
@@ -18,5 +18,5 @@
       "29 2 15.2 10 m s  "
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

@@ -4,7 +4,7 @@
     "Among the following 0.1 m aqueous solutions, which one will exhibit the lowest boiling point elevation,",
     "assuming complete ionization of the compound in solution?"
   ],
-  "options": [
+  "choices": [
     [
       "Aluminium chloride"
     ],
@@ -18,5 +18,5 @@
       "Sodium chloride"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

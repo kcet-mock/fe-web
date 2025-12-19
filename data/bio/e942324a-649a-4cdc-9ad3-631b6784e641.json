@@ -3,7 +3,7 @@
   "question": [
     "When pollen grains of a flower of a plant pollinate the stigma of flower of another plant, it is called?"
   ],
-  "options": [
+  "choices": [
     [
       "Autogamy"
     ],
@@ -17,5 +17,5 @@
       "Xenogamy"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

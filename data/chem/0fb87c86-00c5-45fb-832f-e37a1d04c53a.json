@@ -3,7 +3,7 @@
   "question": [
     "Which of the following has most acidic Hydrogen ?"
   ],
-  "options": [
+  "choices": [
     [
       "Propanoic acid"
     ],
@@ -17,5 +17,5 @@
       "Chloroacetic acid"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

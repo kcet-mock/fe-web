@@ -5,7 +5,7 @@
     "Column I: a) $180^{\\circ}$, b) $120^{\\circ}$, c) $90^{\\circ}$",
     "Column II: i) -pE, ii) pE, iii) pE/2, iv) Zero"
   ],
-  "options": [
+  "choices": [
     [
       "a-i, b-ii, c-iii"
     ],
@@ -19,5 +19,5 @@
       "a-i, b-ii, c-iv"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

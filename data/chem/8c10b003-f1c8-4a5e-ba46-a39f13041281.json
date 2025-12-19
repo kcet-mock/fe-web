@@ -3,7 +3,7 @@
   "question": [
     "The organometallic compound (CH 3)3 CMgBr on reaction with D 2O produces __________"
   ],
-  "options": [
+  "choices": [
     [
       " 33CH COD"
     ],
@@ -17,5 +17,5 @@
       " 33CH CD"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

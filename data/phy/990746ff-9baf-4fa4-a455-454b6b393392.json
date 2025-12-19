@@ -3,7 +3,7 @@
   "question": [
     "While determining the coefficient of viscosity of the given liquid, a spherical steel ball sinks by a distance h = 0.9m. The radius of the ball $r = 3 \\times 10^{-3}$ m. The time taken by the ball to sink in three trails are tabulated as follows: 2.75s, 2.65s, 2.70s. The difference between the densities of the steel ball and the liquid is 7000 kg $m^{-3}$. If g = 10 $ms^{-2}$, then the coefficient of viscosity of the given liquid at room temperature is"
   ],
-  "options": [
+  "choices": [
     [
       "0.14 Pa.s"
     ],
@@ -17,5 +17,5 @@
       "0.28 Pa.s"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

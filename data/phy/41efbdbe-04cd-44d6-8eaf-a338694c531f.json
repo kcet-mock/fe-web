@@ -4,7 +4,7 @@
     "Which of the following graphs represents the variation of magnetic field B with perpendicular distance ‘r’ from an infinitely long, straight conductor carrying current?",
     "images/q33_graphs.png"
   ],
-  "options": [
+  "choices": [
     [
       "Graph 1"
     ],
@@ -18,5 +18,5 @@
       "Graph 4"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

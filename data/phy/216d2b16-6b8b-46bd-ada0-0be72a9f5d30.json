@@ -3,7 +3,7 @@
   "question": [
     "In the projectile motion of a particle on a level ground, which of the following remains constant with reference to time and position?"
   ],
-  "options": [
+  "choices": [
     [
       "Average velocity between any two points on the path"
     ],
@@ -17,5 +17,5 @@
       "Vertical component of the velocity of the projectile"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

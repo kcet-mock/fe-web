@@ -1,10 +1,9 @@
 {
-  "answer": 3,
   "id": "d294a6af-ee22-47a2-9356-7b1daa5d5d97",
   "question": [
     "Choose the correct sequence of steps involved in decomposition"
   ],
-  "options": [
+  "choices": [
     [
       "Fragmentation → Leaching → Catabolism → Mineralisation → Humification"
     ],
@@ -17,5 +16,6 @@
     [
       "Fragmentation → Catabolism → Leaching → Humification → Mineralisation"
     ]
-  ]
+  ],
+  "correctAnswer": 2
 }

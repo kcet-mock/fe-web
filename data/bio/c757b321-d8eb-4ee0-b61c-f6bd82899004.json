@@ -1,10 +1,9 @@
 {
-  "answer": 1,
   "id": "c757b321-d8eb-4ee0-b61c-f6bd82899004",
   "question": [
     "Select the mismatched pair:"
   ],
-  "options": [
+  "choices": [
     [
       "First month of pregnancy - Formation of heart"
     ],
@@ -17,5 +16,6 @@
     [
       "Six month of pregnancy - Eye lids separate and eye lashes are found"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }

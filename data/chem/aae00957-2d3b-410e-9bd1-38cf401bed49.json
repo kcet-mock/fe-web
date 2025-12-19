@@ -3,7 +3,7 @@
   "question": [
     "Which of the following reaction/s does not yield an amine ?"
   ],
-  "options": [
+  "choices": [
     [
       "Both I and III"
     ],
@@ -17,5 +17,5 @@
       "Both II and IV"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

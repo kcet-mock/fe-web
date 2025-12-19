@@ -4,7 +4,7 @@
     "Two thin long parallel wires separated by a distance ‘r’ from each other in vacuum carry a current of I ampere in opposite directions. Then, they will",
     "images/q28_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "Attract each other with a force per unit length of $\\frac{\\mu_0 I^2}{2\\pi r}$"
     ],
@@ -18,5 +18,5 @@
       "Attract each other with a force per unit length of $\\frac{\\mu_0 I^2}{2\\pi r^2}$"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

@@ -4,7 +4,7 @@
     "A ray of light passes from vaccum into a medium of refractive index n. If the angle of incidence is twice the angle of refraction, then the angle of incidence in terms of refractive index is",
     "images/q42_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "$2\\sin^{-1}(n/2)$"
     ],
@@ -18,5 +18,5 @@
       "$\\cos^{-1}(n/2)$"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

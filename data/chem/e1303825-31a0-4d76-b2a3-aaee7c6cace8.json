@@ -4,7 +4,7 @@
     "The sodium fusion extract is boiled with concentrated nitric acid while testing for halogens. By doing so,",
     "it"
   ],
-  "options": [
+  "choices": [
     [
       "helps in precipitation of AgCl"
     ],
@@ -18,5 +18,5 @@
       "decomposes 2Na Sand NaCN, if formed"
     ]
   ],
-  "answer": 4
+  "correctAnswer": 3
 }

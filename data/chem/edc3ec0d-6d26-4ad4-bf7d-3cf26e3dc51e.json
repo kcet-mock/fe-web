@@ -9,7 +9,7 @@
     "4. 2O iv. 3.0",
     "images/edc3ec0d-6d26-4ad4-bf7d-3cf26e3dc51e.png"
   ],
-  "options": [
+  "choices": [
     [
       "a-iii, b-iv, c-i, d-ii"
     ],
@@ -23,5 +23,5 @@
       "a-iv, b-iii, c-ii, d-i"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

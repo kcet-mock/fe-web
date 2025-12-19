@@ -3,7 +3,7 @@
   "question": [
     "A horizontal pipe carries water in a streamlined flow. At a point along the pipe, where the cross-sectional area is $10 cm^2$, the velocity of water is $1 ms^{-1}$ and the pressure is 2000 Pa. What is the pressure of water at another point where the cross-sectional area is $5 cm^2$? [Density of water = $1000 kgm^{-3}$]"
   ],
-  "options": [
+  "choices": [
     [
       "300 Pa"
     ],
@@ -17,5 +17,5 @@
       "200 Pa"
     ]
   ],
-  "answer": 3
+  "correctAnswer": 2
 }

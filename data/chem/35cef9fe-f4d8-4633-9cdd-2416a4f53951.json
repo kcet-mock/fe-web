@@ -10,7 +10,7 @@
     "(products)",
     "(e) For most of the ionic compounds, solH is negative"
   ],
-  "options": [
+  "choices": [
     [
       "a, b and d"
     ],
@@ -24,5 +24,5 @@
       "a and e only"
     ]
   ],
-  "answer": 2
+  "correctAnswer": 1
 }

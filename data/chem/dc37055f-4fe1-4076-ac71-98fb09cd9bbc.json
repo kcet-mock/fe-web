@@ -3,7 +3,7 @@
   "question": [
     "Phenol can be distinguished from propanol by using the reagent"
   ],
-  "options": [
+  "choices": [
     [
       "Bromine water"
     ],
@@ -17,5 +17,5 @@
       "Sodium metal"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

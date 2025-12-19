@@ -4,7 +4,7 @@
     "Three particles of mass 1 kg, 2 kg and 3 kg are placed at the vertices A, B and C respectively of an equilateral triangle ABC of side 1 m. The centre of mass of the system from vertex A (located at origin) is",
     "images/q3_diagram.png"
   ],
-  "options": [
+  "choices": [
     [
       "$(\\frac{7}{12}, \\frac{3\\sqrt{3}}{12})$"
     ],
@@ -18,5 +18,5 @@
       "(0, 0)"
     ]
   ],
-  "answer": 1
+  "correctAnswer": 0
 }

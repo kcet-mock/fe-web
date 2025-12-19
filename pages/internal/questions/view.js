@@ -81,7 +81,7 @@ export default function InternalQuestionViewPage() {
             ) : (
               <div className="question-block" style={{ marginTop: '1rem' }}>
                 <div className="question-header">
-                  <span className="badge-soft">Answer: {question.answer}</span>
+                  <span className="badge-soft">Answer: {question.correctAnswer}</span>
                 </div>
 
                 {(Array.isArray(question.question) ? question.question : []).map((part, idx) => {
@@ -107,9 +107,9 @@ export default function InternalQuestionViewPage() {
                 })}
 
                 <div className="options-list">
-                  {(Array.isArray(question.options) ? question.options : []).map((optParts, optIdx) => {
+                  {(Array.isArray(question.choices) ? question.choices : []).map((optParts, optIdx) => {
                     const parts = Array.isArray(optParts) ? optParts : [];
-                    const isCorrect = optIdx === (typeof question.answer === 'number' ? question.answer - 1 : -1);
+                    const isCorrect = optIdx === (typeof question.correctAnswer === 'number' ? question.correctAnswer : -1);
                     return (
                       <div
                         key={`opt-${optIdx}`}

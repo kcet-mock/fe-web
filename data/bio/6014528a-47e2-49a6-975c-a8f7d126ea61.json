@@ -1,10 +1,9 @@
 {
-  "answer": 1,
   "id": "6014528a-47e2-49a6-975c-a8f7d126ea61",
   "question": [
     "Match Column-I (Bacteria: a. Coccus, b. Bacillus, c. Vibrium, d. Spirillum) with Column-II (Shape: i. Rod-shaped, ii. Spiral, iii. Spherical, iv. Comma-shaped) and choose the correct option."
   ],
-  "options": [
+  "choices": [
     [
       "a-iii, b-i, c-iv, d-ii"
     ],
@@ -17,5 +16,6 @@
     [
       "a-iv, b-i, c-ii, d-iii"
     ]
-  ]
+  ],
+  "correctAnswer": 0
 }
