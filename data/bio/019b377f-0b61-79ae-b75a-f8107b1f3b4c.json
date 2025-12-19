@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b61-79ae-b75a-f8107b1f3b4c",
+  "question": [
+    "If 8 individuals in a laboratory population of 80 fruit flies died during a specified time interval, the death rate in the population during that period is"
+  ],
+  "choices": [
+    [
+      "0.001 individual/time interval"
+    ],
+    [
+      "0.1 individual/time interval"
+    ],
+    [
+      "1 individual/time interval"
+    ],
+    [
+      "0.01 individual/time interval"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Death rate = Number of deaths / Initial population = 8 / 80 = 0.1 [cite: 243-249, 478]."
+  ]
+}

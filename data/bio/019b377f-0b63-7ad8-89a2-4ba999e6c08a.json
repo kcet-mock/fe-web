@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b63-7ad8-89a2-4ba999e6c08a",
+  "question": [
+    "The TCA cycle starts with the condensation of acetyl group with"
+  ],
+  "choices": [
+    [
+      "Citric acid"
+    ],
+    [
+      "a-Ketoglutaric acid"
+    ],
+    [
+      "Succinic acid"
+    ],
+    [
+      "Oxaloacetic acid"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The TCA cycle starts with the condensation of the acetyl group with Oxaloacetic acid (OAA) and water to form citric acid [cite: 429-434, 480]."
+  ]
+}

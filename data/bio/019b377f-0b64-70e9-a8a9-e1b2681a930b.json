@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b64-70e9-a8a9-e1b2681a930b",
+  "question": [
+    "In the mechanism of muscle contraction or shortening of muscle, the ... get reduced whereas the ... retain the length."
+  ],
+  "choices": [
+    [
+      "I bands, A bands"
+    ],
+    [
+      "Z line, I bands"
+    ],
+    [
+      "A bands, Z line"
+    ],
+    [
+      "A bands, I bands"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "During muscle contraction, the I bands shorten (get reduced) while the A bands retain their length[cite: 467, 480]."
+  ]
+}

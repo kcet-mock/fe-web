@@ -9,6 +9,8 @@ export default function Home() {
     () => [
       { value: 'bio', label: 'Biology' },
       { value: 'phy', label: 'Physics' },
+      { value: 'chem', label: 'Chemistry' },
+      { value: 'mat', label: 'Mathematics' },
     ],
     []
   );
@@ -36,7 +38,7 @@ export default function Home() {
           <div className="timer-panel">
             <span className="timer-label">Typical KCET duration</span>
             <span className="timer-display">01:20:00</span>
-            <span className="timer-label">3 sections · 60 questions</span>
+            <span className="timer-label">4 sections · 60 questions each</span>
           </div>
         </header>
 

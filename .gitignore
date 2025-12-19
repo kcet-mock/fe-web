@@ -26,3 +26,4 @@ yarn-error.log*
 # Misc
 coverage/
 *.log
+scripts/questions.json

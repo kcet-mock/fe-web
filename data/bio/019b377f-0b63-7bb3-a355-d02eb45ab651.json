@@ -1,0 +1,26 @@
+{
+  "id": "019b377f-0b63-7bb3-a355-d02eb45ab651",
+  "question": [
+    "Match the plant growth hormones of Column-I with suitable chemical derivatives present in Column-ll and choose the correct option given below:",
+    "Column - I: (a) Abscisic acid, (b) Gibberellins, (c) Kinetin, (d) Auxin",
+    "Column - II: (i) Adenine derivative, (ii) Indole acetic acid, (iii) Carotenoid derivative, (iv) Terpens"
+  ],
+  "choices": [
+    [
+      "a-iii, b-i, c-iv, d-ii"
+    ],
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-iii, b-i, c-ii, d-iv"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Abscisic acid is a Carotenoid derivative (iii); Gibberellins are Terpenes (iv); Kinetin is an Adenine derivative (i); Auxin is an Indole compound (ii) [cite: 435-457, 480]."
+  ]
+}

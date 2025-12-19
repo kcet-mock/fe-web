@@ -1,0 +1,26 @@
+{
+  "id": "019b377f-0b5f-74b7-9ffa-b0ae798c4e77",
+  "question": [
+    "Read the following statements and select the correct option",
+    "Statement I: Biocontrol refers to the use of biological methods for controlling plant diseases and pests.",
+    "Statement II: Trichoderma species are effective biocontrol agents for several plant pathogens"
+  ],
+  "choices": [
+    [
+      "Both statement I and statement II are incorrect"
+    ],
+    [
+      "Statement I is incorrect but statement II is correct"
+    ],
+    [
+      "Both statement I and statement II are correct"
+    ],
+    [
+      "Statement I is correct and statement II is incorrect"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Both statements are correct. Biocontrol uses biological methods for pest control, and free-living *Trichoderma* fungi are effective biocontrol agents [cite: 154-161, 476]."
+  ]
+}

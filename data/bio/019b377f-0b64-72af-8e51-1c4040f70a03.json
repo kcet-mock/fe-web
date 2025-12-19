@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b64-72af-8e51-1c4040f70a03",
+  "question": [
+    "Identify the correct sequence of action potential as it arrives at the axon terminal from the choices given below:"
+  ],
+  "choices": [
+    [
+      "Axon terminal → Synaptic cleft → Synaptic vesicles → Post-synaptic neuron"
+    ],
+    [
+      "Axon terminal → Post-synaptic membrane → Synaptic cleft → Synaptic vesicles"
+    ],
+    [
+      "Axon terminal → Synaptic vesicles → Post-synaptic membrane → Synaptic cleft"
+    ],
+    [
+      "Axon terminal → Synaptic vesicles → Synaptic cleft → Post-synaptic membrane"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The impulse reaches the Axon terminal, stimulating Synaptic vesicles to release neurotransmitters into the Synaptic cleft, which then bind to the Post-synaptic membrane[cite: 467, 480]."
+  ]
+}

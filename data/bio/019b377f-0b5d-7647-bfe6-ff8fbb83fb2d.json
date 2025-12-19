@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b5d-7647-bfe6-ff8fbb83fb2d",
+  "question": [
+    "A colourblind man marries a carrier woman. The percentage of their colourblind progeny in the next generation will be"
+  ],
+  "choices": [
+    [
+      "50%"
+    ],
+    [
+      "75%"
+    ],
+    [
+      "100%"
+    ],
+    [
+      "25%"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Cross: XcY (Man) x XCXc (Woman). Offspring: XCXc (Carrier), XcXc (Colourblind), XCY (Normal), XcY (Colourblind). Two out of four (50%) are colourblind [cite: 110-115, 474]."
+  ]
+}

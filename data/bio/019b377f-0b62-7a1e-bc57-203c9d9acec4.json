@@ -1,0 +1,26 @@
+{
+  "id": "019b377f-0b62-7a1e-bc57-203c9d9acec4",
+  "question": [
+    "Match the Column-I with Column-II and choose the correct option:",
+    "Column-I (Characteristics): a. Radial, tetrarch..., b. Conjoint, open and endarch, c. Radial, polyarch..., d. Conjoint, closed...",
+    "Column-II (TS): i. T.S of monocot stem, ii. T.S of dicot root, iii. T.S of dicot stem, iv. T.S of dicot stem"
+  ],
+  "choices": [
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ],
+    [
+      "a-ii, b-iv, c-iii, d-i"
+    ],
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-i, b-ii, c-iii,d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Radial/Tetrarch = Dicot Root (ii); Conjoint/Open = Dicot Stem (iii/iv); Radial/Polyarch = Monocot Root (iii/iv error in list?); Conjoint/Closed = Monocot Stem (i). The key maps to Option 2 [cite: 364-367, 480]."
+  ]
+}

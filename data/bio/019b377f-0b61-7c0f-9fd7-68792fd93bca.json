@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b61-7c0f-9fd7-68792fd93bca",
+  "question": [
+    "Species diversity ... as we move away from the ... towards ..."
+  ],
+  "choices": [
+    [
+      "Decreases, Equator, Poles"
+    ],
+    [
+      "Decreases, Poles, Equator"
+    ],
+    [
+      "Stable, Equator, Poles"
+    ],
+    [
+      "Increases, Equator, Poles"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Species diversity generally decreases as we move away from the equator towards the poles [cite: 280-289, 478]."
+  ]
+}

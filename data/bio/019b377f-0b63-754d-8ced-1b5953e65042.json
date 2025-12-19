@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b63-754d-8ced-1b5953e65042",
+  "question": [
+    "The reserve material in prokaryotic cells are stored in the cytoplasm in the form of"
+  ],
+  "choices": [
+    [
+      "Inclusion bodies"
+    ],
+    [
+      "Exclusion and inclusion bodies"
+    ],
+    [
+      "Fat bodies"
+    ],
+    [
+      "Exclusion bodies"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In prokaryotes, reserve materials are stored in the cytoplasm in the form of inclusion bodies [cite: 383-386, 480]."
+  ]
+}

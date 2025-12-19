@@ -1,0 +1,24 @@
+{
+  "id": "019b377f-0b5e-718d-90b5-2c42b8a01b6a",
+  "question": [
+    "Darwin's finches represent one of the best examples of"
+  ],
+  "choices": [
+    [
+      "Adaptive radiation"
+    ],
+    [
+      "Chemical evolution"
+    ],
+    [
+      "Genetic equilibrium"
+    ],
+    [
+      "Seasonal migration"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Darwin's finches are a classic example of adaptive radiation, where a single species evolves into multiple new species to fill different ecological niches[cite: 122, 474]."
+  ]
+}

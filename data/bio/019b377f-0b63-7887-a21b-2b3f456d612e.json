@@ -1,0 +1,26 @@
+{
+  "id": "019b377f-0b63-7887-a21b-2b3f456d612e",
+  "question": [
+    "Read the given statements and choose the correct option:",
+    "Statement I: In Calvin cycle, Carboxylation is catalysed by PEP Carboxylase",
+    "Statement II: In Hatch-Slack pathway, Carboxylation is catalysed by RuBP Carboxylase"
+  ],
+  "choices": [
+    [
+      "Statement I is true but Statement Il is false"
+    ],
+    [
+      "Both Statement I and Statement I are false"
+    ],
+    [
+      "Statement I is false but Statement II is true"
+    ],
+    [
+      "Both Statement I and Statement Il are true"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Statement I is false (Calvin cycle uses RuBisCO). Statement II is considered true in this context (Hatch-Slack involves RuBisCO in bundle sheath cells, although primary fixation is by PEPcase) [cite: 421-426, 480]."
+  ]
+}
