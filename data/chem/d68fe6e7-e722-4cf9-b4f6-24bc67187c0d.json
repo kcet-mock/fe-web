@@ -1,0 +1,24 @@
+{
+  "id": "d68fe6e7-e722-4cf9-b4f6-24bc67187c0d",
+  "question": [
+    "According to Le Chatelier’s principle, in the reaction    2 4 2 CO g 3H g CH g H O g , the",
+    "formation of methane is favoured by",
+    "(a) Increasing the concentration of CO (b) Increasing the concentration of 2H O",
+    "(c) Decreasing the concentration of 4CH (d) Decreasing the concentration of 2H"
+  ],
+  "options": [
+    [
+      "a and c"
+    ],
+    [
+      "b and d"
+    ],
+    [
+      "a and d"
+    ],
+    [
+      "a and b"
+    ]
+  ],
+  "answer": 1
+}

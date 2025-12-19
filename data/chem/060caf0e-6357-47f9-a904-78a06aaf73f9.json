@@ -1,0 +1,22 @@
+{
+  "id": "060caf0e-6357-47f9-a904-78a06aaf73f9",
+  "question": [
+    "Half-life of a first order reaction is 20 seconds and initial concentration of reactant is 0.2M. The",
+    "concentration of reactant left after 80 seconds is"
+  ],
+  "options": [
+    [
+      "0.1 M"
+    ],
+    [
+      "0.05 M"
+    ],
+    [
+      "0.0125 M"
+    ],
+    [
+      "0.2 M"
+    ]
+  ],
+  "answer": 3
+}

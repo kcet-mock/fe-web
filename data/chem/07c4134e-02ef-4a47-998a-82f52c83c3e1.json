@@ -1,0 +1,27 @@
+{
+  "id": "07c4134e-02ef-4a47-998a-82f52c83c3e1",
+  "question": [
+    "Which of the following statements are true about  2",
+    "4NiCl?",
+    "(a) The complex has tetrahedral geometry",
+    "(b) Co-ordination number of Ni is 2 and oxidation state is +4",
+    "(c) The complex is sp3 hybridised",
+    "(d) It is a high spin complex",
+    "(e) The complex is paramagnetic"
+  ],
+  "options": [
+    [
+      "a,c,d and e"
+    ],
+    [
+      "a,b,d and e"
+    ],
+    [
+      "b,c,d and e"
+    ],
+    [
+      "a,b,c and d"
+    ]
+  ],
+  "answer": 1
+}

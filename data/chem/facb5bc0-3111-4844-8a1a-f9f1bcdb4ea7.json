@@ -1,0 +1,29 @@
+{
+  "id": "facb5bc0-3111-4844-8a1a-f9f1bcdb4ea7",
+  "question": [
+    "Match List-I with List-II for the following reaction pattern",
+    "ReagentGlucose Product Structural prediction  ",
+    "List – I (Reagents) List-II (Structural prediction)",
+    "a. Acetic anhydride i. Glucose has an aldehyde group",
+    "b. Bromine water ii. Glucose has a straight chain of six carbon atoms",
+    "c. Hydroiodic acid iii. Glucose has five hydroxyl group",
+    "d. Hydrogen cyanide iv. Glucose has a carbonyl group",
+    "Choose the correct answer from the options given below.",
+    "images/facb5bc0-3111-4844-8a1a-f9f1bcdb4ea7.png"
+  ],
+  "options": [
+    [
+      "a-iv, b-iii, c-ii, d-i"
+    ],
+    [
+      "a-iii, b-i, c-ii, d-iv"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv"
+    ],
+    [
+      "a-iii, b-ii, c-i, d-iv"
+    ]
+  ],
+  "answer": 2
+}

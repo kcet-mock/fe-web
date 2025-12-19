@@ -1,0 +1,24 @@
+{
+  "id": "18d294b7-7502-4c91-ba16-e5cd553b0339",
+  "question": [
+    "Statement – I :  Reduction of ester by DIABL-H followed by hydrolysis gives aldehyde.",
+    "Statement – II :  Oxidation of benzyl alcohol with aqueous KMnO 4 leads to the formation to",
+    "Benzaldehyde.",
+    "Among the above statements, identify the correct statement."
+  ],
+  "options": [
+    [
+      "Both statements – I and II are false"
+    ],
+    [
+      "Statement – I is true but statement – II is false"
+    ],
+    [
+      "Statement – I is false but statement – II is true"
+    ],
+    [
+      "Both statements – I and II are true."
+    ]
+  ],
+  "answer": 2
+}

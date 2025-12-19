@@ -1,0 +1,22 @@
+{
+  "id": "27f7248b-8bd5-43ac-b029-2229c5ea0c31",
+  "question": [
+    "A ligand which has two different donor atoms and either of the two ligates with the central metal atom/ion",
+    "in the complex is called _______"
+  ],
+  "options": [
+    [
+      "Chelate ligand"
+    ],
+    [
+      "Unidentate ligand"
+    ],
+    [
+      "Polydentate ligand"
+    ],
+    [
+      "Ambidentate ligand"
+    ]
+  ],
+  "answer": 4
+}

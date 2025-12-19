@@ -1,0 +1,22 @@
+{
+  "id": "bb9488a5-96a6-4f79-a242-8f17e3c9a970",
+  "question": [
+    "The equilibrium constant at 298K for the reaction A B C D is 100. If the initial concentrations",
+    "of all the four species were 1M each, then equilibrium concentration of D (in mol L-1) will be"
+  ],
+  "options": [
+    [
+      "0.182"
+    ],
+    [
+      "1.818"
+    ],
+    [
+      "1.182"
+    ],
+    [
+      "0.818"
+    ]
+  ],
+  "answer": 2
+}
