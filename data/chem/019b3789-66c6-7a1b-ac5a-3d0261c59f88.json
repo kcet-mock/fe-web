@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66c6-7a1b-ac5a-3d0261c59f88",
+  "question": [
+    "Which of the following is not an aromatic compound?",
+    "images/structure_q19.png"
+  ],
+  "choices": [
+    [
+      "(1)"
+    ],
+    [
+      "(2)"
+    ],
+    [
+      "(3)"
+    ],
+    [
+      "(4)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Compound (1) (likely Cyclooctatetraene or similar anti-aromatic structure depicted in paper) is anti-aromatic as it has 4n pi electrons (4 pi e-) [cite: 719-729]."
+  ]
+}

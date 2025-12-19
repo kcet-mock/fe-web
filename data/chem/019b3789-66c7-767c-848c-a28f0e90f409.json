@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c7-767c-848c-a28f0e90f409",
+  "question": [
+    "Phenol can be distinguished from propanol by using the reagent"
+  ],
+  "choices": [
+    [
+      "Bromine water"
+    ],
+    [
+      "Iron metal"
+    ],
+    [
+      "Iodine in alcohol"
+    ],
+    [
+      "Sodium metal"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Phenol reacts with Bromine water to give a white precipitate of 2,4,6-tribromophenol, whereas propanol does not [cite: 835-850]."
+  ]
+}

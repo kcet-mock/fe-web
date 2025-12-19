@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c5-75ad-b174-57980b9aac0d",
+  "question": [
+    "In the complex ion [Fe(C2O4)3]3-, the co-ordination number of Fe is"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The oxalate ion (C2O4 2-) is a bidentate ligand. With 3 oxalate ligands, the coordination number is 3 * 2 = 6 [cite: 637-644]."
+  ]
+}

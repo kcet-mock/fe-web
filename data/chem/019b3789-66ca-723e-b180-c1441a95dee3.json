@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66ca-723e-b180-c1441a95dee3",
+  "question": [
+    "In the given graph, Ea for the reverse reaction will be",
+    "images/graph_q55.png"
+  ],
+  "choices": [
+    [
+      "125 KJ"
+    ],
+    [
+      "215 KJ"
+    ],
+    [
+      "90 KJ"
+    ],
+    [
+      "305 KJ"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Ea(reverse) = Ea(forward) - delta H. Ea(fwd) = 215 kJ, delta H = 90 kJ (Endothermic, Product energy > Reactant). Ea(rev) = 215 - 90 = 125 kJ[cite: 1055]."
+  ]
+}

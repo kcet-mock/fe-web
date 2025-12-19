@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66c5-7655-bbf1-85a091905dfc",
+  "question": [
+    "In which of the following pairs, both the elements do not have (n-1)d10 ns2 configuration?"
+  ],
+  "choices": [
+    [
+      "Cu, Zn"
+    ],
+    [
+      "Zn, Cd"
+    ],
+    [
+      "Cd, Hg"
+    ],
+    [
+      "Ag, Cu"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Zn, Cd, and Hg are group 12 elements with (n-1)d10 ns2 configuration.",
+    "Cu is 3d10 4s1. Ag is 4d10 5s1. Therefore, the pair Ag, Cu does not possess the (n-1)d10 ns2 configuration [cite: 582-595]."
+  ]
+}

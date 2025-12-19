@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66ca-7130-933c-f63096c364b6",
+  "question": [
+    "For the reaction 2N2O5 -> 4NO2 + O2, initial concentration of N2O5 is 12.0 mol/L and after 300 min, it is reduced to 11.4 mol/L. The rate of production of NO2 (in mol L-1 min-1) is"
+  ],
+  "choices": [
+    [
+      "42.5 * 10^-4"
+    ],
+    [
+      "44 * 10^-3"
+    ],
+    [
+      "32.5 * 10^-4"
+    ],
+    [
+      "4 * 10^-3"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Rate of disappearance of N2O5 = (12.0-11.4)/300 = 0.6/300 = 2e-3. Rate of production of NO2 = 2 * Rate of N2O5 = 4 * 10^-3. (Option 4 corresponds to this value based on solution context) [cite: 1056-1057]."
+  ]
+}

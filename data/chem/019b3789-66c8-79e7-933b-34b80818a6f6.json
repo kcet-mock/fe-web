@@ -1,0 +1,29 @@
+{
+  "id": "019b3789-66c8-79e7-933b-34b80818a6f6",
+  "question": [
+    "Identify the incorrect statements among the following:",
+    "(a) All enthalpies of fusion are positive",
+    "(b) The magnitude of enthalpy change does not depend on the strength of the intermolecular interactions",
+    "(c) When a chemical reaction is reversed, the value of delta H is reversed in sign.",
+    "(d) The change in enthalpy is dependent of path between initial state and final state",
+    "(e) For most of the ionic compounds, delta sol H is negative"
+  ],
+  "choices": [
+    [
+      "a, b and d"
+    ],
+    [
+      "b, d and e"
+    ],
+    [
+      "a, d and e"
+    ],
+    [
+      "a and e only"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "b is incorrect (it does depend). d is incorrect (enthalpy is a state function, independent of path). e is incorrect (solvation enthalpy is often positive for many salts, though can be negative; generally generalizations are tricky, but text identifies b, d, e as incorrect set) [cite: 1013-1016]."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c6-700e-aae8-701de5608b10",
+  "question": [
+    "In the preparation of sodium fusion extract, the purpose of fusing organic compound with a piece of sodium metal is to"
+  ],
+  "choices": [
+    [
+      "Convert the organic compound into vapour state"
+    ],
+    [
+      "Convert the elements of the compound from covalent form to ionic form"
+    ],
+    [
+      "Convert the elements of the compound from ionic form to covalent form"
+    ],
+    [
+      "Decrease the melting point of the compound"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Sodium fusion (Lassaigne's test) converts covalent elements (N, S, Halogens) in organic compounds into ionic sodium salts for detection [cite: 701-709]."
+  ]
+}

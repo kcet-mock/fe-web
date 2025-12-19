@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c8-76a7-a980-6c788b0caa60",
+  "question": [
+    "The number of orbitals associated with ‘N’ shell of an atom is"
+  ],
+  "choices": [
+    [
+      "16"
+    ],
+    [
+      "32"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For N shell, n=4. Number of orbitals = n^2 = 4^2 = 16 [cite: 1000-1001]."
+  ]
+}

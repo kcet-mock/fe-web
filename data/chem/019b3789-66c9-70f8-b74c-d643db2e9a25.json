@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c9-70f8-b74c-d643db2e9a25",
+  "question": [
+    "For a given half cell, Al3+ + 3e- -> Al, on increasing of aluminium ion, the electrode potential will"
+  ],
+  "choices": [
+    [
+      "Decrease"
+    ],
+    [
+      "No change"
+    ],
+    [
+      "First increase then decrease"
+    ],
+    [
+      "Increase"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to Nernst equation: E = E0 + (0.059/n)log[Al3+]. Increasing [Al3+] increases E [cite: 1041-1042]."
+  ]
+}

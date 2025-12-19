@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66c7-77ab-afd6-713526a171c3",
+  "question": [
+    "Arrange the following compounds in their decreasing order of reactivity towards Nucleophilic addition reaction.",
+    "CH3COCH3, CH3COC2H5, CH3CHO"
+  ],
+  "choices": [
+    [
+      "CH3CHO > CH3COCH3 > CH3COC2H5"
+    ],
+    [
+      "CH3COCH3 > CH3CHO > CH3COC2H5"
+    ],
+    [
+      "CH3COC2H5 > CH3COCH3 > CH3CHO"
+    ],
+    [
+      "CH3CHO > CH3COC2H5 > CH3COCH3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Aldehydes are more reactive than ketones due to steric and electronic reasons. Among ketones, less sterically hindered ones are more reactive. Order: Acetaldehyde > Acetone > Methyl ethyl ketone [cite: 946-955]."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c7-7ac1-92a5-a54caabc991c",
+  "question": [
+    "Ethyl alcohol is heated with concentrated sulphuric acid at 413 K. The major product is"
+  ],
+  "choices": [
+    [
+      "C2H5 - O - C2H5"
+    ],
+    [
+      "CH3 - O - C3H7"
+    ],
+    [
+      "CH2 = CH2"
+    ],
+    [
+      "CH3COOC2H5"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Heating ethanol with conc. H2SO4 at 413 K favors the formation of Diethyl ether (C2H5-O-C2H5). At higher temps (443 K), ethene is formed [cite: 820-834]."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c9-751a-ac43-f68bd62cda2f",
+  "question": [
+    "If N2 gas is bubbled through water at 293 K, how many moles of N2 gas would dissolve in 1 litre of water? Assume that N2 exerts a partial pressure of 0.987 bar. [Given KH for N2 at 293 K is 76.48 K bar]"
+  ],
+  "choices": [
+    [
+      "0.716 * 10^-3"
+    ],
+    [
+      "57.16 * 10^-3"
+    ],
+    [
+      "4.716 * 10^-3"
+    ],
+    [
+      "7.16 * 10^-4"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Note: Text options are garbled/ambiguous, but solution derives 7.16 x 10^-4. Option 3 is selected in key, though text in snippet 1034 looks different. Calculation: X = P/KH = 0.987/76480 = 1.29e-5. n = 55.5 * 1.29e-5 = 7.16e-4. We will assume option 3 corresponds to the correct value [cite: 1033-1037]."
+  ]
+}

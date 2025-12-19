@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c5-784e-a790-c8273a04b50f",
+  "question": [
+    "Which formula and its name combination is incorrect?"
+  ],
+  "choices": [
+    [
+      "K3[Cr(C2O4)3], Potassium trioxalatochromate (III)"
+    ],
+    [
+      "[CoCl2(en)2]Cl, Dichloridobis (ethane - 1,2 - dimine) cobalt (III) chloride"
+    ],
+    [
+      "[Co(NH3)5(CO3)]Cl, Pentaamine carbonylcobalt (III) chloride"
+    ],
+    [
+      "[Pt(NH3)2Cl(NO2)] Diamine chloridonitrito - N - Platinum (II)"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "[Co(NH3)5(CO3)]Cl should be named Pentaamminecarbonatocobalt(III) chloride, not carbonylcobalt [cite: 625-636]."
+  ]
+}

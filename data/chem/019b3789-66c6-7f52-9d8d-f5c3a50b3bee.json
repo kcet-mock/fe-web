@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c6-7f52-9d8d-f5c3a50b3bee",
+  "question": [
+    "The organometallic compound (CH3)3CMgBr on reaction with D2O produces"
+  ],
+  "choices": [
+    [
+      "(CH3)3COD"
+    ],
+    [
+      "(CD3)3CD"
+    ],
+    [
+      "(CD3)3COD"
+    ],
+    [
+      "(CH3)3CD"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Grignard reagents react with active hydrogen (or Deuterium in D2O) to form hydrocarbons. (CH3)3C-MgBr + D2O -> (CH3)3C-D + Mg(OD)Br [cite: 787-805]."
+  ]
+}

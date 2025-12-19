@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c5-74c4-883b-8364d048da4a",
+  "question": [
+    "The correct sequence of alpha-amino acids, hormone, vitamin, carbohydrates respectively is"
+  ],
+  "choices": [
+    [
+      "Thiamine, Thyroxine, Vitamin A, Glucose"
+    ],
+    [
+      "Glutamine, Insulin, Aspartic acid, Fructose"
+    ],
+    [
+      "Arginine, Testosterone, Glutamic acid, Fructose"
+    ],
+    [
+      "Aspartic acid, Insulin, Ascorbic acid, rhamnose"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Aspartic acid is an amino acid. Insulin is a hormone. Ascorbic acid is Vitamin C. Rhamnose is a carbohydrate [cite: 660-675]."
+  ]
+}

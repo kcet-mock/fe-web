@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66ca-7f53-aea8-7af3b0baad1f",
+  "question": [
+    "The change in hybridization (if any) of the ‘Al’ atom in the following reaction is",
+    "AlCl3 + Cl- -> AlCl4-"
+  ],
+  "choices": [
+    [
+      "No change in the hybridization state"
+    ],
+    [
+      "sp2 to sp3"
+    ],
+    [
+      "sp3 to sp3d"
+    ],
+    [
+      "sp to sp2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "AlCl3 is sp2 hybridised (trigonal planar). The AlCl4- ion is sp3 hybridised (tetrahedral) [cite: 1065-1066]."
+  ]
+}

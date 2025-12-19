@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c8-766c-a405-065a717e48c1",
+  "question": [
+    "According to the Heisenberg’s Uncertainty principle, the value of delta v * delta x for an object whose mass is 10^-6 kg is"
+  ],
+  "choices": [
+    [
+      "3.0 * 10^-24 m2/s"
+    ],
+    [
+      "4.0 * 10^-26 m2/s"
+    ],
+    [
+      "3.5 * 10^-25 m2/s"
+    ],
+    [
+      "5.2 * 10^-29 m2/s"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "delta v * delta x = h / (4 * pi * m) = 6.626e-34 / (4 * 3.14 * 10^-6) ≈ 5.2 * 10^-29 [cite: 1001-1003]."
+  ]
+}

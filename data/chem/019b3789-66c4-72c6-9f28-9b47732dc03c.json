@@ -1,0 +1,26 @@
+{
+  "id": "019b3789-66c4-72c6-9f28-9b47732dc03c",
+  "question": [
+    "In the following pairs, the one in which both transition metal ions are colourless is"
+  ],
+  "choices": [
+    [
+      "Sc3+, Zn2+"
+    ],
+    [
+      "V2+, Ti3+"
+    ],
+    [
+      "Zn2+, Mn2+"
+    ],
+    [
+      "Ti4+, Cu2+"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Transition metal ions are colourless if they have empty (d0) or fully filled (d10) d-orbitals.",
+    "Sc3+ is [Ar]3d0 (Colourless).",
+    "Zn2+ is [Ar]3d10 (Colourless) [cite: 549-557]."
+  ]
+}

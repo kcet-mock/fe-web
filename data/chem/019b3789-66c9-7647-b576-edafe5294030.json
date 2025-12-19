@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c9-7647-b576-edafe5294030",
+  "question": [
+    "Among the following 0.1 m aqueous solutions, which one will exhibit the lowest boiling point elevation, assuming complete ionization of the compound in solution?"
+  ],
+  "choices": [
+    [
+      "Aluminium chloride"
+    ],
+    [
+      "Aluminmium sulphate"
+    ],
+    [
+      "Potassium sulphate"
+    ],
+    [
+      "Sodium chloride"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Boiling point elevation depends on van't Hoff factor (i). NaCl (i=2), K2SO4 (i=3), AlCl3 (i=4), Al2(SO4)3 (i=5). NaCl has the lowest 'i', thus lowest elevation [cite: 1023-1029]."
+  ]
+}

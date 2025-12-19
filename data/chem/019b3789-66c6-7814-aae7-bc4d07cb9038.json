@@ -1,0 +1,24 @@
+{
+  "id": "019b3789-66c6-7814-aae7-bc4d07cb9038",
+  "question": [
+    "The sodium fusion extract is boiled with concentrated nitric acid while testing for halogens. By doing so, it"
+  ],
+  "choices": [
+    [
+      "helps in precipitation of AgCl"
+    ],
+    [
+      "increases the solubility of AgCl"
+    ],
+    [
+      "increases the concentration of NO3- ion"
+    ],
+    [
+      "decomposes Na2S and NaCN, if formed"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Boiling with conc. HNO3 decomposes sodium cyanide (NaCN) and sodium sulphide (Na2S) to prevent them from interfering with the silver nitrate test for halogens [cite: 710-718]."
+  ]
+}

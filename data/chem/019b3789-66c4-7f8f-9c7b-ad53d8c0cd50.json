@@ -1,0 +1,30 @@
+{
+  "id": "019b3789-66c4-7f8f-9c7b-ad53d8c0cd50",
+  "question": [
+    "Match List-I with List-II and select the correct option:",
+    "List-I (Molecule / ion): a. NO, b. CO, c. O2-, d. O2",
+    "List-II (Bond order): i. 1.5, ii. 2.0, iii. 2.5, iv. 3.0"
+  ],
+  "choices": [
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-i, b-iv, c-iii, d-ii"
+    ],
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ],
+    [
+      "a-iv, b-iii, c-ii, d-i"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Bond order is calculated as 1/2(Nb - Na).",
+    "NO (15e-): Bond order = 2.5 (a-iii)",
+    "CO (14e-): Bond order = 3.0 (b-iv)",
+    "O2- (17e-): Bond order = 1.5 (c-i)",
+    "O2 (16e-): Bond order = 2.0 (d-ii) [cite: 500-512]."
+  ]
+}

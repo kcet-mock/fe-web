@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66c9-7023-9979-eef6d0edeefc",
+  "question": [
+    "Variation of solubility with temperature t for a gas in liquid is shown by the following graphs. The correct representation is",
+    "images/graph_q46.png"
+  ],
+  "choices": [
+    [
+      "(1)"
+    ],
+    [
+      "(2)"
+    ],
+    [
+      "(3)"
+    ],
+    [
+      "(4)"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to Henry's Law and general principles, solubility of a gas in liquid decreases with increase in temperature. Graph 4 shows this inverse relationship [cite: 1029-1031]."
+  ]
+}

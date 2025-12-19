@@ -1,0 +1,25 @@
+{
+  "id": "019b3789-66c8-742b-bb3b-4f539443b8cb",
+  "question": [
+    "Statement-I : Adiabatic work done is positive when work is done on the system and internal energy of the system increases.",
+    "Statement – II : No work is done during free expansion of an ideal gas."
+  ],
+  "choices": [
+    [
+      "Both statements – I and Statement – II are false"
+    ],
+    [
+      "Statement – I is true but statement – II is false"
+    ],
+    [
+      "Statement – I is false but statement – II is true"
+    ],
+    [
+      "Both statements – I and Statement – II are true"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In adiabatic process (q=0), w = delta U. Work done ON system is positive, increasing U (Statement I True). Free expansion against vacuum (Pext=0) means w=0 (Statement II True) [cite: 1005-1011]."
+  ]
+}
