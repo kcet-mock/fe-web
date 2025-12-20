@@ -83,14 +83,19 @@ export default function ResultsSubjectPage({ subject, questions }) {
   useEffect(() => {
     if (typeof window === 'undefined') return;
     try {
-      const stored = window.sessionStorage.getItem('kcetMockTestResult');
+      const sessionIdFromQuery =
+        typeof router?.query?.session_id === 'string' ? router.query.session_id : undefined;
+      const storageKey = sessionIdFromQuery 
+        ? `kcetMockTestResult_${sessionIdFromQuery}`
+        : 'kcetMockTestResult';
+      const stored = window.sessionStorage.getItem(storageKey);
       if (!stored) return;
       const parsed = JSON.parse(stored);
       setResult(parsed);
     } catch (e) {
       // ignore
     }
-  }, []);
+  }, [router.query.session_id]);
 
   const summary = (() => {
     if (!result) return null;

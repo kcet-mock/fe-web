@@ -239,13 +239,21 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
       };
 
       try {
-        window.sessionStorage.setItem('kcetMockTestResult', JSON.stringify(payload));
+        const storageKey = sessionIdFromQuery 
+          ? `kcetMockTestResult_${sessionIdFromQuery}`
+          : 'kcetMockTestResult';
+        window.sessionStorage.setItem(storageKey, JSON.stringify(payload));
       } catch (e) {
         // ignore
       }
     }
 
-    router.replace(`/results/${encodeURIComponent(subject)}`);
+    const sessionIdFromQuery =
+      typeof router?.query?.session_id === 'string' ? router.query.session_id : undefined;
+    const resultsUrl = sessionIdFromQuery
+      ? `/results/${encodeURIComponent(subject)}?session_id=${encodeURIComponent(sessionIdFromQuery)}`
+      : `/results/${encodeURIComponent(subject)}`;
+    router.replace(resultsUrl);
   };
 
   const subjectLabel = SUBJECTS.find((s) => s.value === subject)?.label || subject;
