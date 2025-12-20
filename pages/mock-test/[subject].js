@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 // 60-minute mock test timer (in seconds)
 const TEST_DURATION_SECONDS = 60 * 60;
 const DEFAULT_QUESTION_COUNT = 60;
+const yearsToTry = [2023, 2024, 2025, 2026];
 
 const SUBJECTS = [
   { value: 'bio', label: 'Biology' },
@@ -150,25 +151,20 @@ export async function getStaticProps({ params }) {
 
   // Pre-load available years for this subject
   const yearIdsMap = {};
-  const dataDir = path.join(process.cwd(), 'data', subject);
-  try {
-    const files = await fs.readdir(dataDir);
-    const yearFiles = files.filter(f => /^_(\d{4})\.js$/.test(f));
-    
-    for (const yearFile of yearFiles) {
-      const yearMatch = yearFile.match(/^_(\d{4})\.js$/);
-      if (yearMatch) {
-        const year = parseInt(yearMatch[1]);
-        try {
-          const { ALL_QUESTION_IDS } = await import(`../../data/${subject}/${yearFile}`);
-          yearIdsMap[year] = ALL_QUESTION_IDS || [];
-        } catch (error) {
-          console.error(`Failed to load year file ${yearFile}`, error);
-        }
+  
+  // Try to load common years (2023-2026)
+  // We need to explicitly try each year because dynamic imports need static analysis
+  
+  
+  for (const year of yearsToTry) {
+    try {
+      const module = await import(`../../data/${subject}/_${year}.js`);
+      if (module.ALL_QUESTION_IDS && Array.isArray(module.ALL_QUESTION_IDS)) {
+        yearIdsMap[year] = module.ALL_QUESTION_IDS;
       }
+    } catch (error) {
+      // Year file doesn't exist, skip it
     }
-  } catch (error) {
-    // ignore
   }
 
   const availableYears = Object.keys(yearIdsMap).map(y => parseInt(y)).sort((a, b) => b - a);
