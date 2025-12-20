@@ -38,7 +38,8 @@ def add_years_to_question(file_path, years_list, force=False):
         print(f"  Error processing {file_path.name}: {e}")
         return False
 
-, force=False):
+
+def process_directory(directory, years_list, force=False):
     """Process all JSON files in the directory."""
     directory_path = Path(directory)
     
@@ -64,8 +65,7 @@ def add_years_to_question(file_path, years_list, force=False):
     
     updated_count = 0
     for json_file in sorted(json_files):
-        if add_years_to_question(json_file, years_list, force
-        if add_years_to_question(json_file, years_list):
+        if add_years_to_question(json_file, years_list, force):
             updated_count += 1
     
     print(f"\nCompleted! Updated {updated_count} out of {len(json_files)} files.")
@@ -81,25 +81,25 @@ Examples:
   python add_years_to_questions.py data/bio/
   
   # Add specific years to all questions
-  pyForce overwrite existing years fields
-  python add_years_to_questions.py data/bio/ --years 2025 --force
+  python add_years_to_questions.py data/bio/ --years 2023 2024
   
-  # thon add_years_to_questions.py data/bio/ --years 2023 2024
+  # Force overwrite existing years fields
+  python add_years_to_questions.py data/bio/ --years 2025 --force
   
   # Process multiple subjects
   python add_years_to_questions.py data/chem/ --years 2023
         """
     )
     
+    parser.add_argument('directory', help='Directory containing question JSON files')
+    parser.add_argument('--years', nargs='*', type=int, default=[], 
+                        help='List of years to add (default: empty list)')
     parser.add_argument('--force', action='store_true', 
                         help='Overwrite existing years field if present')
     
     args = parser.parse_args()
     
-    process_directory(args.directory, args.years, args.force
-    args = parser.parse_args()
-    
-    process_directory(args.directory, args.years)
+    process_directory(args.directory, args.years, args.force)
 
 
 if __name__ == '__main__':
