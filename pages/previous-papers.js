@@ -10,11 +10,18 @@ const SUBJECT_MAP = {
 
 // This will be populated from available _<year>.js files
 const PAPERS = [
-  { year: 2024, subject: 'phy', count: 120 },
-  { year: 2025, subject: 'bio', count: 60 },
+  { year: 2025, subject: 'phy', count: 60 },
   { year: 2025, subject: 'chem', count: 60 },
   { year: 2025, subject: 'mat', count: 60 },
-  { year: 2025, subject: 'phy', count: 60 },
+  { year: 2025, subject: 'bio', count: 60 },
+  { year: 2024, subject: 'phy', count: 60 },
+  { year: 2024, subject: 'chem', count: 60 },
+  { year: 2024, subject: 'mat', count: 60 },
+  { year: 2024, subject: 'bio', count: 60 },
+  { year: 2023, subject: 'phy', count: 60 },
+  { year: 2023, subject: 'chem', count: 60 },
+  { year: 2023, subject: 'mat', count: 60 },
+  { year: 2023, subject: 'bio', count: 60 },
   // Add more as year files are created
 ];
 
