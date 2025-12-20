@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f7-71e1-a120-ac9cdca45ed1",
+  "question": [
+    "Identify the bacterial disease among the following:"
+  ],
+  "choices": [
+    [
+      "Brown rust of wheat"
+    ],
+    [
+      "Tobacco mosaic disease"
+    ],
+    [
+      "Black rot of crucifers"
+    ],
+    [
+      "Late blight of potato"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Black rot of crucifers is caused by the bacterium *Xanthomonas campestris*. Brown rust and Late blight are fungal, and Tobacco mosaic is viral."
+  ],
+  "years": [
+    2024
+  ]
+}

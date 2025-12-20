@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f9-7f43-8998-49926513b647",
+  "question": [
+    "Which of the following statement is correct with reference to vacuoles?"
+  ],
+  "choices": [
+    [
+      "It is membrane bound and contains storage proteins and lipids."
+    ],
+    [
+      "It is membrane bound and contains water and excretory substance."
+    ],
+    [
+      "It lacks membrane and contains air."
+    ],
+    [
+      "It lacks membrane and contains water and excretory substances."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Vacuoles are membrane-bound (tonoplast) spaces found in the cytoplasm containing water, sap, excretory products, and other materials."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f6-74f5-a2c1-889fb1fbdee9",
+  "question": [
+    "In Structural gene, the template DNA strand has nucleotide sequences 3'-ATGCATGCATGCATGC-5'. Find the correct and complimentary nucleotide sequence on coding strand."
+  ],
+  "choices": [
+    [
+      "5'-ATGCATGCATGCATGC-3'"
+    ],
+    [
+      "3'-GCATGCATGCATGCAT-5'"
+    ],
+    [
+      "5'-TACGTACGTACGTACG-3'"
+    ],
+    [
+      "3'-TACGTACGTACGTACG-5'"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The coding strand is complementary to the template strand (3'-5'). Therefore, A pairs with T, T with A, G with C, and C with G, oriented 5' to 3'. 3'-ATGC...-5' corresponds to 5'-TACG...-3'."
+  ],
+  "years": [
+    2024
+  ]
+}

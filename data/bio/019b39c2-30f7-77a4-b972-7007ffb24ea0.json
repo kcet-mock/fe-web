@@ -1,0 +1,29 @@
+{
+  "id": "019b39c2-30f7-77a4-b972-7007ffb24ea0",
+  "question": [
+    "Match the nutrients given in List I with the source in List II:",
+    "List I: 1. Vitamin A, 2. Single cell protein, 3. Vitamin C, 4. Protein",
+    "List II: p. Bitter gourd, q. Beans, r. Carrots, s. Spirulina spp"
+  ],
+  "choices": [
+    [
+      "1-p, 2-q, 3-r, 4-s"
+    ],
+    [
+      "1-r, 2-s, 3-p, 4-q"
+    ],
+    [
+      "1-p, 2-r, 3-s, 4-q"
+    ],
+    [
+      "1-q, 2-s, 3-p, 4-r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Vitamin A is found in Carrots (1-r), Single cell protein is Spirulina (2-s), Vitamin C is in Bitter gourd (3-p), and Proteins are in Beans (4-q)."
+  ],
+  "years": [
+    2024
+  ]
+}

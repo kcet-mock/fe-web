@@ -1,0 +1,30 @@
+{
+  "id": "019b39c2-30f5-71bf-8650-9093aca0f45f",
+  "question": [
+    "Following representation P, Q and R denote few steps of Griffith Experiment. Identify the correct one(s).",
+    "P. R strain -> Inject into mice -> Mice die",
+    "Q. S strain (Heat killed) -> Inject into mice -> Mice die",
+    "R. R strain -> Inject into mice -> Mice live"
+  ],
+  "choices": [
+    [
+      "P only"
+    ],
+    [
+      "R only"
+    ],
+    [
+      "P and R"
+    ],
+    [
+      "Q and R"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In Griffith's experiment, R strain is non-virulent (mice live). P is incorrect because R strain does not kill mice. Q is incorrect because heat-killed S strain does not kill mice. Only R is correct."
+  ],
+  "years": [
+    2024
+  ]
+}

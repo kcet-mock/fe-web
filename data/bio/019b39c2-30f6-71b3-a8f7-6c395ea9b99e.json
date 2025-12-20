@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f6-71b3-a8f7-6c395ea9b99e",
+  "question": [
+    "In tRNA the region that binds with mRNA is"
+  ],
+  "choices": [
+    [
+      "Anticodon loop of tRNA"
+    ],
+    [
+      "Amino acid acceptor end of tRNA"
+    ],
+    [
+      "Amino acyl synthetase loop of tRNA"
+    ],
+    [
+      "Ribosomal binding loop of tRNA"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The anticodon loop of tRNA has bases complementary to the code on the mRNA and is responsible for binding to it."
+  ],
+  "years": [
+    2024
+  ]
+}

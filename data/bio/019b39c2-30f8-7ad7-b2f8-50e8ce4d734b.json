@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f8-7ad7-b2f8-50e8ce4d734b",
+  "question": [
+    "Which of the following is not a parasitic adaptation?"
+  ],
+  "choices": [
+    [
+      "Loss of unnecessary sense organs"
+    ],
+    [
+      "Absence of adhesive organs or suckers"
+    ],
+    [
+      "Loss of digestive system"
+    ],
+    [
+      "High reproductive capacity"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Parasites typically *possess* adhesive organs or suckers to cling to the host. The 'absence' of these organs would be a disadvantage, not an adaptation."
+  ],
+  "years": [
+    2024
+  ]
+}

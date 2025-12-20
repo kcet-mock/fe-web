@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f6-7316-aa38-1701608068e3",
+  "question": [
+    "The principle of vaccination is based on which property of immune system?"
+  ],
+  "choices": [
+    [
+      "Memory"
+    ],
+    [
+      "Specificity"
+    ],
+    [
+      "Diversity"
+    ],
+    [
+      "Plasticity"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Vaccination relies on the 'memory' of the immune system to recognize and respond more rapidly to a pathogen upon subsequent exposure."
+  ],
+  "years": [
+    2024
+  ]
+}

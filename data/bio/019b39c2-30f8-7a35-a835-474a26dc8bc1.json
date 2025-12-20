@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f8-7a35-a835-474a26dc8bc1",
+  "question": [
+    "Identify the incorrect match with respect to recently extinct animals and their place of extinction according to IUCN Red List."
+  ],
+  "choices": [
+    [
+      "Dodo-Mauritius"
+    ],
+    [
+      "Quagga-Africa"
+    ],
+    [
+      "Thylacine-Australia"
+    ],
+    [
+      "Steller's Sea Cow-North America"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Steller's Sea Cow was native to the Commander Islands near Russia (Bering Sea), not typically classified as North America in this context."
+  ],
+  "years": [
+    2024
+  ]
+}

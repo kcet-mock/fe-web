@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f4-7b01-b6bc-59f501db25c7",
+  "question": [
+    "Transfer of pollen grains from the anther to the stigma of another flower of the same plant is called"
+  ],
+  "choices": [
+    [
+      "Xenogamy"
+    ],
+    [
+      "Autogamy"
+    ],
+    [
+      "Cleistogamy"
+    ],
+    [
+      "Geitonogamy"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Geitonogamy refers to the transfer of pollen grains from the anther to the stigma of another flower on the same plant. It is genetically similar to autogamy."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30fa-735c-a056-5085e7151362",
+  "question": [
+    "Auxins: Apical dominance :: Gibberellins : ?"
+  ],
+  "choices": [
+    [
+      "Adventitious shoot formation"
+    ],
+    [
+      "Accelerates abscission"
+    ],
+    [
+      "Closure of stomata"
+    ],
+    [
+      "Bolting"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Just as Auxins are known for apical dominance, Gibberellins are known for Bolting (internode elongation just prior to flowering)."
+  ],
+  "years": [
+    2024
+  ]
+}

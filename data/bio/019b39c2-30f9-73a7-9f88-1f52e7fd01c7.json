@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f9-73a7-9f88-1f52e7fd01c7",
+  "question": [
+    "Which of the following exhibits haplodiplontic lifecycle?"
+  ],
+  "choices": [
+    [
+      "Fucus"
+    ],
+    [
+      "Chlamydomonas"
+    ],
+    [
+      "Gelidium"
+    ],
+    [
+      "Ectocarpus"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Ectocarpus and Kelps exhibit a haplodiplontic life cycle, while Fucus is diplontic."
+  ],
+  "years": [
+    2024
+  ]
+}

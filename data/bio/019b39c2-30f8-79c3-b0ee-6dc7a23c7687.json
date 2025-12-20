@@ -1,0 +1,29 @@
+{
+  "id": "019b39c2-30f8-79c3-b0ee-6dc7a23c7687",
+  "question": [
+    "Match List I with List II and choose the correct answer.",
+    "List I: 1. Nitrogen rich fertilizers, 2. Carbon dioxide, 3. Carbon monoxide, 4. CFCs",
+    "List II: p. Ozone depletion, q. Eutrophication, r. Greenhouse effect, s. Air pollutant"
+  ],
+  "choices": [
+    [
+      "1-p, 2-q, 3-r, 4-s"
+    ],
+    [
+      "1-q, 2-r, 3-s, 4-p"
+    ],
+    [
+      "1-r, 2-s, 3-p, 4-q"
+    ],
+    [
+      "1-s, 2-p, 3-q, 4-r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Nitrogen fertilizers cause Eutrophication (1-q), CO2 causes Greenhouse effect (2-r), CO is an Air pollutant (3-s), and CFCs cause Ozone depletion (4-p)."
+  ],
+  "years": [
+    2024
+  ]
+}

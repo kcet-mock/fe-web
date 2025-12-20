@@ -1,0 +1,27 @@
+{
+  "id": "019b39c2-30f8-7f06-a68d-9b44cb38d56a",
+  "question": [
+    "The annual net primary productivity of the biosphere is approximately"
+  ],
+  "choices": [
+    [
+      "170 billion tons"
+    ],
+    [
+      "55 billion tons"
+    ],
+    [
+      "170 million tons"
+    ],
+    [
+      "55 million tons"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The annual net primary productivity of the whole biosphere is approximately 170 billion tons (dry weight) of organic matter."
+  ],
+  "years": [
+    2024
+  ]
+}
