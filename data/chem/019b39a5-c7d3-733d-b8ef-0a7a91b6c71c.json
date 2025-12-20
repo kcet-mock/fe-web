@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d3-733d-b8ef-0a7a91b6c71c",
+  "question": [
+    "The energy associated with first orbit in He⁺ is"
+  ],
+  "choices": [
+    [
+      "0 J"
+    ],
+    [
+      "-8.72 × 10⁻¹⁸ J"
+    ],
+    [
+      "-4.58 × 10⁻¹⁸ J"
+    ],
+    [
+      "-0.545 × 10⁻¹⁸ J"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Energy E_n = -2.18 × 10⁻¹⁸ * (Z² / n²) J.",
+    "For He⁺, Z = 2. First orbit n = 1.",
+    "E = -2.18 × 10⁻¹⁸ * (4 / 1) = -8.72 × 10⁻¹⁸ J."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "019b39a5-c7d4-7a80-bf2a-ed040b7b1840",
+  "question": [
+    "From the diagram, ΔH for the reaction C → A is",
+    "images/e7a5b6c8-d9f0-8a5b-2c3d-456789012345.png"
+  ],
+  "choices": [
+    [
+      "+35 J"
+    ],
+    [
+      "-15 J"
+    ],
+    [
+      "-35 J"
+    ],
+    [
+      "+15 J"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "According to Hess's Law, the enthalpy change is independent of the path.",
+    "Path A → 2B → C has ΔH = ΔH₁ + ΔH₂ = 10 + 25 = 35 J.",
+    "So, ΔH(A→C) = +35 J.",
+    "The question asks for C → A. This is the reverse reaction.",
+    "ΔH(C→A) = -ΔH(A→C) = -35 J."
+  ]
+}

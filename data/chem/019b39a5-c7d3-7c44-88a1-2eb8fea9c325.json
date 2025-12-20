@@ -1,0 +1,27 @@
+{
+  "id": "019b39a5-c7d3-7c44-88a1-2eb8fea9c325",
+  "question": [
+    "For the coagulation of positively charged hydrated ferric-oxide sol, the flocculating power of the ions is in the order:"
+  ],
+  "choices": [
+    [
+      "PO₄³⁻ > SO₄²⁻ > Cl⁻ > [Fe(CN)₆]⁴⁻"
+    ],
+    [
+      "Cl⁻ > SO₄²⁻ > PO₄³⁻ > [Fe(CN)₆]⁴⁻"
+    ],
+    [
+      "SO₄²⁻ = Cl⁻ = PO₄³⁻ = [Fe(CN)₆]⁴⁻"
+    ],
+    [
+      "[Fe(CN)₆]⁴⁻ > PO₄³⁻ > SO₄²⁻ > Cl⁻"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to Hardy-Schulze rule, the flocculating power increases with the valency of the counter-ion.",
+    "For a positively charged sol, we need negative ions.",
+    "Valencies: [Fe(CN)₆]⁴⁻ (-4), PO₄³⁻ (-3), SO₄²⁻ (-2), Cl⁻ (-1).",
+    "Order: 4 > 3 > 2 > 1."
+  ]
+}

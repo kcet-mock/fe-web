@@ -1,0 +1,25 @@
+{
+  "id": "019b39a5-c7d0-7691-b1ef-42cacfbaf2ab",
+  "question": [
+    "PCC is:"
+  ],
+  "choices": [
+    [
+      "K₂Cr₂O₇ + Pyridine"
+    ],
+    [
+      "CrO₃ + CHCl₃"
+    ],
+    [
+      "CrO₃ + H₂SO₄"
+    ],
+    [
+      "A complex of chromium trioxide with pyridine + HCl"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "PCC stands for Pyridinium Chlorochromate.",
+    "It is prepared by dissolving chromium trioxide (CrO₃) in hydrochloric acid (HCl) and adding pyridine."
+  ]
+}

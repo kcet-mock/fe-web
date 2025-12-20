@@ -1,0 +1,25 @@
+{
+  "id": "019b39a5-c7ce-776b-97ad-b88849074c42",
+  "question": [
+    "NO₂ gas is:"
+  ],
+  "choices": [
+    [
+      "Colourless, neutral"
+    ],
+    [
+      "Colourless, acidic"
+    ],
+    [
+      "Brown, acidic"
+    ],
+    [
+      "Brown, neutral"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Nitrogen dioxide (NO₂) is a reddish-brown toxic gas.",
+    "It is acidic in nature because it reacts with water to form nitric acid and nitrous acid (2NO₂ + H₂O → HNO₃ + HNO₂)."
+  ]
+}

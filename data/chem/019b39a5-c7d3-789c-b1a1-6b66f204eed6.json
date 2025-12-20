@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d3-789c-b1a1-6b66f204eed6",
+  "question": [
+    "For the reaction PCl₅ → PCl₃ + Cl₂, rate and rate constant are 1.02×10⁻⁴ mol L⁻¹ s⁻¹ and 3.4×10⁻⁵ s⁻¹ respectively at a given instant. The molar concentration of PCl₅ at that instant is:"
+  ],
+  "choices": [
+    [
+      "8.0 mol L⁻¹"
+    ],
+    [
+      "3.0 mol L⁻¹"
+    ],
+    [
+      "0.2 mol L⁻¹"
+    ],
+    [
+      "2.0 mol L⁻¹"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Unit of rate constant (s⁻¹) indicates First Order reaction.",
+    "Rate = k [PCl₅]¹.",
+    "[PCl₅] = Rate / k = (1.02 × 10⁻⁴) / (3.4 × 10⁻⁵) = 10.2 / 3.4 = 3.0 mol L⁻¹."
+  ]
+}

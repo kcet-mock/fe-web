@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d0-79d3-a58f-c3a199a9db60",
+  "question": [
+    "When a tertiary alcohol A (C₄H₁₀O) reacts with 20% H₃PO₄ at 358 K, it gives a compound 'B' (C₄H₈) as a major product. The IUPAC name of the compound 'B' is:"
+  ],
+  "choices": [
+    [
+      "But-1-ene"
+    ],
+    [
+      "But-2-ene"
+    ],
+    [
+      "Cyclobutane"
+    ],
+    [
+      "2-Methylpropene"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Alcohol A (C₄H₁₀O) is tertiary, so it must be tert-Butyl alcohol (2-Methylpropan-2-ol).",
+    "Dehydration of tert-butyl alcohol gives 2-Methylpropene (Isobutylene).",
+    "Structure: (CH₃)₃C-OH → (CH₃)₂C=CH₂ + H₂O."
+  ]
+}

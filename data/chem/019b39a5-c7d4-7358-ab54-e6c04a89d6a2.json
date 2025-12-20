@@ -1,0 +1,24 @@
+{
+  "id": "019b39a5-c7d4-7358-ab54-e6c04a89d6a2",
+  "question": [
+    "The transition element (≈5%) present with lanthanoid metal in Misch metal is:"
+  ],
+  "choices": [
+    [
+      "Mg"
+    ],
+    [
+      "Fe"
+    ],
+    [
+      "Zn"
+    ],
+    [
+      "Co"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Misch metal is an alloy of Rare Earth elements (Lanthanoids ~95%) and Iron (~5%) with traces of S, C, Ca, Al."
+  ]
+}

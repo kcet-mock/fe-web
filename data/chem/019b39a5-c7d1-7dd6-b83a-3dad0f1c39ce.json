@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d1-7dd6-b83a-3dad0f1c39ce",
+  "question": [
+    "Which one of the following nitrate will decompose to give NO₂ on heating?"
+  ],
+  "choices": [
+    [
+      "NaNO₃"
+    ],
+    [
+      "KNO₃"
+    ],
+    [
+      "RbNO₃"
+    ],
+    [
+      "LiNO₃"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Alkali metal nitrates usually decompose to nitrite and oxygen (e.g., 2NaNO₃ → 2NaNO₂ + O₂).",
+    "Exception: Lithium Nitrate (LiNO₃) behaves like magnesium nitrate due to diagonal relationship/small size of Li⁺.",
+    "4LiNO₃ → 2Li₂O + 4NO₂ + O₂. It releases Brown NO₂ gas."
+  ]
+}

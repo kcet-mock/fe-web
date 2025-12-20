@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d2-7c99-8a39-2861cf74578e",
+  "question": [
+    "Which one of the following pairs will show positive deviation from Raoult's Law?"
+  ],
+  "choices": [
+    [
+      "Water - HCl"
+    ],
+    [
+      "Benzene - Methanol"
+    ],
+    [
+      "Water - HNO₃"
+    ],
+    [
+      "Acetone - Chloroform"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Positive deviation occurs when A-B interactions are weaker than A-A and B-B interactions.",
+    "Methanol has strong H-bonding. Adding benzene breaks these H-bonds, increasing vapour pressure (Positive Deviation).",
+    "Water-acids and Acetone-Chloroform show negative deviation."
+  ]
+}

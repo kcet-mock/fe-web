@@ -1,0 +1,28 @@
+{
+  "id": "019b39a5-c7d0-7249-8274-2e2b73101bb6",
+  "question": [
+    "On treating 100 mL of 0.1 M aqueous solution of the complex CrCl₃.6H₂O with excess of AgNO₃, 2.86 g of AgCl was obtained. The complex is:"
+  ],
+  "choices": [
+    [
+      "[Cr(H₂O)₃Cl₃].3H₂O"
+    ],
+    [
+      "[Cr(H₂O)₄Cl₂]Cl.2H₂O"
+    ],
+    [
+      "[Cr(H₂O)₅Cl]Cl₂.H₂O"
+    ],
+    [
+      "[Cr(H₂O)₆Cl₃]"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Moles of complex = Molarity * Volume = 0.1 * 0.1 = 0.01 mol.",
+    "Moles of AgCl = Mass / Molar Mass = 2.86 g / 143.5 g/mol ≈ 0.02 mol.",
+    "Ratio AgCl : Complex = 0.02 : 0.01 = 2 : 1.",
+    "This means 2 Chloride ions are ionizable (outside the coordination sphere).",
+    "The formula must be [Cr(H₂O)₅Cl]Cl₂.H₂O."
+  ]
+}

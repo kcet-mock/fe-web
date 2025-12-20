@@ -1,0 +1,27 @@
+{
+  "id": "019b39a5-c7d1-7289-9e1a-bafcd3ae48e6",
+  "question": [
+    "0.48 g of an organic compound on complete combustion produced 0.22 g of CO₂. The percentage of C in the given organic compound is :"
+  ],
+  "choices": [
+    [
+      "25"
+    ],
+    [
+      "50"
+    ],
+    [
+      "12.5"
+    ],
+    [
+      "87.5"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Mass of Carbon in CO₂ = (12/44) * Mass of CO₂.",
+    "Mass of C = (12/44) * 0.22 = 12 * 0.005 = 0.06 g.",
+    "Percentage of C = (Mass of C / Mass of Compound) * 100",
+    "% C = (0.06 / 0.48) * 100 = (1/8) * 100 = 12.5%."
+  ]
+}

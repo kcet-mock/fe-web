@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d1-72e8-9b69-4421aafa4dae",
+  "question": [
+    "Which of the following halides cannot be hydrolysed?"
+  ],
+  "choices": [
+    [
+      "CCl₄"
+    ],
+    [
+      "SiCl₄"
+    ],
+    [
+      "GeCl₄"
+    ],
+    [
+      "SnCl₄"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Hydrolysis requires the central atom to accept lone pairs from water into vacant d-orbitals.",
+    "Carbon (in CCl₄) does not have vacant d-orbitals in its valence shell (Period 2).",
+    "Si, Ge, and Sn (Period 3+) have vacant d-orbitals and can be hydrolysed."
+  ]
+}

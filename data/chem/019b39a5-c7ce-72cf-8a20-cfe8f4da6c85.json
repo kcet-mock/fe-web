@@ -1,0 +1,25 @@
+{
+  "id": "019b39a5-c7ce-72cf-8a20-cfe8f4da6c85",
+  "question": [
+    "The incorrect statement about Hall-Heroult process is :"
+  ],
+  "choices": [
+    [
+      "Carbon anode is oxidised to CO and CO₂"
+    ],
+    [
+      "Na₃AlF₆ helps to decrease the melting point of the electrolyte"
+    ],
+    [
+      "CaF₂ helps to increase the conductivity of the electrolyte"
+    ],
+    [
+      "Oxidation state of oxygen changes in the overall cell reaction"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In the Hall-Heroult process, Alumina (Al₂O₃) is reduced.",
+    "The reaction at the anode involves Oxide ions (O²⁻) reacting with Carbon to form CO and CO₂. The oxidation state of oxygen is -2 in Al₂O₃ and remains -2 in CO and CO₂. Thus, the oxidation state of oxygen does *not* change. (Carbon changes from 0 to +2/+4; Aluminum changes from +3 to 0)."
+  ]
+}

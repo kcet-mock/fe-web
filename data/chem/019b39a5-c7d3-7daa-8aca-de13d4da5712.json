@@ -1,0 +1,25 @@
+{
+  "id": "019b39a5-c7d3-7daa-8aca-de13d4da5712",
+  "question": [
+    "A metalloid is"
+  ],
+  "choices": [
+    [
+      "Bi"
+    ],
+    [
+      "Sb"
+    ],
+    [
+      "P"
+    ],
+    [
+      "Se"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Antimony (Sb) is a well-known metalloid.",
+    "Bismuth (Bi) is a metal. Phosphorus (P) and Selenium (Se) are non-metals."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "019b39a5-c7d2-7339-90d6-cc5a8e8475a0",
+  "question": [
+    "Which of the following crystals has the unit cell such that a = b ≠ c and α = β = 90°, γ = 120°?"
+  ],
+  "choices": [
+    [
+      "Zinc blende"
+    ],
+    [
+      "Graphite"
+    ],
+    [
+      "Cinnabar"
+    ],
+    [
+      "Potassium dichromate"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The parameters a=b≠c, α=β=90°, γ=120° define a Hexagonal crystal system.",
+    "Graphite crystallizes in the hexagonal system.",
+    "Zinc blende is Cubic. Cinnabar is Trigonal. Potassium dichromate is Triclinic."
+  ]
+}

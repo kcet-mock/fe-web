@@ -1,0 +1,25 @@
+{
+  "id": "019b39a5-c7cf-75db-a36e-edda4c38c4f7",
+  "question": [
+    "The female sex hormone which is responsible for the development of secondary female characteristics and participates in the control of menstrual cycle is:"
+  ],
+  "choices": [
+    [
+      "Testosterone"
+    ],
+    [
+      "Estradiol"
+    ],
+    [
+      "Insulin"
+    ],
+    [
+      "Thyroxine"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Estradiol (an estrogen) is the primary female sex hormone responsible for secondary sexual characteristics and regulation of the menstrual cycle.",
+    "Testosterone is the male sex hormone. Insulin and Thyroxine are metabolic hormones."
+  ]
+}

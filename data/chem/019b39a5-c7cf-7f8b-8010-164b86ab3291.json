@@ -1,0 +1,24 @@
+{
+  "id": "019b39a5-c7cf-7f8b-8010-164b86ab3291",
+  "question": [
+    "The type of linkage present between nucleotides is :"
+  ],
+  "choices": [
+    [
+      "Phosphoester linkage"
+    ],
+    [
+      "Phosphodiester linkage"
+    ],
+    [
+      "Amide linkage"
+    ],
+    [
+      "Glycosidic linkage"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In nucleic acids (DNA/RNA), nucleotides are joined by a phosphodiester linkage between the 5' carbon of one sugar and the 3' carbon of the next sugar."
+  ]
+}

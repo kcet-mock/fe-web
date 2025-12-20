@@ -1,0 +1,27 @@
+{
+  "id": "019b39a5-c7d2-7c3d-a462-327503e24162",
+  "question": [
+    "How many Coulombs are required to oxidise 0.1 mole of H₂O to oxygen?"
+  ],
+  "choices": [
+    [
+      "1.93×10⁵ C"
+    ],
+    [
+      "1.93×10⁴ C"
+    ],
+    [
+      "3.86×10⁴ C"
+    ],
+    [
+      "9.65×10³ C"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Reaction: H₂O → 2H⁺ + 1/2 O₂ + 2e⁻.",
+    "To oxidise 1 mole of H₂O, 2 moles of electrons are required.",
+    "For 0.1 mole H₂O: 0.2 moles of electrons.",
+    "Charge = 0.2 * F = 0.2 * 96500 C = 19300 C = 1.93 × 10⁴ C."
+  ]
+}
