@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2da-7fc4-aaf4-98bc10010ae8",
+  "question": [
+    "The function $f(x)=|\\cos x|$ is"
+  ],
+  "choices": [
+    [
+      "Everywhere continuous and differentiable"
+    ],
+    [
+      "Everywhere continuous but not differentiable at odd multiples of π/2"
+    ],
+    [
+      "Neither continuous nor differentiable at (2n+1)π/2"
+    ],
+    [
+      "Not differentiable everywhere"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The modulus function $|u|$ is continuous everywhere but not differentiable where $u=0$.",
+    "Here $\\cos x = 0$ at $x = (2n+1)\\frac{\\pi}{2}$.",
+    "Thus, it is continuous everywhere but not differentiable at odd multiples of $\\pi/2$."
+  ],
+  "years": [
+    2024
+  ]
+}

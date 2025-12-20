@@ -1,0 +1,31 @@
+{
+  "id": "019b39b9-a2d7-725c-84d4-555a2ecadb83",
+  "question": [
+    "If A.M. and G.M. of roots of a quadratic equation are 5 and 4 respectively, then the quadratic equation is"
+  ],
+  "choices": [
+    [
+      "x^2 - 10x - 16 = 0"
+    ],
+    [
+      "x^2 + 10x + 16 = 0"
+    ],
+    [
+      "x^2 + 10x - 16 = 0"
+    ],
+    [
+      "x^2 - 10x + 16 = 0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let roots be $\\alpha, \\beta$.",
+    "A.M. = $\\frac{\\alpha+\\beta}{2} = 5 \\implies \\alpha+\\beta = 10$.",
+    "G.M. = $\\sqrt{\\alpha\\beta} = 4 \\implies \\alpha\\beta = 16$.",
+    "Equation is $x^2 - (\\text{sum})x + (\\text{product}) = 0$.",
+    "$x^2 - 10x + 16 = 0$."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b39b9-a2da-77ed-9c58-de4df61492c1",
+  "question": [
+    "Which one of the following observations is correct for the features of logarithm function to any base b>1?"
+  ],
+  "choices": [
+    [
+      "The domain of the logarithm function is R, the set of real numbers."
+    ],
+    [
+      "The range of the logarithm function is R, the set of all positive real numbers."
+    ],
+    [
+      "The point (1, 0) is always on the graph of the logarithm function."
+    ],
+    [
+      "The graph of the logarithm function is decreasing as we move from left to right."
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For $\\log_b x$ where $b > 1$: Domain is $(0, \\infty)$, Range is $\\mathbb{R}$, and it is an increasing function.",
+    "Since $\\log_b 1 = 0$, the graph always passes through (1, 0)."
+  ],
+  "years": [
+    2024
+  ]
+}

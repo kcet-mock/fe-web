@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2d8-7a0d-99e5-ff94be20f3e4",
+  "question": [
+    "Let $f:R\\rightarrow R$ be defined by $f(x)=x^2+1$. Then the pre images of 17 and -3 respectively are"
+  ],
+  "choices": [
+    [
+      "Φ, {4, -4}"
+    ],
+    [
+      "{3, -3}, Φ"
+    ],
+    [
+      "{4, -4}, Φ"
+    ],
+    [
+      "{4, -4}, {2, -2}"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For 17: $x^2 + 1 = 17 \\implies x^2 = 16 \\implies x = \\pm 4$. Pre-image is $\\{4, -4\\}$.",
+    "For -3: $x^2 + 1 = -3 \\implies x^2 = -4$. No real solution. Pre-image is $\\phi$.",
+    "Order is important: $\\{4, -4\\}, \\phi$."
+  ],
+  "years": [
+    2024
+  ]
+}

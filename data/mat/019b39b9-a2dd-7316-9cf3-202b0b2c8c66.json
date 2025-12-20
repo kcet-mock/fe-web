@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2dd-7316-9cf3-202b0b2c8c66",
+  "question": [
+    "The equation xy=0 in three-dimensional space represents"
+  ],
+  "choices": [
+    [
+      "A pair of straight lines"
+    ],
+    [
+      "A plane"
+    ],
+    [
+      "A pair of planes at right angles"
+    ],
+    [
+      "A pair of parallel planes"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "$xy=0 \\implies x=0$ or $y=0$.",
+    "$x=0$ is the YZ plane. $y=0$ is the XZ plane.",
+    "These planes are perpendicular to each other."
+  ],
+  "years": [
+    2024
+  ]
+}

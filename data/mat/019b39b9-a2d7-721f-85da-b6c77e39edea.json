@@ -1,0 +1,31 @@
+{
+  "id": "019b39b9-a2d7-721f-85da-b6c77e39edea",
+  "question": [
+    "The length of a rectangle is five times the breadth. If the minimum perimeter of the rectangle is 180 cm, then"
+  ],
+  "choices": [
+    [
+      "Breadth ≤ 15 cm"
+    ],
+    [
+      "Breadth ≥ 15 cm"
+    ],
+    [
+      "Length ≤ 15 cm"
+    ],
+    [
+      "Length = 15 cm"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let breadth be $b$. Length $l = 5b$.",
+    "Perimeter $P = 2(l + b) = 2(5b + b) = 12b$.",
+    "Given minimum perimeter is 180 cm, so $P \\ge 180$.",
+    "$12b \\ge 180 \\implies b \\ge 15$.",
+    "Therefore, Breadth $\\ge 15$ cm."
+  ],
+  "years": [
+    2024
+  ]
+}

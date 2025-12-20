@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2dd-7847-bfa8-43f8d78960dd",
+  "question": [
+    "Corner points of the feasible region for an LPP are (0, 2), (3, 0), (6, 0), (6, 8) and (0, 5). Let z=4x+6y be the objective function. The minimum value of z occurs at"
+  ],
+  "choices": [
+    [
+      "Only (0, 2)"
+    ],
+    [
+      "Only (3, 0)"
+    ],
+    [
+      "The mid-point of the line segment joining the points (0, 2) and (3, 0)"
+    ],
+    [
+      "Any point on the line segment joining the points (0, 2) and (3, 0)"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Z at (0,2) = 12.",
+    "Z at (3,0) = 12.",
+    "Since the minimum value (12) occurs at two corner points, it occurs at every point on the line segment joining them."
+  ],
+  "years": [
+    2024
+  ]
+}

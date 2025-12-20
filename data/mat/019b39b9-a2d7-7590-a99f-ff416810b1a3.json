@@ -1,0 +1,31 @@
+{
+  "id": "019b39b9-a2d7-7590-a99f-ff416810b1a3",
+  "question": [
+    "If in two circles, arcs of the same length subtend angles $30^\\circ$ and $78^\\circ$ at the centre, then the ratio of their radii is"
+  ],
+  "choices": [
+    [
+      "5/13"
+    ],
+    [
+      "13/5"
+    ],
+    [
+      "13/4"
+    ],
+    [
+      "4/13"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let arc length be $l$. We use the formula $l = r\\theta$.",
+    "For the first circle: $l = r_1 \\times 30^\\circ$.",
+    "For the second circle: $l = r_2 \\times 78^\\circ$.",
+    "Equating them: $30 r_1 = 78 r_2$.",
+    "Ratio $r_1/r_2 = 78/30 = 13/5$."
+  ],
+  "years": [
+    2024
+  ]
+}

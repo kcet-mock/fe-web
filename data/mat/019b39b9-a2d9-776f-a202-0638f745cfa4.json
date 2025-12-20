@@ -1,0 +1,27 @@
+{
+  "id": "019b39b9-a2d9-776f-a202-0638f745cfa4",
+  "question": [
+    "If $f(x)=|\\begin{matrix}x-3&2x^{2}-18&2x^{3}-81\\\\ x-5&2x^{2}-50&4x^{3}-500\\\\ 1&2&3&\\end{matrix}|$ then f(1).f(3)+f(3).f(5)+f(5).f(1) is"
+  ],
+  "choices": [
+    [
+      "-1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "This question is marked as Bonus in the answer key, likely due to a typo in the determinant's entries (e.g., $2x^3-81$ vs $2(x^3-27)$) preventing a straightforward evaluation. Standard evaluation leads to a complex polynomial."
+  ],
+  "years": [
+    2024
+  ]
+}

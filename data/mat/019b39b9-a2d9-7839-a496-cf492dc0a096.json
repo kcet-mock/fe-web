@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2d9-7839-a496-cf492dc0a096",
+  "question": [
+    "If $\\cos^{-1}x+\\cos^{-1}y+\\cos^{-1}z=3\\pi,$ then $x(y+z)+y(z+x)+z(x+y)$ equals to"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "6"
+    ],
+    [
+      "12"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The range of $\\cos^{-1} \\theta$ is $[0, \\pi]$.",
+    "The maximum sum is $3\\pi$, achieved only if each term is $\\pi$.",
+    "So, $\\cos^{-1}x = \\pi \\implies x = -1$. Similarly $y = -1, z = -1$.",
+    "Expression: $x(y+z)+y(z+x)+z(x+y) = -1(-2) + -1(-2) + -1(-2) = 2 + 2 + 2 = 6$."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2da-7b85-bfd0-555d76553c0f",
+  "question": [
+    "Let $f(x)=|\\begin{matrix}\\cos x&x&1\\\\ 2\\sin x&x&2x\\\\ \\sin x&x&x\\end{matrix}|.$ Then $\\lim_{x\\rightarrow0}\\frac{f(x)}{x^{2}}=$"
+  ],
+  "choices": [
+    [
+      "-1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "3"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Expanding the determinant: $f(x) = \\cos x(x^2 - 2x^2) - x(2x\\sin x - 2x\\sin x) + 1(2x\\sin x - x\\sin x)$.",
+    "$f(x) = -x^2\\cos x + x\\sin x$.",
+    "$\\frac{f(x)}{x^2} = \\frac{-x^2\\cos x + x\\sin x}{x^2} = -\\cos x + \\frac{\\sin x}{x}$.",
+    "Limit $x \\to 0$: $-1 + 1 = 0$."
+  ],
+  "years": [
+    2024
+  ]
+}

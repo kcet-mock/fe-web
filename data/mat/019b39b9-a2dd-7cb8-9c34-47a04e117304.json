@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2dd-7cb8-9c34-47a04e117304",
+  "question": [
+    "The plane containing the point (3, 2, 0) and the line $\\frac{x-3}{1}=\\frac{y-6}{5}=\\frac{z-4}{4}$ is"
+  ],
+  "choices": [
+    [
+      "x - y + z = 1"
+    ],
+    [
+      "x + y + z = 5"
+    ],
+    [
+      "x + 2y - z = 1"
+    ],
+    [
+      "2x - y + z = 5"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Normal vector $n$ is perpendicular to line direction $d=(1,5,4)$ and vector joining point on line to given point $v=(0, -4, -4)$.",
+    "$n = d \\times v = (-4, 4, -4)$. Equivalent to $(1, -1, 1)$.",
+    "Plane: $1(x-3) - 1(y-2) + 1(z-0) = 0 \\implies x - y + z = 1$."
+  ],
+  "years": [
+    2024
+  ]
+}

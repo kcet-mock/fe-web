@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2dd-725d-9661-f42bd4e66108",
+  "question": [
+    "If a random variable X follows the binomial distribution with parameters n=5, p and P(X=2)=9P(X=3) then p is equal to"
+  ],
+  "choices": [
+    [
+      "10"
+    ],
+    [
+      "1/10"
+    ],
+    [
+      "5"
+    ],
+    [
+      "1/5"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "${}^5C_2 p^2 q^3 = 9 \\cdot {}^5C_3 p^3 q^2$.",
+    "$10 p^2 q^3 = 90 p^3 q^2$.",
+    "$q = 9p$.",
+    "$1-p = 9p \\implies 10p = 1 \\implies p = 1/10$."
+  ],
+  "years": [
+    2024
+  ]
+}

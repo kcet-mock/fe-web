@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2d8-7bab-880c-9ab321333cf7",
+  "question": [
+    "Let $f:R\\rightarrow R$ be given $f(x)=\\tan x.$ Then $f^{-1}(1)$ is"
+  ],
+  "choices": [
+    [
+      "π/4"
+    ],
+    [
+      "{nπ + π/4 : n ∈ Z}"
+    ],
+    [
+      "π/3"
+    ],
+    [
+      "{nπ + π/3 : n ∈ Z}"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For a function to have an inverse, we usually consider principal values, or the question implies finding x such that tan x = 1.",
+    "The principal solution is $\\pi/4$.",
+    "While the general solution is set B, in the context of inverse functions ($f^{-1}$), we typically look for the principal value unless specified as a set of pre-images.",
+    "However, if interpreted as the set of all pre-images, B would be correct. The single value A is the principal value. The answer key A suggests the principal value interpretation."
+  ],
+  "years": [
+    2024
+  ]
+}

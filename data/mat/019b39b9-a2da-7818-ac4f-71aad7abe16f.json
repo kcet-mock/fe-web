@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2da-7818-ac4f-71aad7abe16f",
+  "question": [
+    "For the function $f(x)=x^3-6x^2+12x-3;$ x=2 is"
+  ],
+  "choices": [
+    [
+      "A point of minium"
+    ],
+    [
+      "A point of inflexion"
+    ],
+    [
+      "Not a critical point"
+    ],
+    [
+      "A point of maximum"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "$f'(x) = 3x^2 - 12x + 12 = 3(x-2)^2$.",
+    "$f'(2) = 0$, so it is a critical point.",
+    "$f'(x) \\ge 0$ for all x, so the slope does not change sign around x=2.",
+    "Therefore, x=2 is a point of inflection."
+  ],
+  "years": [
+    2024
+  ]
+}

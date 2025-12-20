@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2d9-7687-ae44-ac3bd158eae8",
+  "question": [
+    "If $A=|\\begin{matrix}x&1\\\\ 1&x\\end{matrix}|$ and $B=|\\begin{matrix}x&1&1\\\\ 1&x&1\\\\ 1&1&x\\end{matrix}|$ then $\\frac{dB}{dx}$ is"
+  ],
+  "choices": [
+    [
+      "3A"
+    ],
+    [
+      "-3B"
+    ],
+    [
+      "3B + 1"
+    ],
+    [
+      "1 - 3A"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "$A = x^2 - 1$.",
+    "$B = x(x^2-1) - 1(x-1) + 1(1-x) = x(x^2-1) - 2(x-1) = (x-1)(x^2+x-2) = (x-1)^2(x+2) = x^3 - 3x + 2$.",
+    "$\\frac{dB}{dx} = 3x^2 - 3 = 3(x^2 - 1) = 3A$."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2dc-774c-83ca-15e6078f5ee3",
+  "question": [
+    "If lines $\\frac{x-1}{-3}=\\frac{y-2}{2k}=\\frac{z-3}{2}$ and $\\frac{x-1}{3k}=\\frac{y-5}{1}=\\frac{z-6}{-5}$ are mutually perpendicular then k is equal to"
+  ],
+  "choices": [
+    [
+      "-10/7"
+    ],
+    [
+      "1"
+    ],
+    [
+      "-10"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Direction vectors are $d_1 = (-3, 2k, 2)$ and $d_2 = (3k, 1, -5)$.",
+    "Perpendicular means dot product is zero: $-3(3k) + 2k(1) + 2(-5) = 0$.",
+    "$-9k + 2k - 10 = 0 \\implies -7k = 10 \\implies k = -10/7$."
+  ],
+  "years": [
+    2024
+  ]
+}

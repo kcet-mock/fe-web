@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2d8-712f-a41d-e1ec6475b5ef",
+  "question": [
+    "Let $(gof)(x)=\\sin x$ and $(fog)(x)=(\\sin\\sqrt{x})^2$. Then"
+  ],
+  "choices": [
+    [
+      "f(x) = sin²x, g(x) = x"
+    ],
+    [
+      "f(x) = sin√x, g(x) = √x"
+    ],
+    [
+      "f(x) = sin²x, g(x) = √x"
+    ],
+    [
+      "f(x) = sin√x, g(x) = x²"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "We check option C: $f(x) = \\sin^2 x$ and $g(x) = \\sqrt{x}$.",
+    "$(gof)(x) = g(f(x)) = g(\\sin^2 x) = \\sqrt{\\sin^2 x} = |\\sin x|$. (Assuming x in range where sin is positive, $\\sin x$).",
+    "$(fog)(x) = f(g(x)) = f(\\sqrt{x}) = \\sin^2(\\sqrt{x}) = (\\sin\\sqrt{x})^2$.",
+    "This matches the given $(fog)(x)$."
+  ],
+  "years": [
+    2024
+  ]
+}

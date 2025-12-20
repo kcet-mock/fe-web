@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2dc-7b76-979f-26b48ade2049",
+  "question": [
+    "The area of the region bounded by the line y=x and the curve y=x^3 is"
+  ],
+  "choices": [
+    [
+      "0.2 sq. units"
+    ],
+    [
+      "0.3 sq. units"
+    ],
+    [
+      "0.4 sq. units"
+    ],
+    [
+      "0.5 sq. units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Intersection: $x^3 = x \\implies x = 0, 1, -1$.",
+    "Due to symmetry, area $= 2 \\int_0^1 (x - x^3) dx$.",
+    "$= 2 [\\frac{x^2}{2} - \\frac{x^4}{4}]_0^1 = 2(\\frac{1}{2} - \\frac{1}{4}) = 2(0.25) = 0.5$."
+  ],
+  "years": [
+    2024
+  ]
+}

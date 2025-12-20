@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2d8-7be4-8e1c-4401f488ba18",
+  "question": [
+    "The equation of parabola whose focus is (6, 0) and directrix is x = -6 is"
+  ],
+  "choices": [
+    [
+      "y^2 = 24x"
+    ],
+    [
+      "y^2 = -24x"
+    ],
+    [
+      "x^2 = 24y"
+    ],
+    [
+      "x^2 = -24y"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Focus is $(a, 0) = (6, 0)$ and directrix is $x = -a = -6$.",
+    "This is a standard parabola opening to the right: $y^2 = 4ax$.",
+    "$y^2 = 4(6)x = 24x$."
+  ],
+  "years": [
+    2024
+  ]
+}

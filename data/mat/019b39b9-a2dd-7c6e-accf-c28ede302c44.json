@@ -1,0 +1,28 @@
+{
+  "id": "019b39b9-a2dd-7c6e-accf-c28ede302c44",
+  "question": [
+    "The distance between the two planes 2x+3y+4z=4 and 4x+6y+8z=12 is"
+  ],
+  "choices": [
+    [
+      "2 units"
+    ],
+    [
+      "8 units"
+    ],
+    [
+      "2/√29 units"
+    ],
+    [
+      "4 units"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Rewrite second plane: $2x+3y+4z=6$.",
+    "Distance $d = \\frac{|d_1 - d_2|}{\\sqrt{a^2+b^2+c^2}} = \\frac{|6-4|}{\\sqrt{4+9+16}} = \\frac{2}{\\sqrt{29}}$."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b39b9-a2d8-7b23-9540-391bd77cf05f",
+  "question": [
+    "$lim_{x\\rightarrow\\frac{\\pi}{4}}\\frac{\\sqrt{2}\\cos x-1}{\\cot x-1}$ is equal to"
+  ],
+  "choices": [
+    [
+      "2"
+    ],
+    [
+      "√2"
+    ],
+    [
+      "1/2"
+    ],
+    [
+      "1/√2"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Using L'Hopital's Rule as it is a 0/0 form.",
+    "Differentiate numerator: $-\\sqrt{2}\\sin x$.",
+    "Differentiate denominator: $-\\csc^2 x$.",
+    "Limit becomes $\\frac{-\\sqrt{2}\\sin(\\pi/4)}{-\\csc^2(\\pi/4)} = \\frac{\\sqrt{2}(1/\\sqrt{2})}{(\\sqrt{2})^2} = \\frac{1}{2}$."
+  ],
+  "years": [
+    2024
+  ]
+}

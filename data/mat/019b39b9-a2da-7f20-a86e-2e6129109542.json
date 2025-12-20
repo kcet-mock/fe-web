@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2da-7f20-a86e-2e6129109542",
+  "question": [
+    "Let the function satisfy the equation $f(x+y)=f(x)f(y)$ for all x, $y\\in R$, where $f(0)\\ne0$. If $f(5)=3$ and $f'(0)=2$, then $f'(5)$ is"
+  ],
+  "choices": [
+    [
+      "6"
+    ],
+    [
+      "0"
+    ],
+    [
+      "3"
+    ],
+    [
+      "-6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "From definition, $f'(x) = f(x) f'(0)$.",
+    "So $f'(5) = f(5) f'(0) = 3 \\times 2 = 6$.",
+    "Note: The question is technically inconsistent (implies $f(x) = e^{2x}$, so $f(5)=e^{10} \\ne 3$), but based on the functional equation property, the answer is 6. The answer key marks it as Bonus or A."
+  ],
+  "years": [
+    2024
+  ]
+}

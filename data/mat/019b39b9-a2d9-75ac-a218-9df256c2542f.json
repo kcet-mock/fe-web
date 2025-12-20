@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2d9-75ac-a218-9df256c2542f",
+  "question": [
+    "If A is a square matrix such that $A^2=A,$ then $(I+A)^3$ is equal to"
+  ],
+  "choices": [
+    [
+      "7A - I"
+    ],
+    [
+      "7A"
+    ],
+    [
+      "7A + I"
+    ],
+    [
+      "I - 7A"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "$(I+A)^3 = I^3 + 3I^2A + 3IA^2 + A^3$.",
+    "Since $A^2 = A$, multiplying by A gives $A^3 = A^2 = A$.",
+    "Expression becomes $I + 3A + 3A + A = I + 7A$."
+  ],
+  "years": [
+    2024
+  ]
+}

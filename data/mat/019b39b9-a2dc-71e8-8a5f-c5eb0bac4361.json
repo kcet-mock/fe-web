@@ -1,0 +1,29 @@
+{
+  "id": "019b39b9-a2dc-71e8-8a5f-c5eb0bac4361",
+  "question": [
+    "The vectors $\\vec{AB}=3\\hat{i}+4\\hat{k}$ and $\\vec{AC}=5\\hat{i}-2\\hat{j}+4\\hat{k}$ are the sides of a $\\Delta ABC.$ The length of the median through A is"
+  ],
+  "choices": [
+    [
+      "√18"
+    ],
+    [
+      "√72"
+    ],
+    [
+      "√33"
+    ],
+    [
+      "√288"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Median vector $\\vec{AD} = \\frac{1}{2}(\\vec{AB} + \\vec{AC})$.",
+    "$\\vec{AD} = \\frac{1}{2}(8\\hat{i} - 2\\hat{j} + 8\\hat{k}) = 4\\hat{i} - \\hat{j} + 4\\hat{k}$.",
+    "Length $|\\vec{AD}| = \\sqrt{16 + 1 + 16} = \\sqrt{33}$."
+  ],
+  "years": [
+    2024
+  ]
+}
