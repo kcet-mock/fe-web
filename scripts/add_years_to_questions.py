@@ -11,24 +11,25 @@ import argparse
 from pathlib import Path
 
 
-def add_years_to_question(file_path, years_list):
+def add_years_to_question(file_path, years_list, force=False):
     """Add years field to a question JSON file."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             question = json.load(f)
         
-        # Add years field if it doesn't exist
-        if 'years' not in question:
-            question['years'] = years_list
-            
-            # Write back to file with proper formatting
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(question, f, indent=2, ensure_ascii=False)
-            
-            return True
-        else:
-            print(f"  Skipping {file_path.name} - already has 'years' field")
+        # Check if years field exists
+        if 'years' in question and not force:
+            print(f"  Skipping {file_path.name} - already has 'years' field (use --force to overwrite)")
             return False
+        
+        # Add or update years field
+        question['years'] = years_list
+        
+        # Write back to file with proper formatting
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(question, f, indent=2, ensure_ascii=False)
+        
+        return True
             
     except json.JSONDecodeError as e:
         print(f"  Error parsing {file_path.name}: {e}")
@@ -37,8 +38,7 @@ def add_years_to_question(file_path, years_list):
         print(f"  Error processing {file_path.name}: {e}")
         return False
 
-
-def process_directory(directory, years_list):
+, force=False):
     """Process all JSON files in the directory."""
     directory_path = Path(directory)
     
@@ -59,9 +59,12 @@ def process_directory(directory, years_list):
     
     print(f"Processing {len(json_files)} files in '{directory}'...")
     print(f"Adding years: {years_list}")
+    if force:
+        print("Force mode: ON (will overwrite existing 'years' fields)")
     
     updated_count = 0
     for json_file in sorted(json_files):
+        if add_years_to_question(json_file, years_list, force
         if add_years_to_question(json_file, years_list):
             updated_count += 1
     
@@ -78,17 +81,22 @@ Examples:
   python add_years_to_questions.py data/bio/
   
   # Add specific years to all questions
-  python add_years_to_questions.py data/bio/ --years 2023 2024
+  pyForce overwrite existing years fields
+  python add_years_to_questions.py data/bio/ --years 2025 --force
+  
+  # thon add_years_to_questions.py data/bio/ --years 2023 2024
   
   # Process multiple subjects
   python add_years_to_questions.py data/chem/ --years 2023
         """
     )
     
-    parser.add_argument('directory', help='Directory containing question JSON files')
-    parser.add_argument('--years', nargs='*', type=int, default=[], 
-                        help='List of years to add (default: empty list)')
+    parser.add_argument('--force', action='store_true', 
+                        help='Overwrite existing years field if present')
     
+    args = parser.parse_args()
+    
+    process_directory(args.directory, args.years, args.force
     args = parser.parse_args()
     
     process_directory(args.directory, args.years)
