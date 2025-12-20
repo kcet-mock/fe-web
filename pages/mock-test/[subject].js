@@ -127,6 +127,7 @@ export async function getStaticProps({ params }) {
 
   const subject = typeof params?.subject === 'string' ? params.subject : 'bio';
 
+  // Load all IDs for the subject (used for random mode)
   let allIds = [];
   try {
     const { ALL_QUESTION_IDS } = await import(`../../data/${subject}/_all.js`);
@@ -148,25 +149,40 @@ export async function getStaticProps({ params }) {
   );
 
   // Pre-load available years for this subject
-  const availableYears = [];
+  const yearIdsMap = {};
   const dataDir = path.join(process.cwd(), 'data', subject);
   try {
     const files = await fs.readdir(dataDir);
     const yearFiles = files.filter(f => /^_(\d{4})\.js$/.test(f));
-    availableYears.push(...yearFiles.map(f => parseInt(f.match(/^_(\d{4})\.js$/)[1])));
+    
+    for (const yearFile of yearFiles) {
+      const yearMatch = yearFile.match(/^_(\d{4})\.js$/);
+      if (yearMatch) {
+        const year = parseInt(yearMatch[1]);
+        try {
+          const { ALL_QUESTION_IDS } = await import(`../../data/${subject}/${yearFile}`);
+          yearIdsMap[year] = ALL_QUESTION_IDS || [];
+        } catch (error) {
+          console.error(`Failed to load year file ${yearFile}`, error);
+        }
+      }
+    }
   } catch (error) {
     // ignore
   }
 
-  return { props: { subject, allIds, questions, availableYears: availableYears.sort((a, b) => b - a) } };
+  const availableYears = Object.keys(yearIdsMap).map(y => parseInt(y)).sort((a, b) => b - a);
+
+  return { props: { subject, allIds, questions, yearIdsMap, availableYears } };
 }
 
-export default function MockTestSubjectPage({ subject, allIds, questions, availableYears }) {
+export default function MockTestSubjectPage({ subject, allIds, questions, yearIdsMap, availableYears }) {
   const router = useRouter();
   const { year, session_id } = router.query;
   
   const ALL_IDS = Array.isArray(allIds) ? allIds : [];
   const ALL_QUESTIONS = Array.isArray(questions) ? questions : [];
+  const YEAR_IDS_MAP = yearIdsMap || {};
 
   const questionsById = useMemo(() => {
     const map = new Map();
@@ -176,18 +192,19 @@ export default function MockTestSubjectPage({ subject, allIds, questions, availa
     return map;
   }, [ALL_QUESTIONS]);
 
-  // Filter questions by year if year parameter is provided
-  const filteredIds = useMemo(() => {
-    if (!year || year === 'random') return ALL_IDS;
+  // Determine which IDs to use based on year parameter
+  const idsToUse = useMemo(() => {
+    if (!year || year === 'random') {
+      // Use all IDs for random mode
+      return ALL_IDS;
+    }
     
     const yearNum = parseInt(year);
     if (isNaN(yearNum)) return ALL_IDS;
     
-    // Filter questions that have the specified year
-    return ALL_QUESTIONS
-      .filter(q => q.years && Array.isArray(q.years) && q.years.includes(yearNum))
-      .map(q => q.id);
-  }, [year, ALL_IDS, ALL_QUESTIONS]);
+    // Use year-specific IDs if available
+    return YEAR_IDS_MAP[yearNum] || ALL_IDS;
+  }, [year, ALL_IDS, YEAR_IDS_MAP]);
 
   const [selectedIds, setSelectedIds] = useState([]);
   const [remaining, setRemaining] = useState(TEST_DURATION_SECONDS);
@@ -201,10 +218,9 @@ export default function MockTestSubjectPage({ subject, allIds, questions, availa
   }, [selectedIds, questionsById]);
 
   useEffect(() => {
-    const idsToUse = filteredIds.length > 0 ? filteredIds : ALL_IDS;
     const safeCount = Math.max(0, Math.min(DEFAULT_QUESTION_COUNT, idsToUse.length));
     setSelectedIds(sampleWithoutReplacement(idsToUse, safeCount));
-  }, [filteredIds, ALL_IDS]);
+  }, [idsToUse]);
 
   useEffect(() => {
     if (!running || finished) return;

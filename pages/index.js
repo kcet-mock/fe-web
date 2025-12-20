@@ -20,7 +20,7 @@ export default function Home() {
 
   const handleStartMockTest = () => {
     const sessionId = generateSessionId();
-    router.push(`/mock-test/${encodeURIComponent(subject)}?session_id=${encodeURIComponent(sessionId)}`);
+    router.push(`/mock-test/${encodeURIComponent(subject)}?year=random&session_id=${encodeURIComponent(sessionId)}`);
   };
 
   return (
