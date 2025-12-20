@@ -23,5 +23,8 @@
     "We need to find $\\sin^2 x + \\sin^4 x$.",
     "Substitute $\\sin^2 x = \\cos x$: This becomes $\\cos x + (\\sin^2 x)^2 = \\cos x + (\\cos x)^2$.",
     "From the given equation, $\\cos x + \\cos^2 x = 1$."
+  ],
+  "years": [
+    2025
   ]
 }

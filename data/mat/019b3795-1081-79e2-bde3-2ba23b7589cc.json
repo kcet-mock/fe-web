@@ -25,5 +25,8 @@
     "Case 2: Add (a,b). Must add (b,a). By transitivity with (b,c), must add (a,c) and (c,a).",
     "$R_2 = A \\times A$ (Universal relation).",
     "Any intermediate relation fails transitivity. So there are exactly 2 relations."
+  ],
+  "years": [
+    2025
   ]
 }

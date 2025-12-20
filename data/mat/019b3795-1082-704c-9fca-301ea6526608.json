@@ -24,5 +24,8 @@
     "Since $P(B) \\le 1$, $1/P(B) \\ge 1$.",
     "Therefore, $P(A)/P(B) \\ge P(A)$.",
     "So $P(A|B) \\ge P(A)$."
+  ],
+  "years": [
+    2025
   ]
 }

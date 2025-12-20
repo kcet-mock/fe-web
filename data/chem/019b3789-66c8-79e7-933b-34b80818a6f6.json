@@ -25,5 +25,8 @@
   "correctAnswer": 0,
   "explanation": [
     "b is incorrect (it does depend). d is incorrect (enthalpy is a state function, independent of path). e is incorrect (solvation enthalpy is often positive for many salts, though can be negative; generally generalizations are tricky, but text identifies b, d, e as incorrect set) [cite: 1013-1016]."
+  ],
+  "years": [
+    2025
   ]
 }

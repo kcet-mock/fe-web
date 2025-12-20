@@ -23,5 +23,8 @@
     "Evaluate (2): $\\sin 2\\pi = 0$, $\\sin(-2\\pi) = 0$. Correct.",
     "Evaluate (3): $\\sin 4\\pi = 0$, $\\sin 6\\pi = 0$. Correct.",
     "Evaluate (4): $\\tan 45^{\\circ} = 1$, $\\tan(-315^{\\circ}) = \\tan(45^{\\circ}) = 1$ (coterminal). Correct."
+  ],
+  "years": [
+    2025
   ]
 }

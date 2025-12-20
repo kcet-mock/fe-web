@@ -20,5 +20,8 @@
   "correctAnswer": 2,
   "explanation": [
     "delta v * delta x = h / (4 * pi * m) = 6.626e-34 / (4 * 3.14 * 10^-6) ≈ 5.2 * 10^-29 [cite: 1001-1003]."
+  ],
+  "years": [
+    2025
   ]
 }

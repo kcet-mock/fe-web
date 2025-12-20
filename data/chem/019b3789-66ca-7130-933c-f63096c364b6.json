@@ -20,5 +20,8 @@
   "correctAnswer": 2,
   "explanation": [
     "Rate of disappearance of N2O5 = (12.0-11.4)/300 = 0.6/300 = 2e-3. Rate of production of NO2 = 2 * Rate of N2O5 = 4 * 10^-3. (Option 4 corresponds to this value based on solution context) [cite: 1056-1057]."
+  ],
+  "years": [
+    2025
   ]
 }

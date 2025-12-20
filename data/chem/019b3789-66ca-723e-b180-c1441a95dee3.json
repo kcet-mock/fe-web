@@ -21,5 +21,8 @@
   "correctAnswer": 0,
   "explanation": [
     "Ea(reverse) = Ea(forward) - delta H. Ea(fwd) = 215 kJ, delta H = 90 kJ (Endothermic, Product energy > Reactant). Ea(rev) = 215 - 90 = 125 kJ[cite: 1055]."
+  ],
+  "years": [
+    2025
   ]
 }

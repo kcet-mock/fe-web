@@ -20,5 +20,8 @@
   "correctAnswer": 2,
   "explanation": [
     "According to Nernst equation: E = E0 + (0.059/n)log[Al3+]. Increasing [Al3+] increases E [cite: 1041-1042]."
+  ],
+  "years": [
+    2025
   ]
 }

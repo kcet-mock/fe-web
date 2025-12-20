@@ -28,5 +28,8 @@
     "$h(0) = 0 + 1 = 1$.",
     "$h(\\pi/2) = 1 + 0 = 1$.",
     "Since $h(0) = h(\\pi/2)$, $f+g$ is not one-one. Statement II is False."
+  ],
+  "years": [
+    2025
   ]
 }

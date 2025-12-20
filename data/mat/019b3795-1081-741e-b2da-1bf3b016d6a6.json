@@ -23,5 +23,8 @@
     "RHS = $\\sin^{-1}(2 \\cos \\theta \\sin \\theta) = \\sin^{-1}(\\sin 2\\theta)$.",
     "For this to equal $2\\theta$ (which is $2\\cos^{-1}x$), we need $-\\pi/2 \\le 2\\theta \\le \\pi/2$.",
     "Since domain of $\\cos^{-1}$ maps to $[0, \\pi]$, we specifically need relevant range. Actually, standard formula: $2\\cos^{-1}x = \\sin^{-1}(2x\\sqrt{1-x^2})$ holds for $1/\\sqrt{2} \\le x \\le 1$."
+  ],
+  "years": [
+    2025
   ]
 }

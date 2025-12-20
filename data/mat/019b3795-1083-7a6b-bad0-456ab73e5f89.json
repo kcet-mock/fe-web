@@ -24,5 +24,8 @@
     "The result AB has order $m \\times 4$.",
     "Since AB = Identity matrix, it must be square. So $m = 4$.",
     "Order of A is $4 \\times 3$."
+  ],
+  "years": [
+    2025
   ]
 }

@@ -22,5 +22,8 @@
     "Formula for diagonals in n-sided polygon: $\\frac{n(n-3)}{2}$.",
     "For octagon, n=8.",
     "$\\frac{8(8-3)}{2} = \\frac{8 \\times 5}{2} = \\frac{40}{2} = 20$."
+  ],
+  "years": [
+    2025
   ]
 }

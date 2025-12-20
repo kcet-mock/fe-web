@@ -24,5 +24,8 @@
     "Equating them: $P(A \\cap B)/P(B) = P(A \\cap B)/P(A)$.",
     "Since non-mutually exclusive, $P(A \\cap B) \\neq 0$. We can cancel it.",
     "Result: $1/P(B) = 1/P(A) \\Rightarrow P(A) = P(B)$."
+  ],
+  "years": [
+    2025
   ]
 }

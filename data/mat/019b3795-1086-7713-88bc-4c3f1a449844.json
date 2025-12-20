@@ -23,5 +23,8 @@
     "$f(-x) = (-\\sin x)^5 (\\cos x)^4 = -\\sin^5 x \\cos^4 x = -f(x)$.",
     "The function is odd.",
     "Integral of an odd function over symmetric interval [-a, a] is 0."
+  ],
+  "years": [
+    2025
   ]
 }

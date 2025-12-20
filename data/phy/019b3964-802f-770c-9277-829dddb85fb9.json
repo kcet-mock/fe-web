@@ -24,5 +24,8 @@
     "Graph Y shows resistivity increasing linearly but with a higher value/intercept (typical for alloys like Nichrome).",
     "Graph Z shows resistivity decreasing with temperature (typical for Semiconductors).",
     "[cite: 409, 410, 424]"
+  ],
+  "years": [
+    2025
   ]
 }

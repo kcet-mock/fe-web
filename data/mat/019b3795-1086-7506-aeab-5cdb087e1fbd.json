@@ -21,5 +21,8 @@
   "explanation": [
     "Distance of point $(x, y, z)$ from yz-plane is $|x|$.",
     "$| -3 | = 3$."
+  ],
+  "years": [
+    2025
   ]
 }

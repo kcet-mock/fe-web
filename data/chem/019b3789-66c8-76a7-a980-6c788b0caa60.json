@@ -20,5 +20,8 @@
   "correctAnswer": 0,
   "explanation": [
     "For N shell, n=4. Number of orbitals = n^2 = 4^2 = 16 [cite: 1000-1001]."
+  ],
+  "years": [
+    2025
   ]
 }

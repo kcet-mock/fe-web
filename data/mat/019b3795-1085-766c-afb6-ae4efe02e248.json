@@ -23,5 +23,8 @@
     "$\\frac{dx}{dt} = 3a \\cos^2 t (-\\sin t)$.",
     "$\\frac{dy}{dx} = \\frac{3a \\sin^2 t \\cos t}{-3a \\cos^2 t \\sin t} = -\\tan t$.",
     "At $t = \\pi/4$, $\\tan(\\pi/4) = 1$. Result is -1."
+  ],
+  "years": [
+    2025
   ]
 }

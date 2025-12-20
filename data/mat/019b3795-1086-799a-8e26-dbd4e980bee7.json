@@ -24,5 +24,8 @@
     "Let I = $\\int \\log(1-x) - \\log x$.",
     "Replace x with 1-x: $\\int \\log(1-(1-x)) - \\log(1-x) = \\int \\log x - \\log(1-x) = -I$.",
     "So $I = -I \\Rightarrow 2I = 0 \\Rightarrow I = 0$."
+  ],
+  "years": [
+    2025
   ]
 }

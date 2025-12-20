@@ -23,5 +23,8 @@
     "Solution: $y(\\text{IF}) = \\int Q(\\text{IF}) dx$.",
     "$y \\sec x = \\int \\sec x \\cdot \\sec x dx = \\int \\sec^2 x dx$.",
     "$y \\sec x = \\tan x + c$."
+  ],
+  "years": [
+    2025
   ]
 }

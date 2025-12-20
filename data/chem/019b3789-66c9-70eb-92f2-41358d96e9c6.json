@@ -24,5 +24,8 @@
   "correctAnswer": 1,
   "explanation": [
     "In a Galvanic cell, the anode is negative, cathode is positive. Current flows from cathode to anode (electrons flow anode to cathode). E_cell > 0 for spontaneous [cite: 1037-1040]."
+  ],
+  "years": [
+    2025
   ]
 }

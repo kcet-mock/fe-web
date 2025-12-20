@@ -20,5 +20,8 @@
   "correctAnswer": 0,
   "explanation": [
     "Since K=100 > Q=1, reaction moves forward. 100 = (1+x)^2 / (1-x)^2. 10 = (1+x)/(1-x). 10-10x=1+x. 11x=9. x=0.818. [D] = 1+x = 1.818 [cite: 1022-1023]."
+  ],
+  "years": [
+    2025
   ]
 }

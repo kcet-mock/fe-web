@@ -24,5 +24,8 @@
     "$\\frac{1}{4} \\int \\frac{dt}{t(t+1)} = \\frac{1}{4} \\int (\\frac{1}{t} - \\frac{1}{t+1}) dt$.",
     "$\\frac{1}{4} (\\log t - \\log(t+1)) = \\frac{1}{4} \\log(\\frac{t}{t+1})$.",
     "Substitute t: $\\frac{1}{4} \\log(\\frac{x^4}{x^4+1})$."
+  ],
+  "years": [
+    2025
   ]
 }

@@ -20,5 +20,8 @@
   "correctAnswer": 1,
   "explanation": [
     "Note: Text options are garbled/ambiguous, but solution derives 7.16 x 10^-4. Option 3 is selected in key, though text in snippet 1034 looks different. Calculation: X = P/KH = 0.987/76480 = 1.29e-5. n = 55.5 * 1.29e-5 = 7.16e-4. We will assume option 3 corresponds to the correct value [cite: 1033-1037]."
+  ],
+  "years": [
+    2025
   ]
 }

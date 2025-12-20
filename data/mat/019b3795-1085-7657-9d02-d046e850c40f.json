@@ -22,5 +22,8 @@
     "Evaluate RHL ($x \\to 0^+$): Let $t = 1/x \\to \\infty$. $\\lim \\frac{e^t - 1}{e^t + 1} = \\lim \\frac{1 - e^{-t}}{1 + e^{-t}} = 1$.",
     "Evaluate LHL ($x \\to 0^-$): Let $t = 1/x \\to -\\infty$. $e^t \\to 0$. $\\lim \\frac{0 - 1}{0 + 1} = -1$.",
     "LHL $\\neq$ RHL. Discontinuous."
+  ],
+  "years": [
+    2025
   ]
 }

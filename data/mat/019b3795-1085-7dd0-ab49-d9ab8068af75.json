@@ -23,5 +23,8 @@
     "Differentiability at 0: LHD $f'(x) = e^x + a$. At 0: $1+a$.",
     "RHD $f'(x) = 2b(x-1)$. At 0: $-2b$.",
     "$1+a = -2b$. Since $b=1$, $1+a = -2 \\Rightarrow a = -3$."
+  ],
+  "years": [
+    2025
   ]
 }

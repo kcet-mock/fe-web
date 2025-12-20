@@ -23,5 +23,8 @@
     "Once frequency exceeds threshold, emission occurs. If intensity is constant, saturation current is constant.",
     "Graph shows current jumping up at v0 and staying constant.",
     "[cite: 466, 467, 468, 469]"
+  ],
+  "years": [
+    2025
   ]
 }

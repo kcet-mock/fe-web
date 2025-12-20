@@ -23,5 +23,8 @@
     "Option 2: Definition of diagonal matrix is that all NON-diagonal elements are zero. Diagonal elements can be anything. Saying diagonal elements ARE zero is false.",
     "Option 3: Definition of symmetric. Correct.",
     "Option 4: Skew symmetric property requires $a_{ii} = -a_{ii} \\Rightarrow 2a_{ii}=0 \\Rightarrow a_{ii}=0$. Correct."
+  ],
+  "years": [
+    2025
   ]
 }

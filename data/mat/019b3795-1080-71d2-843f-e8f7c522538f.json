@@ -27,5 +27,8 @@
     "Find set C: Prime numbers $\\le 4$ are $\\{2, 3\\}$.",
     "Calculate $B - C$: Elements in B but not in C. $\\{2, 3, 4\\} - \\{2, 3\\} = \\{4\\}$.",
     "Calculate $(B-C) \\cup A$: $\\{4\\} \\cup \\{-3, 3\\} = \\{-3, 3, 4\\}$."
+  ],
+  "years": [
+    2025
   ]
 }

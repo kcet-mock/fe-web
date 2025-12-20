@@ -23,5 +23,8 @@
     "$a^2 = 12, b^2 = 4$. Since $a > b$, ellipse is horizontal.",
     "Length of Latus Rectum = $\\frac{2b^2}{a}$.",
     "$L = \\frac{2(4)}{\\sqrt{12}} = \\frac{8}{2\\sqrt{3}} = \\frac{4}{\\sqrt{3}}$."
+  ],
+  "years": [
+    2025
   ]
 }

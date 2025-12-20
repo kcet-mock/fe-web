@@ -21,5 +21,8 @@
   "explanation": [
     "$f'(x) = \\sec^2 x - 1 = \\tan^2 x$.",
     "Since $\\tan^2 x \\ge 0$ for all valid domains, the function is always increasing."
+  ],
+  "years": [
+    2025
   ]
 }

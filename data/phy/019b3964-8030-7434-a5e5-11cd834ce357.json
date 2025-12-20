@@ -23,5 +23,8 @@
     "Current I = V/Z = 100/10 = 10 A.",
     "Voltage across L and C combination = I * (X_L - X_C) = 10 * (24 - 16) = 80 V.",
     "[cite: 480, 481, 484]"
+  ],
+  "years": [
+    2025
   ]
 }

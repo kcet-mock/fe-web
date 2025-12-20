@@ -24,5 +24,8 @@
   "correctAnswer": 0,
   "explanation": [
     "Statements b (result should have 2 sig figs), c (preceding zeros not significant), and likely d (interpretation in key suggests it's marked incorrect, although 31.1 is 3 sig figs, typically sum is limted by least decimal places) are incorrect [cite: 1059-1061]."
+  ],
+  "years": [
+    2025
   ]
 }

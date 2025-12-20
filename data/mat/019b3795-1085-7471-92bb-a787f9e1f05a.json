@@ -26,5 +26,8 @@
     "(c) $x + [x]$ has a jump at $x=0$. Wait, in (-1,1), [x] is -1 for x<0 and 0 for x>=0. Discontinuous at 0. But option 3 maps c to iii (strictly increasing)? In (-1,0) $x-1$ (inc), in (0,1) $x$ (inc). Jump up. It is strictly increasing.",
     "(d) $|x-1| + |x+1|$ in (-1,1) is $(1-x) + (x+1) = 2$. Constant. Continuous and Differentiable. Matches (i) Continuous.",
     "Result: a-ii, b-iv, c-iii, d-i."
+  ],
+  "years": [
+    2025
   ]
 }

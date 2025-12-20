@@ -20,5 +20,8 @@
   "correctAnswer": 1,
   "explanation": [
     "80 seconds is 4 half-lives (80/20). Amount left = Initial * (1/2)^n = 0.2 * (1/2)^4 = 0.2 / 16 = 0.0125 M [cite: 1049-1054]."
+  ],
+  "years": [
+    2025
   ]
 }

@@ -26,5 +26,8 @@
     "Check GP property of indices: 4, 10, 16 are in AP (diff 6).",
     "So x, y, z are in GP.",
     "$y^2 = xz \\Rightarrow y = \\sqrt{xz}$."
+  ],
+  "years": [
+    2025
   ]
 }

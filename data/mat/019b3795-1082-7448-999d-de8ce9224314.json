@@ -27,5 +27,8 @@
     "Statement I is correct.",
     "Common solution is intersection of $x < 3$ and $x \\ge 2$. This is $[2, 3)$.",
     "Statement II says $(2, 3)$ which excludes 2. Thus Statement II is false."
+  ],
+  "years": [
+    2025
   ]
 }

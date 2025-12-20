@@ -20,5 +20,8 @@
   "correctAnswer": 0,
   "explanation": [
     "The number of gametes is calculated as 2^n, where n is the number of heterozygotes. Here n=3 (Aa, Bb, Cc), so 2^3 = 8 types of gametes [cite: 95-98, 474]."
+  ],
+  "years": [
+    2025
   ]
 }

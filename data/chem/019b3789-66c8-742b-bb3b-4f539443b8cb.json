@@ -21,5 +21,8 @@
   "correctAnswer": 2,
   "explanation": [
     "In adiabatic process (q=0), w = delta U. Work done ON system is positive, increasing U (Statement I True). Free expansion against vacuum (Pext=0) means w=0 (Statement II True) [cite: 1005-1011]."
+  ],
+  "years": [
+    2025
   ]
 }

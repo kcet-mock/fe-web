@@ -26,5 +26,8 @@
     "Given $|A|=3$ and $|B|=6$.",
     "Statement (I): $|A \\cup B| = |A| + |B| - |A \\cap B|$. The minimum value occurs when intersection is maximum. Max $|A \\cap B| = \\min(|A|, |B|) = 3$. So min $|A \\cup B| = 3 + 6 - 3 = 6$. Statement (I) claims it is 3, which is false.",
     "Statement (II): The maximum number of elements in the intersection of two sets is the number of elements in the smaller set. Max $|A \\cap B| = 3$. Statement (II) is true."
+  ],
+  "years": [
+    2025
   ]
 }

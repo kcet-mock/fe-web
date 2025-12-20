@@ -28,5 +28,8 @@
     "Wait, checking solution: Sol says $\\lambda + 1 + 2... \\lambda = -1$. Let's re-read OCR.",
     "OCR Sol: $\\lambda + 1 + 2 + \\lambda + 4\\lambda + 1 = 0 \\Rightarrow \\lambda = -1$. This corresponds to a different vector set usually. But assume the Answer Key '3' (option -1) is correct.",
     "Given the options, -1 is likely the intended answer for standard variants of this problem."
+  ],
+  "years": [
+    2025
   ]
 }

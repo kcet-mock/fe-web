@@ -28,5 +28,8 @@
     "(2) $f(\\pi/2) = \\sin(9\\pi/2) + \\sin(10\\pi/2) = \\sin(4\\pi + \\pi/2) + \\sin(5\\pi) = 1 + 0 = 1$. True.",
     "(3) $f(\\pi/4) = \\sin(9\\pi/4) + \\sin(10\\pi/4) = \\sin(2\\pi + \\pi/4) + \\sin(2\\pi + \\pi/2) = 1/\\sqrt{2} + 1$. True.",
     "(4) $f(\\pi) = \\sin(9\\pi) + \\sin(10\\pi) = 0 + 0 = 0$. The option says -1, so this is False (not true)."
+  ],
+  "years": [
+    2025
   ]
 }

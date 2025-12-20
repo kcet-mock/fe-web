@@ -21,5 +21,8 @@
   "explanation": [
     "Triangle inequality states $|Z_1 + Z_2| \\le |Z_1| + |Z_2|$.",
     "Option (4) claims $\\ge$, which is generally false (unless collinear in same direction, but 'not true' implies checking for general validity)."
+  ],
+  "years": [
+    2025
   ]
 }

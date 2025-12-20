@@ -29,5 +29,8 @@
     "Given $12(a+b) = 12(11/24) = 5.5 \\neq 1$. The constraint $12a+12b-1=0$ implies $a+b = 1/12$.",
     "If $a+b=1/12$, sum is $2(1/12) + 1/12 = 3/12 \\neq 1$.",
     "Let's follow the solution specifically: It finds $x=2/3$. It seems the question asks for a specific outcome probability which turned out to be $2/3$. Option 1 matches this."
+  ],
+  "years": [
+    2025
   ]
 }

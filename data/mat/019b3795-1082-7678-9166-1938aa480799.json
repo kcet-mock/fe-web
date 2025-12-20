@@ -24,5 +24,8 @@
   "explanation": [
     "Statement I: Standard property of independent events. If P(E \\cap F) = P(E)P(F), then P(E' \\cap F') = P(E')P(F') holds. True.",
     "Statement II: If mutually exclusive, $P(A \\cap B) = 0$. If independent, $P(A \\cap B) = P(A)P(B)$. Since probabilities are non-zero, $P(A)P(B) \\neq 0$. Thus they cannot be equal. Mutually exclusive events (non-empty) are dependent. True."
+  ],
+  "years": [
+    2025
   ]
 }

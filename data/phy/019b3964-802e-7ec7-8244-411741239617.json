@@ -23,5 +23,8 @@
     "Outside the sphere (r ≥ R), the field behaves as if all charge is at the center: E = kQ/r².",
     "The graph is 0 until r=R, then decays as 1/r².",
     "[cite: 319, 320, 334, 335, 336, 337, 338]"
+  ],
+  "years": [
+    2025
   ]
 }

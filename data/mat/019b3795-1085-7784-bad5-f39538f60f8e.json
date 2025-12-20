@@ -24,5 +24,8 @@
     "$du/dx = \\cos x$.",
     "$dv/dx = 1/x$.",
     "$du/dv = \\cos x / (1/x) = x \\cos x$."
+  ],
+  "years": [
+    2025
   ]
 }

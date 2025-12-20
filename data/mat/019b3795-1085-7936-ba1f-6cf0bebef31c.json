@@ -22,5 +22,8 @@
     "Simplifying y: $\\frac{\\cos x}{1+\\sin x} = \\frac{\\sin(\\pi/2 - x)}{1 + \\cos(\\pi/2 - x)} = \\tan(\\frac{\\pi}{4} - \\frac{x}{2})$.",
     "Differentiating: $y' = \\sec^2(\\frac{\\pi}{4} - \\frac{x}{2}) \\cdot (-1/2)$. This matches form (c) with algebraic manipulation or direct derivative.",
     "Quotient rule: $y' = \\frac{-(1+\\sin x)\\sin x - \\cos x(\\cos x)}{(1+\\sin x)^2} = \\frac{-\\sin x - \\sin^2 x - \\cos^2 x}{(1+\\sin x)^2} = \\frac{-(1+\\sin x)}{(1+\\sin x)^2} = \\frac{-1}{1+\\sin x}$."
+  ],
+  "years": [
+    2025
   ]
 }

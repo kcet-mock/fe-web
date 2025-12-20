@@ -20,5 +20,8 @@
   "correctAnswer": 1,
   "explanation": [
     "delta H = delta U + delta ng * RT. For 2HI <=> H2 + I2, delta ng = (1+1) - 2 = 0. Thus delta H = delta U [cite: 1011-1013]."
+  ],
+  "years": [
+    2025
   ]
 }

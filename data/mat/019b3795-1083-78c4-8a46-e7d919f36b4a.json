@@ -22,5 +22,8 @@
     "Expand $(I-A)^3 = I^3 - 3I^2A + 3IA^2 - A^3$.",
     "Since $A^2 = A$, then $A^3 = A \\cdot A^2 = A \\cdot A = A$.",
     "Substitute: $I - 3A + 3A - A = I - A$."
+  ],
+  "years": [
+    2025
   ]
 }

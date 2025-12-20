@@ -27,5 +27,8 @@
     "For $x > 5$, both are positive, product is positive.",
     "Since it is in the denominator, it cannot be zero, so we use open intervals.",
     "Domain is $(-\\infty, 2) \\cup (5, \\infty)$."
+  ],
+  "years": [
+    2025
   ]
 }
