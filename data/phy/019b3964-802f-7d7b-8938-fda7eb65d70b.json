@@ -1,0 +1,27 @@
+{
+  "id": "019b3964-802f-7d7b-8938-fda7eb65d70b",
+  "question": [
+    "The graph between variation of resistance of a metal wire as a function of its diameter keeping other parameters like length and temperature constant is"
+  ],
+  "choices": [
+    [
+      "Linear decreasing"
+    ],
+    [
+      "Exponential increasing"
+    ],
+    [
+      "Hyperbolic/Inverse Square decreasing"
+    ],
+    [
+      "Linear increasing"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Resistance R = ρl/A = ρl / (π(D/2)²).",
+    "R ∝ 1/D².",
+    "The graph of R vs D is an inverse square curve (hyperbola-like decreasing slope).",
+    "[cite: 439, 440]"
+  ]
+}

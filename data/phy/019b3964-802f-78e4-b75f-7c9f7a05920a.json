@@ -1,0 +1,28 @@
+{
+  "id": "019b3964-802f-78e4-b75f-7c9f7a05920a",
+  "question": [
+    "Two cells of emfs E₁ and E₂ and internal resistances r₁ and r₂ (E₂ > E₁ and r₂ > r₁) respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is Eeq. Then"
+  ],
+  "choices": [
+    [
+      "E₁ < Eeq < E₂ and Eeq is nearer E₂"
+    ],
+    [
+      "Eeq > E₂"
+    ],
+    [
+      "Eeq < E₁"
+    ],
+    [
+      "E₁ < Eeq < E₂ and Eeq is nearer E₁"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The equivalent emf for parallel combination is E_eq = (E₁/r₁ + E₂/r₂) / (1/r₁ + 1/r₂).",
+    "This represents a weighted average of E₁ and E₂.",
+    "Since r₂ > r₁, the term 1/r₁ > 1/r₂, meaning E₁ has a greater weight in the average.",
+    "Therefore, E_eq will be closer to E₁.",
+    "[cite: 388, 389, 400, 406]"
+  ]
+}

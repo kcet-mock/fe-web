@@ -1,0 +1,27 @@
+{
+  "id": "019b3964-8030-713e-b8b7-d4190ce46716",
+  "question": [
+    "Which of the following graphs represents the variation of magnetic field B with perpendicular distance ‘r’ from an infinitely long, straight conductor carrying current?"
+  ],
+  "choices": [
+    [
+      "Graph 1: Linear increasing"
+    ],
+    [
+      "Graph 2: Rectangular hyperbola (decreasing)"
+    ],
+    [
+      "Graph 3: Curve increasing then decreasing"
+    ],
+    [
+      "Graph 4: Linear decreasing"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For an infinitely long straight conductor, B = μ₀I / 2πr.",
+    "B ∝ 1/r.",
+    "The graph is a rectangular hyperbola.",
+    "[cite: 459, 463]"
+  ]
+}

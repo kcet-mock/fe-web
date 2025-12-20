@@ -1,0 +1,28 @@
+{
+  "id": "019b3964-802f-770c-9277-829dddb85fb9",
+  "question": [
+    "The variations of resistivity ρ with absolute temperature T for three different materials X, Y and Z are shown in the graph below. Identify the materials X, Y and Z.",
+    "images/e3b6a935-7d8b-4a3d-9c4e-123456789025_1.png"
+  ],
+  "choices": [
+    [
+      "X - copper, Y - semiconductor, Z - nichrome"
+    ],
+    [
+      "X - semiconductor, Y - nichrome, Z - copper"
+    ],
+    [
+      "X - nichrome, Y - copper, Z - semiconductor"
+    ],
+    [
+      "X - copper, Y - nichrome, Z - semiconductor"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Graph X shows resistivity increasing non-linearly (typical for metals like Copper at low T).",
+    "Graph Y shows resistivity increasing linearly but with a higher value/intercept (typical for alloys like Nichrome).",
+    "Graph Z shows resistivity decreasing with temperature (typical for Semiconductors).",
+    "[cite: 409, 410, 424]"
+  ]
+}

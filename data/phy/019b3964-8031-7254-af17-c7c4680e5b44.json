@@ -1,0 +1,31 @@
+{
+  "id": "019b3964-8031-7254-af17-c7c4680e5b44",
+  "question": [
+    "Match the following types of nuclei with examples shown:",
+    "A. Isotopes -> i. Li7, Be7",
+    "B. Isobars -> ii. O18, F19",
+    "C. Isotones -> iii. H1, H2"
+  ],
+  "choices": [
+    [
+      "A-ii, B-iii, C-i"
+    ],
+    [
+      "A-i, B-iii, C-ii"
+    ],
+    [
+      "A-iii, B-ii, C-i"
+    ],
+    [
+      "A-iii, B-i, C-ii"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Isotopes (Same Z): H1, H2 (iii)",
+    "Isobars (Same A): Li7, Be7 (i)",
+    "Isotones (Same neutrons): O18 (18-8=10), F19 (19-9=10) (ii)",
+    "Correct match: A-iii, B-i, C-ii",
+    "[cite: 506, 507, 508, 509, 513]"
+  ]
+}

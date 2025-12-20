@@ -1,0 +1,27 @@
+{
+  "id": "019b3964-8030-7285-a901-b7befebea8c4",
+  "question": [
+    "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the variation of photo current I with the frequency v of incident light is"
+  ],
+  "choices": [
+    [
+      "Graph 1: Step function"
+    ],
+    [
+      "Graph 2: Sigmoid curve"
+    ],
+    [
+      "Graph 3: Exponential decay"
+    ],
+    [
+      "Graph 4: Linear increasing"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Below the threshold frequency, photo current is zero.",
+    "Once frequency exceeds threshold, emission occurs. If intensity is constant, saturation current is constant.",
+    "Graph shows current jumping up at v0 and staying constant.",
+    "[cite: 466, 467, 468, 469]"
+  ]
+}

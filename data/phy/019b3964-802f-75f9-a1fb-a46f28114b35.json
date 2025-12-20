@@ -1,0 +1,27 @@
+{
+  "id": "019b3964-802f-75f9-a1fb-a46f28114b35",
+  "question": [
+    "In the following circuit, the terminal voltage across the cell is",
+    "images/e3b6a935-7d8b-4a3d-9c4e-123456789023_1.png"
+  ],
+  "choices": [
+    [
+      "1.68 V"
+    ],
+    [
+      "1.95 V"
+    ],
+    [
+      "2.71 V"
+    ],
+    [
+      "0.52 V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Current I = E / (R + r) = 2 / (3.9 + 0.1) = 2 / 4 = 0.5 A.",
+    "Terminal voltage V = E - Ir = 2 - 0.5(0.1) = 2 - 0.05 = 1.95 V.",
+    "[cite: 371, 372, 373, 374, 384, 385]"
+  ]
+}

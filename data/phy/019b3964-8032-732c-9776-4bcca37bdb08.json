@@ -1,0 +1,28 @@
+{
+  "id": "019b3964-8032-732c-9776-4bcca37bdb08",
+  "question": [
+    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the circuit shown. He unplugged a resistance of 5200Ω in R. When K1 is closed and K2 is open, the deflection observed is 26 div. When K2 is also closed and a resistance of 90Ω is removed in S, the deflection becomes 13 div. The resistance of galvanometer is nearly",
+    "images/e3b6a935-7d8b-4a3d-9c4e-123456789055_1.png"
+  ],
+  "choices": [
+    [
+      "45.0 Ω"
+    ],
+    [
+      "103.0 Ω"
+    ],
+    [
+      "91.6 Ω"
+    ],
+    [
+      "116.0 Ω"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For half deflection method, G ≈ S (if R >> G).",
+    "More accurately, G = RS / (R - S).",
+    "G = 5200 * 90 / (5200 - 90) = 468000 / 5110 ≈ 91.58 Ω.",
+    "[cite: 527, 528, 529, 530, 531]"
+  ]
+}

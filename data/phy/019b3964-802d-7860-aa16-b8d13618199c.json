@@ -1,0 +1,28 @@
+{
+  "id": "019b3964-802d-7860-aa16-b8d13618199c",
+  "question": [
+    "A gas is taken from state A to state B along two different paths 1 and 2. The heat absorbed and work done by the system along these two paths are Q₁ and Q₂ and W₁ and W₂ respectively. Then"
+  ],
+  "choices": [
+    [
+      "W₁ = W₂"
+    ],
+    [
+      "Q₁ - W₁ = Q₂ - W₂"
+    ],
+    [
+      "Q₁ + W₁ = Q₂ + W₂"
+    ],
+    [
+      "Q₁ = Q₂"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to the First Law of Thermodynamics, ΔU = Q - W.",
+    "The change in internal energy ΔU depends only on the initial and final states, not the path.",
+    "Since both paths connect state A to state B, ΔU₁ = ΔU₂.",
+    "Therefore, Q₁ - W₁ = Q₂ - W₂.",
+    "[cite: 199, 200, 205, 206, 207]"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b3964-802d-70b5-8034-83bc4a213196",
+  "question": [
+    "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained as indicated. Assuming no heat energy loss occurs through the curved surfaces of the rods, the temperature at the junction x is",
+    "images/e3b6a935-7d8b-4a3d-9c4e-123456789011_1.png"
+  ],
+  "choices": [
+    [
+      "60°C"
+    ],
+    [
+      "30°C"
+    ],
+    [
+      "20°C"
+    ],
+    [
+      "45°C"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let the junction temperature be Tₓ.",
+    "Heat flows from higher temperature to lower temperature.",
+    "Sum of heat currents at junction is zero: (Tₓ - 0)/R + (Tₓ - 90)/R + (Tₓ - 90)/R = 0 (assuming flow out).",
+    "Or sum of incoming = sum of outgoing: (90-Tₓ)/R + (90-Tₓ)/R = (Tₓ-0)/R.",
+    "180 - 2Tₓ = Tₓ => 3Tₓ = 180 => Tₓ = 60°C.",
+    "[cite: 176, 177, 178, 196, 197, 198]"
+  ]
+}

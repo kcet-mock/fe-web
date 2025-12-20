@@ -1,0 +1,25 @@
+{
+  "id": "019b3964-8031-7476-b692-81bad4bc17b2",
+  "question": [
+    "The range of electrical conductivity (σ) and resistivity (ρ) for metals, among the following, is"
+  ],
+  "choices": [
+    [
+      "ρ -> 10⁻⁵ to 10⁻⁶ Ωm, σ -> 10⁵ to 10⁶ S/m"
+    ],
+    [
+      "ρ -> 10⁻¹¹ to 10⁻¹⁹ Ωm, σ -> 10¹¹ to 10¹⁹ S/m"
+    ],
+    [
+      "ρ -> 10⁻² to 10⁻⁸ Ωm, σ -> 10² to 10⁸ S/m"
+    ],
+    [
+      "ρ -> 10⁻² to 10⁻⁸ Ωm, σ -> 10² to 10⁸ S/m (Option duplicated/similar range selected in answer key)"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Metals have very low resistivity (10⁻² to 10⁻⁸ Ωm) and high conductivity (10² to 10⁸ S/m).",
+    "[cite: 515, 516, 517]"
+  ]
+}

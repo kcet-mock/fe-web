@@ -1,0 +1,28 @@
+{
+  "id": "019b3964-8031-7316-8c1e-ae65fd44aac1",
+  "question": [
+    "If AB is incident plane wave front then refracted wave front in (n2 > n1)",
+    "images/e3b6a935-7d8b-4a3d-9c4e-123456789046_1.png"
+  ],
+  "choices": [
+    [
+      "Diagram 1"
+    ],
+    [
+      "Diagram 2"
+    ],
+    [
+      "Diagram 3"
+    ],
+    [
+      "Diagram 4"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "When light travels from a rarer to a denser medium (n2 > n1), the speed decreases.",
+    "The part of the wavefront entering the medium first slows down, causing the wavefront to bend.",
+    "The correct diagram corresponds to Option 1.",
+    "[cite: 502, 503]"
+  ]
+}

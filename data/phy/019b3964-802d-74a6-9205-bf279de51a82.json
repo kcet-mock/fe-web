@@ -1,0 +1,29 @@
+{
+  "id": "019b3964-802d-74a6-9205-bf279de51a82",
+  "question": [
+    "The variations of kinetic energy K(x), potential energy U(x) and total energy as a function of displacement of a particle in SHM is as shown in the figure. The value of |x₀| is",
+    "images/e3b6a935-7d8b-4a3d-9c4e-123456789014_1.png"
+  ],
+  "choices": [
+    [
+      "2A"
+    ],
+    [
+      "A / √2"
+    ],
+    [
+      "√2 A"
+    ],
+    [
+      "A / 2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "At x₀, the Kinetic Energy graph intersects the Potential Energy graph, meaning KE = PE.",
+    "1/2 mω²(A² - x²) = 1/2 mω²x²",
+    "A² - x² = x² => 2x² = A²",
+    "x = A / √2",
+    "[cite: 225, 236, 238, 239, 240, 241, 242]"
+  ]
+}

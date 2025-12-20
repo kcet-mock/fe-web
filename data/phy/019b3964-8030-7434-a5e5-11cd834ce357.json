@@ -1,0 +1,27 @@
+{
+  "id": "019b3964-8030-7434-a5e5-11cd834ce357",
+  "question": [
+    "A series LCR circuit containing an AC source of 100V has an inductor and a capacitor of reactances 24Ω and 16Ω respectively. If a resistance of 6Ω is connected in series, then the potential difference across the series combination of inductor and capacitor only is"
+  ],
+  "choices": [
+    [
+      "80 V"
+    ],
+    [
+      "400 V"
+    ],
+    [
+      "8 V"
+    ],
+    [
+      "40 V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Impedance Z = √[R² + (X_L - X_C)²] = √[6² + (24-16)²] = √[36 + 64] = 10Ω.",
+    "Current I = V/Z = 100/10 = 10 A.",
+    "Voltage across L and C combination = I * (X_L - X_C) = 10 * (24 - 16) = 80 V.",
+    "[cite: 480, 481, 484]"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b3964-802f-70a7-839d-f35812b3c302",
+  "question": [
+    "Two thin long parallel wires separated by a distance ‘r’ from each other in vacuum carry a current of I ampere in opposite directions. Then, they will"
+  ],
+  "choices": [
+    [
+      "Attract each other with a force per unit length of μ₀I² / 2πr"
+    ],
+    [
+      "Repel each other with a force per unit length of μ₀I² / 2πr"
+    ],
+    [
+      "Repel each other with a force per unit length of μ₀I / 2πr²"
+    ],
+    [
+      "Attract each other with a force per unit length of μ₀I² / 2πr²"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Currents in opposite directions repel each other.",
+    "Force per unit length is given by F/l = μ₀I₁I₂ / 2πr.",
+    "Since I₁ = I₂ = I, F/l = μ₀I² / 2πr.",
+    "[cite: 440, 441, 442]"
+  ]
+}

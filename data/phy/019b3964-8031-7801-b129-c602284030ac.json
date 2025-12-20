@@ -1,0 +1,26 @@
+{
+  "id": "019b3964-8031-7801-b129-c602284030ac",
+  "question": [
+    "If the radius of first Bohr orbit is r, then the radius of the second Bohr orbit will be"
+  ],
+  "choices": [
+    [
+      "8r"
+    ],
+    [
+      "4r"
+    ],
+    [
+      "2√2 r"
+    ],
+    [
+      "2r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Radius of nth Bohr orbit r_n ∝ n².",
+    "For n=2, r₂ = 2² r₁ = 4r.",
+    "[cite: 504, 505, 506]"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "019b3964-8030-7a83-a850-63185bf311d2",
+  "question": [
+    "A square loop of side 2m lies in the Y-Z plane in a region having a magnetic field B = 5i + 3j - 4k T. The magnitude of magnetic flux through the square loop is"
+  ],
+  "choices": [
+    [
+      "20 Wb"
+    ],
+    [
+      "12 Wb"
+    ],
+    [
+      "16 Wb"
+    ],
+    [
+      "10 Wb"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Area vector A is perpendicular to Y-Z plane, so A = 2*2 i = 4i m².",
+    "Flux φ = B . A = (5i + 3j - 4k) . (4i) = 20 Wb.",
+    "[cite: 474, 475]"
+  ]
+}

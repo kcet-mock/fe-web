@@ -1,0 +1,25 @@
+{
+  "id": "019b3964-802e-7617-b27e-7897e26a54f0",
+  "question": [
+    "Which of the following is a correct statement?"
+  ],
+  "choices": [
+    [
+      "Gauss's law is true for any open surface"
+    ],
+    [
+      "Gauss's law is not applicable when charges are not symmetrically distributed over a closed surface"
+    ],
+    [
+      "Gauss's law does not hold good for a charge situated outside the Gaussian surface"
+    ],
+    [
+      "Gauss's law is true for any closed surface"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Gauss's law is valid for any closed surface, regardless of its shape or size.",
+    "[cite: 367, 370]"
+  ]
+}
