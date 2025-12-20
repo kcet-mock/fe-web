@@ -22,5 +22,8 @@
     "Activation energy for backward reaction without catalyst: Ea(b) = Ea(f) - ΔH = 50 - (-20) = 70 kJ/mol.",
     "Catalyst lowers activation energy for both forward and backward by the same amount (10 kJ/mol).",
     "New Ea(b)' = 70 - 10 = 60 kJ/mol."
+  ],
+  "years": [
+    2024
   ]
 }

@@ -21,5 +21,8 @@
   "explanation": [
     "The Arrhenius equation is k = A * exp(-Ea/RT).",
     "Option D has a positive exponent (Ea/RT), which implies rate increases with barrier height or decreases with temperature, which is incorrect."
+  ],
+  "years": [
+    2024
   ]
 }

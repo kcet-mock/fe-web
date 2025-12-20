@@ -22,5 +22,8 @@
     "Compressibility factor Z is defined as PV_real / nRT.",
     "Since V_ideal = nRT/P, Z = V_real / V_ideal.",
     "Option A states Z = V_ideal / V_real, which is the inverse and thus wrong."
+  ],
+  "years": [
+    2024
   ]
 }
