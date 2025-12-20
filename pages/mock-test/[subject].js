@@ -147,11 +147,24 @@ export async function getStaticProps({ params }) {
     })
   );
 
-  return { props: { subject, allIds, questions } };
+  // Pre-load available years for this subject
+  const availableYears = [];
+  const dataDir = path.join(process.cwd(), 'data', subject);
+  try {
+    const files = await fs.readdir(dataDir);
+    const yearFiles = files.filter(f => /^_(\d{4})\.js$/.test(f));
+    availableYears.push(...yearFiles.map(f => parseInt(f.match(/^_(\d{4})\.js$/)[1])));
+  } catch (error) {
+    // ignore
+  }
+
+  return { props: { subject, allIds, questions, availableYears: availableYears.sort((a, b) => b - a) } };
 }
 
-export default function MockTestSubjectPage({ subject, allIds, questions }) {
+export default function MockTestSubjectPage({ subject, allIds, questions, availableYears }) {
   const router = useRouter();
+  const { year, session_id } = router.query;
+  
   const ALL_IDS = Array.isArray(allIds) ? allIds : [];
   const ALL_QUESTIONS = Array.isArray(questions) ? questions : [];
 
@@ -162,6 +175,19 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
     });
     return map;
   }, [ALL_QUESTIONS]);
+
+  // Filter questions by year if year parameter is provided
+  const filteredIds = useMemo(() => {
+    if (!year || year === 'random') return ALL_IDS;
+    
+    const yearNum = parseInt(year);
+    if (isNaN(yearNum)) return ALL_IDS;
+    
+    // Filter questions that have the specified year
+    return ALL_QUESTIONS
+      .filter(q => q.years && Array.isArray(q.years) && q.years.includes(yearNum))
+      .map(q => q.id);
+  }, [year, ALL_IDS, ALL_QUESTIONS]);
 
   const [selectedIds, setSelectedIds] = useState([]);
   const [remaining, setRemaining] = useState(TEST_DURATION_SECONDS);
@@ -175,9 +201,10 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
   }, [selectedIds, questionsById]);
 
   useEffect(() => {
-    const safeCount = Math.max(0, Math.min(DEFAULT_QUESTION_COUNT, ALL_IDS.length));
-    setSelectedIds(sampleWithoutReplacement(ALL_IDS, safeCount));
-  }, [ALL_IDS]);
+    const idsToUse = filteredIds.length > 0 ? filteredIds : ALL_IDS;
+    const safeCount = Math.max(0, Math.min(DEFAULT_QUESTION_COUNT, idsToUse.length));
+    setSelectedIds(sampleWithoutReplacement(idsToUse, safeCount));
+  }, [filteredIds, ALL_IDS]);
 
   useEffect(() => {
     if (!running || finished) return;
@@ -258,16 +285,21 @@ export default function MockTestSubjectPage({ subject, allIds, questions }) {
 
   const subjectLabel = SUBJECTS.find((s) => s.value === subject)?.label || subject;
   const QUESTIONS = selectedQuestions;
+  
+  const yearDisplay = year && year !== 'random' ? ` ${year}` : '';
+  const testTypeLabel = year && year !== 'random' ? 'Previous Year Paper' : 'Mock Test';
 
   return (
     <main className="main-layout main-layout--top">
       <section>
         <header className="card-header">
           <div>
-            <div className="badge">Mock Test · Option 1</div>
-            <h1 className="title">KCET mock test · {subjectLabel}</h1>
+            <div className="badge">{testTypeLabel} · {subjectLabel}{yearDisplay}</div>
+            <h1 className="title">KCET {testTypeLabel.toLowerCase()} · {subjectLabel}</h1>
             <p className="subtitle">
-              Timer is always visible so you can practice managing your time like the real exam.
+              {year && year !== 'random' 
+                ? `Practicing ${QUESTIONS.length} questions from KCET ${year}. Timer is always visible.`
+                : 'Timer is always visible so you can practice managing your time like the real exam.'}
             </p>
           </div>
         </header>

@@ -1,18 +1,37 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 
+const SUBJECT_MAP = {
+  bio: 'Biology',
+  chem: 'Chemistry',
+  mat: 'Mathematics',
+  phy: 'Physics',
+};
+
+// This will be populated from available _<year>.js files
 const PAPERS = [
-  { year: 2024, subject: 'Physics', file: '/pdfs/2024-physics.pdf' },
-  { year: 2024, subject: 'Chemistry', file: '/pdfs/2024-chemistry.pdf' },
-  { year: 2024, subject: 'Mathematics', file: '/pdfs/2024-mathematics.pdf' },
-  { year: 2023, subject: 'Physics', file: '/pdfs/2023-physics.pdf' },
-  { year: 2023, subject: 'Chemistry', file: '/pdfs/2023-chemistry.pdf' },
-  { year: 2023, subject: 'Mathematics', file: '/pdfs/2023-mathematics.pdf' },
-  { year: 2022, subject: 'Biology', file: '/pdfs/2022-biology.pdf' },
+  { year: 2024, subject: 'phy', count: 120 },
+  { year: 2025, subject: 'bio', count: 60 },
+  { year: 2025, subject: 'chem', count: 60 },
+  { year: 2025, subject: 'mat', count: 60 },
+  { year: 2025, subject: 'phy', count: 60 },
+  // Add more as year files are created
 ];
 
 const ALL_YEARS = Array.from(new Set(PAPERS.map((p) => p.year))).sort((a, b) => b - a);
 const ALL_SUBJECTS = Array.from(new Set(PAPERS.map((p) => p.subject))).sort();
+
+function generateSessionId() {
+  if (typeof window !== 'undefined' && typeof crypto !== 'undefined' && crypto.randomUUID) {
+    return crypto.randomUUID();
+  }
+  // Fallback for older browsers
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    const r = Math.random() * 16 | 0;
+    const v = c === 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
 
 export default function PreviousPapersPage() {
   const [selectedYear, setSelectedYear] = useState('all');
@@ -31,11 +50,11 @@ export default function PreviousPapersPage() {
       <section className="card">
         <header className="card-header">
           <div>
-            <div className="badge">Previous Papers · Option 2</div>
-            <h1 className="title">Year-wise, subject-wise KCET PDFs</h1>
+            <div className="badge">Previous Papers</div>
+            <h1 className="title">KCET Previous Year Questions</h1>
             <p className="subtitle">
-              Use filters to quickly locate and download KCET question papers
-              by exam year and subject.
+              Practice with actual KCET questions from previous years.
+              Select a year and subject to start an interactive test.
             </p>
           </div>
         </header>
@@ -74,15 +93,15 @@ export default function PreviousPapersPage() {
                 <option value="all">All subjects</option>
                 {ALL_SUBJECTS.map((subject) => (
                   <option key={subject} value={subject}>
-                    {subject}
+                    {SUBJECT_MAP[subject] || subject}
                   </option>
                 ))}
               </select>
             </div>
 
             <div style={{ fontSize: '0.8rem', color: '#9ca3af' }}>
-              Tip: Replace the sample file paths with actual KCET PDF URLs
-              or static files served from your Next.js public folder.
+              Tip: Questions are loaded from year-specific files (_&lt;year&gt;.js)
+              in each subject directory.
             </div>
 
             <div style={{ marginTop: '1.25rem', fontSize: '0.8rem' }}>
@@ -105,24 +124,28 @@ export default function PreviousPapersPage() {
               </div>
             ) : (
               <div style={{ display: 'grid', gap: '0.75rem' }}>
-                {filtered.map((paper) => (
-                  <div key={`${paper.year}-${paper.subject}`} className="paper-item">
-                    <div className="paper-item-main">
-                      <div>
-                        KCET {paper.year} · <strong>{paper.subject}</strong>
+                {filtered.map((paper) => {
+                  const sessionId = generateSessionId();
+                  const testUrl = `/mock-test/${paper.subject}?year=${paper.year}&session_id=${sessionId}`;
+                  
+                  return (
+                    <Link key={`${paper.year}-${paper.subject}`} href={testUrl}>
+                      <div className="paper-item" style={{ cursor: 'pointer' }}>
+                        <div className="paper-item-main">
+                          <div>
+                            KCET {paper.year} · <strong>{SUBJECT_MAP[paper.subject]}</strong>
+                          </div>
+                          <div className="paper-meta">
+                            {paper.count} questions · Interactive test
+                          </div>
+                        </div>
+                        <span className="paper-download">
+                          Start Test →
+                        </span>
                       </div>
-                      <div className="paper-meta">Official-style question paper (PDF)</div>
-                    </div>
-                    <a
-                      className="paper-download"
-                      href={paper.file}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Download PDF →
-                    </a>
-                  </div>
-                ))}
+                    </Link>
+                  );
+                })}
               </div>
             )}
           </div>
