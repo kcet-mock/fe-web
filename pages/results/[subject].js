@@ -337,6 +337,37 @@ export default function ResultsSubjectPage({ subject, questions }) {
                           );
                         })}
                       </div>
+
+                      {q.explanation && (
+                        <div className="explanation-section">
+                          <div className="explanation-label">Explanation</div>
+                          <div className="explanation-content">
+                            {Array.isArray(q.explanation) ? q.explanation.map((part, partIndex) => {
+                              if (isImageToken(part)) {
+                                const src = imageTokenToSrc(part, basePathPrefix);
+                                return (
+                                  <div key={`exp-${partIndex}`} className="question-image">
+                                    <Image
+                                      src={src}
+                                      alt={`Explanation for question ${questionNumber}`}
+                                      width={1200}
+                                      height={800}
+                                      style={{ maxWidth: '100%', height: 'auto' }}
+                                    />
+                                  </div>
+                                );
+                              }
+                              return (
+                                <p key={`exp-${partIndex}`} className="explanation-text">
+                                  {part}
+                                </p>
+                              );
+                            }) : (
+                              <p className="explanation-text">{q.explanation}</p>
+                            )}
+                          </div>
+                        </div>
+                      )}
                     </div>
                   );
                 })}

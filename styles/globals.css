@@ -801,3 +801,36 @@ a {
     display: none;
   }
 }
+
+.explanation-section {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(209, 213, 219, 0.6);
+}
+
+.explanation-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6366f1;
+  background: rgba(99, 102, 241, 0.1);
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  display: inline-block;
+  margin-bottom: 0.6rem;
+}
+
+.explanation-content {
+  color: #374151;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.explanation-text {
+  margin-bottom: 0.5rem;
+}
+
+.explanation-text:last-child {
+  margin-bottom: 0;
+}
