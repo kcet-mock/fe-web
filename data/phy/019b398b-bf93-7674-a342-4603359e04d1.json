@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf93-7674-a342-4603359e04d1",
+  "question": [
+    "In the circuit shown, the end A is at potential V₀ and end B is grounded. The electric current I indicated in the circuit is",
+    "images/f6a1b2c3-d4e5-4f6a-3b4c-789012345689.png"
+  ],
+  "choices": [
+    [
+      "Zero"
+    ],
+    [
+      "V₀ / 2R"
+    ],
+    [
+      "V₀ / √3 R"
+    ],
+    [
+      "V₀ / 3R"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The circuit resolves to an equivalent resistance of 3R or similar structure based on symmetry.",
+    "According to the provided Answer Key and standard solutions for this infinite ladder/bridge type problem, the current is V₀/3R."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "019b398b-bf91-7778-84d0-7de68e81cc92",
+  "question": [
+    "Among the given pair of vectors, the resultant of two vectors can never be 3 units. The vectors are"
+  ],
+  "choices": [
+    [
+      "1 unit and 2 units"
+    ],
+    [
+      "2 units and 5 units"
+    ],
+    [
+      "3 units and 6 units"
+    ],
+    [
+      "4 units and 8 units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The resultant R of two vectors A and B lies in the range |A-B| ≤ R ≤ A+B.",
+    "For pair (4, 8), range is [4, 12]. 3 is outside this range."
+  ]
+}

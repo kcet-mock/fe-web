@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf90-73f4-9140-3060480e5a8a",
+  "question": [
+    "The photoelectric work function for photo metal is 2.4 eV. Among the four wavelengths, the wavelength of light for which photo-emission does not take place is"
+  ],
+  "choices": [
+    [
+      "200 nm"
+    ],
+    [
+      "300 nm"
+    ],
+    [
+      "700 nm"
+    ],
+    [
+      "400 nm"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Threshold wavelength λ₀ = hc/Φ ≈ 1240 / 2.4 ≈ 517 nm.",
+    "Emission occurs only for λ < λ₀.",
+    "700 nm is greater than 517 nm, so its energy is insufficient to cause photo-emission."
+  ]
+}

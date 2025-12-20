@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf8f-7f3d-aaaf-51a44496a19c",
+  "question": [
+    "If the angle of minimum deviation is equal to angle of a prism for an equilateral prism, then the speed of light inside the prism is"
+  ],
+  "choices": [
+    [
+      "3 × 10⁸ ms⁻¹"
+    ],
+    [
+      "2√3 × 10⁸ ms⁻¹"
+    ],
+    [
+      "√3 × 10⁸ ms⁻¹"
+    ],
+    [
+      "(√3/2) × 10⁸ ms⁻¹"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For an equilateral prism, A = 60°. Given minimum deviation δ_m = A = 60°.",
+    "Refractive index μ = sin((A+δ_m)/2) / sin(A/2) = sin(60°) / sin(30°) = (√3/2) / (1/2) = √3.",
+    "Speed of light v = c / μ = (3 × 10⁸) / √3 = √3 × 10⁸ ms⁻¹."
+  ]
+}

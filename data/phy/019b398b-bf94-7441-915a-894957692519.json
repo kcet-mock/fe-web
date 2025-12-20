@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf94-7441-915a-894957692519",
+  "question": [
+    "Magnetic susceptibility of Mg at 300 K is 1.2 × 10⁻⁵. What is its susceptibility at 200 K ?"
+  ],
+  "choices": [
+    [
+      "18 × 10⁻⁵"
+    ],
+    [
+      "180 × 10⁻⁵"
+    ],
+    [
+      "1.8 × 10⁻⁵"
+    ],
+    [
+      "0.18 × 10⁻⁵"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For paramagnetic materials, susceptibility χ ∝ 1/T (Curie's Law).",
+    "χ₂ / χ₁ = T₁ / T₂ = 300 / 200 = 1.5.",
+    "χ₂ = 1.5 × 1.2 × 10⁻⁵ = 1.8 × 10⁻⁵."
+  ]
+}

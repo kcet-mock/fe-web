@@ -1,0 +1,24 @@
+{
+  "id": "019b398b-bf93-77ab-abb7-0c577d1c4974",
+  "question": [
+    "Under electrostatic condition of a charged conductor, which among the following statements is true?"
+  ],
+  "choices": [
+    [
+      "The electric field on the surface is σ/2ε₀"
+    ],
+    [
+      "The electric potential inside is always zero"
+    ],
+    [
+      "Any excess charge resides on the surface of the conductor"
+    ],
+    [
+      "The net electric field is tangential to the surface"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In electrostatics, mutual repulsion pushes excess charge to the outer surface of a conductor."
+  ]
+}

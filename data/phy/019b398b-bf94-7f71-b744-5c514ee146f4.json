@@ -1,0 +1,28 @@
+{
+  "id": "019b398b-bf94-7f71-b744-5c514ee146f4",
+  "question": [
+    "In an experiment to determine the temperature coefficient of resistance of a conductor, a coil of wire X is immersed in a liquid. It is heated by an external agent. A meter bridge set up is used to determine resistance of the coil X at different temperatures. The balancing points measured at temperatures t₁ = 0°C and t₂ = 100°C are 50 cm and 60 cm respectively. If the standard resistance taken out is S = 4 Ω in both trials, the temperature coefficient of the coil is",
+    "images/d4e5f6a1-b2c3-4d4e-1f2a-123456789023.png"
+  ],
+  "choices": [
+    [
+      "0.05 °C⁻¹"
+    ],
+    [
+      "0.02 °C⁻¹"
+    ],
+    [
+      "0.005 °C⁻¹"
+    ],
+    [
+      "2.0 °C⁻¹"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "At 0°C, l=50. R₀/4 = 50/50 => R₀ = 4 Ω.",
+    "At 100°C, l=60. R₁₀₀/4 = 60/40 = 1.5 => R₁₀₀ = 6 Ω.",
+    "R₁₀₀ = R₀(1 + αΔt) => 6 = 4(1 + 100α).",
+    "1.5 = 1 + 100α => 0.5 = 100α => α = 0.005 °C⁻¹."
+  ]
+}

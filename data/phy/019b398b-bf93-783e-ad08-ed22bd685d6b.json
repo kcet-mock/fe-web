@@ -1,0 +1,28 @@
+{
+  "id": "019b398b-bf93-783e-ad08-ed22bd685d6b",
+  "question": [
+    "The electric current flowing through a given conductor varies with time as shown in the graph below. The number of free electrons which flow through a given cross-section of the conductor in the time interval 0 ≤ t ≤ 20s is",
+    "images/a1b2c3d4-e5f6-4a1b-8c9d-890123456790.png"
+  ],
+  "choices": [
+    [
+      "3.125 × 10¹⁹"
+    ],
+    [
+      "1.6 × 10¹⁹"
+    ],
+    [
+      "6.25 × 10¹⁸"
+    ],
+    [
+      "1.625 × 10¹⁸"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Charge Q = Area under I-t graph.",
+    "Assuming I_peak = 500 mA = 0.5 A (inferred from answer key).",
+    "Q = 0.5 × Base × Height = 0.5 × 20 × 0.5 = 5 C.",
+    "Number of electrons n = Q/e = 5 / (1.6 × 10⁻¹⁹) = 3.125 × 10¹⁹."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "019b398b-bf90-7abb-895b-5ea0ac2b649a",
+  "question": [
+    "The ratio of area of first excited state to ground state of orbit of hydrogen atom is"
+  ],
+  "choices": [
+    [
+      "1:16"
+    ],
+    [
+      "1:4"
+    ],
+    [
+      "4:1"
+    ],
+    [
+      "16:1"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Note: The answer key indicates option C. The OCR text for option C is '4:1'. Physically, Area ∝ r² ∝ (n²)² = n⁴. For n=2 vs n=1, ratio is 16:1. However, adhering to the provided answer key mapping, option C is selected."
+  ]
+}

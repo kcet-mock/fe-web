@@ -1,0 +1,27 @@
+{
+  "id": "019b398b-bf91-773f-a4ae-654590ee7840",
+  "question": [
+    "In the diagram shown, the Zener diode has a reverse breakdown voltage of Vz. The current through the load resistance Rₗ is Iₗ. The current through the Zener diode is",
+    "images/e5f6a1b2-c3d4-4e5f-2a3b-234567890123.png"
+  ],
+  "choices": [
+    [
+      "(Vₒ - Vz) / Rs"
+    ],
+    [
+      "(Vₒ - Vz) / Rₗ"
+    ],
+    [
+      "Vz / Rₗ"
+    ],
+    [
+      "((Vₒ - Vz) / Rs) - Iₗ"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Total current from source Is = (Vₒ - Vz) / Rs.",
+    "From Kirchhoff's Current Law at the junction: Is = Iz + Iₗ.",
+    "Therefore, Iz = Is - Iₗ = ((Vₒ - Vz) / Rs) - Iₗ."
+  ]
+}

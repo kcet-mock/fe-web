@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf94-7d53-b320-89dea4255cb2",
+  "question": [
+    "The magnetic field at the centre of a circular coil of radius R carrying current I is 64 times the magnetic field at a distance x on its axis from the centre of the coil. Then the value of x is"
+  ],
+  "choices": [
+    [
+      "R / √15"
+    ],
+    [
+      "R√3"
+    ],
+    [
+      "R / 4"
+    ],
+    [
+      "R√15"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "B_center / B_axis = (1 + x²/R²)^(3/2) = 64.",
+    "1 + x²/R² = (64)^(2/3) = 16.",
+    "x²/R² = 15 => x = R√15."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "019b398b-bf91-7474-a9ee-eab806b06fa4",
+  "question": [
+    "The upper level of valence band and lower level of conduction band overlap in the case of"
+  ],
+  "choices": [
+    [
+      "Silicon"
+    ],
+    [
+      "Copper"
+    ],
+    [
+      "Carbon"
+    ],
+    [
+      "Germanium"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Band overlap is a characteristic of metallic conductors.",
+    "Copper is a metal, whereas Silicon, Carbon, and Germanium are semiconductors or insulators."
+  ]
+}

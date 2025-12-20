@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf91-7902-a699-0a7217d4fa63",
+  "question": [
+    "A block of certain mass is placed on a rough inclined plane. The angle between the plane and the horizontal is 30°. The coefficients of static and kinetic frictions between the block and the inclined plane are 0.6 and 0.5 respectively. Then the magnitude of the acceleration of the block is [Take g = 10 ms⁻²]"
+  ],
+  "choices": [
+    [
+      "2 ms⁻²"
+    ],
+    [
+      "zero"
+    ],
+    [
+      "0.196 ms⁻²"
+    ],
+    [
+      "0.67 ms⁻²"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Downward component g sin(30) = 0.5g.",
+    "Max static friction μ_s g cos(30) = 0.6 × g × 0.866 ≈ 0.52g.",
+    "Since pulling force (0.5g) < Max Friction (0.52g), the block does not move. Acceleration is zero."
+  ]
+}

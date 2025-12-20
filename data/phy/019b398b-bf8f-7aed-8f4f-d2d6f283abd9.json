@@ -1,0 +1,27 @@
+{
+  "id": "019b398b-bf8f-7aed-8f4f-d2d6f283abd9",
+  "question": [
+    "In Young's double slit experiment, an electron beam is used to produce interference fringes of width β₁. Now the electron beam is replaced by a beam of protons with the same experimental set-up and same speed. The fringe width obtained is β₂. The correct relation between β₁ and β₂ is"
+  ],
+  "choices": [
+    [
+      "β₁ = β₂"
+    ],
+    [
+      "No fringes are formed"
+    ],
+    [
+      "β₁ < β₂"
+    ],
+    [
+      "β₁ > β₂"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Fringe width β ∝ λ.",
+    "de Broglie wavelength λ = h/mv.",
+    "Mass of proton > Mass of electron. For same speed, λ_proton < λ_electron.",
+    "Therefore, β₂ (proton) < β₁ (electron), or β₁ > β₂."
+  ]
+}

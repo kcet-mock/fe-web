@@ -1,0 +1,27 @@
+{
+  "id": "019b398b-bf8f-7b55-8e71-4b73439f2d9d",
+  "question": [
+    "The figure shows variation of R, Xₗ and Xᴄ with frequency 'f' in a series LCR circuit. Then for what frequency point is the circuit capacitive?",
+    "images/e5f6a1b2-c3d4-4e5f-2a3b-456789012345.png"
+  ],
+  "choices": [
+    [
+      "B"
+    ],
+    [
+      "C"
+    ],
+    [
+      "A"
+    ],
+    [
+      "D"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "A series LCR circuit is capacitive when Xᴄ > Xₗ.",
+    "Looking at the graph, Xᴄ (the curve decreasing with frequency) is greater than Xₗ (the straight line increasing with frequency) at lower frequencies.",
+    "Point A lies in the region where Xᴄ > Xₗ. Note: The options map Point A to choice (C)."
+  ]
+}

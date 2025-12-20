@@ -160,13 +160,32 @@ def write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def write_all_js(path: Path, ids: List[str]) -> None:
-    """Write _all.js file with array of question IDs."""
+def write_all_js(path: Path, new_ids: List[str]) -> None:
+    """Add new question IDs to _all.js file, preserving existing IDs."""
+    import re
+    
     path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Read existing IDs if file exists
+    existing_ids: List[str] = []
+    if path.exists():
+        try:
+            content = path.read_text(encoding="utf-8")
+            # Extract IDs from the JavaScript array
+            matches = re.findall(r"'([^']+)'", content)
+            existing_ids = matches
+        except Exception:
+            pass
+    
+    # Combine existing and new IDs, removing duplicates while preserving order
+    all_ids = existing_ids.copy()
+    for qid in new_ids:
+        if qid not in all_ids:
+            all_ids.append(qid)
     
     # Format as JavaScript module
     content = "export const ALL_QUESTION_IDS = [\n"
-    for qid in ids:
+    for qid in all_ids:
         content += f"  '{qid}',\n"
     content += "];\n"
     

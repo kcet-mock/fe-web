@@ -1,0 +1,27 @@
+{
+  "id": "019b398b-bf91-7ea7-ac04-188da7b86c82",
+  "question": [
+    "A particle of mass 500 g is at rest. It is free to move along a straight line. The power delivered to the particle varies with time according to the following graph. The momentum of the particle at t=5 s is",
+    "images/e5f6a1b2-c3d4-4e5f-2a3b-890123456789.png"
+  ],
+  "choices": [
+    [
+      "2√2 Ns"
+    ],
+    [
+      "5√2 Ns"
+    ],
+    [
+      "5 Ns"
+    ],
+    [
+      "5.5 Ns"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Work Done = Area under P-t graph = Area of trapezium = 0.5 × (2+8) × 5 = 25 J.",
+    "Change in Kinetic Energy ΔK = Work Done = 25 J.",
+    "Momentum p = √(2mK) = √(2 × 0.5 × 25) = √25 = 5 Ns."
+  ]
+}

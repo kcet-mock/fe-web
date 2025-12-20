@@ -1,0 +1,27 @@
+{
+  "id": "019b398b-bf94-7225-bc35-a3427270c5c3",
+  "question": [
+    "The I – V graph for a conductor at two different temperatures 100°C and 400°C is as shown in the figure. The temperature coefficient of resistance of the conductor is about (in per degree Celsius)",
+    "images/b2c3d4e5-f6a1-4b2c-9d0e-901234567801.png"
+  ],
+  "choices": [
+    [
+      "3 × 10⁻³"
+    ],
+    [
+      "6 × 10⁻³"
+    ],
+    [
+      "9 × 10⁻³"
+    ],
+    [
+      "12 × 10⁻³"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Slope of I-V is 1/R. 400°C corresponds to lower slope (higher R, 30°). 100°C corresponds to higher slope (lower R, 45°).",
+    "R₁ (100°C) ∝ cot(45°) = 1. R₂ (400°C) ∝ cot(30°) = √3.",
+    "√3 = 1(1 + α(300)) => 0.732 = 300α => α ≈ 2.44 × 10⁻³. Closest option is 3 × 10⁻³."
+  ]
+}

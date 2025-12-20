@@ -1,0 +1,25 @@
+{
+  "id": "019b398b-bf94-7852-a19a-13e916e7db78",
+  "question": [
+    "A moving electron produces"
+  ],
+  "choices": [
+    [
+      "only electric field"
+    ],
+    [
+      "both electric and magnetic field"
+    ],
+    [
+      "only magnetic field"
+    ],
+    [
+      "neither electric nor magnetic field"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A static charge produces an electric field.",
+    "A moving charge constitutes a current, thus producing a magnetic field in addition to its electric field."
+  ]
+}

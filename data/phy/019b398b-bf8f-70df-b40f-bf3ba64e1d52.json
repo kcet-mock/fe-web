@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf8f-70df-b40f-bf3ba64e1d52",
+  "question": [
+    "A galaxy is moving away from the Earth so that a spectral line at 600 nm is observed at 601 nm. Then the speed of the galaxy with respect to the Earth is"
+  ],
+  "choices": [
+    [
+      "500 km s⁻¹"
+    ],
+    [
+      "50 km s⁻¹"
+    ],
+    [
+      "200 km s⁻¹"
+    ],
+    [
+      "20 km s⁻¹"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Doppler shift Δλ/λ = v/c.",
+    "Δλ = 601 - 600 = 1 nm.",
+    "v = c(Δλ/λ) = (3 × 10⁸) × (1/600) = 0.5 × 10⁶ m/s = 500 × 10³ m/s = 500 km/s."
+  ]
+}

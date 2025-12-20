@@ -1,0 +1,26 @@
+{
+  "id": "019b398b-bf92-77e4-ad37-60c30cd0b187",
+  "question": [
+    "Water flows through a horizontal pipe of varying cross-section at a rate of 0.314 m³s⁻¹. The velocity of water at a point where the radius of the pipe is 10 cm is"
+  ],
+  "choices": [
+    [
+      "0.1 ms⁻¹"
+    ],
+    [
+      "1 ms⁻¹"
+    ],
+    [
+      "10 ms⁻¹"
+    ],
+    [
+      "100 ms⁻¹"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Flow rate Q = A × v = 0.314.",
+    "Area A = πr² = 3.14 × (0.1)² = 0.0314 m².",
+    "v = Q / A = 0.314 / 0.0314 = 10 ms⁻¹."
+  ]
+}
