@@ -1,0 +1,28 @@
+{
+  "id": "43c1002d-faca-48ce-9f0a-c432e3f8b940",
+  "question": [
+    "Which of the following is not an aromatic compound",
+    "images/chem_q19_structs.png"
+  ],
+  "choices": [
+    [
+      "Structure 1 (Cyclopentadienyl cation - 4 pi e-)"
+    ],
+    [
+      "Structure 2"
+    ],
+    [
+      "Structure 3"
+    ],
+    [
+      "Structure 4"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Structure 1 appears to be the cyclopentadienyl cation (5-membered ring with + charge), which has 4 <katex>$\\pi$</katex> electrons. According to Huckel's rule, 4n electrons system is anti-aromatic, not aromatic."
+  ],
+  "years": [
+    2025
+  ]
+}

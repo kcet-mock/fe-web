@@ -1,0 +1,29 @@
+{
+  "id": "5839c542-501d-4b1a-b71f-8c20e012f25a",
+  "question": [
+    "In the complex ion <katex>$[Fe(C_{2}O_{4})_{3}]^{3-}$</katex>, the co-ordination number of Fe is"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Oxalate (<katex>$C_2O_4^{2-}$</katex>) is a bidentate ligand.",
+    "Three bidentate ligands form <katex>$3 \\times 2 = 6$</katex> coordinate bonds.",
+    "Coordination number is 6."
+  ],
+  "years": [
+    2025
+  ]
+}

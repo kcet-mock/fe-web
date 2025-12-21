@@ -1,0 +1,31 @@
+{
+  "id": "73797ca0-6aa5-4a0f-89db-242cee7054cb",
+  "question": [
+    "Among the following 0.1 m aqueous solutions, which one will exhibit the lowest boiling point elevation, assuming complete ionization?"
+  ],
+  "choices": [
+    [
+      "Aluminium chloride"
+    ],
+    [
+      "Aluminmium sulphate"
+    ],
+    [
+      "Potassium sulphate"
+    ],
+    [
+      "Sodium chloride"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$\\Delta T_b \\propto i$</katex>. We want lowest elevation (lowest i).",
+    "1. <katex>$AlCl_3 \to i=4$</katex>",
+    "2. <katex>$Al_2(SO_4)_3 \to i=5$</katex>",
+    "3. <katex>$K_2SO_4 \to i=3$</katex>",
+    "4. <katex>$NaCl \to i=2$</katex> (Lowest)"
+  ],
+  "years": [
+    2025
+  ]
+}

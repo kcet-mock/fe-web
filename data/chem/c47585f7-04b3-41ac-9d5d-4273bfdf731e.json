@@ -1,0 +1,28 @@
+{
+  "id": "c47585f7-04b3-41ac-9d5d-4273bfdf731e",
+  "question": [
+    "Half-life of a first order reaction is 20 seconds and initial concentration of reactant is 0.2M. The concentration of reactant left after 80 seconds is"
+  ],
+  "choices": [
+    [
+      "0.1 M"
+    ],
+    [
+      "0.05 M"
+    ],
+    [
+      "0.0125 M"
+    ],
+    [
+      "0.2 M"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Number of half-lives = 80/20 = 4.",
+    "Remaining conc = <katex>$0.2 \\times (1/2)^4 = 0.2 / 16 = 0.0125 M$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

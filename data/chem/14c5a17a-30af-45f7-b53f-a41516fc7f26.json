@@ -1,0 +1,28 @@
+{
+  "id": "14c5a17a-30af-45f7-b53f-a41516fc7f26",
+  "question": [
+    "Which examples of carbohydrates exhibit <katex>$\\alpha$</katex>-link, (<katex>$\\alpha$</katex>-glycosidic link) in their structure?"
+  ],
+  "choices": [
+    [
+      "Maltose and Lactose"
+    ],
+    [
+      "Amylose and Amylopectin"
+    ],
+    [
+      "Cellulose and Glycogen"
+    ],
+    [
+      "Glucose and Fructose"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Starch consists of Amylose and Amylopectin, both of which contain <katex>$\\alpha$</katex>-D-glucose units linked by <katex>$\\alpha$</katex>-glycosidic linkages.",
+    "Cellulose has <katex>$\\beta$</katex>-linkages."
+  ],
+  "years": [
+    2025
+  ]
+}

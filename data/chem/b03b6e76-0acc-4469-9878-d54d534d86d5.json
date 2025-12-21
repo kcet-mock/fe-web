@@ -1,0 +1,29 @@
+{
+  "id": "b03b6e76-0acc-4469-9878-d54d534d86d5",
+  "question": [
+    "Which one of the following reactions has <katex>$\\Delta H=\\Delta U$</katex>?"
+  ],
+  "choices": [
+    [
+      "<katex>$CaCO_{3}(s) \\rightarrow CaO(s)+CO_{2}(g)$</katex>"
+    ],
+    [
+      "<katex>$C_{6}H_{6}(l)+15/2 O_{2}(g) \\rightarrow 6CO_{2}(g)+3H_{2}O(l)$</katex>"
+    ],
+    [
+      "<katex>$2HI(g) \\rightleftharpoons H_{2}(g)+I_{2}(g)$</katex>"
+    ],
+    [
+      "<katex>$N_{2}(g)+3H_{2}(g) \\rightleftharpoons 2NH_{3}(g)$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$\\Delta H = \\Delta U + \\Delta n_g RT$</katex>.",
+    "For <katex>$\\Delta H = \\Delta U$</katex>, we need <katex>$\\Delta n_g = 0$</katex>.",
+    "In <katex>$2HI(g) \\rightleftharpoons H_2(g) + I_2(g)$</katex>, <katex>$\\Delta n_g = (1+1) - 2 = 0$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "9ad7036d-737d-4b4f-9a53-b6e6bf522171",
+  "question": [
+    "Among the following, identify the compound that is not an isomer of hexane"
+  ],
+  "choices": [
+    [
+      "2,2-Dimethylbutane"
+    ],
+    [
+      "n-Hexane"
+    ],
+    [
+      "2-Methylpentane"
+    ],
+    [
+      "2,3-Dimethylpentane"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Hexane has formula <katex>$C_6H_{14}$</katex>.",
+    "2,3-Dimethylpentane has 5 (pentane) + 2 (methyl) = 7 carbons. Formula <katex>$C_7H_{16}$</katex>.",
+    "Therefore, it is not an isomer of hexane."
+  ],
+  "years": [
+    2025
+  ]
+}

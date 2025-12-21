@@ -1,0 +1,29 @@
+{
+  "id": "5a2aa68b-7ee3-4d04-9468-cdc5e96c05c2",
+  "question": [
+    "Which of the following reaction/s does not yield an amine?",
+    "I. <katex>$R-X + NH_3$</katex>, II. <katex>$R-C\\equiv N + H_2/Ni$</katex>, III. <katex>$R-C\\equiv N + H_3O^+$</katex>, IV. <katex>$R-CONH_2 + LiAlH_4$</katex>"
+  ],
+  "choices": [
+    [
+      "Both I and III"
+    ],
+    [
+      "Only II"
+    ],
+    [
+      "Only III"
+    ],
+    [
+      "Both II and IV"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "III: Hydrolysis of cyanides (<katex>$R-CN$</katex>) in acidic medium gives Carboxylic Acids, not amines.",
+    "Others (Ammonolysis, Reduction of Nitriles, Reduction of Amides) yield amines."
+  ],
+  "years": [
+    2025
+  ]
+}

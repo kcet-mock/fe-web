@@ -1,0 +1,33 @@
+{
+  "id": "5c1b2547-11ed-46d7-b317-0a4146e0ffaa",
+  "question": [
+    "Reaction: <katex>$t-Butyl-O-CH_3 + HI \\rightarrow A + B$</katex>. A and B respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$CH_3OH, t-Butyl-I$</katex>"
+    ],
+    [
+      "<katex>$CH_3I, t-Butyl-OH$</katex>"
+    ],
+    [
+      "<katex>$CH_3OH, t-Butyl-OH$</katex>"
+    ],
+    [
+      "<katex>$CH_3I, t-Butyl-I$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Reaction of ether with HI.",
+    "If one group is tertiary (t-butyl), the reaction proceeds via SN1 mechanism. The iodide attacks the stable tertiary carbocation.",
+    "Wait, answer key says 3? Let me check the source snippet.",
+    "Snippet says 'Ans. 3'. Option 3 in text is 'A=CH3OH, B=t-Butyl-I' (Actually looks like Option 1 in structure). Let's re-read image.",
+    "Image for Q29 shows: Option 1: A=CH3OH, B=t-Butyl-OH. Option 2: A=CH3I, B=t-Butyl-OH. Option 3: A=CH3OH, B=t-Butyl-I. Option 4: A=CH3I, B=t-Butyl-I.",
+    "Standard Chemistry: t-Butyl methyl ether + HI -> t-Butyl Iodide + Methanol (SN1).",
+    "So A=Methanol, B=t-Butyl Iodide. Matches Option 3 in the snippet logic."
+  ],
+  "years": [
+    2025
+  ]
+}

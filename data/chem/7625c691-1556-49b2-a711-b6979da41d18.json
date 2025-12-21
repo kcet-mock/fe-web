@@ -1,0 +1,27 @@
+{
+  "id": "7625c691-1556-49b2-a711-b6979da41d18",
+  "question": [
+    "In the titration of potassium permanganate (<katex>$KMnO_{4}$</katex>) against Ferrous ammonium sulphate (FAS) solution, dilute sulphuric acid but not nitric acid is used to maintain acidic medium, because"
+  ],
+  "choices": [
+    [
+      "It is difficult to identify the end point"
+    ],
+    [
+      "Nitric acid doesn't act as an indicator"
+    ],
+    [
+      "Nitric acid itself is an oxidizing agent"
+    ],
+    [
+      "Nitric acid is a weak acid than sulphuric acid"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Nitric acid (<katex>$HNO_3$</katex>) is a strong oxidizing agent and would interfere with the redox titration by oxidizing <katex>$Fe^{2+}$</katex> itself."
+  ],
+  "years": [
+    2025
+  ]
+}

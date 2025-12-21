@@ -1,0 +1,28 @@
+{
+  "id": "08589606-194d-4f2d-95df-750d66ac8bbe",
+  "question": [
+    "According to the Heisenberg's Uncertainty principle, the value of <katex>$\\Delta v \\cdot \\Delta x$</katex> for an object whose mass is <katex>$10^{-6}kg$</katex> is (<katex>$h=6.626\\times10^{-34}Js$</katex>)"
+  ],
+  "choices": [
+    [
+      "<katex>$3.0\\times10^{-24}m^{2}s^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4.0\\times10^{-26}m^{2}s^{-1}$</katex>"
+    ],
+    [
+      "<katex>$3.5\\times10^{-25}m^{2}s^{-1}$</katex>"
+    ],
+    [
+      "<katex>$5.2\\times10^{-29}m^{2}s^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$\\Delta x \\Delta v \\ge h / (4\\pi m)$</katex>.",
+    "<katex>$6.626 \\times 10^{-34} / (4 \\times 3.14 \\times 10^{-6}) \\approx 0.52 \\times 10^{-28} = 5.2 \\times 10^{-29}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f22fce06-5d7b-44d8-9715-10ea02ef100b",
+  "question": [
+    "Which of the following has most acidic Hydrogen?"
+  ],
+  "choices": [
+    [
+      "Propanoic acid"
+    ],
+    [
+      "Dichloroacetic acid"
+    ],
+    [
+      "Trichloroacetic acid"
+    ],
+    [
+      "Chloroacetic acid"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Electron withdrawing groups (-Cl) increase acidity by stabilizing the carboxylate ion.",
+    "Trichloroacetic acid has three -Cl groups, exerting the strongest -I effect."
+  ],
+  "years": [
+    2025
+  ]
+}

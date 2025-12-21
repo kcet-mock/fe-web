@@ -1,0 +1,35 @@
+{
+  "id": "23dca889-b752-4b7f-b4d4-d6592036537a",
+  "question": [
+    "Match List-I (Reagents) with List-II (Structural prediction) for Glucose:",
+    "a. Acetic anhydride, b. Bromine water, c. Hydroiodic acid, d. Hydrogen cyanide",
+    "i. Glucose has an aldehyde group",
+    "ii. Glucose has a straight chain of six carbon atoms",
+    "iii. Glucose has five hydroxyl group",
+    "iv. Glucose has a carbonyl group"
+  ],
+  "choices": [
+    [
+      "a-iv, b-iii, c-ii, d-i"
+    ],
+    [
+      "a-iii, b-i, c-ii, d-iv"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv"
+    ],
+    [
+      "a-iii, b-ii, c-i, d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Acetic anhydride forms pentaacetate -> 5 -OH groups (a-iii).",
+    "Bromine water oxidizes aldehyde -> Aldehyde group (b-i).",
+    "HI reduces to n-hexane -> Straight chain (c-ii).",
+    "HCN forms cyanohydrin -> Carbonyl group (d-iv)."
+  ],
+  "years": [
+    2025
+  ]
+}

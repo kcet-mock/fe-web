@@ -1,0 +1,32 @@
+{
+  "id": "89a5b37f-a519-4a10-8715-7e139f01885a",
+  "question": [
+    "The electronic configuration of X and Y are given below:",
+    "X: <katex>$1s^{2}2s^{2}2p^{6}3s^{2}3p^{3}$</katex>",
+    "Y: <katex>$1s^{2}2s^{2}2p^{6}3s^{2}3p^{5}$</katex>",
+    "Which of the following is the correct molecular formula and type of bond formed between X and Y?"
+  ],
+  "choices": [
+    [
+      "<katex>$X_{3}Y$</katex>, ionic bond"
+    ],
+    [
+      "<katex>$X_{2}Y_{3}$</katex>, coordinate bond"
+    ],
+    [
+      "<katex>$XY_{3}$</katex>, covalent bond"
+    ],
+    [
+      "<katex>$X_{2}Y$</katex>, covalent bond"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "X has configuration ending in <katex>$3s^2 3p^3$</katex>, which corresponds to Phosphorus (P, valency 3 or 5).",
+    "Y has configuration ending in <katex>$3s^2 3p^5$</katex>, which corresponds to Chlorine (Cl, valency 1).",
+    "They form <katex>$PCl_3$</katex> (XY3), which involves sharing of electrons, hence a covalent bond."
+  ],
+  "years": [
+    2025
+  ]
+}

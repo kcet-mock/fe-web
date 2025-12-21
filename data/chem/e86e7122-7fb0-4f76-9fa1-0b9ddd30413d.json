@@ -1,0 +1,27 @@
+{
+  "id": "e86e7122-7fb0-4f76-9fa1-0b9ddd30413d",
+  "question": [
+    "A ligand which has two different donor atoms and either of the two ligates with the central metal atom/ion in the complex is called"
+  ],
+  "choices": [
+    [
+      "Chelate ligand"
+    ],
+    [
+      "Unidentate ligand"
+    ],
+    [
+      "Polydentate ligand"
+    ],
+    [
+      "Ambidentate ligand"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Ligands like <katex>$NO_2^-$</katex> or <katex>$SCN^-$</katex> that can coordinate through two different atoms are called ambidentate ligands."
+  ],
+  "years": [
+    2025
+  ]
+}

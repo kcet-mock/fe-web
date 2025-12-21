@@ -1,0 +1,29 @@
+{
+  "id": "64c868d0-aa9e-4424-8538-2553a8fc12d7",
+  "question": [
+    "In the reaction between hydrogen sulphide and acidified permanganate solution,"
+  ],
+  "choices": [
+    [
+      "<katex>$H_{2}S$</katex> is reduced to S, <katex>$MnO_{4}^{-}$</katex> is oxidised to <katex>$Mn^{2+}$</katex>"
+    ],
+    [
+      "<katex>$H_{2}S$</katex> is oxidised to <katex>$SO_{2}$</katex>, <katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$MnO_{2}$</katex>"
+    ],
+    [
+      "<katex>$H_{2}S$</katex> is reduced to <katex>$SO_{2}$</katex>, <katex>$MnO_{4}^{-}$</katex> is oxidised to <katex>$Mn^{2+}$</katex>"
+    ],
+    [
+      "<katex>$H_{2}S$</katex> is oxidised to S, <katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$Mn^{2+}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Reaction: <katex>$5H_2S + 2MnO_4^- + 6H^+ \\rightarrow 5S + 2Mn^{2+} + 8H_2O$</katex>.",
+    "<katex>$H_2S$</katex> (-2) oxidizes to Sulphur (0).",
+    "<katex>$MnO_4^-$</katex> (+7) reduces to <katex>$Mn^{2+}$</katex> (+2)."
+  ],
+  "years": [
+    2025
+  ]
+}

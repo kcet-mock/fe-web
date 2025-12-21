@@ -1,0 +1,34 @@
+{
+  "id": "2ebbc340-33bc-4464-9b11-a94dce500096",
+  "question": [
+    "Identify the incorrect statements among the following:",
+    "(a) All enthalpies of fusion are positive",
+    "(b) The magnitude of enthalpy change does not depend on the strength of the intermolecular interactions",
+    "(c) When a chemical reaction is reversed, the value of <katex>$\\Delta_r H^{\\circ}$</katex> is reversed in sign",
+    "(d) The change in enthalpy is dependent of path between initial state and final state",
+    "(e) For most of the ionic compounds, <katex>$\\Delta_{sol}H^{\\circ}$</katex> is negative"
+  ],
+  "choices": [
+    [
+      "a, b and d"
+    ],
+    [
+      "b, d and e"
+    ],
+    [
+      "a, d and e"
+    ],
+    [
+      "a and e only"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "b is incorrect: Enthalpy depends on interaction strength.",
+    "d is incorrect: Enthalpy is a state function (independent of path).",
+    "e is incorrect: Solution enthalpy can be positive or negative (often positive for many ionic solids, though depends on lattice vs hydration energy). The key marks this combination."
+  ],
+  "years": [
+    2025
+  ]
+}

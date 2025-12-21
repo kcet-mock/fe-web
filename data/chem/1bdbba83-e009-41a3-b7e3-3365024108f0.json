@@ -1,0 +1,31 @@
+{
+  "id": "1bdbba83-e009-41a3-b7e3-3365024108f0",
+  "question": [
+    "Given atomic masses: Li(7), Na(23), K(39), Cl(35.5), Br(80), I(127), Ca(40), Sr(88), Ba(137). Which of the following doesn't form triad?"
+  ],
+  "choices": [
+    [
+      "Ba, Sr, Ca"
+    ],
+    [
+      "Cl, Br, I"
+    ],
+    [
+      "Cl, K, Ca"
+    ],
+    [
+      "Li, Na, K"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Dobereiner's triads are groups of chemically similar elements.",
+    "Li, Na, K (Alkali metals) - Yes.",
+    "Cl, Br, I (Halogens) - Yes.",
+    "Ca, Sr, Ba (Alkaline earth) - Yes.",
+    "Cl (Halogen), K (Alkali), Ca (Alkaline earth) - chemically dissimilar. Not a triad."
+  ],
+  "years": [
+    2025
+  ]
+}

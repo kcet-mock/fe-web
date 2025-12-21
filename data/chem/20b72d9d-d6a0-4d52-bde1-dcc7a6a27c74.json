@@ -1,0 +1,29 @@
+{
+  "id": "20b72d9d-d6a0-4d52-bde1-dcc7a6a27c74",
+  "question": [
+    "180g of glucose, <katex>$C_{6}H_{12}O_{6}$</katex>, is dissolved in 1 kg of water in a vessel. The temperature at which water boils at 1.013 bar is (given, <katex>$K_{b}$</katex> for water is 0.52K kg <katex>$mol^{-1}$</katex>. Boiling point for pure water is 373.15K)"
+  ],
+  "choices": [
+    [
+      "373.67 K"
+    ],
+    [
+      "373.015 K"
+    ],
+    [
+      "373.0 K"
+    ],
+    [
+      "373.202 K"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Moles glucose = 180/180 = 1 mol. Molality m = 1 mol/1kg = 1 m.",
+    "<katex>$\\Delta T_b = K_b \\times m = 0.52 \\times 1 = 0.52$</katex>.",
+    "Boiling Point = 373.15 + 0.52 = 373.67 K."
+  ],
+  "years": [
+    2025
+  ]
+}
