@@ -8,16 +8,22 @@ export async function getStaticProps() {
 }
 
 export default function InternalQuestionsListPage() {
+  const [subject, setSubject] = useState('bio');
+  const [year, setYear] = useState('all');
   const [questions, setQuestions] = useState([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    if (!subject) return;
+    
     let cancelled = false;
     (async () => {
       try {
         setLoading(true);
-        const res = await fetch('/api/internal/questions?full=1');
+        setError('');
+        const yearParam = year && year !== 'all' ? `&year=${year}` : '';
+        const res = await fetch(`/api/internal/questions?full=1&subject=${subject}${yearParam}`);
         if (!res.ok) throw new Error('Failed to load');
         const json = await res.json();
         const list = Array.isArray(json.questions) ? json.questions : [];
@@ -31,7 +37,7 @@ export default function InternalQuestionsListPage() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [subject, year]);
 
   const isImageToken = (token) => {
     return typeof token === 'string' && (token.startsWith('images/') || token.startsWith('image/'));
@@ -54,6 +60,54 @@ export default function InternalQuestionsListPage() {
 
         <div className="test-layout">
           <div className="test-questions">
+            <div style={{ marginBottom: '1rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+              <div>
+                <label htmlFor="subject-select" className="page-section-subtitle" style={{ display: 'block', marginBottom: '0.5rem' }}>
+                  Select Subject
+                </label>
+                <select
+                  id="subject-select"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  style={{ 
+                    padding: '0.5rem 1rem', 
+                    fontSize: '1rem',
+                    backgroundColor: '#f0f0f0',
+                    border: '1px solid #ddd',
+                    borderRadius: '4px',
+                    cursor: 'pointer'
+                  }}
+                >
+                  <option value="bio">Biology</option>
+                  <option value="phy">Physics</option>
+                  <option value="chem">Chemistry</option>
+                  <option value="mat">Mathematics</option>
+                </select>
+              </div>
+              <div>
+                <label htmlFor="year-select" className="page-section-subtitle" style={{ display: 'block', marginBottom: '0.5rem' }}>
+                  Select Year
+                </label>
+                <select
+                  id="year-select"
+                  value={year}
+                  onChange={(e) => setYear(e.target.value)}
+                  style={{ 
+                    padding: '0.5rem 1rem', 
+                    fontSize: '1rem',
+                    backgroundColor: '#f0f0f0',
+                    border: '1px solid #ddd',
+                    borderRadius: '4px',
+                    cursor: 'pointer'
+                  }}
+                >
+                  <option value="all">All Years</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                </select>
+              </div>
+            </div>
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
               <Link href="/internal/questions/new" className="button-primary">
                 Add new question
