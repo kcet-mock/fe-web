@@ -1,0 +1,27 @@
+{
+  "id": "8af2225e-1b9c-48b1-814b-71bfe7c4fd68",
+  "question": [
+    "The sequence of communities of primary succession in water is"
+  ],
+  "choices": [
+    [
+      "Phytoplanktons -> Scrubs -> Free floating hydrophytes -> Rooted hydrophytes -> Grasses -> Trees"
+    ],
+    [
+      "Phytoplanktons -> Free floating hydrophytes -> Rooted hydrophytes -> Trees -> Scrubs"
+    ],
+    [
+      "Free floating hydrophytes -> Scrubs -> Phytoplanktons -> Rooted hydrophytes -> Grasses -> Trees"
+    ],
+    [
+      "Phytoplanktons -> Rooted hydrophytes -> Free floating hydrophytes -> Reed swamps -> Marsh meadows -> Scrubs -> Trees"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The correct sequence is: Phytoplanktons -> Submerged plant stage -> Submerged free floating plant stage -> Reed-swamp stage -> Marsh-meadow stage -> Scrub stage -> Forest (Trees)[cite: 355, 359, 360]."
+  ],
+  "years": [
+    2024
+  ]
+}

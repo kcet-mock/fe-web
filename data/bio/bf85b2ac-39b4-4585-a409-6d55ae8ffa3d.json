@@ -1,0 +1,30 @@
+{
+  "id": "bf85b2ac-39b4-4585-a409-6d55ae8ffa3d",
+  "question": [
+    "Following representation P, Q and R denote few steps of Griffith Experiment. Identify the correct one(s).",
+    "P. R strain -> Inject into mice -> Mice die",
+    "Q. S strain (Heat killed) -> Inject into mice -> Mice die",
+    "R. R strain -> Inject into mice -> Mice live"
+  ],
+  "choices": [
+    [
+      "P only"
+    ],
+    [
+      "R only"
+    ],
+    [
+      "P and R"
+    ],
+    [
+      "Q and R"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In Griffith's experiment: R strain (rough, non-virulent) does not kill mice (Mice live). S strain (smooth, virulent) kills mice. Heat-killed S strain does not kill mice. Therefore, only representation R is correct[cite: 147, 148, 149, 150, 151, 154]."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "6e5b85be-cab9-42ab-b544-7d7fb23ed90b",
+  "question": [
+    "Match the nutrients given in List I with the source in List II:",
+    "**List I**",
+    "1. Vitamin A",
+    "2. Single cell protein",
+    "3. Vitamin C",
+    "4. Protein",
+    "**List II**",
+    "p. Bitter gourd",
+    "q. Beans",
+    "r. Carrots",
+    "s. Spirulina spp"
+  ],
+  "choices": [
+    [
+      "1-p, 2-q, 3-r, 4-s"
+    ],
+    [
+      "1-r, 2-s, 3-p, 4-q"
+    ],
+    [
+      "1-p, 2-r, 3-s, 4-q"
+    ],
+    [
+      "1-q, 2-s, 3-p, 4-r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Carrots are rich in Vitamin A (1-r). Spirulina is a source of Single Cell Protein (2-s). Bitter gourd (and other vegetables/citrus) is a source of Vitamin C (3-p). Lablab/Beans are rich in Protein (4-q)[cite: 236, 239, 240, 241, 242, 243, 244, 245, 246, 253]."
+  ],
+  "years": [
+    2024
+  ]
+}

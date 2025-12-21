@@ -1,0 +1,27 @@
+{
+  "id": "6bff5588-254b-40da-9a3c-aa9f9c62548f",
+  "question": [
+    "Most ape-like ancestral primate was"
+  ],
+  "choices": [
+    [
+      "Dryopithecus"
+    ],
+    [
+      "Ramapithecus"
+    ],
+    [
+      "Australopithecus"
+    ],
+    [
+      "Neanderthal man"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Dryopithecus and Ramapithecus were existing about 15 mya. Dryopithecus was more ape-like and Ramapithecus was more man-like[cite: 195, 196, 201]."
+  ],
+  "years": [
+    2024
+  ]
+}

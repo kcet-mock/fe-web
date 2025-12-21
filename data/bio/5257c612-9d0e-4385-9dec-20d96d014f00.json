@@ -1,0 +1,27 @@
+{
+  "id": "5257c612-9d0e-4385-9dec-20d96d014f00",
+  "question": [
+    "Find the incorrect statement among the following:"
+  ],
+  "choices": [
+    [
+      "In sex linked recessive traits the gene is transmitted from unaffected carrier female to some of male progeny"
+    ],
+    [
+      "Accumulation of phenylpyruvic acid in brain results in mental retardation"
+    ],
+    [
+      "Individuals affected by Down's Syndrome will have congenital heart defect and are more intelligent"
+    ],
+    [
+      "Turner's Syndrome is caused due to the absence of one X-chromosome"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Individuals with Down's syndrome have physical and mental retardation, not higher intelligence. They typically have a short statured body, small round head, furrowed tongue, and partially open mouth[cite: 133, 137]."
+  ],
+  "years": [
+    2024
+  ]
+}

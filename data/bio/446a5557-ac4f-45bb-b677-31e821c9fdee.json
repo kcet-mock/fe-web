@@ -1,0 +1,27 @@
+{
+  "id": "446a5557-ac4f-45bb-b677-31e821c9fdee",
+  "question": [
+    "Mule is the result of"
+  ],
+  "choices": [
+    [
+      "Out-crossing"
+    ],
+    [
+      "Cross-breeding"
+    ],
+    [
+      "Interspecific hybridization"
+    ],
+    [
+      "Out-breeding"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Mule is produced by the mating of a male donkey and a female horse, which are two different species. This is an example of Interspecific hybridization[cite: 224, 226]."
+  ],
+  "years": [
+    2024
+  ]
+}

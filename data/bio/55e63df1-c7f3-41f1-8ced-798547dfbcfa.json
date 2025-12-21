@@ -1,0 +1,27 @@
+{
+  "id": "55e63df1-c7f3-41f1-8ced-798547dfbcfa",
+  "question": [
+    "Which of the following is based upon the principle of antigen-antibody interaction?"
+  ],
+  "choices": [
+    [
+      "PCR"
+    ],
+    [
+      "ELISA"
+    ],
+    [
+      "rDNA technology"
+    ],
+    [
+      "Gel Electrophoresis"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "ELISA (Enzyme Linked Immunosorbent Assay) is based on the principle of antigen-antibody interaction[cite: 290, 294]."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "166b75f3-1b06-405a-ae11-06792dc23a4a",
+  "question": [
+    "Which is the intermediate compound that links the end product of Glycolysis with TCA Cycle?"
+  ],
+  "choices": [
+    [
+      "Acetyl CoA"
+    ],
+    [
+      "Pyruvic Acid"
+    ],
+    [
+      "OAA"
+    ],
+    [
+      "Citric Acid"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Pyruvate (end product of glycolysis) is converted into Acetyl CoA, which then enters the TCA cycle. Acetyl CoA acts as the connecting link[cite: 485, 486]."
+  ],
+  "years": [
+    2024
+  ]
+}

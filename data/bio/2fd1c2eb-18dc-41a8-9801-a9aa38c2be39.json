@@ -1,0 +1,27 @@
+{
+  "id": "2fd1c2eb-18dc-41a8-9801-a9aa38c2be39",
+  "question": [
+    "Which of these enzymes is required to cleave a plasmid ?"
+  ],
+  "choices": [
+    [
+      "Ligase"
+    ],
+    [
+      "Endonuclease"
+    ],
+    [
+      "Exonuclease"
+    ],
+    [
+      "Polymerase"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Restriction endonucleases are used to cut (cleave) DNA at specific locations, including plasmids, to create sticky or blunt ends for cloning[cite: 271, 279]."
+  ],
+  "years": [
+    2024
+  ]
+}

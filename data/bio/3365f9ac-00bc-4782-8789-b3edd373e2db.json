@@ -1,0 +1,27 @@
+{
+  "id": "3365f9ac-00bc-4782-8789-b3edd373e2db",
+  "question": [
+    "When male and female gametes are morphologically distinct, the condition is known as"
+  ],
+  "choices": [
+    [
+      "Homogametes"
+    ],
+    [
+      "Heterogametes"
+    ],
+    [
+      "Hermaphrodites"
+    ],
+    [
+      "Sexual dimorphism"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "When the two gametes are morphologically distinct types, they are called heterogametes (e.g., sperm and ovum). Homogametes (isogametes) are similar in appearance[cite: 32, 50, 51]."
+  ],
+  "years": [
+    2024
+  ]
+}

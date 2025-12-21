@@ -1,0 +1,27 @@
+{
+  "id": "b26e45fc-52da-4f60-b62c-720323b05386",
+  "question": [
+    "The functional unit of contraction is a"
+  ],
+  "choices": [
+    [
+      "Portion of myofibril between two successive Z-lines"
+    ],
+    [
+      "Portion of myofibril between two successive M-lines"
+    ],
+    [
+      "Centre of the H-zone"
+    ],
+    [
+      "Centre of the I-band"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The portion of the myofibril between two successive Z-lines is considered as the functional unit of contraction and is called a sarcomere[cite: 11, 12]."
+  ],
+  "years": [
+    2024
+  ]
+}
