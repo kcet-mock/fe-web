@@ -87,44 +87,40 @@ When generating or working with questions, follow this exact JSON structure:
 3. **Image Path Format**: Always use `"images/{uuid}.png"` format for image references
 4. **Choices Structure**: Each choice must be an array (even single-text choices like `["Text"]`)
 5. **Zero-indexed Answers**: Answer indices start at 0 (0-3 for four choices)
-6. **Math/LaTeX Content**: For mathematical expressions, prefix strings with `"katex:"` followed by LaTeX wrapped in `$` or `$$`
+6. **Math/LaTeX Content**: Wrap mathematical expressions in `<katex>` tags with LaTeX inside `$` or `$$`
 
 ### Math Content with KaTeX
 
 The application uses KaTeX to render mathematical expressions. To include math in questions, choices, or explanations:
 
-**Format**: `"katex:$LaTeX_expression$"` for inline math or `"katex:$$LaTeX_expression$$"` for display math
+**Format**: `"<katex>$LaTeX_expression$</katex>"` for inline math or `"<katex>$$LaTeX_expression$$</katex>"` for display math
 
 **Examples**:
 ```json
 {
   "question": [
-    "What is the value of ",
-    "katex:$\\sqrt{144}$",
-    "?"
+    "What is the value of <katex>$\\sqrt{144}$</katex>?"
   ],
   "choices": [
-    ["katex:$60^{\\circ}$"],
-    ["katex:$90^{\\circ}$"],
-    ["katex:$45^{\\circ}$"],
+    ["<katex>$60^{\\circ}$</katex>"],
+    ["<katex>$90^{\\circ}$</katex>"],
+    ["<katex>$45^{\\circ}$</katex>"],
     ["Zero"]
   ],
   "explanation": [
-    "The torque on a magnetic dipole is given by ",
-    "katex:$\\tau = MB \\sin \\theta$",
-    ". For zero torque, ",
-    "katex:$\\sin \\theta = 0$",
-    "."
+    "The torque on a magnetic dipole is given by <katex>$\\tau = MB \\sin \\theta$</katex>.",
+    "For zero torque, <katex>$\\sin \\theta = 0$</katex>."
   ]
 }
 ```
 
 **Usage Notes**:
-- Can be used in `question`, `choices`, and `explanation` arrays
-- Prefix the entire string with `"katex:"`
-- Follow with LaTeX wrapped in `$...$` (inline) or `$$...$$` (display)
+- Can be used inline within text in `question`, `choices`, and `explanation` arrays
+- Wrap math content with `<katex>` and `</katex>` tags
+- Put LaTeX inside `$...$` (inline) or `$$...$$` (display) within the katex tags
 - Remember to escape backslashes in JSON: use `\\` for LaTeX commands
-- Math strings can be mixed with regular text and images in the same array
+- Multiple katex blocks can be used in the same string
+- Example: `"The angle is <katex>$90^{\\circ}$</katex> at position <katex>$x=0$</katex>."`
 
 ### Complete Example
 

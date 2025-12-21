@@ -5,22 +5,22 @@
   ],
   "choices": [
     [
-      "katex:$60^{\\circ}$"
+      "<katex>$60^{\\circ}$</katex>"
     ],
     [
-      "katex:$90^{\\circ}$"
+      "<katex>$90^{\\circ}$</katex>"
     ],
     [
       "Zero"
     ],
     [
-      "katex:$45^{\\circ}$"
+      "<katex>$45^{\\circ}$</katex>"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "The torque on a magnetic dipole is given by $\\tau = MB \\sin \\theta$.",
-    "For the torque to be zero, $\\sin \\theta = 0$, which implies $\\theta = 0^{\\circ}$ or $180^{\\circ}$."
+    "The torque on a magnetic dipole is given by <katex>$\\tau = MB \\sin \\theta$</katex>.",
+    "For the torque to be zero, <katex>$\\sin \\theta = 0$</katex>, which implies <katex>$\\theta = 0^{\\circ}$</katex> or <katex>$180^{\\circ}$</katex>."
   ],
   "years": [
     2023
