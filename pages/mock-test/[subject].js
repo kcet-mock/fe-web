@@ -213,8 +213,14 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
     if (!router.isReady) return;
     
     const safeCount = Math.max(0, Math.min(DEFAULT_QUESTION_COUNT, idsToUse.length));
-    setSelectedIds(sampleWithoutReplacement(idsToUse, safeCount));
-  }, [idsToUse, router.isReady]);
+    
+    // Only randomize when year is 'random', otherwise keep the original order
+    if (!year || year === 'random') {
+      setSelectedIds(sampleWithoutReplacement(idsToUse, safeCount));
+    } else {
+      setSelectedIds(idsToUse.slice(0, safeCount));
+    }
+  }, [idsToUse, router.isReady, year]);
 
   useEffect(() => {
     if (!running || finished) return;
@@ -297,8 +303,8 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
   const QUESTIONS = selectedQuestions;
   
   const yearDisplay = year && year !== 'random' ? ` ${year}` : '';
-  const testTypeLabel = year && year !== 'random' ? `${subjectLabel} ${year} year paper` : 'Mock Test';
-  const pageTitle = year && year !== 'random' ? `${subjectLabel} ${year} year paper` : `KCET mock test · ${subjectLabel}`;
+  const testTypeLabel = year && year !== 'random' ? `KCET-Mock ${subjectLabel} ${year} Test` : 'Mock Test';
+  const pageTitle = year && year !== 'random' ? `KCET-Mock ${subjectLabel} ${year} Test` : `KCET-Mock ${subjectLabel} Test`;
 
   return (
     <main className="main-layout main-layout--top">
