@@ -1,0 +1,29 @@
+{
+  "id": "019b4024-9dee-734c-8316-42bd95c05f3e",
+  "question": [
+    "Reaction: $CH_3-CH=CH-CH_2OH \\xrightarrow{PCC} CH_3-CH=CH-CHO$. Hybridisation change involved at C-1 in the above reaction:"
+  ],
+  "choices": [
+    [
+      "$sp^2$ to $sp^3$"
+    ],
+    [
+      "sp to $sp^2$"
+    ],
+    [
+      "$sp^3$ to sp"
+    ],
+    [
+      "$sp^3$ to $sp^2$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Reactant: Carbon-1 is in $-CH_2OH$. It has 4 sigma bonds (2H, 1C, 1O), so it is $sp^3$.",
+    "Product: Carbon-1 is in $-CHO$ (Aldehyde). It has 3 sigma bonds (1H, 1C, 1O) and 1 pi bond, so it is $sp^2$.",
+    "Change is $sp^3 \\rightarrow sp^2$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b4024-9dea-70a6-8293-df29c1ec9c2c",
+  "question": [
+    "Which one of the following gases converts haemoglobin into carboxy haemoglobin?"
+  ],
+  "choices": [
+    [
+      "NO"
+    ],
+    [
+      "$CO_2$"
+    ],
+    [
+      "CO"
+    ],
+    [
+      "$O_2$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Carbon monoxide (CO) binds to haemoglobin with much higher affinity than oxygen, forming stable carboxyhaemoglobin, which reduces oxygen transport."
+  ],
+  "years": [
+    2023
+  ]
+}

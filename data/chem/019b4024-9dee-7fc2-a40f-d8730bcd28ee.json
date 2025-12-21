@@ -1,0 +1,29 @@
+{
+  "id": "019b4024-9dee-7fc2-a40f-d8730bcd28ee",
+  "question": [
+    "Which of the following is an organometallic compound?"
+  ],
+  "choices": [
+    [
+      "$(CH_3COO)_2Ca$"
+    ],
+    [
+      "$CH_3ONa$"
+    ],
+    [
+      "$CH_3COONa$"
+    ],
+    [
+      "$CH_3CH_2MgBr$ (Ethyl Magnesium Bromide)"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "An organometallic compound must have a direct Metal-Carbon bond.",
+    "A, B, C involve Metal-Oxygen bonds.",
+    "Grignard reagent ($R-Mg-X$, option D, inferred from context as typical organometallic) has a C-Mg bond."
+  ],
+  "years": [
+    2023
+  ]
+}

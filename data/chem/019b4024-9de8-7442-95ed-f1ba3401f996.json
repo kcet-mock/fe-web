@@ -1,0 +1,32 @@
+{
+  "id": "019b4024-9de8-7442-95ed-f1ba3401f996",
+  "question": [
+    "In the reaction:",
+    "$Aniline \\xrightarrow{NaNO_2/HCl, 273K} P \\xrightarrow{HBF_4} Q \\xrightarrow{NaNO_2/Cu, \\Delta} R$",
+    "P, Q and R respectively are:"
+  ],
+  "choices": [
+    [
+      "$NaNO_{2}+dilHCl,BF_{3},Cu+NaNO_{2}$"
+    ],
+    [
+      "$NaNO_{3}+dil.HCl,F_{2},Cu+NaNO_{3}$"
+    ],
+    [
+      "$C_6H_5N_2^+Cl^-$, $C_6H_5N_2^+BF_4^-$, $C_6H_5NO_2$"
+    ],
+    [
+      "$NaNO_{2}+con.HCl,F_{2},Cu+NaNO_{3}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "1. Aniline + $NaNO_2/HCl$ $\\rightarrow$ Benzene diazonium chloride (P, $C_6H_5N_2^+Cl^-$).",
+    "2. P + $HBF_4$ $\\rightarrow$ Benzene diazonium fluoroborate (Q, $C_6H_5N_2^+BF_4^-$).",
+    "3. Q + $NaNO_2/Cu$ $\\rightarrow$ Nitrobenzene (R, $C_6H_5NO_2$).",
+    "Note: The provided options in the source text seem to list reagents or incorrect compounds, but option C in the context of the answer key ($C_6H_5N_2^+Cl^-$, etc.) is the standard chemistry progression. Based on the extracted text options, the source key indicates 'C', which usually corresponds to the correct chemical names for P, Q, R."
+  ],
+  "years": [
+    2023
+  ]
+}

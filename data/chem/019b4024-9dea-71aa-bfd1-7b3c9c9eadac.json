@@ -1,0 +1,29 @@
+{
+  "id": "019b4024-9dea-71aa-bfd1-7b3c9c9eadac",
+  "question": [
+    "The number of protons, neutrons and electrons in the ion ${}_{16}^{32}S^{2-}$ respectively are:"
+  ],
+  "choices": [
+    [
+      "18, 16, 16"
+    ],
+    [
+      "16, 16, 16"
+    ],
+    [
+      "16, 18, 16"
+    ],
+    [
+      "16, 16, 18"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Atomic number (Z) = 16 $\\rightarrow$ Protons = 16.",
+    "Mass number (A) = 32 $\\rightarrow$ Neutrons = $A - Z = 32 - 16 = 16$.",
+    "Charge = -2 $\\rightarrow$ Electrons = $Protons + 2 = 16 + 2 = 18$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b4024-9dec-780b-83cb-bc3962732cf8",
+  "question": [
+    "Which of the following compound does not give dinitrogen on heating?"
+  ],
+  "choices": [
+    [
+      "$NH_{4}NO_{3}$"
+    ],
+    [
+      "$(NH_{4})_{2}Cr_{2}O_{7}$"
+    ],
+    [
+      "$Ba(N_{3})_{2}$"
+    ],
+    [
+      "$NH_{4}NO_{2}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "$NH_4NO_3$ (Ammonium Nitrate) decomposes to give $N_2O$ (Nitrous oxide) and water.",
+    "Others give $N_2$: Ammonium dichromate, Barium azide (pure N2), and Ammonium nitrite."
+  ],
+  "years": [
+    2023
+  ]
+}

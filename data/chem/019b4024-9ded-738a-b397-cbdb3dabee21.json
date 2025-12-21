@@ -1,0 +1,28 @@
+{
+  "id": "019b4024-9ded-738a-b397-cbdb3dabee21",
+  "question": [
+    "When $FeCl_3$ is added to excess of hot water gives a sol 'X'. When $FeCl_3$ is added to $NaOH_{(aq)}$ solution, gives sol 'Y'. X and Y formed in the above processes respectively are:"
+  ],
+  "choices": [
+    [
+      "$Fe_2O_3.xH_2O/Cl^-$ and $Fe_2O_3.xH_2O/OH^-$"
+    ],
+    [
+      "$Fe_2O_3.xH_2O/Fe^{3+}$ and $Fe_2O_3.xH_2O/OH^-$"
+    ],
+    [
+      "$Fe_2O_3.xH_2O/OH^-$ and $Fe_2O_3.xH_2O/Fe^{3+}$"
+    ],
+    [
+      "$Fe_2O_3.xH_2O/H^+$ and $Fe_2O_3.xH_2O/Na^+$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "X: Hydrolysis of $FeCl_3$ in hot water creates Positively charged sol due to adsorption of common ion $Fe^{3+}$ ($Fe_2O_3.xH_2O/Fe^{3+}$).",
+    "Y: Reaction with NaOH creates Negatively charged sol due to adsorption of $OH^-$ ($Fe_2O_3.xH_2O/OH^-$)."
+  ],
+  "years": [
+    2023
+  ]
+}

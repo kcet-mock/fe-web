@@ -1,0 +1,29 @@
+{
+  "id": "019b4024-9dea-7124-8868-316f0eb2b7b9",
+  "question": [
+    "Among the following sets of structures (represented as I, II, III, IV, V), the set which represents aromatic species is:"
+  ],
+  "choices": [
+    [
+      "II and III"
+    ],
+    [
+      "I, II and IV"
+    ],
+    [
+      "I, II and III"
+    ],
+    [
+      "III, IV and V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Aromatic species must obey Huckel's rule ($4n+2$ pi electrons), be planar, and conjugated.",
+    "Typically: Benzene (II), Cyclopentadienyl anion (IV), and Cyclopropenyl cation (I) are standard examples of aromatic systems in such questions.",
+    "Answer B suggests I, II, and IV are the aromatic ones."
+  ],
+  "years": [
+    2023
+  ]
+}

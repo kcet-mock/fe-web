@@ -1,0 +1,28 @@
+{
+  "id": "019b4024-9ded-71e0-935a-2182c703b9de",
+  "question": [
+    "Which of the following is CORRECT with respect to melting point of a transition element?"
+  ],
+  "choices": [
+    [
+      "$Mn > Fe$"
+    ],
+    [
+      "$Ti > V$"
+    ],
+    [
+      "$V > Cr$"
+    ],
+    [
+      "$Cr > Mn$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Manganese (Mn) has a surprisingly low melting point due to its stable half-filled d5 configuration leading to weaker metallic bonding compared to its neighbors.",
+    "Chromium (Cr) has a much higher melting point. So $Cr > Mn$ is correct."
+  ],
+  "years": [
+    2023
+  ]
+}

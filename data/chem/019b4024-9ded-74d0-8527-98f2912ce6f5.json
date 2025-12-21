@@ -1,0 +1,29 @@
+{
+  "id": "019b4024-9ded-74d0-8527-98f2912ce6f5",
+  "question": [
+    "In the reaction: $aMnO_4^- + bS_2O_3^{-2} + H_2O \\rightarrow xMnO_2 + ySO_4^{-2} + zOH^-$, values of a and y respectively are:"
+  ],
+  "choices": [
+    [
+      "3; 6"
+    ],
+    [
+      "8; 8"
+    ],
+    [
+      "8; 3"
+    ],
+    [
+      "8; 6"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Balanced equation in basic medium:",
+    "$8MnO_4^- + 3S_2O_3^{2-} + H_2O \\rightarrow 8MnO_2 + 6SO_4^{2-} + 2OH^-$",
+    "Comparing coefficients: $a = 8$ and $y = 6$."
+  ],
+  "years": [
+    2023
+  ]
+}

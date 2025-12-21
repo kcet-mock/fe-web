@@ -1,0 +1,31 @@
+{
+  "id": "019b4024-9deb-7dee-bfb3-cb71e0ecddde",
+  "question": [
+    "The rate constants $k_1$ and $k_2$ for two different reactions are $10^{16}\\times e^{-2000/T}$ and $10^{15}\\times e^{-1000/T}$ respectively. The temperature at which $k_1=k_2$ is:"
+  ],
+  "choices": [
+    [
+      "$\\frac{1000}{2.303}K$"
+    ],
+    [
+      "1000 K"
+    ],
+    [
+      "$\\frac{2000}{2.303}K$"
+    ],
+    [
+      "2000 K"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Set $k_1 = k_2$: $10^{16} e^{-2000/T} = 10^{15} e^{-1000/T}$.",
+    "Divide by $10^{15}$: $10 e^{-2000/T} = e^{-1000/T}$.",
+    "Take ln: $\\ln(10) - 2000/T = -1000/T$.",
+    "$2.303 - 2000/T = -1000/T \\rightarrow 2.303 = 1000/T$.",
+    "$T = 1000 / 2.303 K$."
+  ],
+  "years": [
+    2023
+  ]
+}

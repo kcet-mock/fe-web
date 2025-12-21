@@ -1,0 +1,30 @@
+{
+  "id": "019b4024-9dee-7495-9b31-8964ab884e79",
+  "question": [
+    "Identify A, B and C in the sequence:",
+    "$CH_3CH_2Br \\xrightarrow{KCN(alc)} A \\xrightarrow{LiAlH_4} B \\xrightarrow{HNO_2, 0^{\\circ}C} C$"
+  ],
+  "choices": [
+    [
+      "$CH_3CH_2CN, C_2H_5OH, C_2H_5N_2Cl$"
+    ],
+    [
+      "$CH_3CH_2CN, CH_3CH_2NH_2, C_2H_5OH$"
+    ],
+    [
+      "$CH_3CH_2CN, CH_3CH_2CH_2NH_2, CH_3CH_2CH_2OH$"
+    ],
+    [
+      "$CH_3CH_2NC, CH_3CH_2OH, CH_3CH_2CH_2NH_2$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "1. $CH_3CH_2Br + KCN \\rightarrow CH_3CH_2CN$ (Propanenitrile, A).",
+    "2. Reduction of A with $LiAlH_4 \\rightarrow CH_3CH_2CH_2NH_2$ (Propanamine, B).",
+    "3. Amine B + $HNO_2$ (Nitrous acid) $\\rightarrow CH_3CH_2CH_2OH$ (Propanol, C) + $N_2$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "019b4024-9deb-76cc-bbae-e5f8b57fcde3",
+  "question": [
+    "Match column A (type of crystalline solid) with column B (example):",
+    "P. Molecular Solid -> i. SiC",
+    "Q. Ionic Solid -> ii. Mg",
+    "R. Metallic Solid -> iii. H2O",
+    "S. Network Solid -> iv. MgO"
+  ],
+  "choices": [
+    [
+      "P-ii, Q-iv, R-iii, S-i"
+    ],
+    [
+      "P-iii, Q-iv, R-ii, S-i"
+    ],
+    [
+      "P-iii, Q-i, R-ii, S-iv"
+    ],
+    [
+      "P-iv, Q-iii, R-ii, S-i"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "P. Molecular Solid -> Ice/H2O (iii).",
+    "Q. Ionic Solid -> MgO (iv).",
+    "R. Metallic Solid -> Mg (ii).",
+    "S. Network Covalent -> SiC (i)."
+  ],
+  "years": [
+    2023
+  ]
+}

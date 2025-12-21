@@ -1,0 +1,35 @@
+{
+  "id": "019b4024-9dec-73cd-a164-acbd81b1ff0b",
+  "question": [
+    "Consider the following 4 electrodes:",
+    "A: $Ag^+(0.0001M)/Ag_{(s)}$",
+    "B: $Ag^+(0.1M)/Ag_{(s)}$",
+    "C: $Ag^+(0.01M)/Ag_{(s)}$",
+    "D: $Ag^+(0.001M)/Ag_{(s)}$",
+    "Given $E^0_{Ag^+/Ag} = +0.80V$. Then reduction potential in volts of the electrodes in the order:"
+  ],
+  "choices": [
+    [
+      "A > D > C > B"
+    ],
+    [
+      "A > B > C > D"
+    ],
+    [
+      "B > C > D > A"
+    ],
+    [
+      "C > D > A > B"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Nernst Equation: $E = E^0 - \\frac{0.059}{1} \\log \\frac{1}{[Ag^+]} = E^0 + 0.059 \\log [Ag^+]$.",
+    "Higher concentration $[Ag^+]$ means higher Reduction Potential (E).",
+    "Concentrations: B(0.1) > C(0.01) > D(0.001) > A(0.0001).",
+    "Therefore, Potential Order: B > C > D > A."
+  ],
+  "years": [
+    2023
+  ]
+}

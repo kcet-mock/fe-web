@@ -1,0 +1,28 @@
+{
+  "id": "019b4024-9dea-7082-a5e2-d606594b7f28",
+  "question": [
+    "Temperature of $25^{\\circ}C$ in Fahrenheit and Kelvin scale respectively are:"
+  ],
+  "choices": [
+    [
+      "$45^{\\circ}F$ and 260.15 K"
+    ],
+    [
+      "$47^{\\circ}F$ and 312.15 K"
+    ],
+    [
+      "$77^{\\circ}F$ and 298.15 K"
+    ],
+    [
+      "$17^{\\circ}F$ and 298.15 K"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Kelvin: $K = C + 273.15 = 25 + 273.15 = 298.15 K$.",
+    "Fahrenheit: $F = (C \\times 9/5) + 32 = (25 \\times 1.8) + 32 = 45 + 32 = 77^{\\circ}F$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "019b4024-9dee-7ea6-aedf-97e6cb4edeb2",
+  "question": [
+    "If a didentate ligand ethane-1,2-diamine (en) is progressively added to $[Ni(H_2O)_6]^{2+}$ solution, complexes form with colors: Pale blue ($[Ni(H_2O)_4en]^{2+}$), Blue/purple ($[Ni(H_2O)_2(en)_2]^{2+}$), Violet ($[Ni(en)_3]^{2+}$). The wavelength in nm of light absorbed in case of I (Pale blue) and III (Violet) are respectively:"
+  ],
+  "choices": [
+    [
+      "310nm and 500nm"
+    ],
+    [
+      "600nm and 535nm"
+    ],
+    [
+      "475 nm and 310nm"
+    ],
+    [
+      "300nm and 475 nm"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The ligand strength is $en > H_2O$. Replacing H2O with en increases crystal field splitting (Energy).",
+    "Energy $E \\propto 1/\\lambda$. Higher Energy absorbed means shorter Wavelength absorbed.",
+    "Complex III (strong field) absorbs higher energy (shorter wavelength) than Complex I (weak field).",
+    "So $\\lambda_{absorbed} (I) > \\lambda_{absorbed} (III)$.",
+    "Looking at options: (B) 600 > 535 fits this trend correctly. (Complementary colors: Absorbing Orange/Red (600) -> Blue appearance; Absorbing Green/Yellow (535) -> Violet appearance)."
+  ],
+  "years": [
+    2023
+  ]
+}

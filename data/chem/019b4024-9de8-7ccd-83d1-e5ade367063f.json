@@ -1,0 +1,28 @@
+{
+  "id": "019b4024-9de8-7ccd-83d1-e5ade367063f",
+  "question": [
+    "Sucrose is dextrorotatory but after hydrolysis the mixture shows laevorotation, this is because of:"
+  ],
+  "choices": [
+    [
+      "Recemic mixture is formed."
+    ],
+    [
+      "Laevorotation of fructose is more than dextrorotation of glucose."
+    ],
+    [
+      "Laevorotation of glucose is more than dextrorotation of fructose."
+    ],
+    [
+      "Sucrose is a non-reducing sugar"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Hydrolysis of sucrose yields D-Glucose (dextrorotatory, $+52.5^{\\circ}$) and D-Fructose (laevorotatory, $-92.4^{\\circ}$).",
+    "The magnitude of laevorotation of fructose is greater than the dextrorotation of glucose, resulting in a net laevorotation for the mixture (invert sugar)."
+  ],
+  "years": [
+    2023
+  ]
+}

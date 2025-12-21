@@ -1,0 +1,31 @@
+{
+  "id": "019b4024-9ded-7481-99a3-e5c6b7333c20",
+  "question": [
+    "Which of the following system in an octahedral complex has maximum unpaired electrons?"
+  ],
+  "choices": [
+    [
+      "$d^4$ (low spin)"
+    ],
+    [
+      "$d^7$ (high spin)"
+    ],
+    [
+      "$d^9$ (high spin)"
+    ],
+    [
+      "$d^6$ (low spin)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A. d4 low spin ($t_{2g}^4 e_g^0$) = 2 unpaired.",
+    "B. d7 high spin ($t_{2g}^5 e_g^2$) = 3 unpaired.",
+    "C. d9 ($t_{2g}^6 e_g^3$) = 1 unpaired.",
+    "D. d6 low spin ($t_{2g}^6 e_g^0$) = 0 unpaired.",
+    "Maximum is in B (3 unpaired)."
+  ],
+  "years": [
+    2023
+  ]
+}

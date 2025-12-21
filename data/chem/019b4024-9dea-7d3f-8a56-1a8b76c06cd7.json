@@ -1,0 +1,28 @@
+{
+  "id": "019b4024-9dea-7d3f-8a56-1a8b76c06cd7",
+  "question": [
+    "IUPAC name of the compound (Structure corresponding to Answer C) is:"
+  ],
+  "choices": [
+    [
+      "1, 1, 2, 2- tetra methylethene"
+    ],
+    [
+      "2,3-dimethyl butene"
+    ],
+    [
+      "2,3-dimethylbut-2-ene"
+    ],
+    [
+      "2,3-dimethyl butyne"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The compound $CH_3-C(CH_3)=C(CH_3)-CH_3$ corresponds to the name 2,3-dimethylbut-2-ene.",
+    "The double bond starts at carbon 2, and there are methyl groups at carbons 2 and 3."
+  ],
+  "years": [
+    2023
+  ]
+}
