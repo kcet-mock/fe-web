@@ -1,0 +1,28 @@
+{
+  "id": "019b4043-439d-7926-9495-2ab83cad8680",
+  "question": [
+    "The male sex accessory ducts include,"
+  ],
+  "choices": [
+    [
+      "Rete testis, vasa efferentia, seminal vesicle and vas deferens"
+    ],
+    [
+      "Rete testis, vasa efferentia, epididymis and seminal vesicle"
+    ],
+    [
+      "Rete testis, vasa efferentia, epididymis and vas deferens"
+    ],
+    [
+      "Rete testis, urethra, epididymis and vas deferens"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The male accessory ducts are Rete testis, Vasa efferentia, Epididymis, and Vas deferens.",
+    "Seminal vesicles are accessory glands, not ducts (though they have ducts, the list usually distinguishes them)."
+  ],
+  "years": [
+    2023
+  ]
+}

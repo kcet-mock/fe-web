@@ -1,0 +1,27 @@
+{
+  "id": "019b4043-4399-78a6-a638-6b163ab8234d",
+  "question": [
+    "The toxic heavy metals from various industries which cause water pollution, normally have a density"
+  ],
+  "choices": [
+    [
+      "more than $7.5~g/cm^{3}$"
+    ],
+    [
+      "more than $5~g/cm^{3}$"
+    ],
+    [
+      "more than $12.5~g/cm^{3}$"
+    ],
+    [
+      "more than $15~g/cm^{3}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Heavy metals are defined as elements with a density greater than $5 g/cm^3$ (e.g., mercury, cadmium, copper, lead)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b4043-4398-7943-8d71-af4fd536d41d",
+  "question": [
+    "Identify from the following a pair of better yielding semi dwarf varieties of rice developed in India."
+  ],
+  "choices": [
+    [
+      "Jaya and Kalyan Sona"
+    ],
+    [
+      "Jaya and Ratna"
+    ],
+    [
+      "Kalyan Sona and Sonalika"
+    ],
+    [
+      "Sonalika amd Ratna"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Jaya and Ratna are semi-dwarf varieties of rice developed in India.",
+    "Kalyan Sona and Sonalika are semi-dwarf varieties of wheat."
+  ],
+  "years": [
+    2023
+  ]
+}

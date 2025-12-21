@@ -1,0 +1,34 @@
+{
+  "id": "019b4043-439a-7c78-99f1-ce3a957180ee",
+  "question": [
+    "Match the following columns and choose the correct option:",
+    "1. Haemophilus influenzae -> r. Pneumonia",
+    "2. Entamoeba histolytica -> s. Amoebiasis",
+    "3. Plasmodium falciparum -> p. Malignant malaria",
+    "4. Wuchereria bancrofti -> q. Elephantiasis"
+  ],
+  "choices": [
+    [
+      "s p q r"
+    ],
+    [
+      "q r s p"
+    ],
+    [
+      "r p q s"
+    ],
+    [
+      "r s p q"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Haemophilus influenzae causes Pneumonia (r).",
+    "Entamoeba histolytica causes Amoebiasis (s).",
+    "Plasmodium falciparum causes Malignant malaria (p).",
+    "Wuchereria bancrofti causes Elephantiasis (q)."
+  ],
+  "years": [
+    2023
+  ]
+}

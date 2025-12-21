@@ -1,0 +1,28 @@
+{
+  "id": "019b4043-4399-7ea1-9871-a3d357b4d057",
+  "question": [
+    "Four students were assigned a science project to find out the pollution levels of lakes in their surrounding. After analysing the quality of water samples, the BOD values were found as follows: Which among the following water samples is highly polluted?"
+  ],
+  "choices": [
+    [
+      "$6~mg/L$"
+    ],
+    [
+      "$0.6~mg/L$"
+    ],
+    [
+      "$0.16~mg/L$"
+    ],
+    [
+      "$0.06~mg/L$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "BOD (Biochemical Oxygen Demand) measures the amount of oxygen required by bacteria to decompose organic matter.",
+    "Higher BOD indicates higher pollution. Among the choices, 6 mg/L is the highest value."
+  ],
+  "years": [
+    2023
+  ]
+}

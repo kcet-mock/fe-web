@@ -1,0 +1,29 @@
+{
+  "id": "019b4043-439a-7463-af8d-f90d772a26c4",
+  "question": [
+    "Find out the correct match.",
+    "Disease - Pathogen - Main organ affected"
+  ],
+  "choices": [
+    [
+      "Filariasis - Common round worm - Smallintestine"
+    ],
+    [
+      "Ringworm - Fungus - Skin"
+    ],
+    [
+      "Dysentery - Protozoa - Liver"
+    ],
+    [
+      "Typhoid - Bacteria - Lungs"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Ringworm is caused by fungi (Microsporum, Trichophyton) and affects the skin.",
+    "Filariasis is Wuchereria (Lymph), Dysentery (Amoebic) affects intestine, Typhoid affects intestine."
+  ],
+  "years": [
+    2023
+  ]
+}

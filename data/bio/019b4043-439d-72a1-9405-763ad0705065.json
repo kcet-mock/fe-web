@@ -1,0 +1,31 @@
+{
+  "id": "019b4043-439d-72a1-9405-763ad0705065",
+  "question": [
+    "With reference to human sperm, match the List - I with List - II.",
+    "1. Head -> s. Contains haploid nucleus",
+    "2. Acrosome -> p. Filled with enzyme",
+    "3. Middle piece -> q. Contains mitochondria",
+    "4. Tail -> r. Sperm motility"
+  ],
+  "choices": [
+    [
+      "1-q, 2-s, 3-r, 4-p"
+    ],
+    [
+      "1-s, 2-p, 3-q, 4-r"
+    ],
+    [
+      "1-r, 2-q, 3-s, 4-p"
+    ],
+    [
+      "1-s, 2-r, 3-p, 4-q"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Head contains the nucleus (s). Acrosome contains enzymes (p). Middle piece contains mitochondria (q). Tail provides motility (r)."
+  ],
+  "years": [
+    2023
+  ]
+}

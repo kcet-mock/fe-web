@@ -1,0 +1,27 @@
+{
+  "id": "019b4043-439c-76c3-8350-0fad088dbdf1",
+  "question": [
+    "Atrial Natriuretic Factor (ANF) acts as a"
+  ],
+  "choices": [
+    [
+      "Vasoconstricter"
+    ],
+    [
+      "Check on Renin-Angiotension mechanism"
+    ],
+    [
+      "Hypertension inducer"
+    ],
+    [
+      "Promoter on Renin-Angiotensiion mechanism"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "ANF is released by the heart atria in response to high blood pressure. It causes vasodilation and checks (inhibits) the Renin-Angiotensin mechanism to lower blood pressure."
+  ],
+  "years": [
+    2023
+  ]
+}

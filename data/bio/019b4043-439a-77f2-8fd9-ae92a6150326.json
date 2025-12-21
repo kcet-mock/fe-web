@@ -1,0 +1,27 @@
+{
+  "id": "019b4043-439a-77f2-8fd9-ae92a6150326",
+  "question": [
+    "Flame cells present in the members of platyhelminthes are specialized to perform,"
+  ],
+  "choices": [
+    [
+      "Respiration and Excretion"
+    ],
+    [
+      "Osmoregulation and Circulation"
+    ],
+    [
+      "Respiration and Osmoregulation"
+    ],
+    [
+      "Osmoregulation and Excretion"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Flame cells (protonephridia) in flatworms (Platyhelminthes) are primarily for osmoregulation and excretion."
+  ],
+  "years": [
+    2023
+  ]
+}

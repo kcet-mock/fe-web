@@ -1,0 +1,27 @@
+{
+  "id": "019b4043-4398-7bbc-93fa-b1fc4eea2455",
+  "question": [
+    "Roquefort cheese is ripened by"
+  ],
+  "choices": [
+    [
+      "Virus"
+    ],
+    [
+      "Bacterium"
+    ],
+    [
+      "Yeast"
+    ],
+    [
+      "Fungi"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Roquefort cheese is ripened by growing a specific fungus, *Penicillium roqueforti*, on them, which gives them a particular flavour."
+  ],
+  "years": [
+    2023
+  ]
+}

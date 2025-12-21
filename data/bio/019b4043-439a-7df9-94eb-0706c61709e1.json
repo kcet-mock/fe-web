@@ -1,0 +1,31 @@
+{
+  "id": "019b4043-439a-7df9-94eb-0706c61709e1",
+  "question": [
+    "A flower has 10 stamens each having bilobed dithecous anther. If each microsporangium has 5 pollen mother cells, how many pollen grains would be produced by the flower?"
+  ],
+  "choices": [
+    [
+      "800"
+    ],
+    [
+      "200"
+    ],
+    [
+      "1600"
+    ],
+    [
+      "400"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "1 bilobed anther = 4 microsporangia.",
+    "10 stamens = $10 \\times 4 = 40$ microsporangia.",
+    "Total PMCs = $40 \\times 5 = 200$.",
+    "Each PMC produces 4 pollen grains (tetrad).",
+    "Total pollen grains = $200 \\times 4 = 800$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b4043-439a-7660-ba37-4256b0a0ab9a",
+  "question": [
+    "Identify the incorrect statement regarding the flow of energy between various components of the food chain."
+  ],
+  "choices": [
+    [
+      "Green plants capture about 10% of the solar energy that falls on leaves."
+    ],
+    [
+      "The amount of energy available at each trophic level is 10% of previous trophic level."
+    ],
+    [
+      "Each trophic level loses some energy as heat to the environment."
+    ],
+    [
+      "Energy flow is unidirectional."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Green plants capture only about 1-5% of the incident solar radiation (or 2-10% of PAR). 10% is not the capture rate, but the transfer rate between trophic levels."
+  ],
+  "years": [
+    2023
+  ]
+}
