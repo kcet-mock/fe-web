@@ -1,0 +1,31 @@
+{
+  "id": "9ea4a919-d756-4abb-b27d-9d81f8f9b422",
+  "question": [
+    "Which of the following are the techniques for detection of cancer of internal organs?",
+    "(a) Radiography, MRI",
+    "(b) MRI, computed tomography",
+    "(c) Widal test, radiography",
+    "(d) MRI, widal test"
+  ],
+  "choices": [
+    [
+      "a and c"
+    ],
+    [
+      "b and c"
+    ],
+    [
+      "b and d"
+    ],
+    [
+      "a and b"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Cancer of internal organs is detected using Radiography (X-rays), CT (Computed Tomography), and MRI (Magnetic Resonance Imaging). Widal test is for Typhoid. Therefore, combinations a and b are correct."
+  ],
+  "years": [
+    2025
+  ]
+}

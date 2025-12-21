@@ -1,0 +1,28 @@
+{
+  "id": "6264542d-08dd-4971-9ff4-963fabb14703",
+  "question": [
+    "The graph showing the concept of activation energy of enzyme is given below. Observe the graph and choose the correct option for M and N.",
+    "images/v3x1z0y8-7a6b-3c2x-8z4y-0x1y2z3a4b5c.png"
+  ],
+  "choices": [
+    [
+      "M-Activation energy with enzyme, N-Activation energy without enzyme"
+    ],
+    [
+      "M-High temperature, High activation energy, N-Low temperature, Low activation energy"
+    ],
+    [
+      "M-High substrate, High activation energy, N-Low substrate, Low activation energy"
+    ],
+    [
+      "M-Activation energy without enzyme, N-Activation energy with enzyme"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In the energy graph, the higher peak (M) represents the activation energy required *without* the enzyme. The lower peak (N) represents the reduced activation energy *with* the enzyme."
+  ],
+  "years": [
+    2025
+  ]
+}

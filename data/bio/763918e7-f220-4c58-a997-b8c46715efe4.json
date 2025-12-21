@@ -1,0 +1,27 @@
+{
+  "id": "763918e7-f220-4c58-a997-b8c46715efe4",
+  "question": [
+    "In mature insulin, which of the peptide is not present?"
+  ],
+  "choices": [
+    [
+      "B-peptide"
+    ],
+    [
+      "C-peptide"
+    ],
+    [
+      "A and B peptides"
+    ],
+    [
+      "A-peptide"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Pro-insulin contains A, B, and C peptides. During maturation, the C-peptide is removed. Mature insulin consists only of A and B chains linked by disulfide bridges."
+  ],
+  "years": [
+    2025
+  ]
+}

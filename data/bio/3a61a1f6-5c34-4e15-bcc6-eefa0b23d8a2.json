@@ -1,0 +1,27 @@
+{
+  "id": "3a61a1f6-5c34-4e15-bcc6-eefa0b23d8a2",
+  "question": [
+    "The part of plasmid that codes for proteins involved in the replication of the PBR322 plasmid is"
+  ],
+  "choices": [
+    [
+      "Selectable marker"
+    ],
+    [
+      "'rop'"
+    ],
+    [
+      "Cloning site"
+    ],
+    [
+      "Ori site"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The 'rop' gene codes for the proteins involved in the replication of the plasmid. 'Ori' is the origin of replication sequence, but 'rop' codes for the *proteins*."
+  ],
+  "years": [
+    2025
+  ]
+}

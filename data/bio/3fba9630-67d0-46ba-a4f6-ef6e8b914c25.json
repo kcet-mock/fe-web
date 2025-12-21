@@ -1,0 +1,27 @@
+{
+  "id": "3fba9630-67d0-46ba-a4f6-ef6e8b914c25",
+  "question": [
+    "The TCA cycle starts with the condensation of acetyl group with"
+  ],
+  "choices": [
+    [
+      "Citric acid"
+    ],
+    [
+      "alpha-Ketoglutaric acid"
+    ],
+    [
+      "Succinic acid"
+    ],
+    [
+      "Oxaloacetic acid"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The TCA (Krebs) cycle starts with the condensation of the Acetyl group (from Acetyl CoA) with Oxaloacetic acid (OAA) and water to yield Citric acid."
+  ],
+  "years": [
+    2025
+  ]
+}

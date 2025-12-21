@@ -1,0 +1,29 @@
+{
+  "id": "22c48d5b-74d4-4301-94a6-9e57d2d673c7",
+  "question": [
+    "Match the hormone with its site of production:",
+    "**Hormone**\na. hCG and hPL\nb. Progesterone\nc. Androgens\nd. Relaxin",
+    "**Site of production**\ni. Ovary\nii. Placenta\niii. Corpus luteum\niv. Leydig cells"
+  ],
+  "choices": [
+    [
+      "a-iii, b-i, c-iv, d-ii"
+    ],
+    [
+      "a-iv, b-i, c-ii, d-iii"
+    ],
+    [
+      "a-i, b-ii, c-iv, d-iii"
+    ],
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Correct match:\n- hCG and hPL are produced by the Placenta (ii).\n- Progesterone is produced by the Corpus luteum (iii) (and later placenta).\n- Androgens are produced by Leydig cells (iv).\n- Relaxin is produced by the Ovary (i).\nTherefore, the sequence is a-ii, b-iii, c-iv, d-i."
+  ],
+  "years": [
+    2025
+  ]
+}

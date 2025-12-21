@@ -1,0 +1,32 @@
+{
+  "id": "04316c13-f42d-4aac-9a29-b59d7f041edf",
+  "question": [
+    "Identify which one of the given pair of options is correct with respect to Down's syndrome and Turner's syndrome.",
+    "**Table:**",
+    "(a) Gynaecomastia in man | Short-statured individual",
+    "(b) Round head, partially open mouth | Overall masculine development",
+    "(c) Sterile females with rudimentary ovaries | Broad palm, physical and mental development retarded",
+    "(d) Additional copy of an X-chromosome | Absence of an X-chromosome"
+  ],
+  "choices": [
+    [
+      "Row b"
+    ],
+    [
+      "Row d"
+    ],
+    [
+      "Row c"
+    ],
+    [
+      "Row a"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "This question requires identifying the correct set of symptoms or features. Although the table columns might appear swapped in the source text for option (c), 'Sterile females with rudimentary ovaries' is a feature of Turner's syndrome and 'Broad palm' is a feature of Down's syndrome. The answer key indicates this option."
+  ],
+  "years": [
+    2025
+  ]
+}

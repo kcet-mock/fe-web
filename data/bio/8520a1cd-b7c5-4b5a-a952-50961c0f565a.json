@@ -1,0 +1,27 @@
+{
+  "id": "8520a1cd-b7c5-4b5a-a952-50961c0f565a",
+  "question": [
+    "Malignant malaria is caused by"
+  ],
+  "choices": [
+    [
+      "Plasmodium vivax"
+    ],
+    [
+      "Plasmodium falciparum"
+    ],
+    [
+      "Plasmodium rubrum"
+    ],
+    [
+      "Plasmodium malariae"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Malignant malaria, the most serious and fatal form, is caused by *Plasmodium falciparum*."
+  ],
+  "years": [
+    2025
+  ]
+}

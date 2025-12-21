@@ -1,0 +1,32 @@
+{
+  "id": "3b4500af-b22b-49ab-aaa1-4589fc60af9f",
+  "question": [
+    "Which of the following statements are correct with reference to prokaryotic genome?",
+    "(a) Monocistronic structural genes",
+    "(b) Introns absent in structural genes",
+    "(c) Transcription and translation are coupled processes",
+    "(d) Primary transcript undergoes splicing",
+    "(e) Only one RNA polymerase is present"
+  ],
+  "choices": [
+    [
+      "Only b, c and e are correct"
+    ],
+    [
+      "Only a, d and e are correct"
+    ],
+    [
+      "Only a, b and c are correct"
+    ],
+    [
+      "Only a, b and d are correct"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Prokaryotes have Polycistronic genes (not Monocistronic). They lack introns (split genes absent). Transcription and translation are coupled. They have a single RNA polymerase. Splicing is not required. Thus, correct statements are b, c, and e."
+  ],
+  "years": [
+    2025
+  ]
+}

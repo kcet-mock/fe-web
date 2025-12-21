@@ -1,0 +1,27 @@
+{
+  "id": "8beda556-2f98-4dbc-b94b-336744c75106",
+  "question": [
+    "Which among the three layers of blood vessel wall - Tunica intima, Tunica media and Tunica Externa is comparatively thin in the veins?"
+  ],
+  "choices": [
+    [
+      "Tunica intima"
+    ],
+    [
+      "Tunica externa"
+    ],
+    [
+      "Both tunica media and tunica externa"
+    ],
+    [
+      "Tunica media"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The Tunica media (middle layer of smooth muscle and elastic fibres) is comparatively thin in veins compared to arteries."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "f2297aba-3419-4282-9995-93ede0e5524c",
+  "question": [
+    "Match the contents of List-I with List-II",
+    "**List-I**\n(a) Bioreactors\n(b) Downstream processing\n(c) Recombinant protein\n(d) PCR",
+    "**List-II**\ni. Insulin produced by rDNA technology\nii. Vessels which convert raw material into specific product\niii. Detect mutated genes in suspected cancer patient\niv. Involves separation and purification"
+  ],
+  "choices": [
+    [
+      "a-iv, b-ii, c-iii, d-i"
+    ],
+    [
+      "a-i, b-ii, c-iv, d-iii"
+    ],
+    [
+      "a-ii, b-i, c-iii, d-iv"
+    ],
+    [
+      "a-ii, b-iv, c-i, d-iii"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Bioreactors (ii) are vessels for conversion. Downstream processing (iv) involves separation/purification. Recombinant protein (i) is Insulin (example). PCR (iii) detects mutated genes. Correct: a-ii, b-iv, c-i, d-iii."
+  ],
+  "years": [
+    2025
+  ]
+}

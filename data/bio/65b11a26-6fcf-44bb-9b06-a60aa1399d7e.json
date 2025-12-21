@@ -1,0 +1,31 @@
+{
+  "id": "65b11a26-6fcf-44bb-9b06-a60aa1399d7e",
+  "question": [
+    "Select the mismatched pair:",
+    "1. First month of pregnancy - Formation of heart",
+    "2. Second month of pregnancy - Movement of foetus",
+    "3. Third month of pregnancy - Formation of most of the major organ systems",
+    "4. Six month of pregnancy - Eye lids separate and eye lashes are found"
+  ],
+  "choices": [
+    [
+      "Statement 2"
+    ],
+    [
+      "Statement 3"
+    ],
+    [
+      "Statement 4"
+    ],
+    [
+      "Statement 1"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The mismatched pair is Statement 2. The first movements of the foetus and appearance of hair on the head are usually observed during the fifth month. By the end of the second month, the foetus develops limbs and digits, not movement."
+  ],
+  "years": [
+    2025
+  ]
+}

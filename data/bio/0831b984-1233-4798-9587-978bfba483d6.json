@@ -1,0 +1,31 @@
+{
+  "id": "0831b984-1233-4798-9587-978bfba483d6",
+  "question": [
+    "A scientist wants to produce virus-free plant in tissue culture. Which part of the plant will he use as an explant?",
+    "(a) Mature stem",
+    "(b) Axillary meristem",
+    "(c) Apical meristem",
+    "(d) Mesophyll cells"
+  ],
+  "choices": [
+    [
+      "b and c"
+    ],
+    [
+      "b only"
+    ],
+    [
+      "c and d"
+    ],
+    [
+      "a only"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The meristems (apical and axillary) are free of virus even in infected plants because the cells divide faster than the virus spreads. Therefore, meristems are used to recover virus-free plants."
+  ],
+  "years": [
+    2025
+  ]
+}

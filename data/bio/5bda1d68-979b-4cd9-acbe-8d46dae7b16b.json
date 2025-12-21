@@ -1,0 +1,27 @@
+{
+  "id": "5bda1d68-979b-4cd9-acbe-8d46dae7b16b",
+  "question": [
+    "How many types of gametes will be formed by a parent with genotype 'AaBbCc'?"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "8"
+    ],
+    [
+      "12"
+    ],
+    [
+      "6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The number of types of gametes is given by the formula <katex>$2^n$</katex>, where <katex>$n$</katex> is the number of heterozygous loci. Here, AaBbCc has 3 heterozygous loci (<katex>$n=3$</katex>). So, <katex>$2^3 = 8$</katex> types of gametes."
+  ],
+  "years": [
+    2025
+  ]
+}

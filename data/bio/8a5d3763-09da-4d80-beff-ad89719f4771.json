@@ -1,0 +1,32 @@
+{
+  "id": "8a5d3763-09da-4d80-beff-ad89719f4771",
+  "question": [
+    "Choose the correct statements from the following:",
+    "(a) Charles Darwin travelled around the world in a ship called HMS Beagle",
+    "(b) There has been gradual evolution of life forms",
+    "(c) According to Darwin, fitness refers to physical fitness only",
+    "(d) Fossils are remains of hard parts of life forms found in rocks",
+    "(e) Hugo De Vries, a naturalist worked in Malay Archipelago."
+  ],
+  "choices": [
+    [
+      "a, c and e are correct"
+    ],
+    [
+      "a, b and d are correct"
+    ],
+    [
+      "a, c and d are correct"
+    ],
+    [
+      "a, b and e are correct"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement (c) is incorrect because Darwinian fitness refers to reproductive fitness, not just physical. Statement (e) is incorrect because Alfred Wallace worked in the Malay Archipelago, while Hugo de Vries worked on Evening Primrose. Statements a, b, and d are correct."
+  ],
+  "years": [
+    2025
+  ]
+}

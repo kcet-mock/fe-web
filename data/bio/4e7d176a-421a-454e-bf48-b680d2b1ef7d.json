@@ -1,0 +1,27 @@
+{
+  "id": "4e7d176a-421a-454e-bf48-b680d2b1ef7d",
+  "question": [
+    "During a field trip, a student observed a marine organism with worm-like body. The cylindrical body was divisible into proboscis, collar and a long trunk. The organism may be"
+  ],
+  "choices": [
+    [
+      "Ophiura"
+    ],
+    [
+      "Pterophyllum"
+    ],
+    [
+      "Trygon"
+    ],
+    [
+      "Balanoglossus"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "*Balanoglossus* is a Hemichordate characterized by a worm-like cylindrical body divided into an anterior proboscis, a collar, and a long trunk."
+  ],
+  "years": [
+    2025
+  ]
+}
