@@ -41,13 +41,13 @@ export async function getStaticProps({ params }) {
 
   let allIds = [];
   try {
-    const { ALL_QUESTION_IDS } = await import(`../../data/${subject}/_all.js`);
-    allIds = ALL_QUESTION_IDS;
+    const { QUESTION_IDS } = await import(`../../data/${subject}/_all.js`);
+    allIds = QUESTION_IDS;
   } catch (error) {
     console.error(`Failed to load questions for subject: ${subject}`, error);
     // Fallback to biology if subject data not found
-    const { ALL_QUESTION_IDS } = await import('../../data/bio/_all.js');
-    allIds = ALL_QUESTION_IDS;
+    const { QUESTION_IDS } = await import('../../data/bio/_all.js');
+    allIds = QUESTION_IDS;
   }
 
   const questionsDir = path.join(process.cwd(), 'data', subject);

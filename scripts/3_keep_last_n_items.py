@@ -34,7 +34,7 @@ def keep_last_n_items(file_path, n):
         print(f"Keeping last {n} items")
     
     # Build the new content
-    new_content = "export const ALL_QUESTION_IDS = [\n"
+    new_content = "export const QUESTION_IDS = [\n"
     for question_id in last_n_ids:
         new_content += f"  '{question_id}',\n"
     new_content += "];\n"

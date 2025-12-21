@@ -1,4 +1,4 @@
-export const ALL_QUESTION_IDS = [
+export const QUESTION_IDS = [
   '019b39a5-c7ce-70e8-b699-6d04c131e6f4',
   '019b39a5-c7ce-776b-97ad-b88849074c42',
   '019b39a5-c7ce-7ae9-b44e-b138ff94bd0e',

@@ -131,13 +131,13 @@ export async function getStaticProps({ params }) {
   // Load all IDs for the subject (used for random mode)
   let allIds = [];
   try {
-    const { ALL_QUESTION_IDS } = await import(`../../data/${subject}/_all.js`);
-    allIds = ALL_QUESTION_IDS;
+    const { QUESTION_IDS } = await import(`../../data/${subject}/_all.js`);
+    allIds = QUESTION_IDS;
   } catch (error) {
     console.error(`Failed to load questions for subject: ${subject}`, error);
     // Fallback to biology if subject data not found
-    const { ALL_QUESTION_IDS } = await import('../../data/bio/_all.js');
-    allIds = ALL_QUESTION_IDS;
+    const { QUESTION_IDS } = await import('../../data/bio/_all.js');
+    allIds = QUESTION_IDS;
   }
 
   const questionsDir = path.join(process.cwd(), 'data', subject);
@@ -159,8 +159,8 @@ export async function getStaticProps({ params }) {
   for (const year of yearsToTry) {
     try {
       const module = await import(`../../data/${subject}/_${year}.js`);
-      if (module.ALL_QUESTION_IDS && Array.isArray(module.ALL_QUESTION_IDS)) {
-        yearIdsMap[year] = module.ALL_QUESTION_IDS;
+      if (module.QUESTION_IDS && Array.isArray(module.QUESTION_IDS)) {
+        yearIdsMap[year] = module.QUESTION_IDS;
       }
     } catch (error) {
       // Year file doesn't exist, skip it
@@ -299,15 +299,16 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
   const QUESTIONS = selectedQuestions;
   
   const yearDisplay = year && year !== 'random' ? ` ${year}` : '';
-  const testTypeLabel = year && year !== 'random' ? 'Previous Year Paper' : 'Mock Test';
+  const testTypeLabel = year && year !== 'random' ? `${subjectLabel} ${year} year paper` : 'Mock Test';
+  const pageTitle = year && year !== 'random' ? `${subjectLabel} ${year} year paper` : `KCET mock test · ${subjectLabel}`;
 
   return (
     <main className="main-layout main-layout--top">
       <section>
         <header className="card-header">
           <div>
-            <div className="badge">{testTypeLabel} · {subjectLabel}{yearDisplay}</div>
-            <h1 className="title">KCET {testTypeLabel.toLowerCase()} · {subjectLabel}</h1>
+            <div className="badge">{year && year !== 'random' ? `${year} Paper` : 'Mock Test'} · {subjectLabel}</div>
+            <h1 className="title">{pageTitle}</h1>
             <p className="subtitle">
               {year && year !== 'random' 
                 ? `Practicing ${QUESTIONS.length} questions from KCET ${year}. Timer is always visible.`

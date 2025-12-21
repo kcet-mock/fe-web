@@ -184,7 +184,7 @@ def write_all_js(path: Path, new_ids: List[str]) -> None:
             all_ids.append(qid)
     
     # Format as JavaScript module
-    content = "export const ALL_QUESTION_IDS = [\n"
+    content = "export const QUESTION_IDS = [\n"
     for qid in all_ids:
         content += f"  '{qid}',\n"
     content += "];\n"
