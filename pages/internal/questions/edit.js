@@ -29,6 +29,7 @@ export async function getStaticProps() {
 export default function InternalQuestionEditPage() {
   const router = useRouter();
   const id = typeof router.query.id === 'string' ? router.query.id : '';
+  const subject = typeof router.query.subject === 'string' ? router.query.subject : '';
   const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
 
   const [dragState, setDragState] = useState(null);
@@ -50,7 +51,7 @@ export default function InternalQuestionEditPage() {
   const [answer, setAnswer] = useState('1');
 
   useEffect(() => {
-    if (!id) return;
+    if (!router.isReady || !id || !subject) return;
     let cancelled = false;
     setLoading(true);
     setError('');
@@ -58,7 +59,8 @@ export default function InternalQuestionEditPage() {
 
     (async () => {
       try {
-        const res = await fetch(`/api/internal/questions/${encodeURIComponent(id)}`);
+        const subjectParam = subject ? `?subject=${subject}` : '';
+        const res = await fetch(`/api/internal/questions/${encodeURIComponent(id)}${subjectParam}`);
         if (!res.ok) throw new Error('Failed');
         const json = await res.json();
         const q = json.question;
@@ -82,7 +84,7 @@ export default function InternalQuestionEditPage() {
     return () => {
       cancelled = true;
     };
-  }, [id]);
+  }, [id, subject, router.isReady]);
 
   const payload = useMemo(() => {
     return {
@@ -389,11 +391,12 @@ export default function InternalQuestionEditPage() {
     setSaved(false);
 
     try {
-      const res = await fetch(`/api/internal/questions/${encodeURIComponent(id)}`,
+      const subjectParam = subject ? `?subject=${subject}` : '';
+      const res = await fetch(`/api/internal/questions/${encodeURIComponent(id)}${subjectParam}`,
         {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
+          body: JSON.stringify({ ...payload, subject }),
         }
       );
       if (!res.ok) {
@@ -401,7 +404,7 @@ export default function InternalQuestionEditPage() {
         throw new Error(json.error || 'Save failed');
       }
       setSaved(true);
-      router.push(`/internal/questions/view?id=${encodeURIComponent(id)}`);
+      router.push(`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`);
     } catch (e) {
       setError(e?.message || 'Save failed');
     } finally {

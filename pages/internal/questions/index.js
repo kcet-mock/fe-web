@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 export async function getStaticProps() {
@@ -8,11 +9,43 @@ export async function getStaticProps() {
 }
 
 export default function InternalQuestionsListPage() {
-  const [subject, setSubject] = useState('bio');
+  const router = useRouter();
+  const [subject, setSubject] = useState('phy');
   const [year, setYear] = useState('all');
   const [questions, setQuestions] = useState([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
+  // Initialize from URL params
+  useEffect(() => {
+    if (!router.isReady) return;
+    const { sub, year: yearParam } = router.query;
+    if (sub && ['phy', 'chem', 'mat', 'bio'].includes(sub)) {
+      setSubject(sub);
+    }
+    if (yearParam && ['all', '2025', '2024', '2023'].includes(yearParam)) {
+      setYear(yearParam);
+    }
+  }, [router.isReady, router.query]);
+
+  // Update URL when filters change
+  const updateURL = (newSubject, newYear) => {
+    const query = { sub: newSubject };
+    if (newYear !== 'all') {
+      query.year = newYear;
+    }
+    router.push({ pathname: router.pathname, query }, undefined, { shallow: true });
+  };
+
+  const handleSubjectChange = (newSubject) => {
+    setSubject(newSubject);
+    updateURL(newSubject, year);
+  };
+
+  const handleYearChange = (newYear) => {
+    setYear(newYear);
+    updateURL(subject, newYear);
+  };
 
   useEffect(() => {
     if (!subject) return;
@@ -61,50 +94,30 @@ export default function InternalQuestionsListPage() {
         <div className="test-layout">
           <div className="test-questions">
             <div style={{ marginBottom: '1rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <div>
-                <label htmlFor="subject-select" className="page-section-subtitle" style={{ display: 'block', marginBottom: '0.5rem' }}>
-                  Select Subject
-                </label>
+              <div className="filter-group">
+                <div className="filter-label">Subject</div>
                 <select
-                  id="subject-select"
+                  className="select"
                   value={subject}
-                  onChange={(e) => setSubject(e.target.value)}
-                  style={{ 
-                    padding: '0.5rem 1rem', 
-                    fontSize: '1rem',
-                    backgroundColor: '#f0f0f0',
-                    border: '1px solid #ddd',
-                    borderRadius: '4px',
-                    cursor: 'pointer'
-                  }}
+                  onChange={(e) => handleSubjectChange(e.target.value)}
                 >
-                  <option value="bio">Biology</option>
                   <option value="phy">Physics</option>
                   <option value="chem">Chemistry</option>
                   <option value="mat">Mathematics</option>
+                  <option value="bio">Biology</option>
                 </select>
               </div>
-              <div>
-                <label htmlFor="year-select" className="page-section-subtitle" style={{ display: 'block', marginBottom: '0.5rem' }}>
-                  Select Year
-                </label>
+              <div className="filter-group">
+                <div className="filter-label">Year</div>
                 <select
-                  id="year-select"
+                  className="select"
                   value={year}
-                  onChange={(e) => setYear(e.target.value)}
-                  style={{ 
-                    padding: '0.5rem 1rem', 
-                    fontSize: '1rem',
-                    backgroundColor: '#f0f0f0',
-                    border: '1px solid #ddd',
-                    borderRadius: '4px',
-                    cursor: 'pointer'
-                  }}
+                  onChange={(e) => handleYearChange(e.target.value)}
                 >
                   <option value="all">All Years</option>
-                  <option value="2023">2023</option>
-                  <option value="2024">2024</option>
                   <option value="2025">2025</option>
+                  <option value="2024">2024</option>
+                  <option value="2023">2023</option>
                 </select>
               </div>
             </div>
@@ -133,6 +146,7 @@ export default function InternalQuestionsListPage() {
                 <div className="questions-stack">
                   {questions.map((q) => {
                     const id = q?.id;
+                    const questionSubject = q?.subject || subject;
                     const basePathPrefix = typeof window !== 'undefined' && window.__NEXT_DATA__?.assetPrefix
                       ? String(window.__NEXT_DATA__.assetPrefix)
                       : '/';
@@ -220,7 +234,7 @@ export default function InternalQuestionsListPage() {
 
                         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                           <Link
-                            href={`/internal/questions/edit?id=${encodeURIComponent(id)}`}
+                            href={`/internal/questions/edit?subject=${questionSubject}&id=${encodeURIComponent(id)}`}
                             className=""
                             aria-label={`Edit ${id}`}
                             title="Edit"

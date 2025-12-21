@@ -23,17 +23,19 @@ function imageTokenToSrc(token, basePathPrefix) {
 export default function InternalQuestionViewPage() {
   const router = useRouter();
   const id = typeof router.query.id === 'string' ? router.query.id : '';
+  const subject = typeof router.query.subject === 'string' ? router.query.subject : '';
   const basePathPrefix = router.basePath ? `${router.basePath}/` : '/';
 
   const [question, setQuestion] = useState(null);
   const [error, setError] = useState('');
 
   useEffect(() => {
-    if (!id) return;
+    if (!router.isReady || !id || !subject) return;
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(`/api/internal/questions/${encodeURIComponent(id)}`);
+        const subjectParam = subject ? `?subject=${subject}` : '';
+        const res = await fetch(`/api/internal/questions/${encodeURIComponent(id)}${subjectParam}`);
         if (!res.ok) throw new Error('Failed');
         const json = await res.json();
         if (!cancelled) setQuestion(json.question || null);
@@ -44,7 +46,7 @@ export default function InternalQuestionViewPage() {
     return () => {
       cancelled = true;
     };
-  }, [id]);
+  }, [id, subject, router.isReady]);
 
   return (
     <main className="main-layout main-layout--top">
@@ -64,7 +66,7 @@ export default function InternalQuestionViewPage() {
                 Back to list
               </Link>
               {id ? (
-                <Link href={`/internal/questions/edit?id=${encodeURIComponent(id)}`} className="button-primary">
+                <Link href={`/internal/questions/edit?subject=${subject}&id=${encodeURIComponent(id)}`} className="button-primary">
                   Edit
                 </Link>
               ) : null}
