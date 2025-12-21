@@ -1,0 +1,27 @@
+{
+  "id": "4fb9d9aa-24a9-42e2-9257-2069c998367b",
+  "question": [
+    "Identify the floral formula of plant belonging to potato family."
+  ],
+  "choices": [
+    [
+      "<katex>$\\oplus \\_Q^\\pi K_{(5)} C_{(5)} A_5 G_{(2)}$</katex>"
+    ],
+    [
+      "<katex>$\\oplus \\_Q^\\pi K_{(5)} \\overparen{C_{(5)} A_5} \\underline{G}_{(2)}$</katex>"
+    ],
+    [
+      "<katex>$\\oplus \\_Q^\\pi K_5 C_5 A_5 G_2$</katex>"
+    ],
+    [
+      "<katex>$\\oplus \\_Q^\\pi K_{(5)} C_{(5)} A_{(5)} G_1$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The floral formula for Solanaceae (Potato family) is Actinomorphic, Bisexual, Calyx (5) fused, Corolla (5) fused, Androecium 5 epipetalous, Gynoecium (2) superior, syncarpous. The option B generally represents this structure (with epipetalous arc)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "3918d4b0-798a-4993-a201-aec9fa79e60a",
+  "question": [
+    "Match the following columns and choose the correct option:",
+    "**Column - I**",
+    "1. Haemophilus influenzae",
+    "2. Entamoeba histolytica",
+    "3. Plasmodium falciparum",
+    "4. Wuchereria bancrofti",
+    "**Column - II**",
+    "p. Malignant malaria",
+    "q. Elephantiasis",
+    "r. Pneumonia",
+    "s. Amoebiasis"
+  ],
+  "choices": [
+    [
+      "1-s, 2-p, 3-q, 4-r"
+    ],
+    [
+      "1-q, 2-r, 3-s, 4-p"
+    ],
+    [
+      "1-r, 2-p, 3-q, 4-s"
+    ],
+    [
+      "1-r, 2-s, 3-p, 4-q"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Haemophilus -> Pneumonia (r). Entamoeba -> Amoebiasis (s). Plasmodium -> Malaria (p). Wuchereria -> Elephantiasis (q). Match: 1-r, 2-s, 3-p, 4-q."
+  ],
+  "years": [
+    2023
+  ]
+}

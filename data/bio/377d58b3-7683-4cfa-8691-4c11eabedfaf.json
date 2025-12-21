@@ -1,0 +1,27 @@
+{
+  "id": "377d58b3-7683-4cfa-8691-4c11eabedfaf",
+  "question": [
+    "In one of the hybridisation experiments, a homozygous dominant parent and a homozygous recessive parent are crossed for a trait. (Plant shows Mendelian inheritance pattern)"
+  ],
+  "choices": [
+    [
+      "Dominant parent trait appears in <katex>$F_1$</katex> generation and recessive parent trait appears in <katex>$F_1$</katex> and <katex>$F_2$</katex> generations."
+    ],
+    [
+      "Dominant parent trait appears in <katex>$F_1$</katex> generation and recessive parent trait appears in <katex>$F_2$</katex> generation."
+    ],
+    [
+      "Dominant parent trait appears in <katex>$F_2$</katex> generation and recessive parent trait appears only in <katex>$F_1$</katex> generation"
+    ],
+    [
+      "Dominant parent trait appears in both <katex>$F_1$</katex> & <katex>$F_2$</katex> generations, recessive parent trait appears in only <katex>$F_2$</katex> generation."
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to Mendel's laws, the <katex>$F_1$</katex> generation shows only the dominant trait. The recessive trait, which is hidden in <katex>$F_1$</katex>, reappears in the <katex>$F_2$</katex> generation. Thus, the dominant trait is seen in both, while the recessive is seen only in <katex>$F_2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

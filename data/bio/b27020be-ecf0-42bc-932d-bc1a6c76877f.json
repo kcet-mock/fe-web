@@ -1,0 +1,37 @@
+{
+  "id": "b27020be-ecf0-42bc-932d-bc1a6c76877f",
+  "question": [
+    "Match Column - I with Column - II. Select the option with correct combination.",
+    "**Column - I**",
+    "1. Standing state",
+    "2. Pioneer species",
+    "3. Detritivores",
+    "4. Standing crop",
+    "**Column - II**",
+    "p. Mass of living material at a given time.",
+    "q. Amount of nutrients in the soil at a given time.",
+    "r. Species that invade a bare area.",
+    "s. Breakdown detritus into smaller particles."
+  ],
+  "choices": [
+    [
+      "1-q, 2-r, 3-s, 4-p"
+    ],
+    [
+      "1-q, 2-r, 3-p, 4-s"
+    ],
+    [
+      "1-p, 2-s, 3-r, 4-q"
+    ],
+    [
+      "1-p, 2-r, 3-s, 4-q"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Standing state (Amount of nutrients, q). Pioneer species (Invade bare area, r). Detritivores (Breakdown detritus, s). Standing crop (Mass of living material, p). Match: 1-q, 2-r, 3-s, 4-p."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "f119530d-59c2-43cd-9b3b-75255b91c37a",
+  "question": [
+    "Identify the correct option showing the relative contribution of different green house gases to the total global warming."
+  ],
+  "choices": [
+    [
+      "CFC-6%, CO₂-60%, Methane - 20%, N₂O-14%"
+    ],
+    [
+      "CFC-14%, CO₂-60% Methane -20%, N₂O-6%"
+    ],
+    [
+      "CFC-14%, CO₂-60%, Methane-6%, N₂O-20%"
+    ],
+    [
+      "CFC-20%, CO₂-60%, Methane-14%, N₂O-6%"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The relative contribution of greenhouse gases is: Carbon dioxide (60%), Methane (20%), CFCs (14%), and N₂O (6%)."
+  ],
+  "years": [
+    2023
+  ]
+}

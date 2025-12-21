@@ -1,0 +1,37 @@
+{
+  "id": "93ecd0e3-5c62-4a7a-baa9-fd3f1274b01d",
+  "question": [
+    "Match the column-I with column-II and choose the correct option from the following:",
+    "**Column - I**",
+    "1. Bryophyta",
+    "2. Gymnosperm",
+    "3. Algae",
+    "4. Pteridophyta",
+    "**Column - II**",
+    "p. Pinus",
+    "q. Adiantum",
+    "r. Sphagnum",
+    "s. Ectocarpus"
+  ],
+  "choices": [
+    [
+      "1-q, 2-p, 3-s, 4-r"
+    ],
+    [
+      "1-s, 2-r, 3-q, 4-p"
+    ],
+    [
+      "1-q, 2-s, 3-p, 4-r"
+    ],
+    [
+      "1-r, 2-p, 3-s, 4-q"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Bryophyta -> Sphagnum (r). Gymnosperm -> Pinus (p). Algae -> Ectocarpus (s). Pteridophyta -> Adiantum (q). Match: 1-r, 2-p, 3-s, 4-q."
+  ],
+  "years": [
+    2023
+  ]
+}

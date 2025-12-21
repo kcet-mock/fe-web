@@ -1,0 +1,27 @@
+{
+  "id": "79f52875-ff29-4b0a-9af4-412d212a9a8e",
+  "question": [
+    "Eukaryotic genes are monocistronic but they are split genes because"
+  ],
+  "choices": [
+    [
+      "Exons are interrupted by Introns."
+    ],
+    [
+      "They contain Exons only."
+    ],
+    [
+      "Introns are interrupted with Mutons."
+    ],
+    [
+      "They contain Introns only."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Eukaryotic genes are called split genes because the coding sequences (Exons) are interrupted by non-coding sequences (Introns)."
+  ],
+  "years": [
+    2023
+  ]
+}

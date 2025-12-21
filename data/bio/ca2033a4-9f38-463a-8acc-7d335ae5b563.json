@@ -1,0 +1,27 @@
+{
+  "id": "ca2033a4-9f38-463a-8acc-7d335ae5b563",
+  "question": [
+    "Select the correctly matched pair of organisms with their order."
+  ],
+  "choices": [
+    [
+      "Homo, sapiens : Poales"
+    ],
+    [
+      "Triticum, aestivum : Sapindales"
+    ],
+    [
+      "Mangifera, indica : Primata"
+    ],
+    [
+      "Musa, domestica : Diptera"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Note: The source option is likely a typo 'Musa, domestica' referring to *Musca domestica* (Housefly). Housefly belongs to the order Diptera. Homo is Primata, Triticum is Poales, Mangifera is Sapindales."
+  ],
+  "years": [
+    2023
+  ]
+}

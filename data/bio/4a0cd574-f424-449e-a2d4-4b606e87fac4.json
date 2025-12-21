@@ -1,0 +1,27 @@
+{
+  "id": "4a0cd574-f424-449e-a2d4-4b606e87fac4",
+  "question": [
+    "Which of these is NOT an example for Adaptive radiation?"
+  ],
+  "choices": [
+    [
+      "Placental mammals"
+    ],
+    [
+      "Darwin's finches"
+    ],
+    [
+      "Long-necked Giraffe"
+    ],
+    [
+      "Australian marsupials"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Darwin's finches, Australian marsupials, and Placental mammals (radiation in Australia) are classic examples of adaptive radiation. The evolution of the long-necked giraffe is an example of directional selection/evolution, not necessarily adaptive radiation from a common ancestor into diverse niches in an isolated area."
+  ],
+  "years": [
+    2023
+  ]
+}

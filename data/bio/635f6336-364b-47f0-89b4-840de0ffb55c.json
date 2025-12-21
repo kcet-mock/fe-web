@@ -1,0 +1,27 @@
+{
+  "id": "635f6336-364b-47f0-89b4-840de0ffb55c",
+  "question": [
+    "Find out the correct match."
+  ],
+  "choices": [
+    [
+      "Filariasis - Common round worm - Small intestine"
+    ],
+    [
+      "Ringworm - Fungus - Skin"
+    ],
+    [
+      "Dysentery - Protozoa - Lungs"
+    ],
+    [
+      "Typhoid - Bacteria - Liver"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Ringworm is caused by Fungi and affects the Skin. Filariasis is caused by Wuchereria (Filarial worm), not Roundworm (Ascaris). Typhoid affects the Intestine, not Liver primarily. Dysentery affects the Intestine."
+  ],
+  "years": [
+    2023
+  ]
+}

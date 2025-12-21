@@ -1,0 +1,28 @@
+{
+  "id": "3cb5301c-ba64-4c72-99e4-9898ea8ef901",
+  "question": [
+    "Identify the option showing the correct labelling for p, q, r and s with reference to the conducting system of the human heart.",
+    "images/4d3e2f1g-0h9i-8j7k-6l5m-4n3o2p1q0r9s.png"
+  ],
+  "choices": [
+    [
+      "p-Bundle of His, q-SAN, r-Interventricular septum, s-AVN"
+    ],
+    [
+      "p-SAN, q-AVN, r-Bundle of His, s-Interventicular septum"
+    ],
+    [
+      "p-Interventicular septum, q-AVN, r-Bundle of His, s-SAN"
+    ],
+    [
+      "p-AVN, q-SAN, r-Interventicular septum, s-Bundle of His"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Based on the standard diagram of the heart's conducting system: 'p' represents the Sino-atrial Node (SAN), 'q' represents the Atrio-ventricular Node (AVN), 'r' represents the Bundle of His, and 's' represents the Purkinje fibers/Interventricular septum area."
+  ],
+  "years": [
+    2023
+  ]
+}

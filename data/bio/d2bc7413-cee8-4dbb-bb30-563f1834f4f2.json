@@ -1,0 +1,29 @@
+{
+  "id": "d2bc7413-cee8-4dbb-bb30-563f1834f4f2",
+  "question": [
+    "Find the correct statement.",
+    "(1) Generally a gene regulates a trait, but sometimes one gene has effect on multiple traits.",
+    "(2) The trait AB-blood group of man is regulated by one dominant allele and another recessive allele. Hence it is co-dominant."
+  ],
+  "choices": [
+    [
+      "Both Statements (1) and (2) are correct."
+    ],
+    [
+      "Statement (1) is correct."
+    ],
+    [
+      "Both the Statements are wrong."
+    ],
+    [
+      "Statement (2) is correct."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement (1) describes Pleiotropy, which is correct. Statement (2) is incorrect because AB blood group is an example of Co-dominance where *both* alleles ($I^A$ and $I^B$) are dominant and expressed, not a dominant and recessive interaction."
+  ],
+  "years": [
+    2023
+  ]
+}

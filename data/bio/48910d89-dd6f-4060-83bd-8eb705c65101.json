@@ -1,0 +1,27 @@
+{
+  "id": "48910d89-dd6f-4060-83bd-8eb705c65101",
+  "question": [
+    "An example for hormone releasing IUD is"
+  ],
+  "choices": [
+    [
+      "Lippes loop"
+    ],
+    [
+      "LNG - 20"
+    ],
+    [
+      "Implant"
+    ],
+    [
+      "Multiload 375"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "LNG-20 and Progestasert are hormone-releasing IUDs. Lippes loop is a non-medicated IUD, and Multiload 375 is a copper-releasing IUD."
+  ],
+  "years": [
+    2023
+  ]
+}

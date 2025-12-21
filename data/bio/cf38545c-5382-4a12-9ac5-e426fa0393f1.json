@@ -1,0 +1,27 @@
+{
+  "id": "cf38545c-5382-4a12-9ac5-e426fa0393f1",
+  "question": [
+    "Identify the symptoms of pneumonia."
+  ],
+  "choices": [
+    [
+      "Constipation, Abdominal pain, cramps, blood clots"
+    ],
+    [
+      "Difficulty in breathing, fever, chills, cough, headache"
+    ],
+    [
+      "High fever, weakness, stomach pain, loss of appetite"
+    ],
+    [
+      "Nasal congestion and discharge, cough, sore throat, headache"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Pneumonia is characterized by fever, chills, cough, and headache. In severe cases, the lips and fingernails may turn gray to bluish. Difficulty in breathing is also a symptom."
+  ],
+  "years": [
+    2023
+  ]
+}

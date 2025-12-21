@@ -1,0 +1,31 @@
+{
+  "id": "d4e00c93-081b-461a-a0d0-12d7c8874fb0",
+  "question": [
+    "Match column-I with column-II. Select the option with correct combination.",
+    "**Column - I**",
+    "1. Hypertonic, 2. Capillarity, 3. Symport, 4. Guttation",
+    "**Column - II**",
+    "p. Two molecules move in the same direction, q. External solution is more concentrated than cell sap, r. Water loss in the form of droplets, s. Ability of water to rise in thin tubes"
+  ],
+  "choices": [
+    [
+      "1-q, 2-p, 3-s, 4-r"
+    ],
+    [
+      "1-q, 2-s, 3-r, 4-p"
+    ],
+    [
+      "1-q, 2-s, 3-p, 4-r"
+    ],
+    [
+      "1-q, 2-r, 3-p, 4-s"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hypertonic (q), Capillarity (s), Symport (p), Guttation (r). Match: 1-q, 2-s, 3-p, 4-r."
+  ],
+  "years": [
+    2023
+  ]
+}

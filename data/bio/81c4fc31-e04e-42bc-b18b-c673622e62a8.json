@@ -1,0 +1,27 @@
+{
+  "id": "81c4fc31-e04e-42bc-b18b-c673622e62a8",
+  "question": [
+    "Atrial Natriuretic Factor (ANF) acts as a"
+  ],
+  "choices": [
+    [
+      "Vasoconstrictor"
+    ],
+    [
+      "Check on Renin-Angiotensin mechanism"
+    ],
+    [
+      "Hypertension inducer"
+    ],
+    [
+      "Promoter on Renin-Angiotensin mechanism"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "ANF is a vasodilator and lowers blood pressure, thereby acting as a check on the Renin-Angiotensin mechanism."
+  ],
+  "years": [
+    2023
+  ]
+}

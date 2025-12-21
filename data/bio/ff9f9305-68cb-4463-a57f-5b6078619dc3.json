@@ -1,0 +1,27 @@
+{
+  "id": "ff9f9305-68cb-4463-a57f-5b6078619dc3",
+  "question": [
+    "With respect to Inbreeding, which among the following is not true?"
+  ],
+  "choices": [
+    [
+      "It helps in elimination of less desirable genes."
+    ],
+    [
+      "Inbreeding decreases homozygosity."
+    ],
+    [
+      "It helps to evolve a pure line in an animal."
+    ],
+    [
+      "It helps in accumulation of superior genes."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Inbreeding *increases* homozygosity, it does not decrease it. This property is used to develop pure lines."
+  ],
+  "years": [
+    2023
+  ]
+}

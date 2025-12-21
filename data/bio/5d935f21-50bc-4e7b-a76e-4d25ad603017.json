@@ -1,0 +1,27 @@
+{
+  "id": "5d935f21-50bc-4e7b-a76e-4d25ad603017",
+  "question": [
+    "The Lac-Operon model was elucidated by"
+  ],
+  "choices": [
+    [
+      "Hershey and Chase"
+    ],
+    [
+      "Watson and Crick"
+    ],
+    [
+      "Jacob and Crick"
+    ],
+    [
+      "Francois Jacob and Jacque Monod"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The Lac Operon model was elucidated by a geneticist, Francois Jacob, and a biochemist, Jacque Monod."
+  ],
+  "years": [
+    2023
+  ]
+}
