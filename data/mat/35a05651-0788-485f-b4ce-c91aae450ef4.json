@@ -1,0 +1,30 @@
+{
+  "id": "35a05651-0788-485f-b4ce-c91aae450ef4",
+  "question": [
+    "The distance 's' in meters travelled by a particle in 't' seconds is given by <katex>$s=\\frac{2t^{3}}{3}-18t+\\frac{5}{3}.$</katex> The acceleration when the particle comes to rest is"
+  ],
+  "choices": [
+    [
+      "<katex>$12m^{2}/sec$</katex>"
+    ],
+    [
+      "<katex>$18m^{2}/sec$</katex>"
+    ],
+    [
+      "<katex>$3m^{2}/sec$</katex>"
+    ],
+    [
+      "<katex>$10m^{2}/sec$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$v = ds/dt = 2t^2 - 18$</katex>.",
+    "Rest <katex>$\\implies v=0 \\implies 2t^2 = 18 \\implies t^2 = 9 \\implies t=3$</katex>.",
+    "<katex>$a = dv/dt = 4t$</katex>.",
+    "At <katex>$t=3, a = 12$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "0691e65b-852c-44e9-be9c-572995a8e942",
+  "question": [
+    "Which of the following is an empty set?"
+  ],
+  "choices": [
+    [
+      "<katex>$\\{x:x^{2}-9=0,x\\in R\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x:x^{2}=x+2,x\\in R\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x:x^{2}-1=0,x\\in R\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x:x^{2}+1=0,x\\in R\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$x^2 + 1 = 0 \\implies x^2 = -1$</katex>. No real solution."
+  ],
+  "years": [
+    2023
+  ]
+}

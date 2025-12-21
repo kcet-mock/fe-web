@@ -1,0 +1,30 @@
+{
+  "id": "adc19061-4535-425f-9a1d-16133e820973",
+  "question": [
+    "If <katex>$f(x)$</katex> and <katex>$g(x)$</katex> are two functions with <katex>$g(x)=x-\\frac{1}{x}$</katex> and <katex>$fog(x)=x^{3}-\\frac{1}{x^{3}}$</katex> then <katex>$f^{\\prime}(x)=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$x^{2}-\\frac{1}{x^{2}}$</katex>"
+    ],
+    [
+      "<katex>$1-\\frac{1}{x^{2}}$</katex>"
+    ],
+    [
+      "<katex>$3x^{2}+3$</katex>"
+    ],
+    [
+      "<katex>$3x^{2}+\\frac{3}{x^{4}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$g(x) = x - 1/x$</katex>.",
+    "<katex>$fog(x) = (x-1/x)^3 + 3(x-1/x)$</katex> (since <katex>$(a-b)^3 = a^3 - b^3 - 3ab(a-b)$</katex>).",
+    "So <katex>$f(t) = t^3 + 3t$</katex>.",
+    "<katex>$f'(x) = 3x^2 + 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

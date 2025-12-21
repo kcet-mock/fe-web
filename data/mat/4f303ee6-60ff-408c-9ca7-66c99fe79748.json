@@ -1,0 +1,28 @@
+{
+  "id": "4f303ee6-60ff-408c-9ca7-66c99fe79748",
+  "question": [
+    "If <katex>$\\lim_{x\\rightarrow0}\\frac{\\sin(2+x)-\\sin(2-x)}{x}=A~\\cos B,$</katex> then the values of A and B respectively are"
+  ],
+  "choices": [
+    [
+      "2,1"
+    ],
+    [
+      "1,1"
+    ],
+    [
+      "2,2"
+    ],
+    [
+      "1,2"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "LHS = <katex>$\\lim \\frac{2\\cos 2 \\sin x}{x} = 2\\cos 2 (1) = 2\\cos 2$</katex>.",
+    "<katex>$A=2, B=2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

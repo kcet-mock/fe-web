@@ -1,0 +1,31 @@
+{
+  "id": "fc8f6eb3-828d-4c91-902d-4fdd344e8470",
+  "question": [
+    "<katex>$\\int_{-2}^{0}(x^{3}+3x^{2}+3x+3+(x+1)\\cos(x+1))dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let <katex>$x+1 = t$</katex>. Limits -1 to 1. <katex>$dx=dt$</katex>.",
+    "Integrand: <katex>$(t-1)^3 + 3(t-1)^2 + 3(t-1) + 3 + t\\cos t$</katex>.",
+    "<katex>$= t^3 - 3t^2 + 3t - 1 + 3(t^2-2t+1) + 3t - 3 + 3 + t\\cos t$</katex>",
+    "<katex>$= t^3 + t\\cos t + 2$</katex> (simplifying).",
+    "<katex>$\\int_{-1}^1 (Odd + Odd + Even) dt = 2 \\int_0^1 2 dt = 4$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

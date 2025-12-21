@@ -1,0 +1,30 @@
+{
+  "id": "4652f974-41ed-4aea-bca7-d5cf3dd2fc72",
+  "question": [
+    "The value of <katex>$e^{\\log_{10}\\tan 1^{\\circ}+\\log_{10}\\tan 2^{\\circ}+\\log_{10}\\tan 3^{\\circ}+...+\\log_{10}\\tan 89^{\\circ}}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{e}$</katex>"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Exponent is <katex>$\\log_{10}(\\tan 1 \\cdot \\tan 2 \\dots \\tan 89)$</katex>.",
+    "Product <katex>$\\tan 1 \\dots \\tan 89 = 1$</katex>.",
+    "<katex>$\\log_{10}(1) = 0$</katex>.",
+    "<katex>$e^0 = 1$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

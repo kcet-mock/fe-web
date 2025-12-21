@@ -1,0 +1,30 @@
+{
+  "id": "ef6c392a-3a1b-4a08-9a85-d7078d7f295f",
+  "question": [
+    "If <katex>$\\vec{a}+2\\vec{b}+3\\vec{c}=0$</katex> and <katex>$(\\vec{a}\\times\\vec{b})+(\\vec{b}\\times\\vec{c})+(\\vec{c}\\times\\vec{a})=\\lambda(\\vec{b}\\times\\vec{c})$</katex> then the value of <katex>$\\lambda$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "6"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\vec{a} = -2\\vec{b} - 3\\vec{c}$</katex>.",
+    "<katex>$\\vec{a} \\times \\vec{b} = (-2\\vec{b}-3\\vec{c}) \\times \\vec{b} = -3(\\vec{c} \\times \\vec{b}) = 3(\\vec{b} \\times \\vec{c})$</katex>.",
+    "<katex>$\\vec{c} \\times \\vec{a} = \\vec{c} \\times (-2\\vec{b}-3\\vec{c}) = -2(\\vec{c} \\times \\vec{b}) = 2(\\vec{b} \\times \\vec{c})$</katex>.",
+    "Sum = <katex>$3(\\vec{b} \\times \\vec{c}) + (\\vec{b} \\times \\vec{c}) + 2(\\vec{b} \\times \\vec{c}) = 6(\\vec{b} \\times \\vec{c})$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

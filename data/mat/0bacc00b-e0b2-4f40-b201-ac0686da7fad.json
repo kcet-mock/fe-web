@@ -1,0 +1,31 @@
+{
+  "id": "0bacc00b-e0b2-4f40-b201-ac0686da7fad",
+  "question": [
+    "The shaded region in the figure given in the solution of which of the in equations?",
+    "images/q39_graph.png"
+  ],
+  "choices": [
+    [
+      "<katex>$x+y\\ge7$, $2x-3y+6\\ge0,$ $x\\ge0$ $y\\ge0$</katex>"
+    ],
+    [
+      "<katex>$x+y\\le7$ $2x-3y+6\\le0,$ $x\\ge0$, $y\\ge0$</katex>"
+    ],
+    [
+      "<katex>$x+y\\le7$, $2x-3y+6\\ge0,$ $x\\ge0$ $y\\ge0$</katex>"
+    ],
+    [
+      "<katex>$x+y\\ge7$, $2x-3y+6\\le0$ $x\\ge0$, $y\\ge0$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Region is bounded below 7 (intersection B is (3,4), <katex>$3+4=7$</katex>, C is (0,2), A is (7,0)).",
+    "Line <katex>$x+y=7$</katex>: origin satisfies <katex>$0 \\le 7$</katex>. Region includes origin side relative to x+y=7.",
+    "Line <katex>$2x-3y+6=0$</katex>: Passes through (-3,0) and (0,2). Origin side check: <katex>$6 \\ge 0$</katex>. Bounded region is between lines. (3,4) is intersection. Region is triangle ABC.",
+    "Based on vertices, checks match C."
+  ],
+  "years": [
+    2023
+  ]
+}

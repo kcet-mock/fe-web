@@ -1,0 +1,28 @@
+{
+  "id": "bcd9d37a-14eb-4a45-9198-0fa0fe55bf08",
+  "question": [
+    "A circular plate of radius 5 cm is heated. Due to expansion, its radius increases at the rate of <katex>$0.05~cm/sec$</katex>. The rate at which its area is increasing when the radius is 5.2 cm is"
+  ],
+  "choices": [
+    [
+      "<katex>$5.05\\pi cm^{2}/sec$</katex>"
+    ],
+    [
+      "<katex>$0.52\\pi cm^{2}/sec$</katex>"
+    ],
+    [
+      "<katex>$5.2\\pi cm^{2}/sec$</katex>"
+    ],
+    [
+      "<katex>$27.4\\pi cm^{2}/sec$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$A = \\pi r^2$</katex>.",
+    "<katex>$\\frac{dA}{dt} = 2\\pi r \\frac{dr}{dt} = 2\\pi(5.2)(0.05) = 2\\pi(0.26) = 0.52\\pi$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

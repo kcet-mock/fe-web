@@ -1,0 +1,28 @@
+{
+  "id": "3162a800-05fd-405a-b04e-6fb276310558",
+  "question": [
+    "Given that a, b and x are real numbers and <katex>$a<b$</katex>, <katex>$x<0$</katex> then"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{a}{x}<\\frac{b}{x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{x}\\le\\frac{b}{x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{x}>\\frac{b}{x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{x}\\ge\\frac{b}{x}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Dividing an inequality by a negative number reverses the sign.",
+    "<katex>$a < b$</katex> and <katex>$x < 0 \\implies a/x > b/x$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

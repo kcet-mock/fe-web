@@ -1,0 +1,29 @@
+{
+  "id": "dc646e5d-f73b-4ed5-aad8-376cbe6bdaad",
+  "question": [
+    "<katex>$\\int\\sqrt{\\csc x-\\sin x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\sqrt{\\sin x}+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2}{\\sqrt{\\sin x}}+C$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{\\sin x}+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\sqrt{\\sin x}}{2}+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Integrand <katex>$= \\sqrt{\\frac{1}{\\sin x} - \\sin x} = \\sqrt{\\frac{1-\\sin^2 x}{\\sin x}} = \\frac{\\cos x}{\\sqrt{\\sin x}}$</katex>.",
+    "Let <katex>$\\sin x = t, \\cos x dx = dt$</katex>.",
+    "<katex>$\\int t^{-1/2} dt = 2t^{1/2} = 2\\sqrt{\\sin x} + C$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cf891e06-4514-4530-be57-d77d90f36784",
+  "question": [
+    "If the curve passes through the point (1, 1) and at any point (x, y) on the curve, the product of the slope of its tangent and x co-ordinate of the point is equal to the y co-ordinate of the point, then the curve also passes through the point"
+  ],
+  "choices": [
+    [
+      "(-1, 2)"
+    ],
+    [
+      "<katex>$(\\sqrt{3},0)$</katex>"
+    ],
+    [
+      "(2, 2)"
+    ],
+    [
+      "(3,0)"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$x \\frac{dy}{dx} = y \\implies \\frac{dy}{y} = \\frac{dx}{x} \\implies \\ln y = \\ln x + c \\implies y = kx$</katex>.",
+    "Passes through (1,1) <katex>$\\implies k=1 \\implies y=x$</katex>.",
+    "Curve is <katex>$y=x$</katex>. Passes through (2,2)."
+  ],
+  "years": [
+    2023
+  ]
+}

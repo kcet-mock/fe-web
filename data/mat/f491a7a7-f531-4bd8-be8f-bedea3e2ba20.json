@@ -1,0 +1,28 @@
+{
+  "id": "f491a7a7-f531-4bd8-be8f-bedea3e2ba20",
+  "question": [
+    "If <katex>$\\Delta=\\begin{vmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{vmatrix}$</katex> and <katex>$\\Delta_{1}=\\begin{vmatrix} 1 & 1 & 1 \\\\ bc & ca & ab \\\\ a & b & c \\end{vmatrix}$</katex> then"
+  ],
+  "choices": [
+    [
+      "<katex>$\\Delta_{1} \\ne \\Delta$</katex>"
+    ],
+    [
+      "<katex>$\\Delta_{1} = -\\Delta$</katex>"
+    ],
+    [
+      "<katex>$\\Delta_{1} = \\Delta$</katex>"
+    ],
+    [
+      "<katex>$\\Delta_{1} = 3\\Delta$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In <katex>$\\Delta_1$</katex>, multiply R1 by a, R2 by b, R3 by c (actually, manipulate rows/cols). Standard property shows these determinants are related.",
+    "The value of <katex>$\\Delta_1$</katex> is <katex>$-(a-b)(b-c)(c-a)$</katex> while <katex>$\\Delta$</katex> is <katex>$(a-b)(b-c)(c-a)$</katex> (due to row swap operations to match forms). Thus <katex>$\\Delta_1 = -\\Delta$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

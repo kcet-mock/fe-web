@@ -1,0 +1,30 @@
+{
+  "id": "bd23afbc-3364-4390-bb66-f7ea470dbdc9",
+  "question": [
+    "<katex>$\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "3"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Using property <katex>$\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$</katex>.",
+    "<katex>$I = \\int_2^8 \\frac{5^{\\sqrt{x}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{x}}} dx$</katex>.",
+    "<katex>$2I = \\int_2^8 1 dx = 6$</katex>.",
+    "<katex>$I = 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

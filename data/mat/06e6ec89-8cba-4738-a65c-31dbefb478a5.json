@@ -1,0 +1,30 @@
+{
+  "id": "06e6ec89-8cba-4738-a65c-31dbefb478a5",
+  "question": [
+    "If <katex>$p(\\frac{1}{q}+\\frac{1}{r}),q(\\frac{1}{r}+\\frac{1}{p}),r(\\frac{1}{p}+\\frac{1}{q})$</katex> are in A.P., then p, q, r"
+  ],
+  "choices": [
+    [
+      "are in A.P."
+    ],
+    [
+      "are not in GP."
+    ],
+    [
+      "are not in A.P."
+    ],
+    [
+      "are in G.P."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Terms are <katex>$\\frac{p(r+q)}{qr}, \\frac{q(p+r)}{pr}, \\frac{r(q+p)}{pq}$</katex>.",
+    "Add 1 to each: <katex>$\\frac{pr+pq+qr}{qr}, ...$</katex> are in A.P.",
+    "Divide by <katex>$pq+qr+rp$</katex>: <katex>$\\frac{1}{qr}, \\frac{1}{pr}, \\frac{1}{pq}$</katex> in AP.",
+    "Multiply by pqr: <katex>$p, q, r$</katex> in A.P."
+  ],
+  "years": [
+    2023
+  ]
+}

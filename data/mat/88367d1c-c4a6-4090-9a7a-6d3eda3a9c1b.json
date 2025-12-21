@@ -1,0 +1,31 @@
+{
+  "id": "88367d1c-c4a6-4090-9a7a-6d3eda3a9c1b",
+  "question": [
+    "<katex>$\\int_{0}^{\\pi}\\frac{x~\\tan x}{\\sec x \\cdot \\csc x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\pi/2$</katex>"
+    ],
+    [
+      "<katex>$\\pi^{2}/2$</katex>"
+    ],
+    [
+      "<katex>$\\pi/4$</katex>"
+    ],
+    [
+      "<katex>$\\pi^{2}/4$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Integrand <katex>$= \\frac{x (\\sin x/\\cos x)}{(1/\\cos x)(1/\\sin x)} = x \\sin^2 x$</katex>.",
+    "<katex>$I = \\int_0^\\pi x \\sin^2 x dx$</katex>.",
+    "Using <katex>$\\int_0^a f(x) = \\int f(a-x)$</katex>, <katex>$I = \\int (\\pi-x)\\sin^2 x dx$</katex>.",
+    "<katex>$2I = \\pi \\int_0^\\pi \\sin^2 x dx = \\pi \\int_0^\\pi \\frac{1-\\cos 2x}{2} dx = \\frac{\\pi}{2} [x]_0^\\pi = \\frac{\\pi^2}{2}$</katex>.",
+    "<katex>$I = \\frac{\\pi^2}{4}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

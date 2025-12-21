@@ -1,0 +1,27 @@
+{
+  "id": "ded6f83f-9101-4f28-b440-d5579e90a189",
+  "question": [
+    "Let <katex>$f:R\\rightarrow R$</katex> be defined by <katex>$f(x)=3x^{2}-5$</katex> and <katex>$g:R\\rightarrow R$</katex> by <katex>$g(x)=\\frac{x}{x^{2}+1}$</katex> then gof is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{3x^{2}}{x^{4}+2x^{2}-4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3x^{2}}{9x^{4}+30x^{2}-2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3x^{2}-5}{9x^{4}-30x^{2}+26}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3x^{2}-5}{9x^{4}-6x^{2}+26}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$g(f(x)) = \\frac{f(x)}{(f(x))^2+1} = \\frac{3x^2-5}{(3x^2-5)^2+1} = \\frac{3x^2-5}{9x^4-30x^2+25+1} = \\frac{3x^2-5}{9x^4-30x^2+26}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

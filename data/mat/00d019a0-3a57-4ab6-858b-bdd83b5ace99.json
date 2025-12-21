@@ -1,0 +1,30 @@
+{
+  "id": "00d019a0-3a57-4ab6-858b-bdd83b5ace99",
+  "question": [
+    "<katex>$\\int\\frac{1}{1+3~\\sin^{2}x+8~\\cos^{2}x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{6}\\tan^{-1}(\\frac{2~\\tan x}{3})+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{6}\\tan^{-1}(2~\\tan x)+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{3}\\tan^{-1}(\\frac{2~\\tan x}{3})+C$</katex>"
+    ],
+    [
+      "<katex>$\\tan^{-1}(\\frac{2~\\tan x}{3})+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Divide Num/Den by <katex>$\\cos^2 x$</katex>: <katex>$\\int \\frac{\\sec^2 x}{\\sec^2 x + 3\\tan^2 x + 8} dx$</katex>.",
+    "<katex>$\\sec^2 x = 1+\\tan^2 x$</katex>. Denom: <katex>$1+\\tan^2 x + 3\\tan^2 x + 8 = 4\\tan^2 x + 9$</katex>.",
+    "<katex>$\\int \\frac{\\sec^2 x}{(2\\tan x)^2 + 3^2} dx$</katex>. Let <katex>$2\\tan x = t$</katex>.",
+    "<katex>$\\frac{1}{2} \\int \\frac{dt}{t^2+3^2} = \\frac{1}{2} \\frac{1}{3} \\tan^{-1}(t/3) = \\frac{1}{6} \\tan^{-1}(\\frac{2\\tan x}{3})$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

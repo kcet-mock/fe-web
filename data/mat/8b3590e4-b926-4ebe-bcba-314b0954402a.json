@@ -1,0 +1,29 @@
+{
+  "id": "8b3590e4-b926-4ebe-bcba-314b0954402a",
+  "question": [
+    "<katex>$\\int\\sqrt{5-2x+x^{2}}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{x-1}{2}\\sqrt{5+2x+x^{2}}+2~\\log|(x-1)+\\sqrt{5+2x+x^{2}}|+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2~\\log|(x-1)+\\sqrt{5-2x+x^{2}}|+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2~\\log|(x+1)+\\sqrt{x^{2}+2x+5}|+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{x}{2}\\sqrt{5-2x+x^{2}}+4~\\log|(x+1)+\\sqrt{x^{2}-2x+5}|+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\sqrt{(x-1)^2 + 2^2}$</katex> form.",
+    "Formula: <katex>$\\frac{t}{2}\\sqrt{t^2+a^2} + \\frac{a^2}{2}\\log|t+\\sqrt{t^2+a^2}|$</katex> where <katex>$t=x-1, a=2$</katex>.",
+    "<katex>$\\frac{x-1}{2}\\sqrt{...} + 2\\log|x-1+\\sqrt{...}|$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}
