@@ -1,0 +1,27 @@
+{
+  "id": "53a254ec-334b-441b-b110-aa3df16601ab",
+  "question": [
+    "A 30% solution of hydrogen peroxide is:"
+  ],
+  "choices": [
+    [
+      "'50 volume' hydrogen peroxide"
+    ],
+    [
+      "'100 volume' hydrogen peroxide"
+    ],
+    [
+      "'30 volume' hydrogen peroxide"
+    ],
+    [
+      "'10 volume' hydrogen peroxide"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "30% <katex>$H_2O_2$</katex> solution means 30g per 100mL (approx). Molarity ~ 8.8 M. Volume strength = <katex>$11.2 \\times M \\approx 100$</katex> volumes. Thus, it is known as '100 volume' hydrogen peroxide."
+  ],
+  "years": [
+    2023
+  ]
+}

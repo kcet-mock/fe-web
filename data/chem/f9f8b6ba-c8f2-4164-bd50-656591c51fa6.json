@@ -1,0 +1,27 @@
+{
+  "id": "f9f8b6ba-c8f2-4164-bd50-656591c51fa6",
+  "question": [
+    "Which of the following compound does not give dinitrogen on heating?"
+  ],
+  "choices": [
+    [
+      "<katex>$NH_{4}NO_{3}$</katex>"
+    ],
+    [
+      "<katex>$(NH_{4})_{2}Cr_{2}O_{7}$</katex>"
+    ],
+    [
+      "<katex>$Ba(N_{3})_{2}$</katex>"
+    ],
+    [
+      "<katex>$NH_{4}NO_{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$NH_4NO_3$</katex> decomposes to give Nitrous oxide (<katex>$N_2O$</katex>) and water, not <katex>$N_2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

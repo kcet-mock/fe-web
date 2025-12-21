@@ -1,0 +1,29 @@
+{
+  "id": "6f10ebfe-6de5-4367-aa48-18f779dfe569",
+  "question": [
+    "Y in the reaction sequence is:",
+    "<katex>$\\text{Phenol} \\xrightarrow{NaOH} A \\xrightarrow[(ii) H^+]{(i) CO_2} B \\xrightarrow[(ii) H^+]{(i) (CH_3CO)_2O} Y \\text{ (Major product)}$</katex>"
+  ],
+  "choices": [
+    [
+      "Cumene"
+    ],
+    [
+      "Picric acid"
+    ],
+    [
+      "Salicylaldehyde"
+    ],
+    [
+      "Aspirin"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "1. Phenol + NaOH + CO2 (Kolbe's reaction) forms Salicylic acid (B).",
+    "2. Acetylation of Salicylic acid with acetic anhydride produces Acetylsalicylic acid, which is Aspirin (Y)."
+  ],
+  "years": [
+    2023
+  ]
+}

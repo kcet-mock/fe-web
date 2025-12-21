@@ -1,0 +1,28 @@
+{
+  "id": "240b19fd-905b-47b3-b260-1abc378485e2",
+  "question": [
+    "The heating of phenyl methyl ether with HI produces an aromatic compound A which on treatment with con. <katex>$HNO_{3}$</katex> gives B. A and B respectively are:"
+  ],
+  "choices": [
+    [
+      "Iodobenzene, 1-Iodo-4-nitrobenzene"
+    ],
+    [
+      "Phenol, Picric acid"
+    ],
+    [
+      "Methanol, Ethanoic acid"
+    ],
+    [
+      "Picric acid, Phenol"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "1. Cleavage of phenyl methyl ether (anisole) with HI produces Phenol (A) and methyl iodide.",
+    "2. Nitration of Phenol (A) with concentrated <katex>$HNO_3$</katex> yields 2,4,6-trinitrophenol, commonly known as Picric acid (B)."
+  ],
+  "years": [
+    2023
+  ]
+}

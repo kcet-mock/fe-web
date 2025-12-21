@@ -1,0 +1,27 @@
+{
+  "id": "7570d110-3662-4aad-a874-298fca06affc",
+  "question": [
+    "Aqueous solution of raw sugar when passed over beds of animal charcoal, it becomes colourless. Pick the correct set of terminologies:"
+  ],
+  "choices": [
+    [
+      "Adsorbent: Animal Charcoal, Adsorbate: Colouring Substance"
+    ],
+    [
+      "Adsorbent: Colouring Substance, Adsorbate: Animal Charcoal"
+    ],
+    [
+      "Adsorbent: Solution, Adsorbate: Charcoal"
+    ],
+    [
+      "Adsorbent: Charcoal, Adsorbate: Sugar Solution"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Animal charcoal acts as the Adsorbent (surface), and the colouring substance acts as the Adsorbate (sticks to surface)."
+  ],
+  "years": [
+    2023
+  ]
+}

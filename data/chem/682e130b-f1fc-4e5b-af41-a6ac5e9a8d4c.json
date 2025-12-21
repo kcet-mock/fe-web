@@ -1,0 +1,27 @@
+{
+  "id": "682e130b-f1fc-4e5b-af41-a6ac5e9a8d4c",
+  "question": [
+    "A better reagent to oxidize primary alcohols into aldehyde is:"
+  ],
+  "choices": [
+    [
+      "Acidified <katex>$K_{2}Cr_{2}O_{7}$</katex>"
+    ],
+    [
+      "<katex>$CrO_{3}$</katex>"
+    ],
+    [
+      "PCC"
+    ],
+    [
+      "Alkaline <katex>$KMnO_{4}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "PCC (Pyridinium Chlorochromate) is a selective oxidizing agent that converts primary alcohols to aldehydes without further oxidation to carboxylic acids."
+  ],
+  "years": [
+    2023
+  ]
+}

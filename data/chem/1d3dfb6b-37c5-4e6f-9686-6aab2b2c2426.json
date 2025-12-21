@@ -1,0 +1,27 @@
+{
+  "id": "1d3dfb6b-37c5-4e6f-9686-6aab2b2c2426",
+  "question": [
+    "The composition of water gas is:"
+  ],
+  "choices": [
+    [
+      "<katex>$CO_{(g)}+H_{2}O_{(g)}$</katex>"
+    ],
+    [
+      "<katex>$CO_{(g)}+H_{2_{(g)}}$</katex>"
+    ],
+    [
+      "<katex>$CO_{(g)}+N_{2_{(g)}}$</katex>"
+    ],
+    [
+      "<katex>$CH_{4_{(g)}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Water gas (syn gas) is a mixture of Carbon monoxide (CO) and Hydrogen (<katex>$H_2$</katex>)."
+  ],
+  "years": [
+    2023
+  ]
+}

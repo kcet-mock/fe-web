@@ -1,0 +1,27 @@
+{
+  "id": "c060da57-3f39-436d-b95f-a104ec60a38b",
+  "question": [
+    "Thyroxine produced in the thyroid gland is an iodinated derivative of:"
+  ],
+  "choices": [
+    [
+      "Tyrosine"
+    ],
+    [
+      "Tryptophan"
+    ],
+    [
+      "Threonine"
+    ],
+    [
+      "Lysine"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Thyroxine (T4) is derived from the amino acid Tyrosine."
+  ],
+  "years": [
+    2023
+  ]
+}

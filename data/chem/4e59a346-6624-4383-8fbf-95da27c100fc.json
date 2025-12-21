@@ -1,0 +1,28 @@
+{
+  "id": "4e59a346-6624-4383-8fbf-95da27c100fc",
+  "question": [
+    "Which of the following statement is INCORRECT?"
+  ],
+  "choices": [
+    [
+      "Bond length of <katex>$O_{2}$</katex> < Bond length of <katex>$O_{2}^{2-}$</katex>"
+    ],
+    [
+      "Bond order of <katex>$O_{2}=$</katex> Bond order of <katex>$O_{2}^{2}$</katex>"
+    ],
+    [
+      "Bond length of <katex>$O_{2}>$</katex> Bond length of <katex>$O_{2}^{2+}$</katex>"
+    ],
+    [
+      "Bond order of <katex>$O_{2}^{+}:$</katex> < Bond order of <katex>$O_{2}^{2-}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Bond Orders: <katex>$O_2^+ = 2.5$</katex>, <katex>$O_2^{2-} = 1.0$</katex>.",
+    "Statement D claims <katex>$2.5 < 1.0$</katex>, which is incorrect."
+  ],
+  "years": [
+    2023
+  ]
+}

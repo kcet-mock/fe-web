@@ -1,0 +1,27 @@
+{
+  "id": "68c50b0b-9a04-4b56-9ab1-bb4078c0727a",
+  "question": [
+    "Dimerisation of solute molecules in low dielectric constant solvent is due to:"
+  ],
+  "choices": [
+    [
+      "Co-ordinate bond"
+    ],
+    [
+      "Ionic bond"
+    ],
+    [
+      "Hydrogen bond"
+    ],
+    [
+      "Covalent bond"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Dimerization (e.g., acetic acid in benzene) typically occurs due to intermolecular Hydrogen bonding."
+  ],
+  "years": [
+    2023
+  ]
+}

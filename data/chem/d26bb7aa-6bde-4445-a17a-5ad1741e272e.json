@@ -1,0 +1,28 @@
+{
+  "id": "d26bb7aa-6bde-4445-a17a-5ad1741e272e",
+  "question": [
+    "The correct order of first ionisation enthalpy of given elements is:"
+  ],
+  "choices": [
+    [
+      "<katex>$C<B<Be<Li$</katex>"
+    ],
+    [
+      "<katex>$Li<Be<B<C$</katex>"
+    ],
+    [
+      "<katex>$Li<B<Be<C$</katex>"
+    ],
+    [
+      "<katex>$Be<Li<B<C$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "General trend increases across a period. However, Be (<katex>$2s^2$</katex>) is more stable than B (<katex>$2s^2 2p^1$</katex>), so B < Be.",
+    "Order: <katex>$Li < B < Be < C$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

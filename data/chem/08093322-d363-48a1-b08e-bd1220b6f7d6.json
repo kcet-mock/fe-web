@@ -1,0 +1,31 @@
+{
+  "id": "08093322-d363-48a1-b08e-bd1220b6f7d6",
+  "question": [
+    "Compounds P and R in the following reaction are",
+    "<katex>$CH_{3}CHO \\xrightarrow[(ii)H_{3}O^{+}]{(i)CH_{3}MgBr} P \\xrightarrow[heat]{conc H_{2}SO_{4}} Q \\xrightarrow[(ii)H_{2}O_{2}/OH^{-}]{(i)B_{2}H_{6}} R$</katex>"
+  ],
+  "choices": [
+    [
+      "Metamers"
+    ],
+    [
+      "Identical"
+    ],
+    [
+      "Position isomers"
+    ],
+    [
+      "Functional isomers"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "1. <katex>$CH_3CHO + CH_3MgBr \\to CH_3CH(OH)CH_3$</katex> (Propan-2-ol, P).",
+    "2. Dehydration of P gives <katex>$CH_3CH=CH_2$</katex> (Propene, Q).",
+    "3. Hydroboration-oxidation of Q gives <katex>$CH_3CH_2CH_2OH$</katex> (Propan-1-ol, R).",
+    "P (Propan-2-ol) and R (Propan-1-ol) differ in the position of the -OH group, so they are Position Isomers."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "d712c64b-aacd-4757-8f19-ab68cd622b4e",
+  "question": [
+    "IUPAC name of the compound is (structure implied as tetramethylethylene):"
+  ],
+  "choices": [
+    [
+      "1, 1, 2, 2- tetra methylethene"
+    ],
+    [
+      "2,3-dimethyl butene"
+    ],
+    [
+      "2,3-dimethylbut-2-ene"
+    ],
+    [
+      "2,3-dimethyl butyne"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The structure <katex>$(CH_3)_2C=C(CH_3)_2$</katex> is named 2,3-dimethylbut-2-ene according to IUPAC rules."
+  ],
+  "years": [
+    2023
+  ]
+}

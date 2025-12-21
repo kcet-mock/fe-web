@@ -1,0 +1,27 @@
+{
+  "id": "fb7809a2-c0e7-4c98-9822-2a18085b21f1",
+  "question": [
+    "If 'a' stands for the edge length of the cubic systems - The ratio of radii in simple cubic, body centered cubic and face centered cubic unit cells is:"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{2}a:\\frac{\\sqrt{3}}{2}a:\\frac{\\sqrt{2}}{2}a$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}a:\\sqrt{3}a:\\frac{1}{\\sqrt{2}}a$</katex>"
+    ],
+    [
+      "<katex>$1a:\\sqrt{3}a:\\sqrt{2}a$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}a:\\frac{\\sqrt{3}}{4}a:\\frac{1}{2\\sqrt{2}}a$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "SC: <katex>$r=a/2$</katex>. BCC: <katex>$r=\\sqrt{3}a/4$</katex>. FCC: <katex>$r=a/(2\\sqrt{2})$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

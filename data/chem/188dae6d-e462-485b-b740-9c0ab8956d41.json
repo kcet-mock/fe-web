@@ -1,0 +1,29 @@
+{
+  "id": "188dae6d-e462-485b-b740-9c0ab8956d41",
+  "question": [
+    "A metal crystallises in a body centered cubic lattice with the metallic radius <katex>$\\sqrt{3}\\mathring{A}$</katex>. The volume of the unit cell in <katex>$m^3$</katex> is:"
+  ],
+  "choices": [
+    [
+      "<katex>$6.4\\times10^{-29}$</katex>"
+    ],
+    [
+      "<katex>$4\\times10^{-10}$</katex>"
+    ],
+    [
+      "<katex>$64\\times10^{-29}$</katex>"
+    ],
+    [
+      "<katex>$4\\times10^{-29}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For BCC, <katex>$r = \\frac{\\sqrt{3}}{4}a$</katex>. Given <katex>$r = \\sqrt{3} \\times 10^{-10}$</katex> m.",
+    "<katex>$a = \\frac{4r}{\\sqrt{3}} = 4 \\times 10^{-10}$</katex> m.",
+    "Volume <katex>$= a^3 = (4 \\times 10^{-10})^3 = 64 \\times 10^{-30} = 6.4 \\times 10^{-29} m^3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

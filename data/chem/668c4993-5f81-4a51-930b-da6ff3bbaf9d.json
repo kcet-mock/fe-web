@@ -1,0 +1,32 @@
+{
+  "id": "668c4993-5f81-4a51-930b-da6ff3bbaf9d",
+  "question": [
+    "Consider the following 4 electrodes:",
+    "A: <katex>$Ag^+(0.0001M)/Ag$</katex>",
+    "B: <katex>$Ag^+(0.1M)/Ag$</katex>",
+    "C: <katex>$Ag^+(0.01M)/Ag$</katex>",
+    "D: <katex>$Ag^+(0.001M)/Ag$</katex>",
+    "The order of reduction potential is:"
+  ],
+  "choices": [
+    [
+      "A > D > C > B"
+    ],
+    [
+      "A > B > C > D"
+    ],
+    [
+      "B > C > D > A"
+    ],
+    [
+      "C > D > A > B"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "According to Nernst equation, <katex>$E = E^0 + 0.059 \\log[Ag^+]$</katex>. The potential increases with increasing concentration of metal ion. <katex>$0.1 > 0.01 > 0.001 > 0.0001$</katex>. Order: B > C > D > A."
+  ],
+  "years": [
+    2023
+  ]
+}

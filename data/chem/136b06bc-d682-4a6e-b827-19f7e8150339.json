@@ -1,0 +1,27 @@
+{
+  "id": "136b06bc-d682-4a6e-b827-19f7e8150339",
+  "question": [
+    "In the balanced reaction: <katex>$aMnO_{4}^{-}+bS_{2}O_{3}^{-2}+H_{2}O\\rightarrow xMnO_{2}+ySO_{4}^{-2}+zOH^{-}$</katex>, the values of a and y respectively are:"
+  ],
+  "choices": [
+    [
+      "3; 6"
+    ],
+    [
+      "8; 8"
+    ],
+    [
+      "8; 3"
+    ],
+    [
+      "8; 6"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Balancing the redox reaction in neutral/alkaline medium gives: <katex>$8MnO_4^- + 3S_2O_3^{2-} + H_2O \to 8MnO_2 + 6SO_4^{2-} + 2OH^-$</katex>. So a=8, y=6."
+  ],
+  "years": [
+    2023
+  ]
+}

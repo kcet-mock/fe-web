@@ -1,0 +1,27 @@
+{
+  "id": "62b3ad52-28e5-4343-90df-933a155f9c1d",
+  "question": [
+    "Which of the following is an organometallic compound?"
+  ],
+  "choices": [
+    [
+      "<katex>$(CH_{3}COO)_{2}Ca$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}ONa$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}COONa$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}CH_{2}MgBr$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "An organometallic compound must contain a direct Metal-Carbon bond. Ethylmagnesium bromide (Grignard reagent) has a C-Mg bond."
+  ],
+  "years": [
+    2023
+  ]
+}
