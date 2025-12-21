@@ -1,0 +1,33 @@
+{
+  "id": "e1e40adc-7c45-4402-8754-6463a2b46833",
+  "question": [
+    "Five capacitors each of value <katex>$1 \\mu F$</katex> are connected as shown in the figure. The equivalent capacitance between A and B is",
+    "images/question_52.png"
+  ],
+  "choices": [
+    [
+      "<katex>$2 \\mu F$</katex>"
+    ],
+    [
+      "<katex>$5 \\mu F$</katex>"
+    ],
+    [
+      "<katex>$3 \\mu F$</katex>"
+    ],
+    [
+      "<katex>$1 \\mu F$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "This is a balanced Wheatstone bridge of capacitors (ratio 1:1 = 1:1).",
+    "The central capacitor is ineffective.",
+    "The circuit reduces to two series branches in parallel.",
+    "Branch 1 (top): 1 and 1 in series = 0.5.",
+    "Branch 2 (bottom): 1 and 1 in series = 0.5.",
+    "Total: <katex>$0.5 + 0.5 = 1 \\mu F$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

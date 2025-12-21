@@ -3,35 +3,14 @@
 import argparse
 import json
 import sys
-import time
 import uuid
 from pathlib import Path
 from typing import Any, Dict, List
 
 
-def uuid7() -> uuid.UUID:
-    """Generate a time-based UUID v7 (compatible with Python < 3.12)."""
-    # Get current timestamp in milliseconds
-    timestamp_ms = int(time.time() * 1000)
-    
-    # Generate random bytes
-    random_bytes = uuid.uuid4().bytes
-    
-    # Build UUID v7: timestamp (48 bits) + version (4 bits) + random (12 bits) + variant (2 bits) + random (62 bits)
-    timestamp_bytes = timestamp_ms.to_bytes(6, byteorder='big')
-    
-    # Combine timestamp with random data
-    uuid_bytes = (
-        timestamp_bytes +  # 48 bits timestamp
-        bytes([
-            (random_bytes[6] & 0x0F) | 0x70,  # version 7
-            random_bytes[7],
-            (random_bytes[8] & 0x3F) | 0x80,  # variant
-        ]) +
-        random_bytes[9:16]  # remaining random bits
-    )
-    
-    return uuid.UUID(bytes=uuid_bytes)
+def generate_uuid() -> uuid.UUID:
+    """Generate a random UUID v4."""
+    return uuid.uuid4()
 
 
 def _normalize_image_token(value: str) -> str:
@@ -137,8 +116,8 @@ def _normalize_explanation(explanation: Any) -> List[str]:
 
 
 def convert_question(raw: Dict[str, Any]) -> Dict[str, Any]:
-    """Convert a question to the standard format with new time-based UUID."""
-    new_id = str(uuid7())
+    """Convert a question to the standard format with random UUID."""
+    new_id = str(generate_uuid())
     
     record = {
         "id": new_id,

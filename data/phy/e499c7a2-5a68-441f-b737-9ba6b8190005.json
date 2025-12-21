@@ -1,0 +1,31 @@
+{
+  "id": "e499c7a2-5a68-441f-b737-9ba6b8190005",
+  "question": [
+    "A nucleus with mass number 220 initially at rest emits an alpha particle. If the Q value of reaction is 5.5 MeV, calculate the value of kinetic energy of alpha particle."
+  ],
+  "choices": [
+    [
+      "7.4 MeV"
+    ],
+    [
+      "4.5 MeV"
+    ],
+    [
+      "6.5 MeV"
+    ],
+    [
+      "5.4 MeV"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Conservation of momentum: <katex>$p_{\\alpha} = p_{recoil}$</katex>.",
+    "Kinetic Energy <katex>$K = p^2/2m$</katex>, so <katex>$K \\propto 1/m$</katex>.",
+    "<katex>$\\frac{K_{\\alpha}}{K_{recoil}} = \\frac{m_{recoil}}{m_{\\alpha}} = \\frac{220-4}{4} = \\frac{216}{4} = 54$</katex>.",
+    "<katex>$K_{\\alpha} = \\frac{m_{recoil}}{m_{total}} Q$</katex> (approx formula). Actually <katex>$K_{\\alpha} = \\frac{A-4}{A} Q$</katex>.",
+    "<katex>$K_{\\alpha} = \\frac{216}{220} \\times 5.5 = \\frac{54}{55} \\times 5.5 = 5.4 MeV$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

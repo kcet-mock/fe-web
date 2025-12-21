@@ -1,0 +1,31 @@
+{
+  "id": "c958cb43-39ed-4fae-a1e1-0f6a869e71ab",
+  "question": [
+    "A metallic rod of length 1 m held along east-west direction is allowed to fall down freely. Given horizontal component of earth's magnetic field <katex>$B_{H}=3\\times10^{-5}T$</katex>. The emf induced in the rod at an instant <katex>$t=2s$</katex> after it is released is (Take <katex>$g=10ms^{-2}$</katex>)"
+  ],
+  "choices": [
+    [
+      "<katex>$3\\times10^{-4}V$</katex>"
+    ],
+    [
+      "<katex>$6\\times10^{-3}V$</katex>"
+    ],
+    [
+      "<katex>$6\\times10^{-4}V$</katex>"
+    ],
+    [
+      "<katex>$3\\times10^{-3}V$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The rod falls vertically, cutting the horizontal component of Earth's magnetic field (<katex>$B_H$</katex>). Note: Since it is aligned East-West and falls, it cuts the horizontal North-South flux lines.",
+    "Induced emf <katex>$\\varepsilon = B_H l v$</katex>.",
+    "Velocity at <katex>$t=2s$</katex> is <katex>$v = u + gt = 0 + 10(2) = 20 ms^{-1}$</katex>.",
+    "<katex>$\\varepsilon = (3 \\times 10^{-5}) \\times 1 \\times 20$</katex>",
+    "<katex>$\\varepsilon = 60 \\times 10^{-5} = 6 \\times 10^{-4} V$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

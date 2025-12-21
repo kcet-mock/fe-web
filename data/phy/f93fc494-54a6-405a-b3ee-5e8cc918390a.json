@@ -1,0 +1,32 @@
+{
+  "id": "f93fc494-54a6-405a-b3ee-5e8cc918390a",
+  "question": [
+    "100 g of ice at <katex>$0^{\\circ}C$</katex> is mixed with 100 g of water at <katex>$100^{\\circ}C$</katex>. The final temperature of the mixture is [Take <katex>$L_{f}=3.36\\times10^{5}J~kg^{-1}$</katex> and <katex>$S_{w}=4.2\\times10^{3}J~kg^{-1}k^{-1}$</katex>]"
+  ],
+  "choices": [
+    [
+      "<katex>$50^{\\circ}C$</katex>"
+    ],
+    [
+      "<katex>$1^{\\circ}C$</katex>"
+    ],
+    [
+      "<katex>$40^{\\circ}C$</katex>"
+    ],
+    [
+      "<katex>$10^{\\circ}C$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Heat released by water cooling 100->T: <katex>$Q_1 = ms\\Delta T = 0.1 \\times 4200 \\times (100-T) = 420(100-T)$</katex>.",
+    "Heat absorbed by ice melting: <katex>$Q_2 = mL = 0.1 \\times 3.36 \\times 10^5 = 33600 J$</katex>.",
+    "Heat absorbed by melted ice warming 0->T: <katex>$Q_3 = ms\\Delta T = 0.1 \\times 4200 \\times (T-0) = 420T$</katex>.",
+    "Balance: <katex>$420(100-T) = 33600 + 420T$</katex>.",
+    "<katex>$42000 - 420T = 33600 + 420T$</katex>.",
+    "<katex>$8400 = 840T \\Rightarrow T = 10^{\\circ}C$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

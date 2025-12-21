@@ -1,0 +1,30 @@
+{
+  "id": "1b1b53f7-dcb0-459c-b2de-00439517c8d5",
+  "question": [
+    "For a given pair of transparent media, the critical angle for which colour is maximum?"
+  ],
+  "choices": [
+    [
+      "Blue"
+    ],
+    [
+      "Violet"
+    ],
+    [
+      "Green"
+    ],
+    [
+      "Red"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Critical angle <katex>$C$</katex> is given by <katex>$\\sin C = \\frac{1}{\\mu}$</katex>.",
+    "Refractive index <katex>$\\mu$</katex> is inversely proportional to wavelength (<katex>$\\lambda$</katex>) (Cauchy's relation). Red has the longest wavelength, so it has the lowest refractive index.",
+    "Since <katex>$\\mu$</katex> is lowest for Red, <katex>$\\sin C$</katex> is maximum for Red.",
+    "Therefore, the critical angle is maximum for Red light."
+  ],
+  "years": [
+    2023
+  ]
+}

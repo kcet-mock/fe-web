@@ -1,0 +1,29 @@
+{
+  "id": "e6befe06-9bc3-455e-9bab-7a7ec7ee714a",
+  "question": [
+    "A positively charged glass rod is brought near uncharged metal sphere, which is mounted on an insulated stand. If the glass rod is removed, the net charge on the metal sphere is"
+  ],
+  "choices": [
+    [
+      "<katex>$1.6 \\times 10^{-19} C$</katex>"
+    ],
+    [
+      "Positive charge"
+    ],
+    [
+      "Negative charge"
+    ],
+    [
+      "Zero"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Induction causes separation of charge (polarization) on the sphere while the rod is present.",
+    "However, if the sphere is not grounded or touched, no charge enters or leaves the sphere.",
+    "When the rod is removed, the charges redistribute, and the net charge remains zero."
+  ],
+  "years": [
+    2023
+  ]
+}

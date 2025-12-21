@@ -1,0 +1,31 @@
+{
+  "id": "8c059bf6-3ec8-4719-87db-2a3e202bd91c",
+  "question": [
+    "A body of mass 10kg is kept on a horizontal surface. The coefficient of kinetic friction between the body and the surface is 0.5. A horizontal force of 60N is applied on the body. The resulting acceleration of the body is about"
+  ],
+  "choices": [
+    [
+      "<katex>$6ms^{-2}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$1~ms^{-2}$</katex>"
+    ],
+    [
+      "<katex>$5~ms^{-2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Friction force <katex>$f_k = \\mu_k N = \\mu_k mg$</katex>.",
+    "<katex>$f_k = 0.5 \\times 10 \\times 10 = 50 N$</katex>.",
+    "Applied force <katex>$F = 60 N$</katex>.",
+    "Net force <katex>$F_{net} = F - f_k = 60 - 50 = 10 N$</katex>.",
+    "Acceleration <katex>$a = F_{net} / m = 10 / 10 = 1 ms^{-2}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

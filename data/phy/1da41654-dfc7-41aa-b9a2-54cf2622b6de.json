@@ -1,0 +1,29 @@
+{
+  "id": "1da41654-dfc7-41aa-b9a2-54cf2622b6de",
+  "question": [
+    "Electric field at a distance 'r' from an infinitely long uniformly charged straight conductor, having linear charge density <katex>$\\lambda$</katex> is E1. Another uniformly charged conductor having same linear charge density <katex>$\\lambda$</katex> is bent into a semicircle of radius 'r'. The electric field at its centre is E2. Then"
+  ],
+  "choices": [
+    [
+      "<katex>$E_{1}=E_{2}$</katex>"
+    ],
+    [
+      "<katex>$E_{1}=\\pi rE_{2}$</katex>"
+    ],
+    [
+      "<katex>$E_{2}=\\pi rE_{1}$</katex>"
+    ],
+    [
+      "<katex>$E_{1}=2E_{2}r$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Field of infinite wire <katex>$E_1 = \\frac{2k\\lambda}{r} = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$</katex>.",
+    "Field at center of semicircle ring <katex>$E_2 = \\frac{2k\\lambda}{r}$</katex>.",
+    "Therefore, <katex>$E_1 = E_2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

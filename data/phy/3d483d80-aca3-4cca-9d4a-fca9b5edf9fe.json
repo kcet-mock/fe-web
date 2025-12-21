@@ -1,0 +1,30 @@
+{
+  "id": "3d483d80-aca3-4cca-9d4a-fca9b5edf9fe",
+  "question": [
+    "A full-wave rectifier with diodes <katex>$D_{1}$</katex> and <katex>$D_{2}$</katex> is used to rectify 50 Hz alternating voltage. The diode <katex>$D_{1}$</katex> conducts how many times in one second."
+  ],
+  "choices": [
+    [
+      "75"
+    ],
+    [
+      "50"
+    ],
+    [
+      "100"
+    ],
+    [
+      "25"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In a full-wave rectifier, <katex>$D_1$</katex> conducts during the positive half-cycles and <katex>$D_2$</katex> conducts during the negative half-cycles.",
+    "The input frequency is 50 Hz, meaning there are 50 full cycles per second.",
+    "Therefore, there are 50 positive half-cycles per second.",
+    "<katex>$D_1$</katex> conducts once per cycle, so 50 times per second."
+  ],
+  "years": [
+    2023
+  ]
+}

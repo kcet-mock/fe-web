@@ -1,0 +1,29 @@
+{
+  "id": "889c704e-0c20-4225-b662-d272505f510c",
+  "question": [
+    "In the Rutherford's alpha scattering experiment, as the impact parameter increases, the scattering angle of the alpha particle"
+  ],
+  "choices": [
+    [
+      "Decreases"
+    ],
+    [
+      "Increases"
+    ],
+    [
+      "Remains the same"
+    ],
+    [
+      "Is always <katex>$90^{\\circ}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The impact parameter (<katex>$b$</katex>) is the perpendicular distance of the velocity vector of the alpha particle from the center of the nucleus.",
+    "The scattering angle (<katex>$\\theta$</katex>) is related to <katex>$b$</katex> by <katex>$b \\propto \\cot(\\theta/2)$</katex>.",
+    "As <katex>$b$</katex> increases (particle passes further away), the repulsive force is weaker, so the scattering angle <katex>$\\theta$</katex> decreases."
+  ],
+  "years": [
+    2023
+  ]
+}

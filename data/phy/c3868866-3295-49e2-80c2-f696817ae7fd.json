@@ -1,0 +1,34 @@
+{
+  "id": "c3868866-3295-49e2-80c2-f696817ae7fd",
+  "question": [
+    "Three energy levels of hydrogen atom and the corresponding wavelength of the emitted radiation due to different electron transition are as shown. Then.",
+    "images/question_20.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\lambda_{2}=\\lambda_{1}+\\lambda_{3}$</katex>"
+    ],
+    [
+      "<katex>$\\lambda_{2}=\\frac{\\lambda_{1}\\lambda_{3}}{\\lambda_{1}+\\lambda_{3}}$</katex>"
+    ],
+    [
+      "<katex>$\\lambda_{3}=\\frac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1}+\\lambda_{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\lambda_{1}=\\frac{\\lambda_{2}\\lambda_{3}}{\\lambda_{2}+\\lambda_{3}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let the energy levels be <katex>$E_1, E_2, E_3$</katex> (descending order).",
+    "Transition 1: <katex>$\\Delta E_1 = \\frac{hc}{\\lambda_1}$</katex>.",
+    "Transition 3: <katex>$\\Delta E_3 = \\frac{hc}{\\lambda_3}$</katex>.",
+    "Transition 2 (covering the sum of energy gaps of 1 and 3): <katex>$\\Delta E_2 = \\Delta E_1 + \\Delta E_3$</katex>.",
+    "<katex>$\\frac{hc}{\\lambda_2} = \\frac{hc}{\\lambda_1} + \\frac{hc}{\\lambda_3}$</katex>.",
+    "<katex>$\\frac{1}{\\lambda_2} = \\frac{1}{\\lambda_1} + \\frac{1}{\\lambda_3} = \\frac{\\lambda_1 + \\lambda_3}{\\lambda_1 \\lambda_3}$</katex>.",
+    "<katex>$\\lambda_2 = \\frac{\\lambda_1 \\lambda_3}{\\lambda_1 + \\lambda_3}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

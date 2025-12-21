@@ -1,0 +1,31 @@
+{
+  "id": "9ba4ae37-52a8-4ff8-aa2d-7c84b204e666",
+  "question": [
+    "A point object is moving at a constant speed of <katex>$1ms^{-1}$</katex> along the principal axis of a convex lens of focal length 10cm. The speed of the image is also <katex>$1ms^{-1}$</katex>, when the object is at cm from the optic centre of the lens."
+  ],
+  "choices": [
+    [
+      "20"
+    ],
+    [
+      "5"
+    ],
+    [
+      "10"
+    ],
+    [
+      "15"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Longitudinal magnification formula for speed: <katex>$v_{image} = m^2 v_{object}$</katex>.",
+    "Given <katex>$v_{image} = v_{object} = 1$</katex>. This implies <katex>$m^2 = 1$</katex>, so <katex>$m = \\pm 1$</katex>.",
+    "For a real object and real image in a convex lens, <katex>$m = -1$</katex>.",
+    "Magnification <katex>$m = -1$</katex> occurs when the object is at <katex>$2f$</katex>.",
+    "Given <katex>$f = 10 cm$</katex>, object distance <katex>$u = 2f = 20 cm$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

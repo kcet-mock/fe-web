@@ -1,0 +1,31 @@
+{
+  "id": "0b5973c6-5276-48b6-a653-e29cfa952c9b",
+  "question": [
+    "A radioactive sample has half-life of 3 years. The time required for the activity of the sample to reduce to <katex>$\\frac{1}{5}$</katex>th of its initial value is about"
+  ],
+  "choices": [
+    [
+      "15 years"
+    ],
+    [
+      "5 years"
+    ],
+    [
+      "10 years"
+    ],
+    [
+      "7 years"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Activity <katex>$A = A_0 (1/2)^{t/T_{1/2}}$</katex>.",
+    "<katex>$1/5 = (1/2)^{t/3}$</katex>.",
+    "Take log base 2: <katex>$\\log_2 5 = t/3$</katex>.",
+    "<katex>$t = 3 \\times \\log_2 5$</katex>. Since <katex>$2^2=4$</katex> and <katex>$2^3=8$</katex>, <katex>$\\log_2 5$</katex> is approx 2.32.",
+    "<katex>$t = 3 \\times 2.32 = 6.96$</katex> years. Approx 7 years."
+  ],
+  "years": [
+    2023
+  ]
+}

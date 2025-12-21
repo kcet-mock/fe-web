@@ -1,0 +1,33 @@
+{
+  "id": "20589dd6-7365-4a7e-8d14-d485473b862b",
+  "question": [
+    "A square loop of side 2 cm enters a magnetic field with a constant speed of <katex>$2cm~s^{-1}$</katex> as shown. The front edge enters the field at <katex>$t=0s$</katex>. Which of the following graph correctly depicts the induced emf in the loop? (Take clockwise direction positive)",
+    "images/question_10.png"
+  ],
+  "choices": [
+    [
+      "images/question_10_choice_A.png"
+    ],
+    [
+      "images/question_10_choice_B.png"
+    ],
+    [
+      "images/question_10_choice_C.png"
+    ],
+    [
+      "images/question_10_choice_D.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "As the loop enters the field (0 to 1s), flux increases into the page. By Lenz's law, induced current opposes this, creating outward flux (Counter-Clockwise). If Clockwise is positive, emf is negative.",
+    "Duration of entry: <katex>$\\text{width} / \\text{speed} = 2cm / 2cm s^{-1} = 1s$</katex>.",
+    "While completely inside (1s to 5s), flux is constant, so emf is zero. (Field width is 10cm, loop is 2cm. <katex>$(10)/2 = 5s$</katex> to cross? No, distance to traverse fully inside is <katex>$10-2 = 8cm$</katex>. Time <katex>$= 4s$</katex>. So from t=1 to t=5.)",
+    "As it leaves (5s to 6s), flux decreases. Induced current tries to maintain flux, so it is Clockwise (Positive).",
+    "Magnitude <katex>$\\varepsilon = Blv = 0.5 \\times 0.02 \\times 0.02 = 2 \\times 10^{-4} V$</katex>.",
+    "Graph B shows: Negative constant emf for 0-1s, Zero for 1-5s, Positive constant emf for 5-6s."
+  ],
+  "years": [
+    2023
+  ]
+}

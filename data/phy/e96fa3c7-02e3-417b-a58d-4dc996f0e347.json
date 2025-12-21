@@ -1,0 +1,35 @@
+{
+  "id": "e96fa3c7-02e3-417b-a58d-4dc996f0e347",
+  "question": [
+    "A moving coil galvanometer is converted into an ammeter of range 0 to 5 mA. The galvanometer resistance is <katex>$90\\Omega$</katex> and the shunt resistance has a value of <katex>$10\\Omega$</katex>. If there are 50 divisions in the galvanometer-turned-ammeter on either sides of zero, its current sensitivity is"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\times10^{4}A/div$</katex>"
+    ],
+    [
+      "<katex>$1\\times10^{5}div/A$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{4}div/A$</katex>"
+    ],
+    [
+      "<katex>$1\\times10^{5}A/div$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Current sensitivity is defined as the deflection per unit current (<katex>$\\frac{\\theta}{I}$</katex>).",
+    "The full scale current <katex>$I_g$</katex> corresponds to the maximum number of divisions.",
+    "Wait, the problem gives the range of the *ammeter* (I) as 5 mA. The galvanometer is converted using a shunt.",
+    "However, for the *ammeter*, the full scale deflection (50 divisions) corresponds to the full range current (5 mA).",
+    "Current Sensitivity = <katex>$\\frac{\\text{Total Divisions}}{\\text{Full Scale Current}}$</katex>",
+    "Sensitivity = <katex>$\\frac{50 \\text{ div}}{5 \\times 10^{-3} \\text{ A}} = 10 \\times 10^3 \\text{ div/A} = 1 \\times 10^4 \\text{ div/A}$</katex>.",
+    "Note: The provided answer key says B (<katex>$1\\times10^{5}div/A$</katex>). Let's re-read carefully. 'Range 0 to 5mA'. 50 divisions.",
+    "Calculation: <katex>$50 / (5 \\times 10^{-3}) = 10,000 = 10^4$</katex>. There might be a typo in the question or options in the original paper, or the range refers to the galvanometer current <katex>$I_g$</katex> specifically. Using the standard formula, <katex>$I_g = I \\frac{S}{G+S} = 5mA \\frac{10}{90+10} = 0.5mA$</katex>.",
+    "If sensitivity is based on <katex>$I_g$</katex>: <katex>$\\frac{50}{0.5 \\times 10^{-3}} = 100 \\times 10^3 = 1 \\times 10^5 \\text{ div/A}$</katex>. This matches Option B."
+  ],
+  "years": [
+    2023
+  ]
+}

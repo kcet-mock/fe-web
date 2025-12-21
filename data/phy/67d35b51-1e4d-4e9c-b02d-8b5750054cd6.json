@@ -1,0 +1,30 @@
+{
+  "id": "67d35b51-1e4d-4e9c-b02d-8b5750054cd6",
+  "question": [
+    "For a given electric current the drift velocity of conduction electrons in a copper wire is v and their mobility is <katex>$\\mu$</katex>. When the current is increased at constant temperature"
+  ],
+  "choices": [
+    [
+      "<katex>$v_d$</katex> decreases, <katex>$\\mu$</katex> remains the same"
+    ],
+    [
+      "<katex>$v_d$</katex> remains the same, <katex>$\\mu$</katex> decreases"
+    ],
+    [
+      "<katex>$v_d$</katex> increases, <katex>$\\mu$</katex> remains the same"
+    ],
+    [
+      "<katex>$v_d$</katex> remains the same, <katex>$\\mu$</katex> increases"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Drift velocity <katex>$v_d = \\frac{I}{neA}$</katex>. If Current I increases, <katex>$v_d$</katex> increases.",
+    "Mobility <katex>$\\mu = \\frac{v_d}{E} = \\frac{e\\tau}{m}$</katex>. It depends on relaxation time <katex>$\\tau$</katex> and mass.",
+    "Since temperature is constant, relaxation time <katex>$\\tau$</katex> is constant.",
+    "Therefore, mobility <katex>$\\mu$</katex> remains the same."
+  ],
+  "years": [
+    2023
+  ]
+}

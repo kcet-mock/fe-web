@@ -1,0 +1,28 @@
+{
+  "id": "96ae0393-a988-4113-935a-73aeba045281",
+  "question": [
+    "When a planet revolves around the Sun, in general, for the planet"
+  ],
+  "choices": [
+    [
+      "Kinetic and potential energy of the planet are constant."
+    ],
+    [
+      "Angular momentum about the Sun and aerial velocity of the planet are constant."
+    ],
+    [
+      "Linear momentum and linear velocity are constant."
+    ],
+    [
+      "Linear momentum and aerial velocity are constant."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to Kepler's Second Law, the areal velocity is constant.",
+    "This implies the conservation of angular momentum about the Sun, as the gravitational force is central (torque is zero)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "d569d470-3219-46e4-9980-d57961f04ad2",
+  "question": [
+    "Total impedance of a series LCR circuit varies with angular frequency of the AC source connected to it as shown in the graph. The quality factor Q of the series LCR circuit is",
+    "images/question_15.png"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0.4"
+    ],
+    [
+      "2.5"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Quality factor <katex>$Q = \\frac{\\omega_0}{\\Delta \\omega}$</katex>.",
+    "From the graph (assumed standard LCR resonance curve): Resonant frequency <katex>$\\omega_0$</katex> is at the minimum impedance <katex>$Z_{min}$</katex>.",
+    "Looking at the axis, <katex>$\\omega_0 = 500$</katex> rad/s.",
+    "Bandwidth <katex>$\\Delta \\omega$</katex> corresponds to frequencies where <katex>$Z = \\sqrt{2}Z_{min}$</katex>. From the graph, these are <katex>$\\omega_1 = 400$</katex> and <katex>$\\omega_2 = 600$</katex>.",
+    "<katex>$\\Delta \\omega = 600 - 400 = 200$</katex>.",
+    "<katex>$Q = \\frac{500}{200} = 2.5$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}
