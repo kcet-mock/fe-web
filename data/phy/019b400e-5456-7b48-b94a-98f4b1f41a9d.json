@@ -1,0 +1,29 @@
+{
+  "id": "019b400e-5456-7b48-b94a-98f4b1f41a9d",
+  "question": [
+    "If $v_{p}$, $L_{p}$ and $r_{p}$ are radii, velocities and angular momenta of a planet at perihelion and $v_{a}$, $L_{a}$, $r_{a}$ are those at aphelion of its elliptical orbit around the Sun respectively, then"
+  ],
+  "choices": [
+    [
+      "$r_{p} > r_{a}$, $v_{p} > v_{a}$, $L_{a} > L_{p}$"
+    ],
+    [
+      "$r_{p} < r_{a}$, $v_{p} > v_{a}$, $L_{a} = L_{p}$"
+    ],
+    [
+      "$r_{p} > r_{a}$, $v_{p} < v_{a}$, $L_{a} = L_{p}$"
+    ],
+    [
+      "$r_{p} < r_{a}$, $v_{p} < v_{a}$, $L_{a} < L_{p}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Angular momentum is conserved: $L_p = L_a$.",
+    "Perihelion is the closest point: $r_p < r_a$.",
+    "Since $L = mvr$, and $L$ is constant, $v \\propto 1/r$. Therefore $v_p > v_a$."
+  ],
+  "years": [
+    2025
+  ]
+}

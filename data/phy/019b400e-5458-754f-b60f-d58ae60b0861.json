@@ -1,0 +1,27 @@
+{
+  "id": "019b400e-5458-754f-b60f-d58ae60b0861",
+  "question": [
+    "Which of the following is a correct statement?"
+  ],
+  "choices": [
+    [
+      "Gauss's law is true for any open surface"
+    ],
+    [
+      "Gauss's law is not applicable when charges are not symmetrically distributed over a closed surface"
+    ],
+    [
+      "Gauss's law does not hold good for a charge situated outside the Gaussian surface"
+    ],
+    [
+      "Gauss's law is true for any closed surface"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Gauss's Law ($\\oint E \\cdot dA = q_{in}/\\epsilon_0$) is universally true for any closed surface, regardless of the shape or charge distribution."
+  ],
+  "years": [
+    2025
+  ]
+}

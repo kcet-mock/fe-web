@@ -1,0 +1,31 @@
+{
+  "id": "019b400e-5457-7499-9255-7ac4539f0756",
+  "question": [
+    "A horizontal pipe carries water in a streamlined flow. At a point along the pipe, where the cross-sectional area is $10~cm^{2}$, the velocity of water is $1~ms^{-1}$ and the pressure is 2000 Pa. What is the pressure of water at another point where the cross-sectional area is $5~cm^{2}$? [Density of water $=1000~kgm^{-3}]$"
+  ],
+  "choices": [
+    [
+      "300 Pa"
+    ],
+    [
+      "400 Pa"
+    ],
+    [
+      "500 Pa"
+    ],
+    [
+      "200 Pa"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Continuity equation: $A_1 V_1 = A_2 V_2 \\Rightarrow 10 \\times 1 = 5 \\times V_2 \\Rightarrow V_2 = 2$ m/s.",
+    "Bernoulli's equation: $P_1 + \\frac{1}{2}\\rho V_1^2 = P_2 + \\frac{1}{2}\\rho V_2^2$",
+    "$2000 + \\frac{1}{2}(1000)(1)^2 = P_2 + \\frac{1}{2}(1000)(2)^2$",
+    "$2000 + 500 = P_2 + 2000$",
+    "$P_2 = 500$ Pa."
+  ],
+  "years": [
+    2025
+  ]
+}

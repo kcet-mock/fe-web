@@ -1,0 +1,31 @@
+{
+  "id": "019b400e-545c-716a-a985-f882a4042074",
+  "question": [
+    "If r and r1 denotes the angles inside the prism having angle of prism $50^{\\circ}$ considering that during interval of time from t = 0 to t = t, r varies with time as $r = 10 + t^{\\circ}$. During the time r1 will vary with time as",
+    "images/c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f.png"
+  ],
+  "choices": [
+    [
+      "$40 + t^{\\circ}$"
+    ],
+    [
+      "$50 - t^{\\circ}$"
+    ],
+    [
+      "$50 + t^{\\circ}$"
+    ],
+    [
+      "$40 - t^{\\circ}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "For a prism, $A = r + r_1$.",
+    "Given $A = 50^{\\circ}$ and $r = 10 + t$.",
+    "$50 = (10 + t) + r_1$",
+    "$r_1 = 50 - 10 - t = 40 - t^{\\circ}$."
+  ],
+  "years": [
+    2025
+  ]
+}

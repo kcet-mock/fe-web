@@ -1,0 +1,31 @@
+{
+  "id": "019b400e-5456-7a9a-a134-6c56ef9efce4",
+  "question": [
+    "A body of mass 0.25 kg travels along a straight line from $x=0$ to $x=2$ m with a speed $v=kx^{3/2}$ where $k=2$ SI units. The work done by the net force during this displacement is"
+  ],
+  "choices": [
+    [
+      "8 J"
+    ],
+    [
+      "16 J"
+    ],
+    [
+      "32 J"
+    ],
+    [
+      "4 J"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to the Work-Energy Theorem: $W_{net} = \\Delta KE$.",
+    "Initial velocity ($x=0$): $u = 0$.",
+    "Final velocity ($x=2$): $v = 2(2)^{3/2} = 2(2\\sqrt{2}) = 4\\sqrt{2}$.",
+    "$W = \\frac{1}{2}m(v^2 - u^2) = \\frac{1}{2} \\times 0.25 \\times ((4\\sqrt{2})^2 - 0)$",
+    "$W = \\frac{1}{2} \\times \\frac{1}{4} \\times 32 = 4$ J."
+  ],
+  "years": [
+    2025
+  ]
+}

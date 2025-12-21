@@ -1,0 +1,27 @@
+{
+  "id": "019b400e-545c-776c-ae9d-4caa24f8017a",
+  "question": [
+    "Which of the following statements is incorrect with reference of 'Nuclear force'?"
+  ],
+  "choices": [
+    [
+      "Nuclear force becomes attractive for nucleon distances larger than 0.8 fm"
+    ],
+    [
+      "Nuclear force becomes repulsive for nucleon distances less then 0.8fm"
+    ],
+    [
+      "Nuclear force is always attractive"
+    ],
+    [
+      "Potential energy is minimum, if the separation between the nucleons is 0.8 fm"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Nuclear force is strongly attractive at distances roughly between 0.8 fm and 2.5 fm, but it becomes repulsive at very short distances (less than 0.8 fm) to prevent nucleus collapse. Thus, saying it is 'always attractive' is incorrect."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b400e-5458-77ff-9d99-5f7a38ed7724",
+  "question": [
+    "Charges are uniformly spread on the surface of a conducting sphere. The electric field from the centre of sphere to a point outside the sphere varies with distance r from the centre as",
+    "images/d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a.png"
+  ],
+  "choices": [
+    [
+      "Graph 1 (Zero inside, decreasing outside)"
+    ],
+    [
+      "Graph 2 (Linear decreasing)"
+    ],
+    [
+      "Graph 3 (Curve)"
+    ],
+    [
+      "Graph 4 (Curve)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For a conducting sphere, the electric field inside ($r < R$) is zero.",
+    "Outside the sphere ($r \\ge R$), it behaves like a point charge: $E \\propto 1/r^2$.",
+    "Graph 1 correctly depicts $E=0$ up to $R$, then a $1/r^2$ decay."
+  ],
+  "years": [
+    2025
+  ]
+}

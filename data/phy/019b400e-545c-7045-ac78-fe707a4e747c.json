@@ -1,0 +1,38 @@
+{
+  "id": "019b400e-545c-7045-ac78-fe707a4e747c",
+  "question": [
+    "Match the following types of nuclei with examples shown",
+    "**Column-I**",
+    "A. Isotopes",
+    "B. Isobars",
+    "C. Isotones",
+    "**Column-II**",
+    "i. $^7Li_3, ^7Be_4$",
+    "ii. $^{18}O_8, ^{19}F_9$",
+    "iii. $^1H_1, ^2H_1$"
+  ],
+  "choices": [
+    [
+      "A-ii, B-iii, C-i"
+    ],
+    [
+      "A-i, B-iii, C-ii"
+    ],
+    [
+      "A-iii, B-ii, C-i"
+    ],
+    [
+      "A-iii, B-i, C-ii"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "A. Isotopes (Same Z): $^1H_1, ^2H_1$ (matches iii)",
+    "B. Isobars (Same A): $^7Li_3, ^7Be_4$ (matches i)",
+    "C. Isotones (Same N = A-Z): $^{18}O_8 (10n), ^{19}F_9 (10n)$ (matches ii)",
+    "Result: A-iii, B-i, C-ii."
+  ],
+  "years": [
+    2025
+  ]
+}

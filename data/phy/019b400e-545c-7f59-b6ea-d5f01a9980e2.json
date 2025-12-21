@@ -1,0 +1,27 @@
+{
+  "id": "019b400e-545c-7f59-b6ea-d5f01a9980e2",
+  "question": [
+    "The image formed by an objective lens of a compound microscope is"
+  ],
+  "choices": [
+    [
+      "Real and diminished"
+    ],
+    [
+      "Real and enlarged"
+    ],
+    [
+      "Virtual and enlarged"
+    ],
+    [
+      "Virtual and diminished"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The objective lens of a compound microscope has a short focal length and forms a Real, Inverted, and Enlarged image of the object placed just beyond its focus."
+  ],
+  "years": [
+    2025
+  ]
+}

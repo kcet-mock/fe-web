@@ -1,0 +1,28 @@
+{
+  "id": "019b400e-5457-799f-800c-bb762708651a",
+  "question": [
+    "The angle between the particle velocity and wave velocity in a transverse wave is [except when the particle passes through the mean position]"
+  ],
+  "choices": [
+    [
+      "$\\frac{\\pi}{4}$ radian"
+    ],
+    [
+      "$\\frac{\\pi}{2}$ radian"
+    ],
+    [
+      "$\\pi$ radian"
+    ],
+    [
+      "Zero radian"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In a transverse wave, particles oscillate perpendicular to the direction of wave propagation.",
+    "Therefore, the angle is $90^{\\circ}$ or $\\pi/2$ radians."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b400e-545d-71f4-aa1f-fdaf77c9a7b1",
+  "question": [
+    "In the projectile motion of a particle on a level ground, which of the following remains constant with reference to time and position?"
+  ],
+  "choices": [
+    [
+      "Average velocity between any two points on the path"
+    ],
+    [
+      "Horizontal component of velocity"
+    ],
+    [
+      "Angle between the instantaneous velocity with the horizontal"
+    ],
+    [
+      "Vertical component of the velocity of the projectile"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In projectile motion (neglecting air resistance), there is no acceleration in the horizontal direction ($a_x = 0$).",
+    "Therefore, the horizontal component of velocity ($u \\cos \\theta$) remains constant throughout the flight."
+  ],
+  "years": [
+    2025
+  ]
+}

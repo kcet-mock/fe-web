@@ -1,0 +1,32 @@
+{
+  "id": "019b400e-545d-78b1-a166-7fe2314fe207",
+  "question": [
+    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resistance of $5200\\Omega$ in R. When $K_1$ is closed and $K_2$ is open, the deflection observed in the galvanometer is 26 div. When $K_2$ is also closed and a resistance of $90\\Omega$ is removed in S, the deflection between 13 div. The resistance of galvanometer is nearly",
+    "images/f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c.png"
+  ],
+  "choices": [
+    [
+      "45.0 $\\Omega$"
+    ],
+    [
+      "103.0 $\\Omega$"
+    ],
+    [
+      "91.6 $\\Omega$"
+    ],
+    [
+      "116.0 $\\Omega$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In the half-deflection method, if the deflection becomes exactly half when shunt S is connected, then the Galvanometer resistance $G$ is approximately equal to the Shunt resistance $S$, provided $R >> G$.",
+    "Here $S = 90\\Omega$.",
+    "Using the exact formula $G = \\frac{RS}{R-S}$ leads to slightly higher values, or using deflection proportionality.",
+    "The standard approximation yields $G \\approx S = 90\\Omega$.",
+    "The closest specific answer calculated in the solution (likely using full formula accounting for circuit changes) is 91.6 $\\Omega$."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b400e-5458-74cf-b337-321a36cc860b",
+  "question": [
+    "In the following circuit, the terminal voltage across the cell is",
+    "images/e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b.png"
+  ],
+  "choices": [
+    [
+      "1.68 V"
+    ],
+    [
+      "1.95 V"
+    ],
+    [
+      "2.71 V"
+    ],
+    [
+      "0.52 V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Total Resistance $R_{eq} = 3.9 + 0.1 = 4.0 \\Omega$.",
+    "Current $I = V / R_{eq} = 2 / 4 = 0.5$ A.",
+    "Terminal Voltage $V_T = E - Ir = 2 - (0.5 \\times 0.1) = 2 - 0.05 = 1.95$ V."
+  ],
+  "years": [
+    2025
+  ]
+}

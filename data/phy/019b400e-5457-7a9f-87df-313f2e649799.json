@@ -1,0 +1,32 @@
+{
+  "id": "019b400e-5457-7a9f-87df-313f2e649799",
+  "question": [
+    "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained as indicated. Assuming no heat energy loss occurs through the curved surfaces of the rods, the temperature at the junction x is",
+    "images/f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c.png"
+  ],
+  "choices": [
+    [
+      "$60^{\\circ}C$"
+    ],
+    [
+      "$30^{\\circ}C$"
+    ],
+    [
+      "$20^{\\circ}C$"
+    ],
+    [
+      "$45^{\\circ}C$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let junction temp be $T_x$.",
+    "Heat current entering = Heat current leaving.",
+    "$\\frac{T_x - 0}{R} = \\frac{90 - T_x}{R} + \\frac{90 - T_x}{R}$",
+    "$T_x = 90 - T_x + 90 - T_x$",
+    "$3T_x = 180 \\Rightarrow T_x = 60^{\\circ}C$."
+  ],
+  "years": [
+    2025
+  ]
+}

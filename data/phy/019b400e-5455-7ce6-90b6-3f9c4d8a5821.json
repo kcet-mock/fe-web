@@ -1,0 +1,33 @@
+{
+  "id": "019b400e-5455-7ce6-90b6-3f9c4d8a5821",
+  "question": [
+    "A wooden block of mass M lies on a rough floor. Another wooden block of the same mass is hanging from the point O through strings as shown in the figure. To achieve equilibrium, the co-efficient of static friction between the block on the floor with the floor itself is",
+    "images/a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d.png"
+  ],
+  "choices": [
+    [
+      "$\\mu = \\cot \\theta$"
+    ],
+    [
+      "$\\mu = \\sin \\theta$"
+    ],
+    [
+      "$\\mu = \\tan \\theta$"
+    ],
+    [
+      "$\\mu = \\cos \\theta$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For equilibrium:",
+    "Vertical forces on hanging block: $T \\sin \\theta = Mg$ (i)",
+    "Horizontal forces on floor block: $T \\cos \\theta = f_s = \\mu N = \\mu Mg$ (ii)",
+    "Dividing (ii) by (i):",
+    "$\\frac{T \\cos \\theta}{T \\sin \\theta} = \\frac{\\mu Mg}{Mg}$",
+    "$\\mu = \\cot \\theta$"
+  ],
+  "years": [
+    2025
+  ]
+}

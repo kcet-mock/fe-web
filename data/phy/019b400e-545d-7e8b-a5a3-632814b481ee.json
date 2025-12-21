@@ -1,0 +1,33 @@
+{
+  "id": "019b400e-545d-7e8b-a5a3-632814b481ee",
+  "question": [
+    "Two stones begin to fall from rest from the same height, with the second stone starting to fall '$\\Delta t$' seconds after the first falls from rest. The distance of separation between the two stones becomes 'H', '$t_0$' seconds after the first stone starts its motion. Then $t_0$ is equal to"
+  ],
+  "choices": [
+    [
+      "$\\frac{H}{g\\Delta t} + \\Delta t$"
+    ],
+    [
+      "$\\frac{H}{g\\Delta t} - \\frac{\\Delta t}{2}$"
+    ],
+    [
+      "$\\frac{H}{g\\Delta t} + \\frac{\\Delta t}{2}$"
+    ],
+    [
+      "$\\frac{H}{g\\Delta t}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Distance of first stone $S_1 = \\frac{1}{2}gt_0^2$.",
+    "Distance of second stone (falls for $t_0 - \\Delta t$): $S_2 = \\frac{1}{2}g(t_0 - \\Delta t)^2$.",
+    "Separation $H = S_1 - S_2 = \\frac{1}{2}g (t_0^2 - (t_0 - \\Delta t)^2)$.",
+    "$H = \\frac{g}{2} (t_0^2 - (t_0^2 - 2t_0\\Delta t + \\Delta t^2)) = \\frac{g}{2}(2t_0\\Delta t - \\Delta t^2)$.",
+    "$2H/g = 2t_0\\Delta t - \\Delta t^2$.",
+    "$2t_0\\Delta t = 2H/g + \\Delta t^2$.",
+    "$t_0 = \\frac{H}{g\\Delta t} + \\frac{\\Delta t}{2}$."
+  ],
+  "years": [
+    2025
+  ]
+}

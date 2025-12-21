@@ -1,0 +1,40 @@
+{
+  "id": "019b400e-5456-7a81-b00f-6c321f7a32d9",
+  "question": [
+    "Two fly wheels are connected by a non-slipping belt as shown in the figure. $I_{1}=4~kg~m^{2}$, $r_1 = 20cm$, $I_{2}=20~kg~m^{2}$ and $r_{2}=30cm$. A torque of 10 Nm is applied on the smaller wheel. Then match the entries of column I with appropriate entries of column II.",
+    "images/e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b.png",
+    "**Column I**",
+    "(a) Angular acceleration of smaller wheel",
+    "(b) Torque on the larger wheel",
+    "(c) Angular acceleration of larger wheel",
+    "**Column II**",
+    "(i) $5/3$",
+    "(ii) $100/3$",
+    "(iii) $5/2$"
+  ],
+  "choices": [
+    [
+      "a-ii, b-iii, c-i"
+    ],
+    [
+      "a-iii, b-i, c-ii"
+    ],
+    [
+      "a-ii, b-i, c-iii"
+    ],
+    [
+      "a-iii, b-ii, c-i"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "For smaller wheel: $\\tau_1 = I_1 \\alpha_1 \\Rightarrow 10 = 4 \\times \\alpha_1 \\Rightarrow \\alpha_1 = 2.5 = 5/2$ (matches iii).",
+    "Linear acceleration matches: $a = r_1 \\alpha_1 = r_2 \\alpha_2$.",
+    "$0.2 \\times (5/2) = 0.3 \\times \\alpha_2 \\Rightarrow 0.5 = 0.3 \\alpha_2 \\Rightarrow \\alpha_2 = 5/3$ (matches i).",
+    "Torque on larger wheel: $\\tau_2 = I_2 \\alpha_2 = 20 \\times (5/3) = 100/3$ (matches ii).",
+    "Result: a-iii, b-ii, c-i."
+  ],
+  "years": [
+    2025
+  ]
+}

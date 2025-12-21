@@ -1,0 +1,29 @@
+{
+  "id": "019b400e-5456-7a16-9c42-1d9033b56354",
+  "question": [
+    "The total energy of a satellite in a circular orbit at a distance $(R+h)$ from the centre of the Earth varies as [R is the radius of the Earth and h is the height of the orbit from Earth's surface]"
+  ],
+  "choices": [
+    [
+      "$-\\frac{1}{(R+h)}$"
+    ],
+    [
+      "$\\frac{1}{(R+h)^{2}}$"
+    ],
+    [
+      "$-\\frac{1}{(R+h)^{2}}$"
+    ],
+    [
+      "$\\frac{1}{(R+h)}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The total energy of a satellite is given by $E = -\\frac{GMm}{2r}$.",
+    "Here $r = R+h$.",
+    "Therefore, $E \\propto -\\frac{1}{(R+h)}$."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b400e-5459-7545-b600-9708644631b4",
+  "question": [
+    "Two cells of emfs $E_{1}$ and $E_{2}$ and internal resistances $r_{1}$ and $r_{2}$ $(E_{2}>E_{1}$ and $r_{2}>r_{1})$ respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is $E_{eq}$. Then",
+    "images/f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c.png"
+  ],
+  "choices": [
+    [
+      "$E_{1}<E_{eq}<E_{2}$ and $E_{eq}$ is nearer $E_{2}$"
+    ],
+    [
+      "$E_{eq}>E_{2}$"
+    ],
+    [
+      "$E_{eq}<E_{1}$"
+    ],
+    [
+      "$E_{1}<E_{eq}<E_{2}$ and $E_{eq}$ is nearer $E_{1}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The equivalent EMF for parallel combination is weighted by inverse resistance: $E_{eq} = \\frac{E_1/r_1 + E_2/r_2}{1/r_1 + 1/r_2}$.",
+    "The value of $E_{eq}$ always lies between $E_1$ and $E_2$.",
+    "Since $r_1 < r_2$, the cell with lower internal resistance ($E_1$) dominates the equivalent value, so $E_{eq}$ is closer to $E_1$."
+  ],
+  "years": [
+    2025
+  ]
+}
