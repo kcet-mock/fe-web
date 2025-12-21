@@ -278,7 +278,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
                   }
 
                   return (
-                    <div key={q.id || questionNumber} id={`question-${questionNumber}`} className="question-block">
+                    <div key={q.id || questionNumber} id={`question-${questionNumber}`} className="question-block" data-question-id={q.id}>
                       <div className="question-header">
                         <span className="badge-soft">
                           Question {questionNumber} of {selectedQuestions.length}

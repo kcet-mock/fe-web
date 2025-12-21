@@ -334,7 +334,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
                 const questionParts = Array.isArray(q.question) ? q.question : [];
 
                 return (
-                  <div key={q.id || questionNumber} id={`question-${questionNumber}`} className="question-block">
+                  <div key={q.id || questionNumber} id={`question-${questionNumber}`} className="question-block" data-question-id={q.id}>
                     <div className="question-header">
                       <span className="badge-soft">
                         Question {questionNumber} of {QUESTIONS.length}
