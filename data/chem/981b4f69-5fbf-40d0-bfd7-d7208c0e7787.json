@@ -1,0 +1,31 @@
+{
+  "id": "981b4f69-5fbf-40d0-bfd7-d7208c0e7787",
+  "question": [
+    "Which of the following statements are true about <katex>$[CoF_{6}]^{3-}$</katex> ion?",
+    "I. The complex has octahedral geometry.",
+    "II. Coordination number of Co is 3 and oxidation state is + 6.",
+    "III. The complex is <katex>$sp^{3}d^{2}$</katex> hybridised.",
+    "IV. It is a high spin complex."
+  ],
+  "choices": [
+    [
+      "I, II and IV"
+    ],
+    [
+      "I, III and IV"
+    ],
+    [
+      "II and IV"
+    ],
+    [
+      "II, III and IV"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The <katex>$[CoF_6]^{3-}$</katex> ion contains <katex>$Co^{3+}$</katex>. Fluoride is a weak field ligand, forming a high spin outer orbital complex. The hybridization is <katex>$sp^3d^2$</katex>, geometry is octahedral, and Co has a coordination number of 6."
+  ],
+  "years": [
+    2024
+  ]
+}

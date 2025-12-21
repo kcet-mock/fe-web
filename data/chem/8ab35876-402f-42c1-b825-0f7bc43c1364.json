@@ -1,0 +1,29 @@
+{
+  "id": "8ab35876-402f-42c1-b825-0f7bc43c1364",
+  "question": [
+    "Select the correct statement:"
+  ],
+  "choices": [
+    [
+      "Roasting involves heating the ore in the absence of air"
+    ],
+    [
+      "Calcination involves heating the ore above its melting point"
+    ],
+    [
+      "Smelting involves heating the ore with suitable reducing agent and flux below its melting point"
+    ],
+    [
+      "Calcination of calcium carbonate is endothermic"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Calcination is the process of heating the ore in the absence of air or limited supply of air below its melting point. The decomposition of calcium carbonate into calcium oxide and carbon dioxide is an endothermic reaction: <katex>$CaCO_3 \\xrightarrow{\\Delta} CaO + CO_2$</katex>.",
+    "Roasting involves heating in the presence of air.",
+    "Smelting involves heating above the melting point."
+  ],
+  "years": [
+    2024
+  ]
+}

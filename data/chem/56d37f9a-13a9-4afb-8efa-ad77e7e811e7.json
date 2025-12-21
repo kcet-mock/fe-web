@@ -1,0 +1,27 @@
+{
+  "id": "56d37f9a-13a9-4afb-8efa-ad77e7e811e7",
+  "question": [
+    "The energy associated with first orbit in He<katex>$^+$</katex> is"
+  ],
+  "choices": [
+    [
+      "0 J"
+    ],
+    [
+      "<katex>$-8.72 \\times 10^{-18} J$</katex>"
+    ],
+    [
+      "<katex>$-4.58 \\times 10^{-18} J$</katex>"
+    ],
+    [
+      "<katex>$-0.545 \\times 10^{-18} J$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Energy of electron in orbit n of hydrogen-like species is <katex>$E_n = -2.18 \\times 10^{-18} (Z^2/n^2) \\ J$</katex>. For He+, Z=2, n=1. <katex>$E = -2.18 \\times 10^{-18} \\times 4 = -8.72 \\times 10^{-18} \\ J$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

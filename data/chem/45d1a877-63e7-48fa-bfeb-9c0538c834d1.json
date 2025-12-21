@@ -1,0 +1,27 @@
+{
+  "id": "45d1a877-63e7-48fa-bfeb-9c0538c834d1",
+  "question": [
+    "A metalloid is"
+  ],
+  "choices": [
+    [
+      "Bi"
+    ],
+    [
+      "Sb"
+    ],
+    [
+      "P"
+    ],
+    [
+      "Se"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Antimony (Sb) is a classic metalloid. Bismuth (Bi) is a metal, Phosphorus (P) is a non-metal. Selenium (Se) is a non-metal, though sometimes classified as a metalloid, Sb is the unambiguous metalloid in this list."
+  ],
+  "years": [
+    2024
+  ]
+}

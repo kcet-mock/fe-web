@@ -1,0 +1,27 @@
+{
+  "id": "bb9bcaca-b24b-40cd-a245-df903f84387b",
+  "question": [
+    "How many Coulombs are required to oxidise 0.1 mole of <katex>$H_{2}O$</katex> to oxygen?"
+  ],
+  "choices": [
+    [
+      "<katex>$1.93 \\times 10^{5} C$</katex>"
+    ],
+    [
+      "<katex>$1.93 \\times 10^{4} C$</katex>"
+    ],
+    [
+      "<katex>$3.86 \\times 10^{4} C$</katex>"
+    ],
+    [
+      "<katex>$9.65 \\times 10^{3} C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Reaction: <katex>$H_2O \\rightarrow 2H^+ + \\frac{1}{2}O_2 + 2e^-$</katex>. 2 Faradays are required per mole. For 0.1 mole, charge = <katex>$0.1 \\times 2 \\times 96500 = 19300 \\ C = 1.93 \\times 10^4 \\ C$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

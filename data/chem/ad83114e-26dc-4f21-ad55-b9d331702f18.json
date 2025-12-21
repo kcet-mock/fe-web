@@ -1,0 +1,27 @@
+{
+  "id": "ad83114e-26dc-4f21-ad55-b9d331702f18",
+  "question": [
+    "The complex compounds <katex>$[Co(NH_{3})_{5}SO_{4}]Br$</katex> and <katex>$[Co(NH_{3})_{5}Br]SO_{4}$</katex> are:"
+  ],
+  "choices": [
+    [
+      "Coordination isomers"
+    ],
+    [
+      "Geometrical isomers"
+    ],
+    [
+      "Optical isomers"
+    ],
+    [
+      "Ionisation isomer"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "These isomers give different ions in solution (bromide ion vs sulphate ion), which characterizes them as ionization isomers."
+  ],
+  "years": [
+    2024
+  ]
+}

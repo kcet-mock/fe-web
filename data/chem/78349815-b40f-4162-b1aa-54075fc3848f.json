@@ -1,0 +1,29 @@
+{
+  "id": "78349815-b40f-4162-b1aa-54075fc3848f",
+  "question": [
+    "In the following scheme of reaction,",
+    "images/a1b2c3d4-e5f6-4789-8012-34567890abcd.png",
+    "X, Y and Z respectively are:"
+  ],
+  "choices": [
+    [
+      "AgF, alcoholic KOH and benzene"
+    ],
+    [
+      "HF, aqueous KOH and Na in dry ether"
+    ],
+    [
+      "<katex>$Hg_{2}F_{2}$</katex>, alcoholic KOH and Na in dry ether"
+    ],
+    [
+      "<katex>$CoF_{2}$</katex> aqueous KOH and benzene"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "1. Conversion of <katex>$C_2H_5Cl$</katex> to <katex>$C_2H_5F$</katex> is the Swarts reaction, using metallic fluorides like <katex>$AgF$</katex>, <katex>$Hg_2F_2$</katex>, etc. 2. Dehydrohalogenation of <katex>$C_2H_5Cl$</katex> to ethene requires alcoholic KOH. 3. Wurtz reaction converts <katex>$C_2H_5Cl$</katex> to butane using Na in dry ether. Option C provides a valid set of reagents."
+  ],
+  "years": [
+    2024
+  ]
+}

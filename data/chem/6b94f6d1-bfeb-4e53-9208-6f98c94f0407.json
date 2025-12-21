@@ -1,0 +1,28 @@
+{
+  "id": "6b94f6d1-bfeb-4e53-9208-6f98c94f0407",
+  "question": [
+    "Which of the following set of polymers are used as fibre?",
+    "(i) Teflon (ii) Starch (iii) Terylene (iv) Orlon"
+  ],
+  "choices": [
+    [
+      "(i) and (ii)"
+    ],
+    [
+      "(ii) and (iii)"
+    ],
+    [
+      "(iii) and (iv)"
+    ],
+    [
+      "(i) and (iv)"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Terylene (Dacron) is a polyester used as a fibre. Orlon (Polyacrylonitrile) is used as a substitute for wool fibres. Teflon is used for non-stick coatings, and Starch is a carbohydrate."
+  ],
+  "years": [
+    2024
+  ]
+}

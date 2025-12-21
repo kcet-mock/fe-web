@@ -1,0 +1,27 @@
+{
+  "id": "213af492-7f0b-4a8b-bc33-72b8955e6950",
+  "question": [
+    "Identify the incorrect statement from the following:"
+  ],
+  "choices": [
+    [
+      "Oxides of nitrogen in the atmosphere can cause depletion of the ozone layer"
+    ],
+    [
+      "Ozone absorbs the intense ultraviolet radiation of Sun"
+    ],
+    [
+      "Depletion of ozone layer is because of its chemical reactions with chlorofluoro alkanes"
+    ],
+    [
+      "Ozone absorbs infrared radiation"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "While ozone is a greenhouse gas and does absorb some infrared radiation, in the context of stratospheric ozone protection, its primary and most critical function is the absorption of harmful ultraviolet (UV) radiation from the sun. The statement D is often considered the 'incorrect' distractor in the context of ozone layer function questions compared to the explicitly defined roles in A, B, and C."
+  ],
+  "years": [
+    2024
+  ]
+}

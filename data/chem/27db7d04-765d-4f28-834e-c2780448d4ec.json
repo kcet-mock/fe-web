@@ -1,0 +1,27 @@
+{
+  "id": "27db7d04-765d-4f28-834e-c2780448d4ec",
+  "question": [
+    "But-1-yne on reaction with dil. <katex>$H_{2}SO_{4}$</katex> in presence of <katex>$Hg^{2+}$</katex> ions at 333 K gives:"
+  ],
+  "choices": [
+    [
+      "<katex>$CH_3-CH_2-CO-CH_3$</katex>"
+    ],
+    [
+      "<katex>$CH_3-CH_2-CH_2-CHO$</katex>"
+    ],
+    [
+      "<katex>$CH_3-CH=CH-CH_2OH$</katex>"
+    ],
+    [
+      "<katex>$CH_3-CH(OH)-CH=CH_2$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Hydration of alkynes in the presence of <katex>$Hg^{2+}/H^+$</katex> follows Markovnikov's rule. But-1-yne gives an enol intermediate (<katex>$CH_3-CH_2-C(OH)=CH_2$</katex>), which tautomerizes to form the more stable ketone, Butan-2-one (<katex>$CH_3-CH_2-CO-CH_3$</katex>)."
+  ],
+  "years": [
+    2024
+  ]
+}

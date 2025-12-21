@@ -1,0 +1,27 @@
+{
+  "id": "6d8a2bb9-1daa-4348-a836-b89066f2203a",
+  "question": [
+    "Which one of the following nitrate will decompose to give <katex>$NO_{2}$</katex> on heating?"
+  ],
+  "choices": [
+    [
+      "<katex>$NaNO_{3}$</katex>"
+    ],
+    [
+      "<katex>$KNO_{3}$</katex>"
+    ],
+    [
+      "<katex>$RbNO_{3}$</katex>"
+    ],
+    [
+      "<katex>$LiNO_{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Alkali metal nitrates usually decompose to give nitrites and oxygen, except for Lithium nitrate (<katex>$LiNO_3$</katex>). Due to the small size of <katex>$Li^+$</katex> and high polarizing power, it decomposes to form lithium oxide, nitrogen dioxide (<katex>$NO_2$</katex>), and oxygen."
+  ],
+  "years": [
+    2024
+  ]
+}

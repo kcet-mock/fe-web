@@ -1,0 +1,27 @@
+{
+  "id": "b87adff4-8fe6-4c20-a405-7dac93149eff",
+  "question": [
+    "A haloalkane undergoes <katex>$S_{N}1$</katex> or <katex>$S_{N}2$</katex> reaction depending on:"
+  ],
+  "choices": [
+    [
+      "Solvent used in the reaction"
+    ],
+    [
+      "Low temperature"
+    ],
+    [
+      "The type of halogen atom"
+    ],
+    [
+      "Stability of the haloalkane"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The nature of the solvent strongly influences the mechanism. Polar protic solvents favor <katex>$S_{N}1$</katex> by stabilizing ions, while polar aprotic solvents favor <katex>$S_{N}2$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

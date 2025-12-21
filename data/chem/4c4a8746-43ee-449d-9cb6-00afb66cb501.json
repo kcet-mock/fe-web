@@ -1,0 +1,27 @@
+{
+  "id": "4c4a8746-43ee-449d-9cb6-00afb66cb501",
+  "question": [
+    "Which one of the following does not represent Arrhenius equation?"
+  ],
+  "choices": [
+    [
+      "<katex>$log \\ k=log \\ A-\\frac{Ea}{2.303 \\ RT}$</katex>"
+    ],
+    [
+      "<katex>$k=A \\ e^{-Ea/RT}$</katex>"
+    ],
+    [
+      "<katex>$ln \\ k=-\\frac{Ea}{RT}+ln \\ A$</katex>"
+    ],
+    [
+      "<katex>$k=A \\ e^{Ea/RT}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The Arrhenius equation is <katex>$k = A e^{-E_a/RT}$</katex>. Option D has a positive exponent, which is incorrect."
+  ],
+  "years": [
+    2024
+  ]
+}

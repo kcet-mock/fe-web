@@ -1,0 +1,27 @@
+{
+  "id": "3ab876ef-9eff-4628-8307-7cfe8c847035",
+  "question": [
+    "Identify the incorrect statement:"
+  ],
+  "choices": [
+    [
+      "Values of colligative properties of colloidal solution are of small order compared to values of true solution"
+    ],
+    [
+      "Tyndall effect is observed only when diameter of the dispersed particles is not much smaller than wavelength of incident light"
+    ],
+    [
+      "Colour of colloidal solution depends on the wavelength of light scattered by the dispersed particles"
+    ],
+    [
+      "Brownian movement is due to balanced bombardment of molecules of dispersion medium on colloidal particles"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Brownian movement arises due to the *unbalanced* bombardment of the particles of the dispersion medium on the colloidal particles."
+  ],
+  "years": [
+    2024
+  ]
+}

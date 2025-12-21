@@ -1,0 +1,27 @@
+{
+  "id": "8fb3a1f1-223c-4ed1-a35e-e9409d9aea09",
+  "question": [
+    "The value of 'A' in the equation <katex>$\\lambda_{m}=\\lambda_{m}^{\\circ}-A\\sqrt{C}$</katex> is same for the pair:"
+  ],
+  "choices": [
+    [
+      "NaCl and <katex>$CaCl_{2}$</katex>"
+    ],
+    [
+      "<katex>$CaCl_{2}$</katex> and <katex>$MgSO_{4}$</katex>"
+    ],
+    [
+      "NaCl and KBr"
+    ],
+    [
+      "<katex>$MgCl_{2}$</katex> and NaCl"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The constant 'A' depends on the charge type of the electrolyte (valence type). NaCl and KBr are both 1:1 electrolytes, so they have the same value of 'A'."
+  ],
+  "years": [
+    2024
+  ]
+}

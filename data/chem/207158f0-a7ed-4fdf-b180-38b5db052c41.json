@@ -1,0 +1,27 @@
+{
+  "id": "207158f0-a7ed-4fdf-b180-38b5db052c41",
+  "question": [
+    "The biodegradable polymer obtained by polymerisation of Glycine and Aminocaproic acid is:"
+  ],
+  "choices": [
+    [
+      "Nylon 6"
+    ],
+    [
+      "PHBV"
+    ],
+    [
+      "Nylon 2 - Nylon 6"
+    ],
+    [
+      "Nylon 6, 10"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Nylon 2-Nylon 6 is a biodegradable copolymer prepared from glycine and aminocaproic acid."
+  ],
+  "years": [
+    2024
+  ]
+}

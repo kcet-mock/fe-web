@@ -1,0 +1,27 @@
+{
+  "id": "d2b40122-c31c-4d2f-b1d5-9328cebdf42a",
+  "question": [
+    "The number of atoms in 4.5 g of a face-centred cubic crystal with edge length 300 pm is: (Given density = <katex>$10 \\ g \\ cm^{-3}$</katex> and <katex>$N_{A}=6.022 \\times 10^{23}$</katex>)."
+  ],
+  "choices": [
+    [
+      "<katex>$6.6 \\times 10^{20}$</katex>"
+    ],
+    [
+      "<katex>$6.6 \\times 10^{23}$</katex>"
+    ],
+    [
+      "<katex>$6.6 \\times 10^{19}$</katex>"
+    ],
+    [
+      "<katex>$6.6 \\times 10^{22}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "We calculate molar mass <katex>$M$</katex> using <katex>$\\rho = \\frac{Z M}{N_A a^3}$</katex>. For FCC, Z=4. Solving gives <katex>$M \\approx 40.5 \\ g/mol$</katex>. Then, number of atoms = <katex>$\\frac{4.5}{40.5} \\times 6.022 \\times 10^{23} \\approx 6.6 \\times 10^{22}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

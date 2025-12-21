@@ -1,0 +1,27 @@
+{
+  "id": "6d9f858a-e4ae-4a2f-b362-2233d5fb4238",
+  "question": [
+    "MnO exhibits:"
+  ],
+  "choices": [
+    [
+      "Ferrimagnetism"
+    ],
+    [
+      "Antiferromagnetism"
+    ],
+    [
+      "Ferromagnetism"
+    ],
+    [
+      "Paramagnetism"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Manganese oxide (MnO) is a classic example of an antiferromagnetic substance, where magnetic domains align in opposite directions, canceling out the magnetic moment."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "311f42d7-948d-495e-8032-1baf6b99611a",
+  "question": [
+    "PCC is:"
+  ],
+  "choices": [
+    [
+      "<katex>$K_{2}Cr_{2}O_{7} +$</katex> Pyridine"
+    ],
+    [
+      "<katex>$CrO_{3} + CHCl_{3}$</katex>"
+    ],
+    [
+      "<katex>$CrO_{3} + H_{2}SO_{4}$</katex>"
+    ],
+    [
+      "A complex of chromium trioxide with pyridine + HCl"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "PCC stands for Pyridinium Chlorochromate. It is a complex formed by chromium trioxide (<katex>$CrO_3$</katex>), pyridine, and HCl. It is used to oxidize primary alcohols to aldehydes."
+  ],
+  "years": [
+    2024
+  ]
+}

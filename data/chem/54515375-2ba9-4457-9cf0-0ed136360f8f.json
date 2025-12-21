@@ -1,0 +1,27 @@
+{
+  "id": "54515375-2ba9-4457-9cf0-0ed136360f8f",
+  "question": [
+    "A current of 3 A is passed through a molten calcium salt for 1 hr 47 min 13 sec. The mass of calcium deposited is: (Molar mass of <katex>$Ca=40 \\ g \\ mol^{-1}$</katex>)"
+  ],
+  "choices": [
+    [
+      "6.0 g"
+    ],
+    [
+      "2.0 g"
+    ],
+    [
+      "8.0 g"
+    ],
+    [
+      "4.0 g"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Time t = 6433 s. Charge Q = 3 * 6433 = 19299 C. Moles electrons = 19299/96500 = 0.2 mol. Ca needs 2e-. Moles Ca = 0.1. Mass = 0.1 * 40 = 4g."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "efb4dcb4-9f2f-48f1-86f5-29d693d2feb7",
+  "question": [
+    "On treating 100 mL of 0.1 M aqueous solution of the complex <katex>$CrCl_{3} \\cdot 6H_{2}O$</katex> with excess of <katex>$AgNO_{3}$</katex>, 2.86 g of AgCl was obtained. The complex is:"
+  ],
+  "choices": [
+    [
+      "<katex>$[Cr(H_{2}O)_{3}Cl_{3}] \\cdot 3H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$[Cr(H_{2}O)_{4}Cl_{2}]Cl \\cdot 2H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$[Cr(H_{2}O)_{5}Cl]Cl_{2} \\cdot H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$[Cr(H_{2}O)_{6}Cl_{3}]$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Moles of complex = <katex>$0.1 \\times 0.1 = 0.01$</katex>. Moles of AgCl = <katex>$2.86 / 143.5 = 0.02$</katex>. Since 1 mole of complex gives 2 moles of AgCl, there are 2 ionizable chloride ions outside the coordination sphere. The formula is <katex>$[Cr(H_{2}O)_{5}Cl]Cl_{2} \\cdot H_{2}O$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "496c2987-d10d-4c09-adf6-1c00c613fcba",
+  "question": [
+    "Biologically active adrenaline and ephedrine used to increase blood pressure contain:"
+  ],
+  "choices": [
+    [
+      "Primary amino group"
+    ],
+    [
+      "Secondary amino group"
+    ],
+    [
+      "Tertiary amino group"
+    ],
+    [
+      "Quaternary ammonium salt"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Both adrenaline and ephedrine are biologically active amines that contain a secondary amino group (<katex>$-NHR$</katex>)."
+  ],
+  "years": [
+    2024
+  ]
+}

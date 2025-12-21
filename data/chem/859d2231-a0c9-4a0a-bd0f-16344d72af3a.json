@@ -1,0 +1,29 @@
+{
+  "id": "859d2231-a0c9-4a0a-bd0f-16344d72af3a",
+  "question": [
+    "In the reaction",
+    "Aniline <katex>$\\xrightarrow{NaNO_2/dil. HCl}$</katex> P <katex>$\\xrightarrow{Phenol/NaOH}$</katex> Q.",
+    "'Q' is:"
+  ],
+  "choices": [
+    [
+      "<katex>$C_{6}H_{5}N_{2}Cl$</katex>"
+    ],
+    [
+      "ortho-hydroxyazobenzene"
+    ],
+    [
+      "para-hydroxyazobenzene"
+    ],
+    [
+      "meta-hydroxyazobenzene"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Aniline reacts with <katex>$NaNO_2/HCl$</katex> to form benzene diazonium chloride (P). Coupling of (P) with phenol in an alkaline medium (NaOH) occurs predominantly at the para-position to form p-hydroxyazobenzene (Q), which is an orange dye."
+  ],
+  "years": [
+    2024
+  ]
+}
