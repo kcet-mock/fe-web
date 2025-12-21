@@ -1,0 +1,29 @@
+{
+  "id": "4f1b38d4-2927-400b-90be-be1a8e46b985",
+  "question": [
+    "The length of a rectangle is five times the breadth. If the minimum perimeter of the rectangle is 180 cm, then"
+  ],
+  "choices": [
+    [
+      "Breadth 15 cm"
+    ],
+    [
+      "<katex>$Breadth\\ge15~cm$</katex>"
+    ],
+    [
+      "<katex>$Length\\le15~cm$</katex>"
+    ],
+    [
+      "<katex>$Length=15~cm$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let Breadth = b. Length = 5b.",
+    "Perimeter <katex>$P = 2(L+b) = 2(5b+b) = 12b$</katex>.",
+    "Given <katex>$P \\ge 180 \\implies 12b \\ge 180 \\implies b \\ge 15$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

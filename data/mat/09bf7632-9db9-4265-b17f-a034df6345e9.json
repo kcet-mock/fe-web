@@ -1,0 +1,27 @@
+{
+  "id": "09bf7632-9db9-4265-b17f-a034df6345e9",
+  "question": [
+    "The area of the region bounded by the line <katex>$y=3x$</katex> and the curve <katex>$y=x^{2}$</katex> in sq. units is"
+  ],
+  "choices": [
+    [
+      "10"
+    ],
+    [
+      "<katex>$\\frac{9}{2}$</katex>"
+    ],
+    [
+      "9"
+    ],
+    [
+      "5"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Intersection at <katex>$x=0, 3$</katex>. Integral <katex>$\\int_0^3 (3x-x^2) dx = 4.5$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "d96dfece-0fd4-4dd9-bf60-a43a8fe373fc",
+  "question": [
+    "The plane containing the point (3, 2, 0) and the line <katex>$\\frac{x-3}{1}=\\frac{y-6}{5}=\\frac{z-4}{4}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$x-y+z=1$</katex>"
+    ],
+    [
+      "<katex>$x+y+z=5$</katex>"
+    ],
+    [
+      "<katex>$x+2y-z=1$</katex>"
+    ],
+    [
+      "<katex>$2x-y+z=5$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Find normal vector using cross product of line direction and vector connecting points. Determine equation."
+  ],
+  "years": [
+    2024
+  ]
+}

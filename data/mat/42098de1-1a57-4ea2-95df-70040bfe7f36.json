@@ -1,0 +1,27 @@
+{
+  "id": "42098de1-1a57-4ea2-95df-70040bfe7f36",
+  "question": [
+    "The family of curves whose x and y intercepts of a tangent at any point are respectively double the x and y coordinates of that point is"
+  ],
+  "choices": [
+    [
+      "<katex>$xy=C$</katex>"
+    ],
+    [
+      "<katex>$x^{2}+y^{2}=C$</katex>"
+    ],
+    [
+      "<katex>$x^{2}-y^{2}=C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{y}{x}=C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Differential equation leads to <katex>$xy = C$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

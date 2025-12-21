@@ -1,0 +1,27 @@
+{
+  "id": "a8fe254a-f4f9-4741-a8b3-bfceb1511c32",
+  "question": [
+    "Let <katex>$f:R\\rightarrow R$</katex> be given <katex>$f(x)=tan~x.$</katex> Then <katex>$f^{-1}(1)$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\\\{n\\pi+\\frac{\\pi}{4}:n\\in Z\\\\}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\\\{n\\pi+\\frac{\\pi}{3}:n\\in Z\\\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "While the complete set of pre-images is <katex>$\\{n\\pi + \\pi/4\\}$</katex>, 'Ans. A' suggests the question asks for the principal value or specific solution."
+  ],
+  "years": [
+    2024
+  ]
+}

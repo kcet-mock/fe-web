@@ -1,0 +1,27 @@
+{
+  "id": "f0e40a13-de7d-4f6d-8d19-60a72c74258c",
+  "question": [
+    "Let <katex>$\\vec{a}$</katex> and <katex>$\\vec{b}$</katex> be two unit vectors and <katex>$\\theta$</katex> is the angle between them. Then <katex>$\\vec{a}+\\vec{b}$</katex> is a unit vector if"
+  ],
+  "choices": [
+    [
+      "<katex>$\\theta=\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\theta=\\frac{\\pi}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\theta=\\frac{2\\pi}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\theta=\\frac{\\pi}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$|\\vec{a}+\\vec{b}|^2 = 1 \\implies 2 + 2\\cos\\theta = 1 \\implies \\cos\\theta = -1/2$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

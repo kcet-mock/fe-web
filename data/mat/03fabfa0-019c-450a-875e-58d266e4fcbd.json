@@ -1,0 +1,27 @@
+{
+  "id": "03fabfa0-019c-450a-875e-58d266e4fcbd",
+  "question": [
+    "The area of the region bounded by the line <katex>$y=x$</katex> and the curve <katex>$y=x^{3}$</katex> is"
+  ],
+  "choices": [
+    [
+      "0.2 sq. units"
+    ],
+    [
+      "0.3 sq. units"
+    ],
+    [
+      "0.4 sq. units"
+    ],
+    [
+      "0.5 sq. units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Total area is <katex>$2 \\times \\int_0^1 (x-x^3) dx = 0.5$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

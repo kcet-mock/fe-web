@@ -1,0 +1,27 @@
+{
+  "id": "c282f6c2-037b-4126-a9dd-f539307b65c5",
+  "question": [
+    "Let the function satisfy the equation <katex>$f(x+y)=f(x)f(y)$</katex> for all x, <katex>$y\\in R$</katex>, where <katex>$f(0)\\ne0$</katex>. If <katex>$f(5)=3$</katex> and <katex>$f^{\\prime}(0)=2$</katex>, then <katex>$f^{\\prime}(5)$</katex> is"
+  ],
+  "choices": [
+    [
+      "6"
+    ],
+    [
+      "0"
+    ],
+    [
+      "3"
+    ],
+    [
+      "-6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$f'(x) = f(x) f'(0)$</katex>. <katex>$f'(5) = f(5) f'(0) = 3 \\times 2 = 6$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

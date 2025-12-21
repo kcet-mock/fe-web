@@ -1,0 +1,28 @@
+{
+  "id": "66a996f8-edad-4a0f-bcdc-72bef00188bc",
+  "question": [
+    "Let <katex>$f:R\\rightarrow R$</katex> be defined by <katex>$f(x)=x^{2}+1$</katex>. Then the pre images of 17 and -3 respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$\\Phi, \\{4,-4\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{3,-3\\}, \\Phi$</katex>"
+    ],
+    [
+      "<katex>$\\{4,-4\\},\\phi$</katex>"
+    ],
+    [
+      "<katex>\\{4,-4\\},\\{2,-2\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$x^2+1 = 17 \\implies x = \\pm 4$</katex>.",
+    "<katex>$x^2+1 = -3 \\implies x^2 = -4$</katex> (No real solution)."
+  ],
+  "years": [
+    2024
+  ]
+}

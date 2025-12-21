@@ -1,0 +1,28 @@
+{
+  "id": "cb77f29f-1630-4d23-ac52-82c59f46e4d2",
+  "question": [
+    "If <katex>$cos^{-1}x+cos^{-1}y+cos^{-1}z=3\\pi,$</katex> then <katex>$x(y+z)+y(z+x)+z(x+y)$</katex> equals to"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "6"
+    ],
+    [
+      "12"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Max value of <katex>$\\cos^{-1}$</katex> is <katex>$\\pi$</katex>. Sum is <katex>$3\\pi$</katex> only if <katex>$x=y=z=-1$</katex>.",
+    "Expression: <katex>$-1(-2) + -1(-2) + -1(-2) = 2+2+2 = 6$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

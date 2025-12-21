@@ -1,0 +1,27 @@
+{
+  "id": "1e3397f2-bf64-4dbd-9d7c-64864fce8d36",
+  "question": [
+    "<katex>$\\frac{d}{dx}[cos^{2}(cot^{-1}\\sqrt{\\frac{2+x}{2-x}})]i$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$-\\frac{3}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$-\\frac{1}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Simplify to <katex>$(x+2)/4$</katex>. Derivative is <katex>$1/4$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

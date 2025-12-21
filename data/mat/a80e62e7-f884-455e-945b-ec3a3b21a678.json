@@ -1,0 +1,27 @@
+{
+  "id": "a80e62e7-f884-455e-945b-ec3a3b21a678",
+  "question": [
+    "The function <katex>$x^{x};$</katex> <katex>$x>0$</katex> is strictly increasing at"
+  ],
+  "choices": [
+    [
+      "<katex>$\\forall x\\in R$</katex>"
+    ],
+    [
+      "<katex>$x<\\frac{1}{e}$</katex>"
+    ],
+    [
+      "<katex>$x>\\frac{1}{e}$</katex>"
+    ],
+    [
+      "<katex>$x<0$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Derivative is <katex>$x^x(1+\\ln x)$</katex>. Positive when <katex>$\\ln x > -1 \\implies x > 1/e$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

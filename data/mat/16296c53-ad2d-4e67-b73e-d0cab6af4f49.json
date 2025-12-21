@@ -1,0 +1,27 @@
+{
+  "id": "16296c53-ad2d-4e67-b73e-d0cab6af4f49",
+  "question": [
+    "The volume of the parallelopiped whose co-terminous edges are <katex>$\\hat{j}+\\hat{k}$</katex> ki <katex>$\\hat{i}+\\hat{k}$</katex> and <katex>$\\hat{i}+\\hat{j}$</katex> is"
+  ],
+  "choices": [
+    [
+      "6 cu. units"
+    ],
+    [
+      "2 cu. units"
+    ],
+    [
+      "4 cu. units"
+    ],
+    [
+      "3 cu. units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Scalar triple product evaluates to 2."
+  ],
+  "years": [
+    2024
+  ]
+}

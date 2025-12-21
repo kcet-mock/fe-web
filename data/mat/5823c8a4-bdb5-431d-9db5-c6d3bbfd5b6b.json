@@ -1,0 +1,27 @@
+{
+  "id": "5823c8a4-bdb5-431d-9db5-c6d3bbfd5b6b",
+  "question": [
+    "<katex>$\\int_{-\\pi}^{\\pi}(1-x^{2})sin~x.cos^{2}x~dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\pi=\\frac{\\pi^{2}}{3}$</katex>"
+    ],
+    [
+      "<katex>$2\\pi-\\pi^{3}$</katex>"
+    ],
+    [
+      "<katex>$\\pi-\\frac{\\pi^{3}}{2}$</katex>"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Integrand is an odd function."
+  ],
+  "years": [
+    2024
+  ]
+}

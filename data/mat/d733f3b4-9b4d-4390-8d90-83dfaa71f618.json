@@ -1,0 +1,27 @@
+{
+  "id": "d733f3b4-9b4d-4390-8d90-83dfaa71f618",
+  "question": [
+    "<katex>$\\int_{1}^{5}(|x-3|+|1-x|)dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "12"
+    ],
+    [
+      "<katex>$\\frac{5}{6}$</katex>"
+    ],
+    [
+      "21"
+    ],
+    [
+      "10"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Split integral at <katex>$x=3$</katex>. Calculate areas."
+  ],
+  "years": [
+    2024
+  ]
+}

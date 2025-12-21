@@ -1,0 +1,27 @@
+{
+  "id": "e1bcc054-20d1-43a9-ac12-df51b8e5228d",
+  "question": [
+    "Let a, b, c, d and e be the observations with mean m and standard deviation S. The standard deviation of the observations <katex>$a+k, b+k, c+k, d+k$</katex> and <katex>$e+k$</katex> is"
+  ],
+  "choices": [
+    [
+      "kS"
+    ],
+    [
+      "<katex>$S+k$</katex>"
+    ],
+    [
+      "<katex>$\\frac{s}{k}$</katex>"
+    ],
+    [
+      "S"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Standard deviation is independent of change of origin. Adding a constant to all observations does not change the standard deviation."
+  ],
+  "years": [
+    2024
+  ]
+}

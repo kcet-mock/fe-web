@@ -1,0 +1,27 @@
+{
+  "id": "12eb89fb-26e6-4fb7-8898-0ffef8b37f7e",
+  "question": [
+    "Corner points of the feasible region for an LPP are (0, 2), (3, 0), (6, 0), (6, 8) and (0, 5). Let <katex>$z=4x+6y$</katex> be the objective function. The minimum value of z occurs at"
+  ],
+  "choices": [
+    [
+      "Only (0, 2)"
+    ],
+    [
+      "Only (3,0)"
+    ],
+    [
+      "The mid-point of the line segment joining the points (0, 2) and (3, 0)"
+    ],
+    [
+      "Any point on the line segment joining the points (0, 2) and (3, 0)"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Z value is 12 at both (0, 2) and (3, 0), which is the minimum."
+  ],
+  "years": [
+    2024
+  ]
+}

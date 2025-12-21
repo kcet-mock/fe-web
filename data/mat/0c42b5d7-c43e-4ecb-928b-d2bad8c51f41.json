@@ -1,0 +1,27 @@
+{
+  "id": "0c42b5d7-c43e-4ecb-928b-d2bad8c51f41",
+  "question": [
+    "A die is thrown 10 times. The probability that an odd number will come up at least once is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{11}{1024}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1013}{1024}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1023}{1024}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{1024}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$1 - P(\\text{None}) = 1 - (1/2)^{10}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}
