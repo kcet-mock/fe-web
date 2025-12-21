@@ -1,0 +1,28 @@
+{
+  "id": "019b401d-7dfb-76b6-9537-7b65f87d84a1",
+  "question": [
+    "An unpolarised light of intensity I is passed through two polaroids kept one after the other with their planes parallel to each other. The intensity of light emerging from second polaroid is $\\frac{I}{4}$. The angle between the pass axes of the polaroids is"
+  ],
+  "choices": [
+    [
+      "$60^{\\circ}$"
+    ],
+    [
+      "$30^{\\circ}$"
+    ],
+    [
+      "$45^{\\circ}$"
+    ],
+    [
+      "$0^{\\circ}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "After first polaroid, intensity is $I/2$. After second, $I' = (I/2) \\cos^2 \\theta$.",
+    "Given $I' = I/4$, so $\\cos^2 \\theta = 1/2 \\Rightarrow \\theta = 45^{\\circ}$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b401d-7dff-7c3c-bda2-ba39bec5d900",
+  "question": [
+    "A charged particle is subjected to acceleration in a cyclotron as shown. The charged particle undergoes increase in its speed",
+    "images/e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b.png"
+  ],
+  "choices": [
+    [
+      "Inside D1, D2 and the gaps"
+    ],
+    [
+      "Only inside D1"
+    ],
+    [
+      "Only in the gap between D1 and D2"
+    ],
+    [
+      "Only inside D2"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Acceleration occurs due to the electric field, which exists only in the gap between the dees. Inside the dees, the field is zero."
+  ],
+  "years": [
+    2023
+  ]
+}

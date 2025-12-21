@@ -1,0 +1,28 @@
+{
+  "id": "019b401d-7df8-738b-a1bd-4dc0cda0eb42",
+  "question": [
+    "The horizontal component of Earth's magnetic field at a place is $3\\times10^{-5}T$. If the dip at that place is $45^{\\circ}$ the resultant magnetic field at that place is"
+  ],
+  "choices": [
+    [
+      "$\\frac{3}{2}\\sqrt{3}\\times10^{-5}T$"
+    ],
+    [
+      "$3\\sqrt{2}\\times10^{-5}T$"
+    ],
+    [
+      "$3\\times10^{-5}T$"
+    ],
+    [
+      "$\\frac{3}{\\sqrt{2}}\\times10^{-5}T$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Horizontal component $B_H = B \\cos \\delta$.",
+    "$B = \\frac{B_H}{\\cos \\delta} = \\frac{3\\times10^{-5}}{\\cos 45^{\\circ}} = \\frac{3\\times10^{-5}}{1/\\sqrt{2}} = 3\\sqrt{2}\\times10^{-5}T$."
+  ],
+  "years": [
+    2023
+  ]
+}

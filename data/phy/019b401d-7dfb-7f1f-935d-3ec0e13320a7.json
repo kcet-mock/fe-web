@@ -1,0 +1,29 @@
+{
+  "id": "019b401d-7dfb-7f1f-935d-3ec0e13320a7",
+  "question": [
+    "In an experiment to study photo-electric effect the observed variation of stopping potential with frequency of incident radiation is as shown in the figure. The slope and y-intercept are respectively",
+    "images/a9b8c7d6-e5f4-4a3b-2c1d-0e9f8a7b6c5d.png"
+  ],
+  "choices": [
+    [
+      "$\\frac{hv}{e},-\\frac{h}{e}$"
+    ],
+    [
+      "$hv, -hv_{0}$"
+    ],
+    [
+      "$\\frac{h}{e},-\\frac{hv_{0}}{e}$"
+    ],
+    [
+      "$\\frac{hv}{\\mathfrak{e}},v_{0}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Einstein's photoelectric equation: $eV_0 = h\\nu - h\\nu_0$.",
+    "$V_0 = (\\frac{h}{e})\\nu - \\frac{h\\nu_0}{e}$. Slope is $h/e$, Intercept is $-h\\nu_0/e$."
+  ],
+  "years": [
+    2023
+  ]
+}

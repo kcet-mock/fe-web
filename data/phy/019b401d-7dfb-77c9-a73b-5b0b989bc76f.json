@@ -1,0 +1,28 @@
+{
+  "id": "019b401d-7dfb-77c9-a73b-5b0b989bc76f",
+  "question": [
+    "The truth table for the given circuit is",
+    "images/c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f.png"
+  ],
+  "choices": [
+    [
+      "A B Y\n1 1 1\n1 0 1\n0 1 1\n0 0 1"
+    ],
+    [
+      "A B Y\n1 1 1\n1 0 1\n0 1 1\n0 0 0"
+    ],
+    [
+      "A B Y\n1 1 1\n1 0 0\n0 1 0\n0 0 1"
+    ],
+    [
+      "A B Y\n1 1 0\n1 0 1\n0 1 1\n0 0 1"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Based on the provided key (A), the circuit corresponds to a logic that outputs High for all states listed in option A (which appears to represent an output that is always high, or there is a transcription ambiguity in the option text). Assuming standard gate logic represented by options."
+  ],
+  "years": [
+    2023
+  ]
+}

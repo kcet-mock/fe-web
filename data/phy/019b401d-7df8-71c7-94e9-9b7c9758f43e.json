@@ -1,0 +1,29 @@
+{
+  "id": "019b401d-7df8-71c7-94e9-9b7c9758f43e",
+  "question": [
+    "A proton and an alpha-particle moving with the same velocity enter a uniform magnetic field with their velocities perpendicular to the magnetic field. The ratio of radii of their circular paths is"
+  ],
+  "choices": [
+    [
+      "4:1"
+    ],
+    [
+      "1:2"
+    ],
+    [
+      "2:1"
+    ],
+    [
+      "1:4"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Radius $r = \\frac{mv}{qB}$. Since $v$ and $B$ are same, $r \\propto \\frac{m}{q}$.",
+    "$r_p \\propto \\frac{m}{e}$, $r_\\alpha \\propto \\frac{4m}{2e} = \\frac{2m}{e}$.",
+    "Ratio $r_p : r_\\alpha = 1 : 2$."
+  ],
+  "years": [
+    2023
+  ]
+}

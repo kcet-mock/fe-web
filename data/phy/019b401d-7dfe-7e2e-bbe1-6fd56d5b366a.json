@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfe-7e2e-bbe1-6fd56d5b366a",
+  "question": [
+    "A block of mass m is connected to a light spring of force constant k. The system is placed inside a damping medium of damping constant b. The instantaneous values of displacement, acceleration and energy of the block are x, a and E respectively. The initial amplitude of oscillation is A and $\\Theta^{\\prime}$ is the angular frequency of oscillations. The incorrect expression related to the damped oscillation is"
+  ],
+  "choices": [
+    [
+      "$E=\\frac{1}{2}kA^{2}e^{\\frac{bt}{m}}$"
+    ],
+    [
+      "$m\\frac{d^{2}x}{dt^{2}}+b\\frac{dx}{dt}+kx=0$"
+    ],
+    [
+      "$x=Ae^{\\frac{b}{m}}cos(\\omega^{\\prime}t+\\phi)$"
+    ],
+    [
+      "$\\omega^{\\prime}=\\sqrt{\\frac{k}{m}-\\frac{b^{2}}{4m^{2}}}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The correct envelope for displacement is $e^{-bt/2m}$. Option C has $e^{b/m}$ which represents growth, not damping, and the exponent coefficient is incorrect."
+  ],
+  "years": [
+    2023
+  ]
+}

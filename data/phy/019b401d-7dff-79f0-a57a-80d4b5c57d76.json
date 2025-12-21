@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dff-79f0-a57a-80d4b5c57d76",
+  "question": [
+    "The resistance of a carbon resistor is 4.7 k $\\Omega$ $\\pm$ 5%. The colour of the third band is"
+  ],
+  "choices": [
+    [
+      "Violet"
+    ],
+    [
+      "Orange"
+    ],
+    [
+      "Gold"
+    ],
+    [
+      "Red"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "4.7 k$\\Omega$ = $47 \\times 10^2 \\Omega$. The multiplier $10^2$ corresponds to the colour Red."
+  ],
+  "years": [
+    2023
+  ]
+}

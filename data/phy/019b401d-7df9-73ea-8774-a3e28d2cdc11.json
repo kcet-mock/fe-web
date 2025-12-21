@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7df9-73ea-8774-a3e28d2cdc11",
+  "question": [
+    "In series LCR circuit at resonance, the phase difference between voltage and current is"
+  ],
+  "choices": [
+    [
+      "$\\frac{\\pi}{4}$"
+    ],
+    [
+      "$\\frac{\\pi}{2}$"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "$\\pi$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "At resonance, the circuit is purely resistive ($X_L = X_C$), so voltage and current are in phase."
+  ],
+  "years": [
+    2023
+  ]
+}

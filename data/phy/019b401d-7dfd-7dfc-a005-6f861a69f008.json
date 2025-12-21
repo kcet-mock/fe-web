@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfd-7dfc-a005-6f861a69f008",
+  "question": [
+    "When a planet revolves around the Sun, in general, for the planet"
+  ],
+  "choices": [
+    [
+      "Kinetic and potential energy of the planet are constant."
+    ],
+    [
+      "Angular momentum about the Sun and aerial velocity of the planet are constant."
+    ],
+    [
+      "Linear momentum and linear velocity are constant."
+    ],
+    [
+      "Linear momentum and aerial velocity are constant."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to Kepler's laws, angular momentum is conserved, and the area swept per unit time (aerial velocity) is constant."
+  ],
+  "years": [
+    2023
+  ]
+}

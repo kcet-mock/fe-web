@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfb-7580-af80-356d38b2e7d1",
+  "question": [
+    "A full-wave rectifier with diodes $D_{1}$ and $D_{2}$ is used to rectify 50 Hz alternating voltage. The diode $D_{1}$ conducts ____ times in one second."
+  ],
+  "choices": [
+    [
+      "75"
+    ],
+    [
+      "50"
+    ],
+    [
+      "100"
+    ],
+    [
+      "25"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In a full-wave rectifier, each diode conducts for one half-cycle. With a 50Hz input, there are 50 positive half-cycles per second."
+  ],
+  "years": [
+    2023
+  ]
+}

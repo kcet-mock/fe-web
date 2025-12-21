@@ -1,0 +1,29 @@
+{
+  "id": "019b401d-7dfa-724b-ae74-e0c93de1b3aa",
+  "question": [
+    "Total impedance of a series LCR circuit varies with angular frequency of the AC source connected to it as shown in the graph. The quality factor Q of the series LCR circuit is",
+    "images/e0f1a2b3-c4d5-4e6f-7a8b-9c0d1e2f3a4b.png"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0.4"
+    ],
+    [
+      "2.5"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Resonant frequency $\\omega_0 = 500$. Bandwidth $\\Delta\\omega = 600 - 400 = 200$.",
+    "$Q = \\frac{\\omega_0}{\\Delta\\omega} = \\frac{500}{200} = 2.5$."
+  ],
+  "years": [
+    2023
+  ]
+}

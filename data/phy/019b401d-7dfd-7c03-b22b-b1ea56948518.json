@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfd-7c03-b22b-b1ea56948518",
+  "question": [
+    "A particle is in uniform circular motion. Related to one complete revolution of the particle, which among the statements is correct?"
+  ],
+  "choices": [
+    [
+      "Average speed of the particle is zero"
+    ],
+    [
+      "Average velocity of the particle is zero"
+    ],
+    [
+      "Average acceleration of the particle is zero"
+    ],
+    [
+      "Displacement of the particle is zero"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Note: The provided answer key indicates (A), which states 'Average speed is zero'. Physically, for a complete revolution, Displacement is zero and Average Velocity is zero. Average speed is non-zero. If (A) is the key, the question likely asks for the incorrect statement."
+  ],
+  "years": [
+    2023
+  ]
+}

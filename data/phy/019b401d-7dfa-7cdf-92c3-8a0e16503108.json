@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfa-7cdf-92c3-8a0e16503108",
+  "question": [
+    "In the Rutherford's alpha scattering experiment, as the impact parameter increases, the scattering angle of the alpha particle"
+  ],
+  "choices": [
+    [
+      "Decreases"
+    ],
+    [
+      "Increases"
+    ],
+    [
+      "Remains the same"
+    ],
+    [
+      "Is always $90^{\\circ}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Scattering angle $\\theta$ and impact parameter $b$ are inversely related. Large $b$ (distant approach) results in small scattering angles."
+  ],
+  "years": [
+    2023
+  ]
+}

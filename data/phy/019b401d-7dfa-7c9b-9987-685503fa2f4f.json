@@ -1,0 +1,28 @@
+{
+  "id": "019b401d-7dfa-7c9b-9987-685503fa2f4f",
+  "question": [
+    "The ratio of the magnitudes of electric field to the magnetic field of an electromagnetic wave is of the order of"
+  ],
+  "choices": [
+    [
+      "$10^{-5}ms^{-1}$"
+    ],
+    [
+      "$10^{8}ms^{-1}$"
+    ],
+    [
+      "$10^{-8}ms^{-1}$"
+    ],
+    [
+      "$10^{5}ms^{-1}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The ratio $E/B = c$, the speed of light.",
+    "$c \\approx 3 \\times 10^8 m/s$."
+  ],
+  "years": [
+    2023
+  ]
+}

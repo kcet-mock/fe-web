@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dff-7cb6-9aa4-edae41afe18c",
+  "question": [
+    "For a given electric current the drift velocity of conduction electrons in a copper wire is v and their mobility is $\\mu$. When the current is increased at constant temperature"
+  ],
+  "choices": [
+    [
+      "$v_d$ decreases, $\\mu$ remains the same"
+    ],
+    [
+      "$v_d$ remains the same, $\\mu$ decreases"
+    ],
+    [
+      "$v_d$ increases, $\\mu$ remains the same"
+    ],
+    [
+      "$v_d$ remains the same, $\\mu$ increases"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Mobility $\\mu$ depends on temperature (relaxation time), so it remains constant. Drift velocity $v_d \\propto I$, so it increases."
+  ],
+  "years": [
+    2023
+  ]
+}

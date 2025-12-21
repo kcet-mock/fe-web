@@ -1,0 +1,29 @@
+{
+  "id": "019b401d-7dfd-7b17-91d3-6b4ff6179ab4",
+  "question": [
+    "100 g of ice at $0^{\\circ}C$ is mixed with 100 g of water at $100^{\\circ}C$. The final temperature of the mixture is [Take $L_{f}=3.36\\times10^{5}J~kg^{-1}$ and $S_{w}=4.2\\times10^{3}J~kg^{-1}k^{-1}]$"
+  ],
+  "choices": [
+    [
+      "$50^{\\circ}C$"
+    ],
+    [
+      "$1^{\\circ}C$"
+    ],
+    [
+      "$40^{\\circ}C$"
+    ],
+    [
+      "$10^{\\circ}C$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Heat to melt 100g ice: 33600 J. Heat from 100g water cooling to 0: 42000 J.",
+    "Excess heat = 8400 J. Total mass 200g.",
+    "$\\Delta T = \\frac{8400}{0.2 \\times 4200} = 10^{\\circ}C$."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "019b401d-7dfc-7cb7-9b23-d6a5ab9bcb16",
+  "question": [
+    "The true length of a wire is 3.678cm. When the length of this wire is measured using instrument A, the length of the wire is 3.5 cm. When the length of the wire is measured using instrument B, it is found to have length 3.38 cm. Then the"
+  ],
+  "choices": [
+    [
+      "Measurement with B is more accurate and precise"
+    ],
+    [
+      "Measurement with A is more precise while measurement with B is more accurate"
+    ],
+    [
+      "Measurement with A is more accurate and precise"
+    ],
+    [
+      "Measurement with A is more accurate while measurement with B is more precise"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Accuracy refers to closeness to true value (A: |3.678-3.5|=0.178 vs B: |3.678-3.38|=0.298). A is more accurate.",
+    "Precision refers to resolution (A: 0.1, B: 0.01). B is more precise."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfe-7910-8589-cf424cb81c05",
+  "question": [
+    "Electric field at a distance 'r' from an infinitely long uniformly charged straight conductor, having linear charge density $\\lambda$ is $E_1$. Another uniformly charged conductor having same linear charge density $\\lambda$ is bent into a semicircle of radius 'r'. The electric field at its centre is $E_2$. Then"
+  ],
+  "choices": [
+    [
+      "$E_1 = E_2$"
+    ],
+    [
+      "$E_1 = rE_2$"
+    ],
+    [
+      "$E_2 = rE_1$"
+    ],
+    [
+      "$E_1 = 2rE_2$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "$E_1 = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$ and $E_2 = \\frac{2k\\lambda}{r} = \\frac{2\\lambda}{4\\pi\\epsilon_0 r} = \\frac{\\lambda}{2\\pi\\epsilon_0 r}$."
+  ],
+  "years": [
+    2023
+  ]
+}

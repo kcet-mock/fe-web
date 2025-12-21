@@ -1,0 +1,27 @@
+{
+  "id": "019b401d-7dfa-7469-b72e-3caa6679af75",
+  "question": [
+    "When light propagates through a given homogeneous medium, the velocities of"
+  ],
+  "choices": [
+    [
+      "Primary wavefronts are greater than or equal to those of secondary wavelets."
+    ],
+    [
+      "Primary wavefronts and wavelets are equal"
+    ],
+    [
+      "Primary wavefronts are larger than those of secondary wavelets"
+    ],
+    [
+      "Primary wavefronts are lesser than those of secondary wavelets"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to Huygens' principle, secondary wavelets travel with the same speed as the primary wavefront in a homogeneous medium."
+  ],
+  "years": [
+    2023
+  ]
+}

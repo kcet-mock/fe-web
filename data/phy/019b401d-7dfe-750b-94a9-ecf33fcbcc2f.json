@@ -1,0 +1,29 @@
+{
+  "id": "019b401d-7dfe-750b-94a9-ecf33fcbcc2f",
+  "question": [
+    "The speed of sound in an ideal gas at a given temperature T is v. The rms speed of gas molecules at that temperature is $V_{rms}$. The ratio of the velocities v and $V_{rms}$ for helium and oxygen gases are X and X' respectively. Then $\\frac{X}{X^{\\prime}}$ is equal to"
+  ],
+  "choices": [
+    [
+      "$\\sqrt{\\frac{5}{21}}$"
+    ],
+    [
+      "$\\frac{21}{5}$"
+    ],
+    [
+      "$\\frac{21}{\\sqrt{5}}$"
+    ],
+    [
+      "$\\frac{5}{\\sqrt{21}}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Ratio $X = v/V_{rms} = \\sqrt{\\gamma/3}$.",
+    "For Helium (monoatomic), $\\gamma=5/3$. For Oxygen (diatomic), $\\gamma=7/5$.",
+    "Ratio of ratios = $\\sqrt{(5/3)/(7/5)} = \\sqrt{25/21} = 5/\\sqrt{21}$."
+  ],
+  "years": [
+    2023
+  ]
+}
