@@ -5,16 +5,16 @@
   ],
   "choices": [
     [
-      "$60^{\\circ}$"
+      "katex:$60^{\\circ}$"
     ],
     [
-      "$90^{\\circ}$"
+      "katex:$90^{\\circ}$"
     ],
     [
       "Zero"
     ],
     [
-      "$45^{\\circ}$"
+      "katex:$45^{\\circ}$"
     ]
   ],
   "correctAnswer": 1,

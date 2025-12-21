@@ -430,7 +430,7 @@ export default function InternalQuestionEditPage() {
                 Back to list
               </Link>
               {id ? (
-                <Link href={`/internal/questions/view?id=${encodeURIComponent(id)}`} className="button-secondary">
+                <Link href={`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`} className="button-secondary">
                   View
                 </Link>
               ) : null}

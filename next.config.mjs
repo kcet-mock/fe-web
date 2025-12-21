@@ -12,6 +12,14 @@ export default function nextConfig(phase) {
     images: {
       unoptimized: true,
     },
+    // Increase page data size threshold to suppress warnings
+    onDemandEntries: {
+      maxInactiveAge: 25 * 1000,
+      pagesBufferLength: 2,
+    },
+    experimental: {
+      largePageDataBytes: 256 * 1024, // Increase from 128 KB to 256 KB
+    },
     // Serve the app from /fe-web when built for production (GitHub Pages repo path)
     basePath: isProdBuild ? `/${repoName}` : '',
     assetPrefix: isProdBuild ? `/${repoName}/` : '',

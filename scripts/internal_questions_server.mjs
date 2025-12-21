@@ -14,8 +14,18 @@ if (!enabled) {
   process.exit(1);
 }
 
-const questionsDir = path.join(process.cwd(), 'data', 'bio');
-const allPath = path.join(questionsDir, '_all.json');
+const VALID_SUBJECTS = ['bio', 'chem', 'phy', 'mat'];
+
+function getQuestionsDir(subject) {
+  if (!VALID_SUBJECTS.includes(subject)) {
+    throw new Error(`Invalid subject: ${subject}`);
+  }
+  return path.join(process.cwd(), 'data', subject);
+}
+
+function getAllPath(subject) {
+  return path.join(getQuestionsDir(subject), '_all.json');
+}
 
 function sendJson(res, status, body) {
   res.statusCode = status;
@@ -32,8 +42,8 @@ async function writeJsonFile(filePath, data) {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2) + '\n', 'utf-8');
 }
 
-async function readAllIds() {
-  const ids = await readJsonFile(allPath);
+async function readAllIds(subject) {
+  const ids = await readJsonFile(getAllPath(subject));
   return Array.isArray(ids) ? ids : [];
 }
 
@@ -138,7 +148,14 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (match.kind === 'collection' && req.method === 'GET') {
-      const ids = await readAllIds();
+      const subject = url.searchParams.get('subject') || 'bio';
+      if (!VALID_SUBJECTS.includes(subject)) {
+        sendJson(res, 400, { error: 'Invalid subject' });
+        return;
+      }
+      
+      const questionsDir = getQuestionsDir(subject);
+      const ids = await readAllIds(subject);
       const wantsFull = url.searchParams.get('full') === '1' || url.searchParams.get('full') === 'true';
       if (!wantsFull) {
         sendJson(res, 200, { ids });
@@ -160,8 +177,15 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (match.kind === 'collection' && req.method === 'POST') {
-      const id = globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
       const payload = await readBodyJson(req);
+      const subject = url.searchParams.get('subject') || payload.subject || 'bio';
+      if (!VALID_SUBJECTS.includes(subject)) {
+        sendJson(res, 400, { error: 'Invalid subject' });
+        return;
+      }
+      
+      const questionsDir = getQuestionsDir(subject);
+      const id = globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
       const q = normalizeQuestionPayload(payload, id);
 
       if (!Array.isArray(q.options) || q.options.length !== 4) {
@@ -173,9 +197,9 @@ const server = http.createServer(async (req, res) => {
         return;
       }
 
-      const ids = await readAllIds();
+      const ids = await readAllIds(subject);
       await writeJsonFile(path.join(questionsDir, `${id}.json`), q);
-      await writeJsonFile(allPath, [...ids, id]);
+      await writeJsonFile(getAllPath(subject), [...ids, id]);
       sendJson(res, 201, { id });
       return;
     }
@@ -207,6 +231,13 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (match.kind === 'item' && req.method === 'GET') {
+      const subject = url.searchParams.get('subject') || 'bio';
+      if (!VALID_SUBJECTS.includes(subject)) {
+        sendJson(res, 400, { error: 'Invalid subject' });
+        return;
+      }
+      
+      const questionsDir = getQuestionsDir(subject);
       const filePath = path.join(questionsDir, `${match.id}.json`);
       const q = await readJsonFile(filePath);
       sendJson(res, 200, { question: q });
@@ -215,6 +246,13 @@ const server = http.createServer(async (req, res) => {
 
     if (match.kind === 'item' && req.method === 'PUT') {
       const payload = await readBodyJson(req);
+      const subject = url.searchParams.get('subject') || payload.subject || 'bio';
+      if (!VALID_SUBJECTS.includes(subject)) {
+        sendJson(res, 400, { error: 'Invalid subject' });
+        return;
+      }
+      
+      const questionsDir = getQuestionsDir(subject);
       const q = normalizeQuestionPayload(payload, match.id);
 
       if (!Array.isArray(q.options) || q.options.length !== 4) {
@@ -232,8 +270,15 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (match.kind === 'item' && req.method === 'DELETE') {
-      const ids = await readAllIds();
-      await writeJsonFile(allPath, ids.filter((x) => x !== match.id));
+      const subject = url.searchParams.get('subject') || 'bio';
+      if (!VALID_SUBJECTS.includes(subject)) {
+        sendJson(res, 400, { error: 'Invalid subject' });
+        return;
+      }
+      
+      const questionsDir = getQuestionsDir(subject);
+      const ids = await readAllIds(subject);
+      await writeJsonFile(getAllPath(subject), ids.filter((x) => x !== match.id));
       await fs.unlink(path.join(questionsDir, `${match.id}.json`));
       sendJson(res, 200, { ok: true });
       return;

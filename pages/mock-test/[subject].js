@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import MathText from '../../components/MathText';
 
 // 60-minute mock test timer (in seconds)
 const TEST_DURATION_SECONDS = 60 * 60;
@@ -363,6 +364,16 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
                         );
                       }
 
+                      // Check if text starts with katex: prefix
+                      if (typeof part === 'string' && part.startsWith('katex:')) {
+                        const mathContent = part.substring(6);
+                        return (
+                          <p key={`q-${partIndex}`} className="question-text">
+                            <MathText>{mathContent}</MathText>
+                          </p>
+                        );
+                      }
+
                       return (
                         <p key={`q-${partIndex}`} className="question-text">
                           {part}
@@ -396,6 +407,12 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
                                     />
                                   </div>
                                 );
+                              }
+
+                              // Check if text starts with katex: prefix
+                              if (typeof part === 'string' && part.startsWith('katex:')) {
+                                const mathContent = part.substring(6);
+                                return <MathText key={`o-${partIndex}`}>{mathContent}</MathText>;
                               }
 
                               return <span key={`o-${partIndex}`}>{part}</span>;
