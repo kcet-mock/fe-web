@@ -87,6 +87,44 @@ When generating or working with questions, follow this exact JSON structure:
 3. **Image Path Format**: Always use `"images/{uuid}.png"` format for image references
 4. **Choices Structure**: Each choice must be an array (even single-text choices like `["Text"]`)
 5. **Zero-indexed Answers**: Answer indices start at 0 (0-3 for four choices)
+6. **Math/LaTeX Content**: For mathematical expressions, prefix strings with `"katex:"` followed by LaTeX wrapped in `$` or `$$`
+
+### Math Content with KaTeX
+
+The application uses KaTeX to render mathematical expressions. To include math in questions, choices, or explanations:
+
+**Format**: `"katex:$LaTeX_expression$"` for inline math or `"katex:$$LaTeX_expression$$"` for display math
+
+**Examples**:
+```json
+{
+  "question": [
+    "What is the value of ",
+    "katex:$\\sqrt{144}$",
+    "?"
+  ],
+  "choices": [
+    ["katex:$60^{\\circ}$"],
+    ["katex:$90^{\\circ}$"],
+    ["katex:$45^{\\circ}$"],
+    ["Zero"]
+  ],
+  "explanation": [
+    "The torque on a magnetic dipole is given by ",
+    "katex:$\\tau = MB \\sin \\theta$",
+    ". For zero torque, ",
+    "katex:$\\sin \\theta = 0$",
+    "."
+  ]
+}
+```
+
+**Usage Notes**:
+- Can be used in `question`, `choices`, and `explanation` arrays
+- Prefix the entire string with `"katex:"`
+- Follow with LaTeX wrapped in `$...$` (inline) or `$$...$$` (display)
+- Remember to escape backslashes in JSON: use `\\` for LaTeX commands
+- Math strings can be mixed with regular text and images in the same array
 
 ### Complete Example
 
