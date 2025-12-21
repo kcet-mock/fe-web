@@ -52,27 +52,27 @@ export default function Home() {
 
             <div className="filter-group" style={{ marginTop: '0.85rem' }}>
               <div className="filter-label">Subject</div>
-              <select
-                className="select"
-                value={subject}
-                onChange={(e) => setSubject(e.target.value)}
-              >
-                {SUBJECTS.map((s) => (
-                  <option key={s.value} value={s.value}>
-                    {s.label}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            <div style={{ marginTop: '0.75rem', display: 'flex' }}>
-              <button
-                type="button"
-                className="button-primary"
-                onClick={handleStartMockTest}
-              >
-                Start
-              </button>
+              <div style={{ display: 'flex', gap: '0.5rem' }}>
+                <select
+                  className="select"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  style={{ flex: 1 }}
+                >
+                  {SUBJECTS.map((s) => (
+                    <option key={s.value} value={s.value}>
+                      {s.label}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="button"
+                  className="button-primary"
+                  onClick={handleStartMockTest}
+                >
+                  Start
+                </button>
+              </div>
             </div>
 
             <div className="chip-row" style={{ marginTop: '0.75rem' }}>
@@ -90,7 +90,10 @@ export default function Home() {
                 Browse year-wise, subject-wise KCET question papers and
                 download them as PDFs.
               </p>
-              <div className="chip-row">
+              
+              <div style={{ marginTop: '0.85rem', height: '4rem' }}></div>
+
+              <div className="chip-row" style={{ marginTop: '0.75rem' }}>
                 <span className="chip">Year-wise</span>
                 <span className="chip">Subject-wise</span>
                 <span className="chip">Quick download</span>
