@@ -1,0 +1,28 @@
+{
+  "id": "0d1572e7-dd48-467b-b291-7279f73dbe90",
+  "question": [
+    "The area of the region bounded by the curve <katex>$y = x^2$</katex> and the line <katex>$y = 16$</katex> is"
+  ],
+  "choices": [
+    [
+      "32/3 sq. units"
+    ],
+    [
+      "256/3 sq. units"
+    ],
+    [
+      "64/3 sq. units"
+    ],
+    [
+      "128/3 sq. units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Area <katex>$= 2 \\int_0^4 (16 - x^2) dx$</katex> (due to symmetry).",
+    "<katex>$= 2 [16x - x^3/3]_0^4 = 2(64 - 64/3) = 2(128/3) = 256/3$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

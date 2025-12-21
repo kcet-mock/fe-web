@@ -1,0 +1,28 @@
+{
+  "id": "9f2043c3-c3aa-4d4e-b045-ca2473f71f8d",
+  "question": [
+    "The value of <katex>$\\int_{-1}^{1} \\sin^5 x \\cos^4 x dx$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{-\\pi}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\pi$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{2}$</katex>"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The integrand is an odd function because <katex>$\\sin^5(-x) = -\\sin^5(x)$</katex>.",
+    "Integral of an odd function over a symmetric interval [-1, 1] is 0."
+  ],
+  "years": [
+    2025
+  ]
+}

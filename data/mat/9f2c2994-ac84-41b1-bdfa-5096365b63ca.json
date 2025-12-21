@@ -1,0 +1,30 @@
+{
+  "id": "9f2c2994-ac84-41b1-bdfa-5096365b63ca",
+  "question": [
+    "If a matrix <katex>$A = \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix}$</katex> satisfies <katex>$A^6 = kA'$</katex>, then the value of k is"
+  ],
+  "choices": [
+    [
+      "32"
+    ],
+    [
+      "1"
+    ],
+    [
+      "<katex>$\\frac{1}{32}$</katex>"
+    ],
+    [
+      "6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$A^2 = 2A$</katex>.",
+    "<katex>$A^6 = 2^5 A = 32 A$</katex>.",
+    "Since A is symmetric (<katex>$A' = A$</katex>), <katex>$32 A = 32 A'$</katex>.",
+    "Thus <katex>$k = 32$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

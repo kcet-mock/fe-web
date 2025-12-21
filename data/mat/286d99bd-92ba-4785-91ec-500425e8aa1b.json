@@ -1,0 +1,28 @@
+{
+  "id": "286d99bd-92ba-4785-91ec-500425e8aa1b",
+  "question": [
+    "The system of equations <katex>$4x + 6y = 5$</katex> and <katex>$8x + 12y = 10$</katex> has"
+  ],
+  "choices": [
+    [
+      "No solution"
+    ],
+    [
+      "Infinitely many solutions"
+    ],
+    [
+      "A unique solution"
+    ],
+    [
+      "Only two solutions"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Ratio of coefficients: <katex>$\\frac{4}{8} = \\frac{6}{12} = \\frac{5}{10} = \\frac{1}{2}$</katex>.",
+    "Since all ratios are equal, the lines are coincident, meaning infinitely many solutions."
+  ],
+  "years": [
+    2025
+  ]
+}

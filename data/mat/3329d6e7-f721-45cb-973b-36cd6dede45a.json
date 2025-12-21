@@ -1,0 +1,28 @@
+{
+  "id": "3329d6e7-f721-45cb-973b-36cd6dede45a",
+  "question": [
+    "If the number of terms in the binomial expansion of <katex>$(2x+3)^{3n}$</katex> is 22, then the value of n is"
+  ],
+  "choices": [
+    [
+      "8"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "9"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Number of terms = index + 1.",
+    "<katex>$3n + 1 = 22 \\Rightarrow 3n = 21 \\Rightarrow n = 7$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

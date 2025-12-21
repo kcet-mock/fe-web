@@ -1,0 +1,28 @@
+{
+  "id": "c3583491-018b-4ddf-b9cd-0f12ea0d1e7a",
+  "question": [
+    "General solution of the differential equation <katex>$\\frac{dy}{dx} + y \\tan x = \\sec x$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$y \\sec x = \\tan x + c$</katex>"
+    ],
+    [
+      "<katex>$y \\tan x = \\sec x + c$</katex>"
+    ],
+    [
+      "<katex>$\\csc x = y \\tan x + c$</katex>"
+    ],
+    [
+      "<katex>$x \\sec x = \\tan y + c$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Integrating factor <katex>$IF = e^{\\int \\tan x dx} = \\sec x$</katex>.",
+    "Solution: <katex>$y(\\sec x) = \\int \\sec^2 x dx = \\tan x + c$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

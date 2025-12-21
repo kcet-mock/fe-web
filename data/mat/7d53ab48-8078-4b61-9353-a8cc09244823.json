@@ -1,0 +1,27 @@
+{
+  "id": "7d53ab48-8078-4b61-9353-a8cc09244823",
+  "question": [
+    "Which of the following statements is not correct?"
+  ],
+  "choices": [
+    [
+      "A row matrix has only one row"
+    ],
+    [
+      "A diagonal matrix has all diagonal elements equal to zero"
+    ],
+    [
+      "A symmetric matrix A is a square matrix satisfying A' = A"
+    ],
+    [
+      "A skew symmetric matrix has all diagonal elements equal to zero"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A diagonal matrix is defined by non-diagonal elements being zero. The diagonal elements themselves can be non-zero. The statement claiming they must be zero is incorrect."
+  ],
+  "years": [
+    2025
+  ]
+}

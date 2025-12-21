@@ -1,0 +1,31 @@
+{
+  "id": "db2244d9-dd20-442a-b68f-c9644c87230f",
+  "question": [
+    "Let the functions 'f' and 'g' be <katex>$f:[0,\\frac{\\pi}{2}]\\rightarrow R$</katex> given by <katex>$f(x)=\\sin x$</katex> and <katex>$g:[0,\\frac{\\pi}{2}]\\rightarrow R$</katex> given by <katex>$g(x)=\\cos x$</katex>. Consider the following statements:",
+    "Statement (I): f and g are one-one",
+    "Statement (II): <katex>$f+g$</katex> is one-one",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true, statement (II) is false"
+    ],
+    [
+      "Statement (I) is false, statement (II) is true"
+    ],
+    [
+      "Both statements (I) and (II) are true"
+    ],
+    [
+      "Both statements (I) and (II) are false"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In <katex>$[0, \\pi/2]$</katex>, sin x and cos x are strictly monotonic, so f and g are one-one.",
+    "<katex>$(f+g)(x) = \\sin x + \\cos x = \\sqrt{2}\\sin(x + \\pi/4)$</katex>. In the range, this function goes from 1 to <katex>$\\sqrt{2}$</katex> and back to 1 (at 0 and <katex>$\\pi/2$</katex>). Since <katex>(f+g)(0) = 1$</katex> and <katex>(f+g)(\\pi/2) = 1$</katex>, it is not one-one."
+  ],
+  "years": [
+    2025
+  ]
+}

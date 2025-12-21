@@ -1,0 +1,29 @@
+{
+  "id": "537321b2-2194-4a52-9187-9a4f31e790cc",
+  "question": [
+    "If 'a' and 'b' are the order and degree respectively of the differentiable equation <katex>$(\\frac{d^2y}{dx^2})^2 + (\\frac{dy}{dx})^3 + x^4 = 0$</katex>, then a - b = _____"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Order a = 2 (highest derivative).",
+    "Degree b = 2 (power of highest derivative).",
+    "<katex>$a - b = 2 - 2 = 0$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

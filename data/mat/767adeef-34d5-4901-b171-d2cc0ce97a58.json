@@ -1,0 +1,30 @@
+{
+  "id": "767adeef-34d5-4901-b171-d2cc0ce97a58",
+  "question": [
+    "If a line makes angles <katex>$90^{\\circ}, 60^{\\circ}$</katex> and <katex>$\\theta$</katex> with x, y and z axes respectively, where <katex>$\\theta$</katex> is acute, then the value of <katex>$\\theta$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\pi}{6}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\cos^2 90 + \\cos^2 60 + \\cos^2 \\theta = 1$</katex>.",
+    "<katex>$0 + 1/4 + \\cos^2 \\theta = 1$</katex>.",
+    "<katex>$\\cos^2 \\theta = 3/4 \\Rightarrow \\cos \\theta = \\sqrt{3}/2$</katex>.",
+    "<katex>$\\theta = 30^{\\circ} = \\pi/6$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

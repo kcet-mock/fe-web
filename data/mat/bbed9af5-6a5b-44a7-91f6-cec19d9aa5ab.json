@@ -1,0 +1,31 @@
+{
+  "id": "bbed9af5-6a5b-44a7-91f6-cec19d9aa5ab",
+  "question": [
+    "Let <katex>$A=\\{a,b,c\\}$</katex>, then the number of equivalence relations on A containing (b, c) is"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "3"
+    ],
+    [
+      "2"
+    ],
+    [
+      "4"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The relations must contain reflexive pairs (a,a), (b,b), (c,c) and the pair (b,c).",
+    "By symmetry, it must contain (c,b).",
+    "Case 1: Smallest relation <katex>$R_1 = \\{(a,a), (b,b), (c,c), (b,c), (c,b)\\}$</katex>. This is an equivalence relation.",
+    "Case 2: Adding (a,b) requires adding (b,a), (a,c), (c,a) for transitive/symmetric properties, resulting in the universal relation <katex>$A \\times A$</katex>.",
+    "Thus, there are exactly 2 such relations."
+  ],
+  "years": [
+    2025
+  ]
+}

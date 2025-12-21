@@ -1,0 +1,28 @@
+{
+  "id": "0c1dcb65-3f6b-4656-8762-a70aaffb96e0",
+  "question": [
+    "The number of diagonals that can be drawn in an octagon is"
+  ],
+  "choices": [
+    [
+      "15"
+    ],
+    [
+      "20"
+    ],
+    [
+      "28"
+    ],
+    [
+      "12"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Formula: <katex>$\\frac{n(n-3)}{2}$</katex>. For octagon, n=8.",
+    "<katex>$\\frac{8(5)}{2} = 20$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

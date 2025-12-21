@@ -1,0 +1,29 @@
+{
+  "id": "77969f13-bb5c-4849-9376-89d03f04e09a",
+  "question": [
+    "If A and B are two matrices such that AB is an identity matrix and the order of matrix B is <katex>$3 \\times 4$</katex>, then the order of matrix A is"
+  ],
+  "choices": [
+    [
+      "<katex>$3 \\times 4$</katex>"
+    ],
+    [
+      "<katex>$3 \\times 3$</katex>"
+    ],
+    [
+      "<katex>$4 \\times 3$</katex>"
+    ],
+    [
+      "<katex>$4 \\times 4$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For AB to be defined, cols of A = rows of B = 3.",
+    "For AB to be Identity I, the result must be square. Since cols of B = 4, rows of A must be 4 to form <katex>$I_4$</katex>.",
+    "Thus A is <katex>$4 \\times 3$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

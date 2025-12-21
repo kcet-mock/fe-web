@@ -1,0 +1,29 @@
+{
+  "id": "84d9a3dc-8246-4b70-9c44-0a972302614e",
+  "question": [
+    "A line passes through (-1, -3) and perpendicular to <katex>$x + 6y = 5$</katex>. Its x intercept is"
+  ],
+  "choices": [
+    [
+      "1/2"
+    ],
+    [
+      "-1/2"
+    ],
+    [
+      "-2"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Slope of given line = -1/6. Perpendicular slope = 6.",
+    "Equation: <katex>$y + 3 = 6(x + 1) \\Rightarrow y + 3 = 6x + 6 \\Rightarrow 6x - y + 3 = 0$</katex>.",
+    "For x-intercept, put y=0: <katex>$6x + 3 = 0 \\Rightarrow x = -1/2$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

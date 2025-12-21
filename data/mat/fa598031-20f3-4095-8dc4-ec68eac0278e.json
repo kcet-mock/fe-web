@@ -1,0 +1,28 @@
+{
+  "id": "fa598031-20f3-4095-8dc4-ec68eac0278e",
+  "question": [
+    "If A is a square matrix such that <katex>$A^2 = A$</katex>, then <katex>$(I-A)^3$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$I - A$</katex>"
+    ],
+    [
+      "<katex>$A - I$</katex>"
+    ],
+    [
+      "<katex>$I + A$</katex>"
+    ],
+    [
+      "<katex>$-I - A$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$(I-A)^3 = I^3 - 3I^2A + 3IA^2 - A^3$</katex>",
+    "Since <katex>$A^2=A$</katex> and <katex>$A^3=A$</katex>, this becomes <katex>$I - 3A + 3A - A = I - A$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "22e45ee0-c498-4d76-9231-43fcc903d4e2",
+  "question": [
+    "If <katex>$y\\cos x = 1 + \\sin x$</katex>, then"
+  ],
+  "choices": [
+    [
+      "Only b is correct"
+    ],
+    [
+      "Only a is correct"
+    ],
+    [
+      "Both a and c are correct"
+    ],
+    [
+      "Both b and d are correct"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$y = \\frac{1+\\sin x}{\\cos x}$</katex>. This simplifies to <katex>$\\sec x + \\tan x$</katex> or related forms.",
+    "Differentiating yields <katex>$\\frac{1}{1-\\sin x}$</katex> or forms involving <katex>$\\sec^2(\\dots)$</katex>.",
+    "The answer key points to option 3 (Both a and c are correct)."
+  ],
+  "years": [
+    2025
+  ]
+}

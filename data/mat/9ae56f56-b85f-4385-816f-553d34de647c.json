@@ -1,0 +1,28 @@
+{
+  "id": "9ae56f56-b85f-4385-816f-553d34de647c",
+  "question": [
+    "The minimum value of <katex>$1 - \\sin x$</katex> is"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Maximum value of <katex>$\\sin x$</katex> is 1.",
+    "Minimum value of <katex>$1 - \\sin x = 1 - 1 = 0$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}
