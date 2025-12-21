@@ -1,0 +1,31 @@
+{
+  "id": "019b403e-e58a-71da-b4ab-f97ad9f10d63",
+  "question": [
+    "$\\int\\sqrt{5-2x+x^{2}}dx=$"
+  ],
+  "choices": [
+    [
+      "$\\frac{x-1}{2}\\sqrt{5+2x+x^{2}}+2~log|(x-1)+\\sqrt{5+2x+x^{2}}|+C$"
+    ],
+    [
+      "$\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2~log|(x-1)+\\sqrt{5-2x+x^{2}}|+C$"
+    ],
+    [
+      "$\\frac{x-1}{2}\\sqrt{5-2x+x^{2}}+2~log|(x+1)+\\sqrt{x^{2}+2x+5}|+C$"
+    ],
+    [
+      "$\\frac{x}{2}\\sqrt{5-2x+x^{2}}+4~log|(x+1)+\\sqrt{x^{2}-2x+5}|+C$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Completing the square: $5 - 2x + x^2 = (x-1)^2 + 4$.",
+    "Form $\\int \\sqrt{u^2 + a^2} du = \\frac{u}{2}\\sqrt{u^2+a^2} + \\frac{a^2}{2}\\ln|u+\\sqrt{u^2+a^2}|$.",
+    "Here $u=x-1, a=2$.",
+    "Result: $\\frac{x-1}{2}\\sqrt{(x-1)^2+4} + \\frac{4}{2}\\ln|(x-1)+\\sqrt{...}|$.",
+    "Matches Option B."
+  ],
+  "years": [
+    2023
+  ]
+}

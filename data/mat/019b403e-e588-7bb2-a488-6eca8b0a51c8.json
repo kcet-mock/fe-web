@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e588-7bb2-a488-6eca8b0a51c8",
+  "question": [
+    "If $u=sin^{-1}(\\frac{2x}{1+x^{2}})$ and $v=tan^{-1}(\\frac{2x}{1-x^{2}})$ then $\\frac{du}{dv}$ is"
+  ],
+  "choices": [
+    [
+      "$\\frac{1-x^{2}}{1+x^{2}}$"
+    ],
+    [
+      "1"
+    ],
+    [
+      "$\\frac{1}{2}$"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Put $x = \\tan \\theta$.",
+    "$u = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\tan^{-1}x$.",
+    "$v = \\tan^{-1}(\\tan 2\\theta) = 2\\theta = 2\\tan^{-1}x$.",
+    "Since $u = v$, $\\frac{du}{dv} = 1$."
+  ],
+  "years": [
+    2023
+  ]
+}

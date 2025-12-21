@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e587-7f87-87f2-aa56143302a4",
+  "question": [
+    "If A and B are two matrices such that $AB=B$ and $BA=A$, then $A^{2}+B^{2}=$"
+  ],
+  "choices": [
+    [
+      "AB"
+    ],
+    [
+      "2 BA"
+    ],
+    [
+      "A + B"
+    ],
+    [
+      "2 AB"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Given $AB=B$ and $BA=A$.",
+    "Multiply first by A: $A(AB) = AB \\Rightarrow A^2B = B$. Also $A^2 = A(BA) = (AB)A = BA = A$. So $A^2 = A$.",
+    "Multiply second by B: $B(BA) = BA \\Rightarrow B^2A = A$. Also $B^2 = B(AB) = (BA)B = AB = B$. So $B^2 = B$.",
+    "Therefore, $A^2 + B^2 = A + B$."
+  ],
+  "years": [
+    2023
+  ]
+}

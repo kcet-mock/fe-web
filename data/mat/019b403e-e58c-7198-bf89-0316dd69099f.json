@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e58c-7198-bf89-0316dd69099f",
+  "question": [
+    "The value of $e^{log_{10}tan~1^{\\circ}+log_{10}tan~2^{\\circ}+...+log_{10}tan~89^{\\circ}}$ is"
+  ],
+  "choices": [
+    [
+      "$\\frac{1}{e}$"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Exponent is $\\log(\\tan 1 \\cdot \\tan 2 \\cdot ... \\cdot \\tan 89)$.",
+    "Since $\\tan x \\tan(90-x) = 1$, the product pairs up to 1.",
+    "$\\log_{10}(1) = 0$.",
+    "Value is $e^0 = 1$."
+  ],
+  "years": [
+    2023
+  ]
+}

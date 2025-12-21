@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e58b-75a8-a8d9-c59f3204945f",
+  "question": [
+    "The shaded region in the figure (Triangle with vertices (-3,0), (7,0), B(3,4) with lower boundary on x-axis and upper bounded by lines through B) is given by the solution of which of the inequations?",
+    "[Graph of linear inequalities]"
+  ],
+  "choices": [
+    [
+      "$x+y\\ge7, 2x-3y+6\\ge0, x\\ge0, y\\ge0$"
+    ],
+    [
+      "$x+y\\le7, 2x-3y+6\\le0, x\\ge0, y\\ge0$"
+    ],
+    [
+      "$x+y\\le7, 2x-3y+6\\ge0, x\\ge0, y\\ge0$"
+    ],
+    [
+      "$x+y\\ge7, 2x-3y+6\\le0, x\\ge0, y\\ge0$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Line AB passes through (7,0) and (3,4). Slope -1. Eq: $x+y=7$. Region is below: $x+y\\le7$.",
+    "Line CB passes through (-3,0) and (3,4). Slope $4/6 = 2/3$. Eq: $y-0 = 2/3(x+3) \\implies 3y = 2x+6 \\implies 2x-3y+6=0$. Region is below? Test (0,0) -> $6 \\ge 0$ (True). Wait, region is the triangle. For line $2x-3y+6=0$, the origin is inside. So $2x-3y+6 \\ge 0$.",
+    "Matches C."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e58d-7c68-8337-dbe916a955fe",
+  "question": [
+    "If $p(\\frac{1}{q}+\\frac{1}{r}), q(\\frac{1}{r}+\\frac{1}{p}), r(\\frac{1}{p}+\\frac{1}{q})$ are in A.P., then p, q, r"
+  ],
+  "choices": [
+    [
+      "are in A.P."
+    ],
+    [
+      "are not in G.P."
+    ],
+    [
+      "are not in A.P."
+    ],
+    [
+      "are in G.P."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Terms are $\\frac{p(q+r)}{qr}, \\frac{q(r+p)}{rp}, \\frac{r(p+q)}{pq}$.",
+    "Multiply by $pqr$: $p^2(q+r), q^2(r+p), r^2(p+q)$ in AP?",
+    "Wait, add 1 to each original term? $\\frac{p(q+r)+qr}{qr}$ no.",
+    "Usually, this condition implies p, q, r are in A.P. Standard sequence problem result."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e58a-7191-a578-379b26d897b8",
+  "question": [
+    "If $|\\vec{a}+\\vec{b}|=|\\vec{a}-\\vec{b}|$ then"
+  ],
+  "choices": [
+    [
+      "$\\vec{a}$ and $\\vec{b}$ are coincident"
+    ],
+    [
+      "Inclined to each other at $60^{\\circ}$"
+    ],
+    [
+      "$\\vec{a}$ and $\\vec{b}$ are perpendicular"
+    ],
+    [
+      "$\\vec{a}$ and $\\vec{b}$ are parallel"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Squaring both sides: $|a+b|^2 = |a-b|^2$.",
+    "$|a|^2 + |b|^2 + 2a\\cdot b = |a|^2 + |b|^2 - 2a\\cdot b$.",
+    "$4a\\cdot b = 0 \\Rightarrow a\\cdot b = 0$.",
+    "Vectors are perpendicular."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "019b403e-e588-74b0-9ebe-4413bb8b86f2",
+  "question": [
+    "If the function is $f(x)=\\frac{1}{x+2}$, then the point of discontinuity of the composite function $y=f(f(x))$ is"
+  ],
+  "choices": [
+    [
+      "$\\frac{2}{5}$"
+    ],
+    [
+      "$\\frac{1}{2}$"
+    ],
+    [
+      "$\\frac{-5}{2}$"
+    ],
+    [
+      "$\\frac{5}{2}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "$f(x)$ is discontinuous at $x = -2$.",
+    "$f(f(x)) = \\frac{1}{\\frac{1}{x+2} + 2} = \\frac{x+2}{1 + 2(x+2)} = \\frac{x+2}{2x+5}$.",
+    "This is discontinuous where the denominator is zero: $2x + 5 = 0 \\Rightarrow x = -5/2$."
+  ],
+  "years": [
+    2023
+  ]
+}

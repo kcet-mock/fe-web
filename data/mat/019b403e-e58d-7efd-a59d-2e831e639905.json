@@ -1,0 +1,29 @@
+{
+  "id": "019b403e-e58d-7efd-a59d-2e831e639905",
+  "question": [
+    "Let $f:R\\rightarrow R$ be defined by $f(x)=3x^{2}-5$ and $g:R\\rightarrow R$ by $g(x)=\\frac{x}{x^{2}+1}$ then gof is"
+  ],
+  "choices": [
+    [
+      "$\\frac{3x^{2}}{x^{4}+2x^{2}-4}$"
+    ],
+    [
+      "$\\frac{3x^{2}}{9x^{4}+30x^{2}-2}$"
+    ],
+    [
+      "$\\frac{3x^{2}-5}{9x^{4}-30x^{2}+26}$"
+    ],
+    [
+      "$\\frac{3x^{2}-5}{9x^{4}-6x^{2}+26}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "$g(f(x)) = \\frac{f(x)}{f(x)^2 + 1} = \\frac{3x^2-5}{(3x^2-5)^2 + 1}$.",
+    "$(3x^2-5)^2 + 1 = 9x^4 - 30x^2 + 25 + 1 = 9x^4 - 30x^2 + 26$.",
+    "Result: $\\frac{3x^2-5}{9x^4-30x^2+26}$."
+  ],
+  "years": [
+    2023
+  ]
+}

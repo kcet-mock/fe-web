@@ -1,0 +1,29 @@
+{
+  "id": "019b403e-e58c-7b7c-a365-b19f0d86364b",
+  "question": [
+    "Which of the following is an empty set?"
+  ],
+  "choices": [
+    [
+      "$\\{x:x^{2}-9=0,x\\in R\\}$"
+    ],
+    [
+      "$\\{x:x^{2}=x+2,x\\in R\\}$"
+    ],
+    [
+      "$\\{x:x^{2}-1=0,x\\in R\\}$"
+    ],
+    [
+      "$\\{x:x^{2}+1=0,x\\in R\\}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "$x^2 + 1 = 0 \\implies x^2 = -1$.",
+    "There is no real number $x$ whose square is negative.",
+    "Thus, the set is empty."
+  ],
+  "years": [
+    2023
+  ]
+}

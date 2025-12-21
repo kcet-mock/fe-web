@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e58b-7aa4-883c-62f5b0e37d56",
+  "question": [
+    "If a line makes an angle of $\\frac{\\pi}{3}$ with each X and Y axis then the acute angle made by Z-axis is"
+  ],
+  "choices": [
+    [
+      "$\\frac{\\pi}{2}$"
+    ],
+    [
+      "$\\frac{\\pi}{4}$"
+    ],
+    [
+      "$\\frac{\\pi}{6}$"
+    ],
+    [
+      "$\\frac{\\pi}{3}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Direction cosines: $l = \\cos(\\pi/3) = 1/2, m = 1/2$.",
+    "$l^2 + m^2 + n^2 = 1$.",
+    "$1/4 + 1/4 + n^2 = 1 \\implies n^2 = 1/2$.",
+    "$n = \\pm 1/\\sqrt{2}$. Angle $\\gamma = \\pi/4$."
+  ],
+  "years": [
+    2023
+  ]
+}

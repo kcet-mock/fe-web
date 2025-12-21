@@ -1,0 +1,31 @@
+{
+  "id": "019b403e-e58a-7418-9520-d75af6f41ce0",
+  "question": [
+    "The equation of the plane through the points (2, 1, 0), (3, 2, -2) and (3, 1, 7) is"
+  ],
+  "choices": [
+    [
+      "$6x-3y+2z-7=0$"
+    ],
+    [
+      "$7x-9y-z-5=0$"
+    ],
+    [
+      "$3x-2y+6z-27=0$"
+    ],
+    [
+      "$2x-3y+4z-27=0$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Normal vector $\\vec{n} = \\vec{AB} \\times \\vec{AC}$.",
+    "A(2,1,0), B(3,2,-2), C(3,1,7).",
+    "AB = (1, 1, -2). AC = (1, 0, 7).",
+    "$n = \\begin{vmatrix}i&j&k\\\\1&1&-2\\\\1&0&7\\end{vmatrix} = i(7) - j(9) + k(-1) = (7, -9, -1)$.",
+    "Eq: $7(x-2) - 9(y-1) - 1(z-0) = 0 \\implies 7x - 9y - z - 14 + 9 = 0 \\implies 7x - 9y - z - 5 = 0$."
+  ],
+  "years": [
+    2023
+  ]
+}

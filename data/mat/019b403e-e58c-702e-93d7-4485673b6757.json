@@ -1,0 +1,29 @@
+{
+  "id": "019b403e-e58c-702e-93d7-4485673b6757",
+  "question": [
+    "A line passes through (2, 2) and is perpendicular to the line $3x+y=3$. Its y-intercept is"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "$\\frac{4}{3}$"
+    ],
+    [
+      "$\\frac{1}{3}$"
+    ],
+    [
+      "$\\frac{2}{3}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Slope of given line is -3. Perpendicular slope $m = 1/3$.",
+    "Eq: $y - 2 = (1/3)(x - 2) \\implies 3y - 6 = x - 2 \\implies x - 3y + 4 = 0$.",
+    "Y-intercept (put x=0): $-3y + 4 = 0 \\implies y = 4/3$."
+  ],
+  "years": [
+    2023
+  ]
+}

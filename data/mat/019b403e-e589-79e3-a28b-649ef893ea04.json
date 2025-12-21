@@ -1,0 +1,29 @@
+{
+  "id": "019b403e-e589-79e3-a28b-649ef893ea04",
+  "question": [
+    "$\\int\\sqrt{cosec~x-sin~x}dx=$"
+  ],
+  "choices": [
+    [
+      "$2\\sqrt{sin~x}+C$"
+    ],
+    [
+      "$\\frac{2}{\\sqrt{sin~x}}+C$"
+    ],
+    [
+      "$\\sqrt{sin~x}+C$"
+    ],
+    [
+      "$\\frac{\\sqrt{sin~x}}{2}+C$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "$\\sqrt{\\frac{1}{\\sin x} - \\sin x} = \\sqrt{\\frac{1-\\sin^2 x}{\\sin x}} = \\frac{\\cos x}{\\sqrt{\\sin x}}$.",
+    "Let $u = \\sin x, du = \\cos x dx$.",
+    "Integral becomes $\\int u^{-1/2} du = 2u^{1/2} + C = 2\\sqrt{\\sin x} + C$."
+  ],
+  "years": [
+    2023
+  ]
+}

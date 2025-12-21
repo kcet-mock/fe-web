@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e589-7434-9aef-4b91a59cc99c",
+  "question": [
+    "$\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx=$"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "3"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Using property $\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$.",
+    "Let $I = \\int_2^8 ...$. Then $I = \\int_2^8 \\frac{5^{\\sqrt{10-(10-x)}}}{...} = \\int_2^8 \\frac{5^{\\sqrt{x}}}{5^{\\sqrt{10-x}} + 5^{\\sqrt{x}}}$.",
+    "$2I = \\int_2^8 1 dx = 6$.",
+    "$I = 3$."
+  ],
+  "years": [
+    2023
+  ]
+}

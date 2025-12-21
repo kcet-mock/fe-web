@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e589-7d9b-9625-7996fd62ac5e",
+  "question": [
+    "The distance 's' in meters travelled by a particle in 't' seconds is given by $s=\\frac{2t^{3}}{3}-18t+\\frac{5}{3}.$ The acceleration when the particle comes to rest is"
+  ],
+  "choices": [
+    [
+      "$12m^{2}/sec$"
+    ],
+    [
+      "$18m^{2}/sec$"
+    ],
+    [
+      "$3m^{2}/sec$"
+    ],
+    [
+      "$10m^{2}/sec$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Velocity $v = \\frac{ds}{dt} = 2t^2 - 18$.",
+    "Particle at rest: $v=0 \\implies 2t^2=18 \\implies t^2=9 \\implies t=3$.",
+    "Acceleration $a = \\frac{dv}{dt} = 4t$.",
+    "At $t=3$, $a = 4(3) = 12$."
+  ],
+  "years": [
+    2023
+  ]
+}

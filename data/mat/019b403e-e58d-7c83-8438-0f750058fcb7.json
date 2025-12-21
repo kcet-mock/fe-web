@@ -1,0 +1,29 @@
+{
+  "id": "019b403e-e58d-7c83-8438-0f750058fcb7",
+  "question": [
+    "If n is even and the middle term in the expansion of $(x^{2}+\\frac{1}{x})^{n}$ is $924x^{6}$, then n is equal to"
+  ],
+  "choices": [
+    [
+      "12"
+    ],
+    [
+      "8"
+    ],
+    [
+      "10"
+    ],
+    [
+      "14"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Middle term for even n is $T_{n/2+1} = \\binom{n}{n/2} (x^2)^{n/2} (1/x)^{n/2} = \\binom{n}{n/2} x^n x^{-n/2} = \\binom{n}{n/2} x^{n/2}$.",
+    "Given power is $x^6$, so $n/2 = 6 \\implies n = 12$.",
+    "Check coeff: $\\binom{12}{6} = 924$. Correct."
+  ],
+  "years": [
+    2023
+  ]
+}

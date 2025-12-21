@@ -1,0 +1,31 @@
+{
+  "id": "019b403e-e58b-7221-9478-15b6482d0ff8",
+  "question": [
+    "The point of intersection of the line $x+1=\\frac{y+3}{3}=\\frac{-z+2}{2}$ with the plane $3x+4y+5z=10$ is"
+  ],
+  "choices": [
+    [
+      "(2,6,-4)"
+    ],
+    [
+      "(2, 6, 4)"
+    ],
+    [
+      "(-2,6,-4)"
+    ],
+    [
+      "(2,-6,-4)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Parametric line: $x = t-1, y = 3t-3, z = -2t+2$.",
+    "Sub into plane: $3(t-1) + 4(3t-3) + 5(-2t+2) = 10$.",
+    "$3t - 3 + 12t - 12 - 10t + 10 = 10$.",
+    "$5t - 5 = 10 \\implies 5t = 15 \\implies t = 3$.",
+    "Point: $x = 3-1=2, y = 9-3=6, z = -6+2=-4$. Point (2, 6, -4)."
+  ],
+  "years": [
+    2023
+  ]
+}

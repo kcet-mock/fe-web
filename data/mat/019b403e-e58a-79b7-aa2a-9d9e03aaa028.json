@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e58a-79b7-aa2a-9d9e03aaa028",
+  "question": [
+    "If the curve passes through the point (1, 1) and at any point (x, y) on the curve, the product of the slope of its tangent and x co-ordinate of the point is equal to the y co-ordinate of the point, then the curve also passes through the point"
+  ],
+  "choices": [
+    [
+      "(-1, 2)"
+    ],
+    [
+      "$(\\sqrt{3},0)$"
+    ],
+    [
+      "(2, 2)"
+    ],
+    [
+      "(3,0)"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Slope $m = dy/dx$. Condition: $x(dy/dx) = y$.",
+    "$\\frac{dy}{y} = \\frac{dx}{x}$. Integrate: $\\ln y = \\ln x + \\ln C \\implies y = Cx$.",
+    "Passes through (1,1) $\\implies 1 = C(1) \\implies C=1$.",
+    "Curve is $y=x$. This passes through (2,2)."
+  ],
+  "years": [
+    2023
+  ]
+}

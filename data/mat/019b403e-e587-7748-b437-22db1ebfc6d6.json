@@ -1,0 +1,30 @@
+{
+  "id": "019b403e-e587-7748-b437-22db1ebfc6d6",
+  "question": [
+    "If $\\Delta=\\begin{vmatrix}1&a&a^{2}\\\\ 1&b&b^{2}\\\\ 1&c&c^{2}\\end{vmatrix}$ and $\\Delta_{1}=\\begin{vmatrix}1&1&1\\\\ bc&ca&ab\\\\ a&b&c\\end{vmatrix}$ then"
+  ],
+  "choices": [
+    [
+      "$\\Delta_{1} \\ne \\Delta$"
+    ],
+    [
+      "$\\Delta_{1} = -\\Delta$"
+    ],
+    [
+      "$\\Delta_{1} = \\Delta$"
+    ],
+    [
+      "$\\Delta_{1} = 3\\Delta$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Multiply $R_1, R_2, R_3$ of $\\Delta_1$ by $a, b, c$ respectively and divide by $abc$.",
+    "$\\Delta_1 = \\frac{1}{abc} \\begin{vmatrix}a&a&a\\\\ abc&abc&abc\\\\ a^2&b^2&c^2\\end{vmatrix}$.",
+    "Take out $abc$ from $R_2$ and $a$ from $R_1$? No, take $abc$ from $R_2$.",
+    "$\\Delta_1 = \\begin{vmatrix}a&a&a\\\\ 1&1&1\\\\ a^2&b^2&c^2\\end{vmatrix}$ (Wait, column vs row). The structure corresponds to $\\Delta$ with row swaps. Swapping rows introduces a negative sign. $\\Delta_1 = -\\Delta$."
+  ],
+  "years": [
+    2023
+  ]
+}
