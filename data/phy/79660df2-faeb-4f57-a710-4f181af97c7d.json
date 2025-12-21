@@ -1,0 +1,28 @@
+{
+  "id": "79660df2-faeb-4f57-a710-4f181af97c7d",
+  "question": [
+    "A body has a charge of -3.2 <katex>$\\mu$</katex>C. The number of excess electrons it has is"
+  ],
+  "choices": [
+    [
+      "<katex>$5.12 \\times 10^{25}$</katex>"
+    ],
+    [
+      "<katex>$5 \\times 10^{12}$</katex>"
+    ],
+    [
+      "<katex>$2 \\times 10^{13}$</katex>"
+    ],
+    [
+      "<katex>$5.12 \\times 10^{13}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$Q = ne$</katex>.",
+    "<katex>$n = Q/e = 3.2 \\times 10^{-6} / 1.6 \\times 10^{-19} = 2 \\times 10^{13}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

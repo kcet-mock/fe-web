@@ -1,0 +1,28 @@
+{
+  "id": "ad922bc8-6c18-4d36-989a-f6aae842b9c2",
+  "question": [
+    "Depletion region in an unbiased semiconductor diode is a region consisting of"
+  ],
+  "choices": [
+    [
+      "Both free electrons and holes"
+    ],
+    [
+      "Neither free electrons nor holes"
+    ],
+    [
+      "Only free electrons"
+    ],
+    [
+      "Only holes"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The depletion region is depleted of mobile charge carriers (free electrons and holes) due to recombination near the junction.",
+    "It contains immobile ionized donor and acceptor atoms."
+  ],
+  "years": [
+    2024
+  ]
+}

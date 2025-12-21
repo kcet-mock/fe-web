@@ -1,0 +1,30 @@
+{
+  "id": "4012c7f6-7c8b-4bab-baf4-a6a9d7378cb7",
+  "question": [
+    "In an LCR series circuit, the value of only capacitance C is varied. The resulting variation of resonance frequency <katex>$f_{0}$</katex> as a function of C can be represented as"
+  ],
+  "choices": [
+    [
+      "images/q4_choice_a.png"
+    ],
+    [
+      "images/q4_choice_b.png"
+    ],
+    [
+      "images/q4_choice_c.png"
+    ],
+    [
+      "images/q4_choice_d.png"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The resonance frequency is given by <katex>$f_0 = \\frac{1}{2\\pi \\sqrt{LC}}$</katex>.",
+    "This implies <katex>$f_0 \\propto \\frac{1}{\\sqrt{C}}$</katex>.",
+    "As <katex>$C$</katex> increases, <katex>$f_0$</katex> decreases, but not linearly. The curve is a rectangular hyperbola type shape.",
+    "Graph C correctly represents this inverse non-linear relationship."
+  ],
+  "years": [
+    2024
+  ]
+}

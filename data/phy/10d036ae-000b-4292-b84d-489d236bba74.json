@@ -1,0 +1,32 @@
+{
+  "id": "10d036ae-000b-4292-b84d-489d236bba74",
+  "question": [
+    "A body of mass 1 kg is suspended by a weightless string which passes over a frictionless pulley of mass 2 kg as shown in the figure. The mass is released from a height of 1.6 m from the ground. With what velocity does it strike the ground?",
+    "images/q31_diagram.png"
+  ],
+  "choices": [
+    [
+      "<katex>$16 \\text{ ms}^{-1}$</katex>"
+    ],
+    [
+      "<katex>$8 \\text{ ms}^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4\\sqrt{2} \\text{ ms}^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4 \\text{ ms}^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Conservation of energy: Potential Energy lost = Kinetic Energy gained.",
+    "<katex>$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$</katex>. Here pulley has mass M=2kg, disc shape assumed (<katex>$I = \\frac{1}{2}MR^2$</katex>). <katex>$\\omega = v/R$</katex>.",
+    "<katex>$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}(\\frac{1}{2}MR^2)(v/R)^2 = \\frac{1}{2}mv^2 + \\frac{1}{4}Mv^2$</katex>.",
+    "<katex>$1 \\times 10 \\times 1.6 = v^2(\\frac{1}{2}(1) + \\frac{1}{4}(2)) = v^2(0.5 + 0.5) = v^2$</katex>.",
+    "<katex>$16 = v^2 \\implies v = 4 \\text{ ms}^{-1}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

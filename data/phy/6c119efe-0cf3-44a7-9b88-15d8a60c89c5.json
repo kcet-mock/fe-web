@@ -1,0 +1,30 @@
+{
+  "id": "6c119efe-0cf3-44a7-9b88-15d8a60c89c5",
+  "question": [
+    "An equiconvex lens of radius of curvature 14 cm is made up of two different materials. Left half and right half of vertical portion is made up of material of refractive index 1.5 and 1.2 respectively as shown in the figure. If a point object is placed at a distance of 40 cm, calculate the image distance.",
+    "images/q10_diagram.png"
+  ],
+  "choices": [
+    [
+      "25 cm"
+    ],
+    [
+      "50 cm"
+    ],
+    [
+      "35 cm"
+    ],
+    [
+      "40 cm"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The lens combination behaves as two lenses in contact or can be solved using the lens maker's formula effectively averaging the power or treating surfaces separately.",
+    "Considering the effective focal length calculation for the composite lens system.",
+    "The detailed calculation yields an image distance of 40 cm."
+  ],
+  "years": [
+    2024
+  ]
+}

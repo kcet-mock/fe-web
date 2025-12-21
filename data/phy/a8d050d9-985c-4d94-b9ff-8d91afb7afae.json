@@ -1,0 +1,31 @@
+{
+  "id": "a8d050d9-985c-4d94-b9ff-8d91afb7afae",
+  "question": [
+    "A particle of specific charge <katex>$\\frac{q}{m} = \\pi \\text{ Ckg}^{-1}$</katex> is projected from the origin towards positive x-axis with the velocity <katex>$10 \\text{ ms}^{-1}$</katex> in a uniform magnetic field <katex>$\\vec{B} = -2\\hat{k} \\text{ T}$</katex>. The velocity <katex>$\\vec{v}$</katex> particle after time <katex>$t = \\frac{1}{12} \\text{ s}$</katex> will be (in <katex>$\\text{ms}^{-1}$</katex>)"
+  ],
+  "choices": [
+    [
+      "<katex>$5(\\hat{i} + \\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\hat{i} + \\sqrt{3}\\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\sqrt{3}\\hat{i} - \\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\sqrt{3}\\hat{i} + \\hat{j})$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Cyclotron frequency <katex>$\\omega = \\frac{qB}{m} = \\pi(2) = 2\\pi \\text{ rad/s}$</katex>.",
+    "Angle turned <katex>$\\theta = \\omega t = 2\\pi(1/12) = \\pi/6 = 30^{\\circ}$</katex>.",
+    "Initial velocity along x-axis. Force is <katex>$\\vec{v} \\times \\vec{B}$</katex>. <katex>$\\hat{i} \\times (-\\hat{k}) = \\hat{j}$</katex>. Particle turns towards y-axis.",
+    "New velocity components: <katex>$v_x = v \\cos(30) = 10(\\sqrt{3}/2) = 5\\sqrt{3}$</katex>. <katex>$v_y = v \\sin(30) = 10(1/2) = 5$</katex>.",
+    "<katex>$\\vec{v} = 5\\sqrt{3}\\hat{i} + 5\\hat{j}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

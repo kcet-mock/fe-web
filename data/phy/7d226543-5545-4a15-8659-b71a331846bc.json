@@ -1,0 +1,32 @@
+{
+  "id": "7d226543-5545-4a15-8659-b71a331846bc",
+  "question": [
+    "The magnetic field at the centre of a circular coil of radius R carrying current I is 64 times the magnetic field at a distance x on its axis from the centre of the coil. Then the value of x is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{R}{4}\\sqrt{15}$</katex>"
+    ],
+    [
+      "<katex>$R\\sqrt{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{R}{4}$</katex>"
+    ],
+    [
+      "<katex>$R\\sqrt{15}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$B_{center} = \\frac{\\mu_0 I}{2R}$</katex>.",
+    "<katex>$B_{axis} = \\frac{\\mu_0 I R^2}{2(R^2+x^2)^{3/2}}$</katex>.",
+    "Given <katex>$B_{center} = 64 B_{axis}$</katex>.",
+    "<katex>$\\frac{1}{R} = 64 \\frac{R^2}{(R^2+x^2)^{3/2}}$</katex>. <katex>$(R^2+x^2)^{3/2} = 64 R^3 = (4R)^3$</katex>.",
+    "<katex>$\\sqrt{R^2+x^2} = 4R \\implies R^2 + x^2 = 16R^2$</katex>.",
+    "<katex>$x^2 = 15R^2 \\implies x = R\\sqrt{15}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

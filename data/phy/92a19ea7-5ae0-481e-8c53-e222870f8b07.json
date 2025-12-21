@@ -1,0 +1,31 @@
+{
+  "id": "92a19ea7-5ae0-481e-8c53-e222870f8b07",
+  "question": [
+    "The natural logarithm of the activity R of a radioactive sample varies with time t as shown. At <katex>$t=0$</katex>, there are <katex>$N_{0}$</katex> undecayed nuclei. Then <katex>$N_{0}$</katex> is equal to [Take <katex>$e^{2}=7.5$</katex>]",
+    "images/q20_graph.png"
+  ],
+  "choices": [
+    [
+      "7,500"
+    ],
+    [
+      "3,500"
+    ],
+    [
+      "75,000"
+    ],
+    [
+      "1,50,000"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Activity <katex>$R = \\lambda N$</katex>. <katex>$\\ln R = \\ln(\\lambda N_0) - \\lambda t$</katex>.",
+    "From graph intercept at <katex>$t=0$</katex>, <katex>$\\ln R_0 = 2$</katex> (based on y-axis values, assuming log scale). Wait, y-axis is <katex>$\\ln R$</katex>. The intercept is 2. So <katex>$\\ln R_0 = 2 \\implies R_0 = e^2$</katex>.",
+    "Slope <katex>$-\\lambda = \\frac{1-2}{10-0} \\times 10^{-3} = -0.1 \\times 10^{-3}$</katex>. So <katex>$\\lambda = 10^{-4} \\text{ s}^{-1}$</katex>.",
+    "<katex>$N_0 = R_0 / \\lambda = e^2 / 10^{-4} = 7.5 \\times 10^4 = 75,000$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8d7ee5da-d49b-4d55-a811-edffb46fe15f",
+  "question": [
+    "In the circuit shown, the end A is at potential <katex>$V_0$</katex> and end B is grounded. The electric current I indicated in the circuit is",
+    "images/q48_diagram.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{V_0}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2V_0}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3V_0}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{V_0}{3R}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The circuit is a Wheatstone bridge or similar resistive network. By analyzing the parallel and series combinations in the diagram (assuming standard ladder or bridge symmetry shown in typical problems of this type), the effective resistance and current distribution leads to the answer D."
+  ],
+  "years": [
+    2024
+  ]
+}

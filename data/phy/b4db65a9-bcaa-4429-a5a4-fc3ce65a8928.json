@@ -1,0 +1,30 @@
+{
+  "id": "b4db65a9-bcaa-4429-a5a4-fc3ce65a8928",
+  "question": [
+    "Which of the following combinations should be selected for better tuning of an LCR circuit used for communication?"
+  ],
+  "choices": [
+    [
+      "<katex>$R=20 \\ \\Omega, L=1.5 \\text{ H}, C=35 \\ \\mu\\text{F}$</katex>"
+    ],
+    [
+      "<katex>$R=25 \\ \\Omega, L=2.5 \\text{ H}, C=45 \\ \\mu\\text{F}$</katex>"
+    ],
+    [
+      "<katex>$R=25 \\ \\Omega, L=1.5 \\text{ H}, C=45 \\ \\mu\\text{F}$</katex>"
+    ],
+    [
+      "<katex>$R=15 \\ \\Omega, L=3.5 \\text{ H}, C=30 \\ \\mu\\text{F}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "For better tuning (sharp resonance), the Quality Factor <katex>$Q$</katex> should be high.",
+    "<katex>$Q = \\frac{1}{R} \\sqrt{\\frac{L}{C}}$</katex>.",
+    "To maximize <katex>$Q$</katex>, <katex>$R$</katex> should be low, <katex>$L$</katex> should be high, and <katex>$C$</katex> should be low.",
+    "Option D has the lowest Resistance (<katex>$15 \\ \\Omega$</katex>), highest Inductance (<katex>$3.5 \\text{ H}$</katex>), and lowest Capacitance (<katex>$30 \\ \\mu\\text{F}$</katex>), yielding the highest Q-factor."
+  ],
+  "years": [
+    2024
+  ]
+}

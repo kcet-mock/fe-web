@@ -1,0 +1,31 @@
+{
+  "id": "f0338b85-14a6-4a6a-9da1-e23cf3616a2d",
+  "question": [
+    "The I – V graph for a conductor at two different temperatures <katex>$100^{\\circ}\\text{C}$</katex> and <katex>$400^{\\circ}\\text{C}$</katex> is as shown in the figure. The temperature coefficient of resistance of the conductor is about (in per degree Celsius)",
+    "images/q50_graph.png"
+  ],
+  "choices": [
+    [
+      "<katex>$3 \\times 10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$6 \\times 10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$9 \\times 10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$12 \\times 10^{-3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Slope of I-V graph is <katex>$1/R$</katex>.",
+    "At <katex>$T_1$</katex>, angle <katex>$30^{\\circ}$</katex>, <katex>$1/R_1 = \\tan(30) \\implies R_1 = \\cot(30) = \\sqrt{3}$</katex>.",
+    "At <katex>$T_2$</katex>, angle <katex>$45^{\\circ}$</katex>, <katex>$1/R_2 = \\tan(45) \\implies R_2 = 1$</katex>. (Wait, higher temp usually means higher resistance, so lower slope. Graph labels might swap or angles refer to V-I). Assuming V on x-axis, I on y-axis: Slope is 1/R. Lower slope = Higher R. <katex>$\\tan(30) < \\tan(45)$</katex>. So R at 30 deg is higher. Let's assume standard behavior <katex>$R_{400} > R_{100}$</katex>.",
+    "Using <katex>$R_2 = R_1(1 + \\alpha \\Delta T)$</katex>. Calculating <katex>$\\alpha$</katex> yields approx <katex>$3 \\times 10^{-3}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

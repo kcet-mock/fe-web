@@ -1,0 +1,30 @@
+{
+  "id": "440608c0-cdf4-4015-b11a-de29efcb0c6b",
+  "question": [
+    "One mole of an ideal monoatomic gas is taken round the cyclic process MNOM. The work done by the gas is",
+    "images/q36_graph.png"
+  ],
+  "choices": [
+    [
+      "<katex>$4.5 \\ P_{0}V_{0}$</katex>"
+    ],
+    [
+      "<katex>$4 \\ P_{0}V_{0}$</katex>"
+    ],
+    [
+      "<katex>$9 \\ P_{0}V_{0}$</katex>"
+    ],
+    [
+      "<katex>$2 \\ P_{0}V_{0}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Work done is the area enclosed by the cycle in the P-V diagram.",
+    "Area = <katex>$\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times (3V_0 - V_0) \\times (3P_0 - P_0)$</katex>.",
+    "Area = <katex>$\\frac{1}{2} \\times 2V_0 \\times 2P_0 = 2P_0V_0$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

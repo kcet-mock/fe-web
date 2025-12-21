@@ -1,0 +1,29 @@
+{
+  "id": "cc276cf9-ad5f-4340-96f1-4dc4ab5a2d53",
+  "question": [
+    "If the angle of minimum deviation is equal to angle of a prism for an equilateral prism, then the speed of light inside the prism is"
+  ],
+  "choices": [
+    [
+      "<katex>$3 \\times 10^{8} \\text{ ms}^{-1}$</katex>"
+    ],
+    [
+      "<katex>$2\\sqrt{3} \\times 10^{8} \\text{ ms}^{-1}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{3} \\times 10^{8} \\text{ ms}^{-1}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\sqrt{3}}{2} \\times 10^{8} \\text{ ms}^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Given prism is equilateral, so <katex>$A = 60^{\\circ}$</katex>. Minimum deviation <katex>$\\delta_m = A = 60^{\\circ}$</katex>.",
+    "Refractive index <katex>$\\mu = \\frac{\\sin((A+\\delta_m)/2)}{\\sin(A/2)} = \\frac{\\sin(60)}{\\sin(30)} = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$</katex>.",
+    "Speed of light in prism <katex>$v = \\frac{c}{\\mu} = \\frac{3 \\times 10^8}{\\sqrt{3}} = \\sqrt{3} \\times 10^8 \\text{ ms}^{-1}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

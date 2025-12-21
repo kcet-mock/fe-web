@@ -1,0 +1,29 @@
+{
+  "id": "c59fe5c6-cbf8-474c-946f-395d9a737a2c",
+  "question": [
+    "Electromagnetic waves are incident normally on a perfectly reflecting surface having surface area A. If I is the intensity of the incident electromagnetic radiation and c is the speed of light in vacuum, the force exerted by the electromagnetic wave on the reflecting surface is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{2IA}{c}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{IA}{c}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{IA}{2c}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{I}{2Ac}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For a perfectly reflecting surface, the change in momentum is double that of an absorbing surface.",
+    "Momentum transferred per unit time (Force) = <katex>$\\frac{2 \\times \\text{Power}}{c}$</katex>.",
+    "Since Power <katex>$P = IA$</katex>, the Force <katex>$F = \\frac{2IA}{c}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}
