@@ -1,0 +1,30 @@
+{
+  "id": "71d0bf02-c035-4832-8130-0106e645bc81",
+  "question": [
+    "A ray of light passes from vaccum into a medium of refractive index n. If the angle of incidence is twice the angle of refraction, then the angle of incidence in terms of refractive index is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\sin^{-1}(n/2)$</katex>"
+    ],
+    [
+      "<katex>$2\\cos^{-1}(n/2)$</katex>"
+    ],
+    [
+      "<katex>$2\\sin^{-1}(n/2)$</katex>"
+    ],
+    [
+      "<katex>$\\cos^{-1}(n/2)$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\sin i = n \\sin r$</katex>. Given <katex>$i = 2r$</katex>.",
+    "<katex>$\\sin(2r) = n \\sin r \\implies 2\\sin r \\cos r = n \\sin r$</katex>.",
+    "<katex>$\\cos r = n/2 \\implies r = \\cos^{-1}(n/2)$</katex>.",
+    "<katex>$i = 2r = 2\\cos^{-1}(n/2)$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

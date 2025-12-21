@@ -1,0 +1,28 @@
+{
+  "id": "97a641f1-48f5-4a5b-8f48-253631168288",
+  "question": [
+    "When a bar magnet is pushed towards the coil, along its axis, as shown in the figure, the galvanometer pointer deflects towards X. When this magnet is pulled away from the coil, the galvanometer pointer"
+  ],
+  "choices": [
+    [
+      "Deflects towards X' (Opposite)"
+    ],
+    [
+      "Does not deflect"
+    ],
+    [
+      "Oscillates"
+    ],
+    [
+      "Deflects towards X"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to Lenz's law, the induced current opposes the change.",
+    "Pushing causes deflection X. Pulling is the opposite change, so it causes deflection in the opposite direction (X')."
+  ],
+  "years": [
+    2025
+  ]
+}

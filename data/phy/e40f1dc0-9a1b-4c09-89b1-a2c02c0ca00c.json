@@ -1,0 +1,28 @@
+{
+  "id": "e40f1dc0-9a1b-4c09-89b1-a2c02c0ca00c",
+  "question": [
+    "If the radius of first Bohr orbit is r, then the radius of the second Bohr orbit will be"
+  ],
+  "choices": [
+    [
+      "8r"
+    ],
+    [
+      "4r"
+    ],
+    [
+      "<katex>$2\\sqrt{2}r$</katex>"
+    ],
+    [
+      "2r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Bohr radius <katex>$r_n \\propto n^2$</katex>.",
+    "For <katex>$n=2$</katex>, <katex>$r_2 = r_1 (2^2) = 4r$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

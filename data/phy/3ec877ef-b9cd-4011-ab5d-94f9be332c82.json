@@ -1,0 +1,29 @@
+{
+  "id": "3ec877ef-b9cd-4011-ab5d-94f9be332c82",
+  "question": [
+    "If r and r1 denotes the angles inside the prism having angle of prism <katex>$50^{\\circ}$</katex> considering that during interval of time from t = 0 to t = t, r varies with time as <katex>$r = 10 + t^2$</katex>. During the time r1 will vary with time as"
+  ],
+  "choices": [
+    [
+      "<katex>$40 + t^2$</katex>"
+    ],
+    [
+      "<katex>$50 - t^2$</katex>"
+    ],
+    [
+      "<katex>$50 + t^2$</katex>"
+    ],
+    [
+      "<katex>$40 - t^2$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "For a prism, <katex>$A = r + r_1$</katex>.",
+    "Given <katex>$A = 50$</katex> and <katex>$r = 10 + t^2$</katex>.",
+    "<katex>$r_1 = 50 - (10 + t^2) = 40 - t^2$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

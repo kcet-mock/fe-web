@@ -1,0 +1,28 @@
+{
+  "id": "3b9d2698-036c-4adb-bdc1-6be5104b50f3",
+  "question": [
+    "Two cells of emfs <katex>$E_1$</katex> and <katex>$E_2$</katex> and internal resistances <katex>$r_1$</katex> and <katex>$r_2$</katex> (<katex>$E_2 > E_1$</katex> and <katex>$r_2 > r_1$</katex>) respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is <katex>$E_{eq}$</katex>. Then"
+  ],
+  "choices": [
+    [
+      "<katex>$E_1 < E_{eq} < E_2$</katex> and <katex>$E_{eq}$</katex> is nearer <katex>$E_2$</katex>"
+    ],
+    [
+      "<katex>$E_{eq} > E_2$</katex>"
+    ],
+    [
+      "<katex>$E_{eq} < E_1$</katex>"
+    ],
+    [
+      "<katex>$E_1 < E_{eq} < E_2$</katex> and <katex>$E_{eq}$</katex> is nearer <katex>$E_1$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The equivalent EMF for parallel combination is the weighted average: <katex>$E_{eq} = \\frac{E_1 r_2 + E_2 r_1}{r_1 + r_2}$</katex>.",
+    "The result lies between <katex>$E_1$</katex> and <katex>$E_2$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

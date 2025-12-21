@@ -1,0 +1,31 @@
+{
+  "id": "eae36228-312a-4056-b31f-0bf4bcee8ada",
+  "question": [
+    "Two fly wheels are connected by a non-slipping belt as shown in the figure. <katex>$r_1=20$</katex> cm, <katex>$I_1=4 \\text{ kg m}^2$</katex>, <katex>$r_2=30$</katex> cm, <katex>$I_2=20 \\text{ kg m}^2$</katex>. A torque of 10 Nm is applied on the smaller wheel. Then match the entries of column I with appropriate entries of column II.",
+    "images/q6_data.png"
+  ],
+  "choices": [
+    [
+      "a-ii, b-iii, c-i"
+    ],
+    [
+      "a-iii, b-i, c-ii"
+    ],
+    [
+      "a-ii, b-i, c-iii"
+    ],
+    [
+      "a-iii, b-ii, c-i"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "For smaller wheel: <katex>$\\tau_1 = I_1 \\alpha_1 \\implies 10 = 4\\alpha_1 \\implies \\alpha_1 = 2.5 = 5/2$</katex> rad/s<katex>^2</katex>. (Matches iii)",
+    "Tangential acceleration is same: <katex>$r_1 \\alpha_1 = r_2 \\alpha_2 \\implies 0.2(2.5) = 0.3\\alpha_2 \\implies 0.5 = 0.3\\alpha_2 \\implies \\alpha_2 = 5/3$</katex>. (Matches i)",
+    "Torque on larger wheel: <katex>$\\tau_2 = I_2 \\alpha_2 = 20(5/3) = 100/3$</katex> Nm. (Matches ii)",
+    "Result: a-iii, b-ii, c-i."
+  ],
+  "years": [
+    2025
+  ]
+}

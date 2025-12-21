@@ -1,0 +1,28 @@
+{
+  "id": "f76fa8fc-4c64-4810-8acd-e08987945998",
+  "question": [
+    "Which of the following graphs represents the variation of magnetic field B with perpendicular distance 'r' from an infinitely long, straight conductor carrying current?"
+  ],
+  "choices": [
+    [
+      "images/q33_graph1.png"
+    ],
+    [
+      "images/q33_graph2.png"
+    ],
+    [
+      "images/q33_graph3.png"
+    ],
+    [
+      "images/q33_graph4.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For an infinite straight wire, <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>.",
+    "This implies <katex>$B \\propto 1/r$</katex>, which corresponds to a rectangular hyperbola graph."
+  ],
+  "years": [
+    2025
+  ]
+}

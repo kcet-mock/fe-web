@@ -1,0 +1,27 @@
+{
+  "id": "f0c41df8-8eb9-4885-b7cc-03207c65738a",
+  "question": [
+    "In domestic electric mains supply, the voltage and the current are"
+  ],
+  "choices": [
+    [
+      "AC voltage and DC current"
+    ],
+    [
+      "DC voltage and DC current"
+    ],
+    [
+      "DC voltage and AC current"
+    ],
+    [
+      "AC voltage and AC current"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Domestic supply is Alternating Current (AC), so both voltage and current are AC."
+  ],
+  "years": [
+    2025
+  ]
+}

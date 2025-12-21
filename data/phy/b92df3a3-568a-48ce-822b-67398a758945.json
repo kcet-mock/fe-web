@@ -1,0 +1,28 @@
+{
+  "id": "b92df3a3-568a-48ce-822b-67398a758945",
+  "question": [
+    "A metallic sphere of radius R carrying a charge q is kept at certain distance from another metallic sphere of radius R/4 carrying a charge Q. What is the electric flux at any point inside the metallic sphere of radius R due to the sphere of radius R/4?"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{q}{\\epsilon_0}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The electric field inside a metallic conductor is zero due to electrostatic shielding.",
+    "Therefore, the flux at any point inside the metal of the sphere is zero."
+  ],
+  "years": [
+    2025
+  ]
+}

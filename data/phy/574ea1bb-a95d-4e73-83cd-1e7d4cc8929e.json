@@ -1,0 +1,32 @@
+{
+  "id": "574ea1bb-a95d-4e73-83cd-1e7d4cc8929e",
+  "question": [
+    "Match Column-I with Column II related to an electric dipole of dipole moment p that is placed in a uniform electric field E.",
+    "Column I: (a) <katex>$180^{\\circ}$</katex>, (b) <katex>$120^{\\circ}$</katex>, (c) <katex>$90^{\\circ}$</katex>",
+    "Column II: (i) -pE, (ii) pE, (iii) <katex>$pE/2$</katex>, (iv) Zero"
+  ],
+  "choices": [
+    [
+      "a-i, b-ii, c-iii"
+    ],
+    [
+      "a-ii, b-iii, c-i"
+    ],
+    [
+      "a-ii, b-i, c-iv"
+    ],
+    [
+      "a-ii, b-iii, c-iv"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Potential Energy <katex>$U = -pE \\cos \\theta$</katex>.",
+    "(a) <katex>$\\theta = 180^{\\circ} \\implies U = -pE(-1) = pE$</katex> (matches ii).",
+    "(b) <katex>$\\theta = 120^{\\circ} \\implies U = -pE(-0.5) = 0.5pE$</katex> (matches iii).",
+    "(c) <katex>$\\theta = 90^{\\circ} \\implies U = -pE(0) = 0$</katex> (matches iv)."
+  ],
+  "years": [
+    2025
+  ]
+}
