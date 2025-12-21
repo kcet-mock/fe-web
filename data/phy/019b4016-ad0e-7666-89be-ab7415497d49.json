@@ -1,0 +1,30 @@
+{
+  "id": "019b4016-ad0e-7666-89be-ab7415497d49",
+  "question": [
+    "In the diagram shown, the Zener diode has a reverse breakdown voltage of $V_Z$. The current through the load resistance $R_{L}$ is $I_{L}$. The current through the Zener diode is",
+    "images/f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c.png"
+  ],
+  "choices": [
+    [
+      "$\\frac{V_{o}-V_{Z}}{R_{s}}$"
+    ],
+    [
+      "$\\frac{V_{o}-V_{Z}}{R_{L}}$"
+    ],
+    [
+      "$\\frac{V_{Z}}{R_{L}}$"
+    ],
+    [
+      "$(\\frac{V_{o}-V_{Z}}{R_{S}})-I_{L}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Total current $I = (V_o - V_Z)/R_S$.",
+    "Zener current $I_Z = I - I_L$.",
+    "$I_Z = (\\frac{V_{o}-V_{Z}}{R_{S}}) - I_L$."
+  ],
+  "years": [
+    2024
+  ]
+}

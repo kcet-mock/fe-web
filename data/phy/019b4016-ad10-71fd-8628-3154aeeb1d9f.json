@@ -1,0 +1,28 @@
+{
+  "id": "019b4016-ad10-71fd-8628-3154aeeb1d9f",
+  "question": [
+    "The ratio of molar specific heats of oxygen is"
+  ],
+  "choices": [
+    [
+      "1.4"
+    ],
+    [
+      "1.67"
+    ],
+    [
+      "1.33"
+    ],
+    [
+      "1.28"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Oxygen is a diatomic gas.",
+    "For diatomic gases, $\\gamma = C_p/C_v = 1.4$."
+  ],
+  "years": [
+    2024
+  ]
+}

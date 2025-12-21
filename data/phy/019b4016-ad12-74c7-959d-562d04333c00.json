@@ -1,0 +1,27 @@
+{
+  "id": "019b4016-ad12-74c7-959d-562d04333c00",
+  "question": [
+    "Magnetic hysterisis is exhibited by ________ magnetic materials."
+  ],
+  "choices": [
+    [
+      "only para"
+    ],
+    [
+      "only dia"
+    ],
+    [
+      "only ferro"
+    ],
+    [
+      "both para and ferro"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hysteresis (lagging of magnetization behind magnetizing field) is a characteristic property of ferromagnetic materials due to domain structure."
+  ],
+  "years": [
+    2024
+  ]
+}

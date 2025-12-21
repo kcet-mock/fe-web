@@ -1,0 +1,28 @@
+{
+  "id": "019b4016-ad0e-762e-913f-ddff54e77f05",
+  "question": [
+    "Depletion region in an unbiased semiconductor diode is a region consisting of"
+  ],
+  "choices": [
+    [
+      "Both free electrons and holes"
+    ],
+    [
+      "Neither free electrons nor holes"
+    ],
+    [
+      "Only free electrons"
+    ],
+    [
+      "Only holes"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The depletion region is depleted of mobile charge carriers.",
+    "It consists of immobile ions but no free electrons or holes."
+  ],
+  "years": [
+    2024
+  ]
+}

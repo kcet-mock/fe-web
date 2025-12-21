@@ -1,0 +1,27 @@
+{
+  "id": "019b4016-ad10-7172-aed0-73ba0742f457",
+  "question": [
+    "A body has a charge of -3.2 µC. The number of excess electrons it has is"
+  ],
+  "choices": [
+    [
+      "$5.12\\times10^{25}$"
+    ],
+    [
+      "$5\\times10^{12}$"
+    ],
+    [
+      "$2\\times10^{13}$"
+    ],
+    [
+      "$5.12\\times10^{13}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "$n = q/e = 3.2 \\times 10^{-6} / 1.6 \\times 10^{-19} = 2 \\times 10^{13}$."
+  ],
+  "years": [
+    2024
+  ]
+}

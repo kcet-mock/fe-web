@@ -1,0 +1,30 @@
+{
+  "id": "019b4016-ad0c-732a-ac10-6e405e1eb91d",
+  "question": [
+    "In an LCR series circuit, the value of only capacitance C is varied. The resulting variation of resonance frequency $f_{0}$ as a function of C can be represented as",
+    "images/b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e.png"
+  ],
+  "choices": [
+    [
+      "Graph A"
+    ],
+    [
+      "Graph B"
+    ],
+    [
+      "Graph C"
+    ],
+    [
+      "Graph D"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Resonance frequency $f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$.",
+    "Therefore, $f_0 \\propto \\frac{1}{\\sqrt{C}}$.",
+    "The graph of $f_0$ vs $C$ is a curve that decreases as C increases, which corresponds to Graph C."
+  ],
+  "years": [
+    2024
+  ]
+}

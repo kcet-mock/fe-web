@@ -1,0 +1,27 @@
+{
+  "id": "019b4016-ad0c-7de5-ad28-3f674617cfb9",
+  "question": [
+    "The final image formed by an astronomical telescope is"
+  ],
+  "choices": [
+    [
+      "real, erect and diminished"
+    ],
+    [
+      "virtual, inverted and diminished"
+    ],
+    [
+      "real, inverted and magnified"
+    ],
+    [
+      "virtual, inverted and magnified"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In normal adjustment or when the image forms at near point, the final image of an astronomical telescope is virtual, magnified, and inverted relative to the original distant object."
+  ],
+  "years": [
+    2024
+  ]
+}

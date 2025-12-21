@@ -1,0 +1,29 @@
+{
+  "id": "019b4016-ad10-7ac1-a4db-2de22ca055da",
+  "question": [
+    "A motor-cyclist moving towards a huge cliff with a speed of $18~kmh^{-1}$, blows a horn of source frequency 325 Hz. If the speed of the sound in air is $330~ms^{-1}$, the number of beats heard by him is"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "4"
+    ],
+    [
+      "10"
+    ],
+    [
+      "7"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Beat frequency $\\Delta f = f_0 \\frac{2v_s}{v - v_s}$.",
+    "$v_s = 18 km/h = 5 m/s$.",
+    "$\\Delta f = 325 \\times \\frac{10}{325} = 10$ Hz."
+  ],
+  "years": [
+    2024
+  ]
+}

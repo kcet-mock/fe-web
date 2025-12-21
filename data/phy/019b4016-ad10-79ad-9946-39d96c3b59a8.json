@@ -1,0 +1,28 @@
+{
+  "id": "019b4016-ad10-79ad-9946-39d96c3b59a8",
+  "question": [
+    "A cube of side 1 cm contains 100 molecules each having an induced dipole moment of $0.2\\times10^{-6}C-m$ in an external electric field of $4NC^{-1}$. The electric susceptibility of the material is"
+  ],
+  "choices": [
+    [
+      "50 $C^{2}N^{-1}m^{-2}$"
+    ],
+    [
+      "5 $C^{2}N^{-1}m^{-2}$"
+    ],
+    [
+      "0.5 $C^{2}N^{-1}m^{-2}$"
+    ],
+    [
+      "0.05 $C^{2}N^{-1}m^{-2}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Polarization $P = \\frac{Total Dipole Moment}{Volume} = \\frac{100 \\times 0.2 \\times 10^{-6}}{10^{-6}} = 20$.",
+    "Relation $P = \\chi E$ (or proportional). $\\chi = P/E = 20/4 = 5$."
+  ],
+  "years": [
+    2024
+  ]
+}

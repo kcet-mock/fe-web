@@ -1,0 +1,29 @@
+{
+  "id": "019b4016-ad11-7135-b87b-b152ad2330d2",
+  "question": [
+    "A coil having 9 turns carrying a current produces magnetic field $B_1$ at the centre. Now the coil is rewounded into 3 turns carrying same current. Then the magnetic field at the centre $B_2$ ="
+  ],
+  "choices": [
+    [
+      "$B_1/9$"
+    ],
+    [
+      "$9B_1$"
+    ],
+    [
+      "$3B_1$"
+    ],
+    [
+      "$B_1/3$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Length $L$ is constant. $N_1 \\cdot 2\\pi R_1 = N_2 \\cdot 2\\pi R_2$.",
+    "$9 R_1 = 3 R_2 \\Rightarrow R_2 = 3R_1$.",
+    "$B \\propto N/R$. Ratio $B_2/B_1 = (N_2/R_2) / (N_1/R_1) = (3/3R_1) / (9/R_1) = (1/R_1) / (9/R_1) = 1/9$."
+  ],
+  "years": [
+    2024
+  ]
+}

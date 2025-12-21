@@ -1,0 +1,28 @@
+{
+  "id": "019b4016-ad0f-73cb-8142-f9326fcca62b",
+  "question": [
+    "A ceiling fan is rotating around a fixed axle as shown. The direction of angular velocity along",
+    "images/a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d.png"
+  ],
+  "choices": [
+    [
+      "$+\\hat{j}$"
+    ],
+    [
+      "$-\\hat{j}$"
+    ],
+    [
+      "$+\\hat{k}$"
+    ],
+    [
+      "$-\\hat{k}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Based on the arrow in the diagram indicating the direction of rotation (likely Clockwise when viewed from top), the angular velocity vector points downwards along the negative z-axis ($-\\hat{k}$) according to the right-hand rule."
+  ],
+  "years": [
+    2024
+  ]
+}

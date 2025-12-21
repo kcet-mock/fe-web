@@ -1,0 +1,30 @@
+{
+  "id": "019b4016-ad12-7e7d-b58e-098cfc5cb6db",
+  "question": [
+    "In the figure, a conducting ring of certain resistance is falling towards a current carrying straight long conductor. The ring and conductor are in the same plane. Then the",
+    "images/a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d.png"
+  ],
+  "choices": [
+    [
+      "Induced electric current is zero"
+    ],
+    [
+      "Induced electric current is anticlockwise"
+    ],
+    [
+      "Induced electric current is clockwise"
+    ],
+    [
+      "Ring will come to rest"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "As the ring falls towards the wire, the magnetic flux through it increases.",
+    "According to Lenz's law, the induced current will create a field to oppose this increase.",
+    "If the wire's field is outwards (depends on I direction), the induced field must be inwards, requiring a clockwise current."
+  ],
+  "years": [
+    2024
+  ]
+}

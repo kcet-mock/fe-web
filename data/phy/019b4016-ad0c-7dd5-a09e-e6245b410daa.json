@@ -1,0 +1,31 @@
+{
+  "id": "019b4016-ad0c-7dd5-a09e-e6245b410daa",
+  "question": [
+    "A luminous point object O is placed at a distance 2R from the spherical boundary separating two transparent media of refractive indices $n_{1}$ and $n_{2}$ as shown, where R is the radius of curvature of the spherical surface. If $n_{1}=\\frac{4}{3},$ $n_{2}=\\frac{3}{2}$ and $R=10$ cm, the image is obtained at a distance from P equal to",
+    "images/d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a.png"
+  ],
+  "choices": [
+    [
+      "30 cm in the rarer medium"
+    ],
+    [
+      "30 cm in the denser medium"
+    ],
+    [
+      "18 cm in the rarer medium"
+    ],
+    [
+      "18 cm in the denser medium"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Using $\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2-n_1}{R}$ with $u=-20, R=+10$.",
+    "$\\frac{1.5}{v} - \\frac{1.33}{-20} = \\frac{1.5-1.33}{10}$.",
+    "Solving gives $v = -30$ cm.",
+    "Negative sign implies a virtual image in the first medium ($n_1$, rarer)."
+  ],
+  "years": [
+    2024
+  ]
+}

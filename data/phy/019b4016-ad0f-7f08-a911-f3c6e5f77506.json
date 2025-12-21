@@ -1,0 +1,30 @@
+{
+  "id": "019b4016-ad0f-7f08-a911-f3c6e5f77506",
+  "question": [
+    "A particle of mass 500 g is at rest. It is free to move along a straight line. The power delivered to the particle varies with time according to the following graph. The momentum of the particle at $t=5$ s is",
+    "images/f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c.png"
+  ],
+  "choices": [
+    [
+      "$2\\sqrt{2}Ns$"
+    ],
+    [
+      "$5\\sqrt{2}Ns$"
+    ],
+    [
+      "5 Ns"
+    ],
+    [
+      "5.5 Ns"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Work Done = Area under P-t graph = $\\frac{1}{2}(2+8) \\times 5 = 25$ J.",
+    "$ΔKE = 25$ J. $K = p^2/2m \\Rightarrow p = \\sqrt{2mK}$.",
+    "$p = \\sqrt{2 \\times 0.5 \\times 25} = \\sqrt{25} = 5$ Ns."
+  ],
+  "years": [
+    2024
+  ]
+}

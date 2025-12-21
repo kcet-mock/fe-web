@@ -1,0 +1,29 @@
+{
+  "id": "019b4016-ad0e-7ecd-9f47-492b0ba35190",
+  "question": [
+    "Consider the nuclear fission reaction ${}_{0}^{1}n+_{92}^{235}U\\rightarrow_{56}^{144}Ba+_{36}^{89}Kr+3_{0}^{1}n$. Assuming all the kinetic energy is carried away by the fast neutrons only and total binding energies of ${}_{92}^{235}U$ ${}_{56}^{144}Ba$ and ${}_{36}^{89}Kr$ to be 1800 MeV, 1200 MeV and 780 MeV respectively, the average kinetic energy carried by each fast neutron is (in MeV)"
+  ],
+  "choices": [
+    [
+      "200"
+    ],
+    [
+      "180"
+    ],
+    [
+      "67"
+    ],
+    [
+      "60"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Energy released $Q = BE_{products} - BE_{reactants} = (1200 + 780) - 1800 = 180$ MeV.",
+    "This energy is shared by 3 neutrons.",
+    "Energy per neutron = $180 / 3 = 60$ MeV."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "019b4016-ad0f-76e4-a709-acbcdc5b5ca3",
+  "question": [
+    "A solid cube of mass m at a temperature $\\theta_{0}$ is heated at a constant rate. It becomes liquid at temperature $\\theta_{1}$ and vapour at temperature $\\theta_{2}$. Let $s_{1}$ and $s_{2}$ be specific heats in its solid and liquid states respectively. If L and $L_{v}$ are latent heats of fusion and vaporisation respectively, then the minimum heat energy supplied to the cube until it vaporises is"
+  ],
+  "choices": [
+    [
+      "$ms_{1}(\\theta_{1}-\\theta_{0})+ms_{2}(\\theta_{2}-\\theta_{1})$"
+    ],
+    [
+      "$mL_{f}+ms_{2}(\\theta_{2}-\\theta_{1})+mL_{v}$"
+    ],
+    [
+      "$ms_{1}(\\theta_{1}-\\theta_{0})+mL_{f}+ms_{2}(\\theta_{2}-\\theta_{1})+mL_{v}$"
+    ],
+    [
+      "$ms_{1}(\\theta_{1}-\\theta_{0})+mL_{f}+ms_{2}(\\theta_{2}-\\theta_{0})+mL_{v}$"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Total Heat = Heat to raise solid to melting point ($ms_1\\Delta\\theta$) + Latent heat of fusion ($mL_f$) + Heat to raise liquid to boiling point ($ms_2\\Delta\\theta$) + Latent heat of vaporization ($mL_v$)."
+  ],
+  "years": [
+    2024
+  ]
+}

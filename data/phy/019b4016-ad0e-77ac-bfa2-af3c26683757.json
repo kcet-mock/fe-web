@@ -1,0 +1,29 @@
+{
+  "id": "019b4016-ad0e-77ac-bfa2-af3c26683757",
+  "question": [
+    "An athlete runs along a circular track of diameter 80 m. The distance travelled and the magnitude of displacement of the athlete when he covers $\\frac{3}{4}$ of the circle is (in m)"
+  ],
+  "choices": [
+    [
+      "60π, $40\\sqrt{2}$"
+    ],
+    [
+      "40π, $60\\sqrt{2}$"
+    ],
+    [
+      "120π, $80\\sqrt{2}$"
+    ],
+    [
+      "80π, $120\\sqrt{2}$"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Radius $R = 40$ m.",
+    "Distance = $\\frac{3}{4} (2\\pi R) = \\frac{3}{2}\\pi(40) = 60\\pi$.",
+    "Displacement = Chord length = $\\sqrt{R^2 + R^2} = 40\\sqrt{2}$."
+  ],
+  "years": [
+    2024
+  ]
+}

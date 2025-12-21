@@ -1,0 +1,30 @@
+{
+  "id": "019b4016-ad0f-7cbb-b729-f82995c46b43",
+  "question": [
+    "One mole of an ideal monoatomic gas is taken round the cyclic process MNOM. The work done by the gas is",
+    "images/c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f.png"
+  ],
+  "choices": [
+    [
+      "$4.5~P_{0}V_{0}$"
+    ],
+    [
+      "$4~P_{0}V_{0}$"
+    ],
+    [
+      "$9~P_{0}V_{0}$"
+    ],
+    [
+      "$2~P_{0}V_{0}$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Work done is the area of the triangle.",
+    "Base $= 3V_0 - V_0 = 2V_0$. Height $= 3P_0 - P_0 = 2P_0$.",
+    "Area $= \\frac{1}{2} \\times 2V_0 \\times 2P_0 = 2P_0V_0$."
+  ],
+  "years": [
+    2024
+  ]
+}

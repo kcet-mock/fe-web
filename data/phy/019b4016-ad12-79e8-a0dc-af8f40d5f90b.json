@@ -1,0 +1,29 @@
+{
+  "id": "019b4016-ad12-79e8-a0dc-af8f40d5f90b",
+  "question": [
+    "A particle of specific charge $\\pi$ C/kg is projected from the origin towards positive x-axis with the velocity 10 ms⁻¹ in a uniform magnetic field $\\vec{B} = -2\\hat{k}$ T. The velocity $\\vec{v}$ of particle after time 1/12 s will be (in ms⁻¹)"
+  ],
+  "choices": [
+    [
+      "$5(\\hat{i} + \\hat{j})$"
+    ],
+    [
+      "$5(\\hat{i} + \\sqrt{3}\\hat{j})$"
+    ],
+    [
+      "$5(\\sqrt{3}\\hat{i} - \\hat{j})$"
+    ],
+    [
+      "$5(\\sqrt{3}\\hat{i} + \\hat{j})$"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Time period $T = 2\\pi m / qB = 2\\pi / (\\pi \\times 2) = 1$ s.",
+    "Time $t = 1/12$ s corresponds to angle $\\theta = 2\\pi (t/T) = 2\\pi(1/12) = \\pi/6 = 30^{\\circ}$.",
+    "Velocity rotates $30^{\\circ}$ CCW: $\\vec{v} = 10(\\cos 30 \\hat{i} + \\sin 30 \\hat{j}) = 5\\sqrt{3}\\hat{i} + 5\\hat{j}$."
+  ],
+  "years": [
+    2024
+  ]
+}
