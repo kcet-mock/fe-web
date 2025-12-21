@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 // 60-minute mock test timer (in seconds)
 const TEST_DURATION_SECONDS = 60 * 60;
 const DEFAULT_QUESTION_COUNT = 60;
-const yearsToTry = [2023, 2024, 2025, 2026];
+const yearsToTry = [2020, 2021, 2022, 2023, 2024, 2025, 2026];
 
 const SUBJECTS = [
   { value: 'bio', label: 'Biology' },
@@ -126,7 +126,7 @@ export async function getStaticProps({ params }) {
   const fs = await import('fs/promises');
   const path = await import('path');
 
-  const subject = typeof params?.subject === 'string' ? params.subject : 'bio';
+  const subject = typeof params?.subject === 'string' ? params.subject : '';
 
   // Load all IDs for the subject (used for random mode)
   let allIds = [];
@@ -135,9 +135,7 @@ export async function getStaticProps({ params }) {
     allIds = QUESTION_IDS;
   } catch (error) {
     console.error(`Failed to load questions for subject: ${subject}`, error);
-    // Fallback to biology if subject data not found
-    const { QUESTION_IDS } = await import('../../data/bio/_all.js');
-    allIds = QUESTION_IDS;
+    return { props: { subject, allIds: [], questions: [], yearIdsMap: {}, availableYears: [] } };
   }
 
   const questionsDir = path.join(process.cwd(), 'data', subject);
@@ -151,11 +149,8 @@ export async function getStaticProps({ params }) {
 
   // Pre-load available years for this subject
   const yearIdsMap = {};
-  
-  // Try to load common years (2023-2026)
   // We need to explicitly try each year because dynamic imports need static analysis
-  
-  
+
   for (const year of yearsToTry) {
     try {
       const module = await import(`../../data/${subject}/_${year}.js`);
@@ -196,10 +191,10 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
     }
     
     const yearNum = parseInt(year);
-    if (isNaN(yearNum)) return ALL_IDS;
+    if (isNaN(yearNum)) return [];
     
-    // Use year-specific IDs if available
-    return YEAR_IDS_MAP[yearNum] || ALL_IDS;
+    // Use year-specific IDs only, no fallback
+    return YEAR_IDS_MAP[yearNum] || [];
   }, [year, ALL_IDS, YEAR_IDS_MAP]);
 
   const [selectedIds, setSelectedIds] = useState([]);
@@ -214,9 +209,12 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
   }, [selectedIds, questionsById]);
 
   useEffect(() => {
+    // Wait for router to be ready before selecting questions
+    if (!router.isReady) return;
+    
     const safeCount = Math.max(0, Math.min(DEFAULT_QUESTION_COUNT, idsToUse.length));
     setSelectedIds(sampleWithoutReplacement(idsToUse, safeCount));
-  }, [idsToUse]);
+  }, [idsToUse, router.isReady]);
 
   useEffect(() => {
     if (!running || finished) return;
