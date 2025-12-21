@@ -13,6 +13,17 @@ def generate_uuid() -> uuid.UUID:
     return uuid.uuid4()
 
 
+def is_valid_uuid(value: Any) -> bool:
+    """Check if a value is a valid UUID string."""
+    if not isinstance(value, str):
+        return False
+    try:
+        uuid.UUID(value)
+        return True
+    except (ValueError, AttributeError):
+        return False
+
+
 def _normalize_image_token(value: str) -> str:
     """Normalize image tokens to match current app expectations.
     
@@ -117,7 +128,12 @@ def _normalize_explanation(explanation: Any) -> List[str]:
 
 def convert_question(raw: Dict[str, Any]) -> Dict[str, Any]:
     """Convert a question to the standard format with random UUID."""
-    new_id = str(generate_uuid())
+    # Use existing ID if it's already a valid UUID, otherwise generate new one
+    existing_id = raw.get("id")
+    if is_valid_uuid(existing_id):
+        new_id = str(existing_id)
+    else:
+        new_id = str(generate_uuid())
     
     record = {
         "id": new_id,
