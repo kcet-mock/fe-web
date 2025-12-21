@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const SUBJECT_MAP = {
   bio: 'Biology',
@@ -41,8 +42,29 @@ function generateSessionId() {
 }
 
 export default function PreviousPapersPage() {
+  const router = useRouter();
   const [selectedYear, setSelectedYear] = useState('all');
   const [selectedSubject, setSelectedSubject] = useState('all');
+
+  // Initialize from URL query params on mount
+  useEffect(() => {
+    if (router.isReady) {
+      const { sub, year } = router.query;
+      setSelectedSubject(sub || 'all');
+      setSelectedYear(year || 'all');
+    }
+  }, [router.isReady, router.query]);
+
+  // Update URL when filters change
+  const updateFilters = (newYear, newSubject) => {
+    router.push({
+      pathname: '/previous-papers',
+      query: {
+        sub: newSubject,
+        year: newYear,
+      },
+    }, undefined, { shallow: true });
+  };
 
   const filtered = useMemo(() => {
     return PAPERS.filter((paper) => {
@@ -79,7 +101,11 @@ export default function PreviousPapersPage() {
               <select
                 className="select"
                 value={selectedYear}
-                onChange={(e) => setSelectedYear(e.target.value)}
+                onChange={(e) => {
+                  const newYear = e.target.value;
+                  setSelectedYear(newYear);
+                  updateFilters(newYear, selectedSubject);
+                }}
               >
                 <option value="all">All years</option>
                 {ALL_YEARS.map((year) => (
@@ -95,7 +121,11 @@ export default function PreviousPapersPage() {
               <select
                 className="select"
                 value={selectedSubject}
-                onChange={(e) => setSelectedSubject(e.target.value)}
+                onChange={(e) => {
+                  const newSubject = e.target.value;
+                  setSelectedSubject(newSubject);
+                  updateFilters(selectedYear, newSubject);
+                }}
               >
                 <option value="all">All subjects</option>
                 {ALL_SUBJECTS.map((subject) => (

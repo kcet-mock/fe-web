@@ -82,7 +82,7 @@ export default function Home() {
             </div>
           </div>
 
-          <Link href="/previous-papers">
+          <Link href="/previous-papers?sub=all&year=all">
             <div className="action-card">
               <div className="action-label">Option 2</div>
               <div className="action-title">Previous exam papers</div>
