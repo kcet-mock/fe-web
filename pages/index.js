@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useMemo, useState } from 'react';
 import { v7 as uuidv7 } from 'uuid';
+import { analytics } from '../lib/analytics';
 
 export default function Home() {
   const router = useRouter();
@@ -16,10 +17,16 @@ export default function Home() {
   );
   const [subject, setSubject] = useState(SUBJECTS[0]?.value || 'bio');
 
+  const handleSubjectChange = (newSubject) => {
+    setSubject(newSubject);
+    analytics.trackSubjectSelected(newSubject, 'home');
+  };
+
   const generateSessionId = () => uuidv7();
 
   const handleStartMockTest = () => {
     const sessionId = generateSessionId();
+    analytics.trackNavigation('home', 'mock-test');
     router.push(`/mock-test/${encodeURIComponent(subject)}?year=random&session_id=${encodeURIComponent(sessionId)}`);
   };
 
@@ -56,7 +63,7 @@ export default function Home() {
                 <select
                   className="select"
                   value={subject}
-                  onChange={(e) => setSubject(e.target.value)}
+                  onChange={(e) => handleSubjectChange(e.target.value)}
                   style={{ flex: 1 }}
                 >
                   {SUBJECTS.map((s) => (

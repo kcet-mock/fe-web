@@ -2,8 +2,15 @@ import Head from 'next/head';
 import '../styles/globals.css';
 import 'katex/dist/katex.min.css';
 import TopNav from '../components/TopNav';
+import { useEffect } from 'react';
+import { analytics } from '../lib/analytics';
 
 export default function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    // Initialize analytics on app mount
+    analytics.init();
+  }, []);
+
   return (
     <>
       <Head>

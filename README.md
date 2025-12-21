@@ -13,6 +13,11 @@ KCET is a Karnataka CET mock website (Next.js project).
 3. Previous papers page (`/previous-papers`):
 	- Year-wise and subject-wise filters
 	- List of papers with PDF download links (sample data; replace with real PDFs)
+4. **Analytics tracking** with Mixpanel:
+	- User engagement metrics
+	- Learning performance tracking
+	- Question-level analytics
+	- See [ANALYTICS.md](ANALYTICS.md) for full documentation
 
 ## Getting started
 
@@ -22,13 +27,21 @@ KCET is a Karnataka CET mock website (Next.js project).
 	npm install
 	```
 
-2. Run the development server:
+2. Configure environment variables:
+
+	Create or update `.env` file:
+	```bash
+	NEXT_PUBLIC_MIXPANEL_TOKEN=your_mixpanel_token_here
+	```
+	See [ANALYTICS.md](ANALYTICS.md) for analytics setup.
+
+3. Run the development server:
 
 	```bash
 	npm run dev
 	```
 
-3. Open in your browser:
+4. Open in your browser:
 
 	- http://localhost:3000/ → Landing page
 	- http://localhost:3000/mock-test → Mock test with timer

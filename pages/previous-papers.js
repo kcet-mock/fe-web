@@ -1,6 +1,7 @@
 import { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { analytics } from '../lib/analytics';
 
 const SUBJECT_MAP = {
   bio: 'Biology',
@@ -105,6 +106,7 @@ export default function PreviousPapersPage() {
                   const newYear = e.target.value;
                   setSelectedYear(newYear);
                   updateFilters(newYear, selectedSubject);
+                  analytics.trackNavigation('previous-papers', 'filter-year');
                 }}
               >
                 <option value="all">All years</option>
@@ -125,6 +127,7 @@ export default function PreviousPapersPage() {
                   const newSubject = e.target.value;
                   setSelectedSubject(newSubject);
                   updateFilters(selectedYear, newSubject);
+                  analytics.trackNavigation('previous-papers', 'filter-subject');
                 }}
               >
                 <option value="all">All subjects</option>
@@ -165,9 +168,14 @@ export default function PreviousPapersPage() {
                   const sessionId = generateSessionId();
                   const testUrl = `/mock-test/${paper.subject}?year=${paper.year}&session_id=${sessionId}`;
                   
+                  const handlePaperClick = () => {
+                    analytics.trackNavigation('previous-papers', 'mock-test');
+                    analytics.trackSubjectSelected(paper.subject, 'previous-papers');
+                  };
+                  
                   return (
                     <Link key={`${paper.year}-${paper.subject}`} href={testUrl}>
-                      <div className="paper-item" style={{ cursor: 'pointer' }}>
+                      <div className="paper-item" style={{ cursor: 'pointer' }} onClick={handlePaperClick}>
                         <div className="paper-item-main">
                           <div>
                             KCET {paper.year} · <strong>{SUBJECT_MAP[paper.subject]}</strong>

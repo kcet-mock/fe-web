@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import RenderWithKatex from '../../components/RenderWithKatex';
+import { analytics } from '../../lib/analytics';
 
 // 60-minute mock test timer (in seconds)
 const TEST_DURATION_SECONDS = 60 * 60;
@@ -204,10 +205,22 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
   const [finished, setFinished] = useState(false);
   const [answers, setAnswers] = useState({});
   const hasAutoSubmittedRef = useRef(false);
+  const sessionStartTimeRef = useRef(null);
+  const questionStartTimes = useRef({});
+  const viewedQuestions = useRef(new Set());
 
   const selectedQuestions = useMemo(() => {
     return selectedIds.map((id) => questionsById.get(id)).filter(Boolean);
   }, [selectedIds, questionsById]);
+
+  useEffect(() => {
+    // Track session started
+    if (router.isReady && subject) {
+      sessionStartTimeRef.current = Date.now();
+      const testType = year && year !== 'random' ? `year-${year}` : 'random';
+      analytics.trackSessionStarted(subject, testType);
+    }
+  }, [router.isReady, subject, year]);
 
   useEffect(() => {
     // Wait for router to be ready before selecting questions
@@ -250,6 +263,23 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
   }, [finished]);
 
   const handleSelectOption = (questionIndex, optionIndex) => {
+    const prevAnswer = answers[questionIndex];
+    const question = selectedQuestions[questionIndex];
+    
+    // Track answer changed if previously selected
+    if (prevAnswer !== undefined && prevAnswer !== optionIndex && question) {
+      analytics.trackAnswerChanged(question, subject, prevAnswer, optionIndex);
+    }
+    
+    // Track question answered if first time selecting
+    if (prevAnswer === undefined && question) {
+      const startTime = questionStartTimes.current[questionIndex] || Date.now();
+      const timeSpent = Math.round((Date.now() - startTime) / 1000);
+      const isCorrect = optionIndex === question.correctAnswer;
+      
+      analytics.trackQuestionAnswered(question, subject, optionIndex, timeSpent, isCorrect);
+    }
+    
     setAnswers((prev) => ({
       ...prev,
       [questionIndex]: optionIndex,
@@ -267,6 +297,16 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
       const correctIndex = typeof q.correctAnswer === 'number' ? q.correctAnswer : -1;
       if (selected === correctIndex) correctCount += 1;
     });
+
+    // Track test completion
+    const yearValue = year && year !== 'random' ? year : 'random';
+    analytics.trackTestCompleted(
+      subject,
+      selectedQuestions.length,
+      correctCount,
+      timeTakenSeconds,
+      yearValue
+    );
 
     if (typeof window !== 'undefined') {
       const sessionIdFromQuery =

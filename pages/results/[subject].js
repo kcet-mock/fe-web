@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import RenderWithKatex from '../../components/RenderWithKatex';
+import { analytics } from '../../lib/analytics';
 
 const SUBJECTS = [
   { value: 'bio', label: 'Biology' },
@@ -66,6 +67,7 @@ export async function getStaticProps({ params }) {
 export default function ResultsSubjectPage({ subject, questions }) {
   const router = useRouter();
   const [result, setResult] = useState(null);
+  const [trackedExplanations, setTrackedExplanations] = useState(new Set());
   const ALL_QUESTIONS = Array.isArray(questions) ? questions : [];
 
   const questionsById = useMemo(() => {
@@ -97,6 +99,39 @@ export default function ResultsSubjectPage({ subject, questions }) {
       // ignore
     }
   }, [router.query.session_id]);
+
+  // Track explanations viewed using IntersectionObserver
+  useEffect(() => {
+    if (typeof window === 'undefined' || !result) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const questionId = entry.target.getAttribute('data-question-id');
+            const questionIndex = entry.target.getAttribute('data-question-index');
+            
+            if (questionId && !trackedExplanations.has(questionId)) {
+              const question = selectedQuestions[parseInt(questionIndex)];
+              const wasCorrect = result.answers[questionIndex] === question?.correctAnswer;
+              
+              // Track explanation viewed
+              analytics.trackExplanationViewed(question, subject, wasCorrect, 0);
+              
+              setTrackedExplanations(prev => new Set(prev).add(questionId));
+            }
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    // Observe all explanation sections
+    const explanationElements = document.querySelectorAll('.explanation-section');
+    explanationElements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, [result, selectedQuestions, subject, trackedExplanations]);
 
   const summary = (() => {
     if (!result) return null;
@@ -349,7 +384,11 @@ export default function ResultsSubjectPage({ subject, questions }) {
                       </div>
 
                       {q.explanation && (
-                        <div className="explanation-section">
+                        <div 
+                          className="explanation-section"
+                          data-question-id={q.id}
+                          data-question-index={index}
+                        >
                           <div className="explanation-label">Explanation</div>
                           <div className="explanation-content">
                             {Array.isArray(q.explanation) ? q.explanation.map((part, partIndex) => {
