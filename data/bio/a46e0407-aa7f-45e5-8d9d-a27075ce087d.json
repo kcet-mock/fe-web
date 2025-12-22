@@ -1,0 +1,27 @@
+{
+  "id": "a46e0407-aa7f-45e5-8d9d-a27075ce087d",
+  "question": [
+    "Match the stages of prophase I given in Column-I with their features in Column-ll and choose the correct options from the choices given below:\n\n| Column - I | Column - II |\n|---|---|\n| (a) Leptotene | (i) Exchange of genetic materials between non-sister chromatids |\n| (b) Zygotene | (ii) Chromosomes visible under light microscope |\n| (c) Pachytene | (iii) Dissolution of synaptonemal complex |\n| (d) Diplotene | (iv) Chromosomes start pairing together |\n| (e) Diakinesis | (v) Terminalisation of chiasmata |"
+  ],
+  "choices": [
+    [
+      "a-v, b-iv, c-i, d-iii, e-ii"
+    ],
+    [
+      "a-iv, b-i, c-ii, d-iii, e-v"
+    ],
+    [
+      "a-ii, b-iv, c-i, d-iii, e-v"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv, e-v"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Leptotene (ii - visible), Zygotene (iv - pairing/synapsis), Pachytene (i - crossing over), Diplotene (iii - dissolution of synaptonemal complex), Diakinesis (v - terminalisation)."
+  ],
+  "years": [
+    2025
+  ]
+}

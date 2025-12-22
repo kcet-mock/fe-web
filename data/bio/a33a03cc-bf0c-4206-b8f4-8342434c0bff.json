@@ -1,0 +1,32 @@
+{
+  "id": "a33a03cc-bf0c-4206-b8f4-8342434c0bff",
+  "question": [
+    "Which of the following statements are correct with respect to Frogs?",
+    "(a) Bidder's canals are present in male Frogs",
+    "(b) Copulatory pads are present in male Frogs",
+    "(c) Sound producing vocal sacs are present in male Frogs",
+    "(d) Cloaca is present male Frog only.",
+    "Choose the most appropriate answer from the options given below :"
+  ],
+  "choices": [
+    [
+      "a and b"
+    ],
+    [
+      "a and c"
+    ],
+    [
+      "b and d"
+    ],
+    [
+      "a and d"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Bidder's canal, copulatory pads, and vocal sacs are all present in male frogs. Cloaca is present in both sexes. Option 2 selects 'a' and 'c' as correct."
+  ],
+  "years": [
+    2025
+  ]
+}

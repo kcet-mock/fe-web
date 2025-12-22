@@ -1,0 +1,32 @@
+{
+  "id": "394ca16b-352e-4797-b096-61caa586e588",
+  "question": [
+    "Which of the following statements are correct with reference to prokaryotic genome?",
+    "(a) Monocistronic structural genes",
+    "(b) Introns absent in structural genes",
+    "(c) Transcription and translation are coupled processes",
+    "(d) Primary transcript undergoes splicing",
+    "(e) Only one RNA polymerase is present"
+  ],
+  "choices": [
+    [
+      "Only b, c and e are correct"
+    ],
+    [
+      "Only a, d and e are correct"
+    ],
+    [
+      "Only a, b and c are correct"
+    ],
+    [
+      "Only a, b and d are correct"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Prokaryotic genes are polycistronic (a is false). They lack introns (b is true, d is false). Transcription and translation occur simultaneously (c is true). A single RNA polymerase catalyzes transcription of all types of RNA (e is true)."
+  ],
+  "years": [
+    2025
+  ]
+}

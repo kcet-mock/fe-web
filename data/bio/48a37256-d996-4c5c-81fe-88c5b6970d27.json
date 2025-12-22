@@ -1,0 +1,27 @@
+{
+  "id": "48a37256-d996-4c5c-81fe-88c5b6970d27",
+  "question": [
+    "To isolate DNA from fungal cells, bacterial cells and plant cells, the enzymes required are respectively"
+  ],
+  "choices": [
+    [
+      "Lysozyme, Proteases and Ribonuclease"
+    ],
+    [
+      "Chitinase, Lysozyme and Cellulase"
+    ],
+    [
+      "Cellulase, Protease and Lysozyme"
+    ],
+    [
+      "Lysozyme, Cellulase and Chitinase"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Fungi have chitinous cell walls (require Chitinase). Bacteria have peptidoglycan walls (require Lysozyme). Plants have cellulosic walls (require Cellulase)."
+  ],
+  "years": [
+    2025
+  ]
+}

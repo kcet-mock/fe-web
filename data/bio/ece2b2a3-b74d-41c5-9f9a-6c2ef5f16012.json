@@ -1,0 +1,32 @@
+{
+  "id": "ece2b2a3-b74d-41c5-9f9a-6c2ef5f16012",
+  "question": [
+    "Identify the statement/s given below that does not correspond to the functions of cortisol",
+    "(i) Maintains cardiovascular system and kidney functions",
+    "(ii) Produces anti-inflammatory reactions",
+    "(iii) Maintains electrolyte balance, osmosis and blood pressure",
+    "(iv) Suppresses immune response",
+    "(v) Stimulates RBC production"
+  ],
+  "choices": [
+    [
+      "(iii) and (v) only"
+    ],
+    [
+      "(ii) only"
+    ],
+    [
+      "(iv) only"
+    ],
+    [
+      "(i) and (ii) only"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "According to the provided answer key, option 3 ('iv only') is the correct choice for what does *not* correspond. (Note: Biologically, Cortisol *does* suppress the immune response, making this choice paradoxical unless interpreted strictly within a specific context of the key provided)."
+  ],
+  "years": [
+    2025
+  ]
+}

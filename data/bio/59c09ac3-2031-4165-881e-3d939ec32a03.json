@@ -1,0 +1,27 @@
+{
+  "id": "59c09ac3-2031-4165-881e-3d939ec32a03",
+  "question": [
+    "A student observed the T.S. of a plant organ slide under microscope. He observed the vascular bundles in the stelar region as conjoint collateral and open. Based on these features of vascular bundle, identify the correct option from below."
+  ],
+  "choices": [
+    [
+      "Dicot Stem"
+    ],
+    [
+      "Monocot Root"
+    ],
+    [
+      "Monocot Stem"
+    ],
+    [
+      "Dicot Root"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Conjoint, collateral, and open vascular bundles (presence of cambium between xylem and phloem) are the defining characteristic of dicot stems."
+  ],
+  "years": [
+    2025
+  ]
+}

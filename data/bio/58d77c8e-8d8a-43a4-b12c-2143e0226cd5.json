@@ -1,0 +1,29 @@
+{
+  "id": "58d77c8e-8d8a-43a4-b12c-2143e0226cd5",
+  "question": [
+    "Read the given statements and choose the correct option:",
+    "Statement I: Gemmae are green, unicellular, sexual buds which develop in receptacles called gemma cups",
+    "Statement II: Protonema develops directly from a spore"
+  ],
+  "choices": [
+    [
+      "Statement I is true but Statement II is false"
+    ],
+    [
+      "Statement I is false but Statement II is true"
+    ],
+    [
+      "Both Statement I and Statement II are false"
+    ],
+    [
+      "Both Statement I and Statement II are true"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement I is false because Gemmae are *multicellular*, *asexual* buds. Statement II is true (protonema stage in mosses develops from spores)."
+  ],
+  "years": [
+    2025
+  ]
+}

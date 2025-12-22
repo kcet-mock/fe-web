@@ -1,0 +1,27 @@
+{
+  "id": "214d18a8-7e8f-4158-a414-ed8d83ebe737",
+  "question": [
+    "Choose the correct sequence of steps involved in decomposition"
+  ],
+  "choices": [
+    [
+      "Fragmentation → Leaching → Catabolism → Mineralisation → Humification"
+    ],
+    [
+      "Fragmentation → Mineralisation → Humification → Leaching → Catabolism"
+    ],
+    [
+      "Fragmentation → Leaching → Catabolism → Humification → Mineralisation"
+    ],
+    [
+      "Fragmentation → Leaching → Humification → Mineralisation → Catabolism"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The major steps of decomposition are Fragmentation, Leaching, Catabolism, Humification, and Mineralisation."
+  ],
+  "years": [
+    2025
+  ]
+}

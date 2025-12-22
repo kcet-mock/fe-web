@@ -1,0 +1,27 @@
+{
+  "id": "34be1487-e560-49fb-bf03-14e45627bd1f",
+  "question": [
+    "When a single gene exhibits multiple phenotypic expression, the phenomenon is called"
+  ],
+  "choices": [
+    [
+      "Incomplete dominance"
+    ],
+    [
+      "Pleiotropy"
+    ],
+    [
+      "Co-dominance"
+    ],
+    [
+      "Polygenic inheritance"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Pleiotropy refers to the condition where a single gene influences multiple, seemingly unrelated phenotypic traits."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "294c7b4d-27b3-411a-8f45-b615b79deecd",
+  "question": [
+    "Match the hormone with its site of production :\n\n| Hormone | Site of production |\n|---|---|\n| a. hCG and hPL | i. Ovary |\n| b. Progesterone | ii. Placenta |\n| c. Androgens | iii. Corpus luteum |\n| d. Relaxin | iv. Leydig cells |"
+  ],
+  "choices": [
+    [
+      "a-iii, b-i, c-iv, d-ii"
+    ],
+    [
+      "a-iv, b-i, c-ii, d-iii"
+    ],
+    [
+      "a-i, b-ii, c-iv, d-iii"
+    ],
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "hCG and hPL are produced by the Placenta (ii). Progesterone is secreted by the Corpus luteum (iii) (and Placenta). Androgens are secreted by Leydig cells (iv). Relaxin is secreted by the Ovary (i)."
+  ],
+  "years": [
+    2025
+  ]
+}

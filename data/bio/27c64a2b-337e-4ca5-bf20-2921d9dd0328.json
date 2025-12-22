@@ -1,0 +1,27 @@
+{
+  "id": "27c64a2b-337e-4ca5-bf20-2921d9dd0328",
+  "question": [
+    "Match the column-I with Column-II. Choose the correct option given below.\n\n| Column-I | Column-II |\n|---|---|\n| (a) Streptococcus | i. Free living nitrogen fixing bacteria |\n| (b) Penicillium | ii. Clot buster |\n| (c) Methanogens | iii. Source of antibiotic |\n| (d) Anabaena | iv. Biogas production |"
+  ],
+  "choices": [
+    [
+      "a-ii, b-iv, c-iii, d-i"
+    ],
+    [
+      "a-iv, b-iii, c-i, d-ii"
+    ],
+    [
+      "a-iv, b-i, c-iii, d-ii"
+    ],
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "*Streptococcus* produces Streptokinase (clot buster, ii). *Penicillium* produces Penicillin (antibiotic, iii). Methanogens produce Biogas (iv). *Anabaena* is a nitrogen fixer (i)."
+  ],
+  "years": [
+    2025
+  ]
+}

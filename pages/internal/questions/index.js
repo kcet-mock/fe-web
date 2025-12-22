@@ -156,8 +156,9 @@ export default function InternalQuestionsListPage() {
                   Total: {questions.length}
                 </div>
                 <div className="questions-stack">
-                  {questions.map((q) => {
+                  {questions.map((q, index) => {
                     const id = q?.id;
+                    const questionNumber = index + 1;
                     const questionSubject = q?.subject || subject;
                     const basePathPrefix = typeof window !== 'undefined' && window.__NEXT_DATA__?.assetPrefix
                       ? String(window.__NEXT_DATA__.assetPrefix)
@@ -182,6 +183,9 @@ export default function InternalQuestionsListPage() {
                         <div className="question-block">
                           <div className="question-header">
                             <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                              <span className="badge-soft">
+                                Question {questionNumber} of {questions.length}
+                              </span>
                               <span 
                                 className="badge-soft" 
                                 onClick={() => copyToClipboard(id)}

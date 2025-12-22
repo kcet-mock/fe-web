@@ -1,0 +1,27 @@
+{
+  "id": "12b7186a-6de2-4432-b755-9a061eaeebf2",
+  "question": [
+    "When pollen grains of a flower of a plant pollinate the stigma of flower of another plant, it is called"
+  ],
+  "choices": [
+    [
+      "Autogamy"
+    ],
+    [
+      "Dichogamy"
+    ],
+    [
+      "Geitonogamy"
+    ],
+    [
+      "Xenogamy"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Xenogamy (cross-pollination) is the transfer of pollen grains from the anther to the stigma of a different plant. This is the only type of pollination which brings genetically different types of pollen grains to the stigma."
+  ],
+  "years": [
+    2025
+  ]
+}

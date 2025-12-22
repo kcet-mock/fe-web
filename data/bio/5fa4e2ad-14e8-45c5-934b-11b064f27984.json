@@ -1,0 +1,27 @@
+{
+  "id": "5fa4e2ad-14e8-45c5-934b-11b064f27984",
+  "question": [
+    "Out of the following options, identify which one is NOT a natural method of contraception ?"
+  ],
+  "choices": [
+    [
+      "Implants"
+    ],
+    [
+      "Lactational amenorrhea"
+    ],
+    [
+      "Periodic abstinence"
+    ],
+    [
+      "Coitus interruptus"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Implants are hormonal devices placed under the skin and are an artificial method of contraception. The others are natural methods."
+  ],
+  "years": [
+    2025
+  ]
+}

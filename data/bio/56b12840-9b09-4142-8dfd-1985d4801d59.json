@@ -1,0 +1,27 @@
+{
+  "id": "56b12840-9b09-4142-8dfd-1985d4801d59",
+  "question": [
+    "Darwin's finches represent one of the best examples of"
+  ],
+  "choices": [
+    [
+      "Adaptive radiation"
+    ],
+    [
+      "Chemical evolution"
+    ],
+    [
+      "Genetic equilibrium"
+    ],
+    [
+      "Seasonal migration"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Adaptive radiation is the process of evolution of different species in a given geographical area starting from a point and literally radiating to other areas of geography (habitats), best exemplified by Darwin's finches."
+  ],
+  "years": [
+    2025
+  ]
+}

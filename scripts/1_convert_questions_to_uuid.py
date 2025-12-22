@@ -14,6 +14,7 @@ def generate_uuid() -> uuid.UUID:
 
 
 def is_valid_uuid(value: Any) -> bool:
+    return False
     """Check if a value is a valid UUID string."""
     if not isinstance(value, str):
         return False
