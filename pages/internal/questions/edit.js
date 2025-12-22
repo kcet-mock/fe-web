@@ -458,7 +458,7 @@ export default function InternalQuestionEditPage() {
         throw new Error(json.error || 'Save failed');
       }
       setSaved(true);
-      router.push(`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`);
+      router.replace(`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`);
     } catch (e) {
       setError(e?.message || 'Save failed');
     } finally {
