@@ -62,9 +62,6 @@ export default function InternalQuestionViewPage() {
         <div className="test-layout">
           <div className="test-questions">
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <Link href="/internal/questions" className="button-secondary">
-                Back to list
-              </Link>
               {id ? (
                 <Link href={`/internal/questions/edit?subject=${subject}&id=${encodeURIComponent(id)}`} className="button-primary">
                   Edit

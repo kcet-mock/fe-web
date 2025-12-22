@@ -48,6 +48,7 @@ export default function InternalQuestionEditPage() {
   const [opt2Parts, setOpt2Parts] = useState([]);
   const [opt3Parts, setOpt3Parts] = useState([]);
   const [opt4Parts, setOpt4Parts] = useState([]);
+  const [explanationParts, setExplanationParts] = useState([]);
   const [answer, setAnswer] = useState('1');
 
   useEffect(() => {
@@ -73,6 +74,7 @@ export default function InternalQuestionEditPage() {
         setOpt2Parts(normalizeParts(opts[1]));
         setOpt3Parts(normalizeParts(opts[2]));
         setOpt4Parts(normalizeParts(opts[3]));
+        setExplanationParts(normalizeParts(q.explanation));
         setAnswer(String(typeof q.correctAnswer === 'number' ? q.correctAnswer : 0));
       } catch (e) {
         if (!cancelled) setError('Failed to load question.');
@@ -96,8 +98,9 @@ export default function InternalQuestionEditPage() {
         normalizeParts(opt4Parts),
       ],
       correctAnswer: Number(answer),
+      explanation: normalizeParts(explanationParts),
     };
-  }, [questionParts, opt1Parts, opt2Parts, opt3Parts, opt4Parts, answer]);
+  }, [questionParts, opt1Parts, opt2Parts, opt3Parts, opt4Parts, explanationParts, answer]);
 
   const setPartsByKey = (key, updater) => {
     if (key === 'question') setQuestionParts(updater);
@@ -105,6 +108,7 @@ export default function InternalQuestionEditPage() {
     else if (key === 'opt2') setOpt2Parts(updater);
     else if (key === 'opt3') setOpt3Parts(updater);
     else if (key === 'opt4') setOpt4Parts(updater);
+    else if (key === 'explanation') setExplanationParts(updater);
   };
 
   const openFilePicker = (target) => {
@@ -152,6 +156,7 @@ export default function InternalQuestionEditPage() {
 
   const renderPartsEditor = (label, parts, setParts, key) => {
     const isQuestion = key === 'question';
+    const isExplanation = key === 'explanation';
 
     const updatePart = (index, value) => {
       setParts((prev) => prev.map((p, i) => (i === index ? value : p)));
@@ -290,7 +295,7 @@ export default function InternalQuestionEditPage() {
                     </div>
                   </div>
                 ) : (
-                  isQuestion ? (
+                  isQuestion || isExplanation ? (
                     <textarea
                       value={part}
                       onChange={(e) => updatePart(index, e.target.value)}
@@ -426,9 +431,6 @@ export default function InternalQuestionEditPage() {
         <div className="test-layout">
           <div className="test-questions">
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <Link href="/internal/questions" className="button-secondary">
-                Back to list
-              </Link>
               {id ? (
                 <Link href={`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`} className="button-secondary">
                   View
@@ -462,20 +464,42 @@ export default function InternalQuestionEditPage() {
               </p>
             ) : null}
 
-            {renderPartsEditor('Question parts', questionParts, setQuestionParts, 'question')}
-            {renderPartsEditor('Option 1 parts', opt1Parts, setOpt1Parts, 'opt1')}
-            {renderPartsEditor('Option 2 parts', opt2Parts, setOpt2Parts, 'opt2')}
-            {renderPartsEditor('Option 3 parts', opt3Parts, setOpt3Parts, 'opt3')}
-            {renderPartsEditor('Option 4 parts', opt4Parts, setOpt4Parts, 'opt4')}
+            <div className="card" style={{ marginTop: '1rem' }}>
+              {renderPartsEditor('Question parts', questionParts, setQuestionParts, 'question')}
+            </div>
+
+            <div className="card" style={{ marginTop: '1rem' }}>
+              {renderPartsEditor('Option 1 parts', opt1Parts, setOpt1Parts, 'opt1')}
+            </div>
+
+            <div className="card" style={{ marginTop: '1rem' }}>
+              {renderPartsEditor('Option 2 parts', opt2Parts, setOpt2Parts, 'opt2')}
+            </div>
+
+            <div className="card" style={{ marginTop: '1rem' }}>
+              {renderPartsEditor('Option 3 parts', opt3Parts, setOpt3Parts, 'opt3')}
+            </div>
+
+            <div className="card" style={{ marginTop: '1rem' }}>
+              {renderPartsEditor('Option 4 parts', opt4Parts, setOpt4Parts, 'opt4')}
+            </div>
 
             <div style={{ marginTop: '1rem' }}>
-              <div className="page-section-subtitle">Correct answer (1-4)</div>
-              <input
+              <div className="page-section-subtitle">Correct answer</div>
+              <select
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                inputMode="numeric"
-                style={{ width: '6rem', marginTop: '0.5rem' }}
-              />
+                style={{ width: '6rem', marginTop: '0.5rem', padding: '0.5rem' }}
+              >
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+
+            <div className="card" style={{ marginTop: '1rem' }}>
+              {renderPartsEditor('Explanation parts', explanationParts, setExplanationParts, 'explanation')}
             </div>
 
             <div style={{ marginTop: '1rem', display: 'flex', gap: '0.75rem' }}>

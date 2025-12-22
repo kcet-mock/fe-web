@@ -1,8 +1,8 @@
 {
   "id": "4e76cb2b-41b2-4f34-b4d1-27034de9574a",
   "question": [
-    "Which of these options is true in the context of the above diagram of pollen grain?",
-    "images/a6c4e3d1-0f9g-6h5c-1e7d-3c4f5g6h7i8j.png"
+    "images/92b7e53e-7a2f-4426-bda7-faeb9a85494f.png",
+    "Which of these options is true in the context of the above diagram of pollen grain?"
   ],
   "choices": [
     [
@@ -21,8 +21,5 @@
   "correctAnswer": 1,
   "explanation": [
     "In a mature pollen grain, 'A' represents the Vegetative cell, which is bigger and has abundant food reserve. 'B' represents the Generative cell, which is small, floats in the cytoplasm of the vegetative cell, and divides mitotically to form the two male gametes."
-  ],
-  "years": [
-    2025
   ]
 }

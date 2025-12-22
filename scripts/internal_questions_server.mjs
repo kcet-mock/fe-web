@@ -47,24 +47,101 @@ async function readAllIds(subject) {
   return Array.isArray(ids) ? ids : [];
 }
 
+function getQuestionsJsonPath() {
+  return path.join(process.cwd(), 'scripts', 'questions.json');
+}
+
+async function syncToQuestionsJson(questionData) {
+  try {
+    const questionsJsonPath = getQuestionsJsonPath();
+    let allQuestions = [];
+    
+    try {
+      allQuestions = await readJsonFile(questionsJsonPath);
+      if (!Array.isArray(allQuestions)) {
+        allQuestions = [];
+      }
+    } catch (err) {
+      // File doesn't exist or is invalid, start with empty array
+      console.log('questions.json not found or invalid, creating new one');
+    }
+
+    // Find and update existing question or add new one
+    const existingIndex = allQuestions.findIndex(q => q.id === questionData.id);
+    
+    if (existingIndex >= 0) {
+      // Update existing question
+      allQuestions[existingIndex] = questionData;
+    } else {
+      // Add new question
+      allQuestions.push(questionData);
+    }
+
+    // Write back to questions.json
+    await writeJsonFile(questionsJsonPath, allQuestions);
+    console.log(`Synced question ${questionData.id} to questions.json`);
+  } catch (err) {
+    console.error('Error syncing to questions.json:', err);
+    // Don't throw - we don't want to fail the save operation if sync fails
+  }
+}
+
+async function removeFromQuestionsJson(questionId) {
+  try {
+    const questionsJsonPath = getQuestionsJsonPath();
+    let allQuestions = [];
+    
+    try {
+      allQuestions = await readJsonFile(questionsJsonPath);
+      if (!Array.isArray(allQuestions)) {
+        return;
+      }
+    } catch (err) {
+      // File doesn't exist, nothing to remove
+      return;
+    }
+
+    // Filter out the deleted question
+    const filtered = allQuestions.filter(q => q.id !== questionId);
+    
+    if (filtered.length !== allQuestions.length) {
+      await writeJsonFile(questionsJsonPath, filtered);
+      console.log(`Removed question ${questionId} from questions.json`);
+    }
+  } catch (err) {
+    console.error('Error removing from questions.json:', err);
+    // Don't throw - we don't want to fail the delete operation if sync fails
+  }
+}
+
 function normalizeQuestionPayload(payload, id) {
   const questionParts = Array.isArray(payload?.question)
     ? payload.question.filter((x) => typeof x === 'string' && x.trim() !== '')
     : [];
 
-  const options = Array.isArray(payload?.options)
+  const choices = Array.isArray(payload?.choices)
+    ? payload.choices.map((choice) =>
+        Array.isArray(choice) ? choice.filter((x) => typeof x === 'string' && x.trim() !== '') : []
+      )
+    : Array.isArray(payload?.options)
     ? payload.options.map((opt) =>
         Array.isArray(opt) ? opt.filter((x) => typeof x === 'string' && x.trim() !== '') : []
       )
     : [];
 
+  const explanationParts = Array.isArray(payload?.explanation)
+    ? payload.explanation.filter((x) => typeof x === 'string' && x.trim() !== '')
+    : [];
+
   const answer = Number(payload?.answer);
+  const correctAnswer = Number(payload?.correctAnswer);
 
   return {
     id,
     question: questionParts,
-    options,
-    answer: Number.isFinite(answer) ? answer : null,
+    choices,
+    correctAnswer: Number.isFinite(correctAnswer) ? correctAnswer : (Number.isFinite(answer) ? answer : null),
+    explanation: explanationParts,
   };
 }
 
@@ -188,18 +265,19 @@ const server = http.createServer(async (req, res) => {
       const id = globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
       const q = normalizeQuestionPayload(payload, id);
 
-      if (!Array.isArray(q.options) || q.options.length !== 4) {
-        sendJson(res, 400, { error: 'options must be an array of 4 arrays' });
+      if (!Array.isArray(q.choices) || q.choices.length !== 4) {
+        sendJson(res, 400, { error: 'choices must be an array of 4 arrays' });
         return;
       }
-      if (typeof q.answer !== 'number' || q.answer < 1 || q.answer > 4) {
-        sendJson(res, 400, { error: 'answer must be 1-4' });
+      if (typeof q.correctAnswer !== 'number' || q.correctAnswer < 0 || q.correctAnswer > 3) {
+        sendJson(res, 400, { error: 'correctAnswer must be 0-3' });
         return;
       }
 
       const ids = await readAllIds(subject);
       await writeJsonFile(path.join(questionsDir, `${id}.json`), q);
       await writeJsonFile(getAllPath(subject), [...ids, id]);
+      await syncToQuestionsJson(q);
       sendJson(res, 201, { id });
       return;
     }
@@ -255,16 +333,17 @@ const server = http.createServer(async (req, res) => {
       const questionsDir = getQuestionsDir(subject);
       const q = normalizeQuestionPayload(payload, match.id);
 
-      if (!Array.isArray(q.options) || q.options.length !== 4) {
-        sendJson(res, 400, { error: 'options must be an array of 4 arrays' });
+      if (!Array.isArray(q.choices) || q.choices.length !== 4) {
+        sendJson(res, 400, { error: 'choices must be an array of 4 arrays' });
         return;
       }
-      if (typeof q.answer !== 'number' || q.answer < 1 || q.answer > 4) {
-        sendJson(res, 400, { error: 'answer must be 1-4' });
+      if (typeof q.correctAnswer !== 'number' || q.correctAnswer < 0 || q.correctAnswer > 3) {
+        sendJson(res, 400, { error: 'correctAnswer must be 0-3' });
         return;
       }
 
       await writeJsonFile(path.join(questionsDir, `${match.id}.json`), q);
+      await syncToQuestionsJson(q);
       sendJson(res, 200, { ok: true });
       return;
     }
@@ -280,6 +359,7 @@ const server = http.createServer(async (req, res) => {
       const ids = await readAllIds(subject);
       await writeJsonFile(getAllPath(subject), ids.filter((x) => x !== match.id));
       await fs.unlink(path.join(questionsDir, `${match.id}.json`));
+      await removeFromQuestionsJson(match.id);
       sendJson(res, 200, { ok: true });
       return;
     }

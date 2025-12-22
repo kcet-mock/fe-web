@@ -1,0 +1,414 @@
+{
+  "boards": [
+    {
+      "name": "KCET - Performance & Learning Analytics",
+      "description": "Core metrics for student performance and learning patterns",
+      "reports": [
+        {
+          "name": "User Accuracy by Subject",
+          "type": "insights",
+          "chart_type": "line",
+          "events": [
+            {
+              "event": "correct_answer",
+              "math": "total"
+            },
+            {
+              "event": "question_answered",
+              "math": "total"
+            }
+          ],
+          "formula": "(A/B)*100",
+          "breakdowns": ["subject"],
+          "time_range": "30d",
+          "description": "Track accuracy trends over time by subject"
+        },
+        {
+          "name": "Average Time Per Question",
+          "type": "insights",
+          "chart_type": "bar",
+          "events": [
+            {
+              "event": "time_spent_on_question",
+              "property": "timeSpent",
+              "math": "avg"
+            }
+          ],
+          "breakdowns": ["subject", "isCorrect"],
+          "time_range": "30d",
+          "description": "Compare time spent on correct vs incorrect answers"
+        },
+        {
+          "name": "Test Completion Funnel",
+          "type": "funnels",
+          "steps": [
+            {
+              "event": "session_started"
+            },
+            {
+              "event": "question_answered"
+            },
+            {
+              "event": "test_completed"
+            }
+          ],
+          "breakdowns": ["subject"],
+          "time_range": "30d",
+          "conversion_window": "1 day",
+          "description": "User progression from start to completion"
+        },
+        {
+          "name": "Question Difficulty Analysis",
+          "type": "insights",
+          "chart_type": "table",
+          "events": [
+            {
+              "event": "correct_answer",
+              "math": "total"
+            },
+            {
+              "event": "question_answered",
+              "math": "total"
+            }
+          ],
+          "formula": "(A/B)*100",
+          "breakdowns": ["questionId", "subject"],
+          "filters": [
+            {
+              "property": "formula_result",
+              "operator": "less than",
+              "value": 40
+            }
+          ],
+          "time_range": "30d",
+          "limit": 50,
+          "sort": "descending",
+          "description": "Identify hardest questions (< 40% accuracy)"
+        },
+        {
+          "name": "Session Duration vs Performance",
+          "type": "insights",
+          "chart_type": "line",
+          "events": [
+            {
+              "event": "test_completed",
+              "property": "accuracy",
+              "math": "avg"
+            }
+          ],
+          "breakdowns": [
+            {
+              "property": "totalTime",
+              "buckets": [0, 300, 600, 900, 1200, 1800, 3600]
+            }
+          ],
+          "time_range": "30d",
+          "description": "Find optimal study duration for best performance"
+        }
+      ]
+    },
+    {
+      "name": "KCET - Engagement Metrics",
+      "description": "User engagement and activity patterns",
+      "reports": [
+        {
+          "name": "Daily Active Users",
+          "type": "insights",
+          "chart_type": "line",
+          "events": [
+            {
+              "event": "session_started",
+              "math": "unique"
+            }
+          ],
+          "time_range": "30d",
+          "interval": "day",
+          "description": "Track daily active users over time"
+        },
+        {
+          "name": "Subject Preference",
+          "type": "insights",
+          "chart_type": "pie",
+          "events": [
+            {
+              "event": "subject_selected",
+              "math": "total"
+            }
+          ],
+          "breakdowns": ["subject"],
+          "time_range": "30d",
+          "description": "Distribution of subject selections"
+        },
+        {
+          "name": "Answer Revision Patterns",
+          "type": "insights",
+          "chart_type": "bar",
+          "events": [
+            {
+              "event": "answer_changed",
+              "math": "total"
+            }
+          ],
+          "breakdowns": ["subject"],
+          "time_range": "30d",
+          "description": "Track how often users change their answers"
+        },
+        {
+          "name": "Explanation Engagement",
+          "type": "insights",
+          "chart_type": "stacked_bar",
+          "events": [
+            {
+              "event": "explanation_viewed",
+              "math": "total"
+            }
+          ],
+          "breakdowns": ["wasCorrect", "subject"],
+          "time_range": "30d",
+          "description": "Compare explanation views for correct vs incorrect answers"
+        },
+        {
+          "name": "Device Usage Distribution",
+          "type": "insights",
+          "chart_type": "pie",
+          "events": [
+            {
+              "event": "session_started",
+              "math": "total"
+            }
+          ],
+          "breakdowns": ["deviceType"],
+          "time_range": "30d",
+          "description": "Sessions by device type"
+        },
+        {
+          "name": "Question Content Complexity Impact",
+          "type": "insights",
+          "chart_type": "bar",
+          "events": [
+            {
+              "event": "correct_answer",
+              "math": "total"
+            },
+            {
+              "event": "question_answered",
+              "math": "total"
+            }
+          ],
+          "formula": "(A/B)*100",
+          "breakdowns": ["hasImages", "hasMath"],
+          "time_range": "30d",
+          "description": "Accuracy on questions with images/math vs plain text"
+        }
+      ]
+    },
+    {
+      "name": "KCET - Retention & Growth",
+      "description": "User retention and milestone achievements",
+      "reports": [
+        {
+          "name": "User Retention Curve",
+          "type": "retention",
+          "first_event": "session_started",
+          "return_event": "session_started",
+          "time_range": "30d",
+          "retention_type": "on_or_after",
+          "retention_unit": "day",
+          "description": "How many users return after their first session"
+        },
+        {
+          "name": "Accuracy Milestones Achieved",
+          "type": "insights",
+          "chart_type": "stacked_bar",
+          "events": [
+            {
+              "event": "accuracy_milestone",
+              "math": "unique"
+            }
+          ],
+          "breakdowns": ["milestone", "subject"],
+          "time_range": "30d",
+          "description": "Track users reaching 50%, 75%, 90% accuracy"
+        },
+        {
+          "name": "Weekly Active Users Trend",
+          "type": "insights",
+          "chart_type": "line",
+          "events": [
+            {
+              "event": "session_started",
+              "math": "unique"
+            }
+          ],
+          "time_range": "90d",
+          "interval": "week",
+          "description": "Weekly active users over 90 days"
+        },
+        {
+          "name": "Year-wise Test Performance",
+          "type": "insights",
+          "chart_type": "bar",
+          "events": [
+            {
+              "event": "test_completed",
+              "property": "accuracy",
+              "math": "avg"
+            }
+          ],
+          "breakdowns": ["year"],
+          "filters": [
+            {
+              "property": "year",
+              "operator": "is not",
+              "value": "random"
+            }
+          ],
+          "time_range": "30d",
+          "description": "Compare difficulty across exam years"
+        }
+      ]
+    },
+    {
+      "name": "KCET - Real-time Dashboard",
+      "description": "Live metrics and current activity",
+      "reports": [
+        {
+          "name": "Active Tests (Last 5 Minutes)",
+          "type": "insights",
+          "chart_type": "metric",
+          "events": [
+            {
+              "event": "session_started",
+              "math": "total"
+            }
+          ],
+          "time_range": "5m",
+          "description": "Current active test sessions"
+        },
+        {
+          "name": "Most Attempted Questions Today",
+          "type": "insights",
+          "chart_type": "table",
+          "events": [
+            {
+              "event": "question_answered",
+              "math": "total"
+            }
+          ],
+          "breakdowns": ["questionId", "subject"],
+          "time_range": "1d",
+          "limit": 10,
+          "sort": "descending",
+          "description": "Top 10 most attempted questions today"
+        },
+        {
+          "name": "Current Average Accuracy",
+          "type": "insights",
+          "chart_type": "metric",
+          "events": [
+            {
+              "event": "correct_answer",
+              "math": "total"
+            },
+            {
+              "event": "question_answered",
+              "math": "total"
+            }
+          ],
+          "formula": "(A/B)*100",
+          "time_range": "1d",
+          "description": "Overall accuracy for today"
+        },
+        {
+          "name": "Tests Completed Today",
+          "type": "insights",
+          "chart_type": "bar",
+          "events": [
+            {
+              "event": "test_completed",
+              "math": "total"
+            }
+          ],
+          "breakdowns": ["subject"],
+          "time_range": "1d",
+          "description": "Completed tests by subject today"
+        }
+      ]
+    }
+  ],
+  "implementation_notes": {
+    "how_to_use": [
+      "1. Log into your Mixpanel project",
+      "2. Navigate to Boards section",
+      "3. Create a new board for each category",
+      "4. Add reports manually using the configurations above",
+      "5. For Insights reports: Select chart type, add events, configure breakdowns",
+      "6. For Funnels: Add steps in order",
+      "7. For Retention: Configure first and return events",
+      "8. Save each report and add to the appropriate board"
+    ],
+    "quick_setup_tips": [
+      "Start with the 'Real-time Dashboard' board for immediate value",
+      "Set up 'User Accuracy by Subject' first - it's the most important metric",
+      "Create alerts on 'Daily Active Users' dropping below threshold",
+      "Use formulas for calculated metrics (e.g., accuracy = correct/total * 100)",
+      "Bookmark frequently used reports for quick access"
+    ],
+    "important_filters": {
+      "exclude_test_data": {
+        "property": "distinct_id",
+        "operator": "does not contain",
+        "value": "test"
+      },
+      "production_only": {
+        "property": "$current_url",
+        "operator": "does not contain",
+        "value": "localhost"
+      }
+    }
+  },
+  "custom_formulas": {
+    "accuracy_percentage": {
+      "formula": "(A/B)*100",
+      "events": [
+        "Event A: correct_answer (total)",
+        "Event B: question_answered (total)"
+      ]
+    },
+    "improvement_rate": {
+      "formula": "((B-A)/A)*100",
+      "events": [
+        "Event A: accuracy at day 1",
+        "Event B: accuracy at day 7"
+      ]
+    },
+    "engagement_score": {
+      "formula": "A+B*2+C*3",
+      "events": [
+        "Event A: question_answered (total)",
+        "Event B: explanation_viewed (total)",
+        "Event C: test_completed (total)"
+      ]
+    }
+  },
+  "recommended_alerts": [
+    {
+      "name": "Low Daily Active Users",
+      "metric": "session_started (unique)",
+      "condition": "drops below 10",
+      "time_window": "1 day"
+    },
+    {
+      "name": "High Drop-off Rate",
+      "metric": "Test Completion Funnel",
+      "condition": "step 2 to 3 conversion < 70%",
+      "time_window": "1 day"
+    },
+    {
+      "name": "Accuracy Decline",
+      "metric": "Overall Accuracy",
+      "condition": "drops by more than 10% compared to previous week",
+      "time_window": "7 days"
+    }
+  ]
+}
