@@ -94,6 +94,12 @@ export default function InternalQuestionsListPage() {
     return `${basePathPrefix}${relativePath}`;
   };
 
+  const scrollToQuestion = (questionNumber) => {
+    const target = document.getElementById(`question-${questionNumber}`);
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <main className="main-layout main-layout--top">
       <section>
@@ -173,6 +179,7 @@ export default function InternalQuestionsListPage() {
                     return (
                       <div
                         key={id}
+                        id={`question-${questionNumber}`}
                         style={{
                           display: 'grid',
                           gridTemplateColumns: '1fr auto',
@@ -302,6 +309,30 @@ export default function InternalQuestionsListPage() {
               </div>
             )}
           </div>
+
+          <aside className="test-sidebar only-desktop">
+            <div className="timer-panel timer-panel--floating">
+              <div className="page-section-subtitle" style={{ marginBottom: '0.75rem' }}>
+                Question List
+              </div>
+              <div className="question-summary-grid">
+                {questions.map((q, index) => {
+                  const questionNumber = index + 1;
+                  return (
+                    <button
+                      type="button"
+                      key={q?.id || index}
+                      className="question-summary-item"
+                      onClick={() => scrollToQuestion(questionNumber)}
+                      aria-label={`Jump to question ${questionNumber}`}
+                    >
+                      {questionNumber}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
     </main>
