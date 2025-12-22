@@ -2,7 +2,7 @@
   "id": "17219c4d-f3f2-411a-900d-7df206b50ea5",
   "question": [
     "Identify the types of a aestivation in corolla labeled as 'a', 'b', 'c' and 'd'",
-    "images/q8s6u5t3-2v1w-8x7s-3u9t-5s6t7u8v9w0x.png"
+    "images/d8df451e-9f98-4e9f-bd19-149d670d785a.png"
   ],
   "choices": [
     [
@@ -21,8 +21,5 @@
   "correctAnswer": 0,
   "explanation": [
     "Based on the standard diagrams: 'a' is Vexillary (pea), 'b' is Imbricate (cassia), 'c' is Twisted (china rose), and 'd' is Valvate (calotropis)."
-  ],
-  "years": [
-    2025
   ]
 }

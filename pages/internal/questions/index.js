@@ -16,6 +16,17 @@ export default function InternalQuestionsListPage() {
   const [questions, setQuestions] = useState([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [copiedId, setCopiedId] = useState('');
+
+  const copyToClipboard = async (text) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopiedId(text);
+      setTimeout(() => setCopiedId(''), 2000);
+    } catch (err) {
+      console.error('Failed to copy:', err);
+    }
+  };
 
   // Initialize from URL params
   useEffect(() => {
@@ -171,7 +182,14 @@ export default function InternalQuestionsListPage() {
                         <div className="question-block">
                           <div className="question-header">
                             <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                              <span className="badge-soft">{id}</span>
+                              <span 
+                                className="badge-soft" 
+                                onClick={() => copyToClipboard(id)}
+                                style={{ cursor: 'pointer', userSelect: 'none', textTransform: 'none' }}
+                                title={copiedId === id ? 'Copied!' : 'Click to copy'}
+                              >
+                                {copiedId === id ? '✓ Copied' : id}
+                              </span>
                               {typeof answer === 'number' ? (
                                 <span className="badge-soft">Answer: {answer}</span>
                               ) : null}

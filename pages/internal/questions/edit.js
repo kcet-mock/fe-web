@@ -120,6 +120,41 @@ export default function InternalQuestionEditPage() {
     }
   };
 
+  const pasteImageFromClipboard = async (target) => {
+    try {
+      setUploadError('');
+      setUploadTarget(target);
+      
+      const clipboardItems = await navigator.clipboard.read();
+      let imageFile = null;
+
+      for (const item of clipboardItems) {
+        for (const type of item.types) {
+          if (type.startsWith('image/')) {
+            const blob = await item.getType(type);
+            imageFile = new File([blob], `clipboard-${Date.now()}.png`, { type });
+            break;
+          }
+        }
+        if (imageFile) break;
+      }
+
+      if (!imageFile) {
+        throw new Error('No image found in clipboard');
+      }
+
+      const token = await uploadSelectedFile(imageFile);
+      const { key } = target;
+      setPartsByKey(key, (prev) => [...prev, token]);
+      setUploadTarget(null);
+    } catch (err) {
+      setUploadError(err?.message === 'No image found in clipboard' 
+        ? 'No image in clipboard. Copy an image first.' 
+        : String(err?.message || err || 'Paste failed'));
+      setUploadTarget(null);
+    }
+  };
+
   const uploadSelectedFile = async (file) => {
     setUploading(true);
     try {
@@ -372,13 +407,27 @@ export default function InternalQuestionEditPage() {
                   className="icon-button"
                   onClick={addImagePart}
                   disabled={uploading}
-                  aria-label="Add image"
-                  title="Add image"
+                  aria-label="Add image from file"
+                  title="Add image from file"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <path d="M5 7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7z" stroke="currentColor" strokeWidth="1.8" />
                     <path d="M9 10.5a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5z" fill="currentColor" />
                     <path d="M6.5 17l4-4 3 3 2-2 2.5 3" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+                  </svg>
+                </button>
+
+                <button
+                  type="button"
+                  className="icon-button"
+                  onClick={() => pasteImageFromClipboard({ key })}
+                  disabled={uploading}
+                  aria-label="Paste image from clipboard"
+                  title="Paste image from clipboard"
+                >
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" stroke="currentColor" strokeWidth="1.8" />
+                    <path d="M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v0a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v0z" stroke="currentColor" strokeWidth="1.8" />
                   </svg>
                 </button>
               </div>
