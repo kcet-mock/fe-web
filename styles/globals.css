@@ -834,3 +834,14 @@ a {
 .explanation-text:last-child {
   margin-bottom: 0;
 }
+
+.question-image {
+  max-width: 400px;
+  margin: 0.75rem 0;
+}
+
+.question-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
