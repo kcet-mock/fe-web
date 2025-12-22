@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import RenderContent from '../../../components/RenderContent';
 
 export async function getStaticProps() {
   if (process.env.NEXT_PUBLIC_INTERNAL_PAGES !== 'true') return { notFound: true };
@@ -104,7 +105,7 @@ export default function InternalQuestionViewPage() {
                   }
                   return (
                     <p key={`q-${idx}`} className="question-text">
-                      {part}
+                      <RenderContent>{part}</RenderContent>
                     </p>
                   );
                 })}
@@ -134,7 +135,11 @@ export default function InternalQuestionViewPage() {
                               </div>
                             );
                           }
-                          return <span key={`o-${idx}`}>{part}</span>;
+                          return (
+                            <span key={`o-${idx}`}>
+                              <RenderContent>{part}</RenderContent>
+                            </span>
+                          );
                         })}
                       </div>
                     );

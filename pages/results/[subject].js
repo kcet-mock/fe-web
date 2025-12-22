@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import RenderWithKatex from '../../components/RenderWithKatex';
+import RenderContent from '../../components/RenderContent';
 import { analytics } from '../../lib/analytics';
 
 const SUBJECTS = [
@@ -340,7 +340,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
 
                         return (
                           <p key={`q-${partIndex}`} className="question-text">
-                            <RenderWithKatex>{part}</RenderWithKatex>
+                            <RenderContent>{part}</RenderContent>
                           </p>
                         );
                       })}
@@ -374,7 +374,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
                                 }
                                 return (
                                   <span key={`o-${partIndex}`}>
-                                    <RenderWithKatex>{part}</RenderWithKatex>
+                                    <RenderContent>{part}</RenderContent>
                                   </span>
                                 );
                               })}
@@ -408,7 +408,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
                               }
                               return (
                                 <p key={`exp-${partIndex}`} className="explanation-text">
-                                  <RenderWithKatex>{part}</RenderWithKatex>
+                                    <RenderContent>{part}</RenderContent>
                                 </p>
                               );
                             }) : (

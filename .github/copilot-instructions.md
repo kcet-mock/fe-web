@@ -88,6 +88,42 @@ When generating or working with questions, follow this exact JSON structure:
 4. **Choices Structure**: Each choice must be an array (even single-text choices like `["Text"]`)
 5. **Zero-indexed Answers**: Answer indices start at 0 (0-3 for four choices)
 6. **Math/LaTeX Content**: Wrap mathematical expressions in `<katex>` tags with LaTeX inside `$` or `$$`
+7. **Markdown Support**: Text content supports Markdown formatting including tables, lists, bold, italic, etc.
+
+### Markdown Support
+
+The application supports GitHub Flavored Markdown (GFM) in all text content. This enables rich formatting:
+
+**Supported Features**:
+- **Tables** - Create data tables with proper formatting
+- **Lists** - Both ordered (numbered) and unordered (bullet) lists
+- **Bold** - Use `**text**` or `__text__`
+- **Italic** - Use `*text*` or `_text_`
+- **Line breaks** - Use two spaces at end of line or blank line for paragraphs
+
+**Table Syntax**:
+```
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
+```
+
+**Example with table in question**:
+```json
+{
+  "question": [
+    "Refer to the table below:\n\n| Element | Symbol | Atomic Number |\n|---------|--------|---------------|\n| Hydrogen| H      | 1             |\n| Oxygen  | O      | 8             |\n\nWhich element has atomic number 8?"
+  ]
+}
+```
+
+**Usage Notes**:
+- Tables require proper alignment with `|` separators
+- Header row must be followed by a separator row with at least three dashes: `|---|---|`
+- Cells can contain any text, including math expressions
+- Markdown can be mixed with `<katex>` tags for math
+- Example: `"The value is **bold** and equals <katex>$x^2$</katex>"`
 
 ### Math Content with KaTeX
 

@@ -845,3 +845,74 @@ a {
   height: auto;
   max-width: 100%;
 }
+
+/* Markdown table styling */
+.question-text table,
+.explanation-text table,
+.option-label table {
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  width: auto;
+  max-width: 100%;
+  font-size: 0.9rem;
+}
+
+.question-text th,
+.question-text td,
+.explanation-text th,
+.explanation-text td,
+.option-label th,
+.option-label td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.question-text th,
+.explanation-text th,
+.option-label th {
+  background: #f3f4f6;
+  font-weight: 600;
+  color: #374151;
+}
+
+.question-text tbody tr:nth-child(even),
+.explanation-text tbody tr:nth-child(even),
+.option-label tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.question-text tbody tr:hover,
+.explanation-text tbody tr:hover,
+.option-label tbody tr:hover {
+  background: #f3f4f6;
+}
+
+/* Strong/bold text in markdown */
+.question-text strong,
+.explanation-text strong,
+.option-label strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Emphasis/italic text in markdown */
+.question-text em,
+.explanation-text em,
+.option-label em {
+  font-style: italic;
+}
+
+/* Lists in markdown */
+.question-text ul,
+.question-text ol,
+.explanation-text ul,
+.explanation-text ol {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.question-text li,
+.explanation-text li {
+  margin: 0.25rem 0;
+}

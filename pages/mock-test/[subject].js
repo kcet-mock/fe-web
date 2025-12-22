@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import RenderWithKatex from '../../components/RenderWithKatex';
+import RenderContent from '../../components/RenderContent';
 import { analytics } from '../../lib/analytics';
 
 // 60-minute mock test timer (in seconds)
@@ -441,7 +441,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
 
                               return (
                                 <span key={`o-${partIndex}`}>
-                                  <RenderWithKatex>{part}</RenderWithKatex>
+                                  <RenderContent>{part}</RenderContent>
                                 </span>
                               );
                             })}
