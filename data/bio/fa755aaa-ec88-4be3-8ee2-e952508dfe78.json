@@ -2,7 +2,7 @@
   "id": "fa755aaa-ec88-4be3-8ee2-e952508dfe78",
   "question": [
     "Identify the types of a aestivation in corolla labeled as 'a', 'b', 'c' and 'd'",
-    "images/5c4d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f.png"
+    "images/51fd2cb8-ce1e-460f-af1a-c8f840c2711d.png"
   ],
   "choices": [
     [
@@ -21,8 +21,5 @@
   "correctAnswer": 0,
   "explanation": [
     "Based on standard diagrams: 'a' is Vexillary, 'b' is Imbricate, 'c' is Twisted, and 'd' is Valvate."
-  ],
-  "years": [
-    2025
   ]
 }

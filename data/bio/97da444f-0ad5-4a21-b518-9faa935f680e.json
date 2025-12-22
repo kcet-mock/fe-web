@@ -2,7 +2,7 @@
   "id": "97da444f-0ad5-4a21-b518-9faa935f680e",
   "question": [
     "Which of these options is true in the context of the above diagram of pollen grain?",
-    "images/3c2d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f.png"
+    "images/36148538-402f-47a4-8271-e7a2fe37debc.png"
   ],
   "choices": [
     [
@@ -21,8 +21,5 @@
   "correctAnswer": 1,
   "explanation": [
     "In a pollen grain, the larger cell 'A' is the vegetative cell which has abundant food reserve. The smaller cell 'B' is the generative cell which floats in the cytoplasm of the vegetative cell and divides to form male gametes."
-  ],
-  "years": [
-    2025
   ]
 }
