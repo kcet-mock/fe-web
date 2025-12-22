@@ -432,9 +432,13 @@ export default function InternalQuestionEditPage() {
           <div className="test-questions">
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
               {id ? (
-                <Link href={`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`} className="button-secondary">
+                <button
+                  type="button"
+                  className="button-secondary"
+                  onClick={() => router.replace(`/internal/questions/view?subject=${subject}&id=${encodeURIComponent(id)}`)}
+                >
                   View
-                </Link>
+                </button>
               ) : null}
             </div>
 
