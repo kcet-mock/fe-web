@@ -406,7 +406,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
 
                       return (
                         <p key={`q-${partIndex}`} className="question-text">
-                          <RenderWithKatex>{part}</RenderWithKatex>
+                          <RenderContent>{part}</RenderContent>
                         </p>
                       );
                     })}

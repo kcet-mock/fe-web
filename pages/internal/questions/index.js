@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import RenderContent from '../../../components/RenderContent';
 
 export async function getStaticProps() {
   if (process.env.NEXT_PUBLIC_INTERNAL_PAGES !== 'true') return { notFound: true };
@@ -194,7 +195,7 @@ export default function InternalQuestionsListPage() {
                             }
                             return (
                               <p key={`q-${idx}`} className="question-text">
-                                {part}
+                                <RenderContent>{part}</RenderContent>
                               </p>
                             );
                           })}
