@@ -29,6 +29,8 @@ export default function InternalQuestionViewPage() {
 
   const [question, setQuestion] = useState(null);
   const [error, setError] = useState('');
+  const [questionNumber, setQuestionNumber] = useState(null);
+  const [totalQuestions, setTotalQuestions] = useState(null);
 
   useEffect(() => {
     if (!router.isReady || !id || !subject) return;
@@ -42,6 +44,32 @@ export default function InternalQuestionViewPage() {
         if (!cancelled) setQuestion(json.question || null);
       } catch (e) {
         if (!cancelled) setError('Question not found (dev-only).');
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [id, subject, router.isReady]);
+
+  // Fetch all questions to determine question number
+  useEffect(() => {
+    if (!router.isReady || !id || !subject) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`/api/internal/questions?full=1&subject=${subject}`);
+        if (!res.ok) throw new Error('Failed');
+        const json = await res.json();
+        const list = Array.isArray(json.questions) ? json.questions : [];
+        if (!cancelled) {
+          setTotalQuestions(list.length);
+          const index = list.findIndex(q => q.id === id);
+          if (index !== -1) {
+            setQuestionNumber(index + 1);
+          }
+        }
+      } catch (e) {
+        // Silently fail - question number is optional
       }
     })();
     return () => {
@@ -85,7 +113,14 @@ export default function InternalQuestionViewPage() {
             ) : (
               <div className="question-block" style={{ marginTop: '1rem' }}>
                 <div className="question-header">
-                  <span className="badge-soft">Answer: {question.correctAnswer}</span>
+                  <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                    {questionNumber !== null && totalQuestions !== null ? (
+                      <span className="badge-soft">
+                        Question {questionNumber} of {totalQuestions}
+                      </span>
+                    ) : null}
+                    <span className="badge-soft">Answer: {question.correctAnswer}</span>
+                  </div>
                 </div>
 
                 {(Array.isArray(question.question) ? question.question : []).map((part, idx) => {
@@ -145,6 +180,35 @@ export default function InternalQuestionViewPage() {
                     );
                   })}
                 </div>
+
+                {question.explanation && Array.isArray(question.explanation) && question.explanation.length > 0 ? (
+                  <div className="explanation-section" style={{ marginTop: '1.5rem' }}>
+                    <div className="explanation-header" style={{ marginBottom: '0.75rem', fontWeight: 600, color: 'var(--color-text-primary)' }}>
+                      Explanation
+                    </div>
+                    {question.explanation.map((part, idx) => {
+                      if (isImageToken(part)) {
+                        const src = imageTokenToSrc(part, basePathPrefix);
+                        return (
+                          <div key={`e-${idx}`} className="question-image">
+                            <Image
+                              src={src}
+                              alt={`Explanation ${id}`}
+                              width={1200}
+                              height={800}
+                              style={{ maxWidth: '100%', height: 'auto' }}
+                            />
+                          </div>
+                        );
+                      }
+                      return (
+                        <p key={`e-${idx}`} className="question-text">
+                          <RenderContent>{part}</RenderContent>
+                        </p>
+                      );
+                    })}
+                  </div>
+                ) : null}
               </div>
             )}
           </div>

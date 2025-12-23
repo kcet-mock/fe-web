@@ -50,6 +50,8 @@ export default function InternalQuestionEditPage() {
   const [opt4Parts, setOpt4Parts] = useState([]);
   const [explanationParts, setExplanationParts] = useState([]);
   const [answer, setAnswer] = useState('1');
+  const [questionNumber, setQuestionNumber] = useState(null);
+  const [totalQuestions, setTotalQuestions] = useState(null);
 
   useEffect(() => {
     if (!router.isReady || !id || !subject) return;
@@ -83,6 +85,32 @@ export default function InternalQuestionEditPage() {
       }
     })();
 
+    return () => {
+      cancelled = true;
+    };
+  }, [id, subject, router.isReady]);
+
+  // Fetch all questions to determine question number
+  useEffect(() => {
+    if (!router.isReady || !id || !subject) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`/api/internal/questions?full=1&subject=${subject}`);
+        if (!res.ok) throw new Error('Failed');
+        const json = await res.json();
+        const list = Array.isArray(json.questions) ? json.questions : [];
+        if (!cancelled) {
+          setTotalQuestions(list.length);
+          const index = list.findIndex(q => q.id === id);
+          if (index !== -1) {
+            setQuestionNumber(index + 1);
+          }
+        }
+      } catch (e) {
+        // Silently fail - question number is optional
+      }
+    })();
     return () => {
       cancelled = true;
     };
@@ -473,7 +501,14 @@ export default function InternalQuestionEditPage() {
           <div>
             <div className="badge">Internal · Dev only</div>
             <h1 className="title">Edit question</h1>
-            <p className="subtitle">{id || '—'}</p>
+            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center', marginTop: '0.5rem' }}>
+              {questionNumber !== null && totalQuestions !== null ? (
+                <span className="badge-soft">
+                  Question {questionNumber} of {totalQuestions}
+                </span>
+              ) : null}
+              <p className="subtitle" style={{ margin: 0 }}>{id || '—'}</p>
+            </div>
           </div>
         </header>
 
