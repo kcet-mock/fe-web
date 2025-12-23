@@ -1,0 +1,27 @@
+{
+  "id": "c9c14e5d-529b-4bb6-88d1-96de7695e5ca",
+  "question": [
+    "Bamboo species flowers"
+  ],
+  "choices": [
+    [
+      "Once in lifetime"
+    ],
+    [
+      "Every year"
+    ],
+    [
+      "Twice in 50-100 years"
+    ],
+    [
+      "Once in 12 years"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Bamboo species are monocarpic and flower only once in their lifetime, generally after 50-100 years."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "82d570a0-c27e-44bc-b21a-c37fc9162eea",
+  "question": [
+    "Match the column-I with column-II and choose the correct option from the following:\n\n| Column - I (Plant groups) | Column - II (Examples) |\n|---|---|\n| 1. Bryophyta | p. Pinus |\n| 2. Gymnosperm | q. Adiantum |\n| 3. Algae | r. Sphagnum |\n| 4. Pteridophyta | s. Ectocarpus |"
+  ],
+  "choices": [
+    [
+      "1-q, 2-p, 3-s, 4-r"
+    ],
+    [
+      "1-s, 2-r, 3-q, 4-p"
+    ],
+    [
+      "1-q, 2-s, 3-p, 4-r"
+    ],
+    [
+      "1-r, 2-p, 3-s, 4-q"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Bryophyta = Sphagnum (r). Gymnosperm = Pinus (p). Algae = Ectocarpus (s). Pteridophyta = Adiantum (q)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -23,5 +23,8 @@
   "correctAnswer": 0,
   "explanation": [
     "P is incorrect (R strain is non-virulent). Q is incorrect (Heat killed S strain is non-virulent). R is correct due to the transforming principle where live R strain is transformed into virulent S strain."
+  ],
+  "years": [
+    2023
   ]
 }

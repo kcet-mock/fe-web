@@ -1,0 +1,27 @@
+{
+  "id": "5efee5e4-b51b-48fb-a037-62c3105a617a",
+  "question": [
+    "According to David Tilman's long term ecosystem experiments, the total biomass in plots with more species shows,"
+  ],
+  "choices": [
+    [
+      "Average variation from year-to-year."
+    ],
+    [
+      "Less variation from year-to-year."
+    ],
+    [
+      "No variation from year-to-year."
+    ],
+    [
+      "High variation from year-to-year."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Tilman found that plots with more species showed less year-to-year variation in total biomass."
+  ],
+  "years": [
+    2023
+  ]
+}

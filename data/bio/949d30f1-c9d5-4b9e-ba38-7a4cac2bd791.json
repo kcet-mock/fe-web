@@ -1,0 +1,27 @@
+{
+  "id": "949d30f1-c9d5-4b9e-ba38-7a4cac2bd791",
+  "question": [
+    "Consider the following statements with reference to female reproductive system:\n\nStatement 1: The presence or absence of hymen is not a reliable indicator of virginity or sexual experience.\nStatement 2: The sex of the foetus is determined by the father and not by the mother."
+  ],
+  "choices": [
+    [
+      "Statement 1 is wrong and Statement 2 is correct"
+    ],
+    [
+      "Statement 1 is correct and Statement 2 is wrong"
+    ],
+    [
+      "Both Statement 1 and Statement 2 are wrong"
+    ],
+    [
+      "Both Statement 1 and Statement 2 are correct"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The hymen can tear due to sports or other activities, making it unreliable for determining virginity. Sex is determined by the sperm (X or Y) from the father."
+  ],
+  "years": [
+    2023
+  ]
+}

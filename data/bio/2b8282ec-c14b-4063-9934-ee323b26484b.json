@@ -1,0 +1,27 @@
+{
+  "id": "2b8282ec-c14b-4063-9934-ee323b26484b",
+  "question": [
+    "Which pair of the following cells in the embryo sac are destined to change their ploidy after fertilization?"
+  ],
+  "choices": [
+    [
+      "Central cell and antipodals"
+    ],
+    [
+      "Antipodals and synergids"
+    ],
+    [
+      "Egg cell and central cell"
+    ],
+    [
+      "Synergids and egg cell"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The egg cell (n) becomes the zygote (2n), and the central cell (2n or n+n) becomes the primary endosperm nucleus (3n). Antipodals and synergids degenerate."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "544f6e69-6b08-4c77-98d6-18ceed5e4eb7",
+  "question": [
+    "During transcription the DNA strand with <katex>$3'\\rightarrow 5'$</katex> polarity of the structural gene always acts as a template because"
+  ],
+  "choices": [
+    [
+      "Enzyme DNA dependent RNA polymerase always catalyse polymerisation in both the directions."
+    ],
+    [
+      "Enzyme DNA dependent RNA polymerase always catalyse the polymerisation <katex>$5'\\rightarrow 3'$</katex> directions."
+    ],
+    [
+      "Nucleotides of DNA strand with <katex>$5'\\rightarrow 3'$</katex> are transferred to mRNA."
+    ],
+    [
+      "Enzyme DNA dependent RNA polymerase always catalyse the polymerisation <katex>$3'\\rightarrow 5'$</katex> directions."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "RNA polymerase catalyzes polymerization only in the <katex>$5'\\rightarrow 3'$</katex> direction, so it reads the template in the <katex>$3'\\rightarrow 5'$</katex> direction."
+  ],
+  "years": [
+    2023
+  ]
+}

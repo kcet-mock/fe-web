@@ -1,0 +1,27 @@
+{
+  "id": "ef38fd72-ad8c-45b3-b9f1-6d6c13efb2e0",
+  "question": [
+    "Which of the following is abbreviated as ZIFT?"
+  ],
+  "choices": [
+    [
+      "Zygote Intra Fallopian Tube"
+    ],
+    [
+      "Zygote Intra Fallopian Transfer"
+    ],
+    [
+      "Zygote Inter Fallopian Tube"
+    ],
+    [
+      "Zygote Inter Fallopian Transfer"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "ZIFT stands for Zygote Intra Fallopian Transfer, a technique where the zygote or early embryo is transferred into the fallopian tube."
+  ],
+  "years": [
+    2023
+  ]
+}

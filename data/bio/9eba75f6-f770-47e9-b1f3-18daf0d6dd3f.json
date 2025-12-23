@@ -1,0 +1,27 @@
+{
+  "id": "9eba75f6-f770-47e9-b1f3-18daf0d6dd3f",
+  "question": [
+    "The complex formed by a pair of synapsed homologous chromosomes is called,"
+  ],
+  "choices": [
+    [
+      "Bivalent"
+    ],
+    [
+      "Pentavalent"
+    ],
+    [
+      "Univalent"
+    ],
+    [
+      "Triad"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A pair of synapsed homologous chromosomes is called a bivalent (or tetrad)."
+  ],
+  "years": [
+    2023
+  ]
+}

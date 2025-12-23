@@ -1,0 +1,27 @@
+{
+  "id": "dc10aebc-bd19-4429-b409-2f5686a2dae4",
+  "question": [
+    "Match Column - I with Column - II. Select the option with correct combination.\n\n| Column - I | Column - II |\n|---|---|\n| 1. Standing state | p. Mass of living material at a given time. |\n| 2. Pioneer species | q. Amount of nutrients in the soil at a given time. |\n| 3. Detritivores | r. Species that invade a bare area. |\n| 4. Standing crop | s. Breakdown detritus into smaller particles. |"
+  ],
+  "choices": [
+    [
+      "1-q, 2-r, 3-s, 4-p"
+    ],
+    [
+      "1-p, 2-r, 3-s, 4-q"
+    ],
+    [
+      "1-p, 2-s, 3-r, 4-q"
+    ],
+    [
+      "1-q, 2-s, 3-p, 4-r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Standing state = nutrients in soil (q). Pioneer species = invade bare area (r). Detritivores = breakdown detritus (s). Standing crop = mass of living material (p)."
+  ],
+  "years": [
+    2023
+  ]
+}

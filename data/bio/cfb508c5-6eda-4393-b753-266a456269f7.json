@@ -1,0 +1,27 @@
+{
+  "id": "cfb508c5-6eda-4393-b753-266a456269f7",
+  "question": [
+    "The toxic substance 'haemozoin' responsible for high fever and chill, is released in which of the following diseases?"
+  ],
+  "choices": [
+    [
+      "Malaria"
+    ],
+    [
+      "Dengue"
+    ],
+    [
+      "Typhoid"
+    ],
+    [
+      "Pneumonia"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In Malaria, the rupture of RBCs releases a toxic substance called haemozoin, which causes recurring chills and high fever."
+  ],
+  "years": [
+    2023
+  ]
+}

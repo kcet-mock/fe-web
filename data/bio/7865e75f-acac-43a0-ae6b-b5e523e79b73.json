@@ -1,0 +1,27 @@
+{
+  "id": "7865e75f-acac-43a0-ae6b-b5e523e79b73",
+  "question": [
+    "Which of the following statements is correct?"
+  ],
+  "choices": [
+    [
+      "Sickle cell anaemia is a quantitative problem."
+    ],
+    [
+      "Thalassemia is a qualitative problem."
+    ],
+    [
+      "Female carrier for haemophilia may transmit the disease to sons."
+    ],
+    [
+      "Change in whole set of chromosomes is called aneuploidy."
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Haemophilia is an X-linked recessive disorder; a carrier female (heterozygous) can transmit the disease to her sons. Sickle cell anaemia is qualitative, Thalassemia is quantitative, and a change in a whole set of chromosomes is polyploidy."
+  ],
+  "years": [
+    2023
+  ]
+}

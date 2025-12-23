@@ -1,0 +1,27 @@
+{
+  "id": "1f97144a-4d47-4713-8a07-e3b73b4c8f03",
+  "question": [
+    "Match List-I and List-II with respect to proteins and their functions and select the correct option.\n\n| List-I | List-II |\n|---|---|\n| 1. Collagen | p. Fights infectious agents |\n| 2. Trypsin | q. Hormone |\n| 3. Insulin | r. Enzyme |\n| 4. Antibody | s. Intercellular ground substance |"
+  ],
+  "choices": [
+    [
+      "1-s, 2-r, 3-q, 4-p"
+    ],
+    [
+      "1-q, 2-r, 3-q, 4-s"
+    ],
+    [
+      "1-s, 2-p, 3-r, 4-p"
+    ],
+    [
+      "1-s, 2-q, 3-r, 4-p"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Collagen (s), Trypsin (r), Insulin (q), Antibody (p)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "71de5fe1-bc01-4044-9228-bc1d186eb066",
+  "question": [
+    "MTPs are considered relatively safe during"
+  ],
+  "choices": [
+    [
+      "180 days of pregnancy"
+    ],
+    [
+      "Second trimester"
+    ],
+    [
+      "First trimester"
+    ],
+    [
+      "24 weeks of pregnancy"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Medical Termination of Pregnancy (MTP) is considered relatively safe during the first trimester (up to 12 weeks) of pregnancy."
+  ],
+  "years": [
+    2023
+  ]
+}

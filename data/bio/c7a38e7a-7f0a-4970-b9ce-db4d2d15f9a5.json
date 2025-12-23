@@ -1,0 +1,27 @@
+{
+  "id": "c7a38e7a-7f0a-4970-b9ce-db4d2d15f9a5",
+  "question": [
+    "In a population of 800 rabbits showing Hardy-Weinberg equilibrium, the frequency of recessive individuals was 0.16. What is the frequency of heterozygous individuals?"
+  ],
+  "choices": [
+    [
+      "0.84"
+    ],
+    [
+      "0.4"
+    ],
+    [
+      "0.36"
+    ],
+    [
+      "0.48"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Frequency of recessive individuals (<katex>$q^2$</katex>) = 0.16. So, <katex>$q = 0.4$</katex>. Since <katex>$p + q = 1$</katex>, <katex>$p = 0.6$</katex>. Frequency of heterozygotes = <katex>$2pq = 2(0.6)(0.4) = 0.48$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

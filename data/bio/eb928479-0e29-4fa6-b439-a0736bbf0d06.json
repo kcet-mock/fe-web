@@ -1,0 +1,27 @@
+{
+  "id": "eb928479-0e29-4fa6-b439-a0736bbf0d06",
+  "question": [
+    "Select the correct statement from the following:"
+  ],
+  "choices": [
+    [
+      "The first step in PCR is heating which is used to separate both the strands of gene of interest."
+    ],
+    [
+      "Genetic engineering works only on animals and not yet successfully used on plants."
+    ],
+    [
+      "DNA from one organism will not band to DNA from other organism."
+    ],
+    [
+      "There are no risk factors associated with r-DNA technology."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The first step in PCR is denaturation (heating), which separates the two strands of the DNA template."
+  ],
+  "years": [
+    2023
+  ]
+}
