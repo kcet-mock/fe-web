@@ -1,7 +1,10 @@
 {
   "id": "1b622fd9-75e8-4169-be18-eae8d7e2d4fc",
   "question": [
-    "Read the following statements:\n\n**Statement I:** All vertebrates develop a row of vestigial gill slits during embryonic stage.\n**Statement II:** Embryos always pass through the adult stages of other animals\n\nWhich of the following options is correct with reference to these statements?"
+    "Read the following statements:",
+    "**Statement I:** All vertebrates develop a row of vestigial gill slits during embryonic stage.",
+    "**Statement II:** Embryos always pass through the adult stages of other animals",
+    "Which of the following options is correct with reference to these statements?"
   ],
   "choices": [
     [
@@ -20,8 +23,5 @@
   "correctAnswer": 0,
   "explanation": [
     "Statement I refers to Haeckel's biogenetic law (recapitulation theory) observation, though the theory itself is modified. Statement II is incorrect; Von Baer rejected this, stating embryos never pass through the *adult* stages of other animals."
-  ],
-  "years": [
-    2024
   ]
 }

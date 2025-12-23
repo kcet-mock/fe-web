@@ -1,7 +1,11 @@
 {
   "id": "e60d4240-9847-4bbb-aab3-57219b59a039",
   "question": [
-    "Identify the phylum which shows the following characteristics:\n(1) Animals are exclusively marine, radially symmetrical and diploblastic\n(2) Body bears eight external rows of ciliated comb plates which help in locomotion.\n(3) Digestion is both extracellular and intracellular.\n(4) Reproduction only by sexual modes."
+    "Identify the phylum which shows the following characteristics:",
+    "(1) Animals are exclusively marine, radially symmetrical and diploblastic",
+    "(2) Body bears eight external rows of ciliated comb plates which help in locomotion.",
+    "(3) Digestion is both extracellular and intracellular.",
+    "(4) Reproduction only by sexual modes."
   ],
   "choices": [
     [
@@ -20,8 +24,5 @@
   "correctAnswer": 2,
   "explanation": [
     "The characteristics described (comb plates, exclusively marine, bioluminescence) are specific to the phylum Ctenophora."
-  ],
-  "years": [
-    2024
   ]
 }

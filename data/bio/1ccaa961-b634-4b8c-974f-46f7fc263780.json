@@ -1,7 +1,10 @@
 {
   "id": "1ccaa961-b634-4b8c-974f-46f7fc263780",
   "question": [
-    "Read the following statements:\n\n**Statement I:** Morphine is obtained by acetylation of Heroin.\n**Statement II:** Cannabinoids are known for their effect on cardiovascular system.\n\nWhich of the following options is correct with reference to these statements?"
+    "Read the following statements:",
+    "**Statement I:** Morphine is obtained by acetylation of Heroin.",
+    "**Statement II:** Cannabinoids are known for their effect on cardiovascular system.",
+    "Which of the following options is correct with reference to these statements?"
   ],
   "choices": [
     [
@@ -20,8 +23,5 @@
   "correctAnswer": 1,
   "explanation": [
     "Statement I is incorrect; Heroin (diacetylmorphine) is obtained by acetylation of Morphine, not the other way around. Statement II is correct."
-  ],
-  "years": [
-    2024
   ]
 }
