@@ -1,0 +1,27 @@
+{
+  "id": "5ce6b2ed-c7d8-4a12-98e5-e397d3084a5c",
+  "question": [
+    "The enzyme Recombinase is required at which stage of Meiosis I?"
+  ],
+  "choices": [
+    [
+      "Pachytene"
+    ],
+    [
+      "Zygotene"
+    ],
+    [
+      "Diplotene"
+    ],
+    [
+      "Diakinesis"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Recombinase is the enzyme involved in crossing over, which takes place during the Pachytene stage of Meiosis I."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -22,5 +22,8 @@
   "correctAnswer": 2,
   "explanation": [
     "In the graph, curve 'M' shows a higher energy peak (without enzyme) and curve 'N' shows a lower energy peak (with enzyme), indicating the enzyme lowers the activation energy."
+  ],
+  "years": [
+    2024
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "id": "e4f91475-4af4-40f0-bf65-17815846625c",
+  "question": [
+    "Stanley Miller simulated the conditions of pre-biotic earth using spark-discharge apparatus. Which organic compounds were observed by him on analysing the end product of his experiment?"
+  ],
+  "choices": [
+    [
+      "Pigments"
+    ],
+    [
+      "Fats"
+    ],
+    [
+      "Nitrogen bases"
+    ],
+    [
+      "Amino acids"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Miller observed the formation of amino acids from inorganic components in his spark-discharge experiment."
+  ],
+  "years": [
+    2024
+  ]
+}

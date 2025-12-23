@@ -1,0 +1,27 @@
+{
+  "id": "eb061195-70ae-4001-bf43-f045e6c3f54d",
+  "question": [
+    "Hydra reproduces asexually by producing"
+  ],
+  "choices": [
+    [
+      "Zoospores"
+    ],
+    [
+      "Conidia"
+    ],
+    [
+      "Buds"
+    ],
+    [
+      "Gemmule"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hydra reproduces asexually by budding, where a new individual develops as an outgrowth or bud from the parent."
+  ],
+  "years": [
+    2024
+  ]
+}

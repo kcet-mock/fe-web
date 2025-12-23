@@ -1,0 +1,27 @@
+{
+  "id": "cbd05b8d-cb3e-438e-93b0-07d6227530aa",
+  "question": [
+    "Find the incorrect statement among the following:"
+  ],
+  "choices": [
+    [
+      "In sex linked recessive traits the gene is transmitted from unaffected carrier female to some of male progeny"
+    ],
+    [
+      "Accumulation of phenylpyruvic acid in brain results in mental retardation"
+    ],
+    [
+      "Individuals affected by Down's Syndrome will have congenital heart defect and are more intelligent"
+    ],
+    [
+      "Turner's Syndrome is caused due to the absence of one X-chromosome"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Individuals with Down's Syndrome typically exhibit delayed physical development and some degree of intellectual disability, not higher intelligence."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "6a174abb-c084-4c78-8163-2b4e64206c23",
+  "question": [
+    "Match the pigments given in List I with their colour in chromatogram given in List II.\n\n| List I (Pigments) | List II (Colour in chromatogram) |\n|---|---|\n| 1. Chlorophyll 'b' | p. Yellow orange |\n| 2. Carotenoids | q. Orange red |\n| 3. Chlorophyll 'a' | r. Yellow |\n| 4. Xanthophylls | s. Blue green |\n| | t. Yellow green |"
+  ],
+  "choices": [
+    [
+      "1-s, 2-t, 3-r, 4-q"
+    ],
+    [
+      "1-t, 2-p, 3-s, 4-r"
+    ],
+    [
+      "1-p, 2-q, 3-r, 4-t"
+    ],
+    [
+      "1-t, 2-p, 3-r, 4-s"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Chlorophyll b is Yellow green (1-t). Chlorophyll a is Blue green (3-s). Xanthophylls are Yellow (4-r). Carotenoids are Yellow to Orange (2-p is the closest match in the given context or general scheme, but option B pairs 2-p)."
+  ],
+  "years": [
+    2024
+  ]
+}

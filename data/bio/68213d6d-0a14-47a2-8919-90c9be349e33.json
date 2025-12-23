@@ -1,0 +1,27 @@
+{
+  "id": "68213d6d-0a14-47a2-8919-90c9be349e33",
+  "question": [
+    "Most ape-like ancestral primate was"
+  ],
+  "choices": [
+    [
+      "Dryopithecus"
+    ],
+    [
+      "Ramapithecus"
+    ],
+    [
+      "Australopithecus"
+    ],
+    [
+      "Neanderthal man"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Dryopithecus was more ape-like, whereas Ramapithecus was more man-like."
+  ],
+  "years": [
+    2024
+  ]
+}

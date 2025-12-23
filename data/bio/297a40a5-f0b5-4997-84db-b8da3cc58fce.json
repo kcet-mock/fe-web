@@ -1,0 +1,27 @@
+{
+  "id": "297a40a5-f0b5-4997-84db-b8da3cc58fce",
+  "question": [
+    "Homeostasis is a condition where the organisms"
+  ],
+  "choices": [
+    [
+      "Maintain a constant internal environment in an everchanging external environment"
+    ],
+    [
+      "Do not maintain a constant internal environment"
+    ],
+    [
+      "Change their internal environment according to their external environment"
+    ],
+    [
+      "Change their internal environment when the external environment is constant"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Homeostasis is the ability of an organism to maintain a stable internal environment despite changes in external conditions."
+  ],
+  "years": [
+    2024
+  ]
+}

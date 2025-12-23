@@ -1,0 +1,27 @@
+{
+  "id": "f4501399-fc1c-4b96-856e-bf3ce0a488e3",
+  "question": [
+    "Which of the following statement is correct with reference to vacuoles?"
+  ],
+  "choices": [
+    [
+      "It is membrane bound and contains storage proteins and lipids."
+    ],
+    [
+      "It is membrane bound and contains water and excretory substance."
+    ],
+    [
+      "It lacks membrane and contains air."
+    ],
+    [
+      "It lacks membrane and contains water and excretory substances."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The vacuole is the membrane-bound space found in the cytoplasm causing water, sap, excretory product and other materials not useful for the cell."
+  ],
+  "years": [
+    2024
+  ]
+}

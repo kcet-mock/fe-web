@@ -1,0 +1,27 @@
+{
+  "id": "f31c016f-9412-4d06-b225-8be78cd9f2dd",
+  "question": [
+    "If two primary spermatocytes and two primary oocytes undergo meiosis simultaneously, what will be the ratio of spermatozoa and ova produced at the end of the gametogenesis?"
+  ],
+  "choices": [
+    [
+      "2:1"
+    ],
+    [
+      "4:1"
+    ],
+    [
+      "6:2"
+    ],
+    [
+      "1:2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "One primary spermatocyte produces 4 spermatozoa, so 2 produce 8. One primary oocyte produces 1 ovum, so 2 produce 2. The ratio is 8:2, which simplifies to 4:1."
+  ],
+  "years": [
+    2024
+  ]
+}

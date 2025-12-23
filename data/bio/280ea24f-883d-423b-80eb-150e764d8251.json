@@ -1,0 +1,27 @@
+{
+  "id": "280ea24f-883d-423b-80eb-150e764d8251",
+  "question": [
+    "Match the content of List I with List II:\n\n| List I | List II |\n|---|---|\n| 1. Polyembryony | p. Black pepper |\n| 2. Perisperm | q. Banana |\n| 3. False fruit | r. Lemon |\n| 4. Parthenocarpy | s. Apple |"
+  ],
+  "choices": [
+    [
+      "1-r, 2-p, 3-s, 4-q"
+    ],
+    [
+      "1-p, 2-r, 3-s, 4-q"
+    ],
+    [
+      "1-q, 2-p, 3-s, 4-r"
+    ],
+    [
+      "1-r, 2-s, 3-p, 4-q"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Polyembryony occurs in Lemon (1-r). Perisperm is found in Black pepper (2-p). Apple is a False fruit (3-s). Banana is an example of Parthenocarpy (4-q)."
+  ],
+  "years": [
+    2024
+  ]
+}

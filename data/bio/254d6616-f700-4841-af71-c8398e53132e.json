@@ -1,0 +1,27 @@
+{
+  "id": "254d6616-f700-4841-af71-c8398e53132e",
+  "question": [
+    "The water potential of pure water is"
+  ],
+  "choices": [
+    [
+      "One"
+    ],
+    [
+      "More than one"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "Less than zero"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "By convention, the water potential of pure water at standard temperatures, which is not under any pressure, is taken to be zero."
+  ],
+  "years": [
+    2024
+  ]
+}

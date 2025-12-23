@@ -1,0 +1,27 @@
+{
+  "id": "16861d95-6742-4566-9ec4-da45039521cf",
+  "question": [
+    "The natural reservoir of phosphorus is"
+  ],
+  "choices": [
+    [
+      "Rocks"
+    ],
+    [
+      "Soil solution"
+    ],
+    [
+      "Detritus"
+    ],
+    [
+      "Atmosphere"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The natural reservoir of phosphorus is rock, which contains phosphorus in the form of phosphates."
+  ],
+  "years": [
+    2024
+  ]
+}

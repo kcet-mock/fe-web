@@ -1,0 +1,27 @@
+{
+  "id": "138f56ba-e50f-4b38-99d5-e992610a7042",
+  "question": [
+    "Auxins: Apical dominance :: Gibberellins : ______"
+  ],
+  "choices": [
+    [
+      "Adventitious shoot formation"
+    ],
+    [
+      "Accelerates abscission"
+    ],
+    [
+      "Closure of stomata"
+    ],
+    [
+      "Bolting"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Just as Auxins are associated with Apical dominance, Gibberellins are associated with Bolting (internode elongation)."
+  ],
+  "years": [
+    2024
+  ]
+}
