@@ -191,7 +191,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
   const attemptedPercent = totalQuestions ? Math.round((attemptedCount / totalQuestions) * 100) : 0;
 
   const breakdownCard = (
-    <div className="results-metric-card">
+    <>
       <div className="results-metric-label">Breakdown</div>
       <div className="results-breakdown-row">
         <span className="status-pill status-pill--correct">Correct: {correct}</span>
@@ -236,7 +236,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
           );
         })}
       </div>
-    </div>
+    </>
   );
 
   return (
@@ -270,7 +270,11 @@ export default function ResultsSubjectPage({ subject, questions }) {
                 </div>
               </div>
 
-              <div className="only-mobile">{breakdownCard}</div>
+              <div className="only-mobile">
+                <div className="results-metric-card">
+                  {breakdownCard}
+                </div>
+              </div>
 
               <div className="results-actions">
                 <Link href={`/mock-test/${encodeURIComponent(subject)}`} className="button-secondary">
@@ -423,12 +427,18 @@ export default function ResultsSubjectPage({ subject, questions }) {
               </div>
 
               <div className="only-desktop" style={{ marginTop: '1.25rem' }}>
-                {breakdownCard}
+                <div className="results-metric-card">
+                  {breakdownCard}
+                </div>
               </div>
             </div>
           </div>
 
-          <aside className="only-desktop">{breakdownCard}</aside>
+          <aside className="test-sidebar only-desktop">
+            <div className="timer-panel timer-panel--floating">
+              {breakdownCard}
+            </div>
+          </aside>
         </div>
       </section>
     </main>
