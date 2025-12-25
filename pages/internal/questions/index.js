@@ -254,7 +254,7 @@ export default function InternalQuestionsListPage() {
                                         </div>
                                       );
                                     }
-                                    return <span key={`o-${idx}`}>{part}</span>;
+                                    return <span key={`o-${idx}`}><RenderContent>{part}</RenderContent></span>;
                                   })}
                                 </div>
                               );
