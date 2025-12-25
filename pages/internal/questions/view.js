@@ -90,8 +90,9 @@ export default function InternalQuestionViewPage() {
 
         <div className="test-layout">
           <div className="test-questions">
-            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              {id ? (
+            {/* Edit button on the right side of the card, above question content */}
+            {id ? (
+              <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
                 <button
                   type="button"
                   className="button-primary"
@@ -99,8 +100,8 @@ export default function InternalQuestionViewPage() {
                 >
                   Edit
                 </button>
-              ) : null}
-            </div>
+              </div>
+            ) : null}
 
             {error ? (
               <p className="question-text" style={{ marginTop: '1rem' }}>

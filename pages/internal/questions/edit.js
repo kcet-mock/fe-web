@@ -515,8 +515,17 @@ export default function InternalQuestionEditPage() {
 
         <div className="test-layout">
           <div className="test-questions">
-            <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              {id ? (
+            {/* Save and View buttons on the right side of the card, above question content (Save first) */}
+            {id ? (
+              <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.75rem', marginBottom: '1rem' }}>
+                <button
+                  type="button"
+                  className="button-primary"
+                  onClick={onSave}
+                  disabled={loading || !id}
+                >
+                  {loading ? 'Saving…' : 'Save'}
+                </button>
                 <button
                   type="button"
                   className="button-secondary"
@@ -524,8 +533,8 @@ export default function InternalQuestionEditPage() {
                 >
                   View
                 </button>
-              ) : null}
-            </div>
+              </div>
+            ) : null}
 
             {error ? (
               <p className="question-text" style={{ marginTop: '1rem' }}>
@@ -591,11 +600,7 @@ export default function InternalQuestionEditPage() {
               {renderPartsEditor('Explanation parts', explanationParts, setExplanationParts, 'explanation')}
             </div>
 
-            <div style={{ marginTop: '1rem', display: 'flex', gap: '0.75rem' }}>
-              <button type="button" className="button-primary" onClick={onSave} disabled={loading || !id}>
-                {loading ? 'Saving…' : 'Save'}
-              </button>
-            </div>
+            {/* Save button moved above, nothing here now */}
           </div>
         </div>
       </section>
