@@ -26,8 +26,5 @@
     "Dividing (ii) by (i):",
     "<katex>$\\frac{T \\cos \\theta}{T \\sin \\theta} = \\frac{\\mu Mg}{Mg}$</katex>",
     "<katex>$\\mu = \\cot \\theta$</katex>"
-  ],
-  "years": [
-    2025
   ]
 }
