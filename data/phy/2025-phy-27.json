@@ -22,8 +22,5 @@
     "Resistance <katex>$R = \\frac{\\rho l}{A} = \\frac{\\rho l}{\\pi (D/2)^2} = \\frac{4\\rho l}{\\pi D^2}$</katex>.",
     "<katex>$R \\propto \\frac{1}{D^2}$</katex>.",
     "This is an inverse square relationship, represented by a hyperbola-like curve approaching axes asymptotically (Graph 3)."
-  ],
-  "years": [
-    2025
   ]
 }

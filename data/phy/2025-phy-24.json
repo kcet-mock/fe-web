@@ -24,8 +24,5 @@
     "This is a weighted average of <katex>$E_1$</katex> and <katex>$E_2$</katex> based on conductance (1/r).",
     "The value will lie between <katex>$E_1$</katex> and <katex>$E_2$</katex>. Since <katex>$r_2 > r_1$</katex>, the conductance <katex>$1/r_1 > 1/r_2$</katex>.",
     "The equivalent value will be closer to the source with the lower internal resistance (<katex>$E_1$</katex>)."
-  ],
-  "years": [
-    2025
   ]
 }

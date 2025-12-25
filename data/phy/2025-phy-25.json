@@ -24,8 +24,5 @@
     "Y: Resistivity is high and increases weakly/linearly with temperature (Typical of alloys like Nichrome).",
     "Z: Resistivity decreases with temperature (Typical of Semiconductors).",
     "Therefore: X-Copper, Y-Nichrome, Z-Semiconductor."
-  ],
-  "years": [
-    2025
   ]
 }
