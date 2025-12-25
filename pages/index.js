@@ -109,7 +109,7 @@ export default function Home() {
                       onChange={e => setPrevYear(e.target.value)}
                       style={{ minWidth: 110 }}
                     >
-                      <option value="all">Select Year</option>
+                      <option value="all">Year</option>
                       {[2025,2024,2023].map((year) => (
                         <option key={year} value={year}>{year}</option>
                       ))}
@@ -120,7 +120,7 @@ export default function Home() {
                       onChange={e => setPrevSub(e.target.value)}
                       style={{ minWidth: 130 }}
                     >
-                      <option value="all">Select Subject</option>
+                      <option value="all">Subject</option>
                       {['phy','chem','mat','bio'].map((subject) => (
                         <option key={subject} value={subject}>
                           {subject === 'phy' ? 'Physics' : subject === 'chem' ? 'Chemistry' : subject === 'mat' ? 'Mathematics' : 'Biology'}
@@ -161,8 +161,8 @@ export default function Home() {
                   border: '1px solid #e5e7eb',
                   borderRadius: '1.5rem',
                   width: '100%',
-                  margin: '2rem 0 0.5rem 0',
-                  padding: '2.5rem 4rem',
+                     margin: '1.1rem 0 0.5rem 0',
+                     padding: '1.1rem 1.5rem',
                   boxShadow: '0 12px 48px rgba(15,23,42,0.10)',
                   display: 'flex',
                   alignItems: 'center',
@@ -172,8 +172,10 @@ export default function Home() {
                   color: '#22223b',
                   justifyContent: 'center',
                 }}>
-                  <span style={{ color: '#22c55e', fontSize: '2.7rem', fontWeight: 700 }}>★</span>
-                  Trusted by <span style={{ color: '#16a34a', fontWeight: 800 }}>10,000+</span> KCET aspirants
+                      {/* Logo removed for cleaner look */}
+                      <span style={{ fontSize: '1.3rem', fontWeight: 500, color: '#22223b' }}>
+                        Join a community of <span style={{ color: '#16a34a', fontWeight: 800, fontSize: '2.16rem' }}>10,000+</span> KCET aspirants who use this platform.
+                      </span>
                 </div>
         <div style={{
           background: '#f9fafb',
