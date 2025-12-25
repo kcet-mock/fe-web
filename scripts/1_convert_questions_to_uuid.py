@@ -123,6 +123,10 @@ def convert_question(raw: Dict[str, Any]) -> Dict[str, Any]:
     if "explanation" in raw and raw["explanation"]:
         record["explanation"] = _normalize_explanation(raw["explanation"])
 
+    # Retain years field if present
+    if "years" in raw and raw["years"]:
+        record["years"] = raw["years"]
+
     return record
 
 

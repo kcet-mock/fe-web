@@ -283,26 +283,44 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (match.kind === 'image-upload' && req.method === 'POST') {
-      const { file } = await parseMultipartSingleFile(req);
+      // Expect questionId in query or form fields
+      let questionId = null;
+      let part = null;
+      let fields = {};
+      const { file, fields: parsedFields } = await parseMultipartSingleFile(req);
+      fields = parsedFields || {};
+      questionId = fields.questionId || (req.url && new URL(req.url, `http://${req.headers.host || 'localhost'}`).searchParams.get('questionId'));
+      part = fields.part || (req.url && new URL(req.url, `http://${req.headers.host || 'localhost'}`).searchParams.get('part'));
       if (!file) {
         sendJson(res, 400, { error: 'Missing file field (multipart/form-data name="file")' });
         return;
       }
-
+      if (!questionId) {
+        sendJson(res, 400, { error: 'Missing questionId for image naming' });
+        return;
+      }
       const mimetype = file.mimetype;
       if (typeof mimetype === 'string' && !mimetype.toLowerCase().startsWith('image/')) {
         sendJson(res, 400, { error: 'Only image uploads are allowed' });
         return;
       }
-
       const publicImagesDir = path.join(process.cwd(), 'public', 'images');
       await fs.mkdir(publicImagesDir, { recursive: true });
-
-      const uuid = globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`;
+      // Find next available N for this questionId
+      const files = await fs.readdir(publicImagesDir);
+      const prefix = `${questionId}-`;
+      let maxN = 0;
+      for (const fname of files) {
+        if (fname.startsWith(prefix) && fname.match(/-([0-9]+)\.(png|jpg|jpeg|webp|gif)$/)) {
+          const m = fname.match(/-([0-9]+)\.(png|jpg|jpeg|webp|gif)$/);
+          const n = parseInt(m[1], 10);
+          if (n > maxN) maxN = n;
+        }
+      }
+      const nextN = maxN + 1;
       const ext = guessExtension({ originalFilename: file.originalFilename, mimetype: file.mimetype });
-      const filename = `${uuid}${ext}`;
+      const filename = `${questionId}-${nextN}${ext}`;
       const destAbs = path.join(publicImagesDir, filename);
-
       await moveFile(file.filepath, destAbs);
       sendJson(res, 201, { token: `images/${filename}` });
       return;
