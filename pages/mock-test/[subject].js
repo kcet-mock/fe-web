@@ -334,9 +334,12 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
 
     const sessionIdFromQuery =
       typeof router?.query?.session_id === 'string' ? router.query.session_id : undefined;
-    const resultsUrl = sessionIdFromQuery
-      ? `/results/${encodeURIComponent(subject)}?session_id=${encodeURIComponent(sessionIdFromQuery)}`
-      : `/results/${encodeURIComponent(subject)}`;
+    const yearFromQuery = typeof router?.query?.year === 'string' ? router.query.year : undefined;
+    let resultsUrl = `/results/${encodeURIComponent(subject)}`;
+    const params = [];
+    if (yearFromQuery) params.push(`year=${encodeURIComponent(yearFromQuery)}`);
+    if (sessionIdFromQuery) params.push(`session_id=${encodeURIComponent(sessionIdFromQuery)}`);
+    if (params.length > 0) resultsUrl += `?${params.join('&')}`;
     router.replace(resultsUrl);
   };
 

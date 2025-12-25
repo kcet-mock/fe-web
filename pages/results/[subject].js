@@ -328,9 +328,13 @@ export default function ResultsSubjectPage({ subject, questions }) {
                 >
                   Retake mock test
                 </button>
-                <Link href="/" className="button-primary">
+                <button
+                  className="button-primary"
+                  type="button"
+                  onClick={() => router.replace('/')}
+                >
                   Back to home
-                </Link>
+                </button>
               </div>
             </div>
 
