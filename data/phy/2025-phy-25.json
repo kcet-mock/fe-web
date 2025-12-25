@@ -24,5 +24,8 @@
     "Y: Resistivity is high and changes slowly with T (Alloy/Nichrome).",
     "Z: Resistivity decreases with T (Semiconductor).",
     "Matching: X-Copper, Y-Nichrome, Z-Semiconductor."
+  ],
+  "years": [
+    2024
   ]
 }

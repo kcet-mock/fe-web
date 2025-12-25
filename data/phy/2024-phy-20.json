@@ -1,0 +1,31 @@
+{
+  "id": "2024-phy-20",
+  "question": [
+    "The natural logarithm of the activity R of a radioactive sample varies with time t as shown. At <katex>$t=0$</katex>, there are <katex>$N_{0}$</katex> undecayed nuclei. Then <katex>$N_{0}$</katex> is equal to [Take <katex>$e^{2}=7.5$</katex>]",
+    "images/2024-phy-20-1.png"
+  ],
+  "choices": [
+    [
+      "7,500"
+    ],
+    [
+      "3,500"
+    ],
+    [
+      "75,000"
+    ],
+    [
+      "1,50,000"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "From <katex>$R = R_0 e^{-\\lambda t}$</katex>, <katex>$\\ln R = \\ln R_0 - \\lambda t$</katex>.",
+    "Intercept <katex>$\\ln R_0 = 2 \\Rightarrow R_0 = e^2 = 7.5$</katex>.",
+    "Slope <katex>$-\\lambda = \\frac{1-2}{10-0} = -0.1$</katex> (in units of <katex>$10^{-3} s^{-1}$</katex>), so <katex>$\\lambda = 10^{-4} s^{-1}$</katex>.",
+    "<katex>$N_0 = \\frac{R_0}{\\lambda} = \\frac{7.5}{10^{-4}} = 75,000$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

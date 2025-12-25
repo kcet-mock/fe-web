@@ -1,0 +1,29 @@
+{
+  "id": "2024-phy-26",
+  "question": [
+    "An athlete runs along a circular track of diameter 80 m. The distance travelled and the magnitude of displacement of the athlete when he covers <katex>$\\frac{3}{4}$</katex> of the circle is (in m)"
+  ],
+  "choices": [
+    [
+      "<katex>$60\\pi, 40\\sqrt{2}$</katex>"
+    ],
+    [
+      "<katex>$40\\pi, 60\\sqrt{2}$</katex>"
+    ],
+    [
+      "<katex>$120\\pi, 80\\sqrt{2}$</katex>"
+    ],
+    [
+      "<katex>$80\\pi, 120\\sqrt{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Radius <katex>$R = 40$</katex> m.",
+    "Distance = <katex>$\\frac{3}{4} \\times 2\\pi R = \\frac{3}{2} \\pi (40) = 60\\pi$</katex> m.",
+    "Displacement = Chord length connecting points separated by <katex>$90^{\\circ}$</katex> (since <katex>$\\frac{3}{4}$</katex> of circle leaves <katex>$\\frac{1}{4}$</katex> gap). <katex>$\\text{Disp} = \\sqrt{R^2 + R^2} = R\\sqrt{2} = 40\\sqrt{2}$</katex> m."
+  ],
+  "years": [
+    2024
+  ]
+}

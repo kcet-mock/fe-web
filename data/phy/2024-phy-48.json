@@ -1,0 +1,29 @@
+{
+  "id": "2024-phy-48",
+  "question": [
+    "In the circuit shown, the end A is at potential <katex>$V_{0}$</katex> and end B is grounded. The electric current I indicated in the circuit is",
+    "images/2024-phy-48-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{V_{0}}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2V_{0}}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3V_{0}}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{V_{0}}{3R}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Solving the equivalent resistance of the symmetric network or using nodal analysis.",
+    "According to the answer key, the current is <katex>$\\frac{V_0}{3R}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

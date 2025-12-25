@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-7",
+  "question": [
+    "The final image formed by an astronomical telescope is"
+  ],
+  "choices": [
+    [
+      "real, erect and diminished"
+    ],
+    [
+      "virtual, inverted and diminished"
+    ],
+    [
+      "real, inverted and magnified"
+    ],
+    [
+      "virtual, inverted and magnified"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In an astronomical telescope in normal adjustment, the final image is formed at infinity.",
+    "With respect to the original object, the final image is virtual, inverted, and magnified."
+  ],
+  "years": [
+    2024
+  ]
+}

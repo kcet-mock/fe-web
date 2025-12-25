@@ -23,5 +23,8 @@
     "<katex>$V_{rms} = \\frac{V_0}{\\sqrt{2}} = \\frac{311}{1.414} \\approx 220$</katex> V.",
     "<katex>$\\omega = 314 \\Rightarrow 2\\pi f = 314$</katex>.",
     "<katex>$f = \\frac{314}{2 \\times 3.14} = 50$</katex> Hz."
+  ],
+  "years": [
+    2024
   ]
 }

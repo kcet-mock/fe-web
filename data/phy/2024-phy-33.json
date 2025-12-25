@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-33",
+  "question": [
+    "A thick metal wire of density <katex>$\\rho$</katex> and length 'L' is hung from a rigid support. The increase in length of the wire due to its own weight is (<katex>$Y=$</katex> Young's modulus of the material of the wire)"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\rho~g~L}{Y}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}\\frac{\\rho gL^{2}}{Y}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\rho~g~L^{2}}{Y}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{4Y}\\rho~g~L^{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Elongation due to self-weight is <katex>$\\Delta L = \\frac{MgL}{2AY}$</katex>.",
+    "Since <katex>$M = \\rho AL$</katex>, <katex>$\\Delta L = \\frac{\\rho AL g L}{2AY} = \\frac{\\rho g L^2}{2Y}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-53",
+  "question": [
+    "A moving electron produces"
+  ],
+  "choices": [
+    [
+      "only electric field"
+    ],
+    [
+      "both electric and magnetic field"
+    ],
+    [
+      "only magnetic field"
+    ],
+    [
+      "neither electric nor magnetic field"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A charged particle produces an electric field.",
+    "A moving charged particle constitutes a current and produces a magnetic field."
+  ],
+  "years": [
+    2024
+  ]
+}

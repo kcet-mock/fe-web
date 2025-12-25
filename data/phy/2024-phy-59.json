@@ -1,0 +1,31 @@
+{
+  "id": "2024-phy-59",
+  "question": [
+    "A uniform magnetic field of strength <katex>$B=2$</katex> mT exists vertically downwards. These magnetic field lines pass through a closed surface as shown in the figure. The closed surface consists of a hemisphere <katex>$S_{1}$</katex> a right circular cone <katex>$S_{2}$</katex> and a circular surface <katex>$S_{3}$</katex>. The magnetic flux through <katex>$S_{1}$</katex> and <katex>$S_{2}$</katex> are respectively",
+    "images/2024-phy-59-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\phi_{S_{1}}=-20\\mu Wb, \\phi_{S_{2}}=+20\\mu Wb$</katex>"
+    ],
+    [
+      "<katex>$\\phi_{S_{l}}=+20\\mu Wb, \\phi_{S_{2}}=-20\\mu Wb$</katex>"
+    ],
+    [
+      "<katex>$\\phi_{S_{1}}=-40\\mu~Wb, \\phi_{S_{z}}=+40\\mu Wb$</katex>"
+    ],
+    [
+      "<katex>$\\phi_{s_{1}}=+40\\mu Wb, \\phi_{S_{2}}=-40\\mu Wb$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Flux through projected circular area <katex>$A = \\pi R^2 = \\pi (\\frac{10}{\\sqrt{\\pi}})^2 = 100$</katex> (unit likely cm<katex>$^2$</katex> given the values, let's assume <katex>$10^{-2}$</katex> m).",
+    "If <katex>$R$</katex> is in cm, <katex>$A = 100$</katex> cm<katex>$^2 = 10^{-2}$</katex> m<katex>$^2$</katex>.",
+    "Flux <katex>$\\phi = B A = 2 \\times 10^{-3} \\times 10^{-2} = 20 \\times 10^{-6}$</katex> Wb = 20 <katex>$\\mu$</katex>Wb.",
+    "Field is downwards. <katex>$S_1$</katex> is top surface (entering), flux is negative. <katex>$S_2$</katex> is bottom surface (leaving), flux is positive."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -22,5 +22,8 @@
     "Resistance <katex>$R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi (D/2)^2} = \\frac{4\\rho l}{\\pi D^2}$</katex>.",
     "So, <katex>$R \\propto \\frac{1}{D^2}$</katex>.",
     "The graph of R vs D is a hyperbola curve dropping sharply (Option 3)."
+  ],
+  "years": [
+    2024
   ]
 }

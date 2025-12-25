@@ -25,5 +25,8 @@
     "b) <katex>$\\theta = 120^{\\circ} \\Rightarrow U = -pE(-0.5) = 0.5 pE$</katex>. (Matches iii)",
     "c) <katex>$\\theta = 90^{\\circ} \\Rightarrow U = -pE(0) = 0$</katex>. (Matches iv)",
     "Matches: a-ii, b-iii, c-iv."
+  ],
+  "years": [
+    2024
   ]
 }

@@ -20,5 +20,8 @@
   "correctAnswer": 3,
   "explanation": [
     "In n-type semiconductors, donor impurities create energy levels just below the conduction band, allowing electrons to be easily excited into it."
+  ],
+  "years": [
+    2024
   ]
 }

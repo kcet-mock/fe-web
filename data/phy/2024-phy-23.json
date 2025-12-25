@@ -1,0 +1,30 @@
+{
+  "id": "2024-phy-23",
+  "question": [
+    "In the diagram shown, the Zener diode has a reverse breakdown voltage of <katex>$V_{Z}$</katex>. The current through the load resistance <katex>$R_{L}$</katex> is <katex>$I_{L}$</katex>. The current through the Zener diode is",
+    "images/2024-phy-23-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{V_{o}-V_{Z}}{R_{s}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{V_{o}-V_{Z}}{R_{L}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{V_{Z}}{R_{L}}$</katex>"
+    ],
+    [
+      "<katex>$(\\frac{V_{o}-V_{Z}}{R_{S}})-I_{L}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The total current from source is <katex>$I_S = \\frac{V_o - V_Z}{R_S}$</katex>.",
+    "By Kirchhoff's Current Law, <katex>$I_S = I_Z + I_L$</katex>.",
+    "So <katex>$I_Z = I_S - I_L = \\left(\\frac{V_o - V_Z}{R_S}\\right) - I_L$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

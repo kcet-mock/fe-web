@@ -25,5 +25,8 @@
     "At <katex>$x=2$</katex>, <katex>$v = k(2)^{3/2} = 2(2^{3/2})$</katex>.",
     "<katex>$v^2 = 4 \\times 2^3 = 32$</katex>",
     "<katex>$W = \\frac{1}{2} \\times 0.25 \\times 32 = \\frac{1}{8} \\times 32 = 4$</katex> J"
+  ],
+  "years": [
+    2024
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "id": "2024-phy-12",
+  "question": [
+    "Three polaroid sheets are co-axially placed as indicated in the diagram. Pass axes of the polaroids 2 and 3 make <katex>$30^{\\circ}$</katex> and <katex>$90^{\\circ}$</katex> with pass axis of polaroid sheet 1. If <katex>$I_{0}$</katex> is the intensity of the incident unpolarised light entering sheet 1, the intensity of the emergent light through sheet 3 is",
+    "images/2024-phy-12-1.png"
+  ],
+  "choices": [
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$\\frac{3I_{0}}{32}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3I_{0}}{8}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3I_{0}}{16}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Intensity after P1: <katex>$I_1 = I_0/2$</katex>.",
+    "Intensity after P2 (angle <katex>$30^{\\circ}$</katex> with P1): <katex>$I_2 = I_1 \\cos^2(30^{\\circ}) = (I_0/2) (\\frac{\\sqrt{3}}{2})^2 = \\frac{3I_0}{8}$</katex>.",
+    "Intensity after P3 (angle between P2 and P3 is <katex>$90^{\\circ} - 30^{\\circ} = 60^{\\circ}$</katex>): <katex>$I_3 = I_2 \\cos^2(60^{\\circ}) = (\\frac{3I_0}{8}) (\\frac{1}{2})^2 = \\frac{3I_0}{32}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

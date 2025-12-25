@@ -1,0 +1,29 @@
+{
+  "id": "2024-phy-30",
+  "question": [
+    "A ceiling fan is rotating around a fixed axle as shown. The direction of angular velocity along",
+    "images/2024-phy-30-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$+\\hat{j}$</katex>"
+    ],
+    [
+      "<katex>$-\\hat{j}$</katex>"
+    ],
+    [
+      "<katex>$+\\hat{k}$</katex>"
+    ],
+    [
+      "<katex>$-\\hat{k}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Using the Right Hand Rule for rotation (fingers curl in direction of rotation), the thumb points downwards.",
+    "Assuming the vertical axis is the Z-axis (k), downward is <katex>$-\\hat{k}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

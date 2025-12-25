@@ -1,0 +1,29 @@
+{
+  "id": "2024-phy-14",
+  "question": [
+    "Light of energy E falls normally on a metal of work function <katex>$\\frac{E}{3}$</katex>. The kinetic energies (K) of the photo electrons are"
+  ],
+  "choices": [
+    [
+      "<katex>$K=\\frac{2E}{3}$</katex>"
+    ],
+    [
+      "<katex>$K=\\frac{E}{3}$</katex>"
+    ],
+    [
+      "<katex>$0\\le K\\le\\frac{2E}{3}$</katex>"
+    ],
+    [
+      "<katex>$0\\le K\\le\\frac{E}{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Max kinetic energy <katex>$K_{max} = E - \\phi = E - \\frac{E}{3} = \\frac{2E}{3}$</katex>.",
+    "Kinetic energy of photoelectrons ranges from 0 to <katex>$K_{max}$</katex> due to collisions within the metal.",
+    "So, <katex>$0 \\le K \\le \\frac{2E}{3}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

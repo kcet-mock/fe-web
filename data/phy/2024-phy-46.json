@@ -1,0 +1,29 @@
+{
+  "id": "2024-phy-46",
+  "question": [
+    "A capacitor of capacitance <katex>$5\\mu F$</katex> is charged by a battery of emf 10 V. At an instant of time, the potential difference across the capacitor is 4 V and the time rate of change of potential difference across the capacitor is <katex>$0.6Vs^{-1}$</katex>. Then the time rate at which energy is stored in the capacitor at that instant is"
+  ],
+  "choices": [
+    [
+      "<katex>$12~\\mu W$</katex>"
+    ],
+    [
+      "<katex>$3\\mu W$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$30\\mu W$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Energy <katex>$U = \\frac{1}{2} C V^2$</katex>.",
+    "Rate <katex>$\\frac{dU}{dt} = C V \\frac{dV}{dt}$</katex>.",
+    "<katex>$\\frac{dU}{dt} = (5 \\times 10^{-6}) (4) (0.6) = 12 \\times 10^{-6}$</katex> W = 12 <katex>$\\mu$</katex>W."
+  ],
+  "years": [
+    2024
+  ]
+}

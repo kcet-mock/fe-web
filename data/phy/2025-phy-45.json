@@ -23,5 +23,8 @@
     "For a prism <katex>$A = r + r'$</katex>.",
     "<katex>$50 = (10 + t^2) + r'$</katex>",
     "<katex>$r' = 50 - 10 - t^2 = 40 - t^2$</katex>."
+  ],
+  "years": [
+    2024
   ]
 }

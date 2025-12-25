@@ -21,5 +21,8 @@
   "explanation": [
     "Bohr radius <katex>$r_n \\propto n^2$</katex>.",
     "For <katex>$n=2$</katex>, <katex>$r_2 = 2^2 r_1 = 4r$</katex>."
+  ],
+  "years": [
+    2024
   ]
 }

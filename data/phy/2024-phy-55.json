@@ -1,0 +1,30 @@
+{
+  "id": "2024-phy-55",
+  "question": [
+    "A particle of specific charge <katex>$\\frac{q}{m}=\\pi Ckg^{-1}$</katex> is projected from the origin towards positive x-axis with the velocity <katex>$10~ms^{-1}$</katex> in a uniform magnetic field <katex>$\\overline{B}=-2\\hat{k}T$</katex>. The velocity particle after time <katex>$t=\\frac{1}{12}$</katex> s will be (<katex>$in~ms^{-1}$</katex>)"
+  ],
+  "choices": [
+    [
+      "<katex>$5(\\hat{i}+\\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\hat{i}+\\sqrt{3}j)$</katex>"
+    ],
+    [
+      "<katex>$5(\\sqrt{3}\\hat{i}-\\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\sqrt{3}\\hat{i}+\\hat{j})$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Time period <katex>$T = \\frac{2\\pi m}{qB} = \\frac{2\\pi}{\\pi \\times 2} = 1$</katex> s.",
+    "Time <katex>$t = 1/12$</katex> s corresponds to angle <katex>$\\theta = \\omega t = \\frac{2\\pi}{T} t = \\frac{2\\pi}{12} = \\frac{\\pi}{6} = 30^{\\circ}$</katex>.",
+    "Velocity vector rotates by <katex>$30^{\\circ}$</katex> from x-axis towards y-axis (Force q(v x B) is along +y).",
+    "<katex>$\\vec{v} = v(\\cos 30 \\hat{i} + \\sin 30 \\hat{j}) = 10(\\frac{\\sqrt{3}}{2} \\hat{i} + \\frac{1}{2} \\hat{j}) = 5(\\sqrt{3}\\hat{i} + \\hat{j})$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

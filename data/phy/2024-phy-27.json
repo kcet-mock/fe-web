@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-27",
+  "question": [
+    "Among the given pair of vectors, the resultant of two vectors can never be 3 units. The vectors are"
+  ],
+  "choices": [
+    [
+      "1 unit and 2 units"
+    ],
+    [
+      "2 units and 5 units"
+    ],
+    [
+      "3 units and 6 units"
+    ],
+    [
+      "4 units and 8 units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The resultant of two vectors <katex>$A$</katex> and <katex>$B$</katex> lies between <katex>$|A-B|$</katex> and <katex>$A+B$</katex>.",
+    "For (4, 8): Range is <katex>$[8-4, 8+4] = [4, 12]$</katex>. 3 is not in this range."
+  ],
+  "years": [
+    2024
+  ]
+}

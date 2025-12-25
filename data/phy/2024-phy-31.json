@@ -1,0 +1,31 @@
+{
+  "id": "2024-phy-31",
+  "question": [
+    "A body of mass 1 kg is suspended by a weightless string which passes over a frictionless pulley of mass 2 kg as shown in the figure. The mass is released from a height of 1.6 m from the ground. With what velocity does it strike the ground?",
+    "images/2024-phy-31-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$16~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$8~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4\\sqrt{2}ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4~ms^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Using conservation of energy or dynamics. Note the pulley has mass.",
+    "If we treat the pulley as a disk (Mass M=2kg) and block (m=1kg).",
+    "Loss in PE = Gain in Trans KE + Gain in Rot KE? Or is it a simple Atwood? The diagram shows the string fixed at one end, pulley moving? No, diagram shows pulley fixed? 'Pulley of mass 2kg'.",
+    "Using standard result <katex>$v = \\sqrt{\\frac{2gh}{1 + M/2m}}$</katex> for massive pulley? No, string passes over. If fixed pulley: <katex>$v = \\sqrt{\\frac{2gh}{1+I/mR^2}}$</katex>. <katex>$I = MR^2/2$</katex>. <katex>$v = \\sqrt{\\frac{2gh}{1 + M/2m}} = \\sqrt{\\frac{2(10)(1.6)}{1 + 2/2}} = \\sqrt{\\frac{32}{2}} = 4$</katex> m/s."
+  ],
+  "years": [
+    2024
+  ]
+}

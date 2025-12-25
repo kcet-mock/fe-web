@@ -1,0 +1,30 @@
+{
+  "id": "2024-phy-2",
+  "question": [
+    "A square loop of side length 'a' is moving away from an infinitely long current carrying conductor at a constant speed 'v' as shown. Let 'x' be the instantaneous distance between the long conductor and side AB. The mutual inductance (M) of the square loop - long conductor pair changes with time (t) according to which of the following graphs?",
+    "images/2024-phy-2-1.png"
+  ],
+  "choices": [
+    [
+      "images/2024-phy-2-2.png"
+    ],
+    [
+      "images/2024-phy-2-3.png"
+    ],
+    [
+      "images/2024-phy-2-4.png"
+    ],
+    [
+      "images/2024-phy-2-5.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The mutual inductance <katex>$M$</katex> is related to the flux <katex>$\\phi$</katex> by <katex>$\\phi = MI$</katex>.",
+    "The magnetic field due to the long wire is <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>. The flux through the loop involves an integration of <katex>$\\frac{1}{r}$</katex> from <katex>$x$</katex> to <katex>$x+a$</katex>, resulting in a logarithmic dependence on <katex>$x$</katex>: <katex>$\\ln(\\frac{x+a}{x})$</katex>.",
+    "Since <katex>$x = vt$</katex>, as time <katex>$t$</katex> increases, <katex>$x$</katex> increases, and the term <katex>$\\ln(1 + \\frac{a}{x})$</katex> decreases. The decay is non-linear, matching graph A."
+  ],
+  "years": [
+    2024
+  ]
+}

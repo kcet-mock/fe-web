@@ -20,5 +20,8 @@
   "correctAnswer": 3,
   "explanation": [
     "Gauss's law is valid for any closed surface, regardless of the shape or charge distribution."
+  ],
+  "years": [
+    2024
   ]
 }

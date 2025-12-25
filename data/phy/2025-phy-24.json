@@ -23,5 +23,8 @@
     "Equivalent EMF <katex>$E_{eq} = \\frac{\\frac{E_1}{r_1} + \\frac{E_2}{r_2}}{\\frac{1}{r_1} + \\frac{1}{r_2}}$</katex>.",
     "The value lies between <katex>$E_1$</katex> and <katex>$E_2$</katex>.",
     "Since <katex>$r_2 > r_1$</katex>, the term with <katex>$r_1$</katex> (i.e., <katex>$E_1$</katex>) has more weight/dominance. Thus, <katex>$E_{eq}$</katex> is closer to <katex>$E_1$</katex>."
+  ],
+  "years": [
+    2024
   ]
 }

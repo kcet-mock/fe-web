@@ -21,5 +21,8 @@
   "explanation": [
     "Force per unit length <katex>$\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi r} = \\frac{\\mu_0 I^2}{2\\pi r}$</katex>.",
     "Parallel currents attract; Anti-parallel (opposite direction) currents repel."
+  ],
+  "years": [
+    2024
   ]
 }

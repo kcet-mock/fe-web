@@ -23,5 +23,8 @@
     "Sphere A encloses only the charge -q.",
     "According to Gauss's Law, Flux <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
     "Therefore, <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>."
+  ],
+  "years": [
+    2024
   ]
 }

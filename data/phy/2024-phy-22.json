@@ -1,0 +1,27 @@
+{
+  "id": "2024-phy-22",
+  "question": [
+    "The upper level of valence band and lower level of conduction band overlap in the case of"
+  ],
+  "choices": [
+    [
+      "Silicon"
+    ],
+    [
+      "Copper"
+    ],
+    [
+      "Carbon"
+    ],
+    [
+      "Germanium"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Overlapping of valence and conduction bands is a characteristic of conductors (metals). Copper is a metal."
+  ],
+  "years": [
+    2024
+  ]
+}

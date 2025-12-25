@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-44",
+  "question": [
+    "Under electrostatic condition of a charged conductor, which among the following statements is true?"
+  ],
+  "choices": [
+    [
+      "The electric field on the surface of a charged conductor is <katex>$\\frac{\\sigma}{2\\epsilon_{0}}$</katex> where <katex>$\\sigma$</katex> is the surface charge density"
+    ],
+    [
+      "The electric potential inside a charged conductor is always zero"
+    ],
+    [
+      "Any excess charge resides on the surface of the conductor"
+    ],
+    [
+      "The net electric field is tangential to the surface of the conductor"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In electrostatics, any excess charge placed on a conductor moves to its exterior surface.",
+    "Field is <katex>$\\sigma/\\epsilon_0$</katex> (not /2), potential is constant (not zero), and field is normal (not tangential)."
+  ],
+  "years": [
+    2024
+  ]
+}

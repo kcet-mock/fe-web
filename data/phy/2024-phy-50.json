@@ -1,0 +1,31 @@
+{
+  "id": "2024-phy-50",
+  "question": [
+    "The I-V graph for a conductor at two different temperatures <katex>$100^{\\circ}C$</katex> and <katex>$400^{\\circ}C$</katex> is as shown in the figure. The temperature coefficient of resistance of the conductor is about (in per degree Celsius)",
+    "images/2024-phy-50-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$3\\times10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$6\\times10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$9\\times10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$12\\times10^{-3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Assuming V is on y-axis and I on x-axis (Resistance = slope): <katex>$R_{100} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$</katex>, <katex>$R_{400} = \\tan 45^{\\circ} = 1$</katex>.",
+    "<katex>$R_{400} = R_{100}(1 + \\alpha \\Delta T)$</katex>.",
+    "<katex>$\\sqrt{3} = 1(1 + \\alpha (300))$</katex>. <katex>$\\alpha = \\frac{\\sqrt{3}-1}{300} = \\frac{0.732}{300} \\approx 2.44 \\times 10^{-3}$</katex>.",
+    "Closest option is <katex>$3 \\times 10^{-3}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

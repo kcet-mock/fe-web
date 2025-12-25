@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-43",
+  "question": [
+    "The total electric flux through a closed spherical surface of radius 'r' enclosing an electric dipole of dipole moment 2aq is (Given <katex>$\\epsilon_{0}=$</katex> permittivity of free space)"
+  ],
+  "choices": [
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$\\frac{q}{\\epsilon_{0}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2q}{\\epsilon_{0}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{8\\pi r^{2}q}{\\epsilon_{0}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The net charge enclosed by a surface containing a dipole is zero (<katex>$+q -q = 0$</katex>).",
+    "According to Gauss's Law, total flux <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0} = 0$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

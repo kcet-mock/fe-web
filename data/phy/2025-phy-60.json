@@ -24,5 +24,8 @@
     "At the lowest y-coordinate (y=-5), the center is directly above.",
     "Acceleration is directed towards the center (positive y direction).",
     "So <katex>$\\vec{a} = 0.8 \\hat{j}$</katex>."
+  ],
+  "years": [
+    2024
   ]
 }

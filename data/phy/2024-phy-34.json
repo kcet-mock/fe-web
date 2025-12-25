@@ -1,0 +1,30 @@
+{
+  "id": "2024-phy-34",
+  "question": [
+    "Water flows through a horizontal pipe of varying cross-section at a rate of <katex>$0.314~m^{3}s^{-1}$</katex>. The velocity of water at a point where the radius of the pipe is 10 cm is"
+  ],
+  "choices": [
+    [
+      "<katex>$0.1~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$1~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$10~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$100~ms^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Flow rate <katex>$Q = A v$</katex>.",
+    "<katex>$0.314 = \\pi r^2 v = 3.14 \\times (0.1)^2 \\times v$</katex>.",
+    "<katex>$0.314 = 3.14 \\times 0.01 \\times v = 0.0314 v$</katex>.",
+    "<katex>$v = 10$</katex> m/s."
+  ],
+  "years": [
+    2024
+  ]
+}

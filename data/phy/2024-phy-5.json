@@ -1,0 +1,30 @@
+{
+  "id": "2024-phy-5",
+  "question": [
+    "The figure shows variation of R, <katex>$X_{L}$</katex> and <katex>$X_{C}$</katex> with frequency 'f' in a series LCR circuit. Then for what frequency point is the circuit capacitive?",
+    "images/2024-phy-5-1.png"
+  ],
+  "choices": [
+    [
+      "B"
+    ],
+    [
+      "C"
+    ],
+    [
+      "A"
+    ],
+    [
+      "D"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "A circuit is capacitive when the capacitive reactance <katex>$X_C$</katex> is greater than the inductive reactance <katex>$X_L$</katex>.",
+    "From the graph, <katex>$X_C$</katex> (the decreasing curve) is greater than <katex>$X_L$</katex> (the increasing line) at frequencies lower than the resonance frequency.",
+    "Point A lies in the region where <katex>$X_C > X_L$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

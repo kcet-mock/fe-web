@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-47",
+  "question": [
+    "<katex>$\\vec{E}$</katex> is the electric field inside a conductor whose material has conductivity <katex>$\\sigma$</katex> and resistivity <katex>$\\rho$</katex>. The current density inside the conductor is <katex>$\\vec{j}$</katex>. The correct form of Ohm's law is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\vec{E}=\\sigma\\vec{j}$</katex>"
+    ],
+    [
+      "<katex>$\\vec{j}=\\rho\\vec{E}$</katex>"
+    ],
+    [
+      "<katex>$\\vec{E}=\\rho\\vec{j}$</katex>"
+    ],
+    [
+      "<katex>$\\vec{E}\\cdot\\vec{j}=\\rho$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Microscopic form of Ohm's law: <katex>$\\vec{j} = \\sigma \\vec{E}$</katex>.",
+    "Since <katex>$\\rho = 1/\\sigma$</katex>, we have <katex>$\\vec{E} = \\rho \\vec{j}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -22,5 +22,8 @@
     "In a series circuit (or single wire), conservation of charge dictates that the current (I) is the same at every cross-section.",
     "Drift speed <katex>$v_d = I/(nAq)$</katex> depends on Area A, so it varies.",
     "Electric field depends on A, so it varies."
+  ],
+  "years": [
+    2024
   ]
 }

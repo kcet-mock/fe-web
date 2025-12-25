@@ -25,5 +25,8 @@
     "<katex>$\\theta_1 = 26, \\theta_2 = 13$</katex>, so ratio is 2.",
     "<katex>$G = \\frac{90}{2-1} = 90 \\Omega$</katex>.",
     "The closest option is 91.6 <katex>$\\Omega$</katex>. (Exact formula is <katex>$G = \\frac{RS}{R-S}$</katex> usually, but with <katex>$R=5200$</katex> and <katex>$S=90$</katex>, <katex>$G \\approx 90$</katex>)."
+  ],
+  "years": [
+    2024
   ]
 }

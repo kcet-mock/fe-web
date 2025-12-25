@@ -1,0 +1,27 @@
+{
+  "id": "2024-phy-57",
+  "question": [
+    "Magnetic hysterisis is exhibited by"
+  ],
+  "choices": [
+    [
+      "only para"
+    ],
+    [
+      "only dia"
+    ],
+    [
+      "only ferro"
+    ],
+    [
+      "both para and ferro"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hysteresis is a property of ferromagnetic materials due to domain retention."
+  ],
+  "years": [
+    2024
+  ]
+}

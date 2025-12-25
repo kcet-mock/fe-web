@@ -1,0 +1,28 @@
+{
+  "id": "2024-phy-40",
+  "question": [
+    "A body has a charge of -3.2 µC. The number of excess electrons it has is"
+  ],
+  "choices": [
+    [
+      "<katex>$5.12\\times10^{25}$</katex>"
+    ],
+    [
+      "<katex>$5\\times10^{12}$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{13}$</katex>"
+    ],
+    [
+      "<katex>$5.12\\times10^{13}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$Q = ne$</katex>.",
+    "<katex>$n = \\frac{Q}{e} = \\frac{3.2 \\times 10^{-6}}{1.6 \\times 10^{-19}} = 2 \\times 10^{13}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

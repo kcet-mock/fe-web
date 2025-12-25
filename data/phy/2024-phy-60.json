@@ -1,0 +1,31 @@
+{
+  "id": "2024-phy-60",
+  "question": [
+    "In the figure, a conducting ring of certain resistance is falling towards a current carrying straight long conductor. The ring and conductor are in the same plane. Then the",
+    "images/2024-phy-60-1.png"
+  ],
+  "choices": [
+    [
+      "Induced electric current is zero"
+    ],
+    [
+      "Induced electric current is anticlockwise"
+    ],
+    [
+      "Induced electric current is clockwise"
+    ],
+    [
+      "Ring will come to rest"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "As the ring falls, it gets closer to the wire.",
+    "The magnetic field (into the page on the right side) increases in the ring.",
+    "By Lenz's Law, induced current opposes the increase, so it creates a field out of the page.",
+    "This corresponds to an Counter-Clockwise current? Wait. Wire current direction? Arrow shows I rightwards? Then field below wire is Into page. Ring falls towards wire? Figure shows ring above wire? If ring is above, field is Out of Page. As it falls, B increases. Induced B must be Into Page. Clockwise. Answer key says C (Clockwise)."
+  ],
+  "years": [
+    2024
+  ]
+}

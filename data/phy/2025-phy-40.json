@@ -24,5 +24,8 @@
     "Net reactance of L and C: <katex>$X_{net} = X_L - X_C = 8 \\Omega$</katex>.",
     "Voltage across L-C combination <katex>$V_{LC} = I \\times X_{net} = 10 \\times 8 = 80$</katex> V.",
     "images/2025-phy-40-1.png"
+  ],
+  "years": [
+    2024
   ]
 }
