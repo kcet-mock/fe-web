@@ -265,11 +265,27 @@ export default function InternalQuestionsListPage() {
                           {Array.isArray(q.explanation) && q.explanation.length > 0 && (
                             <div className="explanation-section" style={{ marginTop: '1rem', background: '#ede9fe', borderRadius: '0.5rem', padding: '0.75rem 1rem' }}>
                               <div className="badge-soft" style={{ marginBottom: '0.5rem', background: '#a78bfa', color: '#fff', display: 'inline-block', minWidth: 0 }}>Explanation</div>
-                              {q.explanation.map((part, idx) => (
-                                <div key={`ex-${idx}`} className="question-text">
-                                  <RenderContent>{part}</RenderContent>
-                                </div>
-                              ))}
+                              {q.explanation.map((part, idx) => {
+                                if (isImageToken(part)) {
+                                  const src = imageTokenToSrc(part, basePathPrefix);
+                                  return (
+                                    <div key={`ex-${idx}`} className="question-image">
+                                      <Image
+                                        src={src}
+                                        alt={`Explanation ${q.id}`}
+                                        width={1200}
+                                        height={800}
+                                        style={{ maxWidth: '100%', height: 'auto' }}
+                                      />
+                                    </div>
+                                  );
+                                }
+                                return (
+                                  <div key={`ex-${idx}`} className="question-text">
+                                    <RenderContent>{part}</RenderContent>
+                                  </div>
+                                );
+                              })}
                             </div>
                           )}
                         </div>
