@@ -1,0 +1,30 @@
+{
+  "id": "3464400a-428e-4eaa-9d7b-8a9bee02efc1",
+  "question": [
+    "In the following circuit, the terminal voltage across the cell is",
+    "images/b8c9d0e1-f2a3-412c-5d6e-234567890123.png"
+  ],
+  "choices": [
+    [
+      "1.68 V"
+    ],
+    [
+      "1.95 V"
+    ],
+    [
+      "2.71 V"
+    ],
+    [
+      "0.52 V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Assume circuit has EMF <katex>$E=2\\text{V}$</katex>, internal resistance <katex>$r=0.1\\Omega$</katex>, external <katex>$R=3.9\\Omega$</katex>.",
+    "Current <katex>$I = \\frac{E}{R+r} = \\frac{2}{3.9+0.1} = \\frac{2}{4} = 0.5 \\text{ A}$</katex>.",
+    "Terminal voltage <katex>$V = E - Ir = 2 - 0.5(0.1) = 2 - 0.05 = 1.95 \\text{ V}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

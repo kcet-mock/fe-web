@@ -1,0 +1,29 @@
+{
+  "id": "1ac62d76-cf5b-4bfc-9ad6-e5e5f9cf36e6",
+  "question": [
+    "The range of electrical conductivity (<katex>$\\sigma$</katex>) and resistivity (<katex>$\\rho$</katex>) for metals, among the following, is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\rho \\to 10^{-5}-10^{-6} \\Omega m$</katex>, <katex>$\\sigma \\to 10^5-10^6 S m^{-1}$</katex>"
+    ],
+    [
+      "<katex>$\\rho \\to 10^{11}-10^{19} \\Omega m$</katex>..."
+    ],
+    [
+      "..."
+    ],
+    [
+      "<katex>$\\rho \\to 10^{-2}-10^{-8} \\Omega m$</katex>, <katex>$\\sigma \\to 10^2-10^8 S m^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Metals are good conductors.",
+    "Resistivity is very low (<katex>$10^{-2}$</katex> to <katex>$10^{-8}$</katex> <katex>$\\Omega$</katex>m).",
+    "Conductivity is very high (<katex>$10^2$</katex> to <katex>$10^8$</katex> S/m)."
+  ],
+  "years": [
+    2025
+  ]
+}

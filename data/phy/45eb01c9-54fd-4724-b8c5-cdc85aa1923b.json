@@ -1,0 +1,30 @@
+{
+  "id": "45eb01c9-54fd-4724-b8c5-cdc85aa1923b",
+  "question": [
+    "Two similar galvanometers are covered into an ammeter and a milliammeter. The shunt resistance of ammeter as compared to the shunt resistance of milliammeter will be"
+  ],
+  "choices": [
+    [
+      "Zero"
+    ],
+    [
+      "More"
+    ],
+    [
+      "Less"
+    ],
+    [
+      "Equal"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Shunt resistance <katex>$S = \\frac{I_g G}{I - I_g}$</katex>.",
+    "For Ammeter, range I is large (e.g., 1A). For Milliammeter, range I is small (e.g., 1mA).",
+    "Since <katex>$S \\propto \\frac{1}{I}$</katex> approximately, larger range requires smaller shunt.",
+    "Therefore, Ammeter (larger range) has Less shunt resistance."
+  ],
+  "years": [
+    2025
+  ]
+}

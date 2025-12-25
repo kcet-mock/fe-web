@@ -1,0 +1,30 @@
+{
+  "id": "82ac1450-9e34-411d-af11-8f00fb498a3c",
+  "question": [
+    "A convex lens has power P. It is cut into two halves along its principal axis. Further one piece (out of two halves) is cut into two halves perpendicular to the principal axis as shown in figure. Choose the incorrect option for the reported lens pieces",
+    "images/f2a3b4c5-d6e7-456k-9f0g-234567890123.png"
+  ],
+  "choices": [
+    [
+      "Power of <katex>$L_2$</katex> is <katex>$P/2$</katex>"
+    ],
+    [
+      "Power of <katex>$L_3$</katex> is <katex>$P/2$</katex>"
+    ],
+    [
+      "Power of <katex>$L_1$</katex> is <katex>$P$</katex>"
+    ],
+    [
+      "Power of <katex>$L_1$</katex> is <katex>$P/2$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Cutting along principal axis: Focal length remains same, Power remains P. So <katex>$L_1$</katex> has power P.",
+    "Therefore, statement 'Power of <katex>$L_1$</katex> is <katex>$P/2$</katex>' is incorrect.",
+    "Cutting perpendicular to axis (plano-convex): Focal length doubles, Power becomes <katex>$P/2$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

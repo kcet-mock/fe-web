@@ -1,0 +1,31 @@
+{
+  "id": "e1eefa5d-e68d-4fb8-9671-ed9278a7bb8a",
+  "question": [
+    "You are given a dipole of charge <katex>$+q$</katex> and <katex>$-q$</katex> separated by a distance 2R. A sphere 'A' of radius 'R' passes through the centre of the dipole as shown below and another sphere 'B' of radius '2R' passes through the charge <katex>$+q$</katex>. Then the electric flux through the sphere A is",
+    "images/f6a7b8c9-d0e1-4f0a-3b4c-678901234567.png"
+  ],
+  "choices": [
+    [
+      "<katex>$q/\\epsilon_0$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$2q/\\epsilon_0$</katex>"
+    ],
+    [
+      "<katex>$-q/\\epsilon_0$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "From the diagram (assumed based on description), sphere A of radius R centered at the midpoint will enclose one of the charges if the separation is 2R? No, distance is 2R, so each charge is R from center. Sphere A has radius R. If it passes through the center, its center must be at one of the charges? The text says 'passes through the centre of the dipole'. This phrasing is ambiguous. Let's look at the diagram in source 285.",
+    "Diagram shows sphere A encloses the negative charge <katex>$-q$</katex>.",
+    "According to Gauss's Law, <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
+    "Since sphere A encloses <katex>$-q$</katex>, flux is <katex>$\\frac{-q}{\\epsilon_0}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

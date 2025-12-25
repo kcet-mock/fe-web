@@ -1,0 +1,34 @@
+{
+  "id": "bc6b3e7e-ae74-4f90-a453-e4693a78dc3d",
+  "question": [
+    "Two stones begin to fall from rest from the same height, with the second stone starting to fall <katex>$\\Delta t$</katex> seconds after the first falls from rest. The distance of separation between the two stones becomes 'H', <katex>$t_0$</katex> seconds after the first stone starts its motion. Then <katex>$t_0$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{H}{\\Delta t} + \\frac{\\Delta t}{2g}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{H}{g\\Delta t} - \\frac{\\Delta t}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{H}{g\\Delta t} + \\frac{\\Delta t}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{H}{g\\Delta t}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$S_1 = \\frac{1}{2} g t_0^2$</katex>",
+    "<katex>$S_2 = \\frac{1}{2} g (t_0 - \\Delta t)^2$</katex>",
+    "<katex>$H = S_1 - S_2 = \\frac{1}{2} g (t_0^2 - (t_0 - \\Delta t)^2)$</katex>",
+    "<katex>$H = \\frac{1}{2} g (t_0^2 - (t_0^2 - 2t_0\\Delta t + \\Delta t^2))$</katex>",
+    "<katex>$H = \\frac{1}{2} g (2t_0\\Delta t - \\Delta t^2)$</katex>",
+    "<katex>$\\frac{2H}{g} = 2t_0\\Delta t - \\Delta t^2$</katex>",
+    "<katex>$2t_0\\Delta t = \\frac{2H}{g} + \\Delta t^2$</katex>",
+    "<katex>$t_0 = \\frac{H}{g\\Delta t} + \\frac{\\Delta t}{2}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

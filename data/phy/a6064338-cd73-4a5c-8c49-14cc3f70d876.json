@@ -1,0 +1,32 @@
+{
+  "id": "a6064338-cd73-4a5c-8c49-14cc3f70d876",
+  "question": [
+    "The circuit shown in figure contains two ideal diodes <katex>$D_1$</katex> and <katex>$D_2$</katex>. If a cell of emf 3V and negligible internal resistance is connected as shown, then the current through <katex>$70\\Omega$</katex> resistance, (in ampere) is",
+    "images/c1d2e3f4-a5b6-445t-8o9p-234567890123.png"
+  ],
+  "choices": [
+    [
+      "0.01"
+    ],
+    [
+      "0.02"
+    ],
+    [
+      "0.03"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Diode <katex>$D_1$</katex> is reverse biased (Open circuit).",
+    "Diode <katex>$D_2$</katex> is forward biased (Short circuit for ideal).",
+    "Current flows through <katex>$30\\Omega$</katex> (lower branch) and <katex>$70\\Omega$</katex>.",
+    "Total Resistance <katex>$R = 30 + 70 = 100 \\Omega$</katex>.",
+    "<katex>$I = V/R = 3/100 = 0.03 \\text{ A}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

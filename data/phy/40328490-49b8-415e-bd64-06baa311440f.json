@@ -1,0 +1,29 @@
+{
+  "id": "40328490-49b8-415e-bd64-06baa311440f",
+  "question": [
+    "Which of the following statements is true in respect of diamagnetic susbtances?"
+  ],
+  "choices": [
+    [
+      "They are feebly attracted by magnets"
+    ],
+    [
+      "Permeability is greater than 1000"
+    ],
+    [
+      "Susceptibility decreases with temperature"
+    ],
+    [
+      "Susceptibility is small and negative"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Diamagnetic substances are feebly repelled.",
+    "Their susceptibility is small and negative (<katex>$-1 < \\chi < 0$</katex>).",
+    "Their susceptibility is independent of temperature."
+  ],
+  "years": [
+    2025
+  ]
+}

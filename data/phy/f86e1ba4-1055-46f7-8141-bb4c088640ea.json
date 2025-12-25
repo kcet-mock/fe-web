@@ -1,0 +1,32 @@
+{
+  "id": "f86e1ba4-1055-46f7-8141-bb4c088640ea",
+  "question": [
+    "A solenoid is 1m long and 4 cm in diameter. It has five layers of windings of 1000 turns each and carries a current of 7A. The magnetic field at the centre of the solenoid is"
+  ],
+  "choices": [
+    [
+      "<katex>$0.4396 \\times 10^{-5} \\text{ T}$</katex>"
+    ],
+    [
+      "<katex>$4.396 \\times 10^{-2} \\text{ T}$</katex>"
+    ],
+    [
+      "<katex>$43.96 \\times 10^{-2} \\text{ T}$</katex>"
+    ],
+    [
+      "439.6 T"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Total turns <katex>$N = 5 \\times 1000 = 5000$</katex>.",
+    "Length <katex>$l = 1 \\text{ m}$</katex>.",
+    "Turns per unit length <katex>$n = N/l = 5000$</katex>.",
+    "Magnetic field <katex>$B = \\mu_0 n I$</katex>.",
+    "<katex>$B = 4\\pi \\times 10^{-7} \\times 5000 \\times 7$</katex>.",
+    "<katex>$B = 4 \\times 3.14 \\times 35000 \\times 10^{-7} = 439600 \\times 10^{-7} \\approx 4.4 \\times 10^{-2} \\text{ T}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

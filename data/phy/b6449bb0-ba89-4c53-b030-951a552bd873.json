@@ -1,0 +1,32 @@
+{
+  "id": "b6449bb0-ba89-4c53-b030-951a552bd873",
+  "question": [
+    "A block of certain mass is placed on a rough floor. The coefficients of static and kinetic friction between the block and the floor are 0.4 and 0.25 respectively. A constant horizontal force <katex>$F=20$</katex> N acts on it so that the velocity of the block varies with time according to the following graph. The mass of the block is nearly (Take <katex>$g=10 \\text{ ms}^{-2}$</katex>)",
+    "images/e9e4de17-6e21-4ce3-b7c8-bb868df3a7b7.png"
+  ],
+  "choices": [
+    [
+      "4.4 kg"
+    ],
+    [
+      "1.2 kg"
+    ],
+    [
+      "1.0 kg"
+    ],
+    [
+      "2.2 kg"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "From the graph, acceleration <katex>$a = \\frac{v-u}{t} = \\frac{20-0}{3} = \\frac{20}{3} \\text{ m/s}^2$</katex>.",
+    "Since the block is moving, kinetic friction acts on it.",
+    "Equation of motion: <katex>$F - f_k = ma$</katex>",
+    "<katex>$20 - \\mu_k mg = ma$</katex>",
+    "<katex>$20 - 0.25 \\times m \\times 10 = m \\times \\frac{20}{3}$</katex>",
+    "<katex>$20 - 2.5m = 6.67m$</katex>",
+    "<katex>$20 = 9.17m$</katex>",
+    "<katex>$m \\approx 2.18 \\text{ kg} \\approx 2.2 \\text{ kg}$</katex>"
+  ]
+}

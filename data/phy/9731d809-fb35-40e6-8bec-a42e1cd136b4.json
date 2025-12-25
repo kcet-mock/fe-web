@@ -1,0 +1,32 @@
+{
+  "id": "9731d809-fb35-40e6-8bec-a42e1cd136b4",
+  "question": [
+    "A particle is in uniform circular motion. The equation of its trajectory is given by <katex>$(x-2)^2+y^2=25$</katex>, where x and y are in meter. The speed of the particle is <katex>$2 \\text{ ms}^{-1}$</katex>. When the particle attains the lowest 'y' co-ordinate, the acceleration of the particle is"
+  ],
+  "choices": [
+    [
+      "<katex>$0.4 \\hat{j}$</katex>"
+    ],
+    [
+      "<katex>$0.8 \\hat{i}$</katex>"
+    ],
+    [
+      "<katex>$0.8 \\hat{j}$</katex>"
+    ],
+    [
+      "<katex>$0.4 \\hat{i}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Circle center (2, 0), Radius <katex>$R=5$</katex>.",
+    "Lowest y coordinate is at (2, -5).",
+    "Centripetal acceleration is directed towards center (2, 0).",
+    "From (2, -5) to (2, 0), direction is <katex>$+\\hat{j}$</katex>.",
+    "Magnitude <katex>$a_c = v^2/R = 2^2/5 = 4/5 = 0.8 \\text{ m/s}^2$</katex>.",
+    "Vector <katex>$\\vec{a} = 0.8 \\hat{j}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

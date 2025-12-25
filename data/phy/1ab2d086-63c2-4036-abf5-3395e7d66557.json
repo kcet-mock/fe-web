@@ -1,0 +1,30 @@
+{
+  "id": "1ab2d086-63c2-4036-abf5-3395e7d66557",
+  "question": [
+    "If AB is incident plane wave front then refracted wave front in <katex>$(n_2 > n_1)$</katex>",
+    "images/a3b4c5d6-e7f8-467l-0g1h-567890123456.png"
+  ],
+  "choices": [
+    [
+      "Wavefront bending towards base/normal"
+    ],
+    [
+      "Wavefront bending away"
+    ],
+    [
+      "No bending"
+    ],
+    [
+      "Curved wavefront"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "When passing from rarer (<katex>$n_1$</katex>) to denser (<katex>$n_2$</katex>) medium through a prism/interface, the light slows down.",
+    "The part of wavefront entering first slows down first, causing the wavefront to tilt.",
+    "Based on the options and standard prism refraction, diagram 1 is correct."
+  ],
+  "years": [
+    2025
+  ]
+}

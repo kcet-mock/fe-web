@@ -1,0 +1,28 @@
+{
+  "id": "cf93523a-8376-4525-9a82-f36103bd0928",
+  "question": [
+    "A metallic sphere of radius <katex>$R$</katex> carrying a charge <katex>$q$</katex> is kept at certain distance from another metallic sphere of radius <katex>$R/4$</katex> carrying a charge <katex>$Q$</katex>. What is the electric flux at any point inside the metallic sphere of radius <katex>$R$</katex> due to the sphere of radius <katex>$R/4$</katex>?"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{q}{\\epsilon_0}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$\\epsilon_0$</katex>"
+    ],
+    [
+      "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Inside a metallic (conducting) sphere, the net electric field is zero due to electrostatic shielding.",
+    "Thus, the flux is zero."
+  ],
+  "years": [
+    2025
+  ]
+}

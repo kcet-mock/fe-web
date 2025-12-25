@@ -1,0 +1,29 @@
+{
+  "id": "0e470c32-4919-4a95-af22-5c410fd0b6c4",
+  "question": [
+    "Match the following types of nuclei with examples shown\n\n| Column-I | Column-II |\n|---|---|\n| A. Isotopes | i. <katex>$Li^7, Be^7$</katex> |\n| B. Isobars | ii. <katex>$O^{18}, F^{19}$</katex> |\n| C. Isotones | iii. <katex>$H^1, H^2$</katex> |"
+  ],
+  "choices": [
+    [
+      "A-ii, B-iii, C-i"
+    ],
+    [
+      "A-i, B-iii, C-ii"
+    ],
+    [
+      "A-iii, B-ii, C-i"
+    ],
+    [
+      "A-iii, B-i, C-ii"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Isotopes (Same Z): <katex>$H^1, H^2$</katex> (iii)",
+    "Isobars (Same A): <katex>$Li^7, Be^7$</katex> (i)",
+    "Isotones (Same Neutron count A-Z): <katex>$O^{18} (18-8=10), F^{19} (19-9=10)$</katex> (ii)"
+  ],
+  "years": [
+    2025
+  ]
+}

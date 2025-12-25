@@ -1,0 +1,28 @@
+{
+  "id": "178e7933-8d47-41d5-827e-4445e82c2209",
+  "question": [
+    "If we consider an electron and a photon of same de-Broglie wavelength, then they will have same"
+  ],
+  "choices": [
+    [
+      "Angular momentum"
+    ],
+    [
+      "Energy"
+    ],
+    [
+      "Velocity"
+    ],
+    [
+      "Momentum"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "De-Broglie wavelength <katex>$\\lambda = h/p$</katex>.",
+    "If <katex>$\\lambda$</katex> is same, then momentum <katex>$p$</katex> must be same."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "0d2090ea-06b2-43b5-aa48-e25424e5a6f1",
+  "question": [
+    "If <katex>$r_p, v_p, L_p$</katex> and <katex>$r_a, v_a, L_a$</katex> are radii, velocities and angular momenta of a planet at perihelion and aphelion of its elliptical orbit around the Sun respectively, then"
+  ],
+  "choices": [
+    [
+      "<katex>$r_p > r_a, v_p > v_a, L_p > L_a$</katex>"
+    ],
+    [
+      "<katex>$r_p < r_a, v_p > v_a, L_p = L_a$</katex>"
+    ],
+    [
+      "<katex>$r_p > r_a, v_p < v_a, L_a = L_p$</katex>"
+    ],
+    [
+      "<katex>$r_p < r_a, v_p < v_a, L_a < L_p$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Angular momentum is conserved in planetary motion, so <katex>$L_p = L_a$</katex>.",
+    "Perihelion is the closest point to the sun, so <katex>$r_p < r_a$</katex>.",
+    "From conservation of angular momentum <katex>$m v_p r_p = m v_a r_a$</katex>, since <katex>$r_p < r_a$</katex>, then <katex>$v_p > v_a$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

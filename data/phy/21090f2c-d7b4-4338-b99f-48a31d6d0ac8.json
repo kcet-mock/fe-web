@@ -1,0 +1,32 @@
+{
+  "id": "21090f2c-d7b4-4338-b99f-48a31d6d0ac8",
+  "question": [
+    "The variations of kinetic energy <katex>$K(x)$</katex>, potential energy <katex>$U(x)$</katex> and total energy <katex>$E$</katex> as a function of displacement of a particle in SHM is as shown in the figure. The value of <katex>$|x_0|$</katex> is",
+    "images/e5f6a7b8-c9d0-4e9f-2a3b-345678901234.png"
+  ],
+  "choices": [
+    [
+      "<katex>$2A$</katex>"
+    ],
+    [
+      "<katex>$\\frac{A}{\\sqrt{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{2}A$</katex>"
+    ],
+    [
+      "<katex>$\\frac{A}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "From the graph, at <katex>$x_0$</katex>, the kinetic energy curve intersects the potential energy curve.",
+    "Thus, <katex>$KE = PE$</katex>.",
+    "<katex>$\\frac{1}{2}m\\omega^2(A^2 - x^2) = \\frac{1}{2}m\\omega^2 x^2$</katex>",
+    "<katex>$A^2 - x^2 = x^2 \\Rightarrow 2x^2 = A^2$</katex>",
+    "<katex>$x = \\frac{A}{\\sqrt{2}}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}
