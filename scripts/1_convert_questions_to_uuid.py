@@ -127,26 +127,20 @@ def _normalize_explanation(explanation: Any) -> List[str]:
     return _normalize_question_parts(explanation)
 
 
+
 def convert_question(raw: Dict[str, Any]) -> Dict[str, Any]:
-    """Convert a question to the standard format with random UUID."""
-    # Use existing ID if it's already a valid UUID, otherwise generate new one
-    existing_id = raw.get("id")
-    if is_valid_uuid(existing_id):
-        new_id = str(existing_id)
-    else:
-        new_id = str(generate_uuid())
-    
+    """Convert a question to the standard format, preserving the id as-is."""
     record = {
-        "id": new_id,
+        "id": raw.get("id"),
         "question": _normalize_question_parts(raw.get("question")),
         "choices": _normalize_choices(raw.get("choices") or raw.get("options")),
         "correctAnswer": _normalize_correct_answer(raw.get("correctAnswer") or raw.get("answer")),
     }
-    
+
     # Add explanation if present
     if "explanation" in raw and raw["explanation"]:
         record["explanation"] = _normalize_explanation(raw["explanation"])
-    
+
     return record
 
 
