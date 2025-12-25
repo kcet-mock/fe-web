@@ -188,44 +188,25 @@ export default function Home() {
           padding: '1.5rem 2rem',
           boxShadow: '0 6px 24px rgba(15,23,42,0.07)',
         }}>
+          <div style={{ fontWeight: 700, fontSize: '1.15rem', marginBottom: '1.1rem', color: '#22223b' }}>
+            <span style={{ color: '#22c55e' }}>Why KCET Aspirants Trust Us</span>
+          </div>
           <ul style={{
-            listStyle: 'none',
-            margin: 0,
+            listStyle: 'disc',
+            margin: '0 0 0 1.2rem',
             padding: 0,
             display: 'flex',
             flexDirection: 'column',
-            gap: '1.05rem',
+            gap: '0.7rem',
+            color: '#22223b',
+            fontSize: '1.05rem',
+            fontWeight: 500,
           }}>
-            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.7rem' }}>
-              <span style={{ color: '#22c55e', fontSize: '1.25rem', marginTop: '2px' }}>▶</span>
-              <span style={{ fontSize: '1.05rem', color: '#22223b', fontWeight: 500 }}>
-                <strong>Based on the latest KCET exam papers:</strong> All questions and mocks are created using real, recent KCET papers and the official KEA syllabus.
-              </span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.7rem' }}>
-              <span style={{ color: '#22c55e', fontSize: '1.25rem', marginTop: '2px' }}>▶</span>
-              <span style={{ fontSize: '1.05rem', color: '#22223b', fontWeight: 500 }}>
-                <strong>All 4 subjects covered:</strong> Physics, Chemistry, Mathematics, and Biology — practice any or all, just like the real exam.
-              </span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.7rem' }}>
-              <span style={{ color: '#22c55e', fontSize: '1.25rem', marginTop: '2px' }}>▶</span>
-              <span style={{ fontSize: '1.05rem', color: '#22223b', fontWeight: 500 }}>
-                <strong>Trusted by thousands:</strong> Join a community of KCET aspirants who use this platform for serious, exam-style practice.
-              </span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.7rem' }}>
-              <span style={{ color: '#22c55e', fontSize: '1.25rem', marginTop: '2px' }}>▶</span>
-              <span style={{ fontSize: '1.05rem', color: '#22223b', fontWeight: 500 }}>
-                <strong>Absolutely free:</strong> No payments, no card details, and no hidden costs — just sign in and start practicing.
-              </span>
-            </li>
-            <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.7rem' }}>
-              <span style={{ color: '#22c55e', fontSize: '1.25rem', marginTop: '2px' }}>▶</span>
-              <span style={{ fontSize: '1.05rem', color: '#22223b', fontWeight: 500 }}>
-                <strong>Open source & transparent:</strong> This project is fully open source — anyone can view, use, or contribute to the code.
-              </span>
-            </li>
+            <li><strong>Based on the latest KCET exam papers:</strong> All questions and mocks are created using real, recent KCET papers and the official KEA syllabus.</li>
+            <li><strong>All 4 subjects covered:</strong> Physics, Chemistry, Mathematics, and Biology — practice any or all, just like the real exam.</li>
+            <li><strong>Trusted by thousands:</strong> Join a community of KCET aspirants who use this platform for serious, exam-style practice.</li>
+            <li><strong>Absolutely free:</strong> No payments, no card details, and no hidden costs — just sign in and start practicing.</li>
+            <li><strong>Open source & transparent:</strong> This project is fully open source — anyone can view, use, or contribute to the code.</li>
           </ul>
         </div>
 
