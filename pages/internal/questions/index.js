@@ -260,6 +260,18 @@ export default function InternalQuestionsListPage() {
                               );
                             })}
                           </div>
+
+                          {/* Explanation section */}
+                          {Array.isArray(q.explanation) && q.explanation.length > 0 && (
+                            <div className="explanation-section" style={{ marginTop: '1rem', background: '#f8fafc', borderRadius: '0.5rem', padding: '0.75rem 1rem' }}>
+                              <div className="badge-soft" style={{ marginBottom: '0.5rem' }}>Explanation</div>
+                              {q.explanation.map((part, idx) => (
+                                <div key={`ex-${idx}`} className="question-text">
+                                  <RenderContent>{part}</RenderContent>
+                                </div>
+                              ))}
+                            </div>
+                          )}
                         </div>
 
                         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
