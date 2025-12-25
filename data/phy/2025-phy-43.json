@@ -18,13 +18,11 @@
       "Power of <katex>$L_1$</katex> is <katex>$\\frac{P}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
+    "images/2025-phy-43-2.png",
     "Cutting along principal axis: Focal length remains same, Power remains P. So <katex>$L_1$</katex> has power P. Statement (3) is correct.",
     "Statement (4) says Power of <katex>$L_1$</katex> is P/2, which is INCORRECT.",
     "Cutting perpendicular to axis (Plano-convex): Focal length doubles, Power becomes P/2. So <katex>$L_2, L_3$</katex> have power P/2."
-  ],
-  "years": [
-    2025
   ]
 }

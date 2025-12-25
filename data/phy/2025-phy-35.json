@@ -22,8 +22,5 @@
     "Photo current depends on intensity (number of photons), not frequency, provided <katex>$\\nu > \\nu_0$</katex>.",
     "Once emission starts (<katex>$\\nu > \\nu_0$</katex>), if intensity is constant, the current remains constant regardless of increasing frequency.",
     "The graph shows current starting at threshold <katex>$\\nu_0$</katex> and remaining constant."
-  ],
-  "years": [
-    2025
   ]
 }

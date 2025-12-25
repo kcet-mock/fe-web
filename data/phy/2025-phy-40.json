@@ -22,9 +22,7 @@
     "<katex>$Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{6^2 + (24-16)^2} = \\sqrt{36+64} = 10 \\Omega$</katex>.",
     "Current <katex>$I = V/Z = 100/10 = 10$</katex> A.",
     "Net reactance of L and C: <katex>$X_{net} = X_L - X_C = 8 \\Omega$</katex>.",
-    "Voltage across L-C combination <katex>$V_{LC} = I \\times X_{net} = 10 \\times 8 = 80$</katex> V."
-  ],
-  "years": [
-    2025
+    "Voltage across L-C combination <katex>$V_{LC} = I \\times X_{net} = 10 \\times 8 = 80$</katex> V.",
+    "images/2025-phy-40-1.png"
   ]
 }
