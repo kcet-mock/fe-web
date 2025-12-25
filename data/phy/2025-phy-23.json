@@ -1,0 +1,30 @@
+{
+  "id": "2025-phy-23",
+  "question": [
+    "In the following circuit, the terminal voltage across the cell is",
+    "images/a1b2c3d4-0023-4000-8000-000000000023.png"
+  ],
+  "choices": [
+    [
+      "1.68 V"
+    ],
+    [
+      "1.95 V"
+    ],
+    [
+      "2.71 V"
+    ],
+    [
+      "0.52 V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "EMF <katex>$E = 2V$</katex>, internal resistance <katex>$r = 0.1 \\Omega$</katex>, external resistance <katex>$R = 3.9 \\Omega$</katex>.",
+    "Current <katex>$I = \\frac{E}{R+r} = \\frac{2}{3.9+0.1} = \\frac{2}{4} = 0.5 A$</katex>.",
+    "Terminal voltage <katex>$V = E - Ir = 2 - 0.5(0.1) = 2 - 0.05 = 1.95 V$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

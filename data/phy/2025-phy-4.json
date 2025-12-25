@@ -1,0 +1,33 @@
+{
+  "id": "2025-phy-4",
+  "question": [
+    "During an elastic collision between two bodies, which of the following statements are correct?",
+    "I. The initial kinetic energy is equal to the final kinetic energy of the system.",
+    "II. The linear momentum is conserved.",
+    "III. The kinetic energy during the collision time <katex>$\\Delta t$</katex> is not conserved."
+  ],
+  "choices": [
+    [
+      "II and III only"
+    ],
+    [
+      "I and III only"
+    ],
+    [
+      "I, II and III"
+    ],
+    [
+      "I and II only"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In an elastic collision:",
+    "1. Total kinetic energy before collision equals total kinetic energy after collision (Statement I is correct).",
+    "2. Linear momentum is always conserved (Statement II is correct).",
+    "3. During the brief collision interval, some KE is converted to potential energy of deformation, so KE is not conserved *during* the impact (Statement III is correct)."
+  ],
+  "years": [
+    2025
+  ]
+}

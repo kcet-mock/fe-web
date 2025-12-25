@@ -1,0 +1,33 @@
+{
+  "id": "2025-phy-54",
+  "question": [
+    "In determining the refractive index of a glass slab using a travelling microscope, the following readings are tabulated:",
+    "(a) Reading of travelling microscope for ink mark = 5.123 cm",
+    "(b) Reading of travelling microscope for ink mark through glass slab = 6.123 cm",
+    "(c) Reading of travelling microscope for chalk dust on glass slab = 8.123 cm",
+    "From the data, the refractive index of a glass slab is"
+  ],
+  "choices": [
+    [
+      "1.500"
+    ],
+    [
+      "1.601"
+    ],
+    [
+      "1.399"
+    ],
+    [
+      "1.390"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Real Depth = Reading(c) - Reading(a) = 8.123 - 5.123 = 3.000 cm.",
+    "Apparent Depth = Reading(c) - Reading(b) = 8.123 - 6.123 = 2.000 cm.",
+    "Refractive Index <katex>$n = \\frac{\\text{Real Depth}}{\\text{Apparent Depth}} = \\frac{3}{2} = 1.5$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

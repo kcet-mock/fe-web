@@ -1,0 +1,28 @@
+{
+  "id": "2025-phy-47",
+  "question": [
+    "The total energy carried by the light wave when it travels from a rarer to a non-reflecting and non-absorbing medium"
+  ],
+  "choices": [
+    [
+      "remains same"
+    ],
+    [
+      "increases"
+    ],
+    [
+      "either increases or decreases depending upon angle of incidence"
+    ],
+    [
+      "decreases"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Energy conservation applies. If there is no reflection or absorption, all energy is transmitted.",
+    "Intensity might change due to area change, but total power/energy remains constant."
+  ],
+  "years": [
+    2025
+  ]
+}

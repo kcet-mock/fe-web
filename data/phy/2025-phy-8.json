@@ -1,0 +1,29 @@
+{
+  "id": "2025-phy-8",
+  "question": [
+    "The total energy of a satellite in a circular orbit at a distance <katex>$(R+h)$</katex> from the centre of the Earth varies as [R is the radius of the Earth and h is the height of the orbit from Earth's surface]"
+  ],
+  "choices": [
+    [
+      "<katex>$-\\frac{1}{(R+h)}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{(R+h)^2}$</katex>"
+    ],
+    [
+      "<katex>$-\\frac{1}{(R+h)^2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{(R+h)}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Total energy of a satellite is given by <katex>$E = -\\frac{GMm}{2r}$</katex>.",
+    "Here <katex>$r = R+h$</katex>.",
+    "So, <katex>$E \\propto -\\frac{1}{R+h}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

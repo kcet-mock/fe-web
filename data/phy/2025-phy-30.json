@@ -1,0 +1,29 @@
+{
+  "id": "2025-phy-30",
+  "question": [
+    "Two similar galvanometers are converted into an ammeter and a milliammeter. The shunt resistance of ammeter as compared to the shunt resistance of milliammeter will be"
+  ],
+  "choices": [
+    [
+      "Zero"
+    ],
+    [
+      "More"
+    ],
+    [
+      "Less"
+    ],
+    [
+      "Equal"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "An ammeter measures larger currents than a milliammeter.",
+    "To measure larger current, more current must bypass the galvanometer, requiring a smaller shunt resistance.",
+    "Therefore, the ammeter shunt is less."
+  ],
+  "years": [
+    2025
+  ]
+}

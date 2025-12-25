@@ -1,0 +1,28 @@
+{
+  "id": "2025-phy-35",
+  "question": [
+    "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the variation of photo current I with the frequency v of incident light is"
+  ],
+  "choices": [
+    [
+      "images/a1b2c3d4-0035-4000-8000-000000000035a.png"
+    ],
+    [
+      "images/a1b2c3d4-0035-4000-8000-000000000035b.png"
+    ],
+    [
+      "images/a1b2c3d4-0035-4000-8000-000000000035c.png"
+    ],
+    [
+      "images/a1b2c3d4-0035-4000-8000-000000000035d.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Current only flows if frequency <katex>$\\nu > \\nu_0$</katex> (threshold).",
+    "Graph 1 correctly shows zero current until <katex>$\\nu_0$</katex>, then a rise."
+  ],
+  "years": [
+    2025
+  ]
+}

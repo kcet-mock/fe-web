@@ -1,0 +1,30 @@
+{
+  "id": "2025-phy-19",
+  "question": [
+    "Charges are uniformly spread on the surface of a conducting sphere. The electric field from the centre of sphere to a point outside the sphere varies with distance r from the centre as"
+  ],
+  "choices": [
+    [
+      "images/a1b2c3d4-0019-4000-8000-000000000019a.png"
+    ],
+    [
+      "images/a1b2c3d4-0019-4000-8000-000000000019b.png"
+    ],
+    [
+      "images/a1b2c3d4-0019-4000-8000-000000000019c.png"
+    ],
+    [
+      "images/a1b2c3d4-0019-4000-8000-000000000019d.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For a conducting sphere:",
+    "Inside (<katex>$r < R$</katex>), Electric Field <katex>$E = 0$</katex>.",
+    "Outside (<katex>$r \\ge R$</katex>), <katex>$E \\propto \\frac{1}{r^2}$</katex>.",
+    "The correct graph shows 0 up to R, then a decreasing curve."
+  ],
+  "years": [
+    2025
+  ]
+}

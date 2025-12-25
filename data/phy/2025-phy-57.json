@@ -1,0 +1,28 @@
+{
+  "id": "2025-phy-57",
+  "question": [
+    "Which of the following expression can be deduced on the basis of dimensional analysis?"
+  ],
+  "choices": [
+    [
+      "<katex>$x = A \\cos \\omega t$</katex>"
+    ],
+    [
+      "<katex>$N = N_0 e^{-\\lambda t}$</katex>"
+    ],
+    [
+      "<katex>$F = 6\\pi \\eta r v$</katex>"
+    ],
+    [
+      "<katex>$s = ut + \\frac{1}{2}at^2$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Dimensional analysis works for power-law product relations.",
+    "It cannot deduce relations involving trigonometric functions, exponentials, or sums of terms."
+  ],
+  "years": [
+    2025
+  ]
+}

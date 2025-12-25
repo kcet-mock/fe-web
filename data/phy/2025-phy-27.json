@@ -1,0 +1,29 @@
+{
+  "id": "2025-phy-27",
+  "question": [
+    "The graph between variation of resistance of a metal wire as a function of its diameter keeping other parameters like length and temperature constant is"
+  ],
+  "choices": [
+    [
+      "images/a1b2c3d4-0027-4000-8000-000000000027a.png"
+    ],
+    [
+      "images/a1b2c3d4-0027-4000-8000-000000000027b.png"
+    ],
+    [
+      "images/a1b2c3d4-0027-4000-8000-000000000027c.png"
+    ],
+    [
+      "images/a1b2c3d4-0027-4000-8000-000000000027d.png"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$R = \\frac{\\rho L}{A} = \\frac{\\rho L}{\\pi (D/2)^2} \\propto \\frac{1}{D^2}$</katex>.",
+    "The graph of <katex>$R$</katex> vs <katex>$D$</katex> will be a hyperbolic curve decreasing rapidly.",
+    "Option 3 represents this curve."
+  ],
+  "years": [
+    2025
+  ]
+}

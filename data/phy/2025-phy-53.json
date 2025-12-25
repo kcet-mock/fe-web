@@ -1,0 +1,31 @@
+{
+  "id": "2025-phy-53",
+  "question": [
+    "The circuit shown in figure contains two ideal diodes <katex>$D_1$</katex> and <katex>$D_2$</katex>. If a cell of emf 3V and negligible internal resistance is connected as shown, then the current through <katex>$70 \\Omega$</katex> resistance, (in ampere) is",
+    "images/a1b2c3d4-0053-4000-8000-000000000053.png"
+  ],
+  "choices": [
+    [
+      "0.01"
+    ],
+    [
+      "0.02"
+    ],
+    [
+      "0.03"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Based on the standard circuit configuration: <katex>$D_1$</katex> is reverse biased (open) and <katex>$D_2$</katex> is forward biased (closed).",
+    "The circuit path is through <katex>$30 \\Omega$</katex> (bottom) and <katex>$70 \\Omega$</katex>.",
+    "Total Resistance <katex>$R = 30 + 70 = 100 \\Omega$</katex>.",
+    "Current <katex>$I = V/R = 3/100 = 0.03$</katex> A."
+  ],
+  "years": [
+    2025
+  ]
+}

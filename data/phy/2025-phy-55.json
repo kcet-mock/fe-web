@@ -1,0 +1,29 @@
+{
+  "id": "2025-phy-55",
+  "question": [
+    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the circuit. He unplugged a resistance of <katex>$5200 \\Omega$</katex> in R. When <katex>$K_1$</katex> is closed and <katex>$K_2$</katex> is open, the deflection observed in the galvanometer is 26 div. When <katex>$K_2$</katex> is also closed and a resistance of <katex>$90 \\Omega$</katex> is removed in S, the deflection becomes 13 div. The resistance of galvanometer is nearly"
+  ],
+  "choices": [
+    [
+      "45.0 <katex>$\\Omega$</katex>"
+    ],
+    [
+      "103.0 <katex>$\\Omega$</katex>"
+    ],
+    [
+      "91.6 <katex>$\\Omega$</katex>"
+    ],
+    [
+      "116.0 <katex>$\\Omega$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Using the relation for half deflection: <katex>$G \\approx S$</katex> (if R is high).",
+    "Precise calculation: <katex>$G = \\frac{RS}{R-S} \\approx S$</katex>.",
+    "More accurate solution steps typically give <katex>$G = 91.6 \\Omega$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

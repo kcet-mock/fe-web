@@ -1,0 +1,27 @@
+{
+  "id": "2025-phy-44",
+  "question": [
+    "The image formed by an objective lens of a compound microscope is"
+  ],
+  "choices": [
+    [
+      "Real and diminished"
+    ],
+    [
+      "Real and enlarged"
+    ],
+    [
+      "Virtual and enlarged"
+    ],
+    [
+      "Virtual and diminished"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In a compound microscope, the objective lens forms a real, inverted, and enlarged image of the object placed just outside its focus."
+  ],
+  "years": [
+    2025
+  ]
+}

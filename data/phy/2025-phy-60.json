@@ -1,0 +1,31 @@
+{
+  "id": "2025-phy-60",
+  "question": [
+    "A particle is in uniform circular motion. The equation of its trajectory is given by <katex>$(x-2)^2 + y^2 = 25$</katex>, where x and y are in meter. The speed of the particle is <katex>$2 ms^{-1}$</katex>. When the particle attains the lowest 'y' co-ordinate, the acceleration of the particle is (in <katex>$ms^{-2}$</katex>)"
+  ],
+  "choices": [
+    [
+      "0.4 j"
+    ],
+    [
+      "0.8 i"
+    ],
+    [
+      "0.8 j"
+    ],
+    [
+      "0.4 i"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Circle center (2,0), Radius R=5.",
+    "Lowest point is at (2, -5).",
+    "Acceleration is centripetal, directed towards the center (from (2,-5) to (2,0)). Direction is +j.",
+    "Magnitude <katex>$a = v^2/R = 2^2/5 = 0.8$</katex>.",
+    "Vector: <katex>$0.8 \\hat{j}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

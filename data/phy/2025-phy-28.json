@@ -1,0 +1,28 @@
+{
+  "id": "2025-phy-28",
+  "question": [
+    "Two thin long parallel wires separated by a distance 'r' from each other in vacuum carry a current of I ampere in opposite directions. Then, they will"
+  ],
+  "choices": [
+    [
+      "Attract each other with a force per unit length of <katex>$\\frac{\\mu_0 I^2}{2\\pi r}$</katex>"
+    ],
+    [
+      "Repel each other with a force per unit length of <katex>$\\frac{\\mu_0 I^2}{2\\pi r}$</katex>"
+    ],
+    [
+      "Repel each other with a force per unit length of <katex>$\\frac{\\mu_0 I^2}{2\\pi r^2}$</katex>"
+    ],
+    [
+      "Attract each other with a force per unit length of <katex>$\\frac{\\mu_0 I^2}{2\\pi r^2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Parallel currents attract; Anti-parallel (opposite) currents repel.",
+    "Force per unit length <katex>$F/l = \\frac{\\mu_0 I_1 I_2}{2\\pi r} = \\frac{\\mu_0 I^2}{2\\pi r}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

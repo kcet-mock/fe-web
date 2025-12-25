@@ -1,0 +1,29 @@
+{
+  "id": "2025-phy-21",
+  "question": [
+    "Which of the following statements is not true?"
+  ],
+  "choices": [
+    [
+      "Work done to move a charge on an equipotential surface is not zero"
+    ],
+    [
+      "Equipotential surfaces are the surfaces where the potential is constant"
+    ],
+    [
+      "Equipotential surfaces for a uniform electric field are parallel and equidistant from each other"
+    ],
+    [
+      "Electric field is always perpendicular to an equipotential surfaces"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "By definition, the potential difference <katex>$\\Delta V$</katex> on an equipotential surface is zero.",
+    "Work done <katex>$W = q \\Delta V = 0$</katex>.",
+    "So, the statement that work done is *not* zero is false."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2025-phy-59",
+  "question": [
+    "In the projectile motion of a particle on a level ground, which of the following remains constant with reference to time and position?"
+  ],
+  "choices": [
+    [
+      "Average velocity between any two points on the path"
+    ],
+    [
+      "Horizontal component of velocity"
+    ],
+    [
+      "Angle between the instantaneous velocity with the horizontal"
+    ],
+    [
+      "Vertical component of the velocity of the projectile"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In projectile motion (ignoring air resistance), there is no acceleration in the horizontal direction.",
+    "Thus, the horizontal component of velocity remains constant."
+  ],
+  "years": [
+    2025
+  ]
+}
