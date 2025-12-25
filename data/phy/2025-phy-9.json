@@ -19,10 +19,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "<katex>$\\Delta l = \\frac{Fl}{AY} = \\frac{Fl}{\\pi r^2 Y}$</katex>.",
-    "Ratio <katex>$\\frac{\\Delta l_1}{\\Delta l_2} = \\frac{l_1}{l_2} \\times (\\frac{r_2}{r_1})^2$</katex> (since F and Y are same).",
-    "Diameter ratio 1:2 means radius ratio 1:2. Length ratio 1:3.",
-    "<katex>$\\frac{\\Delta l_1}{\\Delta l_2} = \\frac{1}{3} \\times (\\frac{2}{1})^2 = \\frac{1}{3} \\times 4 = \\frac{4}{3}$</katex>."
+    "Extension <katex>$\\Delta l = \\frac{Fl}{AY} = \\frac{Fl}{\\pi r^2 Y}$</katex>.",
+    "Ratio: <katex>$\\frac{\\Delta l_1}{\\Delta l_2} = \\frac{l_1}{l_2} \\times (\\frac{r_2}{r_1})^2$</katex> (Since F and Y are same).",
+    "Given <katex>$\\frac{l_1}{l_2} = \\frac{1}{3}$</katex> and <katex>$\\frac{d_1}{d_2} = \\frac{1}{2} \\Rightarrow \\frac{r_1}{r_2} = \\frac{1}{2} \\Rightarrow \\frac{r_2}{r_1} = 2$</katex>.",
+    "<katex>$\\frac{\\Delta l_1}{\\Delta l_2} = \\frac{1}{3} \\times (2)^2 = \\frac{4}{3}$</katex>."
   ],
   "years": [
     2025

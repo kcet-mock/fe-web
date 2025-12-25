@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "By definition, the potential difference <katex>$\\Delta V$</katex> on an equipotential surface is zero.",
-    "Work done <katex>$W = q \\Delta V = 0$</katex>.",
-    "So, the statement that work done is *not* zero is false."
+    "An equipotential surface has the same potential at every point. The potential difference <katex>$\\Delta V = 0$</katex>.",
+    "Work done <katex>$W = q\\Delta V = 0$</katex>.",
+    "Statement 1 says work done is *not* zero, which is incorrect (not true)."
   ],
   "years": [
     2025

@@ -5,10 +5,10 @@
   ],
   "choices": [
     [
-      "A current carrying conductor produces an electric field around it."
+      "A current carrying conductor produces an electric field around it"
     ],
     [
-      "A straight current carrying conductor has circular magnetic field lines around it."
+      "A straight current carrying conductor has circular magnetic field lines around it"
     ],
     [
       "The direction of magnetic field due to a current element is given by Flemings Left Hand Rule"
@@ -19,10 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "A straight current-carrying conductor produces magnetic field lines in the form of concentric circles (Right Hand Thumb Rule).",
-    "Statement 1 is false (wire is neutral).",
-    "Statement 3 is false (Field direction is by Right Hand Rule).",
-    "Statement 4 is false (Field inside solenoid is uniform)."
+    "A stationary current carrying wire is electrically neutral, so E=0 outside.",
+    "The magnetic field lines around a straight current carrying wire form concentric circles (Right Hand Thumb Rule).",
+    "Field inside a long solenoid is uniform."
   ],
   "years": [
     2025

@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-39",
   "question": [
-    "A sinusoidal voltage produced by an AC generator at any instant t is given by an equation <katex>$V=311 \\sin 314 t$</katex>. The rms value of voltage and frequency are"
+    "A sinusoidal voltage produced by an AC generator at any instant t is given by an equation <katex>$V=311~sin~314 t$</katex>. The rms value of voltage and frequency are respectively"
   ],
   "choices": [
     [
@@ -19,10 +19,9 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Peak voltage <katex>$V_0 = 311$</katex>.",
-    "<katex>$V_{rms} = V_0 / \\sqrt{2} = 311 / 1.414 \\approx 220$</katex> V.",
-    "<katex>$\\omega = 314$</katex>.",
-    "<katex>$f = \\omega / 2\\pi = 314 / (2 \\times 3.14) = 50$</katex> Hz."
+    "Compare with <katex>$V = V_0 \\sin \\omega t$</katex>.",
+    "<katex>$V_0 = 311$</katex> V. <katex>$V_{rms} = \\frac{V_0}{\\sqrt{2}} = \\frac{311}{1.414} \\approx 220$</katex> V.",
+    "<katex>$\\omega = 314$</katex>. <katex>$2\\pi f = 314 \\Rightarrow f = \\frac{314}{2 \\times 3.14} = 50$</katex> Hz."
   ],
   "years": [
     2025

@@ -20,7 +20,7 @@
   "correctAnswer": 0,
   "explanation": [
     "Parallel currents attract; Anti-parallel (opposite) currents repel.",
-    "Force per unit length <katex>$F/l = \\frac{\\mu_0 I_1 I_2}{2\\pi r} = \\frac{\\mu_0 I^2}{2\\pi r}$</katex>."
+    "Force per unit length <katex>$\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi r} = \\frac{\\mu_0 I^2}{2\\pi r}$</katex>."
   ],
   "years": [
     2025

@@ -19,9 +19,10 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "An ammeter measures larger currents than a milliammeter.",
-    "To measure larger current, more current must bypass the galvanometer, requiring a smaller shunt resistance.",
-    "Therefore, the ammeter shunt is less."
+    "Shunt resistance <katex>$S = \\frac{I_g G}{I - I_g}$</katex>.",
+    "For an Ammeter, the range I is large (e.g., 1A). For a milliammeter, I is small (e.g., 1mA).",
+    "Since S is inversely proportional to I (approximately), a larger range requires a smaller shunt.",
+    "Therefore, Ammeter (higher range) has less shunt resistance than Milliammeter."
   ],
   "years": [
     2025

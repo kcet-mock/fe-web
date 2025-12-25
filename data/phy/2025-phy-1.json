@@ -2,7 +2,7 @@
   "id": "2025-phy-1",
   "question": [
     "A wooden block of mass M lies on a rough floor. Another wooden block of the same mass is hanging from the point O through strings as shown in the figure. To achieve equilibrium, the co-efficient of static friction between the block on the floor with the floor itself is",
-    "images/92e98a9f-23e0-4a04-a7bb-024db099f36f.png"
+    "images/2025-phy-1-1.png"
   ],
   "choices": [
     [
@@ -20,12 +20,14 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "For equilibrium, the forces must balance.",
-    "The tension in the string is <katex>$T$</katex>.",
-    "Vertical component: <katex>$T \\sin \\theta = Mg$</katex> (1)",
-    "Horizontal component balances friction: <katex>$T \\cos \\theta = \\mu Mg$</katex> (2)",
-    "Dividing (2) by (1):",
+    "For equilibrium:",
+    "Vertical component of tension: <katex>$T \\sin \\theta = Mg$</katex> ... (i)",
+    "Horizontal component balancing friction: <katex>$T \\cos \\theta = f_s = \\mu Mg$</katex> ... (ii)",
+    "Dividing (ii) by (i):",
     "<katex>$\\frac{T \\cos \\theta}{T \\sin \\theta} = \\frac{\\mu Mg}{Mg}$</katex>",
-    "<katex>$\\cot \\theta = \\mu$</katex>"
+    "<katex>$\\mu = \\cot \\theta$</katex>"
+  ],
+  "years": [
+    2025
   ]
 }

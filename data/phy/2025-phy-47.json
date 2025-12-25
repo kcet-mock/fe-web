@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Energy conservation applies. If there is no reflection or absorption, all energy is transmitted.",
-    "Intensity might change due to area change, but total power/energy remains constant."
+    "If the medium is non-reflecting and non-absorbing, there is no loss of energy.",
+    "The energy is conserved as it transmits into the new medium."
   ],
   "years": [
     2025

@@ -2,7 +2,7 @@
   "id": "2025-phy-24",
   "question": [
     "Two cells of emfs <katex>$E_1$</katex> and <katex>$E_2$</katex> and internal resistances <katex>$r_1$</katex> and <katex>$r_2$</katex> <katex>$(E_2 > E_1$</katex> and <katex>$r_2 > r_1)$</katex> respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is <katex>$E_{eq}$</katex>. Then",
-    "images/a1b2c3d4-0024-4000-8000-000000000024.png"
+    "images/2025-phy-24-1.png"
   ],
   "choices": [
     [
@@ -20,9 +20,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "<katex>$E_{eq} = \\frac{E_1 r_2 + E_2 r_1}{r_1 + r_2}$</katex>.",
-    "The equivalent EMF is a weighted average that lies between <katex>$E_1$</katex> and <katex>$E_2$</katex>.",
-    "Since <katex>$r_1 < r_2$</katex>, the cell with lower internal resistance dominates, so <katex>$E_{eq}$</katex> is closer to <katex>$E_1$</katex>."
+    "Equivalent EMF for parallel combination is <katex>$E_{eq} = \\frac{\\frac{E_1}{r_1} + \\frac{E_2}{r_2}}{\\frac{1}{r_1} + \\frac{1}{r_2}}$</katex>.",
+    "This is a weighted average of <katex>$E_1$</katex> and <katex>$E_2$</katex> based on conductance (1/r).",
+    "The value will lie between <katex>$E_1$</katex> and <katex>$E_2$</katex>. Since <katex>$r_2 > r_1$</katex>, the conductance <katex>$1/r_1 > 1/r_2$</katex>.",
+    "The equivalent value will be closer to the source with the lower internal resistance (<katex>$E_1$</katex>)."
   ],
   "years": [
     2025

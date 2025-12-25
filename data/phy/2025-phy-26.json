@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "In a series circuit (the wire), charge is conserved, so Current (I) is constant.",
-    "Drift speed <katex>$v_d = I / (nAe)$</katex> depends on Area.",
-    "Electric field <katex>$E = J/\\sigma$</katex> depends on Area.",
+    "In a series circuit (or single wire), conservation of charge dictates that the current (I) must be the same at all cross-sections.",
+    "Drift velocity <katex>$v_d = I/(nAq)$</katex> depends on Area A, so it varies.",
+    "Electric field E also depends on A.",
     "Only Current is constant."
   ],
   "years": [

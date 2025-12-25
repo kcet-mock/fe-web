@@ -5,24 +5,23 @@
   ],
   "choices": [
     [
-      "images/a1b2c3d4-0019-4000-8000-000000000019a.png"
+      "images/2025-phy-19-1.png"
     ],
     [
-      "images/a1b2c3d4-0019-4000-8000-000000000019b.png"
+      "images/2025-phy-19-2.png"
     ],
     [
-      "images/a1b2c3d4-0019-4000-8000-000000000019c.png"
+      "images/2025-phy-19-3.png"
     ],
     [
-      "images/a1b2c3d4-0019-4000-8000-000000000019d.png"
+      "images/2025-phy-19-4.png"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "For a conducting sphere:",
-    "Inside (<katex>$r < R$</katex>), Electric Field <katex>$E = 0$</katex>.",
-    "Outside (<katex>$r \\ge R$</katex>), <katex>$E \\propto \\frac{1}{r^2}$</katex>.",
-    "The correct graph shows 0 up to R, then a decreasing curve."
+    "For a conducting sphere, the electric field inside (<katex>$r < R$</katex>) is zero.",
+    "Outside the sphere (<katex>$r \\ge R$</katex>), <katex>$E = \\frac{kQ}{r^2}$</katex>, so E decreases as <katex>$1/r^2$</katex>.",
+    "The graph must show E=0 until r=R, then a sudden jump and a decay. This corresponds to graph (1)."
   ],
   "years": [
     2025

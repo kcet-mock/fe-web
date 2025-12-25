@@ -2,7 +2,7 @@
   "id": "2025-phy-17",
   "question": [
     "You are given a dipole of charge +q and -q separated by a distance 2R. A sphere 'A' of radius 'R' passes through the centre of the dipole as shown below and another sphere 'B' of radius '2R' passes through the charge +q. Then the electric flux through the sphere A is",
-    "images/a1b2c3d4-0017-4000-8000-000000000017.png"
+    "images/2025-phy-17-1.png"
   ],
   "choices": [
     [
@@ -20,10 +20,9 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "According to the diagram and description:",
-    "Sphere A of radius R passes through the center of the dipole. The dipole length is 2R, so the center to either charge is R.",
-    "Sphere A is centered at -q (based on standard interpretation of such diagrams where A encloses one charge).",
-    "If A encloses -q, by Gauss's Law, Flux <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0} = \\frac{-q}{\\epsilon_0}$</katex>."
+    "By Gauss's Law, <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
+    "Sphere A encloses only the negative charge (-q) of the dipole.",
+    "Therefore, Flux <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>."
   ],
   "years": [
     2025

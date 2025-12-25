@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "De-Broglie wavelength <katex>$\\lambda = \\frac{h}{p}$</katex>.",
+    "de-Broglie wavelength <katex>$\\lambda = \\frac{h}{p}$</katex>.",
     "If <katex>$\\lambda$</katex> is the same, then momentum <katex>$p$</katex> must be the same."
   ],
   "years": [

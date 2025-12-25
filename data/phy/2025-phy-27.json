@@ -5,23 +5,23 @@
   ],
   "choices": [
     [
-      "images/a1b2c3d4-0027-4000-8000-000000000027a.png"
+      "images/2025-phy-27-1.png"
     ],
     [
-      "images/a1b2c3d4-0027-4000-8000-000000000027b.png"
+      "images/2025-phy-27-2.png"
     ],
     [
-      "images/a1b2c3d4-0027-4000-8000-000000000027c.png"
+      "images/2025-phy-27-3.png"
     ],
     [
-      "images/a1b2c3d4-0027-4000-8000-000000000027d.png"
+      "images/2025-phy-27-4.png"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "<katex>$R = \\frac{\\rho L}{A} = \\frac{\\rho L}{\\pi (D/2)^2} \\propto \\frac{1}{D^2}$</katex>.",
-    "The graph of <katex>$R$</katex> vs <katex>$D$</katex> will be a hyperbolic curve decreasing rapidly.",
-    "Option 3 represents this curve."
+    "Resistance <katex>$R = \\frac{\\rho l}{A} = \\frac{\\rho l}{\\pi (D/2)^2} = \\frac{4\\rho l}{\\pi D^2}$</katex>.",
+    "<katex>$R \\propto \\frac{1}{D^2}$</katex>.",
+    "This is an inverse square relationship, represented by a hyperbola-like curve approaching axes asymptotically (Graph 3)."
   ],
   "years": [
     2025

@@ -5,23 +5,23 @@
   ],
   "choices": [
     [
-      "images/a1b2c3d4-0033-4000-8000-000000000033a.png"
+      "images/2025-phy-33-1.png"
     ],
     [
-      "images/a1b2c3d4-0033-4000-8000-000000000033b.png"
+      "images/2025-phy-33-2.png"
     ],
     [
-      "images/a1b2c3d4-0033-4000-8000-000000000033c.png"
+      "images/2025-phy-33-3.png"
     ],
     [
-      "images/a1b2c3d4-0033-4000-8000-000000000033d.png"
+      "images/2025-phy-33-4.png"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "For a straight conductor, <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>.",
+    "For an infinite straight wire, <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>.",
     "<katex>$B \\propto \\frac{1}{r}$</katex>.",
-    "The graph is a rectangular hyperbola (Option 2)."
+    "The graph is a rectangular hyperbola (Graph 2)."
   ],
   "years": [
     2025

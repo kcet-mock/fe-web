@@ -2,27 +2,28 @@
   "id": "2025-phy-25",
   "question": [
     "The variations of resistivity <katex>$\\rho$</katex> with absolute temperature T for three different materials X, Y and Z are shown in the graph below. Identify the materials X, Y and Z.",
-    "images/a1b2c3d4-0025-4000-8000-000000000025.png"
+    "images/2025-phy-25-1.png"
   ],
   "choices": [
     [
-      "X copper, Y - semiconductor, Z - nichrome"
+      "X - copper, Y - semiconductor, Z - nichrome"
     ],
     [
-      "X - semiconductor, Y nichrome, Z copper"
+      "X - semiconductor, Y - nichrome, Z - copper"
     ],
     [
-      "X - nichrome, Y copper, Z - semiconductor"
+      "X - nichrome, Y - copper, Z - semiconductor"
     ],
     [
-      "X copper, Y - nichrome, Z - semiconductor"
+      "X - copper, Y - nichrome, Z - semiconductor"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "X shows linear increase with Temp: Metal (Copper).",
-    "Y shows weak dependence/high rho: Alloy (Nichrome).",
-    "Z shows decrease with Temp: Semiconductor."
+    "X: Resistivity increases non-linearly with temperature (Typical of metals/conductors like Copper).",
+    "Y: Resistivity is high and increases weakly/linearly with temperature (Typical of alloys like Nichrome).",
+    "Z: Resistivity decreases with temperature (Typical of Semiconductors).",
+    "Therefore: X-Copper, Y-Nichrome, Z-Semiconductor."
   ],
   "years": [
     2025

@@ -20,7 +20,7 @@
   "correctAnswer": 0,
   "explanation": [
     "In projectile motion (ignoring air resistance), there is no acceleration in the horizontal direction.",
-    "Thus, the horizontal component of velocity remains constant."
+    "Therefore, the horizontal component of velocity (<katex>$u \\cos \\theta$</katex>) remains constant."
   ],
   "years": [
     2025

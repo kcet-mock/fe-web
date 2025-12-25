@@ -2,7 +2,12 @@
   "id": "2025-phy-20",
   "question": [
     "Match Column-I with Column-II related to an electric dipole of dipole moment <katex>$\\vec{p}$</katex> that is placed in a uniform electric field <katex>$\\vec{E}$</katex>.",
-    "| Column I (Angle) | Column II (Potential Energy) |\n|---|---|\n| a) <katex>$180^{\\circ}$</katex> | i) <katex>$-pE$</katex> |\n| b) <katex>$120^{\\circ}$</katex> | ii) <katex>$pE$</katex> |\n| c) <katex>$90^{\\circ}$</katex> | iii) <katex>$\\frac{1}{2}pE$</katex> |\n| | iv) Zero |"
+    "| | Column - I (Angle between p and E) | | Column - II (Potential energy) |",
+    "|---|---|---|---|",
+    "| a) | <katex>$180^{\\circ}$</katex> | i) | <katex>$-pE$</katex> |",
+    "| b) | <katex>$120^{\\circ}$</katex> | ii) | <katex>$pE$</katex> |",
+    "| c) | <katex>$90^{\\circ}$</katex> | iii) | <katex>$\\frac{1}{2}pE$</katex> |",
+    "| | | iv) | Zero |"
   ],
   "choices": [
     [
@@ -20,10 +25,11 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Potential Energy <katex>$U = -pE \\cos \\theta$</katex>.",
-    "a) <katex>$\\theta = 180^{\\circ} \\Rightarrow U = -pE(-1) = pE$</katex> (Matches ii).",
-    "b) <katex>$\\theta = 120^{\\circ} \\Rightarrow U = -pE(-0.5) = 0.5pE$</katex> (Matches iii).",
-    "c) <katex>$\\theta = 90^{\\circ} \\Rightarrow U = -pE(0) = 0$</katex> (Matches iv)."
+    "Potential Energy <katex>$U = -pE \\cos \\theta$</katex>",
+    "a) <katex>$\\theta = 180^{\\circ} \\Rightarrow U = -pE(-1) = pE$</katex> (Matches ii)",
+    "b) <katex>$\\theta = 120^{\\circ} \\Rightarrow U = -pE(-0.5) = 0.5 pE$</katex> (Matches iii)",
+    "c) <katex>$\\theta = 90^{\\circ} \\Rightarrow U = -pE(0) = 0$</katex> (Matches iv)",
+    "Correct match: a-ii, b-iii, c-iv."
   ],
   "years": [
     2025

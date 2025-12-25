@@ -8,10 +8,10 @@
       "<katex>$\\sin^{-1}(\\frac{n}{2})$</katex>"
     ],
     [
-      "<katex>$2 \\cos^{-1}(\\frac{n}{2})$</katex>"
+      "<katex>$2\\cos^{-1}(\\frac{n}{2})$</katex>"
     ],
     [
-      "<katex>$2 \\sin^{-1}(\\frac{n}{2})$</katex>"
+      "<katex>$2\\sin^{-1}(\\frac{n}{2})$</katex>"
     ],
     [
       "<katex>$\\cos^{-1}(\\frac{n}{2})$</katex>"
@@ -19,10 +19,11 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Snell's Law: <katex>$\\sin i = n \\sin r$</katex>.",
     "Given <katex>$i = 2r$</katex>.",
-    "<katex>$\\sin(2r) = n \\sin r \\Rightarrow 2 \\sin r \\cos r = n \\sin r$</katex>.",
-    "<katex>$2 \\cos r = n \\Rightarrow r = \\cos^{-1}(n/2)$</katex>.",
+    "Snell's Law: <katex>$1 \\cdot \\sin i = n \\sin r$</katex>",
+    "<katex>$\\sin(2r) = n \\sin r$</katex>",
+    "<katex>$2 \\sin r \\cos r = n \\sin r$</katex>",
+    "<katex>$\\cos r = n/2 \\Rightarrow r = \\cos^{-1}(n/2)$</katex>",
     "<katex>$i = 2r = 2 \\cos^{-1}(n/2)$</katex>."
   ],
   "years": [

@@ -23,8 +23,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Real Depth = Reading(c) - Reading(a) = 8.123 - 5.123 = 3.000 cm.",
-    "Apparent Depth = Reading(c) - Reading(b) = 8.123 - 6.123 = 2.000 cm.",
+    "Real Depth = Reading(c) - Reading(a) = 8.123 - 5.123 = 3 cm.",
+    "Apparent Depth = Reading(c) - Reading(b) = 8.123 - 6.123 = 2 cm.",
     "Refractive Index <katex>$n = \\frac{\\text{Real Depth}}{\\text{Apparent Depth}} = \\frac{3}{2} = 1.5$</katex>."
   ],
   "years": [

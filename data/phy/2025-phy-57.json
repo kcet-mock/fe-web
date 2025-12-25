@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-57",
   "question": [
-    "Which of the following expression can be deduced on the basis of dimensional analysis?"
+    "Which of the following expression can be deduced on the basis of dimensional analysis? (All symbols have their usual meanings)"
   ],
   "choices": [
     [
@@ -11,7 +11,7 @@
       "<katex>$N = N_0 e^{-\\lambda t}$</katex>"
     ],
     [
-      "<katex>$F = 6\\pi \\eta r v$</katex>"
+      "<katex>$F = 6\\pi\\eta rv$</katex>"
     ],
     [
       "<katex>$s = ut + \\frac{1}{2}at^2$</katex>"
@@ -19,8 +19,9 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Dimensional analysis works for power-law product relations.",
-    "It cannot deduce relations involving trigonometric functions, exponentials, or sums of terms."
+    "Dimensional analysis cannot determine dimensionless constants like <katex>$\\cos, e, \\frac{1}{2}$</katex> etc.",
+    "Only the form of dependencies like <katex>$F \\propto \\eta r v$</katex> can be derived. The constant <katex>$6\\pi$</katex> is experimental.",
+    "However, among options, relations involving transcendental functions (cos, exp) or sums cannot be fully derived strictly from dimensions alone without knowing the structure. Stokes law is often cited as a classic example of dimensional derivation (excluding the constant)."
   ],
   "years": [
     2025

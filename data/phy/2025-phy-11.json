@@ -1,8 +1,8 @@
 {
   "id": "2025-phy-11",
   "question": [
-    "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained as indicated. Assuming no heat energy loss occurs through the curved surfaces of the rods, the temperature at the junction X is",
-    "images/a1b2c3d4-0011-4000-8000-000000000011.png"
+    "Three metal rods of the same material and identical in all respects are joined as shown in the figure. The temperatures at the ends of these rods are maintained as indicated. Assuming no heat energy loss occurs through the curved surfaces of the rods, the temperature at the junction x is",
+    "images/2025-phy-11-1.png"
   ],
   "choices": [
     [
@@ -20,11 +20,12 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Let junction temp be <katex>$T_x$</katex>.",
-    "Heat flows from higher temp to lower temp. Sum of heat currents meeting at junction is zero.",
-    "Currents from the two <katex>$90^{\\circ}C$</katex> ends flow to <katex>$T_x$</katex>, and from <katex>$T_x$</katex> to <katex>$0^{\\circ}C$</katex>.",
-    "<katex>$\\frac{K A(90-T_x)}{L} + \\frac{K A(90-T_x)}{L} = \\frac{K A(T_x-0)}{L}$</katex>",
-    "<katex>$2(90-T_x) = T_x \\Rightarrow 180 - 2T_x = T_x \\Rightarrow 3T_x = 180 \\Rightarrow T_x = 60^{\\circ}C$</katex>."
+    "Let junction temperature be <katex>$T_x$</katex> and resistance of each rod be R.",
+    "Heat current equation: <katex>$H_{in} = H_{out}$</katex>. Here heat flows from higher temp ends towards junction or vice versa.",
+    "Assuming current flows from 90° ends to 0° end:",
+    "<katex>$\\frac{90-T_x}{R} + \\frac{90-T_x}{R} = \\frac{T_x-0}{R}$</katex>",
+    "<katex>$180 - 2T_x = T_x$</katex>",
+    "<katex>$3T_x = 180 \\Rightarrow T_x = 60^{\\circ}C$</katex>."
   ],
   "years": [
     2025
