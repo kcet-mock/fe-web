@@ -1,5 +1,7 @@
 # Copilot Instructions for KCET Question Generation
 
+**Version: 1.0.1**
+
 ## Question Data Structure
 
 When generating or working with questions, follow this exact JSON structure:
