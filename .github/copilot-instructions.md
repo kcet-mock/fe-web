@@ -1,6 +1,16 @@
+**Version: 1.0.2**
+
 # Copilot Instructions for KCET Question Generation
 
-**Version: 1.0.1**
+## PDF/Source Conversion Policy
+
+**When converting from a PDF or other source document:**
+
+- Do NOT compute, infer, or guess the correct answer.
+- Only extract the question, choices, and explanation as they appear in the source.
+- If the correct answer is not explicitly given, set `correctAnswer` to `null` or `-1` as a placeholder.
+- Preserve all content (including tables, images, and math) in the array-based, Markdown/KaTeX-friendly format as per the schema.
+
 
 ## Question Data Structure
 
