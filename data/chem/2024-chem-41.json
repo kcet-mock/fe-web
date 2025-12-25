@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-41",
+  "question": [
+    "Which one of the following pairs will show positive deviation from Raoult's Law? [cite: 320]"
+  ],
+  "choices": [
+    [
+      "Water - HCl"
+    ],
+    [
+      "Benzene - Methanol"
+    ],
+    [
+      "Water - <katex>$HNO_{3}$</katex>"
+    ],
+    [
+      "Acetone - Chloroform"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Benzene and Methanol show positive deviation because the interaction between benzene and methanol is weaker than the hydrogen bonding in pure methanol. [cite: 323, 324]"
+  ],
+  "years": [
+    2024
+  ]
+}

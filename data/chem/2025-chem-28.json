@@ -1,0 +1,35 @@
+{
+  "id": "2025-chem-28",
+  "question": [
+    "Match the following with their pKa values:",
+    "| Acid | pKa |",
+    "|---|---|",
+    "| (I) Phenol | (a) 16 |",
+    "| (II) p-Nitrophenol | (b) 0.78 |",
+    "| (III) Ethyl alcohol | (c) 10 |",
+    "| (IV) Picric acid | (d) 7.1 |"
+  ],
+  "choices": [
+    [
+      "I-c, II-d, III-a, IV-b"
+    ],
+    [
+      "I-a, II-d, III-c, IV-b"
+    ],
+    [
+      "I-a, II-b, III-c, IV-d"
+    ],
+    [
+      "I-b, II-a, III-d, IV-c"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Acidity order: Picric acid > p-Nitrophenol > Phenol > Ethanol.",
+    "pKa order: Picric acid (lowest) < p-Nitrophenol < Phenol < Ethanol (highest).",
+    "Matches: Phenol (10), p-Nitrophenol (7.1), Ethanol (16), Picric acid (0.78)."
+  ],
+  "years": [
+    2025
+  ]
+}

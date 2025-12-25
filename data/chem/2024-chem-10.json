@@ -1,0 +1,29 @@
+{
+  "id": "2024-chem-10",
+  "question": [
+    "In the reaction",
+    "images/2024-chem-10-1.png",
+    "'Q' is: [cite: 68-76]"
+  ],
+  "choices": [
+    [
+      "<katex>$C_{6}H_{5}N_{2}Cl$</katex>"
+    ],
+    [
+      "ortho-hydroxyazobenzene"
+    ],
+    [
+      "para-hydroxyazobenzene"
+    ],
+    [
+      "meta-hydroxyazobenzene"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Aniline reacts with <katex>$NaNO_2/HCl$</katex> to form Benzene Diazonium Chloride (P). Coupling (P) with Phenol in basic medium yields p-hydroxyazobenzene (Q), an orange dye. [cite: 79, 80]"
+  ],
+  "years": [
+    2024
+  ]
+}

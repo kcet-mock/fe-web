@@ -1,0 +1,36 @@
+{
+  "id": "2025-chem-12",
+  "question": [
+    "Match List-I with List-II for the following reaction pattern of Glucose:",
+    "| List-I (Reagents) | List-II (Structural prediction) |",
+    "|---|---|",
+    "| a. Acetic anhydride | i. Glucose has an aldehyde group |",
+    "| b. Bromine water | ii. Glucose has a straight chain of six carbon atoms |",
+    "| c. Hydroiodic acid | iii. Glucose has five hydroxyl group |",
+    "| d. Hydrogen cyanide | iv. Glucose has a carbonyl group |"
+  ],
+  "choices": [
+    [
+      "a-iv, b-iii, c-ii, d-i"
+    ],
+    [
+      "a-iii, b-i, c-ii, d-iv"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv"
+    ],
+    [
+      "a-iii, b-ii, c-i, d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Acetylation with acetic anhydride confirms 5 -OH groups (a-iii).",
+    "Oxidation with Bromine water (mild oxidant) confirms aldehyde group (b-i).",
+    "Reduction with HI confirms straight carbon chain (c-ii).",
+    "Reaction with HCN confirms carbonyl group (d-iv)."
+  ],
+  "years": [
+    2025
+  ]
+}

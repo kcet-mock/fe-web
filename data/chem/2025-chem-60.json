@@ -1,0 +1,29 @@
+{
+  "id": "2025-chem-60",
+  "question": [
+    "The change in hybridization (if any) of the 'Al' atom in the following reaction is",
+    "<katex>$AlCl_{3}+Cl^{-} \\rightarrow AlCl_{4}^{-}$</katex>"
+  ],
+  "choices": [
+    [
+      "No change in the hybridization state"
+    ],
+    [
+      "<katex>$sp^{2}$</katex> to <katex>$sp^{3}$</katex>"
+    ],
+    [
+      "<katex>$sp^{3}$</katex> to <katex>$sp^{3}d$</katex>"
+    ],
+    [
+      "<katex>$sp^{3}$</katex> to <katex>$sp^{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$AlCl_3$</katex> has 3 bond pairs, <katex>$sp^2$</katex>.",
+    "<katex>$AlCl_4^-$</katex> has 4 bond pairs, <katex>$sp^3$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

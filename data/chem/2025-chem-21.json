@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-21",
+  "question": [
+    "Among the following, identify the compound that is not an isomer of hexane"
+  ],
+  "choices": [
+    [
+      "images/2025-chem-21-1.png"
+    ],
+    [
+      "images/2025-chem-21-2.png"
+    ],
+    [
+      "images/2025-chem-21-3.png"
+    ],
+    [
+      "images/2025-chem-21-4.png"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hexane has formula <katex>$C_6H_{14}$</katex>.",
+    "Choice 3 corresponds to a structure with 7 carbons (Heptane isomer) or different formula, as noted in solution."
+  ],
+  "years": [
+    2025
+  ]
+}

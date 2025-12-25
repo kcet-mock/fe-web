@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-26",
+  "question": [
+    "2-Methyl propane can be prepared by Wurtz reaction. The haloalkanes taken along with metallic sodium and dry ether are: [cite: 207-208]"
+  ],
+  "choices": [
+    [
+      "chloromethane and 2-chloropropane"
+    ],
+    [
+      "chloroethane and chloromethane"
+    ],
+    [
+      "chloroethane and 1-chloropropane"
+    ],
+    [
+      "chloromethane and 1-chloropropane"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Wurtz reaction couples two alkyl groups. To get 2-methylpropane (Isobutane), one needs an isopropyl group and a methyl group. Thus, chloromethane and 2-chloropropane are required. [cite: 209, 210]"
+  ],
+  "years": [
+    2024
+  ]
+}

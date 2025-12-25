@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-26",
+  "question": [
+    "Ethyl alcohol is heated with concentrated sulphuric acid at 413 K. The major product is"
+  ],
+  "choices": [
+    [
+      "<katex>$C_{2}H_{5}-O-C_{2}H_{5}$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}-O-C_{3}H_{7}$</katex>"
+    ],
+    [
+      "<katex>$CH_{2}=CH_{2}$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}COOC_{2}H_{5}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "At 413 K, dehydration of ethanol with conc. <katex>$H_2SO_4$</katex> yields Diethyl ether (<katex>$C_{2}H_{5}-O-C_{2}H_{5}$</katex>).",
+    "At higher temperatures (443 K), it would yield ethene."
+  ],
+  "years": [
+    2025
+  ]
+}

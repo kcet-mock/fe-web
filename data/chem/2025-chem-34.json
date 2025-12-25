@@ -1,0 +1,29 @@
+{
+  "id": "2025-chem-34",
+  "question": [
+    "Which of the following reagents are suitable to differentiate Aniline and N-methylaniline chemically?"
+  ],
+  "choices": [
+    [
+      "Acetic anhydride"
+    ],
+    [
+      "<katex>$Br_{2}$</katex> water"
+    ],
+    [
+      "Conc. Hydrochloric acid and anhydrous zinc chloride"
+    ],
+    [
+      "Chloroform and Alcoholic potassium hydroxide"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Chloroform and alcoholic KOH are used in the Carbylamine test.",
+    "Only primary amines (Aniline) give a positive Carbylamine test (foul smell).",
+    "Secondary amines (N-methylaniline) do not react."
+  ],
+  "years": [
+    2025
+  ]
+}

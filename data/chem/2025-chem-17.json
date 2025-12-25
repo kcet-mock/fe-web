@@ -1,0 +1,27 @@
+{
+  "id": "2025-chem-17",
+  "question": [
+    "In the preparation of sodium fusion extract, the purpose of fusing organic compound with a piece of sodium metal is to"
+  ],
+  "choices": [
+    [
+      "Convert the organic compound into vapour state"
+    ],
+    [
+      "Convert the elements of the compound from covalent form to ionic form"
+    ],
+    [
+      "Convert the elements of the compound from ionic form to covalent form"
+    ],
+    [
+      "Decrease the melting point of the compound"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The purpose is to convert the elements (N, S, Halogens) present in the organic compound (covalent form) into sodium salts (ionic form) for easier detection."
+  ],
+  "years": [
+    2025
+  ]
+}

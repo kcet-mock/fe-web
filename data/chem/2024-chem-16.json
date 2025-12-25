@@ -1,0 +1,29 @@
+{
+  "id": "2024-chem-16",
+  "question": [
+    "The compound",
+    "images/2024-chem-16-1.png",
+    "is: [cite: 121, 126]"
+  ],
+  "choices": [
+    [
+      "Sucralose"
+    ],
+    [
+      "Aspartame"
+    ],
+    [
+      "Saccharin"
+    ],
+    [
+      "Alitame"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The structure shown corresponds to Saccharin (o-sulphobenzimide), an artificial sweetener. [cite: 123, 124]"
+  ],
+  "years": [
+    2024
+  ]
+}

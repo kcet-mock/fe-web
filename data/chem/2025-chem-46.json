@@ -1,0 +1,29 @@
+{
+  "id": "2025-chem-46",
+  "question": [
+    "Variation of solubility with temperature t for a gas in liquid is shown by the following graphs. The correct representation is",
+    "images/2025-chem-46-1.png"
+  ],
+  "choices": [
+    [
+      "images/2025-chem-46-1.png"
+    ],
+    [
+      "images/2025-chem-46-2.png"
+    ],
+    [
+      "images/2025-chem-46-3.png"
+    ],
+    [
+      "images/2025-chem-46-4.png"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to Henry's Law and general gas solubility principles, solubility of a gas decreases as temperature increases.",
+    "The graph showing a downward slope (inversely proportional) is correct."
+  ],
+  "years": [
+    2025
+  ]
+}

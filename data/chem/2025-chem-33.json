@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-33",
+  "question": [
+    "Which of the following has most acidic Hydrogen?"
+  ],
+  "choices": [
+    [
+      "Propanoic acid"
+    ],
+    [
+      "Dichloroacetic acid"
+    ],
+    [
+      "Trichloroacetic acid"
+    ],
+    [
+      "Chloroacetic acid"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Acidic strength increases with the number of electron-withdrawing groups (-I effect).",
+    "Trichloroacetic acid has three chlorine atoms, exerting the strongest inductive effect, stabilizing the carboxylate ion."
+  ],
+  "years": [
+    2025
+  ]
+}

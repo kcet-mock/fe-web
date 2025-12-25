@@ -1,0 +1,30 @@
+{
+  "id": "2025-chem-13",
+  "question": [
+    "The correct sequence of <katex>$\\alpha$</katex>-amino acids, hormone, vitamin, carbohydrates respectively is"
+  ],
+  "choices": [
+    [
+      "Thiamine, Thyroxine, Vitamin A, Glucose"
+    ],
+    [
+      "Glutamine, Insulin, Aspartic acid, Fructose"
+    ],
+    [
+      "Arginine, Testosterone, Glutamic acid, Fructose"
+    ],
+    [
+      "Aspartic acid, Insulin, Ascorbic acid, rhamnose"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Aspartic acid is an amino acid.",
+    "Insulin is a hormone.",
+    "Ascorbic acid is Vitamin C.",
+    "Rhamnose is a carbohydrate (deoxy sugar)."
+  ],
+  "years": [
+    2025
+  ]
+}

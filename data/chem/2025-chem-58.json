@@ -1,0 +1,34 @@
+{
+  "id": "2025-chem-58",
+  "question": [
+    "Select the INCORRECT statement/s from the following:",
+    "(a) 22 books have infinite significant figures",
+    "(b) In the answer of calculation <katex>$2.5 \\times 1.25$</katex> has four significant figures",
+    "(c) Zero's preceding to first non-zero digit are significant",
+    "(d) In the answer of calculation <katex>$12.11 + 18.0 + 1.012$</katex> has three significant figures"
+  ],
+  "choices": [
+    [
+      "b, c and d"
+    ],
+    [
+      "b and c only"
+    ],
+    [
+      "b and d only"
+    ],
+    [
+      "a and b only"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "(a) is Correct (Exact numbers have infinite sig figs).",
+    "(b) Incorrect: Result should have 2 sig figs (least precise term 2.5).",
+    "(c) Incorrect: Leading zeros are not significant.",
+    "(d) Incorrect: Result should be rounded to 1 decimal place (18.0), not based on total sig figs."
+  ],
+  "years": [
+    2025
+  ]
+}

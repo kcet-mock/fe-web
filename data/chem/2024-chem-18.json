@@ -1,0 +1,29 @@
+{
+  "id": "2024-chem-18",
+  "question": [
+    "In the following scheme of reaction,",
+    "images/2024-chem-18-1.png",
+    "X, Y and Z respectively are: [cite: 132-144]"
+  ],
+  "choices": [
+    [
+      "AgF, alcoholic KOH and benzene"
+    ],
+    [
+      "HF, aqueous KOH and Na in dry ether"
+    ],
+    [
+      "<katex>$Hg_{2}F_{2}$</katex>, alcoholic KOH and Na in dry ether"
+    ],
+    [
+      "<katex>$CoF_{2}$</katex> aqueous KOH and benzene"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "X: Swarts reaction uses <katex>$Hg_2F_2$</katex> to convert alkyl chloride to fluoride. Y: Alcoholic KOH causes dehydrohalogenation to form ethene. Z: Wurtz reaction with Na in dry ether forms butane. [cite: 146, 147]"
+  ],
+  "years": [
+    2024
+  ]
+}

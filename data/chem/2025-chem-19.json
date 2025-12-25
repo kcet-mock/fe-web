@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-19",
+  "question": [
+    "Which of the following is not an aromatic compound?",
+    "images/2025-chem-19-1.png"
+  ],
+  "choices": [
+    [
+      "images/2025-chem-19-1.png"
+    ],
+    [
+      "images/2025-chem-19-2.png"
+    ],
+    [
+      "images/2025-chem-19-3.png"
+    ],
+    [
+      "images/2025-chem-19-4.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The first structure (Cyclobutadiene derivative) is antiaromatic as it has <katex>$4\\pi$</katex> electrons."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-8",
+  "question": [
+    "But-1-yne on reaction with dil. <katex>$H_{2}SO_{4}$</katex> in presence of <katex>$Hg^{2+}$</katex> ions at 333 K gives : [cite: 55]"
+  ],
+  "choices": [
+    [
+      "images/2024-chem-8-1.png"
+    ],
+    [
+      "images/2024-chem-8-2.png"
+    ],
+    [
+      "images/2024-chem-8-3.png"
+    ],
+    [
+      "images/2024-chem-8-4.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Hydration of But-1-yne in the presence of <katex>$Hg^{2+}/H^+$</katex> follows Markovnikov's rule to form an enol which tautomerizes to Butan-2-one. [cite: 62]"
+  ],
+  "years": [
+    2024
+  ]
+}

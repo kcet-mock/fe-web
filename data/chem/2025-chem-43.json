@@ -1,0 +1,34 @@
+{
+  "id": "2025-chem-43",
+  "question": [
+    "According to Le Chatelier's principle, in the reaction <katex>$CO(g)+3H_{2}(g) \\rightleftharpoons CH_{4}(g)+H_{2}O(g)$</katex>, the formation of methane is favoured by",
+    "(a) Increasing the concentration of CO",
+    "(b) Increasing the concentration of <katex>$H_{2}O$</katex>",
+    "(c) Decreasing the concentration of <katex>$CH_{4}$</katex>",
+    "(d) Decreasing the concentration of <katex>$H_{2}$</katex>"
+  ],
+  "choices": [
+    [
+      "a and c"
+    ],
+    [
+      "b and d"
+    ],
+    [
+      "a and d"
+    ],
+    [
+      "a and b"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "To shift equilibrium forward (towards Methane):",
+    "Increase reactants (CO or H2).",
+    "Decrease products (CH4 or H2O).",
+    "a and c are correct."
+  ],
+  "years": [
+    2025
+  ]
+}

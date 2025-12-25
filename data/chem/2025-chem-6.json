@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-6",
+  "question": [
+    "A member of the Lanthanoid series which is well known to exhibit +4 oxidation state is"
+  ],
+  "choices": [
+    [
+      "Samarium"
+    ],
+    [
+      "Europium"
+    ],
+    [
+      "Erbium"
+    ],
+    [
+      "Cerium"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Cerium (<katex>$Ce$</katex>) has the configuration <katex>$[Xe]4f^{1}5d^{1}6s^{2}$</katex>.",
+    "<katex>$Ce^{4+}$</katex> has a stable noble gas configuration <katex>$[Xe]4f^{0}$</katex>, making it well known for the +4 oxidation state."
+  ],
+  "years": [
+    2025
+  ]
+}

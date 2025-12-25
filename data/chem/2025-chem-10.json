@@ -1,0 +1,27 @@
+{
+  "id": "2025-chem-10",
+  "question": [
+    "Which formula and its name combination is incorrect?"
+  ],
+  "choices": [
+    [
+      "<katex>$K_{3}[Cr(C_{2}O_{4})_{3}]$</katex>, Potassium trioxalatochromate (III)"
+    ],
+    [
+      "<katex>$[CoCl_{2}(en)_{2}]Cl$</katex>, Dichloridobis (ethane - 1,2 - dimine) cobalt (III) chloride"
+    ],
+    [
+      "<katex>$[Co(NH_{3})_{5}(CO_{3})]Cl$</katex>, Pentaamine carbonylcobalt (III) chloride"
+    ],
+    [
+      "<katex>$[Pt(NH_{3})_{2}Cl(NO_{2})]$</katex> Diamine chloridonitrito - N - Platinum (II)"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For <katex>$[Co(NH_{3})_{5}(CO_{3})]Cl$</katex>, the correct name involves the 'carbonato' ligand, not 'carbonyl'. Carbonyl refers to CO ligand, while <katex>$CO_3$</katex> is carbonate."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2025-chem-35",
+  "question": [
+    "Which of the following reaction/s does not yield an amine?",
+    "I. <katex>$R-X + NH_3 \\xrightarrow{\\Delta}$</katex>",
+    "II. <katex>$R-CN \\xrightarrow{H_2/Ni}$</katex>",
+    "III. <katex>$R-C \\equiv N + H_2O \\xrightarrow{H^+}$</katex>",
+    "IV. <katex>$R-CONH_2 \\xrightarrow{LiAlH_4}$</katex>"
+  ],
+  "choices": [
+    [
+      "Both I and III"
+    ],
+    [
+      "Only II"
+    ],
+    [
+      "Only III"
+    ],
+    [
+      "Both II and IV"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Reaction III is the hydrolysis of a nitrile, which yields a Carboxylic Acid (<katex>$R-COOH$</katex>), not an amine.",
+    "Others yield amines."
+  ],
+  "years": [
+    2025
+  ]
+}

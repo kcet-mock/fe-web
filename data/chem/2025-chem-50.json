@@ -1,0 +1,27 @@
+{
+  "id": "2025-chem-50",
+  "question": [
+    "The electronic conductance depends on"
+  ],
+  "choices": [
+    [
+      "Nature of electrolyte added"
+    ],
+    [
+      "The number of valence electrons per atom"
+    ],
+    [
+      "Concentration of the electrolyte"
+    ],
+    [
+      "Size of the ions"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Electronic (metallic) conductance depends on the nature of metal and number of valence electrons per atom."
+  ],
+  "years": [
+    2025
+  ]
+}

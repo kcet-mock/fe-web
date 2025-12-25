@@ -1,0 +1,29 @@
+{
+  "id": "2025-chem-57",
+  "question": [
+    "Which of the following methods of expressing concentration are unitless?"
+  ],
+  "choices": [
+    [
+      "Mole fraction and Mass percent (W/W)"
+    ],
+    [
+      "Molality and Mole fraction"
+    ],
+    [
+      "Mass percent (W/W) and Molality"
+    ],
+    [
+      "Molality and Molarity"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Mole fraction is a ratio of moles (unitless).",
+    "Mass percent is a ratio of masses (unitless).",
+    "Molality is mol/kg. Molarity is mol/L."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2025-chem-37",
+  "question": [
+    "The number of orbitals associated with 'N' shell of an atom is"
+  ],
+  "choices": [
+    [
+      "16"
+    ],
+    [
+      "32"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The 'N' shell corresponds to principal quantum number <katex>$n=4$</katex>.",
+    "The number of orbitals is given by <katex>$n^2$</katex>.",
+    "<katex>$4^2 = 16$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

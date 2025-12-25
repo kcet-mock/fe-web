@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-22",
+  "question": [
+    "On treating 100 mL of 0.1 M aqueous solution of the complex <katex>$CrCl_{3}.6H_{2}O$</katex> with excess of <katex>$AgNO_{3}$</katex>, 2.86 g of AgCl was obtained. The complex is: [cite: 178-180]"
+  ],
+  "choices": [
+    [
+      "<katex>$[Cr(H_{2}O)_{3}Cl_{3}].3H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$[Cr(H_{2}O)_{4}Cl_{2}]Cl.2H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$[Cr(H_{2}O)_{5}Cl]Cl_{2}.H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$[Cr(H_{2}O)_{6}Cl_{3}]$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Moles of Complex = 0.1 M * 0.1 L = 0.01 mol. Moles of AgCl = 2.86 g / 143.5 g/mol = 0.02 mol. The ratio of AgCl to Complex is 2:1, meaning 2 Cl ions are outside the coordination sphere. Formula is <katex>$[Cr(H_{2}O)_{5}Cl]Cl_{2}.H_{2}O$</katex>. [cite: 182, 183]"
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2025-chem-23",
+  "question": [
+    "Chlorobenzene reacts with bromine gas in the presence of Anhyd <katex>$AlBr_{3}$</katex> to yield p-Bromochlorobenzene.",
+    "This reaction is classified as"
+  ],
+  "choices": [
+    [
+      "Elimination reaction"
+    ],
+    [
+      "Nucleophilic substitution reaction"
+    ],
+    [
+      "Electrophilic substitution reaction"
+    ],
+    [
+      "Addition reaction"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The reaction involves the generation of <katex>$Br^{+}$</katex> electrophile.",
+    "The electrophile substitutes a hydrogen atom on the benzene ring.",
+    "Hence, it is an Electrophilic substitution reaction."
+  ],
+  "years": [
+    2025
+  ]
+}

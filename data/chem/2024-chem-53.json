@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-53",
+  "question": [
+    "A pair of isoelectric species having bond order of one is: [cite: 408]"
+  ],
+  "choices": [
+    [
+      "<katex>$N_{2},$</katex> CO"
+    ],
+    [
+      "<katex>$N_{2}$</katex> <katex>$NO^{+}$</katex>"
+    ],
+    [
+      "<katex>$F_{2}$</katex> <katex>$O_{2}^{2-}$</katex>"
+    ],
+    [
+      "CO, <katex>$NO^{+}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$F_2$</katex> (18e) has bond order 1. <katex>$O_2^{2-}$</katex> (18e) has bond order 1. They are isoelectronic. [cite: 411, 414]"
+  ],
+  "years": [
+    2024
+  ]
+}

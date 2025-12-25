@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-59",
+  "question": [
+    "The correct decreasing order of boiling point of hydrogen halides is [cite: 465]"
+  ],
+  "choices": [
+    [
+      "<katex>$HF>HCl>HBr>HI$</katex>"
+    ],
+    [
+      "<katex>$HI>HBr>HCl>HF$</katex>"
+    ],
+    [
+      "<katex>$HF>HI>HBr>HCl$</katex>"
+    ],
+    [
+      "<katex>$HI>HF>HBr>HCl$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "HF has the highest boiling point due to hydrogen bonding. For the rest, boiling point increases with molecular mass: HI > HBr > HCl. Order: HF > HI > HBr > HCl. [cite: 467, 468]"
+  ],
+  "years": [
+    2024
+  ]
+}

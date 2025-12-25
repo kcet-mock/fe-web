@@ -1,0 +1,38 @@
+{
+  "id": "2025-chem-1",
+  "question": [
+    "Match List-I with List-II and select the correct option:",
+    "| List-I (Molecule / ion) | List-II (Bond order) |",
+    "|---|---|",
+    "| a. NO | i. 1.5 |",
+    "| b. CO | ii. 2.0 |",
+    "| c. <katex>$O_{2}^{-}$</katex> | iii. 2.5 |",
+    "| d. <katex>$O_{2}$</katex> | iv. 3.0 |"
+  ],
+  "choices": [
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-i, b-iv, c-iii, d-ii"
+    ],
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ],
+    [
+      "a-iv, b-iii, c-ii, d-i"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Bond order is calculated as <katex>$\\frac{1}{2}(N_b - N_a)$</katex>.",
+    "For NO: <katex>$(8-3)/2 = 2.5$</katex> (iii)",
+    "For CO: <katex>$(10-4)/2 = 3.0$</katex> (iv)",
+    "For <katex>$O_{2}^{-}$</katex>: <katex>$(6-3)/2 = 1.5$</katex> (i)",
+    "For <katex>$O_{2}$</katex>: <katex>$(6-2)/2 = 2.0$</katex> (ii)",
+    "Correct match is a-iii, b-iv, c-i, d-ii."
+  ],
+  "years": [
+    2025
+  ]
+}

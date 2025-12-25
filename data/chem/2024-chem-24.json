@@ -1,0 +1,31 @@
+{
+  "id": "2024-chem-24",
+  "question": [
+    "Which of the following statements are true about <katex>$[CoF_{6}]^{3-}$</katex> ion?",
+    "I. The complex has octahedral geometry.",
+    "II. Coordination number of Co is 3 and oxidation state is + 6.",
+    "III. The complex is <katex>$sp^{3}d^{2}$</katex> hybridised.",
+    "IV. It is a high spin complex. [cite: 191-195]"
+  ],
+  "choices": [
+    [
+      "I, II and IV"
+    ],
+    [
+      "I, III and IV"
+    ],
+    [
+      "II and IV"
+    ],
+    [
+      "II, III and IV"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$[CoF_{6}]^{3-}$</katex> contains <katex>$Co^{3+}$</katex> with weak field <katex>$F^-$</katex> ligands. It is octahedral (Coordination number 6), outer orbital (<katex>$sp^3d^2$</katex>), and high spin. Statement II is incorrect. [cite: 198, 199]"
+  ],
+  "years": [
+    2024
+  ]
+}

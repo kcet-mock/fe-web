@@ -1,0 +1,35 @@
+{
+  "id": "2025-chem-3",
+  "question": [
+    "Match List-I with List-II:",
+    "| List-I (Types of redox reactions) | List-II (Examples) |",
+    "|---|---|",
+    "| a. Combination reaction | i. <katex>$Cl_{2(g)}+2Br_{(aq)}^{-} \\rightarrow 2Cl_{(aq)}^{-}+Br_{2(l)}$</katex> |",
+    "| b. Decomposition reaction | ii. <katex>$2H_{2}O_{2(aq)} \\rightarrow 2H_{2}O_{(l)}+O_{2(g)}$</katex> |",
+    "| c. Displacement reaction | iii. <katex>$CH_{4(g)}+2O_{2(g)} \\rightarrow CO_{2(g)}+2H_{2}O_{(l)}$</katex> |",
+    "| d. Disproportionation reaction | iv. <katex>$2H_{2}O_{(l)} \\rightarrow 2H_{2(g)}+O_{2(g)}$</katex> |"
+  ],
+  "choices": [
+    [
+      "a-iv, b-iii, c-i, d-ii"
+    ],
+    [
+      "a-ii, b-i, c-iv, d-iii"
+    ],
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-iii, b-ii, c-i, d-iv"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "a. Combination: <katex>$CH_{4}+2O_{2} \\rightarrow CO_{2}+2H_{2}O$</katex> (Combustion is a type of combination in broad sense involving O2, though typically iii fits best here by elimination or context of paper key)",
+    "*Correction based on standard keys*: usually decomposition is one reactant to many. Displacement is element replacing another.",
+    "Key match: a-iii, b-iv (Decomposition of water), c-i (Displacement of Br by Cl), d-ii (Disproportionation of H2O2)."
+  ],
+  "years": [
+    2025
+  ]
+}

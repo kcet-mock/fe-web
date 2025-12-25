@@ -1,14 +1,16 @@
 #!/bin/bash
 
+
 # Check if required arguments are provided
-if [ $# -lt 1 ]; then
-    echo "Usage: $0 <subject> [num_questions]"
-    echo "Example: $0 mat 60"
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 <subject> <year> [num_questions]"
+    echo "Example: $0 mat 2023 60"
     exit 1
 fi
 
 SUBJECT=$1
-NUM_QUESTIONS=${2:-60}  # Default to 60 if not provided
+YEAR=$2
+NUM_QUESTIONS=${3:-60}  # Default to 60 if not provided
 
 DATA_DIR="../data/${SUBJECT}/"
 

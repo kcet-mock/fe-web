@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-12",
+  "question": [
+    "The type of linkage present between nucleotides is : [cite: 88]"
+  ],
+  "choices": [
+    [
+      "Phosphoester linkage"
+    ],
+    [
+      "Phosphodiester linkage"
+    ],
+    [
+      "Amide linkage"
+    ],
+    [
+      "Glycosidic linkage"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Nucleotides in a nucleic acid chain are linked together by phosphodiester linkages. [cite: 91, 95]"
+  ],
+  "years": [
+    2024
+  ]
+}

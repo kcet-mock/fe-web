@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-16",
+  "question": [
+    "The group reagent <katex>$NH_{4}Cl(s)$</katex> and aqueous <katex>$NH_{3}$</katex> will precipitate which of the following ion?"
+  ],
+  "choices": [
+    [
+      "<katex>$NH_{4}^{+}$</katex>"
+    ],
+    [
+      "<katex>$Al^{3+}$</katex>"
+    ],
+    [
+      "<katex>$Ba^{2+}$</katex>"
+    ],
+    [
+      "<katex>$Ca^{2+}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "This reagent combination is used for Group III cations.",
+    "It precipitates <katex>$Al^{3+}$</katex>, <katex>$Fe^{3+}$</katex>, and <katex>$Cr^{3+}$</katex> as their hydroxides."
+  ],
+  "years": [
+    2025
+  ]
+}

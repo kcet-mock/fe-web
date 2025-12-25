@@ -1,0 +1,36 @@
+{
+  "id": "2025-chem-52",
+  "question": [
+    "Match the following quantity of electricity required to deposit various metals:",
+    "| List-I | List-II |",
+    "|---|---|",
+    "| a. <katex>$Ag^{+}$</katex> | i. <katex>$386000 C mol^{-1}$</katex> |",
+    "| b. <katex>$Mg^{2+}$</katex> | ii. <katex>$289500 C mol^{-1}$</katex> |",
+    "| c. <katex>$Al^{3+}$</katex> | iii. <katex>$96500 C mol^{-1}$</katex> |",
+    "| d. <katex>$Ti^{4+}$</katex> | iv. <katex>$193000 C mol^{-1}$</katex> |"
+  ],
+  "choices": [
+    [
+      "a-ii, b-i, c-iv, d-iii"
+    ],
+    [
+      "a-iii, b-iv, c-ii, d-i"
+    ],
+    [
+      "a-iv, b-iii, c-i, d-ii"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$Ag^+$</katex> (1e-): 1F = 96500 C (iii)",
+    "<katex>$Mg^{2+}$</katex> (2e-): 2F = 193000 C (iv)",
+    "<katex>$Al^{3+}$</katex> (3e-): 3F = 289500 C (ii)",
+    "<katex>$Ti^{4+}$</katex> (4e-): 4F = 386000 C (i)"
+  ],
+  "years": [
+    2025
+  ]
+}

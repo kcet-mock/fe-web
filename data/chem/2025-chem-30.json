@@ -1,0 +1,27 @@
+{
+  "id": "2025-chem-30",
+  "question": [
+    "Oxidation of Toluene with chromyl chloride followed by hydrolysis gives Benzaldehyde. This reaction is known as"
+  ],
+  "choices": [
+    [
+      "Etard Reaction"
+    ],
+    [
+      "Kolbe reaction"
+    ],
+    [
+      "Stephen reaction"
+    ],
+    [
+      "Cannizzaro Reaction"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The oxidation of the methyl group on a benzene ring to an aldehyde group using Chromyl Chloride (<katex>$CrO_2Cl_2$</katex>) is the Etard Reaction."
+  ],
+  "years": [
+    2025
+  ]
+}

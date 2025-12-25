@@ -1,0 +1,31 @@
+{
+  "id": "2024-chem-57",
+  "question": [
+    "Match the following:",
+    "I. <katex>$Zn^{2+}$</katex>  i. <katex>$d^{8}$</katex> configuration",
+    "II. <katex>$Cu^{2+}$</katex> ii. colourless",
+    "III. <katex>$Ni^{2+}$</katex> iii. <katex>$\\mu=1.73BM$</katex>",
+    "[cite: 438-445]"
+  ],
+  "choices": [
+    [
+      "I-iii, II-i, III-ii"
+    ],
+    [
+      "I-ii, II-iii, III-i"
+    ],
+    [
+      "I-ii, II-i, III-iii"
+    ],
+    [
+      "I-i, II-iii, III-ii"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$Zn^{2+}$</katex> (<katex>$3d^{10}$</katex>) is colourless (ii). <katex>$Cu^{2+}$</katex> (<katex>$3d^9$</katex>) has 1 unpaired electron, so <katex>$\\mu = \\sqrt{1(3)} = 1.73$</katex> BM (iii). <katex>$Ni^{2+}$</katex> is <katex>$3d^8$</katex> (i). Match: I-ii, II-iii, III-i. [cite: 449, 452]"
+  ],
+  "years": [
+    2024
+  ]
+}

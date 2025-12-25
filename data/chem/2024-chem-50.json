@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-50",
+  "question": [
+    "For which one of the following mixtures is composition uniform throughout? [cite: 383]"
+  ],
+  "choices": [
+    [
+      "Sand and water"
+    ],
+    [
+      "Grains and pulses with stone"
+    ],
+    [
+      "Mixture of oil and water"
+    ],
+    [
+      "Dilute aqueous solution of sugar"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "A dilute aqueous solution of sugar is a homogeneous mixture (solution), meaning its composition is uniform throughout. [cite: 386, 393]"
+  ],
+  "years": [
+    2024
+  ]
+}

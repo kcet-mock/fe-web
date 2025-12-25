@@ -1,0 +1,31 @@
+{
+  "id": "2025-chem-55",
+  "question": [
+    "In the given graph, <katex>$E_{a}$</katex> for the reverse reaction will be",
+    "images/2025-chem-55-1.png",
+    "Given: <katex>$E_a$</katex> (forward) = 215 KJ, <katex>$\\Delta H$</katex> = 90 KJ"
+  ],
+  "choices": [
+    [
+      "125 KJ"
+    ],
+    [
+      "215 KJ"
+    ],
+    [
+      "90 KJ"
+    ],
+    [
+      "305 KJ"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\Delta H = E_a(f) - E_a(b)$</katex>",
+    "<katex>$90 = 215 - E_a(b)$</katex>",
+    "<katex>$E_a(b) = 215 - 90 = 125$</katex> KJ."
+  ],
+  "years": [
+    2025
+  ]
+}

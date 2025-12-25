@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-33",
+  "question": [
+    "0.48 g of an organic compound on complete combustion produced 0.22 g of <katex>$CO_{2}$</katex>. The percentage of C in the given organic compound is : [cite: 261-263]"
+  ],
+  "choices": [
+    [
+      "25"
+    ],
+    [
+      "50"
+    ],
+    [
+      "12.5"
+    ],
+    [
+      "87.5"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Percentage of C = <katex>$\\frac{12}{44} \\times \\frac{\\text{mass of } CO_2}{\\text{mass of compound}} \\times 100$</katex>. Calculation: <katex>$\\frac{12}{44} \\times \\frac{0.22}{0.48} \\times 100 = 12.5\\%$</katex>. [cite: 265, 267]"
+  ],
+  "years": [
+    2024
+  ]
+}

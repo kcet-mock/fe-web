@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-27",
+  "question": [
+    "Phenol can be distinguished from propanol by using the reagent"
+  ],
+  "choices": [
+    [
+      "Bromine water"
+    ],
+    [
+      "Iron metal"
+    ],
+    [
+      "Iodine in alcohol"
+    ],
+    [
+      "Sodium metal"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Phenol reacts with Bromine water to form a white precipitate of 2,4,6-tribromophenol.",
+    "Propanol does not give this precipitate."
+  ],
+  "years": [
+    2025
+  ]
+}

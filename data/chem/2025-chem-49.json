@@ -1,0 +1,34 @@
+{
+  "id": "2025-chem-49",
+  "question": [
+    "The correct statement/s about Galvanic cell is/are",
+    "(a) Current flows from cathode to anode",
+    "(b) Anode is positive terminal",
+    "(c) If <katex>$E_{cell} < 0$</katex>, then it is spontaneous reaction",
+    "(d) Cathode is positive terminal"
+  ],
+  "choices": [
+    [
+      "a and b only"
+    ],
+    [
+      "a, b and c"
+    ],
+    [
+      "a and d only"
+    ],
+    [
+      "b only"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "(a) Correct: Conventional current flows cathode (+) to anode (-). Electrons flow anode to cathode.",
+    "(b) Incorrect: Anode is negative.",
+    "(c) Incorrect: <katex>$E_{cell}$</katex> must be positive for spontaneity.",
+    "(d) Correct: Cathode is positive."
+  ],
+  "years": [
+    2025
+  ]
+}

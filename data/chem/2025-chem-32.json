@@ -1,0 +1,31 @@
+{
+  "id": "2025-chem-32",
+  "question": [
+    "Arrange the following compounds in their decreasing order of reactivity towards Nucleophilic addition reaction.",
+    "<katex>$CH_{3}COCH_{3}, CH_{3}COC_{2}H_{5}, CH_{3}CHO$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$CH_{3}CHO > CH_{3}COCH_{3} > CH_{3}COC_{2}H_{5}$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}COCH_{3} > CH_{3}CHO > CH_{3}COC_{2}H_{5}$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}COC_{2}H_{5} > CH_{3}COCH_{3} > CH_{3}CHO$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}CHO > CH_{3}COC_{2}H_{5} > CH_{3}COCH_{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Reactivity depends on the magnitude of positive charge on the carbonyl carbon and steric hindrance.",
+    "Aldehydes are more reactive than ketones.",
+    "Steric hindrance: <katex>$CH_3CHO < CH_3COCH_3 < CH_3COC_2H_5$</katex>.",
+    "Order: <katex>$CH_{3}CHO > CH_{3}COCH_{3} > CH_{3}COC_{2}H_{5}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

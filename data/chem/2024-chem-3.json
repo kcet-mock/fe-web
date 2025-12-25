@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-3",
+  "question": [
+    "Identify the incorrect statement from the following: [cite: 16]"
+  ],
+  "choices": [
+    [
+      "Oxides of nitrogen in the atmosphere can cause depletion of the ozone layer"
+    ],
+    [
+      "Ozone absorbs the intense ultraviolet radiation of Sun"
+    ],
+    [
+      "Depletion of ozone layer is because of its chemical reactions with chlorofluoro alkanes"
+    ],
+    [
+      "Ozone absorbs infrared radiation"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The statement 'Ozone absorbs infrared radiation' is considered incorrect in this context as per the answer key. Ozone primarily absorbs ultraviolet radiation. [cite: 22, 23]"
+  ],
+  "years": [
+    2024
+  ]
+}

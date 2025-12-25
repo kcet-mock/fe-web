@@ -1,0 +1,30 @@
+{
+  "id": "2025-chem-31",
+  "question": [
+    "Statement - I: Reduction of ester by DIBAL-H followed by hydrolysis gives aldehyde.",
+    "Statement - II: Oxidation of benzyl alcohol with aqueous <katex>$KMnO_{4}$</katex> leads to the formation of Benzaldehyde.",
+    "Among the above statements, identify the correct statement."
+  ],
+  "choices": [
+    [
+      "Both statements - I and II are false"
+    ],
+    [
+      "Statement - I is true but statement - II is false"
+    ],
+    [
+      "Statement - I is false but statement - II is true"
+    ],
+    [
+      "Both statements - I and II are true"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement I is true: DIBAL-H reduces esters to aldehydes.",
+    "Statement II is false: Strong oxidizing agents like <katex>$KMnO_4$</katex> oxidize benzyl alcohol directly to Benzoic Acid, not Benzaldehyde."
+  ],
+  "years": [
+    2025
+  ]
+}

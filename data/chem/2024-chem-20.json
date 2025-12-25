@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-20",
+  "question": [
+    "When a tertiary alcohol <katex>$A^{\\prime}(C_{4}H_{10}O)$</katex> reacts with 20% <katex>$H_{3}PO_{4}$</katex> at 358 K, it gives a compound 'B' <katex>$(C_{4}H_{8})$</katex> as a major product. The IUPAC name of the compound 'B' is: [cite: 158-159]"
+  ],
+  "choices": [
+    [
+      "But-1-ene"
+    ],
+    [
+      "But-2-ene"
+    ],
+    [
+      "Cyclobutane"
+    ],
+    [
+      "2-Methylpropene"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The tertiary alcohol <katex>$C_4H_{10}O$</katex> is tert-butyl alcohol (2-methylpropan-2-ol). Dehydration yields 2-methylpropene (Isobutylene). [cite: 162, 170]"
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2025-chem-25",
+  "question": [
+    "The major product formed when 1-Bromo-3-Chlorocyclobutane reacts with metallic sodium in dry ether is"
+  ],
+  "choices": [
+    [
+      "images/2025-chem-25-1.png"
+    ],
+    [
+      "images/2025-chem-25-2.png"
+    ],
+    [
+      "images/2025-chem-25-3.png"
+    ],
+    [
+      "images/2025-chem-25-4.png"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "This is an intramolecular Wurtz reaction.",
+    "The Na removes Br and Cl, forming a bond between C1 and C3, resulting in a bicyclic compound [1.1.0] bicyclobutane structure."
+  ],
+  "years": [
+    2025
+  ]
+}

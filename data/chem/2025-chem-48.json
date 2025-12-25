@@ -1,0 +1,31 @@
+{
+  "id": "2025-chem-48",
+  "question": [
+    "If <katex>$N_{2}$</katex> gas is bubbled through water at 293 K, how many moles of <katex>$N_{2}$</katex> gas would dissolve in 1 litre of water? Assume that <katex>$N_{2}$</katex> exerts a partial pressure of 0.987 bar.",
+    "[Given <katex>$K_{H}$</katex> for <katex>$N_{2}$</katex> at 293 K is 76.48 kbar]"
+  ],
+  "choices": [
+    [
+      "<katex>$0.716 \\times 10^{-3}$</katex>"
+    ],
+    [
+      "<katex>$7.16 \\times 10^{-5}$</katex>"
+    ],
+    [
+      "<katex>$7.16 \\times 10^{-4}$</katex>"
+    ],
+    [
+      "<katex>$7.16 \\times 10^{-3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Henry's Law: <katex>$P = K_H x$</katex>.",
+    "<katex>$x = P / K_H = 0.987 / (76480) = 1.29 \\times 10^{-5}$</katex>.",
+    "For 1L water (55.5 mol), <katex>$n_{N2} \\approx x \\times 55.5$</katex>.",
+    "<katex>$n_{N2} = 1.29 \\times 10^{-5} \\times 55.5 = 7.16 \\times 10^{-4}$</katex> mol."
+  ],
+  "years": [
+    2025
+  ]
+}

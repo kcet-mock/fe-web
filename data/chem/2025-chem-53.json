@@ -1,0 +1,27 @@
+{
+  "id": "2025-chem-53",
+  "question": [
+    "Catalysts are used to increase the rate of a chemical reaction. Because it"
+  ],
+  "choices": [
+    [
+      "Increases the activation energy of the reaction"
+    ],
+    [
+      "Decreases the activation energy of the reaction"
+    ],
+    [
+      "Brings about improper orientation of reactant molecules"
+    ],
+    [
+      "Increases the potential energy barrier"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A positive catalyst provides an alternative pathway with lower activation energy, thereby increasing the reaction rate."
+  ],
+  "years": [
+    2025
+  ]
+}

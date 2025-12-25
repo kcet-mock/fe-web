@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-42",
+  "question": [
+    "How many Coulombs are required to oxidise 0.1 mole of <katex>$H_{2}O$</katex> to oxygen? [cite: 326]"
+  ],
+  "choices": [
+    [
+      "<katex>$1.93\\times10^{5}C$</katex>"
+    ],
+    [
+      "<katex>$1.93\\times10^{4}C$</katex>"
+    ],
+    [
+      "<katex>$3.86\\times10^{4}C$</katex>"
+    ],
+    [
+      "<katex>$9.65\\times10^{3}C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Reaction: <katex>$H_2O \\rightarrow \\frac{1}{2}O_2 + 2H^+ + 2e^-$</katex>. For 1 mole water, 2F charge is needed. For 0.1 mole, 0.2F is needed. <katex>$0.2 \\times 96500 = 19300$</katex> C. [cite: 329, 331]"
+  ],
+  "years": [
+    2024
+  ]
+}
