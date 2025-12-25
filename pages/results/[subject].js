@@ -444,8 +444,9 @@ export default function ResultsSubjectPage({ subject, questions }) {
                           className="explanation-section"
                           data-question-id={q.id}
                           data-question-index={index}
+                          style={{ marginTop: '1rem', background: '#ede9fe', borderRadius: '0.5rem', padding: '0.75rem 1rem' }}
                         >
-                          <div className="explanation-label">Explanation</div>
+                          <div className="badge-soft" style={{ marginBottom: '0.5rem', background: '#a78bfa', color: '#fff', display: 'inline-block', minWidth: 0 }}>Explanation</div>
                           <div className="explanation-content">
                             {Array.isArray(q.explanation) ? q.explanation.map((part, partIndex) => {
                               if (isImageToken(part)) {
