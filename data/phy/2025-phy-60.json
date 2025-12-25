@@ -17,15 +17,12 @@
       "0.4 i"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Circle equation <katex>$(x-2)^2 + y^2 = 5^2$</katex>. Center at (2,0), Radius R=5.",
     "Centripetal acceleration <katex>$a_c = \\frac{v^2}{R} = \\frac{2^2}{5} = 0.8 m/s^2$</katex>.",
     "At the lowest y-coordinate (y=-5), the center is directly above.",
     "Acceleration is directed towards the center (positive y direction).",
     "So <katex>$\\vec{a} = 0.8 \\hat{j}$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

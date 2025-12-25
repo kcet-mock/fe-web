@@ -17,11 +17,8 @@
       "<katex>$s = ut + \\frac{1}{2}at^2$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Stoke's law (<katex>$F = 6\\pi \\eta r v$</katex>) is a classic example of a formula derived using dimensional analysis by checking dependencies on viscosity, radius, and velocity."
-  ],
-  "years": [
-    2025
   ]
 }

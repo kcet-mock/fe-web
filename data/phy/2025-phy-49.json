@@ -18,14 +18,11 @@
       "A-iii, B-i, C-ii"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Isotopes (Same Z): <katex>$H^1, H^2$</katex> (iii)",
     "Isobars (Same A): <katex>$Li^7, Be^7$</katex> (i)",
     "Isotones (Same neutrons A-Z): <katex>$O^{18} (18-8=10), F^{19} (19-9=10)$</katex> (ii)",
     "Match: A-iii, B-i, C-ii"
-  ],
-  "years": [
-    2025
   ]
 }

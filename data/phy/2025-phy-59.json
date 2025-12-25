@@ -17,12 +17,9 @@
       "Vertical component of the velocity of the projectile"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "In projectile motion (ignoring air resistance), there is no acceleration in the horizontal direction.",
     "Therefore, the horizontal component of velocity remains constant."
-  ],
-  "years": [
-    2025
   ]
 }

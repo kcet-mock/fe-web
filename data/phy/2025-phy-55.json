@@ -18,15 +18,12 @@
       "116.0 <katex>$\\Omega$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "In half deflection method, <katex>$G = \\frac{R S}{R - S}$</katex> if deflection is exactly half. However, formula used is typically <katex>$G = S$</katex> if R >> G. Or using standard formula:",
     "Source Solution uses <katex>$G = \\frac{S'}{\\frac{\\theta_1}{\\theta_2} - 1}$</katex>.",
     "<katex>$\\theta_1 = 26, \\theta_2 = 13$</katex>, so ratio is 2.",
     "<katex>$G = \\frac{90}{2-1} = 90 \\Omega$</katex>.",
     "The closest option is 91.6 <katex>$\\Omega$</katex>. (Exact formula is <katex>$G = \\frac{RS}{R-S}$</katex> usually, but with <katex>$R=5200$</katex> and <katex>$S=90$</katex>, <katex>$G \\approx 90$</katex>)."
-  ],
-  "years": [
-    2025
   ]
 }
