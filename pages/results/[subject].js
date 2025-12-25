@@ -306,9 +306,28 @@ export default function ResultsSubjectPage({ subject, questions }) {
               </div>
 
               <div className="results-actions">
-                <Link href={`/mock-test/${encodeURIComponent(subject)}`} className="button-secondary">
+                <button
+                  className="button-secondary"
+                  type="button"
+                  onClick={() => {
+                    const { year } = router.query;
+                    let url = `/mock-test/${encodeURIComponent(subject)}`;
+                    const params = [];
+                    if (year) params.push(`year=${encodeURIComponent(year)}`);
+                    // Generate a new UUID v4 for session_id
+                    function uuidv4() {
+                      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                        const r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+                        return v.toString(16);
+                      });
+                    }
+                    params.push(`session_id=${uuidv4()}`);
+                    if (params.length > 0) url += `?${params.join('&')}`;
+                    router.replace(url);
+                  }}
+                >
                   Retake mock test
-                </Link>
+                </button>
                 <Link href="/" className="button-primary">
                   Back to home
                 </Link>
