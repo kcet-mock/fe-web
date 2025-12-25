@@ -186,9 +186,19 @@ export default function ResultsSubjectPage({ subject, questions }) {
     );
   }
 
+
   const { timeTakenSeconds, totalQuestions, correctCount, attemptedCount } = result;
   const { correct, wrong, notAttempted, questionStatuses } = summary || {};
   const attemptedPercent = totalQuestions ? Math.round((attemptedCount / totalQuestions) * 100) : 0;
+
+  // Accuracy: correct / attempted
+  const accuracy = attemptedCount ? (correctCount / attemptedCount) : 0;
+  // Efficiency: (totalQuestions / examTime) / (attemptedCount / timeTakenSeconds)
+  // Assume exam time is 60 minutes (3600 seconds)
+  const EXAM_TIME_SECONDS = 60 * 60;
+  const efficiency = (attemptedCount && timeTakenSeconds)
+    ? ((attemptedCount / timeTakenSeconds) / (totalQuestions / EXAM_TIME_SECONDS))
+    : 0;
 
   const breakdownCard = (
     <>
@@ -204,6 +214,14 @@ export default function ResultsSubjectPage({ subject, questions }) {
       <div className="test-sidebar-summary-row">
         <span>Progress</span>
         <span>{attemptedPercent}%</span>
+      </div>
+      <div className="test-sidebar-summary-row">
+        <span>Accuracy</span>
+        <span>{(accuracy * 100).toFixed(1)}%</span>
+      </div>
+      <div className="test-sidebar-summary-row">
+        <span>Efficiency</span>
+        <span>{(efficiency * 100).toFixed(1)}%</span>
       </div>
       <div className="test-summary-progress">
         <div className="test-summary-progress-bar" style={{ width: `${attemptedPercent}%` }} />
@@ -253,6 +271,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
         <div className="results-layout">
           <div>
             <div className="results-summary">
+
               <div className="results-metrics">
                 <div className="results-metric-card">
                   <div className="results-metric-label">Score</div>
@@ -267,6 +286,16 @@ export default function ResultsSubjectPage({ subject, questions }) {
                   <div className="results-metric-label">Time taken</div>
                   <div className="results-metric-value">{formatTime(timeTakenSeconds)}</div>
                   <div className="results-metric-sub">of 60:00 total</div>
+                </div>
+                <div className="results-metric-card">
+                  <div className="results-metric-label">Accuracy</div>
+                  <div className="results-metric-value">{(accuracy * 100).toFixed(1)}%</div>
+                  <div className="results-metric-sub">Correct / Attempted</div>
+                </div>
+                <div className="results-metric-card">
+                  <div className="results-metric-label">Efficiency</div>
+                  <div className="results-metric-value">{(efficiency * 100).toFixed(1)}%</div>
+                  <div className="results-metric-sub">Speed vs exam avg</div>
                 </div>
               </div>
 

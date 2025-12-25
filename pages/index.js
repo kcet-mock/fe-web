@@ -195,18 +195,15 @@ export default function Home() {
             listStyle: 'disc',
             margin: '0 0 0 1.2rem',
             padding: 0,
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '0.7rem',
             color: '#22223b',
             fontSize: '1.05rem',
             fontWeight: 500,
           }}>
-            <li><strong>Based on the latest KCET exam papers:</strong> All questions and mocks are created using real, recent KCET papers and the official KEA syllabus.</li>
-            <li><strong>All 4 subjects covered:</strong> Physics, Chemistry, Mathematics, and Biology — practice any or all, just like the real exam.</li>
-            <li><strong>Trusted by thousands:</strong> Join a community of KCET aspirants who use this platform for serious, exam-style practice.</li>
-            <li><strong>Absolutely free:</strong> No payments, no card details, and no hidden costs — just sign in and start practicing.</li>
-            <li><strong>Open source & transparent:</strong> This project is fully open source — anyone can view, use, or contribute to the code.</li>
+            <li style={{ margin: '0.7rem 0' }}><strong>Based on the latest KCET exam papers:</strong> All questions and mocks are created using real, recent KCET papers and the official KEA syllabus.</li>
+            <li style={{ margin: '0.7rem 0' }}><strong>All 4 subjects covered:</strong> Physics, Chemistry, Mathematics, and Biology — practice any or all, just like the real exam.</li>
+            <li style={{ margin: '0.7rem 0' }}><strong>Trusted by thousands:</strong> Join a community of KCET aspirants who use this platform for serious, exam-style practice.</li>
+            <li style={{ margin: '0.7rem 0' }}><strong>Absolutely free:</strong> No payments, no card details, and no hidden costs — just sign in and start practicing.</li>
+            <li style={{ margin: '0.7rem 0' }}><strong>Open source & transparent:</strong> This project is fully open source — anyone can view, use, or contribute to the code.</li>
           </ul>
         </div>
 
