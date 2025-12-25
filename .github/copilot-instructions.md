@@ -8,7 +8,7 @@ When generating or working with questions, follow this exact JSON structure:
 
 ```json
 {
-  "id": "uuid-string",
+  "id": "year-subject-number",
   "question": ["text or image path", ...],
   "choices": [
     ["choice A text or image", ...],
@@ -36,15 +36,16 @@ For non-year-based or random questions, use a valid UUID v4:
 - Format: `"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx"`
 - Example: `"68764b0a-9d80-4a0a-9b82-15611e1a0f28"`
 
+
 #### `question` (array, required)
 - An array that can contain strings and/or image paths in any order
 - Strings contain the question text
-- Image paths follow the format: `"images/{uuid}.png"`
+- Image paths must use the format: `"images/{question.id}-1.png"`, `"images/{question.id}-2.png"`, etc., where the number is unique per image in the question (including choices and explanation if needed).
 - Example:
   ```json
   [
     "The students identify the given pedigree chart as",
-    "images/90cfa405-4e3e-4b81-a061-0156baeb44c0.png"
+    "images/2025-phy-1-1.png"
   ]
   ```
 
@@ -170,10 +171,10 @@ The application uses KaTeX to render mathematical expressions. To include math i
 
 ```json
 {
-  "id": "68764b0a-9d80-4a0a-9b82-15611e1a0f28",
+  "id": "2025-phy-1",
   "question": [
     "The students identify the given pedigree chart as",
-    "images/90cfa405-4e3e-4b81-a061-0156baeb44c0.png"
+    "images/2025-phy-1-1.png"
   ],
   "choices": [
     ["Autosomal recessive"],
@@ -184,7 +185,7 @@ The application uses KaTeX to render mathematical expressions. To include math i
   "correctAnswer": 1,
   "explanation": [
     "In the given pedigree chart, the trait appears in every generation and affects",
-    "images/90cfa405-4e3e-4b81-a061-0156baeb44c0.png",
+    "images/2025-phy-1-2.png",
     "both males and females equally"
   ]
 }
@@ -192,7 +193,7 @@ The application uses KaTeX to render mathematical expressions. To include math i
 
 ### When Generating Questions
 
-1. Always generate a new UUID v4 for the `id` field
+1. Always generate a new ID in the format `year-subject-number` for the `id` field
 2. Structure text and images appropriately in arrays
 3. Ensure exactly 4 choices are provided
 4. Verify the `correctAnswer` index matches the correct choice (0-3)
@@ -203,5 +204,5 @@ The application uses KaTeX to render mathematical expressions. To include math i
 ### File Organization
 
 - Questions are organized by subject: `data/bio/`, `data/chem/`, `data/mat/`, `data/phy/`
-- Each question is stored in a separate JSON file named `{uuid}.json`
+- Each question is stored in a separate JSON file named `{year-subject-number}.json`
 - An `_all.js` file in each subject directory aggregates all questions

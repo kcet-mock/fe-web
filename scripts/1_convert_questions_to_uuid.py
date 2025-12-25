@@ -7,24 +7,6 @@ import uuid
 from pathlib import Path
 from typing import Any, Dict, List
 
-
-def generate_uuid() -> uuid.UUID:
-    """Generate a random UUID v4."""
-    return uuid.uuid4()
-
-
-def is_valid_uuid(value: Any) -> bool:
-    return False
-    """Check if a value is a valid UUID string."""
-    if not isinstance(value, str):
-        return False
-    try:
-        uuid.UUID(value)
-        return True
-    except (ValueError, AttributeError):
-        return False
-
-
 def _normalize_image_token(value: str) -> str:
     """Normalize image tokens to match current app expectations.
     
