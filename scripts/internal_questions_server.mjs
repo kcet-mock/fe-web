@@ -289,8 +289,8 @@ const server = http.createServer(async (req, res) => {
       let fields = {};
       const { file, fields: parsedFields } = await parseMultipartSingleFile(req);
       fields = parsedFields || {};
-      questionId = fields.questionId || (req.url && new URL(req.url, `http://${req.headers.host || 'localhost'}`).searchParams.get('questionId'));
-      part = fields.part || (req.url && new URL(req.url, `http://${req.headers.host || 'localhost'}`).searchParams.get('part'));
+      questionId = fields.questionId;
+      part = fields.part;
       if (!file) {
         sendJson(res, 400, { error: 'Missing file field (multipart/form-data name="file")' });
         return;
