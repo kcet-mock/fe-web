@@ -103,45 +103,47 @@ export default function Home() {
               <div style={{ marginTop: '0.85rem', display: 'flex', gap: '0.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', gap: '0.5rem', width: '100%', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'flex-start' }}>
                   <div style={{ display: 'flex', flexDirection: 'row', gap: '0.5rem', width: '100%', whiteSpace: 'nowrap', overflowX: 'auto', alignItems: 'center', justifyContent: 'flex-start' }}>
-                    <select
-                      className="select"
-                      value={prevYear}
-                      onChange={e => setPrevYear(e.target.value)}
-                      style={{ minWidth: 110 }}
-                    >
-                      <option value="all">Year</option>
-                      {[2025,2024,2023].map((year) => (
-                        <option key={year} value={year}>{year}</option>
-                      ))}
-                    </select>
-                    <select
-                      className="select"
-                      value={prevSub}
-                      onChange={e => setPrevSub(e.target.value)}
-                      style={{ minWidth: 130 }}
-                    >
-                      <option value="all">Subject</option>
-                      {['phy','chem','mat','bio'].map((subject) => (
-                        <option key={subject} value={subject}>
-                          {subject === 'phy' ? 'Physics' : subject === 'chem' ? 'Chemistry' : subject === 'mat' ? 'Mathematics' : 'Biology'}
-                        </option>
-                      ))}
-                    </select>
-                    <button
-                      className="button-primary"
-                      style={{ minWidth: 100, fontWeight: 600, fontSize: '1rem' }}
-                      disabled={prevYear === 'all' || prevSub === 'all'}
-                      onClick={() => {
-                        if (prevYear !== 'all' && prevSub !== 'all') {
-                          const sessionId = uuidv7();
-                          router.push(`/mock-test/${prevSub}?year=${prevYear}&session_id=${sessionId}`);
-                          analytics.trackNavigation('home', 'mock-test');
-                          analytics.trackSubjectSelected(prevSub, 'home');
-                        }
-                      }}
-                    >
-                      Start
-                    </button>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', width: '100%', alignItems: 'center', justifyContent: 'flex-start' }}>
+                      <select
+                        className="select"
+                        value={prevYear}
+                        onChange={e => setPrevYear(e.target.value)}
+                        style={{ flex: '1 1 120px', minWidth: 90, maxWidth: '100%' }}
+                      >
+                        <option value="all">Year</option>
+                        {[2025,2024,2023].map((year) => (
+                          <option key={year} value={year}>{year}</option>
+                        ))}
+                      </select>
+                      <select
+                        className="select"
+                        value={prevSub}
+                        onChange={e => setPrevSub(e.target.value)}
+                        style={{ flex: '1 1 120px', minWidth: 90, maxWidth: '100%' }}
+                      >
+                        <option value="all">Subject</option>
+                        {['phy','chem','mat','bio'].map((subject) => (
+                          <option key={subject} value={subject}>
+                            {subject === 'phy' ? 'Physics' : subject === 'chem' ? 'Chemistry' : subject === 'mat' ? 'Mathematics' : 'Biology'}
+                          </option>
+                        ))}
+                      </select>
+                      <button
+                        className="button-primary"
+                        style={{ flex: '1 1 120px', minWidth: 90, fontWeight: 600, fontSize: '1rem', maxWidth: '100%' }}
+                        disabled={prevYear === 'all' || prevSub === 'all'}
+                        onClick={() => {
+                          if (prevYear !== 'all' && prevSub !== 'all') {
+                            const sessionId = uuidv7();
+                            router.push(`/mock-test/${prevSub}?year=${prevYear}&session_id=${sessionId}`);
+                            analytics.trackNavigation('home', 'mock-test');
+                            analytics.trackSubjectSelected(prevSub, 'home');
+                          }
+                        }}
+                      >
+                        Start
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
