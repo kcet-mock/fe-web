@@ -1,0 +1,30 @@
+{
+  "id": "83089e2f-cb23-4ab0-9ed1-7bebd0aa18bc",
+  "question": [
+    "Under electrostatic condition of a charged conductor, which among the following statements is true?"
+  ],
+  "choices": [
+    [
+      "The electric field on the surface of a charged conductor is <katex>$\\frac{\\sigma}{2\\epsilon_{0}}$</katex>"
+    ],
+    [
+      "The electric potential inside a charged conductor is always zero"
+    ],
+    [
+      "Any excess charge resides on the surface of the conductor"
+    ],
+    [
+      "The net electric field is tangential to the surface of the conductor"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For a charged conductor in electrostatic equilibrium:",
+    "Excess charge resides entirely on the surface.",
+    "Field inside is zero, Potential is constant (not necessarily zero).",
+    "Field on surface is normal to the surface (not tangential) and equal to <katex>$\\sigma/\\epsilon_0$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

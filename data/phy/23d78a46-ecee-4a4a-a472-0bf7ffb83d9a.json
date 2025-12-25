@@ -1,0 +1,30 @@
+{
+  "id": "23d78a46-ecee-4a4a-a472-0bf7ffb83d9a",
+  "question": [
+    "A particle of specific charge <katex>$\\frac{q}{m}=\\pi Ckg^{-1}$</katex> is projected from the origin towards positive x-axis with the velocity <katex>$10~ms^{-1}$</katex> in a uniform magnetic field <katex>$\\vec{B}=-2\\hat{k}T$</katex>. The velocity particle after time <katex>$t=\\frac{1}{12}$</katex> s will be (<katex>$in~ms^{-1}$</katex>)"
+  ],
+  "choices": [
+    [
+      "<katex>$5(\\hat{i}+\\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\hat{i}+\\sqrt{3}\\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\sqrt{3}\\hat{i}-\\hat{j})$</katex>"
+    ],
+    [
+      "<katex>$5(\\sqrt{3}\\hat{i}+\\hat{j})$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Time period <katex>$T = \\frac{2\\pi m}{qB} = \\frac{2\\pi}{B(q/m)} = \\frac{2\\pi}{2\\pi} = 1$</katex> s.",
+    "Angle turned in <katex>$t=1/12$</katex> s is <katex>$\\theta = \\omega t = \\frac{2\\pi}{T}t = 30^\\circ$</katex>.",
+    "Force <katex>$q(\\vec{v} \\times \\vec{B})$</katex> is along <katex>$\\hat{i} \\times (-\\hat{k}) = \\hat{j}$</katex> (upwards). The particle turns towards y-axis.",
+    "Velocity components: <katex>$v_x = v\\cos 30 = 5\\sqrt{3}$</katex>, <katex>$v_y = v\\sin 30 = 5$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

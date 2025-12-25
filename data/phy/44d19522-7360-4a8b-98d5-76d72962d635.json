@@ -1,0 +1,28 @@
+{
+  "id": "44d19522-7360-4a8b-98d5-76d72962d635",
+  "question": [
+    "Dimensional formula for activity of a radioactive substance is"
+  ],
+  "choices": [
+    [
+      "<katex>$M^{0}L^{1}T^{-1}$</katex>"
+    ],
+    [
+      "<katex>$M^{0}L^{-1}T^{0}$</katex>"
+    ],
+    [
+      "<katex>$M^{0}L^{0}T^{-1}$</katex>"
+    ],
+    [
+      "<katex>$M^{-1}L^{0}T^{0}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Activity is defined as the number of disintegrations per unit time.",
+    "Dimension is <katex>$[T^{-1}]$</katex> or <katex>$[M^0 L^0 T^{-1}]$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

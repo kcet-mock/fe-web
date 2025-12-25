@@ -1,0 +1,28 @@
+{
+  "id": "6c32ce56-f4c9-4ecc-8cbf-eb1b7b063c92",
+  "question": [
+    "A solid cube of mass m at a temperature <katex>$\\theta_{0}$</katex> is heated at a constant rate. It becomes liquid at temperature <katex>$\\theta_{1}$</katex> and vapour at temperature <katex>$\\theta_{2}$</katex>. Let <katex>$s_{1}$</katex> and <katex>$s_{2}$</katex> be specific heats in its solid and liquid states respectively. If <katex>$L_f$</katex> and <katex>$L_{v}$</katex> are latent heats of fusion and vaporisation respectively, then the minimum heat energy supplied to the cube until it vaporises is"
+  ],
+  "choices": [
+    [
+      "<katex>$ms_{1}(\\theta_{1}-\\theta_{0})+ms_{2}(\\theta_{2}-\\theta_{1})$</katex>"
+    ],
+    [
+      "<katex>$mL_{f}+ms_{2}(\\theta_{2}-\\theta_{1})+mL_{v}$</katex>"
+    ],
+    [
+      "<katex>$ms_{1}(\\theta_{1}-\\theta_{0})+mL_{f}+ms_{2}(\\theta_{2}-\\theta_{1})+mL_{v}$</katex>"
+    ],
+    [
+      "<katex>$ms_{1}(\\theta_{1}-\\theta_{0})+mL_{f}+ms_{2}(\\theta_{2}-\\theta_{0})+mL_{v}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Heat steps: Solid heat (<katex>$\\theta_0 \\to \\theta_1$</katex>) + Fusion (<katex>$mL_f$</katex>) + Liquid heat (<katex>$\\theta_1 \\to \\theta_2$</katex>) + Vaporisation (<katex>$mL_v$</katex>).",
+    "Total Heat = <katex>$ms_1(\\theta_1 - \\theta_0) + mL_f + ms_2(\\theta_2 - \\theta_1) + mL_v$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

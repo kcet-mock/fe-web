@@ -1,0 +1,30 @@
+{
+  "id": "44c4942a-f16f-4330-bfa4-a55976b90d0c",
+  "question": [
+    "In alpha particle scattering experiment, if v is the initial velocity of the particle, then the distance of closest approach is d. If the velocity is doubled, then the distance of closest approach becomes"
+  ],
+  "choices": [
+    [
+      "4d"
+    ],
+    [
+      "2d"
+    ],
+    [
+      "<katex>$\\frac{d}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{d}{4}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Distance of closest approach <katex>$d$</katex> occurs when kinetic energy converts to potential energy: <katex>$\\frac{1}{2}mv^2 = \\frac{kQq}{d}$</katex>.",
+    "This implies <katex>$d \\propto \\frac{1}{v^2}$</katex>.",
+    "If velocity <katex>$v$</katex> is doubled, <katex>$v^2$</katex> becomes 4 times, so <katex>$d$</katex> becomes <katex>$1/4$</katex>th.",
+    "New distance = <katex>$\\frac{d}{4}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

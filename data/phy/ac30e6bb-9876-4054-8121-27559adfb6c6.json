@@ -1,0 +1,29 @@
+{
+  "id": "ac30e6bb-9876-4054-8121-27559adfb6c6",
+  "question": [
+    "For a particle executing simple harmonic motion (SHM), at its mean position"
+  ],
+  "choices": [
+    [
+      "Velocity is zero and acceleration is maximum"
+    ],
+    [
+      "Velocity is maximum and acceleration is zero"
+    ],
+    [
+      "Both velocity and acceleration are maximum"
+    ],
+    [
+      "Both velocity and acceleration are zero"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "At mean position (<katex>$x=0$</katex>), potential energy is minimum and kinetic energy is maximum.",
+    "Therefore, velocity is maximum.",
+    "Restoring force and acceleration (<katex>$a \\propto x$</katex>) are zero."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "acbbedeb-cf1e-46d0-a60c-a8d123d54d68",
+  "question": [
+    "An induced current of 2 A flows through a coil. The resistance of the coil is 10 <katex>$\\Omega$</katex>. What is the change in magnetic flux associated with the coil in 1 ms?"
+  ],
+  "choices": [
+    [
+      "<katex>$0.2\\times10^{-2}Wb$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{-2}Wb$</katex>"
+    ],
+    [
+      "<katex>$22\\times10^{-2}Wb$</katex>"
+    ],
+    [
+      "<katex>$0.22\\times10^{-2}Wb$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Induced current <katex>$I = \\frac{\\text{emf}}{R} = \\frac{1}{R} \\frac{d\\phi}{dt}$</katex>.",
+    "Therefore, <katex>$\\Delta\\phi = I \\cdot R \\cdot \\Delta t$</katex>.",
+    "Substitute values: <katex>$\\Delta\\phi = 2 \\text{ A} \\times 10 \\text{ } \\Omega \\times 1 \\times 10^{-3} \\text{ s} = 0.02 \\text{ Wb}$</katex>.",
+    "<katex>$0.02 \\text{ Wb} = 2 \\times 10^{-2} \\text{ Wb}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "c132b338-6667-4dd4-a44d-b1e887161e13",
+  "question": [
+    "A uniform electric field <katex>$E=3\\times10^{5}NC^{-1}$</katex> is acting along the positive Y-axis. The electric flux through a rectangle of area <katex>$10~cm\\times30~cm$</katex> whose plane is parallel to the Z-X plane is"
+  ],
+  "choices": [
+    [
+      "<katex>$12\\times10^{3}Vm$</katex>"
+    ],
+    [
+      "<katex>$9\\times10^{3}Vm$</katex>"
+    ],
+    [
+      "<katex>$15\\times10^{3}Vm$</katex>"
+    ],
+    [
+      "<katex>$18\\times10^{3}Vm$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Area vector <katex>$\\vec{A}$</katex> is parallel to Y-axis (normal to Z-X plane).",
+    "<katex>$\\vec{A} = (0.1 \\times 0.3) \\hat{j} = 0.03 \\hat{j} ~m^2$</katex>.",
+    "Flux <katex>$\\phi = \\vec{E} \\cdot \\vec{A} = 3 \\times 10^5 \\times 0.03 = 9000~Vm = 9 \\times 10^3~Vm$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

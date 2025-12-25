@@ -1,0 +1,31 @@
+{
+  "id": "e736993d-4f8e-430a-b0a9-5d6db14445d4",
+  "question": [
+    "In an experiment to determine the temperature coefficient of resistance of a conductor, a coil of wire X is immersed in a liquid. It is heated by an external agent. A meter bridge set up is used to determine resistance of the coil X at different temperatures. The balancing points measured at temperatures <katex>$t_{1}=0^{\\circ}C$</katex> and <katex>$t_{2}=100^{\\circ}C$</katex> are 50 cm and 60 cm respectively. If the standard resistance taken out is <katex>$S=4~\\Omega$</katex> in both trials, the temperature coefficient of the coil is",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000052.png"
+  ],
+  "choices": [
+    [
+      "<katex>$0.05^{0}C^{-1}$</katex>"
+    ],
+    [
+      "<katex>$0.02^{0}C^{-1}$</katex>"
+    ],
+    [
+      "<katex>$0.005^{0}C^{-1}$</katex>"
+    ],
+    [
+      "<katex>$2.0^{0}C^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "At <katex>$0^\\circ C$</katex>: <katex>$\\frac{X_0}{4} = \\frac{50}{50} \\implies X_0 = 4$</katex>.",
+    "At <katex>$100^\\circ C$</katex>: <katex>$\\frac{X_{100}}{4} = \\frac{60}{40} = 1.5 \\implies X_{100} = 6$</katex>.",
+    "<katex>$X_{100} = X_0(1 + \\alpha \\Delta t)$</katex>.",
+    "<katex>$6 = 4(1 + 100\\alpha) \\implies 1.5 = 1 + 100\\alpha \\implies \\alpha = 0.005$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

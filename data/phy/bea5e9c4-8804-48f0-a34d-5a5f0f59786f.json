@@ -1,0 +1,32 @@
+{
+  "id": "bea5e9c4-8804-48f0-a34d-5a5f0f59786f",
+  "question": [
+    "A body of mass 1 kg is suspended by a weightless string which passes over a frictionless pulley of mass 2 kg as shown in the figure. The mass is released from a height of 1.6 m from the ground. With what velocity does it strike the ground?",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000031.png"
+  ],
+  "choices": [
+    [
+      "<katex>$16~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$8~ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4\\sqrt{2}ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$4~ms^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Conservation of energy: <katex>$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$</katex>.",
+    "For pulley (disk): <katex>$I = \\frac{1}{2}MR^2$</katex>, <katex>$\\omega = v/R$</katex>.",
+    "<katex>$1 \\times 10 \\times 1.6 = \\frac{1}{2}(1)v^2 + \\frac{1}{2}(\\frac{1}{2} \\times 2 \\times R^2)(v/R)^2$</katex>.",
+    "<katex>$16 = 0.5v^2 + 0.5v^2 = v^2$</katex>.",
+    "<katex>$v = 4~ms^{-1}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

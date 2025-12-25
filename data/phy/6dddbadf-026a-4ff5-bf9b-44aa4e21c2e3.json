@@ -1,0 +1,30 @@
+{
+  "id": "6dddbadf-026a-4ff5-bf9b-44aa4e21c2e3",
+  "question": [
+    "A motor-cyclist moving towards a huge cliff with a speed of <katex>$18~kmh^{-1}$</katex>, blows a horn of source frequency 325 Hz. If the speed of the sound in air is <katex>$330~ms^{-1}$</katex>, the number of beats heard by him is"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "4"
+    ],
+    [
+      "10"
+    ],
+    [
+      "7"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Speed of source <katex>$v_s = 18$</katex> km/h <katex>$= 5$</katex> m/s.",
+    "Frequency heard from cliff (echo) <katex>$f' = f_0 \\frac{v+v_s}{v-v_s}$</katex>.",
+    "Beat frequency <katex>$= f' - f_0 = f_0 (\\frac{v+v_s}{v-v_s} - 1) = f_0 \\frac{2v_s}{v-v_s}$</katex>.",
+    "Beats = <katex>$325 \\times \\frac{10}{325} = 10$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

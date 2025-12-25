@@ -1,0 +1,32 @@
+{
+  "id": "ad0e22a7-a4e9-4d9c-8ca0-3efd5d68855c",
+  "question": [
+    "A particle of mass 500 g is at rest. It is free to move along a straight line. The power delivered to the particle varies with time according to the following graph. The momentum of the particle at <katex>$t=5$</katex> s is",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000029.png"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\sqrt{2}Ns$</katex>"
+    ],
+    [
+      "<katex>$5\\sqrt{2}Ns$</katex>"
+    ],
+    [
+      "5 Ns"
+    ],
+    [
+      "5.5 Ns"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Work done = Area under P-t graph.",
+    "The graph is a trapezoid from t=0 to 5. Points (0,2) and (5,8).",
+    "Area = <katex>$\\frac{1}{2}(2+8) \\times 5 = 25$</katex> J.",
+    "Change in KE = 25 J. Initial KE = 0.",
+    "Momentum <katex>$p = \\sqrt{2mK} = \\sqrt{2 \\times 0.5 \\times 25} = \\sqrt{25} = 5$</katex> Ns."
+  ],
+  "years": [
+    2024
+  ]
+}

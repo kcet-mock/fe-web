@@ -1,0 +1,29 @@
+{
+  "id": "ce78914f-f56a-4dcd-aa18-27727952e21c",
+  "question": [
+    "An electric bulb of 60 W, 120 V is to be connected to 220 V source. What resistance should be connected in series with the bulb, so that the bulb glows properly?"
+  ],
+  "choices": [
+    [
+      "<katex>$50\\Omega$</katex>"
+    ],
+    [
+      "<katex>$100\\Omega$</katex>"
+    ],
+    [
+      "<katex>$200\\Omega$</katex>"
+    ],
+    [
+      "<katex>$288\\Omega$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Rated current of bulb <katex>$I = P/V = 60/120 = 0.5$</katex> A.",
+    "Voltage drop required across resistor <katex>$V_R = 220 - 120 = 100$</katex> V.",
+    "Resistance <katex>$R = V_R / I = 100 / 0.5 = 200~\\Omega$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

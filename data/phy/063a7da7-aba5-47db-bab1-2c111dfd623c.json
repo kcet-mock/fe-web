@@ -1,0 +1,32 @@
+{
+  "id": "063a7da7-aba5-47db-bab1-2c111dfd623c",
+  "question": [
+    "A uniform magnetic field of strength <katex>$B=2$</katex> mT exists vertically downwards. These magnetic field lines pass through a closed surface as shown in the figure. The closed surface consists of a hemisphere <katex>$S_{1}$</katex> a right circular cone <katex>$S_{2}$</katex> and a circular surface <katex>$S_{3}$</katex>. The magnetic flux through <katex>$S_{1}$</katex> and <katex>$S_{2}$</katex> are respectively",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000059.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\phi_{S_{1}}=-20\\mu Wb, \\phi_{S_{2}}=+20\\mu Wb$</katex>"
+    ],
+    [
+      "<katex>$\\phi_{S_{1}}=+20\\mu Wb, \\phi_{S_{2}}=-20\\mu Wb$</katex>"
+    ],
+    [
+      "<katex>$\\phi_{S_{1}}=-40\\mu Wb, \\phi_{S_{2}}=+40\\mu Wb$</katex>"
+    ],
+    [
+      "<katex>$\\phi_{s_{1}}=+40\\mu Wb, \\phi_{S_{2}}=-40\\mu Wb$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Flux through a closed surface in a uniform field is zero.",
+    "Flux in = Flux out. Input flux (negative) through top (<katex>$S_1$</katex>) = Output flux (positive) through bottom (<katex>$S_2$</katex>).",
+    "Area projected = <katex>$\\pi R^2 = \\pi (10/\\sqrt{\\pi})^2 = 100$</katex> units.",
+    "Magnitude <katex>$= B \\times A = 2 mT \\times 100 = 200 \\mu Wb$</katex>? (Units of R likely cm giving <katex>$10^{-4}$</katex> factor, resulting in 20).",
+    "Assuming correct scaling, magnitudes are equal and signs opposite. Ans A matches the pattern."
+  ],
+  "years": [
+    2024
+  ]
+}

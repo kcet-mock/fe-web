@@ -1,0 +1,32 @@
+{
+  "id": "ced71d0a-bc31-4f69-8d7d-0f22948b78ea",
+  "question": [
+    "A luminous point object O is placed at a distance 2R from the spherical boundary separating two transparent media of refractive indices <katex>$n_{1}$</katex> and <katex>$n_{2}$</katex> as shown, where R is the radius of curvature of the spherical surface. If <katex>$n_{1}=\\frac{4}{3}, n_{2}=\\frac{3}{2}$</katex> and <katex>$R=10$</katex> cm, the image is obtained at a distance from P equal to",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000009.png"
+  ],
+  "choices": [
+    [
+      "30 cm in the rarer medium"
+    ],
+    [
+      "30 cm in the denser medium"
+    ],
+    [
+      "18 cm in the rarer medium"
+    ],
+    [
+      "18 cm in the denser medium"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Using the refraction formula <katex>$\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2-n_1}{R}$</katex>:",
+    "<katex>$u = -2R = -20$</katex> cm (sign convention).",
+    "<katex>$\\frac{1.5}{v} - \\frac{1.33}{-20} = \\frac{1.5-1.33}{10}$</katex>.",
+    "Solving gives <katex>$v = -30$</katex> cm.",
+    "The negative sign indicates a virtual image formed in the incident medium (rarer medium, <katex>$n_1=4/3$</katex>)."
+  ],
+  "years": [
+    2024
+  ]
+}

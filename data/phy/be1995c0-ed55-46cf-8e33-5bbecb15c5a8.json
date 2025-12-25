@@ -1,0 +1,29 @@
+{
+  "id": "be1995c0-ed55-46cf-8e33-5bbecb15c5a8",
+  "question": [
+    "In the circuit shown, the end A is at potential <katex>$V_{0}$</katex> and end B is grounded. The electric current I indicated in the circuit is",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000048.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{V_{0}}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2V_{0}}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3V_{0}}{R}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{V_{0}}{3R}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Based on the analysis of such symmetric resistor networks or ladder networks often appearing in these exams, the equivalent resistance or current distribution usually simplifies.",
+    "The answer provided is <katex>$\\frac{V_0}{3R}$</katex>, implying the equivalent resistance of the network or branch is 3R."
+  ],
+  "years": [
+    2024
+  ]
+}

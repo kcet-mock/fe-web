@@ -1,0 +1,31 @@
+{
+  "id": "b2a05f16-a45f-486d-bf95-a409e428e788",
+  "question": [
+    "The figure shows variation of R, <katex>$X_{L}$</katex> and <katex>$X_{C}$</katex> with frequency 'f' in a series LCR circuit. Then for what frequency point is the circuit capacitive?",
+    "images/e4d3c2b1-a1b2-4c3d-8e9f-000000000005.png"
+  ],
+  "choices": [
+    [
+      "B"
+    ],
+    [
+      "C"
+    ],
+    [
+      "A"
+    ],
+    [
+      "D"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "A series LCR circuit is capacitive when <katex>$X_C > X_L$</katex>.",
+    "<katex>$X_C \\propto 1/f$</katex> decreases with frequency, while <katex>$X_L \\propto f$</katex> increases with frequency.",
+    "Therefore, the circuit is capacitive at lower frequencies (before resonance).",
+    "Point A is at a frequency lower than the intersection (resonance point B), so the circuit is capacitive at A."
+  ],
+  "years": [
+    2024
+  ]
+}
