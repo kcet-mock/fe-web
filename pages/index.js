@@ -155,6 +155,26 @@ export default function Home() {
         </div>
 
         {/* Trust Bar - now below cards */}
+                {/* Trusted by thousands card */}
+                <div style={{
+                  background: '#f9fafb',
+                  border: '1px solid #e5e7eb',
+                  borderRadius: '1.5rem',
+                  width: '100%',
+                  margin: '2rem 0 0.5rem 0',
+                  padding: '2.5rem 4rem',
+                  boxShadow: '0 12px 48px rgba(15,23,42,0.10)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1.6rem',
+                  fontSize: '2.16rem',
+                  fontWeight: 700,
+                  color: '#22223b',
+                  justifyContent: 'center',
+                }}>
+                  <span style={{ color: '#22c55e', fontSize: '2.7rem', fontWeight: 700 }}>★</span>
+                  Trusted by <span style={{ color: '#16a34a', fontWeight: 800 }}>10,000+</span> KCET aspirants
+                </div>
         <div style={{
           background: '#f9fafb',
           border: '1px solid #e5e7eb',
