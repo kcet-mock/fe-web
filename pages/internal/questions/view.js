@@ -182,10 +182,8 @@ export default function InternalQuestionViewPage() {
                 </div>
 
                 {question.explanation && Array.isArray(question.explanation) && question.explanation.length > 0 ? (
-                  <div className="explanation-section" style={{ marginTop: '1.5rem' }}>
-                    <div className="explanation-header" style={{ marginBottom: '0.75rem', fontWeight: 600, color: 'var(--color-text-primary)' }}>
-                      Explanation
-                    </div>
+                  <div className="explanation-section" style={{ marginTop: '1.5rem', background: '#ede9fe', borderRadius: '0.5rem', padding: '0.75rem 1rem' }}>
+                    <div className="badge-soft" style={{ marginBottom: '0.5rem', background: '#a78bfa', color: '#fff', display: 'inline-block', minWidth: 0 }}>Explanation</div>
                     {question.explanation.map((part, idx) => {
                       if (isImageToken(part)) {
                         const src = imageTokenToSrc(part, basePathPrefix);
