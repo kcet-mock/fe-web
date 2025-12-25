@@ -23,8 +23,16 @@ When generating or working with questions, follow this exact JSON structure:
 
 ### Field Specifications
 
+
 #### `id` (string, required)
-- Must be a valid UUID v4
+- For year-based papers, must be in the format: `<year>-<sub>-<n>`
+  - `<year>`: 4-digit year (e.g., 2025)
+  - `<sub>`: subject code (`bio`, `chem`, `phy`, `mat`)
+  - `<n>`: question number (1-based, e.g., 1, 2, ..., 60)
+- Example: `"2025-phy-1"`, `"2025-bio-23"`
+- The order of questions in the file must be maintained (do not shuffle or randomize).
+
+For non-year-based or random questions, use a valid UUID v4:
 - Format: `"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx"`
 - Example: `"68764b0a-9d80-4a0a-9b82-15611e1a0f28"`
 
