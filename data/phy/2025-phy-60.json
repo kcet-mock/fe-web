@@ -1,29 +1,29 @@
 {
   "id": "2025-phy-60",
   "question": [
-    "A particle is in uniform circular motion. The equation of its trajectory is given by <katex>$(x-2)^2 + y^2 = 25$</katex>, where x and y are in meter. The speed of the particle is <katex>$2ms^{-1}$</katex>. When the particle attains the lowest 'y' co-ordinate, the acceleration of the particle is"
+    "A particle is in uniform circular motion. The equation of its trajectory is given by <katex>$(x-2)^2 + y^2 = 25$</katex>, where x and y are in meter. The speed of the particle is <katex>$2 ms^{-1}$</katex> when the particle attains the lowest 'y' co-ordinate, the acceleration of the particle is (in <katex>$ms^{-2}$</katex>)"
   ],
   "choices": [
     [
-      "<katex>$0.4\\hat{j}$</katex>"
+      "0.4 j"
     ],
     [
-      "<katex>$0.8\\hat{i}$</katex>"
+      "0.8 i"
     ],
     [
-      "<katex>$0.8\\hat{j}$</katex>"
+      "0.8 j"
     ],
     [
-      "<katex>$0.4\\hat{i}$</katex>"
+      "0.4 i"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Equation of circle: <katex>$(x-2)^2 + y^2 = 5^2$</katex>. Center is at (2, 0), Radius R = 5m.",
-    "Lowest y-coordinate implies the bottom of the circle.",
+    "Circle equation <katex>$(x-2)^2 + y^2 = 5^2$</katex>. Center at (2,0), Radius R=5.",
     "Centripetal acceleration <katex>$a_c = \\frac{v^2}{R} = \\frac{2^2}{5} = 0.8 m/s^2$</katex>.",
-    "At the lowest point, the acceleration is directed towards the center (upwards, positive y direction).",
-    "So, <katex>$\\vec{a} = 0.8\\hat{j}$</katex>."
+    "At the lowest y-coordinate (y=-5), the center is directly above.",
+    "Acceleration is directed towards the center (positive y direction).",
+    "So <katex>$\\vec{a} = 0.8 \\hat{j}$</katex>."
   ],
   "years": [
     2025

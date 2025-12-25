@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "For an infinite straight wire, <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>.",
-    "<katex>$B \\propto \\frac{1}{r}$</katex>.",
-    "The graph is a rectangular hyperbola (Graph 2)."
+    "For a straight wire, <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>.",
+    "Thus, <katex>$B \\propto \\frac{1}{r}$</katex>.",
+    "This corresponds to a rectangular hyperbola graph."
   ],
   "years": [
     2025

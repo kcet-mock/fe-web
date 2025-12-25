@@ -19,8 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Gauss's law states that the total flux through any *closed* surface is equal to <katex>$1/\\epsilon_0$</katex> times the enclosed charge.",
-    "It is valid for any closed surface regardless of shape or charge distribution."
+    "Gauss's law is valid for any closed surface, regardless of the shape or charge distribution."
   ],
   "years": [
     2025

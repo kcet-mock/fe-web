@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-46",
   "question": [
-    "If AB is incident plane wave front then refracted wave front in <katex>$(n_2 > n_1)$</katex> is",
+    "If AB is incident plane wave front then refracted wave front in <katex>$(n_2 > n_1)$</katex>",
     "images/2025-phy-46-1.png"
   ],
   "choices": [
@@ -20,8 +20,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "When a plane wavefront enters a denser medium (<katex>$n_2 > n_1$</katex>) through a convex lens, the central part travels through the thickest part of the lens and is slowed down the most. The edges travel through thinner parts.",
-    "This causes the wavefront to converge/become spherical converging towards a focus. The shape becomes concave (converging)."
+    "When light goes from rarer (<katex>$n_1$</katex>) to denser (<katex>$n_2$</katex>), the speed decreases.",
+    "The part of the wavefront entering the medium first slows down, causing the wavefront to bend.",
+    "Diagram 1 correctly shows this refraction."
   ],
   "years": [
     2025

@@ -19,9 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "A stationary current carrying wire is electrically neutral, so E=0 outside.",
-    "The magnetic field lines around a straight current carrying wire form concentric circles (Right Hand Thumb Rule).",
-    "Field inside a long solenoid is uniform."
+    "A straight current-carrying wire produces magnetic field lines in the form of concentric circles (Right Hand Thumb Rule)."
   ],
   "years": [
     2025

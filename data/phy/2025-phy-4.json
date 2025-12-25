@@ -17,16 +17,13 @@
       "4 J"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Using Work-Energy Theorem: <katex>$W_{net} = \\Delta KE$</katex>",
-    "Initial speed at <katex>$x=0$</katex>: <katex>$u = k(0)^{3/2} = 0$</katex>",
-    "Final speed at <katex>$x=2$</katex>: <katex>$v = 2(2)^{3/2} = 2 \\times 2\\sqrt{2} = 4\\sqrt{2}$</katex>",
-    "<katex>$\\Delta KE = \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2$</katex>",
-    "<katex>$= \\frac{1}{2} \\times 0.25 \\times (4\\sqrt{2})^2 - 0$</katex>",
-    "<katex>$= \\frac{1}{2} \\times 0.25 \\times 32 = 4$</katex> J"
-  ],
-  "years": [
-    2025
+    "<katex>$W = \\frac{1}{2}mv^2 - \\frac{1}{2}mu^2$</katex>",
+    "At <katex>$x=0$</katex>, <katex>$u=0$</katex>.",
+    "At <katex>$x=2$</katex>, <katex>$v = k(2)^{3/2} = 2(2^{3/2})$</katex>.",
+    "<katex>$v^2 = 4 \\times 2^3 = 32$</katex>",
+    "<katex>$W = \\frac{1}{2} \\times 0.25 \\times 32 = \\frac{1}{8} \\times 32 = 4$</katex> J"
   ]
 }

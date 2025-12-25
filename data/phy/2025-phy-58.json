@@ -19,13 +19,13 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "<katex>$S_1 = \\frac{1}{2}gt_0^2$</katex>",
-    "<katex>$S_2 = \\frac{1}{2}g(t_0 - \\Delta t)^2$</katex>",
-    "<katex>$H = S_1 - S_2 = \\frac{1}{2}g[t_0^2 - (t_0 - \\Delta t)^2]$</katex>",
-    "<katex>$H = \\frac{1}{2}g[t_0^2 - (t_0^2 - 2t_0\\Delta t + \\Delta t^2)]$</katex>",
-    "<katex>$H = \\frac{1}{2}g(2t_0\\Delta t - \\Delta t^2) = g t_0 \\Delta t - \\frac{1}{2} g \\Delta t^2$</katex>",
-    "<katex>$g t_0 \\Delta t = H + \\frac{1}{2} g \\Delta t^2$</katex>",
-    "<katex>$t_0 = \\frac{H}{g\\Delta t} + \\frac{\\Delta t}{2}$</katex>"
+    "<katex>$S_1 = \\frac{1}{2}g t_0^2$</katex>",
+    "<katex>$S_2 = \\frac{1}{2}g (t_0 - \\Delta t)^2$</katex>",
+    "<katex>$H = S_1 - S_2 = \\frac{g}{2} [t_0^2 - (t_0 - \\Delta t)^2]$</katex>",
+    "<katex>$H = \\frac{g}{2} [t_0^2 - (t_0^2 + \\Delta t^2 - 2t_0\\Delta t)]$</katex>",
+    "<katex>$H = \\frac{g}{2} [2t_0\\Delta t - \\Delta t^2] = g t_0 \\Delta t - \\frac{g \\Delta t^2}{2}$</katex>",
+    "<katex>$H + \\frac{g \\Delta t^2}{2} = g t_0 \\Delta t$</katex>",
+    "<katex>$t_0 = \\frac{H}{g \\Delta t} + \\frac{\\Delta t}{2}$</katex>"
   ],
   "years": [
     2025

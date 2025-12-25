@@ -20,11 +20,10 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "<katex>$D_1$</katex> is reverse biased (cathode to positive), so it acts as an open circuit.",
-    "<katex>$D_2$</katex> is forward biased (anode to positive).",
-    "Current flows through <katex>$30\\Omega$</katex>, <katex>$D_2$</katex> and <katex>$70\\Omega$</katex>.",
-    "<katex>$R_{eq} = 30 + 70 = 100\\Omega$</katex>.",
-    "<katex>$I = V/R_{eq} = 3/100 = 0.03$</katex> A."
+    "Diode <katex>$D_1$</katex> is reverse biased (open circuit).",
+    "Diode <katex>$D_2$</katex> is forward biased (short circuit).",
+    "Total resistance = <katex>$30 (at D_2) + 70 = 100 \\Omega$</katex>.",
+    "Current <katex>$I = V/R = 3/100 = 0.03$</katex> A."
   ],
   "years": [
     2025

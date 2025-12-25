@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-55",
   "question": [
-    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resistance of <katex>$90\\Omega$</katex> in R. When <katex>$K_1$</katex> is closed and <katex>$K_2$</katex> is open, the deflection observed in the galvanometer is 26 div. When <katex>$K_2$</katex> is also closed and a resistance of <katex>$90\\Omega$</katex> is removed in S, the deflection becomes 13 div. The resistance of galvanometer is nearly",
+    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resistance of <katex>$5200\\Omega$</katex> in R. When <katex>$K_1$</katex> is closed and <katex>$K_2$</katex> is open, the deflection observed in the galvanometer is 26 div. When <katex>$K_2$</katex> is also closed and a resistance of <katex>$90\\Omega$</katex> is removed in S, the deflection becomes 13 div. The resistance of galvanometer is nearly",
     "images/2025-phy-55-1.png"
   ],
   "choices": [
@@ -20,13 +20,11 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "This is the half-deflection method.",
-    "G is given by <katex>$G = \\frac{RS}{R-S}$</katex> if the deflection is exactly half. However, the solution formula used is <katex>$G = \\frac{S}{ \\frac{\\theta_1}{\\theta_2} - 1}$</katex>.",
-    "Here, S = 90 (resistance in shunt box). Deflection halved from 26 to 13, so <katex>$\\frac{\\theta_1}{\\theta_2} = 2$</katex>.",
+    "In half deflection method, <katex>$G = \\frac{R S}{R - S}$</katex> if deflection is exactly half. However, formula used is typically <katex>$G = S$</katex> if R >> G. Or using standard formula:",
+    "Source Solution uses <katex>$G = \\frac{S'}{\\frac{\\theta_1}{\\theta_2} - 1}$</katex>.",
+    "<katex>$\\theta_1 = 26, \\theta_2 = 13$</katex>, so ratio is 2.",
     "<katex>$G = \\frac{90}{2-1} = 90 \\Omega$</katex>.",
-    "Wait, checking the question text carefully. \"unplugged a resistance of 5200 in R\"... The solution snippet shows S=90, <katex>$\\theta_1=26$</katex>, <katex>$\\theta_2=13$</katex>. And result 91.6.",
-    "The formula <katex>$G = S$</katex> applies strictly if <katex>$R >> G$</katex>. The exact formula considering series resistance R is <katex>$G = \\frac{RS}{R-S}$</katex>. Here if S=90 makes deflection half, then G is approx 90.",
-    "The solution calculates <katex>$91.6$</katex> using a slightly more complex relation or specific data values. Given the option 91.6 is explicit in the solution block, we select that."
+    "The closest option is 91.6 <katex>$\\Omega$</katex>. (Exact formula is <katex>$G = \\frac{RS}{R-S}$</katex> usually, but with <katex>$R=5200$</katex> and <katex>$S=90$</katex>, <katex>$G \\approx 90$</katex>)."
   ],
   "years": [
     2025

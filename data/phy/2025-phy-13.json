@@ -17,15 +17,12 @@
       "<katex>$\\frac{E_1}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
-    "Mean Kinetic Energy <katex>$E \\propto T$</katex> (absolute temperature).",
-    "<katex>$T_1 = 27 + 273 = 300K$</katex>",
-    "<katex>$T_2 = 327 + 273 = 600K$</katex>",
+    "Mean Kinetic Energy <katex>$E \\propto T$</katex> (in Kelvin).",
+    "<katex>$T_1 = 27 + 273 = 300 K$</katex>",
+    "<katex>$T_2 = 327 + 273 = 600 K$</katex>",
     "<katex>$\\frac{E_2}{E_1} = \\frac{T_2}{T_1} = \\frac{600}{300} = 2$</katex>",
     "<katex>$E_2 = 2E_1$</katex>"
-  ],
-  "years": [
-    2025
   ]
 }

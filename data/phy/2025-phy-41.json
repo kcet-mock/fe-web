@@ -1,13 +1,8 @@
 {
   "id": "2025-phy-41",
   "question": [
-    "Match the following types of waves with their wavelength ranges:",
-    "| | Waves | | Wavelength ranges |",
-    "|---|---|---|---|",
-    "| i. | Microwave | a. | 700 nm to 400 nm |",
-    "| ii. | Visible light | b. | 1nm to 10³ nm |",
-    "| iii. | Ultraviolet | c. | 0.1m to 1 mm |",
-    "| iv. | X-rays | d. | 400 nm to 1 nm |"
+    "Match the following types of waves with their wavelength ranges",
+    "| | Waves | | Wavelength ranges |\n|---|---|---|---|\n| i. | Microwave | a. | 700 nm to 400 nm |\n| ii. | Visible light | b. | 1 nm to <katex>$10^{-3}$</katex> nm |\n| iii. | Ultraviolet | c. | 0.1 m to 1 mm |\n| iv. | X-rays | d. | 400 nm to 1 nm |"
   ],
   "choices": [
     [
@@ -25,11 +20,10 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Microwave: 0.1m to 1mm (matches c).",
-    "Visible light: 700nm to 400nm (matches a).",
-    "Ultraviolet: 400nm to 1nm (matches d).",
-    "X-rays: 1nm to 10^-3 nm (matches b - though option says 10^3 nm, likely typo in source for 10^-3).",
-    "Correct match: i-c, ii-a, iii-d, iv-b."
+    "Microwaves: 0.1 m to 1 mm (c)",
+    "Visible light: 700 nm to 400 nm (a)",
+    "Ultraviolet: 400 nm to 1 nm (d)",
+    "X-rays: 1 nm to 10^-3 nm (b)"
   ],
   "years": [
     2025

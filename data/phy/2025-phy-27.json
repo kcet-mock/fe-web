@@ -19,8 +19,11 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Resistance <katex>$R = \\frac{\\rho l}{A} = \\frac{\\rho l}{\\pi (D/2)^2} = \\frac{4\\rho l}{\\pi D^2}$</katex>.",
-    "<katex>$R \\propto \\frac{1}{D^2}$</katex>.",
-    "This is an inverse square relationship, represented by a hyperbola-like curve approaching axes asymptotically (Graph 3)."
+    "Resistance <katex>$R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi (D/2)^2} = \\frac{4\\rho l}{\\pi D^2}$</katex>.",
+    "So, <katex>$R \\propto \\frac{1}{D^2}$</katex>.",
+    "The graph of R vs D is a hyperbola curve dropping sharply (Option 3)."
+  ],
+  "years": [
+    2025
   ]
 }

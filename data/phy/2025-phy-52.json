@@ -14,12 +14,12 @@
       "The donor energy level does not exist"
     ],
     [
-      "The donor energy level lies just below the bottom of the conduction band"
+      "The donor energy level lies just the bottom of the conduction band"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "In n-type semiconductors, pentavalent impurities introduce a donor energy level very close to the bottom of the conduction band."
+    "In n-type semiconductors, donor impurities create energy levels just below the conduction band, allowing electrons to be easily excited into it."
   ],
   "years": [
     2025

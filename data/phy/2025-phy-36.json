@@ -6,7 +6,7 @@
   ],
   "choices": [
     [
-      "Deflects towards <katex>$X'$</katex> (opposite side)"
+      "Deflects towards <katex>$X^1$</katex>"
     ],
     [
       "Does not deflect"
@@ -20,9 +20,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "According to Lenz's Law, the induced EMF opposes the change in magnetic flux.",
-    "Pushing North pole in induces a North pole (repulsion). Pulling North pole out induces a South pole (attraction) to oppose motion.",
-    "Since the direction of induced current reverses, the deflection will be in the opposite direction (towards X')."
+    "According to Lenz's law, the induced current opposes the change.",
+    "Pushing N-pole in induces one direction (deflection X).",
+    "Pulling N-pole out induces the opposite direction (deflection X')."
   ],
   "years": [
     2025

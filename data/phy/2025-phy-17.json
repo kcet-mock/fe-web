@@ -18,10 +18,10 @@
       "<katex>$-q/\\epsilon_0$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
-    "By Gauss's Law, <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
-    "Sphere A encloses only the negative charge (-q) of the dipole.",
-    "Therefore, Flux <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>."
+    "Sphere A encloses only the charge -q.",
+    "According to Gauss's Law, Flux <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
+    "Therefore, <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>."
   ]
 }

@@ -20,12 +20,10 @@
   "correctAnswer": 0,
   "explanation": [
     "Total turns <katex>$N = 5 \\times 1000 = 5000$</katex>.",
-    "Length <katex>$l = 1$</katex> m.",
-    "Current <katex>$i = 7$</katex> A.",
-    "Magnetic field <katex>$B = \\frac{\\mu_0 N i}{l}$</katex> (approximation for long solenoid)",
-    "<katex>$B = 4\\pi \\times 10^{-7} \\times 5000 \\times 7$</katex>",
+    "Turn density <katex>$n = N/L = 5000/1 = 5000$</katex> turns/m.",
+    "<katex>$B = \\mu_0 n I = 4\\pi \\times 10^{-7} \\times 5000 \\times 7$</katex>",
     "<katex>$B = 4 \\times 3.14 \\times 35 \\times 10^{-4}$</katex>",
-    "<katex>$B \\approx 4.396 \\times 10^{-2}$</katex> T."
+    "<katex>$B \\approx 4.4 \\times 10^{-2}$</katex> T."
   ],
   "years": [
     2025

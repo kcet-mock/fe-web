@@ -20,9 +20,11 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Total Resistance <katex>$R_{eq} = 3.9 + 0.1 = 4.0 \\Omega$</katex>.",
+    "Total resistance <katex>$R_{eq} = 3.9 + 0.1 = 4.0 \\Omega$</katex>.",
     "Current <katex>$I = \\frac{E}{R_{eq}} = \\frac{2}{4} = 0.5$</katex> A.",
-    "Terminal voltage <katex>$V = E - Ir$</katex> or <katex>$V = IR_{load}$</katex>.",
-    "<katex>$V = 2 - 0.5(0.1) = 1.95$</katex> V."
+    "Terminal voltage <katex>$V = E - Ir = 2 - (0.5 \\times 0.1) = 2 - 0.05 = 1.95$</katex> V."
+  ],
+  "years": [
+    2025
   ]
 }

@@ -12,14 +12,15 @@
       "Zero"
     ],
     [
-      "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
+      "<katex>$\\epsilon_0$</katex>"
     ],
     [
-      "<katex>$\\frac{Q+q}{\\epsilon_0}$</katex>"
+      "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
-    "The electric field inside a conductor (the metallic sphere of radius R) is zero due to electrostatic shielding. Consequently, the flux through any surface purely inside the metal of the sphere is zero."
+    "Inside a metallic (conducting) sphere, the electric field is zero due to electrostatic shielding.",
+    "Therefore, the flux at any point inside the metal of the sphere is zero."
   ]
 }

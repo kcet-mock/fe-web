@@ -20,9 +20,12 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "X: Resistivity increases non-linearly with temperature (Typical of metals/conductors like Copper).",
-    "Y: Resistivity is high and increases weakly/linearly with temperature (Typical of alloys like Nichrome).",
-    "Z: Resistivity decreases with temperature (Typical of Semiconductors).",
-    "Therefore: X-Copper, Y-Nichrome, Z-Semiconductor."
+    "X: Resistivity increases linearly/curved with T (Metal/Copper).",
+    "Y: Resistivity is high and changes slowly with T (Alloy/Nichrome).",
+    "Z: Resistivity decreases with T (Semiconductor).",
+    "Matching: X-Copper, Y-Nichrome, Z-Semiconductor."
+  ],
+  "years": [
+    2025
   ]
 }

@@ -17,12 +17,9 @@
       "Zero radian"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
-    "In a transverse wave, particles oscillate perpendicular to the direction of propagation of the wave.",
-    "Therefore, the angle between particle velocity and wave velocity is <katex>$\\frac{\\pi}{2}$</katex>."
-  ],
-  "years": [
-    2025
+    "In a transverse wave, particles oscillate perpendicular to the direction of wave propagation.",
+    "Therefore, the angle is <katex>$\\frac{\\pi}{2}$</katex> radians."
   ]
 }

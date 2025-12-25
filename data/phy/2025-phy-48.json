@@ -19,9 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Radius of Bohr orbit <katex>$r_n \\propto n^2$</katex>.",
-    "For <katex>$n=2$</katex>, <katex>$r_2 \\propto 2^2 = 4$</katex>.",
-    "So <katex>$r_2 = 4r_1 = 4r$</katex>."
+    "Bohr radius <katex>$r_n \\propto n^2$</katex>.",
+    "For <katex>$n=2$</katex>, <katex>$r_2 = 2^2 r_1 = 4r$</katex>."
   ],
   "years": [
     2025

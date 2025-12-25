@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The total energy of a satellite is given by <katex>$E_{tot} = -\\frac{GMm}{2r}$</katex>, where <katex>$r = R+h$</katex>.",
-    "Thus, <katex>$E_{tot} \\propto -\\frac{1}{(R+h)}$</katex>."
+    "Total energy of a satellite is given by <katex>$E_{tot} = -\\frac{GMm}{2r}$</katex> where <katex>$r = R+h$</katex>.",
+    "Therefore, <katex>$E_{tot} \\propto -\\frac{1}{(R+h)}$</katex>."
   ],
   "years": [
     2025

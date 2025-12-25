@@ -19,10 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Area vector <katex>$\\vec{A}$</katex> for a loop in Y-Z plane points in the X-direction: <katex>$\\vec{A} = (2 \\times 2) \\hat{i} = 4\\hat{i}$</katex>.",
-    "Flux <katex>$\\phi = \\vec{B} \\cdot \\vec{A}$</katex>",
-    "<katex>$\\phi = (5\\hat{i}+3\\hat{j}-4\\hat{k}) \\cdot (4\\hat{i})$</katex>",
-    "<katex>$\\phi = 5 \\times 4 = 20$</katex> Wb."
+    "Area vector <katex>$\\vec{A}$</katex> is perpendicular to Y-Z plane, so it is in X-direction.",
+    "<katex>$\\vec{A} = (2 \\times 2) \\hat{i} = 4\\hat{i}$</katex>.",
+    "Flux <katex>$\\phi = \\vec{B} \\cdot \\vec{A} = (5\\hat{i}+3\\hat{j}-4\\hat{k}) \\cdot (4\\hat{i}) = 20$</katex> Wb."
   ],
   "years": [
     2025
