@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-21",
+  "question": [
+    "The correct order of first ionisation enthalpy of given elements is"
+  ],
+  "choices": [
+    [
+      "<katex>$C<B<Be<Li$</katex>"
+    ],
+    [
+      "<katex>$Li<Be<B<C$</katex>"
+    ],
+    [
+      "<katex>$Li<B<Be<C$</katex>"
+    ],
+    [
+      "<katex>$Be<Li<B<C$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-25",
+  "question": [
+    "Which one of the following gases converts haemoglobin into carboxy haemoglobin?"
+  ],
+  "choices": [
+    [
+      "NO"
+    ],
+    [
+      "<katex>$CO_{2}$</katex>"
+    ],
+    [
+      "CO"
+    ],
+    [
+      "<katex>$O_{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "years": [
+    2023
+  ]
+}

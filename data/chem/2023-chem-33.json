@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-33",
+  "question": [
+    "A metal crystallises in a body centered cubic lattice with the metallic radius <katex>$\\sqrt{3}A$</katex> The volume of the unit cell in m³ is"
+  ],
+  "choices": [
+    [
+      "<katex>$6.4\\times10^{-29}$</katex>"
+    ],
+    [
+      "<katex>$4\\times10^{-10}$</katex>"
+    ],
+    [
+      "<katex>$64\\times10^{-29}$</katex>"
+    ],
+    [
+      "<katex>$4\\times10^{-29}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "years": [
+    2023
+  ]
+}

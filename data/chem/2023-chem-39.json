@@ -1,0 +1,27 @@
+{
+  "id": "2023-chem-39",
+  "question": [
+    "Consider the following 4 electrodes",
+    "<katex>$A:Ag^{+}(0.0001M)/Ag_{(s)};B:Ag^{+}(0.1M)/Ag_{(s)}$</katex>",
+    "<katex>$C:Ag^{+}(0.01M)/Ag_{(s)};D:Ag^{+}(0.001M)/Ag_{(s)};E_{Ag^{+}/Ag}^{z}=+0.80V$</katex>.",
+    "Then reduction potential in volts of the electrodes in the order"
+  ],
+  "choices": [
+    [
+      "<katex>$A>D>C>B$</katex>"
+    ],
+    [
+      "<katex>$A>B>C>D$</katex>"
+    ],
+    [
+      "<katex>$B>C>D>A$</katex>"
+    ],
+    [
+      "<katex>$C>D>A>B$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-49",
+  "question": [
+    "<katex>$aMnO_{4}^{-}+bS_{2}O_{3}^{-2}+H_{2}O\\rightarrow xMnO_{2}+ySO_{4}^{-2}+zOH^{-}$</katex> a and y respectively are"
+  ],
+  "choices": [
+    [
+      "3; 6"
+    ],
+    [
+      "8; 8"
+    ],
+    [
+      "8; 3"
+    ],
+    [
+      "8; 6"
+    ]
+  ],
+  "correctAnswer": 2,
+  "years": [
+    2023
+  ]
+}

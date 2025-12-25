@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-50",
+  "question": [
+    "Which formula and name combination is INCORRECT?"
+  ],
+  "choices": [
+    [
+      "<katex>$[CoCl_{2}(en)_{2}]Cl$</katex> - Dichloridodiethylenediammine cobalt (II) chloride"
+    ],
+    [
+      "<katex>$[Co(NH_{3})_{4}(H_{2}O)Cl]Cl_{2}$</katex> - Tetraammineaquachloridocobalt (III) chloride"
+    ],
+    [
+      "<katex>$K_{3}[Al(C_{2}O_{4})_{3}]$</katex> - Potassium trioxalatoaluminate (III)"
+    ],
+    [
+      "<katex>$[Pt(NH_{3})_{2}Cl(NO_{2})]$</katex> - Diamminechloridonitrito - N - platinum (II)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "years": [
+    2023
+  ]
+}

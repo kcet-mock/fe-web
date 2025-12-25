@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-29",
+  "question": [
+    "The composition of water gas is"
+  ],
+  "choices": [
+    [
+      "<katex>$CO_{(g)}+H_{2}O_{(g)}$</katex>"
+    ],
+    [
+      "<katex>$CO_{(g)}+H_{2_{(g)}}$</katex>"
+    ],
+    [
+      "<katex>$CO_{(g)}+N_{2_{(x)}}$</katex>"
+    ],
+    [
+      "<katex>$CH_{4_{(x)}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "years": [
+    2023
+  ]
+}

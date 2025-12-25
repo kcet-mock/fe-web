@@ -1,0 +1,27 @@
+{
+  "id": "2023-chem-55",
+  "question": [
+    "In which one of the following pairs, both the elements does not have <katex>$(n-1)d^{10}ns^{2}$</katex> configuration in its elementary state?"
+  ],
+  "choices": [
+    [
+      "Hg, Cn"
+    ],
+    [
+      "Cu, Zn"
+    ],
+    [
+      "Zn, Cd"
+    ],
+    [
+      "Cd, Hg"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer provided in key: No Answer"
+  ],
+  "years": [
+    2023
+  ]
+}

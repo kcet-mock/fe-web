@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-16",
+  "question": [
+    "Lattice enthalpy for NaCl is <katex>$+788~kJ~mol^{-1}$</katex> and <katex>$\\Delta~H_{Hyd}^{\\circ}=-784~kJ~mol^{-1}$</katex>. Enthalpy of solution of NaCl is"
+  ],
+  "choices": [
+    [
+      "<katex>$-572~kJ~mol^{-1}$</katex>"
+    ],
+    [
+      "<katex>$-4~kJ~mol^{-1}$</katex>"
+    ],
+    [
+      "<katex>$+572~kJ~mol^{-1}$</katex>"
+    ],
+    [
+      "<katex>$+4~kJ~mol^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "years": [
+    2023
+  ]
+}

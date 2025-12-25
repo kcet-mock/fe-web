@@ -1,0 +1,24 @@
+{
+  "id": "2023-chem-46",
+  "question": [
+    "When <katex>$FeCl_{3}$</katex> is added to excess of hot water gives a sol 'X'. When <katex>$FeCl_{3}$</katex> is added to <katex>$NaOH_{(aq)}$</katex> solution, gives sol 'Y'. X and Y formed in the above processes respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$Fe_{2}O_{3}.xH_{2}O/Cl^{-}$</katex> and <katex>$Fe_{2}O_{3}.xH_{2}O/OH^{-}$</katex>"
+    ],
+    [
+      "<katex>$Fe_{2}O_{3}.xH_{2}O/Fe^{3+}$</katex> and <katex>$Fe_{2}O_{3}.xH_{2}O/OH^{-}$</katex>"
+    ],
+    [
+      "<katex>$Fe_{2}O_{3}.xH_{2}O/OH^{-}$</katex> and <katex>$Fe_{2}O_{3}.xH_{2}O/Fe^{3+}$</katex>"
+    ],
+    [
+      "<katex>$Fe_{2}O_{3}.xH_{2}O/H^{+}$</katex> and <katex>$Fe_{2}O_{3}.xH_{2}O/Na^{+}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "years": [
+    2023
+  ]
+}

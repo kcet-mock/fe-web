@@ -1,0 +1,25 @@
+{
+  "id": "2023-chem-31",
+  "question": [
+    "A sample of water is found to contain 5.85% <katex>$(\\frac{w}{w})$</katex> of AB (molecular mass 58.5) and 9.50% <katex>$(\\frac{w}{w})XY_{2}$</katex> (molecular mass 95). Assuming 80% ionisation of AB and 60% ionisation of <katex>$XY_{2}$</katex> the freezing point of water sample is",
+    "[Given: <katex>$K_{f}$</katex> for water 1.86 K kg mol¹, Freezing point of pure water is 273 K and A, B and Y are monovalent ions]"
+  ],
+  "choices": [
+    [
+      "280.44 K"
+    ],
+    [
+      "281.75 K"
+    ],
+    [
+      "264.25 K"
+    ],
+    [
+      "265.56 K"
+    ]
+  ],
+  "correctAnswer": 1,
+  "years": [
+    2023
+  ]
+}

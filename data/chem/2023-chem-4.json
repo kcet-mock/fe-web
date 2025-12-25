@@ -1,0 +1,25 @@
+{
+  "id": "2023-chem-4",
+  "question": [
+    "Y in the above reaction is",
+    "images/2023-chem-4-1.png"
+  ],
+  "choices": [
+    [
+      "Cumene"
+    ],
+    [
+      "Picric acid"
+    ],
+    [
+      "Salicylaldehyde"
+    ],
+    [
+      "Aspirin"
+    ]
+  ],
+  "correctAnswer": 2,
+  "years": [
+    2023
+  ]
+}
