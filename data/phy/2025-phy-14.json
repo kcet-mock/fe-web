@@ -24,8 +24,5 @@
     "<katex>$\\frac{1}{2}m\\omega^2(A^2 - x^2) = \\frac{1}{2}m\\omega^2x^2$</katex>",
     "<katex>$A^2 - x^2 = x^2 \\Rightarrow 2x^2 = A^2$</katex>",
     "<katex>$x = \\frac{A}{\\sqrt{2}}$</katex>"
-  ],
-  "years": [
-    2025
   ]
 }

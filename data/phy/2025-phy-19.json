@@ -5,16 +5,16 @@
   ],
   "choices": [
     [
-      "images/2025-phy-19-1.png"
+      "images/2025-phy-19-5.png"
     ],
     [
-      "images/2025-phy-19-2.png"
+      "images/2025-phy-19-6.png"
     ],
     [
-      "images/2025-phy-19-3.png"
+      "images/2025-phy-19-7.png"
     ],
     [
-      "images/2025-phy-19-4.png"
+      "images/2025-phy-19-8.png"
     ]
   ],
   "correctAnswer": 0,
@@ -22,8 +22,5 @@
     "For a conducting sphere, the electric field inside (<katex>$r < R$</katex>) is zero.",
     "Outside the sphere (<katex>$r \\ge R$</katex>), <katex>$E = \\frac{kQ}{r^2}$</katex>, so E decreases as <katex>$1/r^2$</katex>.",
     "The graph must show E=0 until r=R, then a sudden jump and a decay. This corresponds to graph (1)."
-  ],
-  "years": [
-    2025
   ]
 }

@@ -1,13 +1,7 @@
 {
   "id": "2025-phy-20",
   "question": [
-    "Match Column-I with Column-II related to an electric dipole of dipole moment <katex>$\\vec{p}$</katex> that is placed in a uniform electric field <katex>$\\vec{E}$</katex>.",
-    "| | Column - I (Angle between p and E) | | Column - II (Potential energy) |",
-    "|---|---|---|---|",
-    "| a) | <katex>$180^{\\circ}$</katex> | i) | <katex>$-pE$</katex> |",
-    "| b) | <katex>$120^{\\circ}$</katex> | ii) | <katex>$pE$</katex> |",
-    "| c) | <katex>$90^{\\circ}$</katex> | iii) | <katex>$\\frac{1}{2}pE$</katex> |",
-    "| | | iv) | Zero |"
+    "Match Column-I with Column-II related to an electric dipole of dipole moment <katex>$\\vec{p}$</katex> that is placed in a uniform electric field <katex>$\\vec{E}$</katex>.\n\n|   | Column - I (Angle between p and E) |   | Column - II (Potential energy) |\n|---|---|---|---|\n| a) | <katex>$180^{\\circ}$</katex> | i) | <katex>$-pE$</katex> |\n| b) | <katex>$120^{\\circ}$</katex> | ii) | <katex>$pE$</katex> |\n| c) | <katex>$90^{\\circ}$</katex> | iii) | <katex>$\\frac{1}{2}pE$</katex> |\n|   |   | iv) | Zero |"
   ],
   "choices": [
     [

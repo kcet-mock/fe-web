@@ -21,8 +21,5 @@
   "correctAnswer": 0,
   "explanation": [
     "The electric field inside a conductor (the metallic sphere of radius R) is zero due to electrostatic shielding. Consequently, the flux through any surface purely inside the metal of the sphere is zero."
-  ],
-  "years": [
-    2025
   ]
 }

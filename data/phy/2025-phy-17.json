@@ -23,8 +23,5 @@
     "By Gauss's Law, <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
     "Sphere A encloses only the negative charge (-q) of the dipole.",
     "Therefore, Flux <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }
