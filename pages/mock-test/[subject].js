@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import RenderContent from '../../components/RenderContent';
 import { analytics } from '../../lib/analytics';
 
-// 60-minute mock test timer (in seconds)
-const TEST_DURATION_SECONDS = 60 * 60;
+// 80-minute mock test timer (in seconds)
+const TEST_DURATION_SECONDS = 80 * 60;
 const DEFAULT_QUESTION_COUNT = 60;
 const yearsToTry = [2020, 2021, 2022, 2023, 2024, 2025, 2026];
 

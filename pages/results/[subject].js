@@ -194,8 +194,8 @@ export default function ResultsSubjectPage({ subject, questions }) {
   // Accuracy: correct / attempted
   const accuracy = attemptedCount ? (correctCount / attemptedCount) : 0;
   // Efficiency: (totalQuestions / examTime) / (attemptedCount / timeTakenSeconds)
-  // Assume exam time is 60 minutes (3600 seconds)
-  const EXAM_TIME_SECONDS = 60 * 60;
+  // Assume exam time is 80 minutes (4800 seconds)
+  const EXAM_TIME_SECONDS = 80 * 60;
   const efficiency = (attemptedCount && timeTakenSeconds)
     ? ((attemptedCount / timeTakenSeconds) / (totalQuestions / EXAM_TIME_SECONDS))
     : 0;
