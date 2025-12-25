@@ -249,7 +249,7 @@ export default function InternalQuestionsListPage() {
                                             alt={`Option ${optIdx + 1}`}
                                             width={1200}
                                             height={800}
-                                            style={{ maxWidth: '100%', height: 'auto' }}
+                                            style={{ maxWidth: 150, maxHeight: 150, height: 'auto', width: 'auto' }}
                                           />
                                         </div>
                                       );

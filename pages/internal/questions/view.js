@@ -166,7 +166,7 @@ export default function InternalQuestionViewPage() {
                                   alt={`Option ${optIdx + 1}`}
                                   width={200}
                                   height={200}
-                                  style={{ maxWidth: 200, maxHeight: 200, height: 'auto', width: 'auto' }}
+                                  style={{ maxWidth: 150, maxHeight: 150, height: 'auto', width: 'auto' }}
                                 />
                               </div>
                             );

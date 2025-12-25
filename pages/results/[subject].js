@@ -423,7 +423,7 @@ export default function ResultsSubjectPage({ subject, questions }) {
                                         alt={`Question ${questionNumber} option ${optionIndex + 1}`}
                                         width={1200}
                                         height={800}
-                                        style={{ maxWidth: '200px', maxHeight: '200px', width: 'auto', height: 'auto' }}
+                                        style={{ maxWidth: 150, maxHeight: 150, height: 'auto', width: 'auto' }}
                                       />
                                     </div>
                                   );
