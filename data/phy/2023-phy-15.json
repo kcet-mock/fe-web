@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-15",
+  "question": [
+    "Total impedance of a series LCR circuit varies with angular frequency of the AC source connected to it as shown in the graph. The quality factor Q of the series LCR circuit is",
+    "images/2023-phy-15-1.png"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0.4"
+    ],
+    [
+      "2.5"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

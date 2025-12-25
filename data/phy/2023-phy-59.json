@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-59",
+  "question": [
+    "A wire of resistance R is connected across a cell of emf <katex>$\\epsilon$</katex> and internal resistance r. The current through the circuit is I. In time t, the work done by the battery to establish the current I is"
+  ],
+  "choices": [
+    [
+      "IRt"
+    ],
+    [
+      "<katex>$I^{2}Rt$</katex>"
+    ],
+    [
+      "<katex>$\\epsilon It$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\epsilon^{2}t}{R}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

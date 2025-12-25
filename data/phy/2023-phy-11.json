@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-11",
+  "question": [
+    "In series LCR circuit at resonance, the phase difference between voltage and current is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{2}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$\\pi$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

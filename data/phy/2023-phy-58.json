@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-58",
+  "question": [
+    "The four bands of a colour coded resistor are of the colours gray, red, gold and gold. The value of the resistance of the resistor is"
+  ],
+  "choices": [
+    [
+      "<katex>$8.2\\Omega\\pm5\\%$</katex>"
+    ],
+    [
+      "<katex>$82\\Omega\\pm5\\%$</katex>"
+    ],
+    [
+      "<katex>$5.2\\Omega\\pm5\\%$</katex>"
+    ],
+    [
+      "<katex>$82\\Omega\\pm10\\%$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

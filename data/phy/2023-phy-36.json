@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-36",
+  "question": [
+    "A body is moving along a straight line with initial velocity <katex>$v_{0}$</katex>. Its acceleration a is constant. After t seconds, its velocity becomes v. The average velocity of the body over the given time interval is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\overline{v}=\\frac{v^{2}+v_{0}^{2}}{at}$</katex>"
+    ],
+    [
+      "<katex>$\\overline{v}=\\frac{v^{2}-v_{0}^{2}}{2at}$</katex>"
+    ],
+    [
+      "<katex>$\\overline{v}=\\frac{v^{2}-v_{0}^{2}}{at}$</katex>"
+    ],
+    [
+      "<katex>$\\overline{v}=\\frac{v^{2}+v_{0}^{2}}{2at}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-55",
+  "question": [
+    "The equivalent resistance between the points A and B in the following circuit is",
+    "images/2023-phy-55-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$0.05 \\Omega$</katex>"
+    ],
+    [
+      "<katex>$5 \\Omega$</katex>"
+    ],
+    [
+      "<katex>$0.5 \\Omega$</katex>"
+    ],
+    [
+      "<katex>$5.5 \\Omega$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

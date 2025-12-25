@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-7",
+  "question": [
+    "An ideal transformer has a turns ratio of 10. When the primary is connected to 220V, 50 Hz ac source, the power output is"
+  ],
+  "choices": [
+    [
+      "Equal to power input"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "10 times the power input"
+    ],
+    [
+      "<katex>$\\frac{1}{10}^{th}$</katex> the power input"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

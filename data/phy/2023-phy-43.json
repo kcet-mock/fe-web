@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-43",
+  "question": [
+    "100 g of ice at <katex>$0^{\\circ}C$</katex> is mixed with 100 g of water at <katex>$100^{\\circ}C$</katex>. The final temperature of the mixture is [Take <katex>$L_{f}=3.36\\times10^{5}J~kg^{-1}$</katex> and <katex>$S_{w}=4.2\\times10^{3}J~kg^{-1}k^{-1}$</katex>]"
+  ],
+  "choices": [
+    [
+      "<katex>$50^{\\circ}C$</katex>"
+    ],
+    [
+      "<katex>$1^{\\circ}C$</katex>"
+    ],
+    [
+      "<katex>$40^{\\circ}C$</katex>"
+    ],
+    [
+      "<katex>$10^{\\circ}C$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

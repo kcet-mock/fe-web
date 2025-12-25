@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-52",
+  "question": [
+    "Five capacitors each of value <katex>$1\\mu F$</katex> are connected as shown in the figure. The equivalent capacitance between A and B is",
+    "images/2023-phy-52-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\mu F$</katex>"
+    ],
+    [
+      "<katex>$5\\mu F$</katex>"
+    ],
+    [
+      "<katex>$3~\\mu F$</katex>"
+    ],
+    [
+      "<katex>$1\\mu F$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

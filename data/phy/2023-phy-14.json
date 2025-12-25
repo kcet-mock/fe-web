@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-14",
+  "question": [
+    "When light propagates through a given homogeneous medium, the velocities of"
+  ],
+  "choices": [
+    [
+      "Primary wavefronts are greater than or equal to those of secondary wavelets."
+    ],
+    [
+      "Primary wavefronts and wavelets are equal"
+    ],
+    [
+      "Primary wavefronts are larger than those of secondary wavelets"
+    ],
+    [
+      "Primary wavefronts are lesser than those of secondary wavelets"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

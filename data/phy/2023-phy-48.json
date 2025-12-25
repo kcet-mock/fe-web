@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-48",
+  "question": [
+    "A positively charged glass rod is brought near uncharged metal sphere, which is mounted on an insulated stand. If the glass rod is removed, the net charge on the metal sphere is"
+  ],
+  "choices": [
+    [
+      "<katex>$1.6\\times10^{-19}C$</katex>"
+    ],
+    [
+      "Positive charge"
+    ],
+    [
+      "Negative charge"
+    ],
+    [
+      "Zero"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

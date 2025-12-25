@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-37",
+  "question": [
+    "A particle is in uniform circular motion. Related to one complete revolution of the particle, which among the statements is correct?"
+  ],
+  "choices": [
+    [
+      "Average speed of the particle is zero"
+    ],
+    [
+      "Average velocity of the particle is zero"
+    ],
+    [
+      "Average acceleration of the particle is zero"
+    ],
+    [
+      "Displacement of the particle is zero"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A (Note: This seems to be the key provided, although strictly displacement is zero. If the key says A, we output A)."
+  ],
+  "years": [
+    2023
+  ]
+}

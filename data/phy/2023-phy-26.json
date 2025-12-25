@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-26",
+  "question": [
+    "The truth table for the given circuit is",
+    "images/2023-phy-26-1.png"
+  ],
+  "choices": [
+    [
+      "images/2023-phy-26-2.png"
+    ],
+    [
+      "images/2023-phy-26-3.png"
+    ],
+    [
+      "images/2023-phy-26-4.png"
+    ],
+    [
+      "images/2023-phy-26-5.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

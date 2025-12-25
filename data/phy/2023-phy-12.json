@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-12",
+  "question": [
+    "An equiconvex lens made of glass of refractive index <katex>$\\frac{3}{2}$</katex> has focal length f in air. It is completely immersed in water of refractive index <katex>$\\frac{4}{3}$</katex>. The percentage change in the focal length is"
+  ],
+  "choices": [
+    [
+      "400% decrease"
+    ],
+    [
+      "300% increase"
+    ],
+    [
+      "400% increase"
+    ],
+    [
+      "300% decrease"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

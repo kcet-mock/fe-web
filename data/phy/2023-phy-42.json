@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-42",
+  "question": [
+    "A closed water tank has cross-sectional area A. It has a small hole at a depth of h from the free surface of water. The radius of the hole is r so that <katex>$r\\ll\\sqrt{\\frac{A}{\\pi}}$</katex>. If <katex>$P_{o}$</katex> is the pressure inside the tank above water level, and <katex>$P_{a}$</katex> is the atmospheric pressure, the rate of flow of the water coming out of the hole is [<katex>$\\rho$</katex> is the density of water]",
+    "images/2023-phy-42-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\pi r^{2}\\sqrt{2gH}$</katex>"
+    ],
+    [
+      "<katex>$\\pi r^{2}\\sqrt{gh+\\frac{2(P_{o}-P_{a})}{P}}$</katex>"
+    ],
+    [
+      "<katex>$\\pi r^{2}\\sqrt{2gh}$</katex>"
+    ],
+    [
+      "<katex>$\\pi r^{2}\\sqrt{2gh+\\frac{2(P_{o}-P_{a})}{\\rho}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

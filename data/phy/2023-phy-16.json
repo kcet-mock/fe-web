@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-16",
+  "question": [
+    "The ratio of the magnitudes of electric field to the magnetic field of an electromagnetic wave is of the order of"
+  ],
+  "choices": [
+    [
+      "<katex>$10^{-5}ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$10^{8}ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$10^{-8}ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$10^{5}ms^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

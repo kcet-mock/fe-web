@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-20",
+  "question": [
+    "Three energy levels of hydrogen atom and the corresponding wavelength of the emitted radiation due to different electron transition are as shown. Then.",
+    "images/2023-phy-20-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\lambda_{2}=\\lambda_{1}+\\lambda_{3}$</katex>"
+    ],
+    [
+      "<katex>$\\lambda_{2}=\\frac{\\lambda_{1}\\lambda_{3}}{\\lambda_{1}+\\lambda_{3}}$</katex>"
+    ],
+    [
+      "<katex>$\\lambda_{3}=\\frac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1}+\\lambda_{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\lambda_{1}=\\frac{\\lambda_{2}\\lambda_{3}}{\\lambda_{2}+\\lambda_{3}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-4",
+  "question": [
+    "A moving coil galvanometer is converted into an ammeter of range 0 to 5 mA. The galvanometer resistance is <katex>$90\\Omega$</katex> and the shunt resistance has a value of <katex>$10\\Omega$</katex>. If there are 50 divisions in the galvanometer-turned-ammeter on either sides of zero, its current sensitivity is"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\times10^{4}A/div$</katex>"
+    ],
+    [
+      "<katex>$1\\times10^{5}div/A$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{4}div/A$</katex>"
+    ],
+    [
+      "<katex>$1\\times10^{5}A/div$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

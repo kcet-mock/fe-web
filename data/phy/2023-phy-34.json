@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-34",
+  "question": [
+    "Seven identical discs are arranged in a planar pattern, so as to touch each other as shown in the figure. Each disc has mass 'm' radius R. What is the moment of inertia of system of six discs about an axis passing through the center of central disc and normal to plane of all discs?",
+    "images/2023-phy-34-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$55\\frac{mR^{2}}{2}$</katex>"
+    ],
+    [
+      "<katex>$85\\frac{mR^{2}}{2}$</katex>"
+    ],
+    [
+      "<katex>$27mR^{2}$</katex>"
+    ],
+    [
+      "<katex>$100mR^{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

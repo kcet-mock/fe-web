@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-6",
+  "question": [
+    "The Curie temperatures of Cobalt and iron are 1400K and 1000 K respectively. At <katex>$T=1600K$</katex>, the ratio of magnetic susceptibility of Cobalt to that of iron is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{7}{5}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{5}{7}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{3}$</katex>"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

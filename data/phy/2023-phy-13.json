@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-13",
+  "question": [
+    "A point object is moving at a constant speed of <katex>$1ms^{-1}$</katex> along the principal axis of a convex lens of focal length 10cm. The speed of the image is also <katex>$1ms^{-1}$</katex>, when the object is at ___ cm from the optic centre of the lens."
+  ],
+  "choices": [
+    [
+      "20"
+    ],
+    [
+      "5"
+    ],
+    [
+      "10"
+    ],
+    [
+      "15"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

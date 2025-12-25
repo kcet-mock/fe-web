@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-38",
+  "question": [
+    "A body of mass 10kg is kept on a horizontal surface. The coefficient of kinetic friction between the body and the surface is 0.5. A horizontal force of 60N is applied on the body. The resulting acceleration of the body is about"
+  ],
+  "choices": [
+    [
+      "<katex>$6ms^{-2}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$1~ms^{-2}$</katex>"
+    ],
+    [
+      "<katex>$5~ms^{-2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

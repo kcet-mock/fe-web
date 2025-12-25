@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-39",
+  "question": [
+    "The P-V diagram of a Carnot's engine is shown in the graph below. The engine uses 1 mole of an ideal gas as working substance. From the graph, the area enclosed by the <katex>$P-V$</katex> diagram is [The heat supplied to the gas is 8000 J]",
+    "images/2023-phy-39-1.png"
+  ],
+  "choices": [
+    [
+      "3000 J"
+    ],
+    [
+      "1000 J"
+    ],
+    [
+      "1200 J"
+    ],
+    [
+      "2000 J"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

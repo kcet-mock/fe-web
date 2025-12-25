@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-18",
+  "question": [
+    "For a given pair of transparent media, the critical angle for which colour is maximum?"
+  ],
+  "choices": [
+    [
+      "Blue"
+    ],
+    [
+      "Violet"
+    ],
+    [
+      "Green"
+    ],
+    [
+      "Red"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

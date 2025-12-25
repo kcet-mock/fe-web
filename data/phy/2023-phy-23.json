@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-23",
+  "question": [
+    "A 60 W source emits monochromatic light of wavelength 662.5 nm. The number of photons emitted per second is"
+  ],
+  "choices": [
+    [
+      "<katex>$5\\times10^{26}$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{29}$</katex>"
+    ],
+    [
+      "<katex>$5\\times10^{17}$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{20}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

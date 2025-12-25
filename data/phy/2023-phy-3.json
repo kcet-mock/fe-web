@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-3",
+  "question": [
+    "A proton and an alpha-particle moving with the same velocity enter a uniform magnetic field with their velocities perpendicular to the magnetic field. The ratio of radii of their circular paths is"
+  ],
+  "choices": [
+    [
+      "4:1"
+    ],
+    [
+      "1:2"
+    ],
+    [
+      "2:1"
+    ],
+    [
+      "1:4"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-5",
+  "question": [
+    "A positively charged particle of mass m is passed through a velocity selector. It moves horizontally rightward without deviation along the line <katex>$y=\\frac{2mv}{qB}$</katex> with a speed v. The electric field is vertically downwards and magnetic field is into the plane of the paper. Now, the electric field is switched off at <katex>$t=0$</katex>. The angular momentum of the charged particle about origin O at <katex>$t=\\frac{\\pi m}{qB}$</katex> is",
+    "images/2023-phy-5-1.png"
+  ],
+  "choices": [
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$\\frac{mE^{3}}{qB^{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{mE^{2}}{qB^{3}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2mE^{2}}{qB^{3}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

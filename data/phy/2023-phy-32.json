@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-32",
+  "question": [
+    "A ball of mass 0.2kg is thrown vertically down from a height of 10m. It collides with the floor and loses 50% of its energy and then rises back to the same height. The value of its initial velocity is"
+  ],
+  "choices": [
+    [
+      "<katex>$196 ms^{-1}$</katex>"
+    ],
+    [
+      "<katex>$20~ms^{-1}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$14~ms^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

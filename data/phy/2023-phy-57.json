@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-57",
+  "question": [
+    "The resistance of a carbon resistor is <katex>$4.7~k\\Omega\\pm5\\%$</katex>. The colour of the third band is"
+  ],
+  "choices": [
+    [
+      "Violet"
+    ],
+    [
+      "Orange"
+    ],
+    [
+      "Gold"
+    ],
+    [
+      "Red"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

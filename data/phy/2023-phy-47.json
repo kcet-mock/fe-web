@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-47",
+  "question": [
+    "The speed of sound in an ideal gas at a given temperature T is v. The rms speed of gas molecules at that temperature is <katex>$V_{rms}$</katex>. The ratio of the velocities v and <katex>$V_{rms}$</katex> for helium and oxygen gases are X and X' respectively. Then <katex>$\\frac{X}{X^{\\prime}}$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$\\sqrt{\\frac{5}{21}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{21}{5}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{21}{\\sqrt{5}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{5}{\\sqrt{21}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-21",
+  "question": [
+    "An unpolarised light of intensity I is passed through two polaroids kept one after the other with their planes parallel to each other. The intensity of light emerging from second polaroid is <katex>$\\frac{I}{4}$</katex>. The angle between the pass axes of the polaroids is"
+  ],
+  "choices": [
+    [
+      "<katex>$60^{\\circ}$</katex>"
+    ],
+    [
+      "<katex>$45^{\\circ}$</katex>"
+    ],
+    [
+      "<katex>$30^{\\circ}$</katex>"
+    ],
+    [
+      "<katex>$0^{\\circ}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: C. (Note: The OCR choice order was A, B, D, C, mapped correctly here)."
+  ],
+  "years": [
+    2023
+  ]
+}

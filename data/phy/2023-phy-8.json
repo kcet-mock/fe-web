@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-8",
+  "question": [
+    "The current in a coil changes from 2A to 5A in 0.3s. The magnitude of emf induced in the coil is 1.0V. The value of self-inductance of the coil is"
+  ],
+  "choices": [
+    [
+      "0.1mH"
+    ],
+    [
+      "10mH"
+    ],
+    [
+      "1.0mH"
+    ],
+    [
+      "100mH"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

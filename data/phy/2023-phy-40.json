@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-40",
+  "question": [
+    "When a planet revolves around the Sun, in general, for the planet"
+  ],
+  "choices": [
+    [
+      "Kinetic and potential energy of the planet are constant."
+    ],
+    [
+      "Angular momentum about the Sun and aerial velocity of the planet are constant."
+    ],
+    [
+      "Linear momentum and linear velocity are constant."
+    ],
+    [
+      "Linear momentum and aerial velocity are constant."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

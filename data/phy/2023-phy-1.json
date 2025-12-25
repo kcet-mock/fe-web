@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-1",
+  "question": [
+    "The torque acting on a magnetic dipole placed in uniform magnetic field is zero, when the angle between the dipole axis and the magnetic field is"
+  ],
+  "choices": [
+    [
+      "<katex>$60^{\\circ}$</katex>"
+    ],
+    [
+      "<katex>$90^{\\circ}$</katex>"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "<katex>$45^{\\circ}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

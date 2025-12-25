@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-25",
+  "question": [
+    "A full-wave rectifier with diodes <katex>$D_{1}$</katex> and <katex>$D_{2}$</katex> is used to rectify 50 Hz alternating voltage. The diode <katex>$D_{1}$</katex> conducts ___ times in one second."
+  ],
+  "choices": [
+    [
+      "75"
+    ],
+    [
+      "50"
+    ],
+    [
+      "100"
+    ],
+    [
+      "25"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

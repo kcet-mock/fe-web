@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-35",
+  "question": [
+    "The true length of a wire is 3.678cm. When the length of this wire is measured using instrument A, the length of the wire is 3.5 cm. When the length of the wire is measured using instrument B, it is found to have length 3.38 cm. Then the"
+  ],
+  "choices": [
+    [
+      "Measurement with B is more accurate and precise"
+    ],
+    [
+      "Measurement with A is more precise while measurement with B is more accurate"
+    ],
+    [
+      "Measurement with A is more accurate and precise"
+    ],
+    [
+      "Measurement with A is more accurate while measurement with B is more precise"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-27",
+  "question": [
+    "The energy gap of an LED is 2.4 eV. When the LED is switched 'ON', the momentum of the emitted photons is"
+  ],
+  "choices": [
+    [
+      "<katex>$1.28\\times10^{-11}kg.m.s^{-1}$</katex>"
+    ],
+    [
+      "<katex>$0.64\\times10^{-27}kg.m.s^{-1}$</katex>"
+    ],
+    [
+      "<katex>$1.28\\times10^{-27}kg.m.s^{-1}$</katex>"
+    ],
+    [
+      "<katex>$2.56\\times10^{-27}kg.m.s^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

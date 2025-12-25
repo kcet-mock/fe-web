@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-19",
+  "question": [
+    "In the Rutherford's alpha scattering experiment, as the impact parameter increases, the scattering angle of the alpha particle"
+  ],
+  "choices": [
+    [
+      "Decreases"
+    ],
+    [
+      "Increases"
+    ],
+    [
+      "Remains the same"
+    ],
+    [
+      "Is always <katex>$90^{\\circ}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: A"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-24",
+  "question": [
+    "In an experiment to study photo-electric effect the observed variation of stopping potential with frequency of incident radiation is as shown in the figure. The slope and y-intercept are respectively",
+    "images/2023-phy-24-1.png"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{hv}{e},-\\frac{h}{e}$</katex>"
+    ],
+    [
+      "<katex>$hv, -hv_{0}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{h}{e},-\\frac{hv_{0}}{e}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{hv}{\\mathfrak{e}},v_{0}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

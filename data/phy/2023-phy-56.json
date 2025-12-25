@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-56",
+  "question": [
+    "A charged particle is subjected to acceleration in a cyclotron as shown. The charged particle undergoes increase in its speed",
+    "images/2023-phy-56-1.png"
+  ],
+  "choices": [
+    [
+      "Inside <katex>$D_{1}$</katex>, <katex>$D_{2}$</katex> and the gaps"
+    ],
+    [
+      "Only inside <katex>$D_{1}$</katex>"
+    ],
+    [
+      "Only in the gap between <katex>$D_{1}$</katex> and <katex>$D_{2}$</katex>"
+    ],
+    [
+      "Only inside <katex>$D_{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

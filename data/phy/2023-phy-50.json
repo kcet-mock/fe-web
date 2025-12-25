@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-50",
+  "question": [
+    "A cubical Gaussian surface has side of length <katex>$a=10$</katex> cm. Electric field lines are parallel to x-axis as shown. The magnitudes of electric fields through surfaces ABCD and EFGH are <katex>$6kNC^{-1}$</katex> and <katex>$9kNC^{-1}$</katex> respectively. Then the total charge enclosed by the cube is [Take <katex>$\\epsilon_{0}=9\\times10^{-12}Fm^{-1}$</katex>]",
+    "images/2023-phy-50-1.png"
+  ],
+  "choices": [
+    [
+      "-1.35 nC"
+    ],
+    [
+      "0.27 nC"
+    ],
+    [
+      "-0.27 nC"
+    ],
+    [
+      "1.35 nC"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

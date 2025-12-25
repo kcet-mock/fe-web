@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-31",
+  "question": [
+    "When a p-n junction diode is in forward bias, which type of charge carriers flows in the connective wire?"
+  ],
+  "choices": [
+    [
+      "Protons"
+    ],
+    [
+      "Holes"
+    ],
+    [
+      "Free electrons"
+    ],
+    [
+      "Ions"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Answer key: C"
+  ],
+  "years": [
+    2023
+  ]
+}

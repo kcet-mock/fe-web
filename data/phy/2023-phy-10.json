@@ -1,0 +1,28 @@
+{
+  "id": "2023-phy-10",
+  "question": [
+    "A square loop of side 2 cm enters a magnetic field with a constant speed of <katex>$2cm~s^{-1}$</katex> as shown. The front edge enters the field at <katex>$t=0s.$</katex> Which of the following graph correctly depicts the induced emf in the loop? (Take clockwise direction positive)",
+    "images/2023-phy-10-1.png"
+  ],
+  "choices": [
+    [
+      "images/2023-phy-10-2.png"
+    ],
+    [
+      "images/2023-phy-10-3.png"
+    ],
+    [
+      "images/2023-phy-10-4.png"
+    ],
+    [
+      "images/2023-phy-10-5.png"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Answer key: B"
+  ],
+  "years": [
+    2023
+  ]
+}

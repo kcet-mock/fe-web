@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-30",
+  "question": [
+    "A radioactive sample has half-life of 3 years. The time required for the activity of the sample to reduce to <katex>$\\frac{1}{5}^{th}$</katex> of its initial value is about"
+  ],
+  "choices": [
+    [
+      "15 years"
+    ],
+    [
+      "5 years"
+    ],
+    [
+      "10 years"
+    ],
+    [
+      "7 years"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-phy-29",
+  "question": [
+    "A nucleus with mass number 220 initially at rest emits an alpha particle. If the Q value of reaction is 5.5 MeV, calculate the value of kinetic energy of alpha particle."
+  ],
+  "choices": [
+    [
+      "7.4 MeV"
+    ],
+    [
+      "4.5 MeV"
+    ],
+    [
+      "6.5 MeV"
+    ],
+    [
+      "5.4 MeV"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Answer key: D"
+  ],
+  "years": [
+    2023
+  ]
+}
