@@ -18,15 +18,12 @@
       "a-ii, b-iii, c-iv"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Potential Energy <katex>$U = -\\vec{p} \\cdot \\vec{E} = -pE \\cos \\theta$</katex>.",
     "a) <katex>$\\theta = 180^{\\circ} \\Rightarrow U = -pE(-1) = pE$</katex>. (Matches ii)",
     "b) <katex>$\\theta = 120^{\\circ} \\Rightarrow U = -pE(-0.5) = 0.5 pE$</katex>. (Matches iii)",
     "c) <katex>$\\theta = 90^{\\circ} \\Rightarrow U = -pE(0) = 0$</katex>. (Matches iv)",
     "Matches: a-ii, b-iii, c-iv."
-  ],
-  "years": [
-    2025
   ]
 }

@@ -18,14 +18,11 @@
       "X - copper, Y - nichrome, Z - semiconductor"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "X: Resistivity increases linearly/curved with T (Metal/Copper).",
     "Y: Resistivity is high and changes slowly with T (Alloy/Nichrome).",
     "Z: Resistivity decreases with T (Semiconductor).",
     "Matching: X-Copper, Y-Nichrome, Z-Semiconductor."
-  ],
-  "years": [
-    2025
   ]
 }

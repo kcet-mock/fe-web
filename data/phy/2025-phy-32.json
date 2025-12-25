@@ -17,11 +17,8 @@
       "The magnetic field inside a solenoid is non-uniform"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "A straight current-carrying wire produces magnetic field lines in the form of concentric circles (Right Hand Thumb Rule)."
-  ],
-  "years": [
-    2025
   ]
 }

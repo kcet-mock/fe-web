@@ -163,9 +163,9 @@ export default function InternalQuestionViewPage() {
                                 <Image
                                   src={src}
                                   alt={`Option ${optIdx + 1}`}
-                                  width={1200}
-                                  height={800}
-                                  style={{ maxWidth: '100%', height: 'auto' }}
+                                  width={200}
+                                  height={200}
+                                  style={{ maxWidth: 200, maxHeight: 200, height: 'auto', width: 'auto' }}
                                 />
                               </div>
                             );

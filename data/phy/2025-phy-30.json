@@ -17,14 +17,11 @@
       "Equal"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Shunt resistance <katex>$S = \\frac{I_g G}{I - I_g}$</katex>.",
     "For Ammeter, range I is large (e.g., 1A). For Milliammeter, range I is small (e.g., 1mA).",
     "Since S is inversely proportional to <katex>$(I - I_g)$</katex>, a larger Range I requires a smaller Shunt S.",
     "Thus, Ammeter shunt < Milliammeter shunt."
-  ],
-  "years": [
-    2025
   ]
 }

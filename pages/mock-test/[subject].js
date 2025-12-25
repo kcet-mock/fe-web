@@ -436,7 +436,7 @@ export default function MockTestSubjectPage({ subject, allIds, questions, yearId
                                       alt={`Question ${questionNumber} option ${optionIndex + 1}`}
                                       width={1200}
                                       height={800}
-                                      style={{ maxWidth: '100%', height: 'auto' }}
+                                      style={{ maxWidth: '200px', maxHeight: '200px', width: 'auto', height: 'auto' }}
                                     />
                                   </div>
                                 );
