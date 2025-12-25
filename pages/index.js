@@ -128,7 +128,7 @@ export default function Home() {
                     ))}
                   </select>
                   <button
-                    className="button-primary"
+                    className={`button-primary prev-papers-start-btn${prevYear === 'all' || prevSub === 'all' ? ' disabled' : ''}`}
                     disabled={prevYear === 'all' || prevSub === 'all'}
                     onClick={() => {
                       if (prevYear !== 'all' && prevSub !== 'all') {
