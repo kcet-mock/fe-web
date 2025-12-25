@@ -10,10 +10,8 @@ export default function TopNav() {
         </Link>
         <nav className="top-nav-links">
           <Link
-            href="https://github.com/avinashkranjan/kcet#donate"
+            href="/donate"
             className="top-nav-link top-nav-cta"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Donate
           </Link>
