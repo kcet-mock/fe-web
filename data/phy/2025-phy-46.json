@@ -22,9 +22,7 @@
   "explanation": [
     "When light goes from rarer (<katex>$n_1$</katex>) to denser (<katex>$n_2$</katex>), the speed decreases.",
     "The part of the wavefront entering the medium first slows down, causing the wavefront to bend.",
-    "Diagram 1 correctly shows this refraction."
-  ],
-  "years": [
-    2025
+    "Diagram 1 correctly shows this refraction.",
+    "images/2025-phy-46-6.png"
   ]
 }

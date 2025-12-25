@@ -18,13 +18,10 @@
       "<katex>$40^{\\circ}-t^2$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "For a prism <katex>$A = r + r'$</katex>.",
     "<katex>$50 = (10 + t^2) + r'$</katex>",
     "<katex>$r' = 50 - 10 - t^2 = 40 - t^2$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }
