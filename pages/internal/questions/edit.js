@@ -188,6 +188,7 @@ export default function InternalQuestionEditPage() {
     try {
       const fd = new FormData();
       fd.append('file', file);
+      if (id) fd.append('questionId', id);
 
       const res = await fetch('/api/internal/images', {
         method: 'POST',
