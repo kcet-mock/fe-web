@@ -180,7 +180,7 @@ export default function Home() {
           border: '1px solid #e5e7eb',
           borderRadius: '1rem',
           width: '100%',
-          margin: '2.5rem 0 2.2rem 0',
+          margin: '1.5rem 0 2.2rem 0',
           padding: '1.5rem 2rem',
           boxShadow: '0 6px 24px rgba(15,23,42,0.07)',
         }}>
