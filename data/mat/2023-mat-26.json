@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-26",
+  "question": [
+    "If <katex>$|\\vec{a}+\\vec{b}|=|\\vec{a}-\\vec{b}|$</katex> then"
+  ],
+  "choices": [
+    [
+      "<katex>$\\vec{a}$</katex> and <katex>$\\vec{b}$</katex> are coincident"
+    ],
+    [
+      "Inclined to each other at <katex>$60^{\\circ}$</katex>"
+    ],
+    [
+      "<katex>$\\vec{a}$</katex> and <katex>$\\vec{b}$</katex> are perpendicular"
+    ],
+    [
+      "<katex>$\\vec{a}$</katex> and <katex>$\\vec{b}$</katex> are parallel"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Square both sides: <katex>$|\\vec{a}+\\vec{b}|^2 = |\\vec{a}-\\vec{b}|^2$</katex>.",
+    "<katex>$a^2 + b^2 + 2\\vec{a}\\cdot\\vec{b} = a^2 + b^2 - 2\\vec{a}\\cdot\\vec{b}$</katex>.",
+    "<katex>$4\\vec{a}\\cdot\\vec{b} = 0 \\implies \\vec{a}\\cdot\\vec{b} = 0$</katex>.",
+    "Thus, vectors are perpendicular."
+  ],
+  "years": [
+    2023
+  ]
+}

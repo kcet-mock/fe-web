@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-47",
+  "question": [
+    "If <katex>$f(x)=ax+b$</katex>, where <katex>$a$</katex> and <katex>$b$</katex> are integers, <katex>$f(-1)=-5$</katex> and <katex>$f(3)=3$</katex> then <katex>$a$</katex> and <katex>$b$</katex> are respectively"
+  ],
+  "choices": [
+    [
+      "<katex>$0, 2$</katex>"
+    ],
+    [
+      "<katex>$2, 3$</katex>"
+    ],
+    [
+      "<katex>$-3, -1$</katex>"
+    ],
+    [
+      "<katex>$2, -3$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$f(-1) = -a + b = -5$</katex>.",
+    "<katex>$f(3) = 3a + b = 3$</katex>.",
+    "Subtract: <katex>$(3a+b) - (-a+b) = 3 - (-5)$</katex>.",
+    "<katex>$4a = 8 \\implies a = 2$</katex>.",
+    "Substitute <katex>$a=2$</katex>: <katex>$-2 + b = -5 \\implies b = -3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

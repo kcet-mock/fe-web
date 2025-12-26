@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-7",
+  "question": [
+    "If <katex>$x\\begin{bmatrix}3\\\\ 2\\end{bmatrix}+y\\begin{bmatrix}1\\\\ -1\\end{bmatrix}=\\begin{bmatrix}15\\\\ 5\\end{bmatrix}$</katex> then the value of <katex>$x$</katex> and <katex>$y$</katex> are"
+  ],
+  "choices": [
+    [
+      "<katex>$x=-4, y=-3$</katex>"
+    ],
+    [
+      "<katex>$x=-4, y=3$</katex>"
+    ],
+    [
+      "<katex>$x=4, y=3$</katex>"
+    ],
+    [
+      "<katex>$x=4, y=-3$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "We have the system of equations:",
+    "<katex>$3x + y = 15$</katex>",
+    "<katex>$2x - y = 5$</katex>",
+    "Adding the two equations: <katex>$5x = 20 \\implies x = 4$</katex>.",
+    "Substituting <katex>$x=4$</katex> in the first equation: <katex>$3(4) + y = 15 \\implies 12 + y = 15 \\implies y = 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

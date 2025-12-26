@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-48",
+  "question": [
+    "The vectors <katex>$\\vec{AB}=3\\hat{i}+4\\hat{k}$</katex> and <katex>$\\vec{AC}=5\\hat{i}-2\\hat{j}+4\\hat{k}$</katex> are the sides of a <katex>$\\Delta ABC.$</katex> The length of the median through A is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\sqrt{18}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{72}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{33}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{288}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Median <katex>$\\vec{AM} = \\frac{\\vec{AB} + \\vec{AC}}{2}$</katex>.",
+    "<katex>$\\vec{AM} = \\frac{(3+5)i + (0-2)j + (4+4)k}{2} = \\frac{8i - 2j + 8k}{2} = 4i - j + 4k$</katex>.",
+    "Length <katex>$= \\sqrt{16 + 1 + 16} = \\sqrt{33}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

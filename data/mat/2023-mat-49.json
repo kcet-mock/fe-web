@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-49",
+  "question": [
+    "A line passes through <katex>$(2, 2)$</katex> and is perpendicular to the line <katex>$3x+y=3$</katex>. Its y-intercept is"
+  ],
+  "choices": [
+    [
+      "<katex>$1$</katex>"
+    ],
+    [
+      "<katex>$\\frac{4}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2}{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Slope of <katex>$3x+y=3$</katex> is <katex>$-3$</katex>.",
+    "Slope of perpendicular line <katex>$m = 1/3$</katex>.",
+    "Equation: <katex>$y - 2 = \\frac{1}{3}(x - 2)$</katex>.",
+    "<katex>$3y - 6 = x - 2$</katex>.",
+    "<katex>$x - 3y + 4 = 0$</katex>.",
+    "For y-intercept, put <katex>$x=0$</katex>: <katex>$-3y + 4 = 0 \\implies y = 4/3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

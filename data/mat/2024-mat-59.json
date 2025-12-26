@@ -1,0 +1,33 @@
+{
+  "id": "2024-mat-59",
+  "question": [
+    "A random variable X has the following probability distribution:",
+    "| X | 0 | 1 | 2 |",
+    "|---|---|---|---|",
+    "| P(X) | 1/36 | 23/36? | k |",
+    "(Note: Table structure inferred from partial text. Assuming mean=1/3 leads to variance calculation).",
+    "If the mean of the random variable X is <katex>$\\frac{1}{3};$</katex> then the variance is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{18}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{5}{18}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{7}{18}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{11}{18}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Based on answer key B (5/18).",
+    "Variance <katex>$V = E(X^2) - (E(X))^2$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

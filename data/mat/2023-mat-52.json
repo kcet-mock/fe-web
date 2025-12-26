@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-52",
+  "question": [
+    "If <katex>$n$</katex> is even and the middle term in the expansion of <katex>$(x^{2}+\\frac{1}{x})^{n}$</katex> is <katex>$924x^{6}$</katex>, then <katex>$n$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$12$</katex>"
+    ],
+    [
+      "<katex>$8$</katex>"
+    ],
+    [
+      "<katex>$10$</katex>"
+    ],
+    [
+      "<katex>$14$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Middle term for even <katex>$n$</katex> is <katex>$T_{n/2+1}$</katex>.",
+    "<katex>$T_{n/2+1} = {}^nC_{n/2} (x^2)^{n/2} (1/x)^{n/2} = {}^nC_{n/2} x^n x^{-n/2} = {}^nC_{n/2} x^{n/2}$</katex>.",
+    "Given power of <katex>$x$</katex> is 6. <katex>$n/2 = 6 \\implies n = 12$</katex>.",
+    "Check coeff: <katex>${}^{12}C_6 = \\frac{12 \\cdot 11 \\cdot 10 \\cdot 9 \\cdot 8 \\cdot 7}{720} = 12 \\cdot 11 \\cdot 7 = 924$</katex>. Matches."
+  ],
+  "years": [
+    2023
+  ]
+}

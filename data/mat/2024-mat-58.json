@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-58",
+  "question": [
+    "A die is thrown 10 times. The probability that an odd number will come up at least once is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{11}{1024}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1013}{1024}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1023}{1024}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{1024}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "P(Odd) = 1/2. P(Even) = 1/2.",
+    "P(At least one odd) = 1 - P(No odd) = 1 - P(All even).",
+    "<katex>$= 1 - (1/2)^{10} = 1 - 1/1024 = 1023/1024$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

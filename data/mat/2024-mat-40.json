@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-40",
+  "question": [
+    "<katex>$\\int\\frac{1}{x[6(log~x)^{2}+7~log~x+2]}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{2}log|\\frac{2~log~x+1}{3~log~x+2}|+C$</katex>"
+    ],
+    [
+      "<katex>$log|\\frac{2~log~x+1}{3~log~x+2}|+C$</katex>"
+    ],
+    [
+      "<katex>$log|\\frac{3~log~x+2}{2~log~x+1}|+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}log|\\frac{3~log~x+2}{2~log~x+1}|+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Put <katex>$t = \\log x$</katex>, <katex>$dt = dx/x$</katex>.",
+    "Integrand: <katex>$\\frac{1}{6t^2+7t+2} = \\frac{1}{(2t+1)(3t+2)}$</katex>.",
+    "Using partial fractions: <katex>$\\frac{2}{2t+1} - \\frac{3}{3t+2}$</katex>.",
+    "Integral: <katex>$\\ln|2t+1| - \\ln|3t+2| = \\ln|\\frac{2t+1}{3t+2}|$</katex>.",
+    "Substitute back: <katex>$\\ln|\\frac{2\\log x + 1}{3\\log x + 2}|$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

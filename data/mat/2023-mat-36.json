@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-36",
+  "question": [
+    "If <katex>$\\vec{a}+2\\vec{b}+3\\vec{c}=\\vec{0}$</katex> and <katex>$(\\vec{a}\\times\\vec{b})+(\\vec{b}\\times\\vec{c})+(\\vec{c}\\times\\vec{a})=\\lambda(\\vec{b}\\times\\vec{c})$</katex> then the value of <katex>$\\lambda$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$4$</katex>"
+    ],
+    [
+      "<katex>$6$</katex>"
+    ],
+    [
+      "<katex>$2$</katex>"
+    ],
+    [
+      "<katex>$3$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Given <katex>$\\vec{a} = -2\\vec{b} - 3\\vec{c}$</katex>.",
+    "<katex>$\\vec{a} \\times \\vec{b} = (-2\\vec{b} - 3\\vec{c}) \\times \\vec{b} = -3(\\vec{c} \\times \\vec{b}) = 3(\\vec{b} \\times \\vec{c})$</katex>.",
+    "<katex>$\\vec{c} \\times \\vec{a} = \\vec{c} \\times (-2\\vec{b} - 3\\vec{c}) = -2(\\vec{c} \\times \\vec{b}) = 2(\\vec{b} \\times \\vec{c})$</katex>.",
+    "Expression <katex>$= 3(\\vec{b}\\times\\vec{c}) + (\\vec{b}\\times\\vec{c}) + 2(\\vec{b}\\times\\vec{c}) = 6(\\vec{b}\\times\\vec{c})$</katex>.",
+    "So <katex>$\\lambda = 6$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-30",
+  "question": [
+    "If the curve passes through the point <katex>$(1, 1)$</katex> and at any point <katex>$(x, y)$</katex> on the curve, the product of the slope of its tangent and x co-ordinate of the point is equal to the y co-ordinate of the point, then the curve also passes through the point"
+  ],
+  "choices": [
+    [
+      "<katex>$(-1, 2)$</katex>"
+    ],
+    [
+      "<katex>$(\\sqrt{3},0)$</katex>"
+    ],
+    [
+      "<katex>$(2, 2)$</katex>"
+    ],
+    [
+      "<katex>$(3,0)$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Slope of tangent <katex>$\\frac{dy}{dx}$</katex>.",
+    "Given: <katex>$x \\cdot \\frac{dy}{dx} = y$</katex>.",
+    "<katex>$\\frac{dy}{y} = \\frac{dx}{x}$</katex>. Integrate: <katex>$\\log y = \\log x + \\log C \\implies y = Cx$</katex>.",
+    "Passes through <katex>$(1,1)$</katex>: <katex>$1 = C(1) \\implies C=1$</katex>.",
+    "Equation is <katex>$y=x$</katex>.",
+    "Points on <katex>$y=x$</katex>: Check options. <katex>$(2,2)$</katex> fits."
+  ],
+  "years": [
+    2023
+  ]
+}

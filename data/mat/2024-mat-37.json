@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-37",
+  "question": [
+    "If <katex>$f(x)=xe^{x(1-x)}$</katex> then f(x) is"
+  ],
+  "choices": [
+    [
+      "Increasing in R"
+    ],
+    [
+      "Decreasing in R"
+    ],
+    [
+      "Decreasing in <katex>$[-\\frac{1}{2},1]$</katex>"
+    ],
+    [
+      "Increasing in <katex>$[-\\frac{1}{2},1]$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$f'(x) = 1 \\cdot e^{x-x^2} + x \\cdot e^{x-x^2}(1-2x) = e^{x-x^2}(1 + x - 2x^2)$</katex>.",
+    "For increasing, <katex>$1 + x - 2x^2 > 0 \\Rightarrow 2x^2 - x - 1 < 0$</katex>.",
+    "Roots are 1 and -1/2. Parabola opens up, so negative between roots.",
+    "Increasing in <katex>$[-1/2, 1]$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

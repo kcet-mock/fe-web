@@ -1,0 +1,28 @@
+{
+  "id": "2024-mat-53",
+  "question": [
+    "The distance between the two planes <katex>$2x+3y+4z=4$</katex> and <katex>$4x+6y+8z=12$</katex> is"
+  ],
+  "choices": [
+    [
+      "2 units"
+    ],
+    [
+      "8 units"
+    ],
+    [
+      "<katex>$\\frac{2}{\\sqrt{29}}$</katex> units"
+    ],
+    [
+      "4 units"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Rewrite second plane: <katex>$2x+3y+4z=6$</katex>.",
+    "Distance <katex>$d = \\frac{|d_1 - d_2|}{\\sqrt{a^2+b^2+c^2}} = \\frac{|4-6|}{\\sqrt{4+9+16}} = \\frac{2}{\\sqrt{29}}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

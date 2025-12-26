@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-7",
+  "question": [
+    "The mean deviation about the mean for the data 4, 7, 8, 9, 10, 12, 13, 17 is"
+  ],
+  "choices": [
+    [
+      "10"
+    ],
+    [
+      "3"
+    ],
+    [
+      "8.5"
+    ],
+    [
+      "4.03"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "First, find the mean <katex>$\\mu = \\frac{4+7+8+9+10+12+13+17}{8} = \\frac{80}{8} = 10$</katex>.",
+    "Calculate deviations <katex>$|x_i - \\mu|$</katex>: <katex>$|4-10|=6, |7-10|=3, |8-10|=2, |9-10|=1, |10-10|=0, |12-10|=2, |13-10|=3, |17-10|=7$</katex>.",
+    "Sum of deviations: <katex>$6+3+2+1+0+2+3+7 = 24$</katex>.",
+    "Mean Deviation <katex>$= \\frac{\\sum |x_i - \\mu|}{N} = \\frac{24}{8} = 3$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

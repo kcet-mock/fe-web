@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-49",
+  "question": [
+    "The minimum value of <katex>$1-\\sin x$</katex> is"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Range of <katex>$\\sin x$</katex> is [-1, 1].",
+    "Max value of <katex>$\\sin x$</katex> is 1.",
+    "Min value of <katex>$1-\\sin x$</katex> occurs when <katex>$\\sin x$</katex> is max.",
+    "Min = <katex>$1 - 1 = 0$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

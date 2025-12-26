@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-49",
+  "question": [
+    "The volume of the parallelopiped whose co-terminous edges are <katex>$\\hat{j}+\\hat{k}$</katex> <katex>$\\hat{i}+\\hat{k}$</katex> and <katex>$\\hat{i}+\\hat{j}$</katex> is"
+  ],
+  "choices": [
+    [
+      "6 cu. units"
+    ],
+    [
+      "2 cu. units"
+    ],
+    [
+      "4 cu. units"
+    ],
+    [
+      "3 cu. units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Edges are <katex>$(0,1,1), (1,0,1), (1,1,0)$</katex>.",
+    "Volume = Determinant of matrix formed by these vectors.",
+    "<katex>$|\\begin{matrix}0&1&1\\\\ 1&0&1\\\\ 1&1&0\\end{matrix}| = 0 - 1(0-1) + 1(1-0) = 1 + 1 = 2$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-18",
+  "question": [
+    "If <katex>$f(x)$</katex> and <katex>$g(x)$</katex> are two functions with <katex>$g(x)=x-\\frac{1}{x}$</katex> and <katex>$fog(x)=x^{3}-\\frac{1}{x^{3}}$</katex> then <katex>$f'(x)=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$x^{2}-\\frac{1}{x^{2}}$</katex>"
+    ],
+    [
+      "<katex>$1-\\frac{1}{x^{2}}$</katex>"
+    ],
+    [
+      "<katex>$3x^{2}+3$</katex>"
+    ],
+    [
+      "<katex>$3x^{2}+\\frac{3}{x^{4}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$g(x) = x - 1/x$</katex>. Note that <katex>$(x-1/x)^3 = x^3 - 1/x^3 - 3(x)(1/x)(x-1/x) = x^3 - 1/x^3 - 3(x-1/x)$</katex>.",
+    "So, <katex>$x^3 - 1/x^3 = (x-1/x)^3 + 3(x-1/x)$</katex>.",
+    "Given <katex>$f(g(x)) = x^3 - 1/x^3$</katex>, we can write <katex>$f(u) = u^3 + 3u$</katex> where <katex>$u = g(x)$</katex>.",
+    "Then <katex>$f(x) = x^3 + 3x$</katex>.",
+    "<katex>$f'(x) = 3x^2 + 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-45",
+  "question": [
+    "The area of the region bounded by the line <katex>$y=x$</katex> and the curve <katex>$y=x^{3}$</katex> is"
+  ],
+  "choices": [
+    [
+      "0.2 sq. units"
+    ],
+    [
+      "0.3 sq. units"
+    ],
+    [
+      "0.4 sq. units"
+    ],
+    [
+      "0.5 sq. units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Intersection: <katex>$x^3=x \\Rightarrow x=0, 1, -1$</katex>.",
+    "Area is symmetric. Total Area <katex>$2 \\int_0^1 (x-x^3) dx$</katex>.",
+    "<katex>$2 [\\frac{x^2}{2} - \\frac{x^4}{4}]_0^1 = 2 (\\frac{1}{2} - \\frac{1}{4}) = 2(\\frac{1}{4}) = 0.5$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2025-mat-57",
+  "question": [
+    "The area of the region bounded by the curve <katex>$y=x^{2}$</katex> and the line <katex>$y=16$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{32}{3}$</katex> sq. units"
+    ],
+    [
+      "<katex>$\\frac{256}{3}$</katex> sq. units"
+    ],
+    [
+      "<katex>$\\frac{64}{3}$</katex> sq. units"
+    ],
+    [
+      "<katex>$\\frac{128}{3}$</katex> sq. units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Symmetric about y-axis. Area = <katex>$2 \\int_0^{16} x dy = 2 \\int_0^{16} \\sqrt{y} dy$</katex>.",
+    "<katex>$= 2 [\\frac{y^{3/2}}{3/2}]_0^{16} = \\frac{4}{3} [16^{3/2}] = \\frac{4}{3} [64] = \\frac{256}{3}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

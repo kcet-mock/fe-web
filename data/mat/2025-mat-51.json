@@ -1,0 +1,31 @@
+{
+  "id": "2025-mat-51",
+  "question": [
+    "The value of <katex>$\\int\\frac{dx}{(x+1)(x+2)}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\log|\\frac{x-1}{x+2}|+c$</katex>"
+    ],
+    [
+      "<katex>$\\log|\\frac{x-1}{x-2}|+c$</katex>"
+    ],
+    [
+      "<katex>$\\log|\\frac{x+2}{x+1}|+c$</katex>"
+    ],
+    [
+      "<katex>$\\log|\\frac{x+1}{x+2}|+c$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Partial fractions: <katex>$\\frac{1}{(x+1)(x+2)} = \\frac{A}{x+1} + \\frac{B}{x+2}$</katex>.",
+    "<katex>$1 = A(x+2) + B(x+1)$</katex>.",
+    "x=-1 -> A=1.",
+    "x=-2 -> B=-1.",
+    "Integral is <katex>$\\int (\\frac{1}{x+1} - \\frac{1}{x+2}) dx = \\log|x+1| - \\log|x+2| + c = \\log|\\frac{x+1}{x+2}| + c$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

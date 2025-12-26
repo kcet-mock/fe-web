@@ -1,0 +1,31 @@
+{
+  "id": "2025-mat-22",
+  "question": [
+    "The number of four digit even numbers that can be formed using the digits 0, 1, 2 and 3 without repetition is"
+  ],
+  "choices": [
+    [
+      "6"
+    ],
+    [
+      "10"
+    ],
+    [
+      "4"
+    ],
+    [
+      "30"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Digits: 0, 1, 2, 3. Total 4 digits.",
+    "For a number to be even, it must end in 0 or 2.",
+    "Case 1: Ends in 0. <katex>$_ _ _ 0$</katex>. Remaining 3 digits can be arranged in <katex>$3! = 6$</katex> ways.",
+    "Case 2: Ends in 2. <katex>$_ _ _ 2$</katex>. First digit cannot be 0. So first digit has 2 choices (1 or 3). Second digit has 2 choices (remaining + 0). Third has 1 choice. <katex>$2 \\times 2 \\times 1 = 4$</katex> ways.",
+    "Total ways = 6 + 4 = 10."
+  ],
+  "years": [
+    2025
+  ]
+}

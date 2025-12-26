@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-25",
+  "question": [
+    "The degree of the differential equation <katex>$1+(\\frac{dy}{dx})^{2}+(\\frac{d^{2}y}{dx^{2}})^{2}=\\sqrt[3]{\\frac{d^{2}y}{dx^{2}}+1}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$1$</katex>"
+    ],
+    [
+      "<katex>$2$</katex>"
+    ],
+    [
+      "<katex>$6$</katex>"
+    ],
+    [
+      "<katex>$3$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "To find degree, remove radicals. Cube both sides.",
+    "<katex>$(1 + (y')^2 + (y'')^2)^3 = y'' + 1$</katex>.",
+    "The highest order derivative is <katex>$y''$</katex>.",
+    "In the LHS, <katex>$(y'')^2$</katex> is cubed, so <katex>$(y'')^6$</katex> will appear.",
+    "Degree is the highest power of the highest derivative, which is 6."
+  ],
+  "years": [
+    2023
+  ]
+}

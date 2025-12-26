@@ -1,0 +1,32 @@
+{
+  "id": "2024-mat-5",
+  "question": [
+    "The real value of 'a' for which <katex>$\\frac{1-i~sin~\\alpha}{1+2i~sin~\\alpha}$</katex> is purely real is"
+  ],
+  "choices": [
+    [
+      "<katex>$(n+1)\\frac{\\pi}{2}, n\\in N$</katex>"
+    ],
+    [
+      "<katex>$(2n+1)\\frac{\\pi}{2}, n\\in N$</katex>"
+    ],
+    [
+      "<katex>$n\\pi, n\\in N$</katex>"
+    ],
+    [
+      "<katex>$(2n-1)\\frac{\\pi}{2}, n\\in N$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Let <katex>$z = \\frac{1-i\\sin\\alpha}{1+2i\\sin\\alpha}$</katex>.",
+    "Multiply numerator and denominator by <katex>$1-2i\\sin\\alpha$</katex>.",
+    "Numerator: <katex>$(1-i\\sin\\alpha)(1-2i\\sin\\alpha) = 1 - 2i\\sin\\alpha - i\\sin\\alpha + 2i^2\\sin^2\\alpha = (1-2\\sin^2\\alpha) - 3i\\sin\\alpha$</katex>.",
+    "For <katex>$z$</katex> to be purely real, the imaginary part must be zero.",
+    "<katex>$-3\\sin\\alpha = 0 \\Rightarrow \\sin\\alpha = 0$</katex>.",
+    "<katex>$\\alpha = n\\pi$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

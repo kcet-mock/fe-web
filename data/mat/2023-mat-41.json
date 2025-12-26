@@ -1,0 +1,35 @@
+{
+  "id": "2023-mat-41",
+  "question": [
+    "A bag contains <katex>$2n+1$</katex> coins. It is known that <katex>$n$</katex> of these coins have head on both sides whereas the other <katex>$n+1$</katex> coins are fair. One coin is selected at random and tossed. If the probability that toss results in heads is <katex>$\\frac{31}{42}$</katex> then the value of <katex>$n$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$8$</katex>"
+    ],
+    [
+      "<katex>$10$</katex>"
+    ],
+    [
+      "<katex>$5$</katex>"
+    ],
+    [
+      "<katex>$6$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Total coins = <katex>$2n+1$</katex>.",
+    "Event E: Head.",
+    "<katex>$P(E) = P(\\text{Biased}) \\cdot 1 + P(\\text{Fair}) \\cdot 0.5$</katex>.",
+    "<katex>$P(\\text{Biased}) = n/(2n+1)$</katex>. <katex>$P(\\text{Fair}) = (n+1)/(2n+1)$</katex>.",
+    "<katex>$P(E) = \\frac{n}{2n+1} + \\frac{n+1}{2n+1} \\cdot \\frac{1}{2} = \\frac{2n + n + 1}{2(2n+1)} = \\frac{3n+1}{4n+2}$</katex>.",
+    "Given <katex>$\\frac{3n+1}{4n+2} = \\frac{31}{42}$</katex>.",
+    "<katex>$42(3n+1) = 31(4n+2)$</katex>.",
+    "<katex>$126n + 42 = 124n + 62$</katex>.",
+    "<katex>$2n = 20 \\implies n = 10$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

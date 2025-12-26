@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-20",
+  "question": [
+    "The distance '<katex>$s$</katex>' in meters travelled by a particle in '<katex>$t$</katex>' seconds is given by <katex>$s=\\frac{2t^{3}}{3}-18t+\\frac{5}{3}$</katex>. The acceleration when the particle comes to rest is"
+  ],
+  "choices": [
+    [
+      "<katex>$12$</katex> m<katex>$^2$</katex>/sec"
+    ],
+    [
+      "<katex>$18$</katex> m<katex>$^2$</katex>/sec"
+    ],
+    [
+      "<katex>$3$</katex> m<katex>$^2$</katex>/sec"
+    ],
+    [
+      "<katex>$10$</katex> m<katex>$^2$</katex>/sec"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Velocity <katex>$v = \\frac{ds}{dt} = 2t^2 - 18$</katex>.",
+    "Particle comes to rest when <katex>$v = 0 \\implies 2t^2 = 18 \\implies t^2 = 9 \\implies t = 3$</katex> sec (since <katex>$t>0$</katex>).",
+    "Acceleration <katex>$a = \\frac{dv}{dt} = 4t$</katex>.",
+    "At <katex>$t=3$</katex>, <katex>$a = 4(3) = 12$</katex> m/s<katex>$^2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

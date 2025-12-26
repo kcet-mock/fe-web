@@ -1,0 +1,32 @@
+{
+  "id": "2025-mat-38",
+  "question": [
+    "If a line makes angles <katex>$90^{\\circ}, 60^{\\circ}$</katex> and <katex>$\\theta$</katex> with x, y and z axes respectively, where <katex>$\\theta$</katex> is acute, then the value of <katex>$\\theta$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\pi}{6}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Relation of direction cosines: <katex>$\\cos^2 \\alpha + \\cos^2 \\beta + \\cos^2 \\gamma = 1$</katex>.",
+    "<katex>$\\cos^2 90^{\\circ} + \\cos^2 60^{\\circ} + \\cos^2 \\theta = 1$</katex>.",
+    "<katex>$0 + (1/2)^2 + \\cos^2 \\theta = 1$</katex>.",
+    "<katex>$\\cos^2 \\theta = 1 - 1/4 = 3/4$</katex>.",
+    "<katex>$\\cos \\theta = \\frac{\\sqrt{3}}{2}$</katex> (since acute).",
+    "<katex>$\\theta = 30^{\\circ} = \\frac{\\pi}{6}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

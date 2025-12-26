@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-12",
+  "question": [
+    "The equation of parabola whose focus is (6, 0) and directrix is <katex>$x=-6$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$y^{2}=24x$</katex>"
+    ],
+    [
+      "<katex>$y^{2}=-24x$</katex>"
+    ],
+    [
+      "<katex>$x^{2}=24y$</katex>"
+    ],
+    [
+      "<katex>$x^{2}=-24y$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The focus (6,0) lies on the x-axis, so the axis of symmetry is the x-axis.",
+    "Distance from vertex to focus <katex>$a = 6$</katex> (since vertex is at origin, midpoint of (6,0) and x=-6).",
+    "Equation is of the form <katex>$y^2 = 4ax$</katex>.",
+    "<katex>$y^2 = 4(6)x = 24x$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

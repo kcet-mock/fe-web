@@ -1,0 +1,31 @@
+{
+  "id": "2025-mat-36",
+  "question": [
+    "If <katex>$|\\vec{a}|=10$</katex>, <katex>$|\\vec{b}|=2$</katex> and <katex>$\\vec{a}\\cdot\\vec{b}=12$</katex>, then the value of <katex>$|\\vec{a}\\times\\vec{b}|$</katex> is"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "10"
+    ],
+    [
+      "14"
+    ],
+    [
+      "16"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Identity: <katex>$|\\vec{a}\\times\\vec{b}|^2 + (\\vec{a}\\cdot\\vec{b})^2 = |\\vec{a}|^2 |\\vec{b}|^2$</katex>.",
+    "<katex>$|\\vec{a}\\times\\vec{b}|^2 + 12^2 = 10^2 \\times 2^2$</katex>.",
+    "<katex>$|\\vec{a}\\times\\vec{b}|^2 + 144 = 100 \\times 4 = 400$</katex>.",
+    "<katex>$|\\vec{a}\\times\\vec{b}|^2 = 400 - 144 = 256$</katex>.",
+    "<katex>$|\\vec{a}\\times\\vec{b}| = \\sqrt{256} = 16$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

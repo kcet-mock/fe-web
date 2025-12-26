@@ -1,0 +1,33 @@
+{
+  "id": "2023-mat-32",
+  "question": [
+    "The equation of the plane through the points <katex>$(2, 1, 0)$</katex>, <katex>$(3, 2, -2)$</katex> and <katex>$(3, 1, 7)$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$6x-3y+2z-7=0$</katex>"
+    ],
+    [
+      "<katex>$7x-9y-z-5=0$</katex>"
+    ],
+    [
+      "<katex>$3x-2y+6z-27=0$</katex>"
+    ],
+    [
+      "<katex>$2x-3y+4z-27=0$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Points <katex>$A(2,1,0), B(3,2,-2), C(3,1,7)$</katex>.",
+    "<katex>$\\vec{AB} = (1, 1, -2)$</katex>. <katex>$\\vec{AC} = (1, 0, 7)$</katex>.",
+    "Normal <katex>$\\vec{n} = \\vec{AB} \\times \\vec{AC} = \\begin{vmatrix}i&j&k\\\\ 1&1&-2\\\\ 1&0&7\\end{vmatrix}$</katex>",
+    "<katex>$= i(7) - j(7+2) + k(-1) = 7i - 9j - k$</katex>.",
+    "Equation: <katex>$7(x-2) - 9(y-1) - 1(z-0) = 0$</katex>.",
+    "<katex>$7x - 14 - 9y + 9 - z = 0$</katex>.",
+    "<katex>$7x - 9y - z - 5 = 0$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

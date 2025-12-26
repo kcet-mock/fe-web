@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-50",
+  "question": [
+    "The distance between the foci of a hyperbola is <katex>$16$</katex> and its eccentricity is <katex>$\\sqrt{2}$</katex>. Its equation is"
+  ],
+  "choices": [
+    [
+      "<katex>$2x^{2}-3y^{2}=7$</katex>"
+    ],
+    [
+      "<katex>$y^{2}-x^{2}=32$</katex>"
+    ],
+    [
+      "<katex>$x^{2}-y^{2}=32$</katex>"
+    ],
+    [
+      "<katex>$\\frac{x^{2}}{4}-\\frac{y^{2}}{9}=1$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Distance between foci <katex>$2ae = 16$</katex>. Given <katex>$e = \\sqrt{2}$</katex>.",
+    "<katex>$2a(\\sqrt{2}) = 16 \\implies a\\sqrt{2} = 8 \\implies a = 4\\sqrt{2}$</katex>.",
+    "<katex>$a^2 = 16(2) = 32$</katex>.",
+    "For hyperbola, <katex>$b^2 = a^2(e^2-1) = 32(2-1) = 32$</katex>.",
+    "Equation: <katex>$\\frac{x^2}{32} - \\frac{y^2}{32} = 1 \\implies x^2 - y^2 = 32$</katex>.",
+    "Wait, answer key says B or C. <katex>$y^2-x^2=32$</katex> is conjugate hyperbola. Foci on y-axis would also have distance 16. Both are valid rectangular hyperbolas. The question doesn't specify transverse axis. Usually standard is x-axis. C is standard."
+  ],
+  "years": [
+    2023
+  ]
+}

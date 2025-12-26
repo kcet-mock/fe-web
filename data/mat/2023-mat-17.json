@@ -1,0 +1,29 @@
+{
+  "id": "2023-mat-17",
+  "question": [
+    "<katex>$\\int\\sqrt{\\text{cosec }x-\\sin x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\sqrt{\\sin x}+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2}{\\sqrt{\\sin x}}+C$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{\\sin x}+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\sqrt{\\sin x}}{2}+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\sqrt{\\frac{1}{\\sin x} - \\sin x} = \\sqrt{\\frac{1-\\sin^2 x}{\\sin x}} = \\sqrt{\\frac{\\cos^2 x}{\\sin x}} = \\frac{\\cos x}{\\sqrt{\\sin x}}$</katex>.",
+    "Let <katex>$\\sin x = t$</katex>, <katex>$\\cos x dx = dt$</katex>.",
+    "Integral becomes <katex>$\\int t^{-1/2} dt = \\frac{t^{1/2}}{1/2} + C = 2\\sqrt{t} + C = 2\\sqrt{\\sin x} + C$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-16",
+  "question": [
+    "<katex>$\\int_{2}^{8}\\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$4$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$5$</katex>"
+    ],
+    [
+      "<katex>$3$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Use the property <katex>$\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$</katex>.",
+    "Here <katex>$a+b = 10$</katex>. Let <katex>$I = \\int_2^8 \\frac{5^{\\sqrt{10-x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}} dx$</katex>.",
+    "<katex>$I = \\int_2^8 \\frac{5^{\\sqrt{10-(10-x)}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{10-(10-x)}}} dx = \\int_2^8 \\frac{5^{\\sqrt{x}}}{5^{\\sqrt{10-x}}+5^{\\sqrt{x}}} dx$</katex>.",
+    "<katex>$2I = \\int_2^8 \\frac{5^{\\sqrt{10-x}} + 5^{\\sqrt{x}}}{5^{\\sqrt{x}}+5^{\\sqrt{10-x}}} dx = \\int_2^8 1 dx$</katex>.",
+    "<katex>$2I = [x]_2^8 = 8 - 2 = 6$</katex>.",
+    "<katex>$I = 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-10",
+  "question": [
+    "If <katex>$f(x)=1+nx+\\frac{n(n-1)}{2}x^{2}+\\frac{n(n-1)(n-2)}{6}x^{3}+\\dots+x^{n}$</katex> then <katex>$f''(1)=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$n(n-1)2^{n}$</katex>"
+    ],
+    [
+      "<katex>$2^{n-1}$</katex>"
+    ],
+    [
+      "<katex>$(n-1)2^{n-1}$</katex>"
+    ],
+    [
+      "<katex>$n(n-1)2^{n-2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The given series is the binomial expansion of <katex>$(1+x)^n$</katex>.",
+    "So, <katex>$f(x) = (1+x)^n$</katex>.",
+    "<katex>$f'(x) = n(1+x)^{n-1}$</katex>.",
+    "<katex>$f''(x) = n(n-1)(1+x)^{n-2}$</katex>.",
+    "<katex>$f''(1) = n(n-1)(1+1)^{n-2} = n(n-1)2^{n-2}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

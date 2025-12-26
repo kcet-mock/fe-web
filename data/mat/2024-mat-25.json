@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-25",
+  "question": [
+    "If <katex>$P=[\\begin{matrix}1&a&3\\\\ 1&3&3\\\\ 2&4&4\\end{matrix}]$</katex> is the adjoint of a <katex>$3\\times3$</katex> matrix A and <katex>$|A|=4.$</katex>, then a is equal to"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "11"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "We know <katex>$|\\text{adj } A| = |A|^{n-1}$</katex>.",
+    "Here <katex>$|P| = |A|^2 = 4^2 = 16$</katex>.",
+    "Calculate <katex>$|P|$</katex>: <katex>$1(12-12) - a(4-6) + 3(4-6)$</katex>.",
+    "<katex>$= 0 + 2a - 6$</katex>.",
+    "Equating: <katex>$2a - 6 = 16 \\Rightarrow 2a = 22 \\Rightarrow a = 11$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

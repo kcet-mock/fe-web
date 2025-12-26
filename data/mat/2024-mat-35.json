@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-35",
+  "question": [
+    "The function <katex>$x^{x};$</katex> <katex>$x>0$</katex> is strictly increasing at"
+  ],
+  "choices": [
+    [
+      "<katex>$\\forall x\\in R$</katex>"
+    ],
+    [
+      "<katex>$x<\\frac{1}{e}$</katex>"
+    ],
+    [
+      "<katex>$x>\\frac{1}{e}$</katex>"
+    ],
+    [
+      "<katex>$x<0$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Let <katex>$y = x^x$</katex>. <katex>$y' = x^x (1 + \\ln x)$</katex>.",
+    "For strictly increasing, <katex>$y' > 0$</katex>.",
+    "<katex>$x^x > 0$</katex> always for <katex>$x>0$</katex>.",
+    "<katex>$1 + \\ln x > 0 \\Rightarrow \\ln x > -1 \\Rightarrow x > e^{-1} \\Rightarrow x > 1/e$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

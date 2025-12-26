@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-39",
+  "question": [
+    "The shaded region in the figure given (with points <katex>$(0,7), B(3,4), C(0,2), A(7,0)$</katex>) is the solution of which of the inequalities?"
+  ],
+  "choices": [
+    [
+      "<katex>$x+y\\ge7, 2x-3y+6\\ge0, x\\ge0, y\\ge0$</katex>"
+    ],
+    [
+      "<katex>$x+y\\le7, 2x-3y+6\\le0, x\\ge0, y\\ge0$</katex>"
+    ],
+    [
+      "<katex>$x+y\\le7, 2x-3y+6\\ge0, x\\ge0, y\\ge0$</katex>"
+    ],
+    [
+      "<katex>$x+y\\ge7, 2x-3y+6\\le0, x\\ge0, y\\ge0$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The region is bounded by lines passing through <katex>$(0,7)-(7,0)$</katex> and <katex>$(0,2)-(-3,0)$</katex>. Point <katex>$(3,4)$</katex> is the intersection.",
+    "Line 1: <katex>$(0,7), (7,0) \\implies x+y=7$</katex>. The region is below this line (origin side), so <katex>$x+y \\le 7$</katex>.",
+    "Line 2: <katex>$(0,2), (-3,0)$</katex>. Slope = <katex>$(2-0)/(0-(-3)) = 2/3$</katex>. <katex>$y-0 = 2/3(x+3) \\implies 3y = 2x+6 \\implies 2x-3y+6=0$</katex>.",
+    "Check origin <katex>$(0,0)$</katex> for region. The shaded region (triangle ABC) includes points like <katex>$(1,2)$</katex>. At <katex>(1,2)</katex>: <katex>$2(1)-3(2)+6 = 2-6+6 = 2 \\ge 0$</katex>. So <katex>$2x-3y+6 \\ge 0$</katex>.",
+    "Correct inequalities: <katex>$x+y\\le7$</katex> and <katex>$2x-3y+6\\ge0$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

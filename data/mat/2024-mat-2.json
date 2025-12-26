@@ -1,0 +1,32 @@
+{
+  "id": "2024-mat-2",
+  "question": [
+    "If <katex>$[x]^{2}-5[x]+6=0$</katex> where <katex>$[x]$</katex> denotes the greatest integer function, then"
+  ],
+  "choices": [
+    [
+      "<katex>$x\\in[3,4]$</katex>"
+    ],
+    [
+      "<katex>$x\\in[2,4)$</katex>"
+    ],
+    [
+      "<katex>$x\\in[2,3]$</katex>"
+    ],
+    [
+      "<katex>$x\\in(2,3]$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The equation is <katex>$[x]^2 - 5[x] + 6 = 0$</katex>.",
+    "Factorizing, we get <katex>$([x]-2)([x]-3) = 0$</katex>.",
+    "This implies <katex>$[x] = 2$</katex> or <katex>$[x] = 3$</katex>.",
+    "If <katex>$[x] = 2$</katex>, then <katex>$2 \\le x < 3$</katex>.",
+    "If <katex>$[x] = 3$</katex>, then <katex>$3 \\le x < 4$</katex>.",
+    "Combining both intervals, <katex>$x \\in [2, 4)$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

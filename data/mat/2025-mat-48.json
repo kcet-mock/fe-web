@@ -1,0 +1,28 @@
+{
+  "id": "2025-mat-48",
+  "question": [
+    "The derivative of <katex>$\\sin x$</katex> with respect to <katex>$\\log x$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\cos x$</katex>"
+    ],
+    [
+      "<katex>$x \\cos x$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\cos x}{\\log x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\cos x}{x}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let <katex>$u = \\sin x$</katex>, <katex>$v = \\log x$</katex>.",
+    "<katex>$\\frac{du}{dv} = \\frac{du/dx}{dv/dx} = \\frac{\\cos x}{1/x} = x \\cos x$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

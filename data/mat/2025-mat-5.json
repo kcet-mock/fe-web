@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-5",
+  "question": [
+    "Which of the following is not correct?"
+  ],
+  "choices": [
+    [
+      "<katex>$\\cos 5\\pi = \\cos 4\\pi$</katex>"
+    ],
+    [
+      "<katex>$\\sin 2\\pi = \\sin(-2\\pi)$</katex>"
+    ],
+    [
+      "<katex>$\\sin 4\\pi = \\sin 6\\pi$</katex>"
+    ],
+    [
+      "<katex>$\\tan 45^{\\circ} = \\tan(-315^{\\circ})$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Evaluate option (1): <katex>$\\cos 5\\pi = -1$</katex> and <katex>$\\cos 4\\pi = 1$</katex>. Since <katex>$-1 \\neq 1$</katex>, this statement is incorrect.",
+    "Option (2): <katex>$\\sin 2\\pi = 0$</katex>, <katex>$\\sin(-2\\pi) = 0$</katex>. Correct.",
+    "Option (3): <katex>$\\sin 4\\pi = 0$</katex>, <katex>$\\sin 6\\pi = 0$</katex>. Correct.",
+    "Option (4): <katex>$\\tan 45^{\\circ} = 1$</katex>, <katex>$\\tan(-315^{\\circ}) = \\tan(45^{\\circ}) = 1$</katex>. Correct."
+  ],
+  "years": [
+    2025
+  ]
+}

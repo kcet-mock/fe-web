@@ -1,0 +1,35 @@
+{
+  "id": "2025-mat-15",
+  "question": [
+    "The maximum value of <katex>$z=3x+4y$</katex> subject to the constraints <katex>$x+y\\le40$</katex>, <katex>$x+2y\\le60$</katex> and <katex>$x, y\\ge0$</katex> is"
+  ],
+  "choices": [
+    [
+      "130"
+    ],
+    [
+      "120"
+    ],
+    [
+      "140"
+    ],
+    [
+      "40"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Find corner points of the feasible region:",
+    "1. Intersection of <katex>$x+y=40$</katex> and <katex>$x+2y=60$</katex>: Subtracting gives <katex>$y=20$</katex>, so <katex>$x=20$</katex>. Point: (20, 20).",
+    "2. Axes intercepts: (40, 0) from first line, (0, 30) from second line.",
+    "Evaluate Z at corner points:",
+    "At (0, 0): Z = 0",
+    "At (40, 0): <katex>$Z = 3(40) + 0 = 120$</katex>",
+    "At (0, 30): <katex>$Z = 0 + 4(30) = 120$</katex>",
+    "At (20, 20): <katex>$Z = 3(20) + 4(20) = 60 + 80 = 140$</katex>",
+    "Maximum value is 140."
+  ],
+  "years": [
+    2025
+  ]
+}

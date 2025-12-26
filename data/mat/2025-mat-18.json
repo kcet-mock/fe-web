@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-18",
+  "question": [
+    "If A and B are two events such that <katex>$A\\subset B$</katex> and <katex>$P(B)\\ne0$</katex> then which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "<katex>$P(A|B)=\\frac{P(B)}{P(A)}$</katex>"
+    ],
+    [
+      "<katex>$P(A|B)<P(A)$</katex>"
+    ],
+    [
+      "<katex>$P(A|B)\\ge P(A)$</katex>"
+    ],
+    [
+      "<katex>$P(A)=P(B)$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Since <katex>$A \\subset B$</katex>, <katex>$A \\cap B = A$</katex>.",
+    "<katex>$P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A)}{P(B)}$</katex>.",
+    "Since <katex>$P(B) \\le 1$</katex>, dividing <katex>$P(A)$</katex> by a number <katex>$\\le 1$</katex> results in a value greater than or equal to <katex>$P(A)$</katex>.",
+    "Therefore, <katex>$P(A|B) \\ge P(A)$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

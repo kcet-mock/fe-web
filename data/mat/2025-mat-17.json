@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-17",
+  "question": [
+    "If A and B are two non-mutually exclusive events such that <katex>$P(A|B)=P(B|A)$</katex>, then"
+  ],
+  "choices": [
+    [
+      "<katex>$A\\subset B$</katex> but <katex>$A\\ne B$</katex>"
+    ],
+    [
+      "<katex>$A=B$</katex>"
+    ],
+    [
+      "<katex>$A\\cap B=\\phi$</katex>"
+    ],
+    [
+      "<katex>$P(A)=P(B)$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Given <katex>$P(A|B) = P(B|A)$</katex>.",
+    "<katex>$\\frac{P(A \\cap B)}{P(B)} = \\frac{P(B \\cap A)}{P(A)}$</katex>.",
+    "Since <katex>$P(A \\cap B) \\neq 0$</katex> (non-mutually exclusive), we can cancel the numerator.",
+    "This implies <katex>$P(B) = P(A)$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2023-mat-53",
+  "question": [
+    "<katex>$n^{th}$</katex> term of the series <katex>$1+\\frac{3}{7}+\\frac{5}{7^{2}}+\\frac{7}{7^{3}}+\\dots$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{2n-1}{7^{n}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2n+1}{7^{n-1}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2n-1}{7^{n-1}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2n+1}{7^{n}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Numerators: 1, 3, 5, 7... AP with <katex>$a=1, d=2$</katex>. <katex>$T_n = 1 + (n-1)2 = 2n-1$</katex>.",
+    "Denominators: <katex>$1, 7, 7^2, 7^3...$</katex> GP with <katex>$r=7$</katex>. <katex>$T_n = 7^{n-1}$</katex>.",
+    "Term is <katex>$\\frac{2n-1}{7^{n-1}}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

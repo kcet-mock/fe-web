@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-59",
+  "question": [
+    "The mean of 100 observations is 50 and their standard deviation is 5. Then the sum of squares of all observations is"
+  ],
+  "choices": [
+    [
+      "<katex>$250000$</katex>"
+    ],
+    [
+      "<katex>$255000$</katex>"
+    ],
+    [
+      "<katex>$50000$</katex>"
+    ],
+    [
+      "<katex>$252500$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Variance <katex>$\\sigma^2 = 5^2 = 25$</katex>.",
+    "<katex>$\\sigma^2 = \\frac{\\sum x^2}{N} - (\\bar{x})^2$</katex>.",
+    "<katex>$25 = \\frac{\\sum x^2}{100} - (50)^2$</katex>.",
+    "<katex>$25 = \\frac{\\sum x^2}{100} - 2500$</katex>.",
+    "<katex>$\\frac{\\sum x^2}{100} = 2525$</katex>.",
+    "<katex>$\\sum x^2 = 252500$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

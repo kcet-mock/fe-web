@@ -1,0 +1,33 @@
+{
+  "id": "2023-mat-60",
+  "question": [
+    "<katex>$f:R\\rightarrow R$</katex> and <katex>$g:[0,\\infty)\\rightarrow R$</katex> are defined by <katex>$f(x)=x^{2}$</katex> and <katex>$g(x)=\\sqrt{x}$</katex>. Which one of the following is not true?"
+  ],
+  "choices": [
+    [
+      "<katex>$(fog)(2)=2$</katex>"
+    ],
+    [
+      "<katex>$(gof)(-2)=2$</katex>"
+    ],
+    [
+      "<katex>$(gof)(4)=4$</katex>"
+    ],
+    [
+      "<katex>$(fog)(-4)=4$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$(fog)(x) = f(g(x)) = f(\\sqrt{x}) = (\\sqrt{x})^2 = x$</katex> (for <katex>$x \\ge 0$</katex>).",
+    "<katex>$(gof)(x) = g(f(x)) = g(x^2) = \\sqrt{x^2} = |x|$</katex>.",
+    "(A) <katex>$(fog)(2) = 2$</katex>. True.",
+    "(B) <katex>$(gof)(-2) = |-2| = 2$</katex>. True.",
+    "(C) <katex>$(gof)(4) = |4| = 4$</katex>. True.",
+    "(D) <katex>$(fog)(-4)$</katex>: <katex>$g(-4)$</katex> is undefined (domain of g is <katex>$[0, \\infty)$</katex>). So <katex>fog</katex> is not defined at -4. Even if calculating formally <katex>g(-4)=\\sqrt{-4}</katex> (imaginary), not in R. The expression says <katex>=4</katex>, which implies validity.",
+    "Wait, <katex>fog(-4)</katex> is undefined. So statement D is NOT true."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-39",
+  "question": [
+    "<katex>$\\int_{-\\pi}^{\\pi}(1-x^{2})sin~x.cos^{2}x~dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\pi-\\frac{\\pi^{2}}{3}$</katex>"
+    ],
+    [
+      "<katex>$2\\pi-\\pi^{3}$</katex>"
+    ],
+    [
+      "<katex>$\\pi-\\frac{\\pi^{3}}{2}$</katex>"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let <katex>$f(x) = (1-x^2)\\sin x \\cos^2 x$</katex>.",
+    "<katex>$f(-x) = (1-(-x)^2)\\sin(-x)\\cos^2(-x) = (1-x^2)(-\\sin x)\\cos^2 x = -f(x)$</katex>.",
+    "The function is odd.",
+    "Integral of an odd function over symmetric limits <katex>$[-\\pi, \\pi]$</katex> is 0."
+  ],
+  "years": [
+    2024
+  ]
+}

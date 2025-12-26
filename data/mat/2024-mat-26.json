@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-26",
+  "question": [
+    "If <katex>$A=|\\begin{matrix}x&1\\\\ 1&x\\end{matrix}|$</katex> and <katex>$B=|\\begin{matrix}x&1&1\\\\ 1&x&1\\\\ 1&1&x\\end{matrix}|$</katex> then <katex>$\\frac{dB}{dx}$</katex> is"
+  ],
+  "choices": [
+    [
+      "3A"
+    ],
+    [
+      "-3B"
+    ],
+    [
+      "<katex>$3B+\\underline{1}$</katex>"
+    ],
+    [
+      "<katex>$1-3A$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$A = x^2 - 1$</katex>.",
+    "<katex>$B = x(x^2-1) - 1(x-1) + 1(1-x) = x^3 - x - x + 1 + 1 - x = x^3 - 3x + 2$</katex>.",
+    "<katex>$\\frac{dB}{dx} = 3x^2 - 3 = 3(x^2 - 1) = 3A$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

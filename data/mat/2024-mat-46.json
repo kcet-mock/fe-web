@@ -1,0 +1,32 @@
+{
+  "id": "2024-mat-46",
+  "question": [
+    "The solution of <katex>$e^{\\frac{dy}{dx}}=x+1,$</katex> <katex>$y(0)=3$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$y-2=x~log~x-x$</katex>"
+    ],
+    [
+      "<katex>$y-x-3=x~log~x$</katex>"
+    ],
+    [
+      "<katex>$y-x-3=(x+1)log(x+1)$</katex>"
+    ],
+    [
+      "<katex>$y+x-3=(x+1)log(x+1)$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$\\frac{dy}{dx} = \\ln(x+1)$</katex>.",
+    "<katex>$y = \\int \\ln(x+1) dx = (x+1)\\ln(x+1) - (x+1) + C$</katex> (Integration by parts).",
+    "Actually <katex>$\\int \\ln u du = u \\ln u - u$</katex>. So <katex>$(x+1)\\ln(x+1) - (x+1) + C'$</katex>.",
+    "Or <katex>$y = (x+1)\\ln(x+1) - x + C$</katex>.",
+    "<katex>$y(0)=3 \\Rightarrow 0 - 0 + C = 3 \\Rightarrow C=3$</katex>.",
+    "<katex>$y = (x+1)\\ln(x+1) - x + 3 \\Rightarrow y+x-3 = (x+1)\\ln(x+1)$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

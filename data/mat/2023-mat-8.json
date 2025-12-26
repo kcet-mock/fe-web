@@ -1,0 +1,33 @@
+{
+  "id": "2023-mat-8",
+  "question": [
+    "If the function is <katex>$f(x)=\\frac{1}{x+2}$</katex>, then the point of discontinuity of the composite function <katex>$y=f(f(x))$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{2}{5}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{-5}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{5}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For <katex>$f(x) = \\frac{1}{x+2}$</katex> to be defined, <katex>$x \\neq -2$</katex>.",
+    "For <katex>$f(f(x))$</katex> to be defined, <katex>$f(x) \\neq -2$</katex>.",
+    "<katex>$\\frac{1}{x+2} \\neq -2$</katex>",
+    "<katex>$1 \\neq -2(x+2)$</katex>",
+    "<katex>$1 \\neq -2x - 4$</katex>",
+    "<katex>$2x \\neq -5 \\implies x \\neq -\\frac{5}{2}$</katex>.",
+    "Points of discontinuity are <katex>$x = -2$</katex> and <katex>$x = -\\frac{5}{2}$</katex>. The option <katex>$-5/2$</katex> is given."
+  ],
+  "years": [
+    2023
+  ]
+}

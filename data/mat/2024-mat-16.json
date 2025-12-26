@@ -1,0 +1,28 @@
+{
+  "id": "2024-mat-16",
+  "question": [
+    "Let <katex>$f:R\\rightarrow R$</katex> be given <katex>$f(x)=tan~x.$</katex> Then <katex>$f^{-1}(1)$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\{n\\pi+\\frac{\\pi}{4}:n\\in Z\\}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\{n\\pi+\\frac{\\pi}{3}:n\\in Z\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$f^{-1}(1)$</katex> represents the set of values <katex>$x$</katex> such that <katex>$\\tan x = 1$</katex>.",
+    "The general solution for <katex>$\\tan x = 1$</katex> is <katex>$x = n\\pi + \\frac{\\pi}{4}$</katex> where <katex>$n \\in Z$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

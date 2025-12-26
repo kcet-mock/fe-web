@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-34",
+  "question": [
+    "The system of equations <katex>$4x+6y=5$</katex> and <katex>$8x+12y=10$</katex> has"
+  ],
+  "choices": [
+    [
+      "No solution"
+    ],
+    [
+      "Infinitely many solutions"
+    ],
+    [
+      "A unique solution"
+    ],
+    [
+      "Only two solutions"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Ratios of coefficients: <katex>$\\frac{a_1}{a_2} = \\frac{4}{8} = \\frac{1}{2}$</katex>.",
+    "<katex>$\\frac{b_1}{b_2} = \\frac{6}{12} = \\frac{1}{2}$</katex>.",
+    "<katex>$\\frac{c_1}{c_2} = \\frac{5}{10} = \\frac{1}{2}$</katex>.",
+    "Since <katex>$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$</katex>, the lines are coincident, and the system has infinitely many solutions."
+  ],
+  "years": [
+    2025
+  ]
+}

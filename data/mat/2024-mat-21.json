@@ -1,0 +1,33 @@
+{
+  "id": "2024-mat-21",
+  "question": [
+    "If <katex>$2~sin^{-1}x-3~cos^{-1}x=4$</katex> <katex>$x\\in[-1,1]$</katex> then <katex>$2~sin^{-1}x+3~cos^{-1}x$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{4-6\\pi}{5}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{6\\pi-4}{5}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3\\pi}{2}$</katex>"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let <katex>$A = 2\\sin^{-1}x - 3\\cos^{-1}x = 4$</katex>.",
+    "We know <katex>$\\cos^{-1}x = \\frac{\\pi}{2} - \\sin^{-1}x$</katex>.",
+    "Substitute: <katex>$2\\sin^{-1}x - 3(\\frac{\\pi}{2} - \\sin^{-1}x) = 4 \\Rightarrow 5\\sin^{-1}x = 4 + \\frac{3\\pi}{2}$</katex>.",
+    "We want <katex>$B = 2\\sin^{-1}x + 3\\cos^{-1}x$</katex>.",
+    "<katex>$B = 2(\\sin^{-1}x + \\cos^{-1}x) + \\cos^{-1}x = 2(\\frac{\\pi}{2}) + \\cos^{-1}x = \\pi + \\cos^{-1}x$</katex>.",
+    "From first eq, <katex>$\\cos^{-1}x = \\frac{\\pi}{2} - \\frac{4 + 3\\pi/2}{5} = \\frac{\\pi}{2} - \\frac{8+3\\pi}{10} = \\frac{5\\pi - 8 - 3\\pi}{10} = \\frac{2\\pi - 8}{10} = \\frac{\\pi-4}{5}$</katex>.",
+    "So <katex>$B = \\pi + \\frac{\\pi-4}{5} = \\frac{5\\pi + \\pi - 4}{5} = \\frac{6\\pi-4}{5}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

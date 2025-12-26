@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-10",
+  "question": [
+    "Let <katex>$A=\\{a,b,c\\}$</katex>, then the number of equivalence relations on A containing (b, c) is"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "3"
+    ],
+    [
+      "2"
+    ],
+    [
+      "4"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Smallest equivalence relation containing (b,c) must contain (c,b) and diagonals: <katex>$R_1 = \\{(a,a), (b,b), (c,c), (b,c), (c,b)\\}$</katex>.",
+    "Largest is <katex>$R_2 = A \\times A$</katex>.",
+    "Any other relation must involve 'a'. If we add (a,b), we must add (b,a), (a,c), (c,a) due to transitivity with (b,c). This leads to <katex>$A \\times A$</katex>.",
+    "So there are exactly 2 equivalence relations."
+  ],
+  "years": [
+    2025
+  ]
+}

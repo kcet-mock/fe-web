@@ -1,0 +1,33 @@
+{
+  "id": "2025-mat-25",
+  "question": [
+    "If <katex>$4^{th}$</katex>, <katex>$10^{th}$</katex> and <katex>$16^{th}$</katex> terms of a G.P. are x, y and z respectively, then"
+  ],
+  "choices": [
+    [
+      "<katex>$z=\\sqrt{xy}$</katex>"
+    ],
+    [
+      "<katex>$y=\\sqrt{xz}$</katex>"
+    ],
+    [
+      "<katex>$x=\\sqrt{yz}$</katex>"
+    ],
+    [
+      "<katex>$y=\\frac{x+z}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let first term be a and common ratio be r.",
+    "<katex>$x = ar^3$</katex>",
+    "<katex>$y = ar^9$</katex>",
+    "<katex>$z = ar^{15}$</katex>",
+    "Check <katex>$y^2 = (ar^9)^2 = a^2 r^{18}$</katex>.",
+    "Check <katex>$xz = (ar^3)(ar^{15}) = a^2 r^{18}$</katex>.",
+    "Thus <katex>$y^2 = xz$</katex>, or <katex>$y = \\sqrt{xz}$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

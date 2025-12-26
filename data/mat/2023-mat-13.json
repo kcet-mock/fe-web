@@ -1,0 +1,29 @@
+{
+  "id": "2023-mat-13",
+  "question": [
+    "The function <katex>$f(x)=\\cot x$</katex> is discontinuous on every point of the set"
+  ],
+  "choices": [
+    [
+      "<katex>$\\{x=(2n+1)\\frac{\\pi}{2};n\\in Z\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x=\\frac{n\\pi}{2};n\\in Z\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x=n\\pi;n\\in Z\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x=2n\\pi;n\\in Z\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$\\cot x = \\frac{\\cos x}{\\sin x}$</katex>.",
+    "Discontinuity occurs when <katex>$\\sin x = 0$</katex>.",
+    "<katex>$\\sin x = 0$</katex> implies <katex>$x = n\\pi$</katex> where <katex>$n \\in Z$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

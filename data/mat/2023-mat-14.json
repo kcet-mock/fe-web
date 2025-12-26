@@ -1,0 +1,33 @@
+{
+  "id": "2023-mat-14",
+  "question": [
+    "A particle moves along the curve <katex>$\\frac{x^{2}}{16}+\\frac{y^{2}}{4}=1$</katex>. When the rate of change of abscissa is 4 times that of its ordinate, then the quadrant in which the particle lies in"
+  ],
+  "choices": [
+    [
+      "III or IV"
+    ],
+    [
+      "II or III"
+    ],
+    [
+      "I or III"
+    ],
+    [
+      "II or IV"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Equation: <katex>$\\frac{x^2}{16} + \\frac{y^2}{4} = 1$</katex>. Differentiating w.r.t t: <katex>$\\frac{2x}{16}\\frac{dx}{dt} + \\frac{2y}{4}\\frac{dy}{dt} = 0$</katex>.",
+    "<katex>$\\frac{x}{8}\\frac{dx}{dt} + \\frac{y}{2}\\frac{dy}{dt} = 0$</katex>.",
+    "Given <katex>$\\frac{dx}{dt} = 4\\frac{dy}{dt}$</katex>.",
+    "Substitute: <katex>$\\frac{x}{8}(4\\frac{dy}{dt}) + \\frac{y}{2}\\frac{dy}{dt} = 0$</katex>.",
+    "<katex>$\\frac{x}{2} + \\frac{y}{2} = 0$</katex> (assuming <katex>$\\frac{dy}{dt} \\neq 0$</katex>).",
+    "<katex>$x = -y$</katex>.",
+    "If <katex>$x$</katex> and <katex>$y$</katex> have opposite signs, the particle must be in Quadrant II or Quadrant IV."
+  ],
+  "years": [
+    2023
+  ]
+}

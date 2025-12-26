@@ -1,0 +1,29 @@
+{
+  "id": "2025-mat-59",
+  "question": [
+    "If 'a' and 'b' are the order and degree respectively of the differentiable equation <katex>$(\\frac{d^{2}y}{dx^{2}})^{2}+(\\frac{dy}{dx})^{3}+x^{4}=0$</katex>, then <katex>$a-b=$</katex>"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "-1"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Order 'a' = Highest derivative order = 2.",
+    "Degree 'b' = Power of highest derivative = 2.",
+    "<katex>$a - b = 2 - 2 = 0$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

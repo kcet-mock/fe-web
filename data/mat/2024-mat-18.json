@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-18",
+  "question": [
+    "Let <katex>$(gof)(x)=sin~x$</katex> and <katex>$(fog)(x)=(sin\\sqrt{x})^{2}$</katex>. Then"
+  ],
+  "choices": [
+    [
+      "<katex>$f(x)=sin^{2}x$</katex>, <katex>$g(x)=x$</katex>"
+    ],
+    [
+      "<katex>$f(x)=sin\\sqrt{x}$</katex> <katex>$g(x)=\\sqrt{x}$</katex>"
+    ],
+    [
+      "<katex>$f(x)=sin^{2}x$</katex> <katex>$g(x)=\\sqrt{x}$</katex>"
+    ],
+    [
+      "<katex>$f(x)=sin\\sqrt{x}$</katex> <katex>$g(x)=x^{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Checking option C: <katex>$f(x)=\\sin^2 x, g(x)=\\sqrt{x}$</katex>.",
+    "<katex>$(gof)(x) = g(f(x)) = g(\\sin^2 x) = \\sqrt{\\sin^2 x} = |\\sin x|$</katex> (assuming <katex>$\\sin x > 0$</katex> fits context).",
+    "<katex>$(fog)(x) = f(g(x)) = f(\\sqrt{x}) = \\sin^2(\\sqrt{x}) = (\\sin\\sqrt{x})^2$</katex>.",
+    "This matches the given conditions best among options."
+  ],
+  "years": [
+    2024
+  ]
+}

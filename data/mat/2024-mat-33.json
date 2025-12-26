@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-33",
+  "question": [
+    "<katex>$\\frac{d}{dx}[cos^{2}(cot^{-1}\\sqrt{\\frac{2+x}{2-x}})]$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$-\\frac{3}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$-\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{4}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let <katex>$x = 2\\cos 2\\theta$</katex>.",
+    "<katex>$\\sqrt{\\frac{2+2\\cos 2\\theta}{2-2\\cos 2\\theta}} = \\sqrt{\\frac{1+\\cos 2\\theta}{1-\\cos 2\\theta}} = \\cot \\theta$</katex>.",
+    "<katex>$\\cot^{-1}(\\cot \\theta) = \\theta$</katex>.",
+    "Function becomes <katex>$\\cos^2 \\theta = \\frac{1+\\cos 2\\theta}{2} = \\frac{1 + x/2}{2} = \\frac{1}{2} + \\frac{x}{4}$</katex>.",
+    "Derivative is <katex>$\\frac{1}{4}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

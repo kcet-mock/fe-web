@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-21",
+  "question": [
+    "<katex>$\\int_{0}^{\\pi}\\frac{x\\tan x}{\\sec x \\cdot \\text{cosec } x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\pi/2$</katex>"
+    ],
+    [
+      "<katex>$\\pi^{2}/2$</katex>"
+    ],
+    [
+      "<katex>$\\pi/4$</katex>"
+    ],
+    [
+      "<katex>$\\pi^{2}/4$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let <katex>$I = \\int_0^\\pi \\frac{x \\tan x}{\\sec x \\csc x} dx = \\int_0^\\pi x \\frac{\\sin x/\\cos x}{1/\\cos x \\cdot 1/\\sin x} dx = \\int_0^\\pi x \\sin^2 x dx$</katex>.",
+    "Using <katex>$\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$</katex>:",
+    "<katex>$I = \\int_0^\\pi (\\pi-x) \\sin^2(\\pi-x) dx = \\int_0^\\pi (\\pi-x) \\sin^2 x dx$</katex>.",
+    "<katex>$2I = \\int_0^\\pi (x + \\pi - x) \\sin^2 x dx = \\pi \\int_0^\\pi \\sin^2 x dx$</katex>.",
+    "<katex>$\\int_0^\\pi \\sin^2 x dx = \\int_0^\\pi \\frac{1-\\cos 2x}{2} dx = \\frac{1}{2} [x - \\frac{\\sin 2x}{2}]_0^\\pi = \\frac{1}{2} (\\pi - 0) = \\frac{\\pi}{2}$</katex>.",
+    "<katex>$2I = \\pi (\\frac{\\pi}{2}) = \\frac{\\pi^2}{2} \\implies I = \\frac{\\pi^2}{4}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

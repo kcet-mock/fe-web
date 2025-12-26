@@ -1,0 +1,34 @@
+{
+  "id": "2025-mat-1",
+  "question": [
+    "If <katex>$A = \\{x: x \\text{ is an integer and } x^{2}-9=0\\}$</katex>",
+    "<katex>$B = \\{x: x \\text{ is a natural number and } 2\\le x<5\\}$</katex>",
+    "<katex>$C = \\{x: x \\text{ is a prime number } \\le 4\\}$</katex>",
+    "Then <katex>$(B-C)\\cup A$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\{-3,3,4\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{2,3,4\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{3,4,5\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{2,3,5\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$A = \\{x: x \\in \\mathbb{Z}, x^2 - 9 = 0\\} = \\{-3, 3\\}$</katex>",
+    "<katex>$B = \\{x: x \\in \\mathbb{N}, 2 \\le x < 5\\} = \\{2, 3, 4\\}$</katex>",
+    "<katex>$C = \\{x: x \\text{ is prime } \\le 4\\} = \\{2, 3\\}$</katex>",
+    "<katex>$B - C = \\{2, 3, 4\\} - \\{2, 3\\} = \\{4\\}$</katex>",
+    "<katex>$(B-C) \\cup A = \\{4\\} \\cup \\{-3, 3\\} = \\{-3, 3, 4\\}$</katex>"
+  ],
+  "years": [
+    2025
+  ]
+}

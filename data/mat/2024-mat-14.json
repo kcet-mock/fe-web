@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-14",
+  "question": [
+    "The negation of the statement \"For every real number x; <katex>$x^{2}+5$</katex> is positive\" is"
+  ],
+  "choices": [
+    [
+      "For every real number x; <katex>$x^{2}+5$</katex> is not positive"
+    ],
+    [
+      "For every real number x; <katex>$x^{2}+5$</katex> is negative"
+    ],
+    [
+      "There exists at least one real number x such that <katex>$x^{2}+5$</katex> is not positive"
+    ],
+    [
+      "There exists at least one real number x such that <katex>$x^{2}+5$</katex> is positive"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The negation of a universal quantifier (\"For every\") is an existential quantifier (\"There exists\").",
+    "The negation of \"P is true\" is \"P is not true\".",
+    "So, \"There exists at least one real number x such that <katex>$x^2+5$</katex> is not positive\"."
+  ],
+  "years": [
+    2024
+  ]
+}

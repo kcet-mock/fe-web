@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-6",
+  "question": [
+    "If <katex>$\\cos x + \\cos^{2}x = 1$</katex>, then the value of <katex>$\\sin^{2}x + \\sin^{4}x$</katex> is"
+  ],
+  "choices": [
+    [
+      "-1"
+    ],
+    [
+      "1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Given <katex>$\\cos x + \\cos^2 x = 1$</katex>, we have <katex>$\\cos x = 1 - \\cos^2 x = \\sin^2 x$</katex>.",
+    "Therefore, <katex>$\\sin^2 x = \\cos x$</katex>.",
+    "Substitute this into the required expression: <katex>$\\sin^2 x + \\sin^4 x = \\cos x + (\\cos x)^2 = \\cos x + \\cos^2 x$</katex>.",
+    "From the given equation, <katex>$\\cos x + \\cos^2 x = 1$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

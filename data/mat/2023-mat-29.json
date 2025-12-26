@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-29",
+  "question": [
+    "The area of the region bounded by the line <katex>$y=x+1$</katex>, and the lines <katex>$x=3$</katex> and <katex>$x=5$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{11}{2}$</katex> sq. units"
+    ],
+    [
+      "<katex>$7$</katex> sq. units"
+    ],
+    [
+      "<katex>$10$</katex> sq. units"
+    ],
+    [
+      "<katex>$\\frac{7}{2}$</katex> sq. units"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Area = <katex>$\\int_3^5 (x+1) dx = [\\frac{x^2}{2} + x]_3^5$</katex>.",
+    "Upper limit: <katex>$\\frac{25}{2} + 5 = 12.5 + 5 = 17.5$</katex>.",
+    "Lower limit: <katex>$\\frac{9}{2} + 3 = 4.5 + 3 = 7.5$</katex>.",
+    "Area = <katex>$17.5 - 7.5 = 10$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

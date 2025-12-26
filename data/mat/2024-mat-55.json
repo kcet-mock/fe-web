@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-55",
+  "question": [
+    "The equation <katex>$xy=0$</katex> in three-dimensional space represents"
+  ],
+  "choices": [
+    [
+      "A pair of straight lines"
+    ],
+    [
+      "A plane"
+    ],
+    [
+      "A pair of planes at right angles"
+    ],
+    [
+      "A pair of parallel planes"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$xy=0$</katex> means <katex>$x=0$</katex> or <katex>$y=0$</katex>.",
+    "<katex>$x=0$</katex> is the YZ-plane, <katex>$y=0$</katex> is the XZ-plane.",
+    "These are two coordinate planes perpendicular to each other."
+  ],
+  "years": [
+    2024
+  ]
+}

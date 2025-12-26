@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-38",
+  "question": [
+    "<katex>$\\int\\frac{sin~x}{3+4~cos^{2}x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$-\\frac{1}{2\\sqrt{3}}tan^{-1}(\\frac{2~cos~x}{\\sqrt{3}})+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{cos~x}{3})+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2\\sqrt{3}}tan^{-1}(\\frac{cos~x}{3})+C$</katex>"
+    ],
+    [
+      "<katex>$-\\frac{1}{\\sqrt{3}}tan^{-1}(\\frac{2~cos~x}{3})+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let <katex>$u = 2\\cos x$</katex>, <katex>$du = -2\\sin x dx$</katex>.",
+    "Integral <katex>$\\int \\frac{\\sin x}{3+u^2} dx = \\int \\frac{-du/2}{3+u^2} = -\\frac{1}{2} \\int \\frac{du}{(\\sqrt{3})^2+u^2}$</katex>.",
+    "<katex>$= -\\frac{1}{2} \\frac{1}{\\sqrt{3}} \\tan^{-1}(\\frac{u}{\\sqrt{3}}) = -\\frac{1}{2\\sqrt{3}} \\tan^{-1}(\\frac{2\\cos x}{\\sqrt{3}})$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

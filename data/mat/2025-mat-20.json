@@ -1,0 +1,29 @@
+{
+  "id": "2025-mat-20",
+  "question": [
+    "If <katex>$Z_{1}$</katex> and <katex>$Z_{2}$</katex> are two non-zero complex numbers, then which of the following is not true?"
+  ],
+  "choices": [
+    [
+      "<katex>$\\overline{Z_{1}+Z_{2}}=\\overline{Z_{1}}+\\overline{Z_{2}}$</katex>"
+    ],
+    [
+      "<katex>$|Z_{1}Z_{2}|=|Z_{1}|.|Z_{2}|$</katex>"
+    ],
+    [
+      "<katex>$\\overline{Z_{1}Z_{2}}=\\overline{Z_{1}}.\\overline{Z_{2}}$</katex>"
+    ],
+    [
+      "<katex>$|Z_{1}+Z_{2}|\\ge|Z_{1}|+|Z_{2}|$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Options 1, 2, and 3 are standard properties of complex numbers.",
+    "Option 4 states the Triangle Inequality incorrectly. The correct Triangle Inequality is <katex>$|Z_{1}+Z_{2}| \\le |Z_{1}|+|Z_{2}|$</katex>.",
+    "Therefore, <katex>$|Z_{1}+Z_{2}| \\ge |Z_{1}|+|Z_{2}|$</katex> is generally false (it only holds for collinear vectors in the same direction, but not as a general rule)."
+  ],
+  "years": [
+    2025
+  ]
+}

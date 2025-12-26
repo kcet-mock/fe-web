@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-60",
+  "question": [
+    "If a random variable X follows the binomial distribution with parameters <katex>$n=5$</katex>, p and <katex>$P(X=2)=9P(X=3)$</katex> then p is equal to"
+  ],
+  "choices": [
+    [
+      "10"
+    ],
+    [
+      "<katex>$\\frac{1}{10}$</katex>"
+    ],
+    [
+      "5"
+    ],
+    [
+      "<katex>$\\frac{1}{5}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>${}^5C_2 p^2 q^3 = 9 \\cdot {}^5C_3 p^3 q^2$</katex>.",
+    "<katex>$10 p^2 q^3 = 9(10) p^3 q^2$</katex>.",
+    "<katex>$q = 9p \\Rightarrow 1-p = 9p \\Rightarrow 10p = 1 \\Rightarrow p = 1/10$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

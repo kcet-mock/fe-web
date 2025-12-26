@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-4",
+  "question": [
+    "If <katex>$\\Delta ABC$</katex> is right angled at C, then the value of <katex>$tan~A+tan~B$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$a+b$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a^{2}}{bc}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{c^{2}}{ab}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{b^{2}}{ac}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Since angle C is <katex>$90^{\\circ}$</katex>, <katex>$A + B = 90^{\\circ}$</katex>, so <katex>$B = 90^{\\circ} - A$</katex>.",
+    "<katex>$\\tan A + \\tan B = \\tan A + \\tan(90^{\\circ}-A) = \\tan A + \\cot A$</katex>.",
+    "<katex>$\\frac{\\sin A}{\\cos A} + \\frac{\\cos A}{\\sin A} = \\frac{\\sin^2 A + \\cos^2 A}{\\sin A \\cos A} = \\frac{1}{\\sin A \\cos A}$</katex>.",
+    "In <katex>$\\Delta ABC$</katex>, <katex>$\\sin A = \\frac{a}{c}$</katex> and <katex>$\\cos A = \\frac{b}{c}$</katex>.",
+    "Expression becomes <katex>$\\frac{1}{(a/c)(b/c)} = \\frac{c^2}{ab}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

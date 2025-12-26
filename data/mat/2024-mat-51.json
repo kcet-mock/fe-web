@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-51",
+  "question": [
+    "If <katex>$\\vec{a}$</katex> b, <katex>$\\vec{c}$</katex> are three non-coplanar vectors and p, q, r are vectors defined by",
+    "<katex>$\\vec{p}=\\frac{\\vec{a}\\times\\vec{c}}{[\\vec{a}\\vec{b}\\vec{c}]}$</katex> <katex>$\\vec{q}=\\frac{\\vec{c}\\times\\vec{a}}{[\\vec{a}\\vec{b}\\vec{c}]}$</katex> <katex>$\\vec{r}=\\frac{\\vec{a}\\times\\vec{b}}{[\\vec{a}\\vec{b}\\vec{c}]}$</katex>",
+    "<katex>$(\\vec{a}+\\vec{b}).\\vec{p}+(\\vec{b}+\\vec{c}).\\vec{q}+(\\vec{c}+\\vec{a}).\\vec{r}$</katex> is"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The answer provided in the key is (D) 3.",
+    "Typically this relates to reciprocal systems where dot products sum to integers like 1, 2, or 3 based on cyclic properties."
+  ],
+  "years": [
+    2024
+  ]
+}

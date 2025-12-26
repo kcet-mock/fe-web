@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-52",
+  "question": [
+    "If lines <katex>$\\frac{x-1}{-3}=\\frac{y-2}{2k}=\\frac{z-3}{2}$</katex> and <katex>$\\frac{x-1}{3k}=\\frac{y-5}{1}=\\frac{z-6}{-5}$</katex> are mutually perpendicular then k is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$-\\frac{10}{7}$</katex>"
+    ],
+    [
+      "1"
+    ],
+    [
+      "-10"
+    ],
+    [
+      "3"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Direction ratios are <katex>$(-3, 2k, 2)$</katex> and <katex>$(3k, 1, -5)$</katex>.",
+    "Dot product is zero: <katex>$-3(3k) + 2k(1) + 2(-5) = 0$</katex>.",
+    "<katex>$-9k + 2k - 10 = 0 \\Rightarrow -7k = 10 \\Rightarrow k = -10/7$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

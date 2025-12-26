@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-46",
+  "question": [
+    "Which of the following is an empty set?"
+  ],
+  "choices": [
+    [
+      "<katex>$\\{x:x^{2}-9=0,x\\in R\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x:x^{2}=x+2,x\\in R\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x:x^{2}-1=0,x\\in R\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{x:x^{2}+1=0,x\\in R\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$x^2 - 9 = 0 \\implies x = \\pm 3$</katex> (Real).",
+    "<katex>$x^2 - x - 2 = 0 \\implies (x-2)(x+1)=0 \\implies x=2, -1$</katex> (Real).",
+    "<katex>$x^2 - 1 = 0 \\implies x = \\pm 1$</katex> (Real).",
+    "<katex>$x^2 + 1 = 0 \\implies x^2 = -1$</katex>. No real solution. Empty set."
+  ],
+  "years": [
+    2023
+  ]
+}

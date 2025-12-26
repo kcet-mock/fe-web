@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-24",
+  "question": [
+    "If the number of terms in the binomial expansion of <katex>$(2x+3)^{3n}$</katex> is 22, then the value of n is"
+  ],
+  "choices": [
+    [
+      "8"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ],
+    [
+      "9"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The number of terms in the expansion of <katex>$(a+b)^m$</katex> is <katex>$m+1$</katex>.",
+    "Here, exponent is <katex>$3n$</katex>.",
+    "So, <katex>$3n + 1 = 22$</katex>.",
+    "<katex>$3n = 21 \\Rightarrow n = 7$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

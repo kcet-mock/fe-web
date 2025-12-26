@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-9",
+  "question": [
+    "If <katex>$y=a\\sin x+b\\cos x$</katex>, then <katex>$y^{2}+(\\frac{dy}{dx})^{2}$</katex> is a"
+  ],
+  "choices": [
+    [
+      "function of <katex>$x$</katex> and <katex>$y$</katex>"
+    ],
+    [
+      "constant"
+    ],
+    [
+      "function of <katex>$x$</katex>"
+    ],
+    [
+      "function of <katex>$y$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$y = a\\sin x + b\\cos x$</katex>",
+    "<katex>$\\frac{dy}{dx} = a\\cos x - b\\sin x$</katex>",
+    "<katex>$y^2 + (\\frac{dy}{dx})^2 = (a\\sin x + b\\cos x)^2 + (a\\cos x - b\\sin x)^2$</katex>",
+    "<katex>$= (a^2\\sin^2 x + b^2\\cos^2 x + 2ab\\sin x\\cos x) + (a^2\\cos^2 x + b^2\\sin^2 x - 2ab\\sin x\\cos x)$</katex>",
+    "<katex>$= a^2(\\sin^2 x + \\cos^2 x) + b^2(\\cos^2 x + \\sin^2 x)$</katex>",
+    "<katex>$= a^2 + b^2$</katex>, which is a constant."
+  ],
+  "years": [
+    2023
+  ]
+}

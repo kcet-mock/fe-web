@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-13",
+  "question": [
+    "<katex>$lim_{x\\rightarrow\\frac{\\pi}{4}}\\frac{\\sqrt{2}cos~x-1}{cot~x-1}$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "2"
+    ],
+    [
+      "<katex>$\\sqrt{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{\\sqrt{2}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "This is a 0/0 form limit. Using L'Hopital's rule:",
+    "Differentiate numerator: <katex>$\\sqrt{2}(-\\sin x)$</katex>.",
+    "Differentiate denominator: <katex>$-\\csc^2 x$</katex>.",
+    "Substitute <katex>$x = \\pi/4$</katex>:",
+    "<katex>$\\frac{-\\sqrt{2}\\sin(\\pi/4)}{-\\csc^2(\\pi/4)} = \\frac{\\sqrt{2}(1/\\sqrt{2})}{(\\sqrt{2})^2} = \\frac{1}{2}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

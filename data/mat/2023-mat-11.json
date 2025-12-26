@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-11",
+  "question": [
+    "If <katex>$A=\\begin{bmatrix}1&\\tan \\alpha/2\\\\ -\\tan \\alpha/2&1\\end{bmatrix}$</katex> and <katex>$AB=I$</katex> then <katex>$B=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\cos^{2}\\alpha/2 \\cdot I$</katex>"
+    ],
+    [
+      "<katex>$\\sin^{2}\\alpha/2 \\cdot A$</katex>"
+    ],
+    [
+      "<katex>$\\cos^{2}\\alpha/2 \\cdot A^{T}$</katex>"
+    ],
+    [
+      "<katex>$\\cos^{2}\\alpha/2 \\cdot A$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$B = A^{-1} = \\frac{1}{|A|} \\text{adj} A$</katex>",
+    "<katex>$|A| = 1 - (-\\tan^2 \\alpha/2) = 1 + \\tan^2 \\alpha/2 = \\sec^2 \\alpha/2$</katex>.",
+    "<katex>$\\text{adj} A = \\begin{bmatrix}1&-\\tan \\alpha/2\\\\ \\tan \\alpha/2&1\\end{bmatrix} = A^T$</katex> (Note: The transpose of A has signs flipped on off-diagonals compared to A, wait. <katex>$A = \\begin{bmatrix}1&t\\\\ -t&1\\end{bmatrix}$</katex>. <katex>$A^T = \\begin{bmatrix}1&-t\\\\ t&1\\end{bmatrix}$</katex>. Adjoint swaps diagonals (1,1) and negates off-diagonals (-t, -(-t)=t). Yes, <katex>$\\text{adj} A = A^T$</katex>.)",
+    "So <katex>$B = \\frac{1}{\\sec^2 \\alpha/2} A^T = \\cos^2 \\alpha/2 \\cdot A^T$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

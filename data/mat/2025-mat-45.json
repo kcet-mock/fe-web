@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-45",
+  "question": [
+    "The function <katex>$f(x)=\\begin{cases}e^{x}+ax&,&x<0\\\\ b(x-1)^{2}&,&x\\ge0\\end{cases}$</katex> is differentiable at <katex>$x=0$</katex>. Then"
+  ],
+  "choices": [
+    [
+      "<katex>$a=1, b=1$</katex>"
+    ],
+    [
+      "<katex>$a=3, b=1$</katex>"
+    ],
+    [
+      "<katex>$a=-3, b=1$</katex>"
+    ],
+    [
+      "<katex>$a=3, b=-1$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Continuity at 0: <katex>$\\lim_{x\\to 0^-} (e^x+ax) = 1$</katex>. <katex>$\\lim_{x\\to 0^+} b(x-1)^2 = b$</katex>. So <katex>$b=1$</katex>.",
+    "Differentiability at 0: LHD = derivative of <katex>$e^x+ax$</katex> at 0 is <katex>$e^0+a = 1+a$</katex>.",
+    "RHD = derivative of <katex>$b(x-1)^2$</katex> is <katex>$2b(x-1)$</katex>. At 0, <katex>$2b(-1) = -2b$</katex>.",
+    "<katex>$1+a = -2b$</katex>. Since <katex>$b=1$</katex>, <katex>$1+a = -2 \\Rightarrow a = -3$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

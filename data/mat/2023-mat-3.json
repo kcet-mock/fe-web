@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-3",
+  "question": [
+    "The area of a triangle with vertices <katex>$(-3, 0)$</katex>, <katex>$(3,0)$</katex> and <katex>$(0, k)$</katex> is <katex>$9$</katex> sq. units, the value of <katex>$k$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$6$</katex>"
+    ],
+    [
+      "<katex>$3$</katex>"
+    ],
+    [
+      "<katex>$9$</katex>"
+    ],
+    [
+      "<katex>$-9$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Area of triangle = <katex>$\\frac{1}{2} |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$</katex>",
+    "Coordinates: <katex>$(-3,0), (3,0), (0,k)$</katex>. Base is on x-axis with length <katex>$3 - (-3) = 6$</katex>. Height is <katex>$|k|$</katex>.",
+    "Area = <katex>$\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 6 \\times |k| = 3|k|$</katex>",
+    "Given Area = 9. So <katex>$3|k| = 9 \\implies |k| = 3 \\implies k = \\pm 3$</katex>.",
+    "Checking options, 3 is the correct positive value provided."
+  ],
+  "years": [
+    2023
+  ]
+}

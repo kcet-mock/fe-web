@@ -1,0 +1,29 @@
+{
+  "id": "2023-mat-44",
+  "question": [
+    "Given that <katex>$a, b$</katex> and <katex>$x$</katex> are real numbers and <katex>$a < b$</katex>, <katex>$x < 0$</katex> then"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{a}{x} < \\frac{b}{x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{x} \\le \\frac{b}{x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{x} > \\frac{b}{x}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{x} \\ge \\frac{b}{x}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Dividing an inequality by a negative number reverses the sign.",
+    "<katex>$a < b$</katex>.",
+    "Since <katex>$x < 0$</katex>, dividing by <katex>$x$</katex> gives <katex>$\\frac{a}{x} > \\frac{b}{x}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

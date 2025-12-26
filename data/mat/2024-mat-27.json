@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-27",
+  "question": [
+    "Let <katex>$f(x)=|\\begin{matrix}cos~x&x&1\\\\ 2~sin~x&x&2x\\\\ sin~x&x&x\\end{matrix}|.$</katex> Then <katex>$lim_{x\\rightarrow0}\\frac{f(x)}{x^{2}}=$</katex>"
+  ],
+  "choices": [
+    [
+      "-1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "3"
+    ],
+    [
+      "2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Taking <katex>$x$</katex> common from <katex>$C_2$</katex>: <katex>$f(x) = x |\\begin{matrix}\\cos x & 1 & 1 \\\\ 2\\sin x & 1 & 2x \\\\ \\sin x & 1 & x\\end{matrix}|$</katex>.",
+    "Apply <katex>$R_2 \\to R_2 - R_3$</katex>: <katex>$f(x) = x |\\begin{matrix}\\cos x & 1 & 1 \\\\ \\sin x & 0 & x \\\\ \\sin x & 1 & x\\end{matrix}|$</katex>.",
+    "Evaluate determinant approx <katex>$x \\to 0$</katex>: <katex>$\\cos x \\approx 1, \\sin x \\approx x$</katex>.",
+    "Limit evaluates to 0."
+  ],
+  "years": [
+    2024
+  ]
+}

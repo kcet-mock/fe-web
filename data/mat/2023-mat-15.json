@@ -1,0 +1,33 @@
+{
+  "id": "2023-mat-15",
+  "question": [
+    "An enemy fighter jet is flying along the curve given by <katex>$y=x^{2}+2$</katex>. A solider is placed at <katex>$(3,2)$</katex> wants to shoot down the jet when it is nearest to him. Then the nearest distance is"
+  ],
+  "choices": [
+    [
+      "<katex>$2$</katex> units"
+    ],
+    [
+      "<katex>$\\sqrt{5}$</katex> units"
+    ],
+    [
+      "<katex>$\\sqrt{3}$</katex> units"
+    ],
+    [
+      "<katex>$\\sqrt{6}$</katex> units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Distance squared <katex>$D^2 = (x-3)^2 + (y-2)^2$</katex>.",
+    "Substitute <katex>$y = x^2+2$</katex>: <katex>$D^2 = (x-3)^2 + (x^2+2-2)^2 = (x-3)^2 + x^4$</katex>.",
+    "Let <katex>$f(x) = x^4 + (x-3)^2$</katex>. Minimize <katex>$f(x)$</katex>.",
+    "<katex>$f'(x) = 4x^3 + 2(x-3) = 0$</katex>.",
+    "<katex>$2x^3 + x - 3 = 0$</katex>. By observation, <katex>$x=1$</katex> is a root (<katex>$2+1-3=0$</katex>).",
+    "At <katex>$x=1$</katex>, <katex>$y = 1^2+2 = 3$</katex>. Point is <katex>$(1,3)$</katex>.",
+    "Distance <katex>$= \\sqrt{(1-3)^2 + (3-2)^2} = \\sqrt{(-2)^2 + 1^2} = \\sqrt{4+1} = \\sqrt{5}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

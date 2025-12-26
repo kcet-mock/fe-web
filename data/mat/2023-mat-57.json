@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-57",
+  "question": [
+    "Let <katex>$f(x)=\\sin 2x+\\cos 2x$</katex> and <katex>$g(x)=x^{2}-1$</katex>, then <katex>$g(f(x))$</katex> is invertible in the domain"
+  ],
+  "choices": [
+    [
+      "<katex>$x\\in[\\frac{-\\pi}{2},\\frac{\\pi}{2}]$</katex>"
+    ],
+    [
+      "<katex>$x\\in[0,\\frac{\\pi}{4}]$</katex>"
+    ],
+    [
+      "<katex>$x\\in[\\frac{-\\pi}{4},\\frac{\\pi}{4}]$</katex>"
+    ],
+    [
+      "<katex>$x\\in[\\frac{-\\pi}{8},\\frac{\\pi}{8}]$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$f(x) = \\sqrt{2} \\sin(2x+\\pi/4)$</katex>.",
+    "<katex>$g(f(x)) = (f(x))^2 - 1 = (\\sin 2x+\\cos 2x)^2 - 1 = 1 + \\sin 4x - 1 = \\sin 4x$</katex>.",
+    "<katex>$y = \\sin 4x$</katex> is invertible if <katex>$4x \\in [-\\pi/2, \\pi/2]$</katex> (principal branch).",
+    "<katex>$-\\pi/2 \\le 4x \\le \\pi/2 \\implies -\\pi/8 \\le x \\le \\pi/8$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

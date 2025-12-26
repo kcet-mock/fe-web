@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-43",
+  "question": [
+    "<katex>$lim_{n\\rightarrow\\infty}(\\frac{n}{n^{2}+1^{2}}+\\frac{n}{n^{2}+2^{2}}+\\frac{n}{n^{2}+3^{2}}+...+\\frac{1}{5n})=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{\\pi}{4}$</katex>"
+    ],
+    [
+      "<katex>$tan^{-1}3$</katex>"
+    ],
+    [
+      "<katex>$tan^{-1}2$</katex>"
+    ],
+    [
+      "<katex>$\\frac{\\pi}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Last term <katex>$\\frac{1}{5n} = \\frac{n}{5n^2} = \\frac{n}{n^2+(2n)^2}$</katex>.",
+    "Sum is <katex>$\\sum_{r=1}^{2n} \\frac{n}{n^2+r^2} = \\sum_{r=1}^{2n} \\frac{1}{n} \\frac{1}{1+(r/n)^2}$</katex>.",
+    "Limit converts to integral <katex>$\\int_0^2 \\frac{1}{1+x^2} dx = [\\tan^{-1} x]_0^2 = \\tan^{-1} 2$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

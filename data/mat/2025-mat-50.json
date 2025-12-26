@@ -1,0 +1,28 @@
+{
+  "id": "2025-mat-50",
+  "question": [
+    "The function <katex>$f(x)=\\tan x-x$</katex>"
+  ],
+  "choices": [
+    [
+      "always increases"
+    ],
+    [
+      "always decreases"
+    ],
+    [
+      "never increases"
+    ],
+    [
+      "neither increases nor decreases"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$f'(x) = \\sec^2 x - 1 = \\tan^2 x$</katex>.",
+    "Since <katex>$\\tan^2 x \\ge 0$</katex> for all defined x, the function is always increasing."
+  ],
+  "years": [
+    2025
+  ]
+}

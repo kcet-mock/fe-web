@@ -1,0 +1,32 @@
+{
+  "id": "2025-mat-55",
+  "question": [
+    "<katex>$\\int_{0}^{1}\\log(\\frac{1}{x}-1)dx$</katex> is"
+  ],
+  "choices": [
+    [
+      "1"
+    ],
+    [
+      "0"
+    ],
+    [
+      "<katex>$\\log_{e}2$</katex>"
+    ],
+    [
+      "<katex>$\\log_{e}(\\frac{1}{2})$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$\\frac{1}{x}-1 = \\frac{1-x}{x}$</katex>.",
+    "<katex>$I = \\int_0^1 \\log(\\frac{1-x}{x}) dx$</katex>.",
+    "Using property <katex>$\\int_0^a f(x) dx = \\int_0^a f(a-x) dx$</katex>:",
+    "<katex>$I = \\int_0^1 \\log(\\frac{1-(1-x)}{1-x}) dx = \\int_0^1 \\log(\\frac{x}{1-x}) dx$</katex>.",
+    "<katex>$I = \\int_0^1 -\\log(\\frac{1-x}{x}) dx = -I$</katex>.",
+    "<katex>$2I = 0 \\Rightarrow I = 0$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-34",
+  "question": [
+    "If <katex>$(2,3,-1)$</katex> is the foot of the perpendicular from <katex>$(4, 2, 1)$</katex> to a plane, then the equation of the plane is"
+  ],
+  "choices": [
+    [
+      "<katex>$2x-y+2z=0$</katex>"
+    ],
+    [
+      "<katex>$2x+y+2z-5=0$</katex>"
+    ],
+    [
+      "<katex>$2x-y+2z+1=0$</katex>"
+    ],
+    [
+      "<katex>$2x+y+2z-1=0$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Normal vector <katex>$\\vec{n}$</katex> is vector from <katex>$(4,2,1)$</katex> to <katex>$(2,3,-1)$</katex> or vice versa.",
+    "<katex>$\\vec{n} = (4-2, 2-3, 1-(-1)) = (2, -1, 2)$</katex>.",
+    "Plane passes through foot <katex>$(2,3,-1)$</katex>.",
+    "Equation: <katex>$2(x-2) - 1(y-3) + 2(z+1) = 0$</katex>.",
+    "<katex>$2x - 4 - y + 3 + 2z + 2 = 0$</katex>.",
+    "<katex>$2x - y + 2z + 1 = 0$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

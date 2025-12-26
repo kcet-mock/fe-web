@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-6",
+  "question": [
+    "The value of <katex>$\\cot^{-1}\\left[\\frac{\\sqrt{1+\\sin x}+\\sqrt{1-\\sin x}}{\\sqrt{1+\\sin x}-\\sqrt{1-\\sin x}}\\right]$</katex> where <katex>$x\\in(0,\\frac{\\pi}{4})$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\pi-\\frac{x}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{x}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\pi-\\frac{x}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{x}{2}-\\pi$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Use <katex>$1+\\sin x = (\\cos \\frac{x}{2} + \\sin \\frac{x}{2})^2$</katex> and <katex>$1-\\sin x = (\\cos \\frac{x}{2} - \\sin \\frac{x}{2})^2$</katex>.",
+    "Since <katex>$x \\in (0, \\pi/4)$</katex>, <katex>$\\cos \\frac{x}{2} > \\sin \\frac{x}{2}$</katex>, so <katex>$\\sqrt{1-\\sin x} = \\cos \\frac{x}{2} - \\sin \\frac{x}{2}$</katex>.",
+    "Numerator: <katex>$(\\cos \\frac{x}{2} + \\sin \\frac{x}{2}) + (\\cos \\frac{x}{2} - \\sin \\frac{x}{2}) = 2\\cos \\frac{x}{2}$</katex>.",
+    "Denominator: <katex>$(\\cos \\frac{x}{2} + \\sin \\frac{x}{2}) - (\\cos \\frac{x}{2} - \\sin \\frac{x}{2}) = 2\\sin \\frac{x}{2}$</katex>.",
+    "Expression becomes <katex>$\\cot^{-1}(\\frac{2\\cos (x/2)}{2\\sin (x/2)}) = \\cot^{-1}(\\cot \\frac{x}{2}) = \\frac{x}{2}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

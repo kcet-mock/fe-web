@@ -1,0 +1,29 @@
+{
+  "id": "2025-mat-60",
+  "question": [
+    "The distance of the point <katex>$P(-3,4,5)$</katex> from yz plane is"
+  ],
+  "choices": [
+    [
+      "4 units"
+    ],
+    [
+      "5 units"
+    ],
+    [
+      "-3 units"
+    ],
+    [
+      "3 units"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Distance of <katex>$(x,y,z)$</katex> from yz-plane is <katex>$|x|$</katex>.",
+    "Here <katex>$x = -3$</katex>.",
+    "Distance = <katex>$|-3| = 3$</katex> units."
+  ],
+  "years": [
+    2025
+  ]
+}

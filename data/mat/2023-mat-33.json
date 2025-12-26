@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-33",
+  "question": [
+    "The point of intersection of the line <katex>$x+1=\\frac{y+3}{3}=\\frac{-z+2}{2}$</katex> with the plane <katex>$3x+4y+5z=10$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$(2,6,-4)$</katex>"
+    ],
+    [
+      "<katex>$(2, 6, 4)$</katex>"
+    ],
+    [
+      "<katex>$(-2,6,-4)$</katex>"
+    ],
+    [
+      "<katex>$(2,-6,-4)$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Line: <katex>$\\frac{x+1}{1} = \\frac{y+3}{3} = \\frac{z-2}{-2} = k$</katex> (Note: <katex>$\\frac{-z+2}{2} = \\frac{-(z-2)}{2} = \\frac{z-2}{-2}$</katex>).",
+    "Point: <katex>$x = k-1, y = 3k-3, z = -2k+2$</katex>.",
+    "Substitute in plane: <katex>$3(k-1) + 4(3k-3) + 5(-2k+2) = 10$</katex>.",
+    "<katex>$3k - 3 + 12k - 12 - 10k + 10 = 10$</katex>.",
+    "<katex>$5k - 5 = 10 \\implies 5k = 15 \\implies k = 3$</katex>.",
+    "Point: <katex>$x = 3-1=2$</katex>, <katex>$y = 9-3=6$</katex>, <katex>$z = -6+2=-4$</katex>. <katex>$(2, 6, -4)$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

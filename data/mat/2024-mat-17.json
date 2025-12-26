@@ -1,0 +1,28 @@
+{
+  "id": "2024-mat-17",
+  "question": [
+    "Let <katex>$f:R\\rightarrow R$</katex> be defined by <katex>$f(x)=x^{2}+1$</katex>. Then the pre images of 17 and -3 respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$\\phi, \\{4,-4\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{3,-3\\}, \\phi$</katex>"
+    ],
+    [
+      "<katex>$\\{4,-4\\},\\phi$</katex>"
+    ],
+    [
+      "{4,-4},{2,-2}"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For pre-image of 17: <katex>$x^2 + 1 = 17 \\Rightarrow x^2 = 16 \\Rightarrow x = \\pm 4$</katex>. Set is <katex>$\\{4, -4\\}$</katex>.",
+    "For pre-image of -3: <katex>$x^2 + 1 = -3 \\Rightarrow x^2 = -4$</katex>. No real solution. Set is <katex>$\\phi$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

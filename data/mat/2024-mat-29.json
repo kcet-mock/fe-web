@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-29",
+  "question": [
+    "The function <katex>$f(x)=|cos~x|$</katex> is"
+  ],
+  "choices": [
+    [
+      "Everywhere continuous and differentiable"
+    ],
+    [
+      "Everywhere continuous but not differentiable at odd multiples of <katex>$\\frac{\\pi}{2}$</katex>"
+    ],
+    [
+      "Neither continuous nor differentiable at <katex>$(2n+1)\\frac{\\pi}{2}$</katex>"
+    ],
+    [
+      "Not differentiable everywhere"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The modulus function <katex>$|t|$</katex> is continuous everywhere but not differentiable at <katex>$t=0$</katex>.",
+    "Here <katex>$t = \\cos x$</katex>. So it is not differentiable where <katex>$\\cos x = 0$</katex>.",
+    "<katex>$\\cos x = 0$</katex> at <katex>$x = (2n+1)\\frac{\\pi}{2}$</katex>.",
+    "It is continuous everywhere."
+  ],
+  "years": [
+    2024
+  ]
+}

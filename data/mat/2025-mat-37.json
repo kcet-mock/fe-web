@@ -1,0 +1,31 @@
+{
+  "id": "2025-mat-37",
+  "question": [
+    "Consider the following statements:",
+    "Statement (I): If either <katex>$|\\vec{a}|=0$</katex> or <katex>$|\\vec{b}|=0$</katex>, then <katex>$\\vec{a}\\cdot\\vec{b}=0$</katex>",
+    "Statement (II): If <katex>$\\vec{a}\\times\\vec{b}=\\vec{0}$</katex>, then <katex>$\\vec{a}$</katex> is perpendicular to <katex>$\\vec{b}$</katex>.",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true but Statement (II) is false"
+    ],
+    [
+      "Statement (I) is false but Statement (II) is true"
+    ],
+    [
+      "Both Statement (I) and Statement (II) is true"
+    ],
+    [
+      "Both Statement (I) and Statement (II) is false"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement I: If a vector has zero magnitude, it is the zero vector. The dot product with a zero vector is always 0. True.",
+    "Statement II: If cross product is zero, the vectors are parallel (collinear), not perpendicular. False."
+  ],
+  "years": [
+    2025
+  ]
+}

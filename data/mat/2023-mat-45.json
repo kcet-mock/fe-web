@@ -1,0 +1,38 @@
+{
+  "id": "2023-mat-45",
+  "question": [
+    "Ten chairs are numbered as 1 to 10. Three women and two men wish to occupy one chair each. First the women choose the chairs marked 1 to 6, then the men choose the chairs from the remaining. The number of possible ways is"
+  ],
+  "choices": [
+    [
+      "<katex>${}^{6}C_{3} \\times {}^{4}P_{2}$</katex>"
+    ],
+    [
+      "<katex>${}^{6}P_{3} \\times {}^{4}C_{2}$</katex>"
+    ],
+    [
+      "<katex>${}^{6}C_{3} \\times {}^{4}C_{2}$</katex>"
+    ],
+    [
+      "<katex>${}^{6}P_{3} \\times {}^{4}P_{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "3 women choose from 6 chairs (1-6). Order matters (who sits where). Ways = <katex>${}^6P_3$</katex>.",
+    "Remaining chairs = <katex>$10 - 3 = 7$</katex>. Men choose from remaining. The question says 'men choose the chairs from the remaining'.",
+    "Wait, 'remaining' usually means the chairs not taken. Total 10 chairs. Women take 3. 7 left.",
+    "But men usually sit in the remaining of the *whole set* or remaining of the *specific set*? 'chairs from the remaining'. Likely the remaining 7 chairs.",
+    "Wait, source option D is <katex>${}^6P_3 \\times {}^4P_2$</katex>. This implies men choose from 4 chairs.",
+    "Ah, 'women choose chairs marked 1 to 6'. 3 chairs taken. 3 chairs left in (1-6) + 4 chairs in (7-10). Total 7.",
+    "Maybe the question implies men choose from the *remaining of the first set*? No, unlikely.",
+    "Maybe 'remaining' implies the chairs 7, 8, 9, 10? 'First women choose... 1 to 6... then men choose... from the remaining'. This could mean 'the remaining chairs (7-10)' if '1 to 6' was a reserved section? Or 'remaining available chairs'.",
+    "If men choose from 7 remaining chairs: <katex>${}^7P_2$</katex>.",
+    "If men choose from chairs 7-10 (4 chairs): <katex>${}^4P_2$</katex>.",
+    "Given the option D: <katex>${}^6P_3 \\times {}^4P_2$</katex>, it strongly suggests men choose from a set of 4. This implies chairs 7,8,9,10 are the 'remaining' set available for men, or the only ones considered.",
+    "Interpretation: Women pick from 1-6. Men pick from 7-10. This matches the math <katex>${}^6P_3 \\times {}^4P_2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2025-mat-44",
+  "question": [
+    "Match the following columns where [x] denotes greatest integer function.",
+    "| Column I | Column II |",
+    "|---|---|",
+    "| (a) <katex>$x|x|$</katex> | (i) continuous in (-1,1) |",
+    "| (b) <katex>$\\sqrt{|x|}$</katex> | (ii) differentiable in (-1,1) |",
+    "| (c) <katex>$x+[x]$</katex> | (iii) strictly increasing in (-1,1) |",
+    "| (d) <katex>$|x-1|+|x+1|$</katex> | (iv) not differentiable at least one point in (-1,1) |"
+  ],
+  "choices": [
+    [
+      "a-i, b-ii, c-iv, d-iii"
+    ],
+    [
+      "a-iv, b-iii, c-i, d-ii"
+    ],
+    [
+      "a-ii, b-iv, c-iii, d-i"
+    ],
+    [
+      "a-iii, b-ii, c-iv, d-i"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "(a) <katex>$x|x|$</katex> is <katex>$x^2$</katex> for <katex>$x>0$</katex>, <katex>$-x^2$</katex> for <katex>$x<0$</katex>. Differentiable everywhere. Matches (ii).",
+    "(b) <katex>$\\sqrt{|x|}$</katex> has a sharp corner at 0 (vertical tangent). Not differentiable at 0. Matches (iv).",
+    "(c) <katex>$x+[x]$</katex> increases as x increases. Strictly increasing. Matches (iii).",
+    "(d) <katex>$|x-1|+|x+1|$</katex> is constant 2 in <katex>$[-1,1]$</katex>. Continuous everywhere. Matches (i) (also differentiable in (-1,1)).",
+    "The best fit is option (3): a-ii, b-iv, c-iii, d-i."
+  ],
+  "years": [
+    2025
+  ]
+}

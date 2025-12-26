@@ -1,0 +1,33 @@
+{
+  "id": "2025-mat-43",
+  "question": [
+    "If <katex>$y=\\frac{\\cos x}{1+\\sin x}$</katex> then",
+    "a) <katex>$\\frac{dy}{dx}=\\frac{-1}{1+\\sin x}$</katex>",
+    "b) <katex>$\\frac{dy}{dx}=\\frac{1}{1+\\sin x}$</katex>",
+    "c) <katex>$\\frac{dy}{dx}=-\\frac{1}{2}\\sec^{2}(\\frac{\\pi}{4}-\\frac{x}{2})$</katex>",
+    "d) <katex>$\\frac{dy}{dx}=\\frac{1}{2}\\sec^{2}(\\frac{\\pi}{4}-\\frac{x}{2})$</katex>"
+  ],
+  "choices": [
+    [
+      "Only b is correct"
+    ],
+    [
+      "Only a is correct"
+    ],
+    [
+      "Both a and c are correct"
+    ],
+    [
+      "Both b and d are correct"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Method 1: Quotient rule. <katex>$y' = \\frac{-\\sin x(1+\\sin x) - \\cos x(\\cos x)}{(1+\\sin x)^2} = \\frac{-\\sin x - \\sin^2 x - \\cos^2 x}{(1+\\sin x)^2} = \\frac{-(1+\\sin x)}{(1+\\sin x)^2} = \\frac{-1}{1+\\sin x}$</katex>. So (a) is correct.",
+    "Method 2: Simplify y first. <katex>$y = \\tan(\\frac{\\pi}{4} - \\frac{x}{2})$</katex>.",
+    "Diff: <katex>$y' = \\sec^2(\\frac{\\pi}{4} - \\frac{x}{2}) \\cdot (-\\frac{1}{2})$</katex>. So (c) is correct."
+  ],
+  "years": [
+    2025
+  ]
+}

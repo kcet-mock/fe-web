@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-40",
+  "question": [
+    "If <katex>$A$</katex> and <katex>$B$</katex> are events such that <katex>$P(A)=\\frac{1}{4}, P(A/B)=\\frac{1}{2}$</katex> and <katex>$P(B/A)=\\frac{2}{3}$</katex> then <katex>$P(B)$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{2}{3}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{6}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$P(A \\cap B) = P(A) P(B/A) = \\frac{1}{4} \\times \\frac{2}{3} = \\frac{1}{6}$</katex>.",
+    "Also <katex>$P(A/B) = \\frac{P(A \\cap B)}{P(B)}$</katex>.",
+    "<katex>$\\frac{1}{2} = \\frac{1/6}{P(B)}$</katex>.",
+    "<katex>$P(B) = \\frac{1/6}{1/2} = \\frac{1}{3}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

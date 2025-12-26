@@ -1,0 +1,35 @@
+{
+  "id": "2024-mat-1",
+  "question": [
+    "Two finite sets have m and n elements respectively.",
+    "The total number of subsets of the first set is 56 more than the total number of subsets of the second set.",
+    "The values of m and n respectively are"
+  ],
+  "choices": [
+    [
+      "7, 6"
+    ],
+    [
+      "5, 1"
+    ],
+    [
+      "6, 3"
+    ],
+    [
+      "8, 7"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Let the number of elements in the first set be <katex>$m$</katex> and in the second set be <katex>$n$</katex>.",
+    "Number of subsets of first set = <katex>$2^m$</katex>.",
+    "Number of subsets of second set = <katex>$2^n$</katex>.",
+    "Given: <katex>$2^m - 2^n = 56$</katex>.",
+    "<katex>$2^n(2^{m-n} - 1) = 56 = 8 \\times 7 = 2^3(2^3 - 1)$</katex>.",
+    "Comparing powers, <katex>$n = 3$</katex> and <katex>$m - n = 3 \\Rightarrow m = 6$</katex>.",
+    "Thus, <katex>$m=6, n=3$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

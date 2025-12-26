@@ -1,0 +1,30 @@
+{
+  "id": "2023-mat-38",
+  "question": [
+    "Let <katex>$A=\\{x,y,z,u\\}$</katex> and <katex>$B=\\{a,b\\}$</katex>. A function <katex>$f:A\\rightarrow B$</katex> is selected randomly. The probability that the function is an onto function is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{5}{8}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{35}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{7}{8}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{8}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Total functions from A (4 elements) to B (2 elements) = <katex>$2^4 = 16$</katex>.",
+    "Number of functions that are NOT onto: Functions that map all elements to 'a' (1 way) or all to 'b' (1 way). Total 2.",
+    "Number of onto functions = <katex>$16 - 2 = 14$</katex>.",
+    "Probability = <katex>$14/16 = 7/8$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

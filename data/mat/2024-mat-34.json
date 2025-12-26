@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-34",
+  "question": [
+    "For the function <katex>$f(x)=x^{3}-6x^{2}+12x-3;$</katex> <katex>$x=2$</katex> is"
+  ],
+  "choices": [
+    [
+      "A point of minium"
+    ],
+    [
+      "A point of inflexion"
+    ],
+    [
+      "Not a critical point"
+    ],
+    [
+      "A point of maximum"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$f'(x) = 3x^2 - 12x + 12 = 3(x^2 - 4x + 4) = 3(x-2)^2$</katex>.",
+    "At <katex>$x=2$</katex>, <katex>$f'(x)=0$</katex>. It is a critical point.",
+    "Since <katex>$f'(x) \\ge 0$</katex> for all <katex>$x$</katex> (never changes sign), it is a point of inflection."
+  ],
+  "years": [
+    2024
+  ]
+}

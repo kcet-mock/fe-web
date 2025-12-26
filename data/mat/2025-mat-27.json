@@ -1,0 +1,32 @@
+{
+  "id": "2025-mat-27",
+  "question": [
+    "If A and B are two matrices such that AB is an identity matrix and the order of matrix B is <katex>$3\\times4$</katex>, then the order of matrix A is"
+  ],
+  "choices": [
+    [
+      "<katex>$3\\times4$</katex>"
+    ],
+    [
+      "<katex>$3\\times3$</katex>"
+    ],
+    [
+      "<katex>$4\\times3$</katex>"
+    ],
+    [
+      "<katex>$4\\times4$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Let order of A be <katex>$m \\times n$</katex>.",
+    "Order of B is <katex>$3 \\times 4$</katex>.",
+    "For AB to be defined, <katex>$n$</katex> must equal 3.",
+    "The result AB is an identity matrix I. Identity matrices are square, so the result must be <katex>$4 \\times 4$</katex> (since rows come from A and columns from B).",
+    "Wait, if AB is defined, the result has size <katex>$m \\times 4$</katex>. For it to be identity, it must be square, so <katex>$m=4$</katex>.",
+    "So A must be <katex>$4 \\times 3$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

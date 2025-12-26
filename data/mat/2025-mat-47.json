@@ -1,0 +1,31 @@
+{
+  "id": "2025-mat-47",
+  "question": [
+    "If <katex>$y=a\\sin^{3}t$</katex>, <katex>$x=a\\cos^{3}t$</katex>, then <katex>$\\frac{dy}{dx}$</katex> at <katex>$t=\\frac{3\\pi}{4}$</katex> is"
+  ],
+  "choices": [
+    [
+      "-1"
+    ],
+    [
+      "<katex>$\\frac{1}{\\sqrt{3}}$</katex>"
+    ],
+    [
+      "<katex>$-\\sqrt{3}$</katex>"
+    ],
+    [
+      "1"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$\\frac{dy}{dt} = 3a\\sin^2 t \\cos t$</katex>.",
+    "<katex>$\\frac{dx}{dt} = 3a\\cos^2 t (-\\sin t)$</katex>.",
+    "<katex>$\\frac{dy}{dx} = \\frac{3a\\sin^2 t \\cos t}{-3a\\cos^2 t \\sin t} = -\\tan t$</katex>.",
+    "At <katex>$t = 3\\pi/4$</katex>, <katex>$\\tan t = -1$</katex>.",
+    "So <katex>$\\frac{dy}{dx} = -(-1) = 1$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

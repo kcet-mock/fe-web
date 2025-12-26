@@ -1,0 +1,29 @@
+{
+  "id": "2025-mat-23",
+  "question": [
+    "The number of diagonals that can be drawn in an octagon is"
+  ],
+  "choices": [
+    [
+      "15"
+    ],
+    [
+      "20"
+    ],
+    [
+      "28"
+    ],
+    [
+      "12"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Number of diagonals in an n-sided polygon is <katex>$\\frac{n(n-3)}{2}$</katex>.",
+    "For an octagon, <katex>$n=8$</katex>.",
+    "Diagonals = <katex>$\\frac{8(8-3)}{2} = \\frac{8 \\times 5}{2} = \\frac{40}{2} = 20$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

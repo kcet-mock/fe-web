@@ -1,0 +1,32 @@
+{
+  "id": "2024-mat-19",
+  "question": [
+    "Let A = {2, 3, 4, 5, ...... 16, 17, 18}.",
+    "Let R be the relation on the set A of ordered pairs of positive integers defined by (a, b) <katex>$R(c,d)$</katex> if and only if <katex>$ad=bc$</katex> for all (a, b), (c, d) in <katex>$A\\times A$</katex> Then the number of ordered pairs of the equivalence class of (3, 2) is"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "5"
+    ],
+    [
+      "6"
+    ],
+    [
+      "7"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The condition <katex>$ad=bc$</katex> is equivalent to <katex>$\\frac{a}{b} = \\frac{c}{d}$</katex>.",
+    "We want pairs <katex>$(x,y) \\in A \\times A$</katex> such that <katex>$\\frac{x}{y} = \\frac{3}{2}$</katex>.",
+    "Pairs are multiples of (3,2): (3,2), (6,4), (9,6), (12,8), (15,10), (18,12).",
+    "Next would be (21,14) but <katex>$21 \\notin A$</katex> (max 18).",
+    "Total pairs = 6."
+  ],
+  "years": [
+    2024
+  ]
+}

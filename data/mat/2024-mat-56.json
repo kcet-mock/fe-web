@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-56",
+  "question": [
+    "The plane containing the point (3, 2, 0) and the line <katex>$\\frac{x-3}{1}=\\frac{y-6}{5}=\\frac{z-4}{4}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$x-y+z=1$</katex>"
+    ],
+    [
+      "<katex>$x+y+z=5$</katex>"
+    ],
+    [
+      "<katex>$x+2y-z=1$</katex>"
+    ],
+    [
+      "<katex>$2x-y+z=5$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Substitute point (3,2,0) into option A: <katex>$3-2+0 = 1$</katex>. Satisfies.",
+    "Check direction vector <katex>$(1,5,4)$</katex> with normal of A <katex>$(1,-1,1)$</katex>: <katex>$1(1) - 1(5) + 1(4) = 0$</katex>. Perpendicular.",
+    "Hence, line is parallel to plane. Point is on plane. So plane contains line."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2025-mat-42",
+  "question": [
+    "<katex>$\\lim_{x\\rightarrow1}\\frac{x^{4}-\\sqrt{x}}{\\sqrt{x}-1}$</katex> is"
+  ],
+  "choices": [
+    [
+      "0"
+    ],
+    [
+      "7"
+    ],
+    [
+      "Does not exist"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Substitute <katex>$x=1$</katex>: 0/0 form. L'Hopital's Rule.",
+    "Differentiation of Num: <katex>$4x^3 - \\frac{1}{2\\sqrt{x}}$</katex>",
+    "Differentiation of Den: <katex>$\\frac{1}{2\\sqrt{x}}$</katex>",
+    "Limit <katex>$x \\to 1$</katex>: <katex>$\\frac{4(1) - 0.5}{0.5} = \\frac{3.5}{0.5} = 7$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-54",
+  "question": [
+    "The sine of the angle between the straight line <katex>$\\frac{x-2}{3}=\\frac{y-3}{4}=\\frac{4-z}{-5}$</katex> are the plane <katex>$2x-2y+z=5$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{5\\sqrt{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2}{5\\sqrt{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3}{50}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{3}{\\sqrt{50}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Line direction: <katex>$(3, 4, 5)$</katex> (note <katex>$\\frac{4-z}{-5} = \\frac{z-4}{5}$</katex>).",
+    "Plane normal: <katex>$(2, -2, 1)$</katex>.",
+    "<katex>$\\sin \\theta = \\frac{|\\vec{b} \\cdot \\vec{n}|}{|b||n|} = \\frac{|6 - 8 + 5|}{\\sqrt{9+16+25}\\sqrt{4+4+1}} = \\frac{3}{5\\sqrt{2} \\cdot 3} = \\frac{1}{5\\sqrt{2}}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-28",
+  "question": [
+    "In the interval <katex>$(0,\\pi/2)$</katex>, area lying between the curves <katex>$y=\\tan x$</katex> and <katex>$y=\\cot x$</katex> and the X-axis is"
+  ],
+  "choices": [
+    [
+      "<katex>$4 \\log 2$</katex> sq. units"
+    ],
+    [
+      "<katex>$\\log 2$</katex> sq. units"
+    ],
+    [
+      "<katex>$3 \\log 2$</katex> sq. units"
+    ],
+    [
+      "<katex>$2 \\log 2$</katex> sq. units"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Intersection of <katex>$\\tan x$</katex> and <katex>$\\cot x$</katex> in <katex>$(0, \\pi/2)$</katex> is at <katex>$x = \\pi/4$</katex>.",
+    "Area is bounded by X-axis. From <katex>$0$</katex> to <katex>$\\pi/4$</katex>, curve is <katex>$\\tan x$</katex> (since <katex>$\\tan x < \\cot x$</katex>). From <katex>$\\pi/4$</katex> to <katex>$\\pi/2$</katex>, curve is <katex>$\\cot x$</katex>.",
+    "Area = <katex>$\\int_0^{\\pi/4} \\tan x dx + \\int_{\\pi/4}^{\\pi/2} \\cot x dx$</katex>.",
+    "<katex>$\\int \\tan x = \\log|\\sec x|$</katex>. <katex>$[\\log(\\sec x)]_0^{\\pi/4} = \\log(\\sqrt{2}) - \\log(1) = \\frac{1}{2}\\log 2$</katex>.",
+    "<katex>$\\int \\cot x = \\log|\\sin x|$</katex>. <katex>$[\\log(\\sin x)]_{\\pi/4}^{\\pi/2} = \\log(1) - \\log(1/\\sqrt{2}) = 0 - (-\\frac{1}{2}\\log 2) = \\frac{1}{2}\\log 2$</katex>.",
+    "Total Area = <katex>$\\frac{1}{2}\\log 2 + \\frac{1}{2}\\log 2 = \\log 2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

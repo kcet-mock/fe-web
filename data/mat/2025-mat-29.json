@@ -1,0 +1,32 @@
+{
+  "id": "2025-mat-29",
+  "question": [
+    "If a matrix <katex>$A=\\begin{bmatrix}1&1\\\\ 1&1\\end{bmatrix}$</katex> satisfies <katex>$A^{6}=kA'$</katex>, then the value of k is"
+  ],
+  "choices": [
+    [
+      "32"
+    ],
+    [
+      "1"
+    ],
+    [
+      "<katex>$\\frac{1}{32}$</katex>"
+    ],
+    [
+      "6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$A^2 = \\begin{bmatrix}1&1\\\\ 1&1\\end{bmatrix} \\begin{bmatrix}1&1\\\\ 1&1\\end{bmatrix} = \\begin{bmatrix}2&2\\\\ 2&2\\end{bmatrix} = 2A$</katex>",
+    "<katex>$A^3 = A^2 \\cdot A = 2A \\cdot A = 2A^2 = 4A = 2^2 A$</katex>",
+    "Pattern: <katex>$A^n = 2^{n-1} A$</katex>.",
+    "<katex>$A^6 = 2^{6-1} A = 2^5 A = 32 A$</katex>.",
+    "Since A is symmetric (<katex>$A = A'$</katex>), <katex>$A^6 = 32 A'$</katex>.",
+    "Therefore, <katex>$k = 32$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

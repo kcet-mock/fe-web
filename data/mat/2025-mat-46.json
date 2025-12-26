@@ -1,0 +1,29 @@
+{
+  "id": "2025-mat-46",
+  "question": [
+    "A function <katex>$f(x)=\\begin{cases}\\frac{e^{1/x}-1}{e^{1/x}+1},&x\\ne0\\\\ 0&,&x=0\\end{cases}$</katex> is"
+  ],
+  "choices": [
+    [
+      "continuous at <katex>$x=0$</katex>"
+    ],
+    [
+      "not continuous at <katex>$x=0$</katex>"
+    ],
+    [
+      "differentiable at <katex>$x=0$</katex>"
+    ],
+    [
+      "differentiable at <katex>$x=0$</katex> but not continuous at <katex>$x=0$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "LHL at 0: Let <katex>$x = -h$</katex>. <katex>$\\lim_{h \\to 0} \\frac{e^{-1/h}-1}{e^{-1/h}+1} = \\frac{0-1}{0+1} = -1$</katex>.",
+    "RHL at 0: Let <katex>$x = h$</katex>. Divide by <katex>$e^{1/h}$</katex>. <katex>$\\lim_{h \\to 0} \\frac{1-e^{-1/h}}{1+e^{-1/h}} = \\frac{1-0}{1+0} = 1$</katex>.",
+    "LHL != RHL, so discontinuous."
+  ],
+  "years": [
+    2025
+  ]
+}

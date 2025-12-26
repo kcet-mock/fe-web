@@ -1,0 +1,35 @@
+{
+  "id": "2023-mat-56",
+  "question": [
+    "Let the relation <katex>$R$</katex> be defined in <katex>$N$</katex> by <katex>$aRb$</katex> if <katex>$3a+2b=27$</katex> then <katex>$R$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\{(1,12),(3,9),(5,6),(7,3),(9,0)\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{(2,1),(9,3),(6,5),(3,7)\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{(1,12),(3,9),(5,6),(7,3)\\}$</katex>"
+    ],
+    [
+      "<katex>$\\{(0,\\frac{27}{2}),(1,12),(3,9),(5,6),(7,3)\\}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$2b = 27 - 3a = 3(9-a)$</katex>.",
+    "Since <katex>$2b$</katex> is even, <katex>$3(9-a)$</katex> must be even. So <katex>$9-a$</katex> even, <katex>$a$</katex> must be odd.",
+    "Also <katex>$b = \\frac{3}{2}(9-a)$</katex>. Since <katex>$b \\in N$</katex>, <katex>$b > 0$</katex>, so <katex>$9-a > 0 \\implies a < 9$</katex>.",
+    "Possible odd values for <katex>$a$</katex>: 1, 3, 5, 7.",
+    "If <katex>$a=1, b=3/2(8)=12$</katex>.",
+    "If <katex>$a=3, b=3/2(6)=9$</katex>.",
+    "If <katex>$a=5, b=3/2(4)=6$</katex>.",
+    "If <katex>$a=7, b=3/2(2)=3$</katex>.",
+    "Set is <katex>$\\{(1,12), (3,9), (5,6), (7,3)\\}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

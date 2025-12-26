@@ -1,0 +1,34 @@
+{
+  "id": "2025-mat-2",
+  "question": [
+    "A and B are two sets having 3 and 6 elements respectively. Consider the following statements.",
+    "Statement (I): Minimum number of elements in <katex>$A \\cup B$</katex> is 3",
+    "Statement (II): Maximum number of elements in <katex>$A \\cap B$</katex> is 3",
+    "Which of the following is correct?"
+  ],
+  "choices": [
+    [
+      "Statement (I) is true, statement (II) is false"
+    ],
+    [
+      "Statement (I) is false, statement (II) is true"
+    ],
+    [
+      "Both statements (I) and (II) are true"
+    ],
+    [
+      "Both statements (I) and (II) are false"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Given <katex>$|A|=3$</katex> and <katex>$|B|=6$</katex>.",
+    "We know <katex>$|A \\cup B| = |A| + |B| - |A \\cap B|$</katex>.",
+    "To find the minimum elements in <katex>$A \\cup B$</katex>, we maximize <katex>$|A \\cap B|$</katex>. The maximum intersection is <katex>$\\min(|A|, |B|) = 3$</katex>.",
+    "<katex>$\\min|A \\cup B| = 3 + 6 - 3 = 6$</katex>. Thus, Statement (I) is false.",
+    "The maximum number of elements in <katex>$A \\cap B$</katex> is <katex>$\\min(|A|, |B|) = 3$</katex>. Thus, Statement (II) is true."
+  ],
+  "years": [
+    2025
+  ]
+}

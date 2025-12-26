@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-10",
+  "question": [
+    "If A.M. and G.M. of roots of a quadratic equation are 5 and 4 respectively, then the quadratic equation is"
+  ],
+  "choices": [
+    [
+      "<katex>$x^{2}-10x-16=0$</katex>"
+    ],
+    [
+      "<katex>$x^{2}+10x+16=0$</katex>"
+    ],
+    [
+      "<katex>$x^{2}+10x-16=0$</katex>"
+    ],
+    [
+      "<katex>$x^{2}-10x+16=0$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let roots be <katex>$\\alpha, \\beta$</katex>.",
+    "A.M. = <katex>$\\frac{\\alpha+\\beta}{2} = 5 \\Rightarrow \\alpha+\\beta = 10$</katex>.",
+    "G.M. = <katex>$\\sqrt{\\alpha\\beta} = 4 \\Rightarrow \\alpha\\beta = 16$</katex>.",
+    "Equation: <katex>$x^2 - (\\text{Sum})x + (\\text{Product}) = 0$</katex>.",
+    "<katex>$x^2 - 10x + 16 = 0$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2025-mat-13",
+  "question": [
+    "<katex>$2\\cos^{-1}x=\\sin^{-1}(2x\\sqrt{1-x^{2}})$</katex> is valid for all values of 'x' satisfying"
+  ],
+  "choices": [
+    [
+      "<katex>$0\\le x\\le\\frac{1}{\\sqrt{2}}$</katex>"
+    ],
+    [
+      "<katex>$-1\\le x\\le1$</katex>"
+    ],
+    [
+      "<katex>$0\\le x\\le1$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{\\sqrt{2}}\\le x\\le1$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Let <katex>$x = \\cos \\theta$</katex>. Then <katex>$\\theta = \\cos^{-1} x$</katex>.",
+    "LHS = <katex>$2\\theta$</katex>.",
+    "RHS = <katex>$\\sin^{-1}(2 \\cos \\theta \\sin \\theta) = \\sin^{-1}(\\sin 2\\theta)$</katex>.",
+    "For <katex>$\\sin^{-1}(\\sin 2\\theta) = 2\\theta$</katex>, we need <katex>$2\\theta \\in [-\\pi/2, \\pi/2]$</katex>, so <katex>$\\theta \\in [-\\pi/4, \\pi/4]$</katex>.",
+    "Since <katex>$x = \\cos \\theta$</katex> and range of <katex>$\\cos^{-1}$</katex> is usually <katex>$[0, \\pi]$</katex>, we consider <katex>$\\theta \\in [0, \\pi/4]$</katex>.",
+    "If <katex>$0 \\le \\theta \\le \\pi/4$</katex>, then <katex>$\\cos(\\pi/4) \\le x \\le \\cos(0)$</katex>.",
+    "So <katex>$\\frac{1}{\\sqrt{2}} \\le x \\le 1$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

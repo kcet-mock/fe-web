@@ -1,0 +1,29 @@
+{
+  "id": "2023-mat-12",
+  "question": [
+    "If <katex>$u=\\sin^{-1}\\left(\\frac{2x}{1+x^{2}}\\right)$</katex> and <katex>$v=\\tan^{-1}\\left(\\frac{2x}{1-x^{2}}\\right)$</katex> then <katex>$\\frac{du}{dv}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1-x^{2}}{1+x^{2}}$</katex>"
+    ],
+    [
+      "<katex>$1$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{2}$</katex>"
+    ],
+    [
+      "<katex>$2$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$u = \\sin^{-1}(\\frac{2x}{1+x^2}) = 2\\tan^{-1}x$</katex>.",
+    "<katex>$v = \\tan^{-1}(\\frac{2x}{1-x^2}) = 2\\tan^{-1}x$</katex>.",
+    "Since <katex>$u = v$</katex>, <katex>$\\frac{du}{dv} = 1$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

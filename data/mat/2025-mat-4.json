@@ -1,0 +1,31 @@
+{
+  "id": "2025-mat-4",
+  "question": [
+    "If <katex>$f(x)=\\sin[\\pi^{2}]x-\\sin[-\\pi^{2}]x$</katex>, where <katex>$[x]$</katex> = greatest integer <katex>$\\le x$</katex>, then which of the following is not true?"
+  ],
+  "choices": [
+    [
+      "<katex>$f(0)=0$</katex>"
+    ],
+    [
+      "<katex>$f(\\frac{\\pi}{2})=1$</katex>"
+    ],
+    [
+      "<katex>$f(\\frac{\\pi}{4})=1+\\frac{1}{\\sqrt{2}}$</katex>"
+    ],
+    [
+      "<katex>$f(\\pi)=-1$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "<katex>$\\pi^2 \\approx 9.86$</katex>, so <katex>$[\\pi^2] = 9$</katex>.",
+    "<katex>$-\\pi^2 \\approx -9.86$</katex>, so <katex>$[-\\pi^2] = -10$</katex>.",
+    "<katex>$f(x) = \\sin(9x) - \\sin(-10x) = \\sin(9x) + \\sin(10x)$</katex>.",
+    "Check option (4): <katex>$f(\\pi) = \\sin(9\\pi) + \\sin(10\\pi) = 0 + 0 = 0$</katex>.",
+    "Option (4) says <katex>$f(\\pi) = -1$</katex>, which is not true."
+  ],
+  "years": [
+    2025
+  ]
+}

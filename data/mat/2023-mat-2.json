@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-2",
+  "question": [
+    "If <katex>$A=\\begin{bmatrix}2-k&2\\\\ 1&3-k\\end{bmatrix}$</katex> is singular matrix, then the value of <katex>$5k-k^{2}$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$-4$</katex>"
+    ],
+    [
+      "<katex>$6$</katex>"
+    ],
+    [
+      "<katex>$4$</katex>"
+    ],
+    [
+      "<katex>$-6$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "For a singular matrix, the determinant is zero.",
+    "<katex>$|A| = (2-k)(3-k) - 2(1) = 0$</katex>",
+    "<katex>$6 - 2k - 3k + k^2 - 2 = 0$</katex>",
+    "<katex>$k^2 - 5k + 4 = 0$</katex>",
+    "We need to find <katex>$5k - k^2$</katex>.",
+    "From the equation, <katex>$k^2 - 5k = -4$</katex>, so <katex>$-(k^2 - 5k) = 4$</katex>, which means <katex>$5k - k^2 = 4$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

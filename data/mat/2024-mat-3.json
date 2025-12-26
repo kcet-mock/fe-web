@@ -1,0 +1,32 @@
+{
+  "id": "2024-mat-3",
+  "question": [
+    "If in two circles, arcs of the same length subtend angles <katex>$30^{\\circ}$</katex> and <katex>$78^{\\circ}$</katex> at the centre, then the ratio of their radii is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{5}{13}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{13}{5}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{13}{4}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{4}{13}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Let the arc length be <katex>$l$</katex>.",
+    "For the first circle: <katex>$l = r_1 \\theta_1$</katex>.",
+    "For the second circle: <katex>$l = r_2 \\theta_2$</katex>.",
+    "Given <katex>$\\theta_1 = 30^{\\circ}$</katex> and <katex>$\\theta_2 = 78^{\\circ}$</katex>.",
+    "<katex>$r_1 \\times 30 = r_2 \\times 78$</katex>.",
+    "<katex>$\\frac{r_1}{r_2} = \\frac{78}{30} = \\frac{13}{5}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

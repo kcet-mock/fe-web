@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-48",
+  "question": [
+    "The value of <katex>$e^{\\log_{10} \\tan 1^{\\circ} + \\log_{10} \\tan 2^{\\circ} + \\log_{10} \\tan 3^{\\circ} + \\dots + \\log_{10} \\tan 89^{\\circ}}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{e}$</katex>"
+    ],
+    [
+      "<katex>$1$</katex>"
+    ],
+    [
+      "<katex>$0$</katex>"
+    ],
+    [
+      "<katex>$3$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Exponent is <katex>$\\log_{10}(\\tan 1^\\circ \\cdot \\tan 2^\\circ \\dots \\tan 89^\\circ)$</katex>.",
+    "<katex>$\\tan 89^\\circ = \\cot 1^\\circ = 1/\\tan 1^\\circ$</katex>. Terms cancel out.",
+    "Product <katex>$P = 1$</katex>.",
+    "Exponent = <katex>$\\log_{10} 1 = 0$</katex>.",
+    "Value = <katex>$e^0 = 1$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2024-mat-23",
+  "question": [
+    "If <katex>$A=(\\begin{matrix}1&1\\\\ 1&1\\end{matrix}),$</katex> then <katex>$A^{10}$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$2^{8}A$</katex>"
+    ],
+    [
+      "<katex>$2^{9}A$</katex>"
+    ],
+    [
+      "<katex>$2^{10}A$</katex>"
+    ],
+    [
+      "<katex>$2^{11}A$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$A^2 = \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} \\begin{pmatrix} 1 & 1 \\\\ 1 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 & 2 \\\\ 2 & 2 \\end{pmatrix} = 2A$</katex>.",
+    "<katex>$A^3 = 2A \\cdot A = 2A^2 = 2(2A) = 2^2 A$</katex>.",
+    "Pattern: <katex>$A^n = 2^{n-1} A$</katex>.",
+    "<katex>$A^{10} = 2^9 A$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

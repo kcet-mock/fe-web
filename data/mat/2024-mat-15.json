@@ -1,0 +1,29 @@
+{
+  "id": "2024-mat-15",
+  "question": [
+    "Let a, b, c, d and e be the observations with mean m and standard deviation S. The standard deviation of the observations <katex>$a+k,$</katex> <katex>$b+k,$</katex> <katex>$c+k$</katex> <katex>$d+k$</katex> and <katex>$e+k$</katex> is"
+  ],
+  "choices": [
+    [
+      "kS"
+    ],
+    [
+      "<katex>$S+k$</katex>"
+    ],
+    [
+      "<katex>$\\frac{s}{k}$</katex>"
+    ],
+    [
+      "S"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Standard deviation is independent of change of origin.",
+    "Adding a constant <katex>$k$</katex> to all observations does not change the dispersion (spread) of the data.",
+    "Therefore, the standard deviation remains <katex>$S$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

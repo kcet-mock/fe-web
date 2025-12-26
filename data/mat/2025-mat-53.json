@@ -1,0 +1,32 @@
+{
+  "id": "2025-mat-53",
+  "question": [
+    "The value of <katex>$\\int_{0}^{2\\pi}\\sqrt{1+\\sin(\\frac{x}{2})}dx$</katex> is"
+  ],
+  "choices": [
+    [
+      "8"
+    ],
+    [
+      "4"
+    ],
+    [
+      "2"
+    ],
+    [
+      "0"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$1+\\sin(x/2) = (\\sin(x/4) + \\cos(x/4))^2$</katex>.",
+    "Integral becomes <katex>$\\int_0^{2\\pi} |\\sin(x/4) + \\cos(x/4)| dx$</katex>.",
+    "Let <katex>$t = x/4$</katex>, <katex>$dx = 4dt$</katex>. Limits 0 to <katex>$\\pi/2$</katex>.",
+    "In <katex>$[0, \\pi/2]$</katex>, sine and cosine are positive, sum is positive.",
+    "<katex>$4 \\int_0^{\\pi/2} (\\sin t + \\cos t) dt = 4 [-\\cos t + \\sin t]_0^{\\pi/2}$</katex>",
+    "<katex>$= 4 [(0+1) - (-1+0)] = 4(2) = 8$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

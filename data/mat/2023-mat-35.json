@@ -1,0 +1,31 @@
+{
+  "id": "2023-mat-35",
+  "question": [
+    "If <katex>$|\\vec{a}\\times\\vec{b}|^{2}+|\\vec{a}\\cdot\\vec{b}|^{2}=144$</katex> and <katex>$|\\vec{a}|=4$</katex> then <katex>$|\\vec{b}|$</katex> is equal to"
+  ],
+  "choices": [
+    [
+      "<katex>$8$</katex>"
+    ],
+    [
+      "<katex>$4$</katex>"
+    ],
+    [
+      "<katex>$12$</katex>"
+    ],
+    [
+      "<katex>$3$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Lagrange's identity: <katex>$|\\vec{a}\\times\\vec{b}|^2 + (\\vec{a}\\cdot\\vec{b})^2 = |\\vec{a}|^2 |\\vec{b}|^2$</katex>.",
+    "<katex>$144 = (4)^2 |\\vec{b}|^2$</katex>.",
+    "<katex>$144 = 16 |\\vec{b}|^2$</katex>.",
+    "<katex>$|\\vec{b}|^2 = 144/16 = 9$</katex>.",
+    "<katex>$|\\vec{b}| = 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

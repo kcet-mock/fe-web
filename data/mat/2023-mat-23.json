@@ -1,0 +1,34 @@
+{
+  "id": "2023-mat-23",
+  "question": [
+    "<katex>$\\int\\frac{1}{1+3\\sin^{2}x+8\\cos^{2}x}dx=$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1}{6}\\tan^{-1}(\\frac{2\\tan x}{3})+C$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{6}\\tan^{-1}(2\\tan x)+C$</katex>"
+    ],
+    [
+      "<katex>$6\\tan^{-1}(\\frac{2\\tan x}{3})+C$</katex>"
+    ],
+    [
+      "<katex>$\\tan^{-1}(\\frac{2\\tan x}{3})+C$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Divide num and den by <katex>$\\cos^2 x$</katex>.",
+    "Numerator becomes <katex>$\\sec^2 x$</katex>.",
+    "Denominator becomes <katex>$\\sec^2 x + 3\\tan^2 x + 8 = (1+\\tan^2 x) + 3\\tan^2 x + 8 = 4\\tan^2 x + 9$</katex>.",
+    "<katex>$\\int \\frac{\\sec^2 x}{4\\tan^2 x + 9} dx$</katex>. Let <katex>$\\tan x = t, \\sec^2 x dx = dt$</katex>.",
+    "<katex>$\\int \\frac{dt}{4t^2 + 9} = \\frac{1}{4} \\int \\frac{dt}{t^2 + (3/2)^2}$</katex>.",
+    "Formula <katex>$\\frac{1}{a} \\tan^{-1}(x/a)$</katex>. Here <katex>$a = 3/2$</katex>.",
+    "<katex>$\\frac{1}{4} \\cdot \\frac{1}{3/2} \\tan^{-1}(\\frac{t}{3/2}) + C = \\frac{1}{4} \\cdot \\frac{2}{3} \\tan^{-1}(\\frac{2t}{3}) + C$</katex>.",
+    "<katex>$\\frac{1}{6} \\tan^{-1}(\\frac{2\\tan x}{3}) + C$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

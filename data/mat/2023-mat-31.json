@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-31",
+  "question": [
+    "The length of perpendicular drawn from the point <katex>$(3,-1,11)$</katex> to the line <katex>$\\frac{x}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\sqrt{33}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{53}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{66}$</katex>"
+    ],
+    [
+      "<katex>$\\sqrt{29}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Point <katex>$P(3, -1, 11)$</katex>. Line passes through <katex>$A(0, 2, 3)$</katex> with direction <katex>$\\vec{b} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$</katex>.",
+    "Vector <katex>$\\vec{AP} = (3-0)\\hat{i} + (-1-2)\\hat{j} + (11-3)\\hat{k} = 3\\hat{i} - 3\\hat{j} + 8\\hat{k}$</katex>.",
+    "Projection of <katex>$\\vec{AP}$</katex> on line = <katex>$\\frac{\\vec{AP} \\cdot \\vec{b}}{|\\vec{b}|} = \\frac{3(2) + (-3)(3) + 8(4)}{\\sqrt{4+9+16}} = \\frac{6-9+32}{\\sqrt{29}} = \\frac{29}{\\sqrt{29}} = \\sqrt{29}$</katex>.",
+    "Length of perpendicular <katex>$d = \\sqrt{|\\vec{AP}|^2 - (\\text{proj})^2}$</katex>.",
+    "<katex>$|\\vec{AP}|^2 = 3^2 + (-3)^2 + 8^2 = 9 + 9 + 64 = 82$</katex>.",
+    "<katex>$d = \\sqrt{82 - 29} = \\sqrt{53}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

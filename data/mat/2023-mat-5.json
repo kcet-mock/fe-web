@@ -1,0 +1,32 @@
+{
+  "id": "2023-mat-5",
+  "question": [
+    "If <katex>$\\sin^{-1}\\left(\\frac{2a}{1+a^{2}}\\right)+\\cos^{-1}\\left(\\frac{1-a^{2}}{1+a^{2}}\\right)=\\tan^{-1}\\left(\\frac{2x}{1-x^{2}}\\right)$</katex> where <katex>$a, x \\in (0,1)$</katex> then the value of <katex>$x$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{2a}{1+a^{2}}$</katex>"
+    ],
+    [
+      "<katex>$\\frac{2a}{1-a^{2}}$</katex>"
+    ],
+    [
+      "<katex>$0$</katex>"
+    ],
+    [
+      "<katex>$\\frac{a}{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "We know <katex>$\\sin^{-1}(\\frac{2a}{1+a^2}) = 2\\tan^{-1}a$</katex>.",
+    "We know <katex>$\\cos^{-1}(\\frac{1-a^2}{1+a^2}) = 2\\tan^{-1}a$</katex>.",
+    "We know <katex>$\\tan^{-1}(\\frac{2x}{1-x^2}) = 2\\tan^{-1}x$</katex>.",
+    "So, <katex>$2\\tan^{-1}a + 2\\tan^{-1}a = 2\\tan^{-1}x \\implies 4\\tan^{-1}a = 2\\tan^{-1}x \\implies 2\\tan^{-1}a = \\tan^{-1}x$</katex>.",
+    "Therefore <katex>$\\tan^{-1}(\\frac{2a}{1-a^2}) = \\tan^{-1}x$</katex>.",
+    "Thus <katex>$x = \\frac{2a}{1-a^2}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-30",
+  "question": [
+    "If <katex>$y=2x^{3x}$</katex> then <katex>$\\frac{dy}{dx}$</katex> at <katex>$x=1$</katex> is"
+  ],
+  "choices": [
+    [
+      "2"
+    ],
+    [
+      "6"
+    ],
+    [
+      "3"
+    ],
+    [
+      "1"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Take log: <katex>$\\ln y = \\ln 2 + 3x \\ln x$</katex>.",
+    "Differentiate: <katex>$\\frac{1}{y} y' = 0 + 3(\\ln x + 1)$</katex>.",
+    "At <katex>$x=1$</katex>: <katex>$y = 2(1)^3 = 2$</katex>.",
+    "<katex>$\\frac{y'}{2} = 3(0+1) = 3$</katex>.",
+    "<katex>$y' = 6$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

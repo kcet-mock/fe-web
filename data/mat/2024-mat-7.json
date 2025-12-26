@@ -1,0 +1,31 @@
+{
+  "id": "2024-mat-7",
+  "question": [
+    "The value of <katex>${}^{49}C_{3}+{}^{48}C_{3}+{}^{47}C_{3}+{}^{46}C_{3}+{}^{45}C_{3}+{}^{45}C_{4}$</katex> is"
+  ],
+  "choices": [
+    [
+      "<katex>${}^{50}C_{4}$</katex>"
+    ],
+    [
+      "<katex>${}^{50}C_{3}$</katex>"
+    ],
+    [
+      "<katex>${}^{50}C_{2}$</katex>"
+    ],
+    [
+      "<katex>${}^{50}C_{1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Using the identity <katex>${}^nC_r + {}^nC_{r-1} = {}^{n+1}C_r$</katex>.",
+    "Combine <katex>${}^{45}C_3 + {}^{45}C_4 = {}^{46}C_4$</katex>.",
+    "Then <katex>${}^{46}C_3 + {}^{46}C_4 = {}^{47}C_4$</katex>.",
+    "Continuing this process up to the last term:",
+    "<katex>${}^{49}C_3 + {}^{49}C_4 = {}^{50}C_4$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

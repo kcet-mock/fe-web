@@ -1,0 +1,29 @@
+{
+  "id": "2023-mat-51",
+  "question": [
+    "If <katex>$\\lim_{x\\rightarrow0}\\frac{\\sin(2+x)-\\sin(2-x)}{x}=A \\cos B$</katex>, then the values of <katex>$A$</katex> and <katex>$B$</katex> respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$2, 1$</katex>"
+    ],
+    [
+      "<katex>$1, 1$</katex>"
+    ],
+    [
+      "<katex>$2, 2$</katex>"
+    ],
+    [
+      "<katex>$1, 2$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Apply L'Hospital's rule or expansion.",
+    "<katex>$\\lim \\frac{\\cos(2+x) - \\cos(2-x)(-1)}{1} = \\cos 2 + \\cos 2 = 2\\cos 2$</katex>.",
+    "Given <katex>$A \\cos B$</katex>. <katex>$A=2, B=2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}
