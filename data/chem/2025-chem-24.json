@@ -1,26 +1,26 @@
 {
   "id": "2025-chem-24",
   "question": [
-    "The organometallic compound <katex>$(CH_{3})_3CMgBr$</katex> on reaction with <katex>$D_{2}O$</katex> produces"
+    "The organometallic compound <katex>$(\\text{CH}_3)_3\\text{CMgBr}$</katex> on reaction with <katex>$\\text{D}_2\\text{O}$</katex> produces"
   ],
   "choices": [
     [
-      "<katex>$(CH_{3})_{3}COD$</katex>"
+      "<katex>$(\\text{CH}_3)_3\\text{COD}$</katex>"
     ],
     [
-      "<katex>$(CD_{3})_{3}CD$</katex>"
+      "<katex>$(\\text{CD}_3)_3\\text{CD}$</katex>"
     ],
     [
-      "<katex>$(CD_{3})_{3}COD$</katex>"
+      "<katex>$(\\text{CD}_3)_3\\text{COD}$</katex>"
     ],
     [
-      "<katex>$(CH_{3})_{3}CD$</katex>"
+      "<katex>$(\\text{CH}_3)_3\\text{CD}$</katex>"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Grignard reagents (<katex>$R-MgX$</katex>) react with water (or <katex>$D_2O$</katex>) to form hydrocarbons.",
-    "<katex>$(CH_{3})_3C-MgBr + D_2O \\rightarrow (CH_{3})_3C-D + Mg(OD)Br$</katex>."
+    "Grignard reagents react with active hydrogen sources (like water) to form hydrocarbons.",
+    "<katex>$(\\text{CH}_3)_3\\text{C}^- \\text{MgBr}^+ + \\text{D}_2\\text{O} \\rightarrow (\\text{CH}_3)_3\\text{CD} + \\text{Mg(OD)Br}$</katex>"
   ],
   "years": [
     2025

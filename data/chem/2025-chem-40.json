@@ -5,23 +5,23 @@
   ],
   "choices": [
     [
-      "<katex>$CaCO_{3}(s) \\longrightarrow CaO(s)+CO_{2}(g)$</katex>"
+      "<katex>$\\text{CaCO}_3(s) \\longrightarrow \\text{CaO}(s) + \\text{CO}_2(g)$</katex>"
     ],
     [
-      "<katex>$C_{6}H_{6}(l)+\\frac{15}{2}O_{2}(g) \\longrightarrow 6CO_{2}(g)+3H_{2}O(l)$</katex>"
+      "<katex>$\\text{C}_6\\text{H}_6(l) + \\frac{15}{2}\\text{O}_2(g) \\longrightarrow 6\\text{CO}_2(g) + 3\\text{H}_2\\text{O}(l)$</katex>"
     ],
     [
-      "<katex>$2HI(g) \\rightleftharpoons H_{2}(g)+I_{2}(g)$</katex>"
+      "<katex>$2\\text{HI}(g) \\rightleftharpoons \\text{H}_2(g) + \\text{I}_2(g)$</katex>"
     ],
     [
-      "<katex>$N_{2}(g)+3H_{2}(g) \\rightleftharpoons 2NH_{3}$</katex> (g)"
+      "<katex>$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$</katex>"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
     "<katex>$\\Delta H = \\Delta U + \\Delta n_g RT$</katex>.",
-    "For <katex>$\\Delta H = \\Delta U$</katex>, <katex>$\\Delta n_g$</katex> must be 0.",
-    "For <katex>$2HI(g) \\rightarrow H_2(g) + I_2(g)$</katex>, <katex>$\\Delta n_g = 2 - 2 = 0$</katex>."
+    "For <katex>$\\Delta H = \\Delta U$</katex>, <katex>$\\Delta n_g$</katex> must be zero.",
+    "For <katex>$2\\text{HI}(g) \\rightleftharpoons \\text{H}_2(g) + \\text{I}_2(g)$</katex>, <katex>$\\Delta n_g = (1+1) - 2 = 0$</katex>."
   ],
   "years": [
     2025

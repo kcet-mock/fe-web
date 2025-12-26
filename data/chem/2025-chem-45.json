@@ -19,9 +19,12 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Boiling point elevation <katex>$\\Delta T_b \\propto i$</katex>.",
-    "<katex>$AlCl_3$</katex> (i=4), <katex>$Al_2(SO_4)_3$</katex> (i=5), <katex>$K_2SO_4$</katex> (i=3), NaCl (i=2).",
-    "NaCl has the lowest 'i' value, so lowest elevation."
+    "Boiling point elevation <katex>$\\Delta T_b \\propto i$</katex> (Van't Hoff factor).",
+    "<katex>$\\text{AlCl}_3$</katex>: i=4",
+    "<katex>$\\text{Al}_2(\\text{SO}_4)_3$</katex>: i=5",
+    "<katex>$\\text{K}_2\\text{SO}_4$</katex>: i=3",
+    "<katex>$\\text{NaCl}$</katex>: i=2",
+    "NaCl has the lowest i, thus lowest boiling point elevation."
   ],
   "years": [
     2025

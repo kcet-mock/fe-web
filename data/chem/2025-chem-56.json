@@ -1,7 +1,7 @@
 {
   "id": "2025-chem-56",
   "question": [
-    "For the reaction <katex>$2N_{2}O_{5(g)} \\rightarrow 4NO_{2(g)}+O_{2(g)}$</katex> initial concentration of <katex>$N_{2}O_{5}$</katex> is <katex>$2.0 mol L^{-1}$</katex> and after 300 min, it is reduced to <katex>$1.4 mol L^{-1}$</katex>. The rate of production of <katex>$NO_{2}$</katex> (in <katex>$mol L^{-1} min^{-1}$</katex>) is"
+    "For the reaction <katex>$2\\text{N}_2\\text{O}_{5(g)} \\rightarrow 4\\text{NO}_{2(g)} + \\text{O}_{2(g)}$</katex> initial concentration of <katex>$\\text{N}_2\\text{O}_5$</katex> is <katex>$2.0 \\text{mol L}^{-1}$</katex> and after 300 min, it is reduced to <katex>$1.4 \\text{mol L}^{-1}$</katex>. The rate of production of <katex>$\\text{NO}_2$</katex> (in <katex>$\\text{mol L}^{-1}\\text{min}^{-1}$</katex>) is"
   ],
   "choices": [
     [
@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Rate of disappearance of <katex>$N_2O_5 = -\\frac{\\Delta [N_2O_5]}{\\Delta t} = \\frac{2.0 - 1.4}{300} = \\frac{0.6}{300} = 2 \\times 10^{-3}$</katex>.",
-    "Rate of production of <katex>$NO_2$</katex> is 2 times rate of <katex>$N_2O_5$</katex> (stoichiometry 4 vs 2).",
-    "Rate = <katex>$2 \\times 2 \\times 10^{-3} = 4 \\times 10^{-3}$</katex>."
+    "Rate of disappearance of <katex>$\\text{N}_2\\text{O}_5 = -\\Delta[\\text{N}_2\\text{O}_5]/\\Delta t = -(1.4 - 2.0)/300 = 0.6/300 = 2 \\times 10^{-3}$</katex>.",
+    "Rate of reaction = <katex>$\\frac{1}{2} \\times \\text{Rate}(\\text{N}_2\\text{O}_5) = \\frac{1}{4} \\times \\text{Rate}(\\text{NO}_2)$</katex>.",
+    "Rate production of <katex>$\\text{NO}_2 = 2 \\times \\text{Rate disappearance of } \\text{N}_2\\text{O}_5 = 2 \\times (2 \\times 10^{-3}) = 4 \\times 10^{-3}$</katex>."
   ],
   "years": [
     2025

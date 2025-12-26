@@ -8,7 +8,7 @@
       "Acetic anhydride"
     ],
     [
-      "<katex>$Br_{2}$</katex> water"
+      "<katex>$\\text{Br}_2$</katex> water"
     ],
     [
       "Conc. Hydrochloric acid and anhydrous zinc chloride"
@@ -19,9 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Chloroform and alcoholic KOH are used in the Carbylamine test.",
-    "Only primary amines (Aniline) give a positive Carbylamine test (foul smell).",
-    "Secondary amines (N-methylaniline) do not react."
+    "Chloroform and alcoholic KOH (Carbylamine test) is answered only by primary amines (Aniline). Secondary amines (N-methylaniline) do not give this test."
   ],
   "years": [
     2025

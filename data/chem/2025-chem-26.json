@@ -5,22 +5,22 @@
   ],
   "choices": [
     [
-      "<katex>$C_{2}H_{5}-O-C_{2}H_{5}$</katex>"
+      "<katex>$\\text{C}_2\\text{H}_5-\\text{O}-\\text{C}_2\\text{H}_5$</katex>"
     ],
     [
-      "<katex>$CH_{3}-O-C_{3}H_{7}$</katex>"
+      "<katex>$\\text{CH}_3-\\text{O}-\\text{C}_3\\text{H}_7$</katex>"
     ],
     [
-      "<katex>$CH_{2}=CH_{2}$</katex>"
+      "<katex>$\\text{CH}_2=\\text{CH}_2$</katex>"
     ],
     [
-      "<katex>$CH_{3}COOC_{2}H_{5}$</katex>"
+      "<katex>$\\text{CH}_3\\text{COOC}_2\\text{H}_5$</katex>"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "At 413 K, dehydration of ethanol with conc. <katex>$H_2SO_4$</katex> yields Diethyl ether (<katex>$C_{2}H_{5}-O-C_{2}H_{5}$</katex>).",
-    "At higher temperatures (443 K), it would yield ethene."
+    "At 413 K (140°C), dehydration of ethanol with conc. <katex>$\\text{H}_2\\text{SO}_4$</katex> yields Diethyl ether (<katex>$\\text{C}_2\\text{H}_5\\text{OC}_2\\text{H}_5$</katex>).",
+    "At 443 K (170°C), it would yield Ethene."
   ],
   "years": [
     2025

@@ -1,8 +1,7 @@
 {
   "id": "2025-chem-48",
   "question": [
-    "If <katex>$N_{2}$</katex> gas is bubbled through water at 293 K, how many moles of <katex>$N_{2}$</katex> gas would dissolve in 1 litre of water? Assume that <katex>$N_{2}$</katex> exerts a partial pressure of 0.987 bar.",
-    "[Given <katex>$K_{H}$</katex> for <katex>$N_{2}$</katex> at 293 K is 76.48 kbar]"
+    "If <katex>$\\text{N}_2$</katex> gas is bubbled through water at 293 K, how many moles of <katex>$\\text{N}_2$</katex> gas would dissolve in 1 litre of water? Assume that <katex>$\\text{N}_2$</katex> exerts a partial pressure of 0.987 bar. [Given <katex>$K_H$</katex> for <katex>$\\text{N}_2$</katex> at 293 K is 76.48 kbar]"
   ],
   "choices": [
     [
@@ -20,10 +19,11 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Henry's Law: <katex>$P = K_H x$</katex>.",
-    "<katex>$x = P / K_H = 0.987 / (76480) = 1.29 \\times 10^{-5}$</katex>.",
-    "For 1L water (55.5 mol), <katex>$n_{N2} \\approx x \\times 55.5$</katex>.",
-    "<katex>$n_{N2} = 1.29 \\times 10^{-5} \\times 55.5 = 7.16 \\times 10^{-4}$</katex> mol."
+    "Henry's Law: <katex>$P = K_H \\cdot x$</katex>.",
+    "<katex>$0.987 = 76480 \\times x$</katex> (converting kbar to bar).",
+    "<katex>$x = 1.29 \\times 10^{-5}$</katex>.",
+    "Moles of water in 1L = 55.5 mol.",
+    "Moles of <katex>$\\text{N}_2 \\approx x \\times 55.5 = 1.29 \\times 10^{-5} \\times 55.5 \\approx 7.16 \\times 10^{-4}$</katex>."
   ],
   "years": [
     2025

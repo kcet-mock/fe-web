@@ -1,28 +1,28 @@
 {
   "id": "2025-chem-29",
   "question": [
-    "<katex>$CH_{3}-C(CH_3)_2-O-CH_{3} + HI \\rightarrow A + B$</katex>",
+    "Reaction: <katex>$\\text{CH}_3-\\text{C}(\\text{CH}_3)_2-\\text{O}-\\text{CH}_3 + \\text{HI} \\rightarrow A + B$</katex>",
     "A and B respectively are"
   ],
   "choices": [
     [
-      "<katex>$A = CH_{3}OH, B = (CH_{3})_{3}C-OH$</katex>"
+      "<katex>$A=\\text{CH}_3\\text{OH}, B=\\text{tert-Butyl alcohol}$</katex>"
     ],
     [
-      "<katex>$A = CH_{3}-I, B = (CH_{3})_{3}C-OH$</katex>"
+      "<katex>$A=\\text{CH}_3\\text{I}, B=\\text{tert-Butyl alcohol}$</katex>"
     ],
     [
-      "<katex>$A = CH_{3}OH, B = (CH_{3})_{3}C-I$</katex>"
+      "<katex>$A=\\text{CH}_3\\text{OH}, B=\\text{tert-Butyl iodide}$</katex>"
     ],
     [
-      "<katex>$A = CH_{3}-I, B = (CH_{3})_{3}C-I$</katex>"
+      "<katex>$A=\\text{CH}_3\\text{I}, B=\\text{tert-Butyl iodide}$</katex>"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "The reaction proceeds via <katex>$S_N1$</katex> mechanism because a stable tertiary carbocation can be formed.",
-    "The bond breaks to form the tertiary butyl carbocation, which reacts with <katex>$I^-$</katex>.",
-    "Products are <katex>$(CH_3)_3C-I$</katex> and <katex>$CH_3OH$</katex>."
+    "Reaction of tert-alkyl ethers with HI follows SN1 mechanism.",
+    "The stable tert-butyl carbocation is formed, which reacts with iodide.",
+    "Products are tert-Butyl iodide and Methyl alcohol."
   ],
   "years": [
     2025

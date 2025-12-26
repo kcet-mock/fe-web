@@ -23,10 +23,11 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "(a) Correct: Conventional current flows cathode (+) to anode (-). Electrons flow anode to cathode.",
-    "(b) Incorrect: Anode is negative.",
-    "(c) Incorrect: <katex>$E_{cell}$</katex> must be positive for spontaneity.",
-    "(d) Correct: Cathode is positive."
+    "In a Galvanic cell:",
+    "(a) Electrons flow anode to cathode, so conventional current flows cathode to anode. (True)",
+    "(b) Anode is the negative terminal. (False)",
+    "(c) Spontaneous reactions have <katex>$E_{cell} > 0$</katex>. (False)",
+    "(d) Cathode is the positive terminal. (True)"
   ],
   "years": [
     2025

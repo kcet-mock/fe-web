@@ -1,13 +1,8 @@
 {
   "id": "2025-chem-52",
   "question": [
-    "Match the following quantity of electricity required to deposit various metals:",
-    "| List-I | List-II |",
-    "|---|---|",
-    "| a. <katex>$Ag^{+}$</katex> | i. <katex>$386000 C mol^{-1}$</katex> |",
-    "| b. <katex>$Mg^{2+}$</katex> | ii. <katex>$289500 C mol^{-1}$</katex> |",
-    "| c. <katex>$Al^{3+}$</katex> | iii. <katex>$96500 C mol^{-1}$</katex> |",
-    "| d. <katex>$Ti^{4+}$</katex> | iv. <katex>$193000 C mol^{-1}$</katex> |"
+    "Match the following select the correct option for the quantity of electricity, in <katex>$\\text{C mol}^{-1}$</katex> required to deposit various metals at cathode.",
+    "| List-I | List-II |\n|---|---|\n| a. <katex>$\\text{Ag}^+$</katex> | i. 386000 |\n| b. <katex>$\\text{Mg}^{2+}$</katex> | ii. 289500 |\n| c. <katex>$\\text{Al}^{3+}$</katex> | iii. 96500 |\n| d. <katex>$\\text{Ti}^{4+}$</katex> | iv. 193000 |"
   ],
   "choices": [
     [
@@ -25,10 +20,10 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "<katex>$Ag^+$</katex> (1e-): 1F = 96500 C (iii)",
-    "<katex>$Mg^{2+}$</katex> (2e-): 2F = 193000 C (iv)",
-    "<katex>$Al^{3+}$</katex> (3e-): 3F = 289500 C (ii)",
-    "<katex>$Ti^{4+}$</katex> (4e-): 4F = 386000 C (i)"
+    "<katex>$\\text{Ag}^+ + 1e^- \\rightarrow \\text{Ag}$</katex> (1F = 96500 C)",
+    "<katex>$\\text{Mg}^{2+} + 2e^- \\rightarrow \\text{Mg}$</katex> (2F = 193000 C)",
+    "<katex>$\\text{Al}^{3+} + 3e^- \\rightarrow \\text{Al}$</katex> (3F = 289500 C)",
+    "<katex>$\\text{Ti}^{4+} + 4e^- \\rightarrow \\text{Ti}$</katex> (4F = 386000 C)"
   ],
   "years": [
     2025

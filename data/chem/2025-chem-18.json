@@ -11,15 +11,15 @@
       "increases the solubility of AgCl"
     ],
     [
-      "increases the concentration of <katex>$NO_{3}^{-}$</katex> ion"
+      "increases the concentration of <katex>$\\text{NO}_3^-$</katex> ion"
     ],
     [
-      "decomposes <katex>$Na_{2}S$</katex> and NaCN, if formed"
+      "decomposes <katex>$\\text{Na}_2\\text{S}$</katex> and NaCN, if formed"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Boiling with conc. <katex>$HNO_3$</katex> decomposes any Cyanide (<katex>$NaCN$</katex>) or Sulphide (<katex>$Na_2S$</katex>) salts present, which would otherwise interfere with the Silver Nitrate test for halogens."
+    "Boiling with conc. <katex>$\\text{HNO}_3$</katex> decomposes sulphides (<katex>$\\text{Na}_2\\text{S}$</katex>) and cyanides (NaCN) which would otherwise interfere with the silver nitrate test for halogens."
   ],
   "years": [
     2025

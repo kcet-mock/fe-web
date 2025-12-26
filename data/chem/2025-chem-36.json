@@ -2,12 +2,7 @@
   "id": "2025-chem-36",
   "question": [
     "Match the compounds given in List - I with the items given in List - II.",
-    "| List - I | List - II |",
-    "|---|---|",
-    "| (I) Benzenesulphonyl Chloride | (a) Zwitterion |",
-    "| (II) Sulphanilic acid | (b) Hinsberg reagent |",
-    "| (III) Alkyl Diazonium salts | (c) Dyes |",
-    "| (IV) Aryl Diazonium salts | (d) Conversion to alcohols |"
+    "| List - I | List - II |\n|---|---|\n| I. Benzenesulphonyl Chloride | a. Zwitterion |\n| II. Sulphanilic acid | b. Hinsberg reagent |\n| III. Alkyl Diazonium salts | c. Dyes |\n| IV. Aryl Diazonium salts | d. Conversion to alcohols |"
   ],
   "choices": [
     [
@@ -25,10 +20,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Benzenesulphonyl Chloride is Hinsberg reagent (I-b).",
-    "Sulphanilic acid exists as a Zwitterion (II-a).",
-    "Alkyl Diazonium salts are unstable and convert to alcohols (III-d).",
-    "Aryl Diazonium salts undergo coupling to form Dyes (IV-c)."
+    "Benzenesulphonyl Chloride is Hinsberg reagent (b).",
+    "Sulphanilic acid exists as Zwitterion (a).",
+    "Alkyl Diazonium salts are unstable and convert to alcohols (d).",
+    "Aryl Diazonium salts are used to make Dyes (c)."
   ],
   "years": [
     2025

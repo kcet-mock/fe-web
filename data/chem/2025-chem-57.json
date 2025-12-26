@@ -21,7 +21,7 @@
   "explanation": [
     "Mole fraction is a ratio of moles (unitless).",
     "Mass percent is a ratio of masses (unitless).",
-    "Molality is mol/kg. Molarity is mol/L."
+    "Molality (mol/kg) and Molarity (mol/L) have units."
   ],
   "years": [
     2025

@@ -3,10 +3,10 @@
   "question": [
     "Identify the incorrect statements among the following:",
     "(a) All enthalpies of fusion are positive",
-    "(b) The magnitude of enthalpy change does not depend on the strength of the intermolecular interactions",
-    "(c) When a chemical reaction is reversed, the value of <katex>$\\Delta rH^{\\circ}$</katex> is reversed in sign.",
-    "(d) The change in enthalpy is dependent of path between initial state (reactants) and final state",
-    "(e) For most of the ionic compounds, <katex>$\\Delta_{sol}H^{\\circ}$</katex> is negative"
+    "(b) The magnitude of enthalpy change does not depend on the strength of the intermolecular interactions in the substance undergoing phase transformations.",
+    "(c) When a chemical reaction is reversed, the value of <katex>$\\Delta_r H^\\circ$</katex> is reversed in sign.",
+    "(d) The change in enthalpy is dependent of path between initial state (reactants) and final state (products)",
+    "(e) For most of the ionic compounds, <katex>$\\Delta_{sol} H^\\circ$</katex> is negative"
   ],
   "choices": [
     [
@@ -24,9 +24,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "(b) is incorrect; enthalpy depends on intermolecular forces.",
-    "(d) is incorrect; enthalpy is a state function, independent of path.",
-    "(e) is incorrect; dissolution of many ionic solids is endothermic (<katex>$\\Delta H > 0$</katex>)."
+    "(b) is incorrect: Enthalpy change depends on intermolecular forces.",
+    "(d) is incorrect: Enthalpy is a state function, independent of path.",
+    "(e) is incorrect: For many ionic compounds, dissolution is endothermic (positive), though for some it is exothermic. The generalization that it is negative 'for most' is often considered incorrect in this context compared to hydration energy logic."
   ],
   "years": [
     2025

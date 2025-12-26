@@ -1,27 +1,27 @@
 {
   "id": "2025-chem-4",
   "question": [
-    "In the following pairs, the one in which both transition metal ions are colourless is"
+    "In the following pairs, the one in which both transition metal ions are colourless is:"
   ],
   "choices": [
     [
-      "<katex>$Sc^{3+}, Zn^{2+}$</katex>"
+      "<katex>$\\text{Sc}^{3+}, \\text{Zn}^{2+}$</katex>"
     ],
     [
-      "<katex>$V^{2+}, Ti^{3+}$</katex>"
+      "<katex>$\\text{V}^{2+}, \\text{Ti}^{3+}$</katex>"
     ],
     [
-      "<katex>$Zn^{2+}, Mn^{2+}$</katex>"
+      "<katex>$\\text{Zn}^{2+}, \\text{Mn}^{2+}$</katex>"
     ],
     [
-      "<katex>$Ti^{4+}, Cu^{2+}$</katex>"
+      "<katex>$\\text{Ti}^{4+}, \\text{Cu}^{2+}$</katex>"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Ions with <katex>$d^0$</katex> and <katex>$d^{10}$</katex> configurations do not show d-d transitions and are colourless.",
-    "<katex>$Sc^{3+}$</katex>: <katex>$[Ar]3d^{0}4s^{0}$</katex>",
-    "<katex>$Zn^{2+}$</katex>: <katex>$[Ar]3d^{10}4s^{0}$</katex>"
+    "Ions with <katex>$d^0$</katex> and <katex>$d^{10}$</katex> configurations do not show d-d transitions, hence they are colorless.",
+    "<katex>$\\text{Sc}^{3+}: [Ar]3d^0 4s^0$</katex>",
+    "<katex>$\\text{Zn}^{2+}: [Ar]3d^{10} 4s^0$</katex>"
   ],
   "years": [
     2025

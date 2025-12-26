@@ -2,12 +2,7 @@
   "id": "2025-chem-1",
   "question": [
     "Match List-I with List-II and select the correct option:",
-    "| List-I (Molecule / ion) | List-II (Bond order) |",
-    "|---|---|",
-    "| a. NO | i. 1.5 |",
-    "| b. CO | ii. 2.0 |",
-    "| c. <katex>$O_{2}^{-}$</katex> | iii. 2.5 |",
-    "| d. <katex>$O_{2}$</katex> | iv. 3.0 |"
+    "| List-I (Molecule / ion) | List-II (Bond order) |\n|---|---|\n| a. <katex>$\\text{NO}$</katex> | i. 1.5 |\n| b. <katex>$\\text{CO}$</katex> | ii. 2.0 |\n| c. <katex>$\\text{O}_2^-$</katex> | iii. 2.5 |\n| d. <katex>$\\text{O}_2$</katex> | iv. 3.0 |"
   ],
   "choices": [
     [
@@ -25,12 +20,11 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Bond order is calculated as <katex>$\\frac{1}{2}(N_b - N_a)$</katex>.",
-    "For NO: <katex>$(8-3)/2 = 2.5$</katex> (iii)",
-    "For CO: <katex>$(10-4)/2 = 3.0$</katex> (iv)",
-    "For <katex>$O_{2}^{-}$</katex>: <katex>$(6-3)/2 = 1.5$</katex> (i)",
-    "For <katex>$O_{2}$</katex>: <katex>$(6-2)/2 = 2.0$</katex> (ii)",
-    "Correct match is a-iii, b-iv, c-i, d-ii."
+    "Bond order = <katex>$\\frac{1}{2}[N_b - N_a]$</katex>",
+    "For <katex>$\\text{NO}$</katex>: <katex>$\\text{BO} = (8-3)/2 = 2.5$</katex>",
+    "For <katex>$\\text{CO}$</katex>: <katex>$\\text{BO} = (10-4)/2 = 3.0$</katex>",
+    "For <katex>$\\text{O}_2^-$</katex>: <katex>$\\text{BO} = (10-7)/2 = 1.5$</katex>",
+    "For <katex>$\\text{O}_2$</katex>: <katex>$\\text{BO} = (10-6)/2 = 2.0$</katex>"
   ],
   "years": [
     2025

@@ -6,9 +6,6 @@
   ],
   "choices": [
     [
-      "images/2025-chem-19-1.png"
-    ],
-    [
       "images/2025-chem-19-2.png"
     ],
     [
@@ -16,11 +13,14 @@
     ],
     [
       "images/2025-chem-19-4.png"
+    ],
+    [
+      "images/2025-chem-19-5.png"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The first structure (Cyclobutadiene derivative) is antiaromatic as it has <katex>$4\\pi$</katex> electrons."
+    "The first compound is antiaromatic as it has <katex>$4n \\pi$</katex> electrons (where n=1), violating Hückel's rule for aromaticity (<katex>$(4n+2)\\pi$</katex> electrons)."
   ],
   "years": [
     2025

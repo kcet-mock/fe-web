@@ -1,18 +1,8 @@
 {
   "id": "2025-chem-59",
   "question": [
-    "Given below and the atomic masses of the elements:",
-    "| Element | Atomic Mass |",
-    "|---|---|",
-    "| Li | 7 |",
-    "| Na | 23 |",
-    "| K | 39 |",
-    "| Cl | 35.5 |",
-    "| Ca | 40 |",
-    "| Br | 80 |",
-    "| Sr | 88 |",
-    "| I | 127 |",
-    "| Ba | 137 |",
+    "Given below are the atomic masses of the elements:",
+    "Li (7), Na (23), K (39), Ca (40), Cl (35.5), Br (80), Sr (88), I (127), Ba (137)",
     "Which of the following doesn't form triad?"
   ],
   "choices": [
@@ -31,8 +21,11 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Dobereiner's triads consist of chemically similar elements.",
-    "Cl (Non-metal), K (Alkali metal), Ca (Alkaline earth) are chemically different and do not form a triad."
+    "Dobereiner's triads consist of elements with similar chemical properties where the middle element's mass is the average of the others.",
+    "Li, Na, K is a triad.",
+    "Ca, Sr, Ba is a triad.",
+    "Cl, Br, I is a triad.",
+    "Cl (Non-metal), K (Metal), Ca (Metal) do not form a triad chemically."
   ],
   "years": [
     2025

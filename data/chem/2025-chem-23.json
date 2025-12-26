@@ -1,8 +1,7 @@
 {
   "id": "2025-chem-23",
   "question": [
-    "Chlorobenzene reacts with bromine gas in the presence of Anhyd <katex>$AlBr_{3}$</katex> to yield p-Bromochlorobenzene.",
-    "This reaction is classified as"
+    "Chlorobenzene reacts with bromine gas in the presence of Anhyd <katex>$\\text{AlBr}_3$</katex> to yield p-Bromochlorobenzene. This reaction is classified as"
   ],
   "choices": [
     [
@@ -20,9 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "The reaction involves the generation of <katex>$Br^{+}$</katex> electrophile.",
-    "The electrophile substitutes a hydrogen atom on the benzene ring.",
-    "Hence, it is an Electrophilic substitution reaction."
+    "Halogenation of benzene derivatives is an electrophilic substitution reaction where the electrophile (<katex>$\\text{Br}^+$</katex>) replaces a hydrogen atom on the ring."
   ],
   "years": [
     2025

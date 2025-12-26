@@ -1,26 +1,25 @@
 {
   "id": "2025-chem-16",
   "question": [
-    "The group reagent <katex>$NH_{4}Cl(s)$</katex> and aqueous <katex>$NH_{3}$</katex> will precipitate which of the following ion?"
+    "The group reagent <katex>$\\text{NH}_4\\text{Cl}(s)$</katex> and aqueous <katex>$\\text{NH}_3$</katex> will precipitate which of the following ion?"
   ],
   "choices": [
     [
-      "<katex>$NH_{4}^{+}$</katex>"
+      "<katex>$\\text{NH}_4^+$</katex>"
     ],
     [
-      "<katex>$Al^{3+}$</katex>"
+      "<katex>$\\text{Al}^{3+}$</katex>"
     ],
     [
-      "<katex>$Ba^{2+}$</katex>"
+      "<katex>$\\text{Ba}^{2+}$</katex>"
     ],
     [
-      "<katex>$Ca^{2+}$</katex>"
+      "<katex>$\\text{Ca}^{2+}$</katex>"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "This reagent combination is used for Group III cations.",
-    "It precipitates <katex>$Al^{3+}$</katex>, <katex>$Fe^{3+}$</katex>, and <katex>$Cr^{3+}$</katex> as their hydroxides."
+    "<katex>$\\text{NH}_4\\text{Cl}$</katex> and <katex>$\\text{NH}_4\\text{OH}$</katex> are group reagents for Group III cations, which include <katex>$\\text{Al}^{3+}, \\text{Fe}^{3+}, \\text{Cr}^{3+}$</katex>."
   ],
   "years": [
     2025

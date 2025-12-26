@@ -2,31 +2,30 @@
   "id": "2025-chem-2",
   "question": [
     "The electronic configuration of X and Y are given below:",
-    "X: <katex>$1s^{2}2s^{2}2p^{6}3s^{2}3p^{3}$</katex>",
-    "Y: <katex>$1s^{2}2s^{2}2p^{6}3s^{2}3p^{5}$</katex>",
+    "X: <katex>$1s^2 2s^2 2p^6 3s^2 3p^3$</katex>",
+    "Y: <katex>$1s^2 2s^2 2p^6 3s^2 3p^5$</katex>",
     "Which of the following is the correct molecular formula and type of bond formed between X and Y?"
   ],
   "choices": [
     [
-      "<katex>$X_{3}Y$</katex>, ionic bond"
+      "<katex>$X_3Y$</katex>, ionic bond"
     ],
     [
-      "<katex>$X_{2}Y_{3}$</katex>, coordinate bond"
+      "<katex>$X_2Y_3$</katex>, coordinate bond"
     ],
     [
-      "<katex>$XY_{3}$</katex>, covalent bond"
+      "<katex>$XY_3$</katex>, covalent bond"
     ],
     [
-      "<katex>$X_{2}Y$</katex>, covalent bond"
+      "<katex>$X_2Y$</katex>, covalent bond"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "X is Phosphorus (P) with valency 3 or 5.",
-    "Y is Chlorine (Cl) with valency 1.",
-    "Possible molecules are <katex>$PCl_{3}$</katex> or <katex>$PCl_{5}$</katex>.",
-    "The bond formed between two non-metals is covalent.",
-    "Therefore, <katex>$XY_{3}$</katex> with a covalent bond is correct."
+    "X corresponds to Phosphorus (P, Z=15) with valency 3 or 5.",
+    "Y corresponds to Chlorine (Cl, Z=17) with valency 1.",
+    "Possible molecules are <katex>$PCl_3$</katex> or <katex>$PCl_5$</katex>.",
+    "Both form covalent bonds."
   ],
   "years": [
     2025

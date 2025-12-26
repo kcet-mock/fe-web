@@ -1,7 +1,7 @@
 {
   "id": "2025-chem-22",
   "question": [
-    "The organic compound shown below can be classified as:",
+    "The organic compound can be classified as",
     "images/2025-chem-22-1.png"
   ],
   "choices": [
@@ -20,8 +20,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The halogen is attached to a carbon atom next to the benzene ring.",
-    "This is a benzylic position, hence it is a Benzyl halide."
+    "The halogen is attached to a carbon atom next to a benzene ring (benzylic position), making it a benzyl halide."
   ],
   "years": [
     2025

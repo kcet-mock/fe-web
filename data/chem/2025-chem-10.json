@@ -5,21 +5,21 @@
   ],
   "choices": [
     [
-      "<katex>$K_{3}[Cr(C_{2}O_{4})_{3}]$</katex>, Potassium trioxalatochromate (III)"
+      "<katex>$K_3[Cr(C_2O_4)_3]$</katex>, Potassium trioxalatochromate (III)"
     ],
     [
-      "<katex>$[CoCl_{2}(en)_{2}]Cl$</katex>, Dichloridobis (ethane - 1,2 - dimine) cobalt (III) chloride"
+      "<katex>$[CoCl_2(en)_2]Cl$</katex>, Dichloridobis (ethane - 1,2 - diamine) cobalt (III) chloride"
     ],
     [
-      "<katex>$[Co(NH_{3})_{5}(CO_{3})]Cl$</katex>, Pentaamine carbonylcobalt (III) chloride"
+      "<katex>$[Co(NH_3)_5(CO_3)]Cl$</katex>, Pentaamine carbonylcobalt (III) chloride"
     ],
     [
-      "<katex>$[Pt(NH_{3})_{2}Cl(NO_{2})]$</katex> Diamine chloridonitrito - N - Platinum (II)"
+      "<katex>$[Pt(NH_3)_2Cl(NO_2)]$</katex> Diamine chloridonitrito - N - Platinum (II)"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "For <katex>$[Co(NH_{3})_{5}(CO_{3})]Cl$</katex>, the correct name involves the 'carbonato' ligand, not 'carbonyl'. Carbonyl refers to CO ligand, while <katex>$CO_3$</katex> is carbonate."
+    "The correct name for <katex>$[Co(NH_3)_5(CO_3)]Cl$</katex> involves the carbonato ligand, not carbonyl. It should be Pentaamminecarbonatocobalt(III) chloride."
   ],
   "years": [
     2025

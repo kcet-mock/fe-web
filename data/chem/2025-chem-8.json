@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Any ligand which has two different donor atoms and only one atom can ligate with the metal at a time is called an ambidentate ligand (e.g., <katex>$NO_2^-$</katex>, <katex>$SCN^-$</katex>)."
+    "An ambidentate ligand has two different donor atoms but only one binds to the metal at a time (e.g., <katex>$\\text{NO}_2^-$</katex>, <katex>$\\text{SCN}^-$</katex>)."
   ],
   "years": [
     2025

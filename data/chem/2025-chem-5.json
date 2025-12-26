@@ -5,23 +5,22 @@
   ],
   "choices": [
     [
-      "<katex>$H_{2}S$</katex> is reduced to S, <katex>$MnO_{4}^{-}$</katex> is oxidised to <katex>$Mn^{2+}$</katex>"
+      "<katex>$\\text{H}_2\\text{S}$</katex> is reduced to S, <katex>$\\text{MnO}_4^-$</katex> is oxidised to <katex>$\\text{Mn}^{2+}$</katex>"
     ],
     [
-      "<katex>$H_{2}S$</katex> is oxidised to <katex>$SO_{2}$</katex>, <katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$MnO_{2}$</katex>"
+      "<katex>$\\text{H}_2\\text{S}$</katex> is oxidised to <katex>$\\text{SO}_2$</katex>, <katex>$\\text{MnO}_4^-$</katex> is reduced to <katex>$\\text{MnO}_2$</katex>"
     ],
     [
-      "<katex>$H_{2}S$</katex> is reduced to <katex>$SO_{2}$</katex>, <katex>$MnO_{4}^{-}$</katex> is oxidised to <katex>$Mn^{2+}$</katex>"
+      "<katex>$\\text{H}_2\\text{S}$</katex> is reduced to <katex>$\\text{SO}_2$</katex>, <katex>$\\text{MnO}_4^-$</katex> is oxidised to <katex>$\\text{Mn}^{2+}$</katex>"
     ],
     [
-      "<katex>$H_{2}S$</katex> is oxidised to S, <katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$Mn^{2+}$</katex>"
+      "<katex>$\\text{H}_2\\text{S}$</katex> is oxidised to S, <katex>$\\text{MnO}_4^-$</katex> is reduced to <katex>$\\text{Mn}^{2+}$</katex>"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "The reaction is: <katex>$H_{2}S + MnO_{4}^{-} + H^{+} \\rightarrow S + Mn^{2+} + H_{2}O$</katex>",
-    "<katex>$H_{2}S$</katex> is oxidised to Sulphur (S).",
-    "<katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$Mn^{2+}$</katex>."
+    "Reaction: <katex>$\\text{H}_2\\text{S} + \\text{MnO}_4^- + \\text{H}^+ \\rightarrow \\text{S} + \\text{Mn}^{2+} + \\text{H}_2\\text{O}$</katex>",
+    "Sulphide is oxidised to Sulphur (S) and Permanganate is reduced to Manganese(II) ion."
   ],
   "years": [
     2025

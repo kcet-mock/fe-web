@@ -6,9 +6,6 @@
   ],
   "choices": [
     [
-      "images/2025-chem-46-1.png"
-    ],
-    [
       "images/2025-chem-46-2.png"
     ],
     [
@@ -16,12 +13,14 @@
     ],
     [
       "images/2025-chem-46-4.png"
+    ],
+    [
+      "images/2025-chem-46-5.png"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "According to Henry's Law and general gas solubility principles, solubility of a gas decreases as temperature increases.",
-    "The graph showing a downward slope (inversely proportional) is correct."
+    "Solubility of a gas in liquid generally decreases with increase in temperature. The graph showing a downward slope is correct."
   ],
   "years": [
     2025

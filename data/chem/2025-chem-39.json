@@ -4,7 +4,7 @@
     "Given below are two statements.",
     "Statement-I: Adiabatic work done is positive when work is done on the system and internal energy of the system increases.",
     "Statement-II: No work is done during free expansion of an ideal gas.",
-    "In the light of the above statements, choose the correct answer."
+    "In the light of the above statements, choose the correct answer from the options given below."
   ],
   "choices": [
     [
@@ -22,8 +22,8 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "For adiabatic process, <katex>$q=0$</katex>. Work done on the system increases <katex>$\\Delta U$</katex> (<katex>$\\Delta U = W$</katex>).",
-    "Free expansion means expansion against zero external pressure, so <katex>$W = -P_{ext}\\Delta V = 0$</katex>."
+    "In an adiabatic process (<katex>$q=0$</katex>), <katex>$\\Delta U = w$</katex>. Work done on the system is positive, increasing internal energy.",
+    "Free expansion means expansion against zero external pressure (<katex>$P_{ext}=0$</katex>), so Work (<katex>$w = -P_{ext}\\Delta V$</katex>) is zero."
   ],
   "years": [
     2025

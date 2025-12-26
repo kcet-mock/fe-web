@@ -1,13 +1,8 @@
 {
   "id": "2025-chem-12",
   "question": [
-    "Match List-I with List-II for the following reaction pattern of Glucose:",
-    "| List-I (Reagents) | List-II (Structural prediction) |",
-    "|---|---|",
-    "| a. Acetic anhydride | i. Glucose has an aldehyde group |",
-    "| b. Bromine water | ii. Glucose has a straight chain of six carbon atoms |",
-    "| c. Hydroiodic acid | iii. Glucose has five hydroxyl group |",
-    "| d. Hydrogen cyanide | iv. Glucose has a carbonyl group |"
+    "Match List-I with List-II for the following reaction pattern: Glucose + Reagent -> Product",
+    "| List-I (Reagents) | List-II (Structural prediction) |\n|---|---|\n| a. Acetic anhydride | i. Glucose has an aldehyde group |\n| b. Bromine water | ii. Glucose has a straight chain of six carbon atoms |\n| c. Hydroiodic acid | iii. Glucose has five hydroxyl groups |\n| d. Hydrogen cyanide | iv. Glucose has a carbonyl group |"
   ],
   "choices": [
     [
@@ -25,10 +20,10 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Acetylation with acetic anhydride confirms 5 -OH groups (a-iii).",
-    "Oxidation with Bromine water (mild oxidant) confirms aldehyde group (b-i).",
-    "Reduction with HI confirms straight carbon chain (c-ii).",
-    "Reaction with HCN confirms carbonyl group (d-iv)."
+    "Acetic anhydride reacts with OH groups -> confirms 5 OH groups (iii).",
+    "Bromine water oxidizes aldehyde -> confirms aldehyde group (i).",
+    "Hydroiodic acid reduces to n-hexane -> confirms straight chain (ii).",
+    "HCN forms cyanohydrin -> confirms carbonyl group (iv)."
   ],
   "years": [
     2025

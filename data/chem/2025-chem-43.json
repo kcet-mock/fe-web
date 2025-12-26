@@ -1,11 +1,11 @@
 {
   "id": "2025-chem-43",
   "question": [
-    "According to Le Chatelier's principle, in the reaction <katex>$CO(g)+3H_{2}(g) \\rightleftharpoons CH_{4}(g)+H_{2}O(g)$</katex>, the formation of methane is favoured by",
+    "According to Le Chatelier's principle, in the reaction <katex>$\\text{CO}(g) + 3\\text{H}_2(g) \\rightleftharpoons \\text{CH}_4(g) + \\text{H}_2\\text{O}(g)$</katex>, the formation of methane is favoured by",
     "(a) Increasing the concentration of CO",
-    "(b) Increasing the concentration of <katex>$H_{2}O$</katex>",
-    "(c) Decreasing the concentration of <katex>$CH_{4}$</katex>",
-    "(d) Decreasing the concentration of <katex>$H_{2}$</katex>"
+    "(b) Increasing the concentration of <katex>$\\text{H}_2\\text{O}$</katex>",
+    "(c) Decreasing the concentration of <katex>$\\text{CH}_4$</katex>",
+    "(d) Decreasing the concentration of <katex>$\\text{H}_2$</katex>"
   ],
   "choices": [
     [
@@ -23,10 +23,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "To shift equilibrium forward (towards Methane):",
-    "Increase reactants (CO or H2).",
-    "Decrease products (CH4 or H2O).",
-    "a and c are correct."
+    "Increasing reactants (CO) shifts equilibrium forward.",
+    "Removing products (<katex>$\\text{CH}_4$</katex>) shifts equilibrium forward.",
+    "Increasing product (<katex>$\\text{H}_2\\text{O}$</katex>) or decreasing reactant (<katex>$\\text{H}_2$</katex>) would shift it backward."
   ],
   "years": [
     2025

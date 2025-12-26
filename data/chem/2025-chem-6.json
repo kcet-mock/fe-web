@@ -19,8 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Cerium (<katex>$Ce$</katex>) has the configuration <katex>$[Xe]4f^{1}5d^{1}6s^{2}$</katex>.",
-    "<katex>$Ce^{4+}$</katex> has a stable noble gas configuration <katex>$[Xe]4f^{0}$</katex>, making it well known for the +4 oxidation state."
+    "Cerium (Ce) exhibits a stable +4 oxidation state because <katex>$\\text{Ce}^{4+}$</katex> acquires a stable noble gas configuration <katex>$[Xe]4f^0 5d^0 6s^0$</katex>."
   ],
   "years": [
     2025

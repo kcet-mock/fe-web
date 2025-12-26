@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Amylose and Amylopectin are components of starch.",
-    "Starch consists of <katex>$\\alpha$</katex>-D-glucose units linked by <katex>$\\alpha$</katex>-glycosidic bonds."
+    "Starch consists of Amylose and Amylopectin, both of which contain <katex>$\\alpha$</katex>-glycosidic linkages.",
+    "Cellulose contains <katex>$\\beta$</katex>-linkages."
   ],
   "years": [
     2025

@@ -19,9 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The 'N' shell corresponds to principal quantum number <katex>$n=4$</katex>.",
-    "The number of orbitals is given by <katex>$n^2$</katex>.",
-    "<katex>$4^2 = 16$</katex>."
+    "For 'N' shell, principal quantum number <katex>$n=4$</katex>.",
+    "Number of orbitals = <katex>$n^2 = 4^2 = 16$</katex>."
   ],
   "years": [
     2025

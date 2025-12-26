@@ -2,11 +2,11 @@
   "id": "2025-chem-20",
   "question": [
     "The IUPAC name of the given organic compound is",
-    "<katex>$HC\\equiv C-CH=CH-CH=CH_{2}$</katex>"
+    "<katex>$\\text{HC}\\equiv\\text{C-CH=CH-CH=CH}_2$</katex>"
   ],
   "choices": [
     [
-      "Hexa 1-yn-3,5 - diene"
+      "Hexa-1-yn-3,5-diene"
     ],
     [
       "Hexa-5-yn-1,3-diene"
@@ -15,14 +15,13 @@
       "Hexa-1,3-dien-5-yne"
     ],
     [
-      "Hexa 3,5-dien-1-yne"
+      "Hexa-3,5-dien-1-yne"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Numbering follows the lowest locant rule for double/triple bonds.",
-    "Double bond gets preference over triple bond if locants are equal from both ends.",
-    "Numbering: <katex>$CH_2=CH-CH=CH-C\\equiv CH$</katex> (1, 3, 5).",
+    "Numbering starts from the end giving the double bond the lowest number according to priority rules when both double and triple bonds are at equivalent positions, or generally double bonds get preference in naming if locants are same set. Here: <katex>$\\text{CH}_2=\\text{CH-CH=CH-C}\\equiv\\text{CH}$</katex>.",
+    "Numbering: 1, 2 (double), 3, 4 (double), 5, 6 (triple).",
     "Name: Hexa-1,3-dien-5-yne."
   ],
   "years": [

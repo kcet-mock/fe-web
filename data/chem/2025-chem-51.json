@@ -1,7 +1,7 @@
 {
   "id": "2025-chem-51",
   "question": [
-    "For a given half cell, <katex>$Al^{3+}+3e^{-} \\rightarrow Al$</katex> on increasing concentration of aluminium ion, the electrode potential will"
+    "For a given half cell, <katex>$\\text{Al}^{3+} + 3e^- \\rightarrow \\text{Al}$</katex> on increasing of aluminium ion concentration, the electrode potential will"
   ],
   "choices": [
     [
@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Nernst Equation: <katex>$E = E^0 - \\frac{RT}{nF} \\ln \\frac{1}{[Al^{3+}]}$</katex>",
-    "<katex>$E = E^0 + \\frac{RT}{nF} \\ln [Al^{3+}]$</katex>.",
+    "Nernst equation: <katex>$E = E^\\circ - \\frac{RT}{nF} \\ln \\frac{1}{[Al^{3+}]}$</katex>",
+    "<katex>$E = E^\\circ + \\frac{RT}{nF} \\ln [Al^{3+}]$</katex>",
     "As <katex>$[Al^{3+}]$</katex> increases, E increases."
   ],
   "years": [
