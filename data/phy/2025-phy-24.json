@@ -18,7 +18,7 @@
       "<katex>$E_1 < E_{eq} < E_2$</katex> and <katex>$E_{eq}$</katex> is nearer <katex>$E_1$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$E_{eq} = \\frac{\\frac{E_1}{r_1} + \\frac{E_2}{r_2}}{\\frac{1}{r_1} + \\frac{1}{r_2}} = \\frac{E_1 r_2 + E_2 r_1}{r_1 + r_2}$</katex>. [cite: 406]",
     "This value lies between <katex>$E_1$</katex> and <katex>$E_2$</katex>. [cite: 407]",

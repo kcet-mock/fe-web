@@ -18,7 +18,7 @@
       "0.52 V"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Current <katex>$i = \\frac{2}{4} = 0.5$</katex> A. [cite: 384]",
     "Terminal voltage <katex>$= E - ir = 2 - (0.5 \\times 0.1) = 2 - 0.05 = 1.95$</katex> V. [cite: 385]"

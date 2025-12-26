@@ -17,7 +17,7 @@
       "Current, electric field and drift speed"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Current at every cross section is same irrespective of area of cross section. [cite: 434]",
     "Drift speed and electric field depend on area."

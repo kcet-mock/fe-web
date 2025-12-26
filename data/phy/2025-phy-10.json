@@ -17,7 +17,7 @@
       "200 Pa"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Using continuity equation: <katex>$A_1 V_1 = A_2 V_2$</katex>. <katex>$V_2 = \\frac{A_1 V_1}{A_2} = \\frac{10 \\times 1}{5} = 2$</katex> m/s. [cite: 170]",
     "Using Bernoulli's equation for horizontal flow: <katex>$P_2 + \\frac{1}{2}\\rho V_2^2 = P_1 + \\frac{1}{2}\\rho V_1^2$</katex>. [cite: 171]",

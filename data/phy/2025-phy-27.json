@@ -17,7 +17,7 @@
       "images/2025-phy-27-4.png"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Resistance <katex>$R = \\frac{\\rho l}{A} = \\frac{\\rho l}{\\pi r^2}$</katex>. [cite: 454]",
     "Since <katex>$r = D/2$</katex>, <katex>$R \\propto \\frac{1}{D^2}$</katex>. [cite: 454]",

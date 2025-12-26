@@ -17,7 +17,7 @@
       "4:3"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Young's modulus <katex>$Y = \\frac{FL}{A \\Delta l}$</katex>. So, <katex>$\\Delta l = \\frac{FL}{AY} = \\frac{FL}{\\pi r^2 Y}$</katex>. [cite: 152]",
     "Since F and Y are same (same material and force), <katex>$\\Delta l \\propto \\frac{L}{r^2}$</katex>.",

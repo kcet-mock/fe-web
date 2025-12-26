@@ -18,7 +18,7 @@
       "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Since spheres are electrostatically shielded from each other, <katex>$\\phi = 0$</katex>. [cite: 281]"
   ],

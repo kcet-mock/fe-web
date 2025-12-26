@@ -17,7 +17,7 @@
       "<katex>$r_p < r_a, v_p < v_a, L_a < L_p$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Angular momentum is conserved in planetary motion: <katex>$L_p = L_a$</katex>. [cite: 127, 128]",
     "Perihelion is the point closest to the sun, so <katex>$r_p < r_a$</katex>. [cite: 129, 130]",

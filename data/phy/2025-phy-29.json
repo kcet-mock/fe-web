@@ -17,7 +17,7 @@
       "439.6 T"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$l=1m; r=2cm; N=5000; i=7A$</katex>. [cite: 480]",
     "<katex>$B = \\frac{\\mu_0 N i}{l}$</katex>. [cite: 482]",

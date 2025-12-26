@@ -18,7 +18,7 @@
       "2.2 kg"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "From the graph, the acceleration <katex>$a$</katex> is the slope of the v-t graph[cite: 44]:",
     "<katex>$a = \\frac{v - u}{t} = \\frac{20 - 0}{3} = \\frac{20}{3}$</katex> m/s<katex>$^2$</katex>[cite: 44].",

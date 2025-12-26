@@ -17,7 +17,7 @@
       "<katex>$Q_1 = Q_2$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "According to the First Law of Thermodynamics, <katex>$\\Delta U = Q - W$</katex>. [cite: 205]",
     "Internal energy <katex>$\\Delta U$</katex> is a state function and depends only on initial and final states, so <katex>$\\Delta U_1 = \\Delta U_2$</katex>. [cite: 206]",

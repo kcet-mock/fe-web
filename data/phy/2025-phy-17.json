@@ -18,7 +18,7 @@
       "<katex>$-q/\\epsilon_0$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "By Gauss's Law, charge enclosed by sphere A is <katex>$-q$</katex>. [cite: 295, 296]",
     "Flux <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>. [cite: 298]"

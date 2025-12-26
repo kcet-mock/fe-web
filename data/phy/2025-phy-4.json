@@ -17,7 +17,7 @@
       "4 J"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Using the Work-Energy Theorem: <katex>$W_{net} = \\Delta KE$</katex> [cite: 61]",
     "Initial speed at <katex>$x=0$</katex>: <katex>$u = k(0)^{3/2} = 0$</katex> [cite: 62]",

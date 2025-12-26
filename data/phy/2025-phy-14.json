@@ -18,7 +18,7 @@
       "<katex>$\\frac{A}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The point <katex>$x_0$</katex> is where the Kinetic Energy graph intersects the Potential Energy graph. At this point, <katex>$KE = PE$</katex>. [cite: 238]",
     "<katex>$\\frac{1}{2} m \\omega^2 (A^2 - x^2) = \\frac{1}{2} m \\omega^2 x^2$</katex>. [cite: 239]",

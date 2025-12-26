@@ -17,7 +17,7 @@
       "Equal"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$i = i_g(\\frac{G}{S} + 1)$</katex>. [cite: 500]",
     "More 'i', less S. [cite: 501]",

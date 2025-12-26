@@ -17,7 +17,7 @@
       "<katex>$\\frac{E_1}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Mean kinetic energy <katex>$E \\propto T$</katex> (in Kelvin). [cite: 219]",
     "<katex>$T_1 = 27 + 273 = 300$</katex> K. <katex>$T_2 = 327 + 273 = 600$</katex> K.",

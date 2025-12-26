@@ -18,7 +18,7 @@
       "X copper, Y - nichrome, Z - semiconductor"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "X increases linearly with T: Copper. [cite: 424]",
     "Y has high resistivity and weak T dependence: Nichrome. [cite: 424]",

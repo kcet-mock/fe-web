@@ -18,7 +18,7 @@
       "a-ii, b-iii, c-iv"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Potential energy of dipole <katex>$PE = -\\vec{p}\\cdot\\vec{E} = -pE \\cos \\theta$</katex>. [cite: 344]",
     "(a) <katex>$\\theta = 180^{\\circ}$</katex>: <katex>$PE = -pE \\cos(180^{\\circ}) = pE$</katex>. Matches (ii). [cite: 345]",

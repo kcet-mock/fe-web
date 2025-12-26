@@ -19,7 +19,7 @@
       "a-iii, b-ii, c-i"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "For the smaller wheel: <katex>$\\tau_1 = I_1 \\alpha_1$</katex> [cite: 108]",
     "<katex>$10 = 4 \\times \\alpha_1 \\Rightarrow \\alpha_1 = \\frac{10}{4} = \\frac{5}{2}$</katex> rad/s<katex>$^2$</katex>. (Matches iii) [cite: 111, 113]",
