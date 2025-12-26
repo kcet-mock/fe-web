@@ -17,7 +17,7 @@
       "Vertical component of the velocity of the projectile"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Horizontal component of velocity remains constant. [cite: 882]"
   ],

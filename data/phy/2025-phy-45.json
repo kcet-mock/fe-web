@@ -18,7 +18,7 @@
       "<katex>$40^{\\circ} - t^2$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$r + r^1 = 50$</katex>. [cite: 695]",
     "<katex>$(10 + t^2) + r^1 = 50$</katex>. [cite: 696]",

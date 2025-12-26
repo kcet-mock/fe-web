@@ -18,7 +18,7 @@
       "0"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$D_1$</katex> is reverse biased (open circuit). [cite: 799, 801]",
     "<katex>$D_2$</katex> is forward biased. [cite: 800]",

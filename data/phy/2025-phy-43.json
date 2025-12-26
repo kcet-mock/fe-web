@@ -18,7 +18,7 @@
       "Power of <katex>$L_1$</katex> is <katex>$\\frac{P}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Power of <katex>$L_1$</katex> (cut along axis) remains P. [cite: 676]",
     "The incorrect statement is (4) stating Power of <katex>$L_1$</katex> is <katex>$\\frac{P}{2}$</katex>. [cite: 673]"

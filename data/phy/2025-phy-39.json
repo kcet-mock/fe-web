@@ -17,7 +17,7 @@
       "200V, 100 Hz"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$V_{rms} = \\frac{V_0}{\\sqrt{2}} = \\frac{311}{\\sqrt{2}} = 220$</katex> V. [cite: 608]",
     "<katex>$314 = 2\\pi f \\Rightarrow f = 50$</katex> Hz. [cite: 609]"

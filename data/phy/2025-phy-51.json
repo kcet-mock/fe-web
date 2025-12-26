@@ -17,7 +17,7 @@
       "<katex>$\\rho \\rightarrow 10^{-2} - 10^{-8} \\Omega m$</katex>, <katex>$\\sigma \\rightarrow 10^2 - 10^8 Sm^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "For metals, <katex>$\\rho \\rightarrow 10^{-2} - 10^{-8} \\Omega m$</katex> and <katex>$\\sigma \\rightarrow 10^2 - 10^8 Sm^{-1}$</katex>. [cite: 772, 774]"
   ],

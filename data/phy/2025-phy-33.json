@@ -17,7 +17,7 @@
       "images/2025-phy-33-4.png"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$B = \\frac{\\mu_0 i}{2\\pi r}$</katex>. [cite: 532]",
     "<katex>$B \\propto \\frac{1}{r}$</katex>. Graph is rectangular hyperbola. [cite: 533]"

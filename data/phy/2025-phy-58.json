@@ -17,7 +17,7 @@
       "<katex>$\\frac{H}{g\\Delta t}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$S_1 = \\frac{1}{2}gt_0^2$</katex>. [cite: 869]",
     "<katex>$S_2 = \\frac{1}{2}g(t_0 - \\Delta t)^2$</katex>. [cite: 870]",

@@ -18,7 +18,7 @@
       "116.0 <katex>$\\Omega$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$G = \\frac{S'}{\\frac{\\theta_1}{\\theta_2} - 1}$</katex>. [cite: 833]",
     "<katex>$G = \\frac{90}{\\frac{26}{13} - 1} = 90\\Omega$</katex>. [cite: 833]",

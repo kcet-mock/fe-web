@@ -17,7 +17,7 @@
       "<katex>$s = ut + \\frac{1}{2}at^2$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Dimensional analysis can typically deduce product relations like <katex>$F = 6\\pi\\eta rv$</katex> (Stokes' law) up to a constant. [cite: 861]"
   ],

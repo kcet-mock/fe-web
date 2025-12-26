@@ -17,7 +17,7 @@
       "Momentum"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$\\lambda = \\frac{h}{p}$</katex>. If <katex>$\\lambda$</katex> is same then P i.e., momentum is same. [cite: 541]"
   ],

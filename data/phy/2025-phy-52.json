@@ -17,7 +17,7 @@
       "The donor energy level lies just the bottom of the conduction band"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "In n-type semiconductor, donor impurities contribute electron energy levels high in the semiconductor band gap. [cite: 782]",
     "This donor level is located closed to, and just below, the bottom of the conduction band. [cite: 783]"

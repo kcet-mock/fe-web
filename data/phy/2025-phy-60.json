@@ -17,7 +17,7 @@
       "<katex>$0.4\\hat{i}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Equation of circle center <katex>$(2, 0)$</katex>, radius <katex>$r=5$</katex>. [cite: 897, 898, 899]",
     "<katex>$a_c = \\frac{v^2}{R} = \\frac{2^2}{5} = 0.8$</katex> m/s<katex>$^2$</katex>. [cite: 900]",

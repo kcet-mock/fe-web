@@ -17,7 +17,7 @@
       "<katex>$\\cos^{-1}(\\frac{n}{2})$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$i = 2r$</katex>. [cite: 653]",
     "<katex>$1 \\times \\sin i = n \\sin(i/2)$</katex>. [cite: 654]",

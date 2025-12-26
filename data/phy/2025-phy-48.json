@@ -17,7 +17,7 @@
       "2r"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$r \\propto n^2$</katex>. [cite: 737]",
     "<katex>$n=2; r_2 = 2^2 r = 4r$</katex>. [cite: 738]"
