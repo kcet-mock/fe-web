@@ -17,7 +17,7 @@
       "400 nm"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Threshold wavelength <katex>$\\lambda_0 = \\frac{1240}{\\phi(eV)} = \\frac{1240}{2.4} \\approx 517$</katex> nm.",
     "Emission occurs for <katex>$\\lambda < \\lambda_0$</katex>.",

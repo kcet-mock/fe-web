@@ -17,7 +17,7 @@
       "<katex>$\\frac{d}{4}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "At closest approach, kinetic energy converts to potential energy: <katex>$\\frac{1}{2}mv^2 = \\frac{kQq}{d}$</katex>.",
     "Thus, <katex>$d \\propto \\frac{1}{v^2}$</katex>.",

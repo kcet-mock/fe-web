@@ -18,7 +18,7 @@
       "<katex>$4~ms^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Acceleration <katex>$a = \\frac{mg}{m + M/2}$</katex> where m=1kg, M=2kg (pulley).",
     "<katex>$a = \\frac{1 \\times 10}{1 + 2/2} = \\frac{10}{2} = 5~ms^{-2}$</katex>.",

@@ -17,7 +17,7 @@
       "1.14 A"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Net voltage <katex>$V = 5.7 - 0.7 = 5.0$</katex> V.",
     "Resistance <katex>$R = 5~k\\Omega = 5000~\\Omega$</katex>.",

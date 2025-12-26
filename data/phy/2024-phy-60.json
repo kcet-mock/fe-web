@@ -18,7 +18,7 @@
       "Ring will come to rest"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "As the ring falls towards the wire, the magnetic field through it increases.",
     "According to Lenz's law, the induced current will create a field to oppose this increase.",

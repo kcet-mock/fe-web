@@ -17,7 +17,7 @@
       "<katex>$\\vec{E}\\cdot\\vec{j}=\\rho$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Microscopic form of Ohm's law: <katex>$\\vec{j} = \\sigma \\vec{E}$</katex> or <katex>$\\vec{E} = \\frac{1}{\\sigma} \\vec{j} = \\rho \\vec{j}$</katex>."
   ],

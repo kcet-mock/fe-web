@@ -17,7 +17,7 @@
       "<katex>$\\frac{\\sqrt{3}}{2}\\times10^{8}~ms^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "For an equilateral prism, <katex>$A = 60^{\\circ}$</katex>. Given <katex>$\\delta_m = A = 60^{\\circ}$</katex>.",
     "Refractive index <katex>$\\mu = \\frac{\\sin(\\frac{A+\\delta_m}{2})}{\\sin(A/2)} = \\frac{\\sin(60)}{\\sin(30)} = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$</katex>.",

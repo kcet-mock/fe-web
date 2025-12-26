@@ -17,7 +17,7 @@
       "<katex>$5(\\sqrt{3}\\hat{i}+\\hat{j})$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Time period <katex>$T = \\frac{2\\pi m}{qB} = \\frac{2\\pi}{B(q/m)} = \\frac{2\\pi}{2(\\pi)} = 1$</katex> s.",
     "Angle turned in 1/12 s: <katex>$\\theta = \\omega t = \\frac{2\\pi}{T} t = 2\\pi(1/12) = \\pi/6 = 30^{\\circ}$</katex>.",

@@ -18,7 +18,7 @@
       "<katex>$2.0^{0}C^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "At 0°C: <katex>$X_0/4 = 50/50 \\implies X_0 = 4$</katex>.",
     "At 100°C: <katex>$X_{100}/4 = 60/40 = 1.5 \\implies X_{100} = 6$</katex>.",

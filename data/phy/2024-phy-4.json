@@ -17,7 +17,7 @@
       "images/2024-phy-4-4.png"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Resonance frequency is given by <katex>$f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$</katex>.",
     "This implies <katex>$f_0 \\propto \\frac{1}{\\sqrt{C}}$</katex>.",

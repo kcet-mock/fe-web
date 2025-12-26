@@ -17,7 +17,7 @@
       "60"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Q-value = Binding Energy of Products - Binding Energy of Reactants.",
     "<katex>$Q = (1200 + 780) - 1800 = 1980 - 1800 = 180$</katex> MeV.",

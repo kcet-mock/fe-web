@@ -17,7 +17,7 @@
       "4 units and 8 units"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "The resultant R of two vectors A and B lies in the range <katex>$|A-B| \\le R \\le A+B$</katex>.",
     "For (D) 4 and 8: Range is <katex>$|8-4|$</katex> to <katex>$8+4$</katex>, i.e., [4, 12].",

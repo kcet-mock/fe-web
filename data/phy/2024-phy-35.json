@@ -18,7 +18,7 @@
       "<katex>$ms_{1}(\\theta_{1}-\\theta_{0})+mL_{f}+ms_{2}(\\theta_{2}-\\theta_{0})+mL_{v}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Heat = Heat to raise solid to melting pt + Latent heat of fusion + Heat to raise liquid to boiling pt + Latent heat of vaporization.",
     "<katex>$Q = m s_1 (\\theta_1 - \\theta_0) + m L_f + m s_2 (\\theta_2 - \\theta_1) + m L_v$</katex>."

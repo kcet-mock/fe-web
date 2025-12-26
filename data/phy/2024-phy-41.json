@@ -17,7 +17,7 @@
       "<katex>$\\vec{F}_{1}=\\vec{F}_{2}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "According to Coulomb's law and Newton's third law, the forces between two point charges are equal in magnitude and opposite in direction.",
     "Therefore, <katex>$\\vec{F}_{1} = -\\vec{F}_{2}$</katex>."

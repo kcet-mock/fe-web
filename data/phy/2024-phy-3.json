@@ -17,7 +17,7 @@
       "<katex>$R=15~\\Omega, L=3.5~H, C=30~\\mu F$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Better tuning implies a higher Quality Factor (Q-factor).",
     "<katex>$Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$</katex>.",

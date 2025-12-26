@@ -17,7 +17,7 @@
       "<katex>$0\\le K\\le\\frac{E}{3}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Einstein's photoelectric equation: <katex>$K_{max} = E - \\phi$</katex>.",
     "<katex>$K_{max} = E - E/3 = 2E/3$</katex>.",

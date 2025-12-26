@@ -17,7 +17,7 @@
       "neither electric nor magnetic field"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "A charge produces an electric field. A moving charge (current) produces a magnetic field. Thus, a moving electron produces both."
   ],

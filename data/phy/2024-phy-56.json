@@ -17,7 +17,7 @@
       "<katex>$R\\sqrt{15}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$B_{center} = \\frac{\\mu_0 I}{2R}$</katex>. <katex>$B_{axis} = \\frac{\\mu_0 I R^2}{2(R^2+x^2)^{3/2}}$</katex>.",
     "<katex>$\\frac{1}{R} = 64 \\frac{R^2}{(R^2+x^2)^{3/2}} \\implies (R^2+x^2)^{3/2} = 64 R^3 = (4R)^3$</katex>.",

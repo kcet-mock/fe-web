@@ -17,7 +17,7 @@
       "<katex>$288\\Omega$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Current required <katex>$I = P/V = 60/120 = 0.5$</katex> A.",
     "Voltage drop needed across resistor = <katex>$220 - 120 = 100$</katex> V.",

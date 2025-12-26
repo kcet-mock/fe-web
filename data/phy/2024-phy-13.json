@@ -17,7 +17,7 @@
       "<katex>$\\beta_{1}>\\beta_{2}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Fringe width <katex>$\\beta \\propto \\lambda$</katex>. De Broglie wavelength <katex>$\\lambda = \\frac{h}{mv}$</katex>.",
     "Mass of proton <katex>$m_p$</katex> is much greater than mass of electron <katex>$m_e$</katex>.",

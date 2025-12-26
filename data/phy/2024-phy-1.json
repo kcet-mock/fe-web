@@ -17,7 +17,7 @@
       "<katex>$0.22\\times10^{-2}~Wb$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Induced emf <katex>$\\varepsilon = I R = 2 \\times 10 = 20~V$</katex>.",
     "From Faraday's law, <katex>$\\varepsilon = \\frac{d\\phi}{dt}$</katex>.",

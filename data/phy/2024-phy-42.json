@@ -17,7 +17,7 @@
       "<katex>$18\\times10^{3}Vm$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Area <katex>$A = 10 \\times 30 = 300~cm^2 = 3 \\times 10^{-2}~m^2$</katex>.",
     "The plane is parallel to Z-X, so its area vector is along the Y-axis, parallel to E.",

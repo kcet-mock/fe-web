@@ -17,7 +17,7 @@
       "7"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Speed of source <katex>$v_s = 18~km/h = 5~m/s$</katex>.",
     "Reflected frequency heard by motorcyclist <katex>$f' = f \\left(\\frac{v+v_s}{v-v_s}\\right)$</katex>.",

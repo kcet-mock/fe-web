@@ -17,7 +17,7 @@
       "<katex>$100~ms^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Flow rate <katex>$Q = A v$</katex>.",
     "<katex>$0.314 = \\pi (0.1)^2 v$</katex>.",

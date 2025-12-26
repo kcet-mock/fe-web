@@ -18,7 +18,7 @@
       "5.5 Ns"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Work done = Area under P-t graph = Area of trapezium = <katex>$\\frac{1}{2}(2+8) \\times 5 = 25$</katex> J.",
     "Work-Energy theorem: <katex>$\\Delta K = W = 25$</katex> J. Initial K=0, so <katex>$K_f = 25$</katex>.",

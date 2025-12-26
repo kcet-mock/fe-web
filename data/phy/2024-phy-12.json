@@ -18,7 +18,7 @@
       "<katex>$\\frac{3I_{0}}{16}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "After sheet 1: <katex>$I_1 = I_0/2$</katex>.",
     "After sheet 2 (angle <katex>$30^{\\circ}$</katex>): <katex>$I_2 = I_1 \\cos^2(30^{\\circ}) = \\frac{I_0}{2} (\\frac{\\sqrt{3}}{2})^2 = \\frac{3I_0}{8}$</katex>.",

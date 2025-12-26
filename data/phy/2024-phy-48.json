@@ -18,7 +18,7 @@
       "<katex>$\\frac{V_{0}}{3R}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "The circuit consists of two balanced Wheatstone bridges in series.",
     "Left bridge equivalent resistance = R. Right bridge equivalent resistance = 2R.",

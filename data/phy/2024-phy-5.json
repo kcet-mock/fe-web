@@ -18,7 +18,7 @@
       "D"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "The circuit is capacitive when <katex>$X_C > X_L$</katex>.",
     "In the graph, <katex>$X_C$</katex> is the curve decreasing with frequency, and <katex>$X_L$</katex> is the line increasing with frequency.",

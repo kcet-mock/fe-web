@@ -17,7 +17,7 @@
       "Both velocity and acceleration are zero"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "At mean position (<katex>$x=0$</katex>), velocity is maximum (<katex>$v = \\omega A$</katex>) and acceleration is zero (<katex>$a = \\omega^2 x = 0$</katex>)."
   ],

@@ -79,7 +79,7 @@ export default function InternalQuestionViewPage() {
 
   return (
     <main className="main-layout main-layout--top">
-      <section className="card">
+      <section className="card" style={{ position: 'relative', overflow: 'visible' }}>
         <header className="card-header">
           <div>
             <div className="badge">Internal · Dev only</div>
@@ -88,8 +88,48 @@ export default function InternalQuestionViewPage() {
           </div>
         </header>
 
-        <div className="test-layout">
-          <div className="test-questions">
+        <div className="test-layout" style={{ display: 'flex', alignItems: 'stretch', position: 'relative' }}>
+          {/* Left Arrow */}
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            {(() => {
+              if (id) {
+                // id format: 2024-phy-18
+                const match = id.match(/^(\d{4})-([a-z]+)-(\d+)$/);
+                if (match) {
+                  const [_, year, sub, numStr] = match;
+                  const num = parseInt(numStr, 10);
+                  if (num > 1) {
+                    const prevId = `${year}-${sub}-${num - 1}`;
+                    return (
+                      <button
+                        aria-label="Previous question"
+                        style={{
+                          background: 'linear-gradient(90deg, #fff 80%, #fff0 100%)',
+                          border: '1px solid #ddd',
+                          borderRadius: '50%',
+                          width: 40,
+                          height: 40,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          boxShadow: '0 2px 8px #0001',
+                          zIndex: 2,
+                          cursor: 'pointer',
+                          marginRight: 8,
+                        }}
+                        onClick={() => router.replace(`/internal/questions/view?subject=${subject}&id=${prevId}`)}
+                      >
+                        <span style={{ fontSize: 24, fontWeight: 700, color: '#6366f1' }}>&larr;</span>
+                      </button>
+                    );
+                  }
+                }
+              }
+              return null;
+            })()}
+          </div>
+          {/* Main question content */}
+          <div style={{ flex: 1, minWidth: 0 }}>
             {/* Edit button on the right side of the card, above question content */}
             {id ? (
               <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
@@ -210,6 +250,43 @@ export default function InternalQuestionViewPage() {
                 ) : null}
               </div>
             )}
+          </div>
+          {/* Right Arrow */}
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            {(() => {
+              if (id) {
+                // id format: 2024-phy-18
+                const match = id.match(/^(\d{4})-([a-z]+)-(\d+)$/);
+                if (match) {
+                  const [_, year, sub, numStr] = match;
+                  const num = parseInt(numStr, 10);
+                  const nextId = `${year}-${sub}-${num + 1}`;
+                  return (
+                    <button
+                      aria-label="Next question"
+                      style={{
+                        background: 'linear-gradient(270deg, #fff 80%, #fff0 100%)',
+                        border: '1px solid #ddd',
+                        borderRadius: '50%',
+                        width: 40,
+                        height: 40,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        boxShadow: '0 2px 8px #0001',
+                        zIndex: 2,
+                        cursor: 'pointer',
+                        marginLeft: 8,
+                      }}
+                      onClick={() => router.replace(`/internal/questions/view?subject=${subject}&id=${nextId}`)}
+                    >
+                      <span style={{ fontSize: 24, fontWeight: 700, color: '#6366f1' }}>&rarr;</span>
+                    </button>
+                  );
+                }
+              }
+              return null;
+            })()}
           </div>
         </div>
       </section>

@@ -17,7 +17,7 @@
       "<katex>$0.67~ms^{-2}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Check if block moves: Downward component <katex>$g \\sin 30 = 10(0.5) = 5$</katex>.",
     "Max static friction <katex>$f_s = \\mu_s g \\cos 30 = 0.6 \\times 10 \\times 0.866 = 5.196$</katex>.",

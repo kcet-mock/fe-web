@@ -17,7 +17,7 @@
       "<katex>$\\frac{1}{4Y}\\rho~g~L^{2}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Elongation due to self-weight is <katex>$\\Delta L = \\frac{MgL}{2AY}$</katex>.",
     "Substitute mass <katex>$M = \\rho AL$</katex>.",

@@ -17,7 +17,7 @@
       "<katex>$0.18\\times10^{-5}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Curie's Law: <katex>$\\chi \\propto 1/T$</katex>.",
     "<katex>$\\chi_2 T_2 = \\chi_1 T_1$</katex>.",

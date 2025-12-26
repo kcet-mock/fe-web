@@ -18,7 +18,7 @@
       "1,50,000"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "From graph, at <katex>$t=0, \\ln R = 2 \\implies R_0 = e^2 = 7.5$</katex>.",
     "Slope <katex>$-\\lambda = \\frac{1-2}{10000-0} = -10^{-4} \\implies \\lambda = 10^{-4}$</katex>.",

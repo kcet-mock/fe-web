@@ -18,7 +18,7 @@
       "<katex>$2~P_{0}V_{0}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Work done is the area enclosed by the cycle in P-V diagram.",
     "Area of triangle = <katex>$\\frac{1}{2} \\times \\text{base} \\times \\text{height}$</katex>.",
