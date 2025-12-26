@@ -1,0 +1,28 @@
+{
+  "id": "2024-chem-38",
+  "question": [
+    "The number of atoms in 4.5 g of a face-centred cubic crystal with edge length 300 pm is:",
+    "(Given density = <katex>$10~g~cm^{-3}$</katex> and <katex>$N_{A}=6.022\\times10^{23})$</katex>."
+  ],
+  "choices": [
+    [
+      "<katex>$6.6\\times10^{20}$</katex>"
+    ],
+    [
+      "<katex>$6.6\\times10^{23}$</katex>"
+    ],
+    [
+      "<katex>$6.6\\times10^{19}$</katex>"
+    ],
+    [
+      "<katex>$6.6\\times10^{22}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Volume of unit cell <katex>$a^3 = (3 \\times 10^{-8})^3 = 27 \\times 10^{-24} cm^3$</katex>. Mass of unit cell = <katex>$d \\times V = 10 \\times 27 \\times 10^{-24} = 2.7 \\times 10^{-22} g$</katex>. Number of unit cells = <katex>$4.5 / (2.7 \\times 10^{-22}) \\approx 1.66 \\times 10^{22}$</katex>. Atoms per FCC = 4. Total atoms = <katex>$4 \\times 1.66 \\times 10^{22} \\approx 6.6 \\times 10^{22}$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-23",
+  "question": [
+    "The complex compounds <katex>$[Co(NH_{3})_{5}SO_{4}]Br$</katex> and <katex>$[Co(NH_{3})_5 Br]SO_4$</katex> are:"
+  ],
+  "choices": [
+    [
+      "Coordination isomers"
+    ],
+    [
+      "Geometrical isomers"
+    ],
+    [
+      "Optical isomers"
+    ],
+    [
+      "Ionisation isomer"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "They give different ions in solution (Bromide vs Sulfate), hence Ionisation isomers."
+  ],
+  "years": [
+    2024
+  ]
+}

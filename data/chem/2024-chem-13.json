@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-13",
+  "question": [
+    "<katex>$\\alpha-D-(+)-$</katex> glucose and <katex>$\\beta-D-(+)-$</katex> glucose are:"
+  ],
+  "choices": [
+    [
+      "Enantiomers"
+    ],
+    [
+      "Conformers"
+    ],
+    [
+      "Epimers"
+    ],
+    [
+      "Anomers"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "They differ in configuration only at C1 (the anomeric carbon), so they are Anomers."
+  ],
+  "years": [
+    2024
+  ]
+}

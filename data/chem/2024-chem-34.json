@@ -1,0 +1,28 @@
+{
+  "id": "2024-chem-34",
+  "question": [
+    "In the given sequence of reactions, identify 'P, 'Q', 'R' and'S' respectively.",
+    "<katex>$CH_{2}=CH_{2} \\xrightarrow{P} CH_{2}Br-CH_{2}Br \\xrightarrow{Q} CH_{2}=CH-Br \\xrightarrow{R} CH \\equiv CH \\xrightarrow{S} C_{6}H_{6}$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$Br_{2}$</katex>, Alc. KOH, NaOH, <katex>$Al_{2}O_{3}$</katex>"
+    ],
+    [
+      "HBr, Alc, KOH, <katex>$CaC_{2}$</katex> <katex>$KMnO_{4}$</katex>"
+    ],
+    [
+      "HBr, Alc. KOH, <katex>$NaNH_{2}$</katex> Red hot iron tube"
+    ],
+    [
+      "<katex>$Br_{2}$</katex>, Alc. KOH, <katex>$NaNH_{2}$</katex>, Red hot iron tube"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "P: Bromination. Q: Dehydrohalogenation (Partial). R: Dehydrohalogenation (Strong base for alkyne). S: Cyclic polymerization to Benzene."
+  ],
+  "years": [
+    2024
+  ]
+}

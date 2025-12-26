@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-49",
+  "question": [
+    "For the coagulation of positively charged hydrated ferric-oxide sol, the flocculating power of the ions is in the order:"
+  ],
+  "choices": [
+    [
+      "<katex>$PO_{4}^{3-}>SO_{4}^{2-}>Cl^{-}>[Fe(CN)_{6}]^{4-}$</katex>"
+    ],
+    [
+      "<katex>$Cl^{-}>SO_{4}^{2-}>PO_{4}^{3-}>[Fe(CN)_{6}]^{4-}$</katex>"
+    ],
+    [
+      "<katex>$SO_{4}^{2-}=Cl^{-}=PO_{4}^{3-}=[Fe(CN)_{6}]^{4-}$</katex>"
+    ],
+    [
+      "<katex>$[Fe(CN)_{6}]^{4-}>PO_{4}^{3-}>SO_{4}^{2-}>Cl^{-}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "According to Hardy-Schulze rule, higher the valency of the coagulating ion (negative ion for positive sol), greater is the flocculating power."
+  ],
+  "years": [
+    2024
+  ]
+}

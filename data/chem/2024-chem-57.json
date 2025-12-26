@@ -1,0 +1,30 @@
+{
+  "id": "2024-chem-57",
+  "question": [
+    "Match the following:",
+    "I. <katex>$Zn^{2+}$</katex> i. <katex>$d^{8}$</katex> configuration",
+    "II. <katex>$Cu^{2+}$</katex> ii. colourless",
+    "III. <katex>$Ni^{2+}$</katex> iii. <katex>$\\mu=1.73BM$</katex>"
+  ],
+  "choices": [
+    [
+      "I-iii, II-i, III-ii"
+    ],
+    [
+      "I-ii, II-iii, III-i"
+    ],
+    [
+      "I-ii, II-i, III-iii"
+    ],
+    [
+      "I-i, II-iii, III-ii"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Zn2+ is d10 (Colourless). Cu2+ is d9 (1 unpaired e-, 1.73 BM). Ni2+ is d8."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-6",
+  "question": [
+    "Propanone and Propanal are:"
+  ],
+  "choices": [
+    [
+      "Position isomers"
+    ],
+    [
+      "Functional isomers"
+    ],
+    [
+      "Chain isomers"
+    ],
+    [
+      "Geometrical isomers"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Propanone (Ketone) and Propanal (Aldehyde) have the same molecular formula <katex>$C_3H_6O$</katex> but different functional groups."
+  ],
+  "years": [
+    2024
+  ]
+}

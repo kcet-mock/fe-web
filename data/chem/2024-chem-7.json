@@ -1,0 +1,28 @@
+{
+  "id": "2024-chem-7",
+  "question": [
+    "Sodium ethanoate on heating with soda lime give 'X'. Electrolysis of aqueous solution of sodium ethanoate gives 'Y', 'X' and 'Y' respectively are:"
+  ],
+  "choices": [
+    [
+      "Methane and Ethane"
+    ],
+    [
+      "Methane and Methane"
+    ],
+    [
+      "Ethane and Methane"
+    ],
+    [
+      "Ethane and Ethane"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Reaction with soda lime (Decarboxylation): <katex>$CH_3COONa \\rightarrow CH_4$</katex> (Methane).",
+    "Kolbe's Electrolysis: <katex>$2CH_3COO^- \\rightarrow C_2H_6$</katex> (Ethane)."
+  ],
+  "years": [
+    2024
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-60",
+  "question": [
+    "The synthetically produced radioactive noble gas by the collision of <katex>${}_{98}^{249}Cf$</katex> with <katex>${}_{20}^{48}Ca$</katex> is"
+  ],
+  "choices": [
+    [
+      "Radon"
+    ],
+    [
+      "Radium"
+    ],
+    [
+      "Oganesson"
+    ],
+    [
+      "Xenon"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Fusion of Cf-249 and Ca-48 produces Oganesson (Z=118)."
+  ],
+  "years": [
+    2024
+  ]
+}

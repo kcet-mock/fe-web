@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-2",
+  "question": [
+    "<katex>$NO_{2}$</katex> gas is:"
+  ],
+  "choices": [
+    [
+      "Colourless, neutral"
+    ],
+    [
+      "Colourless, acidic"
+    ],
+    [
+      "Brown, acidic"
+    ],
+    [
+      "Brown, neutral"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Nitrogen dioxide (<katex>$NO_2$</katex>) is a reddish-brown gas and is acidic in nature."
+  ],
+  "years": [
+    2024
+  ]
+}

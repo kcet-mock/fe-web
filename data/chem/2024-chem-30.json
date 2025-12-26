@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-30",
+  "question": [
+    "Which one of the following properties is generally not applicable to ionic hydrides?"
+  ],
+  "choices": [
+    [
+      "Non-volatile"
+    ],
+    [
+      "Non-conducting in solid state"
+    ],
+    [
+      "Crystalline"
+    ],
+    [
+      "Volatile"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Ionic hydrides are solids and non-volatile."
+  ],
+  "years": [
+    2024
+  ]
+}

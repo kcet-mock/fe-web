@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-54",
+  "question": [
+    "Identify the wrong relation for real gases"
+  ],
+  "choices": [
+    [
+      "<katex>$Z=\\frac{V_{idcal}}{V_{real}}$</katex>"
+    ],
+    [
+      "<katex>$P_{ideal}=P_{real}+\\frac{an^{2}}{V^{2}}$</katex>"
+    ],
+    [
+      "<katex>$V_{real}=V_{ideal}-nb$</katex>"
+    ],
+    [
+      "<katex>$(p+\\frac{a}{V^{2}})(V-b)=RT$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Compressibility factor Z = Vreal / Videal. Option A is inverted. Note: Option C is also questionable in standard forms, but A is the primary incorrect definition key."
+  ],
+  "years": [
+    2024
+  ]
+}

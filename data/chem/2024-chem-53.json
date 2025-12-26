@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-53",
+  "question": [
+    "A pair of isoelectric species having bond order of one is:"
+  ],
+  "choices": [
+    [
+      "<katex>$N_{2}, O_2^{2-}$</katex>"
+    ],
+    [
+      "<katex>$N_{2}, NO^{+}$</katex>"
+    ],
+    [
+      "<katex>$F_{2}, O_2^{2-}$</katex>"
+    ],
+    [
+      "<katex>$CO, NO^{+}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "<katex>$F_2$</katex> (18e) and <katex>$O_2^{2-}$</katex> (Peroxide, 18e) are isoelectronic and both have Bond Order = 1."
+  ],
+  "years": [
+    2024
+  ]
+}

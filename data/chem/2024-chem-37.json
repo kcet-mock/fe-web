@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-37",
+  "question": [
+    "MnO exhibits :"
+  ],
+  "choices": [
+    [
+      "Ferrimagnetism"
+    ],
+    [
+      "Antiferromagnetism"
+    ],
+    [
+      "Ferromagnetism"
+    ],
+    [
+      "Paramagnetism"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "MnO is a classic example of Antiferromagnetism."
+  ],
+  "years": [
+    2024
+  ]
+}

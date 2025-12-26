@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-5",
+  "question": [
+    "The incorrect statement about Hall-Heroult process is :"
+  ],
+  "choices": [
+    [
+      "Carbon anode is oxidised to CO and <katex>$CO_{2}$</katex>"
+    ],
+    [
+      "<katex>$Na_{3}AlF_{6}$</katex> helps to decrease the melting point of the electrolyte"
+    ],
+    [
+      "<katex>$CaF_{2}$</katex> helps to increase the conductivity of the electrolyte"
+    ],
+    [
+      "Oxidation state of oxygen changes in the overall cell reaction"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In the Hall-Heroult process, Oxygen is evolved at the anode from oxide ions (<katex>$O^{2-}$</katex>) to form CO/CO2 (<katex>$O^{2-}$</katex> to <katex>$O$</katex> is oxidation). However, the statement D implies a change that might be considered incorrect in context or phrasing by the board. The official answer key is D."
+  ],
+  "years": [
+    2024
+  ]
+}

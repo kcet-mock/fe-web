@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-43",
+  "question": [
+    "A current of 3 A is passed through a molten calcium salt for 1 hr 47 min 13 sec. The mass of calcium deposited is: (Molar mass of <katex>$Ca=40gmol^{-1}$</katex>)"
+  ],
+  "choices": [
+    [
+      "6.0 g"
+    ],
+    [
+      "2.0 g"
+    ],
+    [
+      "8.0 g"
+    ],
+    [
+      "4.0 g"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Time = 3600 + 47*60 + 13 = 6433 sec. Q = It = 3 * 6433 = 19299 C. Ca requires 2F (193000 C) for 40g. Mass = (19299/193000) * 40 approx 4.0 g."
+  ],
+  "years": [
+    2024
+  ]
+}

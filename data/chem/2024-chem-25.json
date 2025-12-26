@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-25",
+  "question": [
+    "A haloalkane undergoes <katex>$S_{N}2$</katex> or <katex>$S_{N}1$</katex> reaction depending on :"
+  ],
+  "choices": [
+    [
+      "Solvent used in the reaction"
+    ],
+    [
+      "Low temperature"
+    ],
+    [
+      "The type of halogen atom"
+    ],
+    [
+      "Stability of the haloalkane"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "While structure is primary, the solvent (Polar Protic for SN1, Polar Aprotic for SN2) is a key deciding factor listed here."
+  ],
+  "years": [
+    2024
+  ]
+}

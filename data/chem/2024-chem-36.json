@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-36",
+  "question": [
+    "Which of the following crystals has the unit cell such that <katex>$a=b\\ne c$</katex> and <katex>$\\alpha=\\beta=90^{\\circ}$</katex>, <katex>$\\gamma=120^{\\circ}$</katex>?"
+  ],
+  "choices": [
+    [
+      "Zinc blende"
+    ],
+    [
+      "Graphite"
+    ],
+    [
+      "Cinnabar"
+    ],
+    [
+      "Potassium dichromate"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "These are dimensions of a Hexagonal unit cell. Graphite crystalizes in hexagonal lattice."
+  ],
+  "years": [
+    2024
+  ]
+}

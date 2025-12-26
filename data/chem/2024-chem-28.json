@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-28",
+  "question": [
+    "Solubility product of <katex>$CaC_{2}O_{4}$</katex> at a given temperature in pure water is <katex>$4\times10^{-9}(mol~L^{-1})^{2}$</katex> Solubility of <katex>$CaC_{2}O_{4}$</katex> at the same temperature is :"
+  ],
+  "choices": [
+    [
+      "<katex>$6.3\times10^{-5}$</katex> mol <katex>$L^{-1}$</katex>"
+    ],
+    [
+      "<katex>$2\times10^{-5}$</katex> mol <katex>$L^{-1}$</katex>"
+    ],
+    [
+      "<katex>$2\times10^{-4}$</katex> mol <katex>$L^{-1}$</katex>"
+    ],
+    [
+      "<katex>$6.3\times10^{-4}$</katex> mol <katex>$L^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$S = \\sqrt{K_{sp}} = \\sqrt{4 \\times 10^{-9}} = 6.32 \\times 10^{-5}$</katex>"
+  ],
+  "years": [
+    2024
+  ]
+}

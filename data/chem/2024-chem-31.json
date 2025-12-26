@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-31",
+  "question": [
+    "Which one of the following nitrate will decompose to give <katex>$NO_{2}$</katex> on heating?"
+  ],
+  "choices": [
+    [
+      "<katex>$NaNO_{3}$</katex>"
+    ],
+    [
+      "<katex>$KNO_{3}$</katex>"
+    ],
+    [
+      "<katex>$RbNO_{3}$</katex>"
+    ],
+    [
+      "<katex>$LiNO_{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Lithium nitrate behaves like Magnesium nitrate (diagonal relationship) and decomposes to Oxide + NO2 + O2. Others give Nitrite + O2."
+  ],
+  "years": [
+    2024
+  ]
+}

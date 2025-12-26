@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-29",
+  "question": [
+    "In the reaction between moist <katex>$SO_{2}$</katex> and acidified permanganate solution :"
+  ],
+  "choices": [
+    [
+      "<katex>$SO_{2}$</katex> is oxidised to <katex>$SO_{4}^{2-}$</katex>, <katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$Mn^{2+}$</katex>"
+    ],
+    [
+      "<katex>$SO_{2}$</katex> is reduced to S, <katex>$MnO_{4}^{-}$</katex> is oxidised to <katex>$MnO_{4}$</katex>"
+    ],
+    [
+      "<katex>$SO_{2}$</katex> is oxidised to <katex>$SO_{3}^{2}$</katex>, <katex>$MnO_{4}^{-}$</katex> is reduced to <katex>$MnO_{2}$</katex>"
+    ],
+    [
+      "<katex>$SO_{2}$</katex> is reduced to <katex>$H_{2}S$</katex>, <katex>$MnO_{4}^{-}$</katex> is oxidised to <katex>$MnO_{4}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Acidified <katex>$KMnO_4$</katex> oxidises <katex>$SO_2$</katex> to Sulfate, and is itself reduced to <katex>$Mn^{2+}$</katex> (colourless)."
+  ],
+  "years": [
+    2024
+  ]
+}

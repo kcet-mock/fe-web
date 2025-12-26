@@ -1,0 +1,29 @@
+{
+  "id": "2024-chem-10",
+  "question": [
+    "In the reaction",
+    "Aniline <katex>$\\xrightarrow{NaNO_2, dil HCl}$</katex> P <katex>$\\xrightarrow{Phenol, NaOH}$</katex> Q.",
+    "'Q' is:"
+  ],
+  "choices": [
+    [
+      "<katex>$C_{6}H_{5}N_{2}Cl$</katex>"
+    ],
+    [
+      "ortho-hydroxyazobenzene"
+    ],
+    [
+      "para-hydroxyazobenzene"
+    ],
+    [
+      "meta-hydroxyazobenzene"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "P is Benzene diazonium chloride. Reaction with Phenol in basic medium (Coupling reaction) yields para-hydroxyazobenzene (orange dye)."
+  ],
+  "years": [
+    2024
+  ]
+}

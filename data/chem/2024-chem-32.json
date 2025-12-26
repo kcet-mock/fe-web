@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-32",
+  "question": [
+    "Which of the following halides cannot be hydrolysed?"
+  ],
+  "choices": [
+    [
+      "<katex>$CCl_{4}$</katex>"
+    ],
+    [
+      "<katex>$SiCl_{4}$</katex>"
+    ],
+    [
+      "<katex>$GeCl_{4}$</katex>"
+    ],
+    [
+      "<katex>$SnCl_{4}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "CCl4 cannot be hydrolysed because Carbon lacks d-orbitals to accept the lone pair from water."
+  ],
+  "years": [
+    2024
+  ]
+}

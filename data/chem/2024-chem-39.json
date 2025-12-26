@@ -1,0 +1,28 @@
+{
+  "id": "2024-chem-39",
+  "question": [
+    "Vapour pressure of a solution containing 18 g of glucose and 178.2 g of water at <katex>$100^{\\circ}C$</katex> is:",
+    "(Vapour pressure of pure water at <katex>$100^{\\circ}C=760$</katex> torr)"
+  ],
+  "choices": [
+    [
+      "76.0 torr"
+    ],
+    [
+      "752.4 torr"
+    ],
+    [
+      "7.6 torr"
+    ],
+    [
+      "3207.6 torr"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Moles Glucose = 18/180 = 0.1. Moles Water = 178.2/18 = 9.9. Mole fraction water = 9.9/10 = 0.99. VP = 760 * 0.99 = 752.4 torr."
+  ],
+  "years": [
+    2024
+  ]
+}

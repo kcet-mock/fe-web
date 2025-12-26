@@ -1,0 +1,33 @@
+{
+  "id": "2024-chem-18",
+  "question": [
+    "In the following scheme of reaction,",
+    "<katex>$C_2H_5Cl \\xrightarrow{X} C_2H_5F$</katex>",
+    "<katex>$C_2H_5Cl \\xrightarrow{Y} CH_2=CH_2$</katex>",
+    "<katex>$C_2H_5Cl \\xrightarrow{Z} C_4H_{10}$</katex>",
+    "X, Y and Z respectively are:"
+  ],
+  "choices": [
+    [
+      "AgF, alcoholic KOH and benzene"
+    ],
+    [
+      "HF, aqueous KOH and Na in dry ether"
+    ],
+    [
+      "<katex>$Hg_{2}F_{2}$</katex>, alcoholic KOH and Na in dry ether"
+    ],
+    [
+      "<katex>$CoF_{2}$</katex> aqueous KOH and benzene"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "X: Swarts reaction (<katex>$Hg_2F_2$</katex>).",
+    "Y: Dehydrohalogenation (Alcoholic KOH).",
+    "Z: Wurtz reaction (Na in dry ether)."
+  ],
+  "years": [
+    2024
+  ]
+}

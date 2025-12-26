@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-27",
+  "question": [
+    "In the analysis of III group basic radicals of salts, the purpose of adding <katex>$NH_{4}Cl_{(s)}$</katex> to <katex>$NH_{4}OH$</katex> is:"
+  ],
+  "choices": [
+    [
+      "To increase the concentration of OH ions."
+    ],
+    [
+      "To precipitate the radicals of group IV and V."
+    ],
+    [
+      "To suppress the dissociation of <katex>$NH_{4}OH.$</katex>"
+    ],
+    [
+      "To introduce Cl ions."
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Common ion effect suppresses OH- concentration to only precipitate Group III hydroxides."
+  ],
+  "years": [
+    2024
+  ]
+}

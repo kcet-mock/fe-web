@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-47",
+  "question": [
+    "Which one of the following does not represent Arrhenius equation?"
+  ],
+  "choices": [
+    [
+      "<katex>$log~k=log~A-\\frac{Ea}{2.303~RT}$</katex>"
+    ],
+    [
+      "<katex>$k=A~e^{-Ea/RT}$</katex>"
+    ],
+    [
+      "<katex>$ln~k=-\\frac{Ea}{RT}+ln~A$</katex>"
+    ],
+    [
+      "<katex>$k=A~e^{Ea/RT}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The exponent must be negative (-Ea/RT)."
+  ],
+  "years": [
+    2024
+  ]
+}

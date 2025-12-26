@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-58",
+  "question": [
+    "Which of the following statements related to lanthanoids is incorreect?"
+  ],
+  "choices": [
+    [
+      "Lanthanoids are silvery white soft metals"
+    ],
+    [
+      "Samarium shows +2 oxidation state"
+    ],
+    [
+      "<katex>$Ce^{+4}$</katex> solutions are widely used as oxidising agents in titrimetric analysis"
+    ],
+    [
+      "Colour of Lanthanoid ion in solution is due to d-d transition"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Colour of Lanthanoid ions is due to f-f transitions, not d-d."
+  ],
+  "years": [
+    2024
+  ]
+}

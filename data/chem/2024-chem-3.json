@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-3",
+  "question": [
+    "Identify the incorrect statement from the following:"
+  ],
+  "choices": [
+    [
+      "Oxides of nitrogen in the atmosphere can cause depletion of the ozone layer"
+    ],
+    [
+      "Ozone absorbs the intense ultraviolet radiation of Sun"
+    ],
+    [
+      "Depletion of ozone layer is because of its chemical reactions with chlorofluoro alkanes"
+    ],
+    [
+      "Ozone absorbs infrared radiation"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "While ozone is a greenhouse gas and does absorb IR, in the context of stratospheric chemistry questions, this is often the target 'incorrect' statement compared to its primary role of UV absorption, or strictly speaking, it absorbs UV more significantly for its protective layer role."
+  ],
+  "years": [
+    2024
+  ]
+}

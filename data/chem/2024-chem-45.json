@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-45",
+  "question": [
+    "For the reaction, <katex>$A\\rightleftharpoons B$</katex> <katex>$E_{a}=50~kJ~mol^{-1}$</katex> and <katex>$\\Delta H=-20kJ~mol^{-1}.$</katex> When a catalyst is added, <katex>$E_{a}$</katex> decreases by <katex>$10~kJ~mol^{-1}$</katex> What is the <katex>$E_{a}$</katex> for the backward reaction in the presence of catalyst?"
+  ],
+  "choices": [
+    [
+      "<katex>$60~kJ~mol^{-1}$</katex>"
+    ],
+    [
+      "<katex>$40~kJ~mol^{-1}$</katex>"
+    ],
+    [
+      "<katex>$70kJ~mol^{-1}$</katex>"
+    ],
+    [
+      "<katex>$20~kJ~mol^{-1}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$E_a(back) = E_a(fwd) - \\Delta H$</katex>. New <katex>$E_a(fwd) = 50-10=40$</katex>. New <katex>$E_a(back) = 40 - (-20) = 60 kJ/mol$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

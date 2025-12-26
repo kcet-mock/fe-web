@@ -1,0 +1,29 @@
+{
+  "id": "2024-chem-55",
+  "question": [
+    "From the diagram",
+    "images/2024-chem-55-1.png",
+    "<katex>$\\Delta H$</katex> for the reaction <katex>$C\\rightarrow A$</katex> is"
+  ],
+  "choices": [
+    [
+      "+35J"
+    ],
+    [
+      "-15J"
+    ],
+    [
+      "-35J"
+    ],
+    [
+      "+15J"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hess's Law: <katex>$\\Delta H(A \\rightarrow C) = \\Delta H(A \\rightarrow 2B) + \\Delta H(2B \\rightarrow C) = 10 + 25 = 35$</katex>. So <katex>$\\Delta H(C \\rightarrow A) = -35 J$</katex>."
+  ],
+  "years": [
+    2024
+  ]
+}

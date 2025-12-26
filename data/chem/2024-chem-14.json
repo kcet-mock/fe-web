@@ -1,0 +1,28 @@
+{
+  "id": "2024-chem-14",
+  "question": [
+    "Which of the following set of polymers are used as fibre?",
+    "(i) Teflon (ii) Starch (iii) Terylene (iv) Orlon"
+  ],
+  "choices": [
+    [
+      "(i) and (ii)"
+    ],
+    [
+      "(ii) and (iii)"
+    ],
+    [
+      "(iii) and (iv)"
+    ],
+    [
+      "(i) and (iv)"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Terylene (Polyester) and Orlon (Polyacrylonitrile) are used as fibres."
+  ],
+  "years": [
+    2024
+  ]
+}

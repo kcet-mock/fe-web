@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-35",
+  "question": [
+    "The first chlorinated organic insecticide prepared is:"
+  ],
+  "choices": [
+    [
+      "Gammexane"
+    ],
+    [
+      "Chloroform"
+    ],
+    [
+      "<katex>$COCl_{2}$</katex>"
+    ],
+    [
+      "DDT"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "DDT was the first chlorinated organic insecticide."
+  ],
+  "years": [
+    2024
+  ]
+}

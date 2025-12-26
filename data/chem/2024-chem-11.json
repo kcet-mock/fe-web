@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-11",
+  "question": [
+    "The female sex hormone which is responsible for the development of secondary female characteristics and participates in the control of menstrual cycle is:"
+  ],
+  "choices": [
+    [
+      "Testosterone"
+    ],
+    [
+      "Estradiol"
+    ],
+    [
+      "Insulin"
+    ],
+    [
+      "Thyroxine"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Estradiol is the primary female sex hormone."
+  ],
+  "years": [
+    2024
+  ]
+}

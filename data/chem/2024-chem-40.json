@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-40",
+  "question": [
+    "A mixture of phenol and aniline shows negative deviation from Raoult's law. This is due to the formation of:"
+  ],
+  "choices": [
+    [
+      "Polar covalent bond"
+    ],
+    [
+      "Non-polar covalent bond"
+    ],
+    [
+      "Intermolecular Hydrogen bond"
+    ],
+    [
+      "Intramolecular Hydrogen bond"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Strong intermolecular hydrogen bonding between Phenol and Aniline causes negative deviation."
+  ],
+  "years": [
+    2024
+  ]
+}

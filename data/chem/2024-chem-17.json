@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-17",
+  "question": [
+    "Which one of the following is a cationic detergent?"
+  ],
+  "choices": [
+    [
+      "Cetyltrimethylammonium bromide"
+    ],
+    [
+      "Sodium dodecylbenzene sulphonate"
+    ],
+    [
+      "Dodecylbenzene sulphonic acid"
+    ],
+    [
+      "Dodecylbenzene"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Cetyltrimethylammonium bromide is a quaternary ammonium salt and a cationic detergent."
+  ],
+  "years": [
+    2024
+  ]
+}

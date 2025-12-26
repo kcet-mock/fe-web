@@ -1,0 +1,27 @@
+{
+  "id": "2024-chem-4",
+  "question": [
+    "Gold sol in not a :"
+  ],
+  "choices": [
+    [
+      "Macromolecular colloid"
+    ],
+    [
+      "Lyophobic colloid"
+    ],
+    [
+      "Multimolecular colloid"
+    ],
+    [
+      "Negatively charged colloid"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Gold sol is a multimolecular colloid (aggregates of atoms), lyophobic, and negatively charged. It is **not** a macromolecular colloid (like starch or proteins)."
+  ],
+  "years": [
+    2024
+  ]
+}
