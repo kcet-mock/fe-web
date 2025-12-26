@@ -101,11 +101,12 @@ For non-year-based or random questions, use a valid UUID v4:
 
 1. **Array-based Content**: All content fields (`question`, `choices`, `explanation`) are arrays, even if they contain only text
 2. **Mixed Content**: Strings and image paths can be intermixed in any order within these arrays
-3. **Image Path Format**: Always use `"images/{uuid}.png"` format for image references
-4. **Choices Structure**: Each choice must be an array (even single-text choices like `["Text"]`)
-5. **Zero-indexed Answers**: Answer indices start at 0 (0-3 for four choices)
-6. **Math/LaTeX Content**: Wrap mathematical expressions in `<katex>` tags with LaTeX inside `$` or `$$`
-7. **Markdown Support**: Text content supports Markdown formatting including tables, lists, bold, italic, etc.
+3. **Table Format**: If a table is present in a question, choice, or explanation, the entire table **must be included as a single string** within the array (do not split table rows or lines into separate array elements).
+4. **Image Path Format**: Always use `"images/{uuid}.png"` format for image references
+5. **Choices Structure**: Each choice must be an array (even single-text choices like `["Text"]`)
+6. **Zero-indexed Answers**: Answer indices start at 0 (0-3 for four choices)
+7. **Math/LaTeX Content**: Wrap mathematical expressions in `<katex>` tags with LaTeX inside `$` or `$$`
+8. **Markdown Support**: Text content supports Markdown formatting including tables, lists, bold, italic, etc.
 
 ### Markdown Support
 
