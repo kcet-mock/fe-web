@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-34",
+  "question": [
+    "Identify the incorrect statement regarding the flow of energy between various components of the food chain."
+  ],
+  "choices": [
+    [
+      "Green plants capture about 10% of the solar energy that falls on leaves."
+    ],
+    [
+      "The amount of energy available at each trophic level is 10% of previous trophic level."
+    ],
+    [
+      "Each trophic level loses some energy as heat to the environment."
+    ],
+    [
+      "Energy flow is unidirectional."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Green plants capture only about 1% (not 10%) of the solar energy that falls on their leaves to convert it into food energy (GPP). The 10% law applies to energy transfer between trophic levels."
+  ],
+  "years": [
+    2023
+  ]
+}

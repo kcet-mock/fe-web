@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-42",
+  "question": [
+    "The function of Typhlosole in earthworm is"
+  ],
+  "choices": [
+    [
+      "Transportation"
+    ],
+    [
+      "Grinding of soil particles"
+    ],
+    [
+      "Increasing the effective area of absorption in the intestine"
+    ],
+    [
+      "Grinding of decaying leaves"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The typhlosole is a dorsal internal fold of the intestine in earthworms that increases the effective surface area for absorption."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-18",
+  "question": [
+    "Darwin's finches represent one of the best examples of"
+  ],
+  "choices": [
+    [
+      "Adaptive radiation"
+    ],
+    [
+      "Chemical evolution"
+    ],
+    [
+      "Genetic equilibrium"
+    ],
+    [
+      "Seasonal migration"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Darwin's finches are a classic example of adaptive radiation, where different species evolved from a common ancestor to adapt to different feeding niches."
+  ],
+  "years": [
+    2025
+  ]
+}

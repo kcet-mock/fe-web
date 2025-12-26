@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-41",
+  "question": [
+    "When the vascular cambium is present between the xylem and phloem, then the vascular bundle is called"
+  ],
+  "choices": [
+    [
+      "Endarch"
+    ],
+    [
+      "Exarch"
+    ],
+    [
+      "Closed"
+    ],
+    [
+      "Open"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Vascular bundles with cambium between xylem and phloem are called open vascular bundles because they are capable of secondary growth."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-34",
+  "question": [
+    "Choose the correct sequence of steps involved in decomposition"
+  ],
+  "choices": [
+    [
+      "Fragmentation → Leaching → Catabolism → Mineralisation → Humification"
+    ],
+    [
+      "Fragmentation → Mineralisation → Humification → Leaching → Catabolism"
+    ],
+    [
+      "Fragmentation → Leaching → Catabolism → Humification → Mineralisation"
+    ],
+    [
+      "Fragmentation → Catabolism → Leaching → Humification → Mineralisation"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The process generally follows: Fragmentation → Leaching → Catabolism → Humification → Mineralisation."
+  ],
+  "years": [
+    2025
+  ]
+}

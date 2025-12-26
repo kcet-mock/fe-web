@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-10",
+  "question": [
+    "How many types of gametes will be formed by a parent with genotype 'AaBbCc'?"
+  ],
+  "choices": [
+    [
+      "4"
+    ],
+    [
+      "8"
+    ],
+    [
+      "12"
+    ],
+    [
+      "6"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The number of gamete types is calculated using the formula <katex>$2^n$</katex>, where n is the number of heterozygous loci. Here, there are 3 heterozygous pairs (Aa, Bb, Cc), so <katex>$n=3$</katex>. <katex>$2^3 = 8$</katex>."
+  ],
+  "years": [
+    2025
+  ]
+}

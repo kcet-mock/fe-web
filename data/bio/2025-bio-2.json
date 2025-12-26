@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-2",
+  "question": [
+    "Fusion of a male gamete with the central cell in the embryo sac of an angiosperm is called ......"
+  ],
+  "choices": [
+    [
+      "Triple fusion"
+    ],
+    [
+      "Syngamy"
+    ],
+    [
+      "Apomixis"
+    ],
+    [
+      "Double fertilization"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In angiosperms, one male gamete fuses with the egg cell (syngamy) and the other male gamete fuses with the two polar nuclei (secondary nucleus) in the central cell to produce a triploid primary endosperm nucleus (PEN). This fusion is called triple fusion."
+  ],
+  "years": [
+    2025
+  ]
+}

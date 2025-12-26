@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-38",
+  "question": [
+    "Match the column-I with column-II and choose the correct option from the following:",
+    "| Column - I (Plant groups) | Column - II (Examples) |",
+    "|---|---|",
+    "| 1. Bryophyta | p. Pinus |",
+    "| 2. Gymnosperm | q. Adiantum |",
+    "| 3. Algae | r. Sphagnum |",
+    "| 4. Pteridophyta | s. Ectocarpus |"
+  ],
+  "choices": [
+    [
+      "<katex>$1-q, 2-p, 3-s, 4-r$</katex>"
+    ],
+    [
+      "<katex>$1-s, 2-r, 3-q, 4-p$</katex>"
+    ],
+    [
+      "<katex>$1-r, 2-q, 3-p, 4-s$</katex>"
+    ],
+    [
+      "<katex>$1-r, 2-p, 3-s, 4-q$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Bryophyta -> Sphagnum (r). Gymnosperm -> Pinus (p). Algae -> Ectocarpus (s). Pteridophyta -> Adiantum (q)."
+  ],
+  "years": [
+    2023
+  ]
+}

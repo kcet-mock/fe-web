@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-32",
+  "question": [
+    "Which one of the following population attributes, contributes to increase in population density?"
+  ],
+  "choices": [
+    [
+      "Mortality and Emmigration"
+    ],
+    [
+      "Natality and Emmigration"
+    ],
+    [
+      "Mortality and Immigration"
+    ],
+    [
+      "Natality and Immigration"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Natality (births) and Immigration (incoming individuals) contribute to an increase in population density."
+  ],
+  "years": [
+    2025
+  ]
+}

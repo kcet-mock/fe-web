@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-12",
+  "question": [
+    "A colourblind man marries a carrier woman. The percentage of their colourblind progeny in the next generation will be"
+  ],
+  "choices": [
+    [
+      "50%"
+    ],
+    [
+      "75%"
+    ],
+    [
+      "100%"
+    ],
+    [
+      "25%"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Man: <katex>$X^cY$</katex>, Woman: <katex>$X^CX^c$</katex> (Carrier). Offspring: <katex>$X^CX^c$</katex> (Carrier daughter), <katex>$X^cX^c$</katex> (Colourblind daughter), <katex>$X^CY$</katex> (Normal son), <katex>$X^cY$</katex> (Colourblind son). Total colourblind progeny = 2 out of 4 = 50%."
+  ],
+  "years": [
+    2025
+  ]
+}

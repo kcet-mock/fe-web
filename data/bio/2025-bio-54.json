@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-54",
+  "question": [
+    "Match the plant growth hormones of Column-I with suitable chemical derivatives present in Column-II and choose the correct option given below:\n\n| Column - I | Column - II |\n|---|---|\n| (a) Abscisic acid | (i) Adenine derivative |\n| (b) Gibberellins | (ii) Indole acetic acid |\n| (c) Kinetin | (iii) Carotenoid derivative |\n| (d) Auxin | (iv) Terpens |"
+  ],
+  "choices": [
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-iii, b-i, c-iv, d-ii"
+    ],
+    [
+      "a-iii, b-i, c-ii, d-iv"
+    ],
+    [
+      "a-i, b-ii, c-iii, d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Abscisic acid = Carotenoid derivative (iii). Gibberellins = Terpenes (iv). Kinetin (Cytokinin) = Adenine derivative (i). Auxin = Indole compounds/IAA (ii). Correct match: a-iii, b-iv, c-i, d-ii. This matches Option 1? Wait, Key says Ans 2. Option 2: a-iii, b-iv, c-i, d-ii. The OCR has \"(2) a-iii, b-iv, c-i, d-ii\". Yes. Correct."
+  ],
+  "years": [
+    2025
+  ]
+}

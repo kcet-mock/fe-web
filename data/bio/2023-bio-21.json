@@ -1,0 +1,28 @@
+{
+  "id": "2023-bio-21",
+  "question": [
+    "Four students were assigned a science project to find out the pollution levels of lakes in their surrounding. After analysing the quality of water samples, the BOD values were found as follows:",
+    "Which among the following water samples is highly polluted?"
+  ],
+  "choices": [
+    [
+      "<katex>$6~mg/L$</katex>"
+    ],
+    [
+      "<katex>$0.6~mg/L$</katex>"
+    ],
+    [
+      "<katex>$0.16~mg/L$</katex>"
+    ],
+    [
+      "<katex>$0.06~mg/L$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Biochemical Oxygen Demand (BOD) is a measure of organic pollution. The higher the BOD, the more polluted the water. <katex>$6~mg/L$</katex> is the highest value among the options."
+  ],
+  "years": [
+    2023
+  ]
+}

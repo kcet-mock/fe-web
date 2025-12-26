@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-1",
+  "question": [
+    "When pollen grains of a flower of a plant pollinate the stigma of flower of another plant, it is called"
+  ],
+  "choices": [
+    [
+      "Autogamy"
+    ],
+    [
+      "Dichogamy"
+    ],
+    [
+      "Geitonogamy"
+    ],
+    [
+      "Xenogamy"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Xenogamy is the transfer of pollen grains from the anther to the stigma of a different plant. This is the only type of pollination which during pollination brings genetically different types of pollen grains to the stigma."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-4",
+  "question": [
+    "Which of the following statements is correct?"
+  ],
+  "choices": [
+    [
+      "Sickle cell anaemia is a quantitative problem."
+    ],
+    [
+      "Thalassemia is a qualitative problem."
+    ],
+    [
+      "Female carrier for haemophilia may transmit the disease to sons."
+    ],
+    [
+      "Change in whole set of chromosomes is called aneuploidy."
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Haemophilia is an X-linked recessive disorder. A carrier female (heterozygous) can transmit the defective X chromosome to her sons, causing the disease."
+  ],
+  "years": [
+    2023
+  ]
+}

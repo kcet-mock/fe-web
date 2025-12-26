@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-46",
+  "question": [
+    "Match the Column-I with Column-II and choose the correct option:\n\n| Column-I (Characteristics of vascular bundle) | Column-II (Transverse section) |\n|---|---|\n| a. Radial, tetrarch, cambial ring between xylem and phloem at later stages | i. T.S of monocot stem |\n| b. Conjoint, open and endarch | ii. T.S of dicot root |\n| c. Radial, polyarch, large pith without cambial ring | iii. T.S of dicot stem |\n| d. Conjoint, closed with sclerenchymatous bundle sheath | iv. T.S of monocot root |"
+  ],
+  "choices": [
+    [
+      "a-ii, b-iii, c-iv, d-i"
+    ],
+    [
+      "a-ii, b-iv, c-iii, d-i"
+    ],
+    [
+      "a-iii, b-iv, c-i, d-ii"
+    ],
+    [
+      "a-i, b-ii, c-iii,d-iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "a (Radial, tetrarch) -> ii (Dicot root). b (Conjoint, open) -> iii (Dicot stem). c (Radial, polyarch) -> iv (Monocot root - correction, text says Monocot Stem in option? No, Polyarch is Monocot Root. The option 'iv' is likely Monocot Root in correct biology). d (Conjoint, closed) -> i (Monocot stem). Matches option 2."
+  ],
+  "years": [
+    2025
+  ]
+}

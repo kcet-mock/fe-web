@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-27",
+  "question": [
+    "The part of plasmid that codes for proteins involved in the replication of the PBR322 plasmid is"
+  ],
+  "choices": [
+    [
+      "Selectable marker"
+    ],
+    [
+      "\"rop\""
+    ],
+    [
+      "Cloning site"
+    ],
+    [
+      "Ori site"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The 'rop' gene codes for the proteins involved in the replication of the plasmid."
+  ],
+  "years": [
+    2025
+  ]
+}

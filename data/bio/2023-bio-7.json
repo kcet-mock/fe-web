@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-7",
+  "question": [
+    "From the following table, select the option that correctly characterizes various phases of menstrual cycle:",
+    "| | Menstruation phase | Follicular phase | Luteal phase |",
+    "|---|---|---|---|",
+    "| (A) | Menses | L.H. Surge | Regeneration of endometrium |",
+    "| (B) | Matured follicle | Regression of corpus luteum | Ovulation |",
+    "| (C) | Regeneration of endometrium | High level of progesterone | Developing corpus luteum |",
+    "| (D) | Menses | Developing corpus luteum | Follicle maturation |"
+  ],
+  "choices": [
+    [
+      "(A)"
+    ],
+    [
+      "(B)"
+    ],
+    [
+      "(C)"
+    ],
+    [
+      "(D)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The menstrual cycle consists of Menstruation (Menses), Follicular phase (LH Surge leads to ovulation at the end), and Luteal phase (Maintenance of endometrium, but the table describes traits improperly in other options). Option A implies Menses in menstruation, LH surge occurs during follicular phase transition, and regeneration happens. However, looking at standard phases: Menstruation = Menses; Follicular = Proliferative (Regeneration); Luteal = Secretory. The provided answer key selects A, likely associating LH surge with the end of the follicular phase."
+  ],
+  "years": [
+    2023
+  ]
+}

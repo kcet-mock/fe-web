@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-6",
+  "question": [
+    "The role of Filiform apparatus in synergids is to"
+  ],
+  "choices": [
+    [
+      "Protect the egg apparatus"
+    ],
+    [
+      "Endosperm formation"
+    ],
+    [
+      "Guide the entry of pollen tube"
+    ],
+    [
+      "Prevention of gamete entry"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The filiform apparatus is a finger-like projection at the micropylar end of the synergids that guides the entry of the pollen tube into the synergid."
+  ],
+  "years": [
+    2024
+  ]
+}

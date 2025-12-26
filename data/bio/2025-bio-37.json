@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-37",
+  "question": [
+    "Species diversity ______ as we move away from the ______ towards ______."
+  ],
+  "choices": [
+    [
+      "Decreases, Equator, Poles"
+    ],
+    [
+      "Decreases, Poles, Equator"
+    ],
+    [
+      "Stable, Equator, Poles"
+    ],
+    [
+      "Increases, Equator, Poles"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Species diversity generally decreases as we move away from the Equator towards the Poles."
+  ],
+  "years": [
+    2025
+  ]
+}

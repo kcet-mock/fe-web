@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-49",
+  "question": [
+    "Function of contractile vacuole in Amoeba is"
+  ],
+  "choices": [
+    [
+      "Osmoregulation and movements"
+    ],
+    [
+      "Excretion and osmoregulation"
+    ],
+    [
+      "Digestion and excretion"
+    ],
+    [
+      "Digestion and respiration"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The contractile vacuole in Amoeba plays a key role in osmoregulation and also helps in excretion."
+  ],
+  "years": [
+    2023
+  ]
+}

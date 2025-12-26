@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-6",
+  "question": [
+    "Select the mismatched pair:"
+  ],
+  "choices": [
+    [
+      "First month of pregnancy - Formation of heart"
+    ],
+    [
+      "Second month of pregnancy - Movement of foetus"
+    ],
+    [
+      "Third month of pregnancy - Formation of most of the major organ systems"
+    ],
+    [
+      "Six month of pregnancy - Eye lids separate and eye lashes are found"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to the provided answer key, option 1 is the mismatched pair. Note: Biologically, the heart forms after the first month. However, the movement of the fetus is typically observed during the fifth month, making option 2 also factually incorrect in standard contexts, but the key indicates 1."
+  ],
+  "years": [
+    2025
+  ]
+}

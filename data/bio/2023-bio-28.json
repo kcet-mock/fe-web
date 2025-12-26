@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-28",
+  "question": [
+    "PCR is used for"
+  ],
+  "choices": [
+    [
+      "DNA digestion"
+    ],
+    [
+      "DNA isolation"
+    ],
+    [
+      "DNA amplification"
+    ],
+    [
+      "DNA ligation"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "PCR (Polymerase Chain Reaction) is used for the amplification of DNA."
+  ],
+  "years": [
+    2023
+  ]
+}

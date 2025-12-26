@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-26",
+  "question": [
+    "Generally, bears avoid winter by undergoing"
+  ],
+  "choices": [
+    [
+      "Aestivation"
+    ],
+    [
+      "Diapause"
+    ],
+    [
+      "Migration"
+    ],
+    [
+      "Hibernation"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Bears go into hibernation during winter to escape the cold."
+  ],
+  "years": [
+    2023
+  ]
+}

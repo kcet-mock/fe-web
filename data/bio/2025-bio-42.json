@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-42",
+  "question": [
+    "Match Column-I with Column-II and choose the correct option given below:\n\n| Column-I (Bacteria) | Column-II (Shape) |\n|---|---|\n| a. Coccus | i. Rod-shaped |\n| b. Bacillus | ii. Spiral |\n| c. Vibrium | iii. Spherical |\n| d. Spirillum | iv. Comma-shaped |"
+  ],
+  "choices": [
+    [
+      "a-iii, b-i, c-iv, d-ii"
+    ],
+    [
+      "a-iii, b-ii, c-iv, d-i"
+    ],
+    [
+      "a-iv, b-iii, c-ii, d-i"
+    ],
+    [
+      "a-iv, b-i, c-ii, d-iii"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Coccus = Spherical (iii). Bacillus = Rod-shaped (i). Vibrium = Comma-shaped (iv). Spirillum = Spiral (ii)."
+  ],
+  "years": [
+    2025
+  ]
+}

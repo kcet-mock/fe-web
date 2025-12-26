@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-60",
+  "question": [
+    "The term Uremia refers to"
+  ],
+  "choices": [
+    [
+      "Accumulation of Urea in blood."
+    ],
+    [
+      "Presence of Glucose in the urine."
+    ],
+    [
+      "Accumulation of Uric acid in blood."
+    ],
+    [
+      "Accumulation of Uric acid in kidneys."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Uremia is the condition characterized by the accumulation of urea in the blood, often due to kidney malfunction."
+  ],
+  "years": [
+    2024
+  ]
+}

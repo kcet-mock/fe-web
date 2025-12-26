@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-2",
+  "question": [
+    "The functional unit of contraction is a"
+  ],
+  "choices": [
+    [
+      "Portion of myofibril between two successive Z-lines"
+    ],
+    [
+      "Portion of myofibril between two successive M-lines"
+    ],
+    [
+      "Centre of the H-zone"
+    ],
+    [
+      "Centre of the I-band"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The functional unit of contraction in a muscle fibre is the sarcomere, which is defined as the portion of the myofibril between two successive Z-lines."
+  ],
+  "years": [
+    2024
+  ]
+}

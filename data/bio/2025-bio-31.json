@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-31",
+  "question": [
+    "Some strains of Bacillus thuringiensis produce proteins that kill insects. Which one of the following is not killed by proteins of Bacillus thuringiensis?"
+  ],
+  "choices": [
+    [
+      "Armyworm"
+    ],
+    [
+      "Cotton bollworm"
+    ],
+    [
+      "Tapeworm"
+    ],
+    [
+      "Tobacco budworm"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Bt toxins target specific insect groups like lepidopterans (bollworms, armyworms), coleopterans (beetles), and dipterans (flies/mosquitoes). Tapeworm is a platyhelminth (worm), not an insect, and is not affected."
+  ],
+  "years": [
+    2025
+  ]
+}

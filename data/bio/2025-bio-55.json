@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-55",
+  "question": [
+    "The respiratory mechanism controlled by medulla oblongata can be altered by"
+  ],
+  "choices": [
+    [
+      "Chemosensitive area in the medulla"
+    ],
+    [
+      "Both Pneumotaxic and Chemosensitive areas of pons and medulla oblongata"
+    ],
+    [
+      "Corpus callosum of brain"
+    ],
+    [
+      "Pneumotaxic center in the pons"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The Pneumotaxic center in the pons can moderate the functions of the respiratory rhythm center (in the medulla) to alter the respiratory rate."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2024-bio-40",
+  "question": [
+    "Match the type of adaptation given in List I with their examples given in List II.\n\n| List I (Type of adaptation) | List II (Examples) |\n|---|---|\n| 1. Biochemical adaptation | p. Desert lizards |\n| 2. Behavioural adaptation | q. Deep sea fishes |\n| 3. Physiological adaptation | r. Opuntia |\n| 4. Morphological adaptation | s. Kangaroo rats |"
+  ],
+  "choices": [
+    [
+      "1-q, 2-r, 3-s, 4-p"
+    ],
+    [
+      "1-p, 2-q, 3-r, 4-s"
+    ],
+    [
+      "1-q, 2-p, 3-s, 4-r"
+    ],
+    [
+      "1-s, 2-r, 3-q, 4-p"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "1. Biochemical: Deep sea fishes (q) withstand pressure.",
+    "2. Behavioural: Desert lizards (p) bask in sun.",
+    "3. Physiological: Kangaroo rats (s) internal fat oxidation for water.",
+    "4. Morphological: Opuntia (r) spines/leaves."
+  ],
+  "years": [
+    2024
+  ]
+}

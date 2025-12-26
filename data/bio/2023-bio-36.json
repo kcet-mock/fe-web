@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-36",
+  "question": [
+    "Match the following columns and choose the correct option:",
+    "| Column - I | Column - II |",
+    "|---|---|",
+    "| 1. Haemophilus influenzae | p. Malignant malaria |",
+    "| 2. Entamoeba histolytica | q. Elephantiasis |",
+    "| 3. Plasmodium falciparum | r. Pneumonia |",
+    "| 4. Wuchereria bancrofti | s. Amoebiasis |"
+  ],
+  "choices": [
+    [
+      "<katex>$1-s, 2-p, 3-q, 4-r$</katex>"
+    ],
+    [
+      "<katex>$1-q, 2-r, 3-s, 4-p$</katex>"
+    ],
+    [
+      "<katex>$1-r, 2-p, 3-q, 4-s$</katex>"
+    ],
+    [
+      "<katex>$1-r, 2-s, 3-p, 4-q$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Haemophilus influenzae (1) -> Pneumonia (r). Entamoeba histolytica (2) -> Amoebiasis (s). Plasmodium falciparum (3) -> Malignant malaria (p). Wuchereria bancrofti (4) -> Elephantiasis (q)."
+  ],
+  "years": [
+    2023
+  ]
+}

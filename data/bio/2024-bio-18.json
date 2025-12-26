@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-18",
+  "question": [
+    "Following representation P, Q and R denote few steps of Griffith Experiment. Identify the correct one(s).\n\nP. R strain -> Inject into mice -> Mice die\nQ. S strain (Heat killed) -> Inject into mice -> Mice die\nR. R strain -> Inject into mice -> Mice live"
+  ],
+  "choices": [
+    [
+      "P only"
+    ],
+    [
+      "R only"
+    ],
+    [
+      "P and R"
+    ],
+    [
+      "Q and R"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In Griffith's experiment:\n- R strain (Rough, non-virulent) -> Mice live (Statement R is Correct).\n- S strain (Smooth, virulent) -> Mice die.\n- R strain -> Mice die is incorrect (P is incorrect).\n- Heat-killed S strain -> Mice live (Statement Q is incorrect)."
+  ],
+  "years": [
+    2024
+  ]
+}

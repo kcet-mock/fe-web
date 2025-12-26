@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-43",
+  "question": [
+    "Select the correctly matched pair of organisms with their order."
+  ],
+  "choices": [
+    [
+      "Homo sapiens : Poales"
+    ],
+    [
+      "Triticum aestivum : Sapindales"
+    ],
+    [
+      "Mangifera indica : Primata"
+    ],
+    [
+      "Musca domestica : Diptera"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Homo sapiens - Primata. Triticum aestivum - Poales. Mangifera indica - Sapindales. Musca domestica (Housefly) - Diptera."
+  ],
+  "years": [
+    2023
+  ]
+}

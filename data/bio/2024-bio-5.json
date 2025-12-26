@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-5",
+  "question": [
+    "When male and female gametes are morphologically distinct, the condition is known as"
+  ],
+  "choices": [
+    [
+      "Homogametes"
+    ],
+    [
+      "Heterogametes"
+    ],
+    [
+      "Hermaphrodites"
+    ],
+    [
+      "Sexual dimorphism"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "When the two gametes are morphologically distinct (different in size/shape), they are called heterogametes (e.g., sperm and ovum)."
+  ],
+  "years": [
+    2024
+  ]
+}

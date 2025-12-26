@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-9",
+  "question": [
+    "Read the following statements:\n\nStatement I: MTP is to get rid off wanted pregnancies due to a causal unprotected intercourse or failure of contraceptives used during coitus or rapes\nStatement II: MTPs are performed legally by qualified doctors by giving proper medical justification\n\nChoose the correct answer from the options given below :"
+  ],
+  "choices": [
+    [
+      "Statements I and II are incorrect"
+    ],
+    [
+      "Statement I is correct but Statement II is incorrect"
+    ],
+    [
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    [
+      "Statements I and II are correct"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Statement I is incorrect because MTP is used to get rid of *unwanted* pregnancies, not wanted ones. Statement II is correct regarding the legal performance by qualified doctors."
+  ],
+  "years": [
+    2025
+  ]
+}

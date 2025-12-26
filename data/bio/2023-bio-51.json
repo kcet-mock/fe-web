@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-51",
+  "question": [
+    "The vibrations from the ear drum are transmitted through ear ossicles to"
+  ],
+  "choices": [
+    [
+      "Tectorial membrane"
+    ],
+    [
+      "Cochlea"
+    ],
+    [
+      "Auditory nerves"
+    ],
+    [
+      "Oval window"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Vibrations are transmitted from the eardrum to the malleus, incus, and stapes (ossicles), and finally to the oval window (fenestra ovalis)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2025-bio-45",
+  "question": [
+    "Identify the types of aestivation in corolla labeled as 'a', 'b', 'c' and 'd'",
+    "images/2025-bio-45-1.png"
+  ],
+  "choices": [
+    [
+      "a-Imbricate, b-Valvate, c-Vexillary, d-Twisted"
+    ],
+    [
+      "a-Vexillary, b-Imbricate, c-Twisted, d- Valvate"
+    ],
+    [
+      "a- Vexillary, b-Imbricate, c- Valvate, d- Twisted"
+    ],
+    [
+      "a- Vexillary, b- Twisted, c- Imbricate, d- Valvate"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Diagram 'a' is Vexillary (large standard petal). 'b' is Imbricate (overlapping margins but not regular). 'c' is Twisted (regular overlap). 'd' is Valvate (touching, no overlap). Sequence: Vexillary, Imbricate, Twisted, Valvate."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-47",
+  "question": [
+    "Toxicity of which micronutrient induces deficiency of iron, magnesium and calcium?"
+  ],
+  "choices": [
+    [
+      "Manganese"
+    ],
+    [
+      "Zinc"
+    ],
+    [
+      "Boron"
+    ],
+    [
+      "Molybdenum"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Manganese toxicity inhibits calcium translocation to shoot apex and competes with iron and magnesium for uptake and binding, thus inducing deficiencies of Fe, Mg, and Ca."
+  ],
+  "years": [
+    2023
+  ]
+}

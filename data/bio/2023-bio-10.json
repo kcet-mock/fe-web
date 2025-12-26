@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-10",
+  "question": [
+    "Eukaryotic genes are monocistronic but they are split genes because"
+  ],
+  "choices": [
+    [
+      "Exons are interrupted by Introns."
+    ],
+    [
+      "They contain Exons only."
+    ],
+    [
+      "Introns are interrupted with Mutons."
+    ],
+    [
+      "They contain Introns only."
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Eukaryotic genes are split genes because the coding sequences (exons) are interrupted by non-coding sequences (introns)."
+  ],
+  "years": [
+    2023
+  ]
+}

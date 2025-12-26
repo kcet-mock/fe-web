@@ -1,0 +1,28 @@
+{
+  "id": "2025-bio-3",
+  "question": [
+    "Which of these options is true in the context of the above diagram of pollen grain ?",
+    "images/2025-bio-3-1.png"
+  ],
+  "choices": [
+    [
+      "'A' is a vegetative cell which gives rise to male gametes and 'B' is a generative cell which produces pollen tube"
+    ],
+    [
+      "'A' is a generative cell which gives rise to pollen tube and 'B' is a vegetative cell which form male gametes"
+    ],
+    [
+      "'A' is a vegetative cell with abundant food reserve and 'B' is a generative cell which form male gametes"
+    ],
+    [
+      "'A' is a generative cell which forms male gametes and 'B' is a vegetative cell which produces pollen tube"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In a mature pollen grain, the vegetative cell (A) is bigger, has abundant food reserve, and a large irregularly shaped nucleus. The generative cell (B) is small and floats in the cytoplasm of the vegetative cell. The generative cell divides mitotically to give rise to the two male gametes."
+  ],
+  "years": [
+    2025
+  ]
+}

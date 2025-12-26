@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-14",
+  "question": [
+    "Test cross in Pea plant is"
+  ],
+  "choices": [
+    [
+      "A cross between <katex>$F_{2}$</katex> tall plant and recessive parent"
+    ],
+    [
+      "A cross between <katex>$F_{2}$</katex> dwarf plant and recessive parent"
+    ],
+    [
+      "A cross between <katex>$F_{2}$</katex> tall plant with dominant parent"
+    ],
+    [
+      "A cross between two <katex>$F_{1}$</katex> plants"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A test cross involves crossing an individual with a dominant phenotype (whose genotype is unknown, e.g., from <katex>$F_2$</katex>) with a homozygous recessive parent to determine the unknown genotype."
+  ],
+  "years": [
+    2024
+  ]
+}

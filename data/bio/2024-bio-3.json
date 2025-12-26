@@ -1,0 +1,30 @@
+{
+  "id": "2024-bio-3",
+  "question": [
+    "Match the parts of the brain given in List I with their functions given in List II.\n\n| List I (Parts of the brain) | List II (Functions) |\n|---|---|\n| 1. Medulla oblongata | p. Body temperature |\n| 2. Hypothalamus | q. Olfaction |\n| 3. Cerebral cortex | r. Respiration |\n| 4. Limbic system | s. Motor function |"
+  ],
+  "choices": [
+    [
+      "1-p, 2-r, 3-s, 4-q"
+    ],
+    [
+      "1-q, 2-s, 3-r, 4-p"
+    ],
+    [
+      "1-s, 2-p, 3-q, 4-r"
+    ],
+    [
+      "1-r, 2-p, 3-s, 4-q"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "1. Medulla oblongata controls respiration (r).",
+    "2. Hypothalamus controls body temperature (p).",
+    "3. Cerebral cortex involves motor functions (s) and association areas.",
+    "4. Limbic system is involved in olfaction (q) and emotional regulation."
+  ],
+  "years": [
+    2024
+  ]
+}

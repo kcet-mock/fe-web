@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-11",
+  "question": [
+    "When a single gene exhibits multiple phenotypic expression, the phenomenon is called"
+  ],
+  "choices": [
+    [
+      "Incomplete dominance"
+    ],
+    [
+      "Pleiotropy"
+    ],
+    [
+      "Co-dominance"
+    ],
+    [
+      "Polygenic inheritance"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Pleiotropy occurs when a single gene influences multiple phenotypic traits."
+  ],
+  "years": [
+    2025
+  ]
+}

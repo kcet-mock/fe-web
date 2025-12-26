@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-23",
+  "question": [
+    "Which of these is NOT a method to make host cells 'component' to take up DNA?"
+  ],
+  "choices": [
+    [
+      "Biolistics"
+    ],
+    [
+      "Micro-injection"
+    ],
+    [
+      "Use of disarmed pathogen vectors"
+    ],
+    [
+      "Elution"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Elution is the process of extracting bands of DNA from the agarose gel. It is not a method of transformation or making cells competent. Biolistics, Micro-injection, and using disarmed vectors are methods to introduce DNA into host cells."
+  ],
+  "years": [
+    2023
+  ]
+}

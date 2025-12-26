@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-21",
+  "question": [
+    "In Structural gene, the template DNA strand has nucleotide sequences 3'-ATGCATGCATGCATGC-5'. Find the correct and complimentary nucleotide sequence on coding strand."
+  ],
+  "choices": [
+    [
+      "5'-ATGCATGCATGCATGC-3'"
+    ],
+    [
+      "3'-GCATGCATGCATGCAT-5'"
+    ],
+    [
+      "5'-TACGTACGTACGTACG-3'"
+    ],
+    [
+      "3'-TACGTACGTACGTACG-5'"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The coding strand runs 5' to 3' and is complementary to the template strand (3' to 5').\nTemplate: 3'-A T G C...-5'\nCoding:   5'-T A C G...-3'\nThe sequence matches Option C."
+  ],
+  "years": [
+    2024
+  ]
+}

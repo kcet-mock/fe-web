@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-8",
+  "question": [
+    "In one of the hybridisation experiments, a homozygous dominant parent and a homozygous recessive parent are crossed for a trait. (Plant shows Medelian inheritance pattern)"
+  ],
+  "choices": [
+    [
+      "Dominant parent trait appears in <katex>$F_{1}$</katex> generation and recessive parent trait appears in <katex>$F_{1}$</katex> and <katex>$F_{2}$</katex> generations."
+    ],
+    [
+      "Dominant parent trait appears in <katex>$F_{1}$</katex> generation and recessive parent trait appears in <katex>$F_{2}$</katex> generation."
+    ],
+    [
+      "Dominant parent trait appears in <katex>$F_{2}$</katex> generation and recessive parent trait appears only in <katex>$F_{1}$</katex> generation"
+    ],
+    [
+      "Dominant parent trait appears in both <katex>$F_{1}$</katex> & <katex>$F_{2}$</katex> generations, recessive parent trait appears in only <katex>$F_{2}$</katex> generation."
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In a Mendelian cross (<katex>$TT \\times tt$</katex>), the <katex>$F_1$</katex> generation is all dominant (<katex>$Tt$</katex>). In the <katex>$F_2$</katex> generation (<katex>$Tt \\times Tt$</katex>), both dominant and recessive traits appear (3:1 ratio). Thus, dominant appears in both, recessive only in <katex>$F_2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-44",
+  "question": [
+    "During a field trip, a student observed a marine organism with worm-like body. The cylindrical body was divisible into proboscis, collar and a long trunk. The organism may be"
+  ],
+  "choices": [
+    [
+      "Ophiura"
+    ],
+    [
+      "Pterophyllum"
+    ],
+    [
+      "Trygon"
+    ],
+    [
+      "Balanoglossus"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The features described (marine, worm-like, proboscis/collar/trunk) are characteristic of Hemichordates, such as *Balanoglossus*."
+  ],
+  "years": [
+    2025
+  ]
+}

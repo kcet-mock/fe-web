@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-35",
+  "question": [
+    "With respect to limitation of Ecological pyramids, which of the following statements are correct?\na) It does not take into account the same species belonging to two or more trophic levels.\nb) It assumes a simple food chain, something that almost never existed in nature.\nc) It accommodates saprophytes\nd) It does not accommodate a food web"
+  ],
+  "choices": [
+    [
+      "b and c"
+    ],
+    [
+      "c and d"
+    ],
+    [
+      "a, b and d"
+    ],
+    [
+      "a and b"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Ecological pyramids do not account for species at multiple levels (a is correct), assume simple food chains (b is correct), and do not accommodate food webs (d is correct). They also do *not* accommodate saprophytes, so c is incorrect."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-9",
+  "question": [
+    "Which of the following hormones is not secreted by human placenta ?"
+  ],
+  "choices": [
+    [
+      "Progestogen"
+    ],
+    [
+      "hCG"
+    ],
+    [
+      "Estrogen"
+    ],
+    [
+      "LH"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The placenta secretes hCG, hPL, estrogens, and progestogens. LH (Luteinizing Hormone) is secreted by the anterior pituitary, not the placenta."
+  ],
+  "years": [
+    2024
+  ]
+}

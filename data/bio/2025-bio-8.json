@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-8",
+  "question": [
+    "In zygote intrafallopian tube transfer, the embryo upto ______ stage is transferred into the fallopian tube"
+  ],
+  "choices": [
+    [
+      "16 blastomeres"
+    ],
+    [
+      "8 blastomeres"
+    ],
+    [
+      "32 blastomeres"
+    ],
+    [
+      "2 blastomeres"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In ZIFT (Zygote Intra Fallopian Transfer), the zygote or early embryo with up to 8 blastomeres is transferred into the fallopian tube."
+  ],
+  "years": [
+    2025
+  ]
+}

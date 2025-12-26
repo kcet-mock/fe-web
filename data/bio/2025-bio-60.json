@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-60",
+  "question": [
+    "Identify the statement/s given below that does not correspond to the functions of cortisol\n(i) Maintains cardiovascular system and kidney functions\n(ii) Produces anti-inflammatory reactions\n(iii) Maintains electrolyte balance, osmosis and blood pressure\n(iv) Suppresses immune response\n(v) Stimulates RBC production"
+  ],
+  "choices": [
+    [
+      "(iii) and (v) only"
+    ],
+    [
+      "(iii) only"
+    ],
+    [
+      "(iv) only"
+    ],
+    [
+      "(i) and (ii) only"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Cortisol maintains cardio/kidney function, is anti-inflammatory, suppresses immune response, and stimulates RBCs. Mineralocorticoids (Aldosterone) are primarily responsible for electrolyte balance and osmosis. Thus, (iii) corresponds more to Aldosterone than Cortisol in the context of 'does not correspond'. Key says Ans 2 (iii only)."
+  ],
+  "years": [
+    2025
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-1",
+  "question": [
+    "Which of the following is abbreviated as ZIFT?"
+  ],
+  "choices": [
+    [
+      "Zygote Intra Fallopian Tube"
+    ],
+    [
+      "Zygote Intra Fallopian Transfer"
+    ],
+    [
+      "Zygote Inter Fallopian Tube"
+    ],
+    [
+      "Zygote Inter Fallopian Transfer"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "ZIFT stands for Zygote Intra Fallopian Transfer."
+  ],
+  "years": [
+    2023
+  ]
+}

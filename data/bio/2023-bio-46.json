@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-46",
+  "question": [
+    "Match column-I with column-II. Select the option with correct combination.",
+    "| Column - I | Column - II |",
+    "|---|---|",
+    "| 1. Hypertonic | p. Two molecules move in the same direction across the membrane. |",
+    "| 2. Capillarity | q. External solution is more concentrated than cell sap. |",
+    "| 3. Symport | r. Water loss in the form of droplets. |",
+    "| 4. Guttation | s. Ability of water to rise in thin tubes. |"
+  ],
+  "choices": [
+    [
+      "<katex>$1-q, 2-p, 3-s, 4-r$</katex>"
+    ],
+    [
+      "<katex>$1-q, 2-s, 3-r, 4-p$</katex>"
+    ],
+    [
+      "<katex>$1-q, 2-s, 3-p, 4-r$</katex>"
+    ],
+    [
+      "<katex>$1-q, 2-r, 3-p, 4-s$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Hypertonic (1) -> External solution more concentrated (q). Capillarity (2) -> Ability of water to rise in thin tubes (s). Symport (3) -> Two molecules move in same direction (p). Guttation (4) -> Water loss in droplets (r)."
+  ],
+  "years": [
+    2023
+  ]
+}

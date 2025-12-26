@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-27",
+  "question": [
+    "Match Column - I with Column - II. Select the option with correct combination.",
+    "| Column - I | Column - II |",
+    "|---|---|",
+    "| 1 Standing state | p. Mass of living material at a given time |",
+    "| 2 Pioneer species | q. Amount of nutrients in the soil at a given time |",
+    "| 3 Detritivores | r. Species that invade a bare area |",
+    "| 4 Standing crop | s. Breakdown detritus into smaller particles |"
+  ],
+  "choices": [
+    [
+      "<katex>$1-q, 2-r, 3-s, 4-p$</katex>"
+    ],
+    [
+      "<katex>$1-q, 2-r, 3-p, 4-s$</katex>"
+    ],
+    [
+      "<katex>$1-p, 2-s, 3-r, 4-q$</katex>"
+    ],
+    [
+      "<katex>$1-p, 2-r, 3-s, 4-q$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Standing state (1) = Amount of nutrients (q). Pioneer species (2) = Invade bare area (r). Detritivores (3) = Breakdown detritus (s). Standing crop (4) = Mass of living material (p)."
+  ],
+  "years": [
+    2023
+  ]
+}

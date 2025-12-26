@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-15",
+  "question": [
+    "Identify the symptoms of pneumonia."
+  ],
+  "choices": [
+    [
+      "Constipation, Abdominal pain, cramps, blood clots"
+    ],
+    [
+      "Difficulty in breathing, fever, chills, cough, headache"
+    ],
+    [
+      "High fever, weakness, stomach pain, loss of appetite"
+    ],
+    [
+      "Nasal congestion and discharge, cough, sore throat, headache"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Pneumonia symptoms include fever, chills, cough, and headache. In severe cases, the lips and finger nails may turn gray to bluish. Difficulty in breathing is common due to fluid-filled alveoli."
+  ],
+  "years": [
+    2023
+  ]
+}

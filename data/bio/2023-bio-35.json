@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-35",
+  "question": [
+    "Find out the correct match.",
+    "| | Disease | Pathogen | Main organ affected |",
+    "|---|---|---|---|",
+    "| (A) | Filariasis | Common round worm | Small intestine |",
+    "| (B) | Ringworm | Fungus | Skin |",
+    "| (C) | Dysentery | Protozoa | Liver |",
+    "| (D) | Typhoid | Bacteria | Lungs |"
+  ],
+  "choices": [
+    [
+      "(A)"
+    ],
+    [
+      "(B)"
+    ],
+    [
+      "(C)"
+    ],
+    [
+      "(D)"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Ringworm is caused by fungi (Microsporum, Trichophyton, Epidermophyton) and affects the skin. Filariasis is caused by Wuchereria (Filarial worm), not round worm (Ascaris). Typhoid affects the intestine, not lungs."
+  ],
+  "years": [
+    2023
+  ]
+}

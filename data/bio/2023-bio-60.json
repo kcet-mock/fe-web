@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-60",
+  "question": [
+    "Which pair of the following cells in the embryo sac are destined to change their ploidy after fertilization?"
+  ],
+  "choices": [
+    [
+      "Central cell and antipodals"
+    ],
+    [
+      "Antipodals and synergids"
+    ],
+    [
+      "Egg cell and central cell"
+    ],
+    [
+      "Synergids and egg cell"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The Egg cell (haploid) fuses with a male gamete to form a Zygote (diploid). The Central cell (polar nuclei, n+n or 2n) fuses with a male gamete to form the Primary Endosperm Nucleus (triploid). Thus, both change their ploidy. Synergids and antipodals degenerate."
+  ],
+  "years": [
+    2023
+  ]
+}

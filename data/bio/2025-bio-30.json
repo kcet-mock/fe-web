@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-30",
+  "question": [
+    "A scientist wants to produce virus-free plant in tissue culture. Which part of the plant will he use as an explant?\n(a) Mature stem\n(b) Axillary meristem\n(c) Apical meristem\n(d) Mesophyll cells"
+  ],
+  "choices": [
+    [
+      "b and c"
+    ],
+    [
+      "b only"
+    ],
+    [
+      "c and d"
+    ],
+    [
+      "a only"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Meristems (apical and axillary) are generally free of virus. Hence they are used to recover healthy plants from diseased plants."
+  ],
+  "years": [
+    2025
+  ]
+}

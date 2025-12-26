@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-17",
+  "question": [
+    "When a change in the gene frequency of a population occurs by chance, it is called"
+  ],
+  "choices": [
+    [
+      "Gene migration"
+    ],
+    [
+      "Genetic recombination"
+    ],
+    [
+      "Genetic drift"
+    ],
+    [
+      "Founder effect"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Genetic drift refers to the random change in allele frequency in a population, occurring by chance."
+  ],
+  "years": [
+    2025
+  ]
+}

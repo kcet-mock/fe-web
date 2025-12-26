@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-59",
+  "question": [
+    "Auxins: Apical dominance :: Gibberellins : ________"
+  ],
+  "choices": [
+    [
+      "Adventitious shoot formation"
+    ],
+    [
+      "Accelerates abscission"
+    ],
+    [
+      "Closure of stomata"
+    ],
+    [
+      "Bolting"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Just as Auxins are known for Apical Dominance, Gibberellins are known to promote Bolting (internode elongation just prior to flowering) in rosette plants."
+  ],
+  "years": [
+    2024
+  ]
+}

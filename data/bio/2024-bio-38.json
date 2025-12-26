@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-38",
+  "question": [
+    "Homeostasis is a condition where the organisms"
+  ],
+  "choices": [
+    [
+      "Maintain a constant internal environment in an everchanging external environment"
+    ],
+    [
+      "Do not maintain a constant internal environment"
+    ],
+    [
+      "Change their internal environment according to their external environment"
+    ],
+    [
+      "Change their internal environment when the external environment is constant"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Homeostasis is the process by which organisms maintain a stable internal environment (like temperature, pH) despite changes in the external environment."
+  ],
+  "years": [
+    2024
+  ]
+}

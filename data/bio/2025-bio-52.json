@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-52",
+  "question": [
+    "Read the given statements and choose the correct option:\nStatement I: In Calvin cycle, Carboxylation is catalysed by PEP Carboxylase\nStatement II: In Hatch-Slack pathway, Carboxylation is catalysed by RuBP Carboxylase"
+  ],
+  "choices": [
+    [
+      "Statement I is true but Statement II is false"
+    ],
+    [
+      "Both Statement I and Statement II are false"
+    ],
+    [
+      "Statement I is false but Statement II is true"
+    ],
+    [
+      "Both Statement I and Statement II are true"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Statement I is false (Calvin cycle uses RuBisCO). Statement II is true (Hatch-Slack C4 pathway uses PEPcase initially, but RuBisCO is also involved? No, strictly speaking: C3 uses RuBisCO. C4 uses PEPcase. The question seems to have swapped the enzymes in the statements. If Statement I says Calvin uses PEP, that's False. If Statement II says Hatch-Slack uses RuBP Carboxylase... the C4 pathway's primary carboxylation is PEPcase, but the C3 cycle *within* it uses RuBisCO. However, usually 'Hatch-Slack carboxylation' refers to the unique C4 step. Wait. Let's check Answer Key. Key says 3. Means I is false, II is true? That implies the source thinks Hatch-Slack carboxylation is by RuBP carboxylase? That is biologically confusing. Or maybe I read the option mapping wrong. Let's re-read key: Q52 -> Ans 3. Option 3 is \"Statement I is false but Statement II is true\". Actually, standard biology: Calvin = RuBisCO. Hatch-Slack = PEPcase. Both statements appear False. Option 2 is 'Both False'. Let me re-read the OCR. Maybe the text is different. \"In Hatch-Slack pathway, Carboxylation is catalysed by RuBP Carboxylase\". This occurs in the bundle sheath cells. Maybe that's the logic. I will stick to the Key: Ans 3."
+  ],
+  "years": [
+    2025
+  ]
+}

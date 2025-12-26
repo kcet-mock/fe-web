@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-28",
+  "question": [
+    "Mule is the result of"
+  ],
+  "choices": [
+    [
+      "Out-crossing"
+    ],
+    [
+      "Cross-breeding"
+    ],
+    [
+      "Interspecific hybridization"
+    ],
+    [
+      "Out-breeding"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Mule is produced by interspecific hybridization, which is a cross between a male donkey and a female horse (two different species)."
+  ],
+  "years": [
+    2024
+  ]
+}

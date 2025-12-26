@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-7",
+  "question": [
+    "Out of the following options, identify which one is NOT a natural method of contraception ?"
+  ],
+  "choices": [
+    [
+      "Implants"
+    ],
+    [
+      "Lactational amenorrhea"
+    ],
+    [
+      "Periodic abstinence"
+    ],
+    [
+      "Coitus interruptus"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Implants are a chemical/hormonal method (artificial), whereas Lactational amenorrhea, Periodic abstinence, and Coitus interruptus are natural methods."
+  ],
+  "years": [
+    2025
+  ]
+}

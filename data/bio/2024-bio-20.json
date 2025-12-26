@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-20",
+  "question": [
+    "The mRNA has Untranslated Regions (UTRs)"
+  ],
+  "choices": [
+    [
+      "At 3'-end beyond Terminator codon"
+    ],
+    [
+      "At 5'-end before AUG"
+    ],
+    [
+      "At both 3'-end and 5'-end beyond Terminator codon and before AUG respectively"
+    ],
+    [
+      "AUG and Terminator codon flanks the UTR"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "UTRs are present at both the 5'-end (before the start codon) and the 3'-end (after the stop codon) of the mRNA to ensure efficient translation."
+  ],
+  "years": [
+    2024
+  ]
+}

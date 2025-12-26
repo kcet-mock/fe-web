@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-5",
+  "question": [
+    "'Gene-mapping' technology was developed by"
+  ],
+  "choices": [
+    [
+      "Sturtvent"
+    ],
+    [
+      "Tschermak"
+    ],
+    [
+      "Mendel"
+    ],
+    [
+      "Correns"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Alfred Sturtevant used the frequency of recombination between gene pairs on the same chromosome as a measure of the distance between genes and 'mapped' their position on the chromosome."
+  ],
+  "years": [
+    2023
+  ]
+}

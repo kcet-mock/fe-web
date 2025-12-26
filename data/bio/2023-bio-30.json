@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-30",
+  "question": [
+    "Identify the correct option showing the relative contribution of different green house gases to the total global warming."
+  ],
+  "choices": [
+    [
+      "CFC-6%, <katex>$CO_{2}-60\\%$</katex>, Methane - 20%, <katex>$N_{2}O-14\\%$</katex>"
+    ],
+    [
+      "CFC-14%, <katex>$CO_{2}-60\\%$</katex>, Methane - 20%, <katex>$N_{2}O-6\\%$</katex>"
+    ],
+    [
+      "CFC-14%, <katex>$CO_{2}-60\\%$</katex>, Methane - 6%, <katex>$N_{2}O-20\\%$</katex>"
+    ],
+    [
+      "CFC-20%, <katex>$CO_{2}-60\\%$</katex>, Methane - 14%, <katex>$N_{2}O-6\\%$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The relative contribution of greenhouse gases to total global warming is: <katex>$CO_2$</katex> (60%), Methane (20%), CFCs (14%), and <katex>$N_2O$</katex> (6%)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-35",
+  "question": [
+    "If a recombinant DNA bearing gene for resistance to Ampicillin is transferred into E. coli cells, host cells become transformed into Ampicillin resistant cells. What happens when these E. coli are grown on medium containing Ampicillin?"
+  ],
+  "choices": [
+    [
+      "Non-transformants will grow and transformants will die"
+    ],
+    [
+      "Non-transformants will die and transformants will grow"
+    ],
+    [
+      "Both non-transformants and transformants will die"
+    ],
+    [
+      "Both non-transformants and transformants will grow"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Since the transformants have acquired the Ampicillin resistance gene, they will survive and grow on the medium containing Ampicillin, while non-transformants will die."
+  ],
+  "years": [
+    2024
+  ]
+}

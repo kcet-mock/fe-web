@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-54",
+  "question": [
+    "Primary endosperm nucleus is formed by fusion of"
+  ],
+  "choices": [
+    [
+      "One polar nucleus and male gamete"
+    ],
+    [
+      "Two polar nuclei and one male gamete"
+    ],
+    [
+      "Two polar nuclei and two male gamete"
+    ],
+    [
+      "Ovum and male gamete"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The Primary Endosperm Nucleus (PEN) is formed by triple fusion, where one male gamete fuses with the two polar nuclei (central cell)."
+  ],
+  "years": [
+    2023
+  ]
+}

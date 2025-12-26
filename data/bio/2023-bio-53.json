@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-53",
+  "question": [
+    "In Bryophyllum, the adventitious buds arise from"
+  ],
+  "choices": [
+    [
+      "Shoot apex"
+    ],
+    [
+      "Leaf axil"
+    ],
+    [
+      "Leaf base"
+    ],
+    [
+      "Notches in the leaf margin"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "In Bryophyllum, vegetative propagation occurs via adventitious buds that arise from the notches in the leaf margin."
+  ],
+  "years": [
+    2023
+  ]
+}

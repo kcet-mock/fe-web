@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-43",
+  "question": [
+    "The sequence of communities of primary succession in water is"
+  ],
+  "choices": [
+    [
+      "Phytoplanktons -> Scrubs -> Free floating hydrophytes -> Rooted hydrophytes -> Grasses -> Trees"
+    ],
+    [
+      "Phytoplanktons -> Free floating hydrophytes -> Rooted hydrophytes -> Trees -> Scrubs"
+    ],
+    [
+      "Free floating hydrophytes -> Scrubs -> Phytoplanktons -> Rooted hydrophytes -> Grasses -> Trees"
+    ],
+    [
+      "Phytoplanktons -> Rooted hydrophytes -> Free floating hydrophytes -> Reed swamps -> Marsh meadows -> Scrubs -> Trees"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "The correct sequence in hydrarch succession is: Phytoplanktons -> Submerged plants (Rooted hydrophytes) -> Submerged free floating -> Reed swamp -> Marsh meadow -> Scrub -> Forest (Trees)."
+  ],
+  "years": [
+    2024
+  ]
+}

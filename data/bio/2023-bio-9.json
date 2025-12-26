@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-9",
+  "question": [
+    "Histone proteins are positively charged because they are rich in basic amino acid residues"
+  ],
+  "choices": [
+    [
+      "Arginine and Phenylalanine"
+    ],
+    [
+      "Arginine and Alanine"
+    ],
+    [
+      "Arginine and Proline"
+    ],
+    [
+      "Arginine and Lysine"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Histones are rich in the basic amino acid residues lysines and arginines, which carry positive charges in their side chains."
+  ],
+  "years": [
+    2023
+  ]
+}

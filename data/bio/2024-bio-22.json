@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-22",
+  "question": [
+    "Read the following statements:\nStatement I: All vertebrates develop a row of vestigial gill slits during embryonic stage.\nStatement II: Embryos always pass through the adult stages of other animals\n\nWhich of the following options is correct with reference to these statements?"
+  ],
+  "choices": [
+    [
+      "Statement I is correct, Statement II is incorrect"
+    ],
+    [
+      "Statement I is incorrect, Statement II is correct"
+    ],
+    [
+      "Both Statements I and II are correct"
+    ],
+    [
+      "Both Statements I and II are incorrect"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Statement I is correct and supports the Recapitulation Theory (vestigial organs appear). Statement II is incorrect; Ernst Haeckel proposed they pass through adult stages, but Karl Ernst von Baer disproved this, noting that embryos do not pass through the adult stages of other animals, but rather resemble the embryonic stages."
+  ],
+  "years": [
+    2024
+  ]
+}

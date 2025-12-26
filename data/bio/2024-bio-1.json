@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-1",
+  "question": [
+    "The typical 'lub-dub' sounds heard during heartbeat are produced due to"
+  ],
+  "choices": [
+    [
+      "Closure of semilunar valves"
+    ],
+    [
+      "Closure of bicuspid and tricuspid valves"
+    ],
+    [
+      "Closure of bicuspid and tricuspid valves followed by semilunar valves"
+    ],
+    [
+      "Opening of bicuspid and tricuspid valves followed by semilunar valves"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "The first heart sound ('lub') is produced by the closure of the Atrioventricular (bicuspid and tricuspid) valves during ventricular systole. The second heart sound ('dub') is produced by the closure of the Semilunar valves during ventricular diastole."
+  ],
+  "years": [
+    2024
+  ]
+}

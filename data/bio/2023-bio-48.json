@@ -1,0 +1,28 @@
+{
+  "id": "2023-bio-48",
+  "question": [
+    "Considering the stroke volume of an adult healthy being is 70 mL, identify the cardiac output in one hour from the following:"
+  ],
+  "choices": [
+    [
+      "302.4 Lit/hour"
+    ],
+    [
+      "5.04 Lit/hour"
+    ],
+    [
+      "50.40 Lit/hour"
+    ],
+    [
+      "30.24 Lit/hour"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Cardiac Output = Stroke Volume x Heart Rate. <katex>$CO = 70 \\text{ mL} \\times 72 \\text{ bpm} = 5040 \\text{ mL/min}$</katex>.",
+    "In one hour: <katex>$5040 \\times 60 = 302,400 \\text{ mL/hr} = 302.4 \\text{ Lit/hr}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

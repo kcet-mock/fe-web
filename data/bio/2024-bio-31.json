@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-31",
+  "question": [
+    "The chemical substances which are produced by some microbes which can kill or retard the growth of other microbes are known as"
+  ],
+  "choices": [
+    [
+      "Statins"
+    ],
+    [
+      "Streptokinases"
+    ],
+    [
+      "Cyclosporins"
+    ],
+    [
+      "Antibiotics"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Antibiotics are chemical substances produced by some microbes (like bacteria and fungi) that can kill or retard the growth of other disease-causing microbes."
+  ],
+  "years": [
+    2024
+  ]
+}

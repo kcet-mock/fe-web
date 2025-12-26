@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-23",
+  "question": [
+    "The drug prescribed to the patients who have undergone organ transplant is ______ and is produced by ______"
+  ],
+  "choices": [
+    [
+      "Stain, Monascus purpureus"
+    ],
+    [
+      "Cyclosporin-A, Trichoderma polysporum"
+    ],
+    [
+      "Statin, Trichoderma polysporum"
+    ],
+    [
+      "Cyclosporin-A, Monascus purpureus"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Cyclosporin-A is used as an immunosuppressive agent in organ transplant patients. It is produced by the fungus *Trichoderma polysporum*."
+  ],
+  "years": [
+    2025
+  ]
+}

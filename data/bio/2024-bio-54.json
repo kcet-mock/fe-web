@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-54",
+  "question": [
+    "Exoskeleton of Arthropods is made up of unique complex polysaccharide known as"
+  ],
+  "choices": [
+    [
+      "Hyaluronic Acid"
+    ],
+    [
+      "Chitin"
+    ],
+    [
+      "Waxes"
+    ],
+    [
+      "Cellulose"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The exoskeleton of arthropods is composed of Chitin, a complex polysaccharide."
+  ],
+  "years": [
+    2024
+  ]
+}

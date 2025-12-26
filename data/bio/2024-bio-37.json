@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-37",
+  "question": [
+    "Which among the following is used to treat Emphysema?"
+  ],
+  "choices": [
+    [
+      "Human Hormone-a Antitrypsin"
+    ],
+    [
+      "Human -a - Interferon"
+    ],
+    [
+      "Human protein-<katex>$\\alpha$</katex>-1-Antitrypsin"
+    ],
+    [
+      "Human- - Lactalbumin"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Transgenic animals are used to produce biological products. <katex>$\\alpha$</katex>-1-antitrypsin is a human protein used to treat emphysema."
+  ],
+  "years": [
+    2024
+  ]
+}

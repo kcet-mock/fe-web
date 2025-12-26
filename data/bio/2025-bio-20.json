@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-20",
+  "question": [
+    "In which of the following, HIV replicates and produces its progeny viruses?"
+  ],
+  "choices": [
+    [
+      "Memory T-lymphocytes"
+    ],
+    [
+      "Killer T-lymphocytes"
+    ],
+    [
+      "Suppressor T-lymphocytes"
+    ],
+    [
+      "Helper T-lymphocytes"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "HIV enters into Helper T-lymphocytes (TH cells), replicates, and produces progeny viruses, leading to a decrease in the number of these cells."
+  ],
+  "years": [
+    2025
+  ]
+}

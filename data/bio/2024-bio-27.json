@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-27",
+  "question": [
+    "Read the following statements:\nStatement I: Morphine is obtained by acetylation of Heroin.\nStatement II: Cannabinoids are known for their effect on cardiovascular system.\n\nWhich of the following options is correct with reference to these statements?"
+  ],
+  "choices": [
+    [
+      "Both Statement I and II are correct"
+    ],
+    [
+      "Statement I is correct and Statement II is incorrect"
+    ],
+    [
+      "Statement I is incorrect and Statement II is correct"
+    ],
+    [
+      "Both Statements I and II are incorrect"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Statement I is incorrect because Heroin is obtained by the acetylation of Morphine (not the other way around). Statement II is correct as Cannabinoids affect the cardiovascular system."
+  ],
+  "years": [
+    2024
+  ]
+}

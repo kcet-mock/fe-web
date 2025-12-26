@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-25",
+  "question": [
+    "Choose the incorrect statement with reference to Kangaroo rat."
+  ],
+  "choices": [
+    [
+      "Uses minimal water to remove excretory products."
+    ],
+    [
+      "Found in North American desert."
+    ],
+    [
+      "Eliminates dilute urine."
+    ],
+    [
+      "Meets is water requirements through internal fat oxidation."
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Kangaroo rats are capable of concentrating their urine to minimize water loss. They do not eliminate dilute urine."
+  ],
+  "years": [
+    2023
+  ]
+}

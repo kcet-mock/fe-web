@@ -1,0 +1,35 @@
+{
+  "id": "2023-bio-37",
+  "question": [
+    "From the following tools/techniques of genetic engineering, identify those which are required for cloning a bacterial gene in animal cells and choose the correct option:",
+    "I. Endonuclease",
+    "II. Ligase",
+    "III. A. tumefaciens",
+    "IV. Microinjection",
+    "V. Gene gun",
+    "VI. Lysozyme",
+    "VII. Cellulase",
+    "VIII. Electrophoresis"
+  ],
+  "choices": [
+    [
+      "I, III, IV, V, VII"
+    ],
+    [
+      "II, III, V, VII, VIII"
+    ],
+    [
+      "II, III, IV, VI, VII, VIII"
+    ],
+    [
+      "I, II, IV, VI, VIII"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "To clone a bacterial gene into animal cells: Restriction enzymes (Endonuclease - I) to cut DNA. Ligase (II) to join. Microinjection (IV) is a direct method for animal cells. Lysozyme (VI) to break bacterial cell wall to isolate DNA. Electrophoresis (VIII) to separate DNA fragments. *A. tumefaciens* and Gene gun are typically for plants. Cellulase is for plant cells."
+  ],
+  "years": [
+    2023
+  ]
+}

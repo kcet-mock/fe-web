@@ -1,0 +1,27 @@
+{
+  "id": "2025-bio-40",
+  "question": [
+    "A student observed the slide of mitosis under the microscope and observed that the chromosomes were placed at the opposite poles. Which stage was the student observing?"
+  ],
+  "choices": [
+    [
+      "Anaphase"
+    ],
+    [
+      "Metaphase"
+    ],
+    [
+      "Telophase"
+    ],
+    [
+      "Prophase"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "In Anaphase, chromosomes (sister chromatids) separate and move to opposite poles. If they are already *placed* at the poles (fully reached), it could be Telophase, but the action of being at opposite poles is the result of Anaphase. The answer key indicates option 1 (Anaphase), likely referring to the movement or completion of movement phase."
+  ],
+  "years": [
+    2025
+  ]
+}

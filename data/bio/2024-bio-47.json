@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-47",
+  "question": [
+    "In the prevention of air pollution, the role of scrubber is to remove"
+  ],
+  "choices": [
+    [
+      "Particulate <katex>$SO_{2}$</katex>"
+    ],
+    [
+      "Liquid <katex>$SO_{2}$</katex>"
+    ],
+    [
+      "Gaseous <katex>$SO_{2}$</katex>"
+    ],
+    [
+      "Liquid <katex>$SO_{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Scrubbers are used to remove gases like Sulphur Dioxide (<katex>$SO_2$</katex>) from industrial exhaust."
+  ],
+  "years": [
+    2024
+  ]
+}

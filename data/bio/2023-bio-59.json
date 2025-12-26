@@ -1,0 +1,33 @@
+{
+  "id": "2023-bio-59",
+  "question": [
+    "With reference to human sperm, match the List - I with List - II.",
+    "| List - I | List - II |",
+    "|---|---|",
+    "| 1 Head | p Filled with enzyme |",
+    "| 2 Acrosome | q Contains mitochondria |",
+    "| 3 Middle piece | r Sperm motility |",
+    "| 4 Tail | s Contains haploid nucleus |"
+  ],
+  "choices": [
+    [
+      "<katex>$1-q, 2-s, 3-r, 4-p$</katex>"
+    ],
+    [
+      "<katex>$1-s, 2-p, 3-q, 4-r$</katex>"
+    ],
+    [
+      "<katex>$1-r, 2-q, 3-s, 4-p$</katex>"
+    ],
+    [
+      "<katex>$1-s, 2-r, 3-p, 4-q$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Head (1) -> Contains haploid nucleus (s). Acrosome (2) -> Filled with enzyme (p). Middle piece (3) -> Contains mitochondria (q). Tail (4) -> Sperm motility (r)."
+  ],
+  "years": [
+    2023
+  ]
+}

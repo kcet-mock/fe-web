@@ -1,0 +1,30 @@
+{
+  "id": "2024-bio-48",
+  "question": [
+    "Match List I with List II and choose the correct answer.\n\n| List I | List II |\n|---|---|\n| 1. Nitrogen rich fertilizers | p. Ozone depletion |\n| 2. Carbon dioxide | q. Eutrophication |\n| 3. Carbon monoxide | r. Greenhouse effect |\n| 4. CFCs | s. Air pollutant |"
+  ],
+  "choices": [
+    [
+      "1-p, 2-q, 3-r, 4-s"
+    ],
+    [
+      "1-q, 2-r, 3-s, 4-p"
+    ],
+    [
+      "1-r, 2-s, 3-p, 4-q"
+    ],
+    [
+      "1-s, 2-p, 3-q, 4-r"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "1. Fertilizers cause Eutrophication (q).",
+    "2. Carbon dioxide causes Greenhouse effect (r).",
+    "3. Carbon monoxide is an Air pollutant (s).",
+    "4. CFCs cause Ozone depletion (p)."
+  ],
+  "years": [
+    2024
+  ]
+}

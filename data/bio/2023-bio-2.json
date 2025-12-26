@@ -1,0 +1,27 @@
+{
+  "id": "2023-bio-2",
+  "question": [
+    "An example for hormone releasing IUD is"
+  ],
+  "choices": [
+    [
+      "Lippes loop"
+    ],
+    [
+      "LNG - 20"
+    ],
+    [
+      "Implant"
+    ],
+    [
+      "Multiload 375"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "LNG-20 is a hormone-releasing Intra Uterine Device (IUD)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-56",
+  "question": [
+    "The water potential of pure water is"
+  ],
+  "choices": [
+    [
+      "One"
+    ],
+    [
+      "More than one"
+    ],
+    [
+      "Zero"
+    ],
+    [
+      "Less than zero"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "By convention, the water potential of pure water at standard temperature and pressure is taken as zero."
+  ],
+  "years": [
+    2024
+  ]
+}

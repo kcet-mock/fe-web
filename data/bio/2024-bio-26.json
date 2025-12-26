@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-26",
+  "question": [
+    "Genome of HIV replicates in the macrophages with the help of an enzyme called"
+  ],
+  "choices": [
+    [
+      "DNA Polymerase"
+    ],
+    [
+      "RNA Polymerase"
+    ],
+    [
+      "Reverse Transcriptase"
+    ],
+    [
+      "DNA Ligase"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "HIV is a retrovirus containing RNA. It uses the enzyme Reverse Transcriptase to convert its viral RNA into viral DNA within the host cell."
+  ],
+  "years": [
+    2024
+  ]
+}

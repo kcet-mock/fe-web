@@ -1,0 +1,27 @@
+{
+  "id": "2024-bio-34",
+  "question": [
+    "DNA polymerase of Thermus aquaticus is"
+  ],
+  "choices": [
+    [
+      "Thermolabile"
+    ],
+    [
+      "Thermophobic"
+    ],
+    [
+      "Exonuclease"
+    ],
+    [
+      "Thermostable"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "*Thermus aquaticus* yields Taq polymerase, which is a thermostable DNA polymerase capable of withstanding the high temperatures of PCR."
+  ],
+  "years": [
+    2024
+  ]
+}

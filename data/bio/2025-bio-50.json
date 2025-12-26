@@ -1,0 +1,28 @@
+{
+  "id": "2025-bio-50",
+  "question": [
+    "The graph showing the concept of activation energy of enzyme is given below :\nObserve the graph and choose the correct option for M and N.",
+    "images/2025-bio-50-1.png"
+  ],
+  "choices": [
+    [
+      "M-Activation energy with enzyme, N-Activation energy without enzyme"
+    ],
+    [
+      "M-High temperature, High activation energy, N-Low temperature, Low activation energy"
+    ],
+    [
+      "M-High substrate, High activation energy, N-Low substrate, Low activation energy"
+    ],
+    [
+      "M-Activation energy without enzyme, N-Activation energy with enzyme"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Curve M represents the reaction pathway with higher energy barrier (Without Enzyme). Curve N represents the pathway with lower energy barrier (With Enzyme)."
+  ],
+  "years": [
+    2025
+  ]
+}
