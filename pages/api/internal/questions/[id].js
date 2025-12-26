@@ -57,7 +57,8 @@ export default async function handler(req, res) {
         question: req.body.question || [],
         choices: req.body.choices || [],
         correctAnswer: req.body.correctAnswer || 0,
-        explanation: req.body.explanation || []
+        explanation: req.body.explanation || [],
+        years: req.body.years || [],
       };
 
       await fs.writeFile(questionPath, JSON.stringify(updatedQuestion, null, 2), 'utf-8');
