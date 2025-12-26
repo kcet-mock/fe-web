@@ -18,7 +18,7 @@
       "<katex>$\\frac{hv}{\\mathfrak{e}},v_{0}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Einstein's photoelectric equation: <katex>$eV_0 = h\\nu - \\phi_0 = h\\nu - h\\nu_0$</katex>. <katex>$V_0 = (h/e)\\nu - (h\\nu_0/e)$</katex>. This is <katex>$y = mx + c$</katex>. Slope <katex>$m = h/e$</katex>, Intercept <katex>$c = -h\\nu_0/e$</katex>."
   ],

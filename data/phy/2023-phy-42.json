@@ -18,7 +18,7 @@
       "<katex>$\\pi r^{2}\\sqrt{2gh+\\frac{2(P_{o}-P_{a})}{P}}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Applying Bernoulli's equation: <katex>$P_o + \\rho g h = P_a + \\frac{1}{2} \\rho v^2$</katex>. <katex>$\\frac{1}{2} \\rho v^2 = \\rho g h + (P_o - P_a)$</katex>. <katex>$v = \\sqrt{2gh + \\frac{2(P_o - P_a)}{\\rho}}$</katex>. Rate of flow <katex>$Q = Area \\times v = \\pi r^2 v$</katex>."
   ],

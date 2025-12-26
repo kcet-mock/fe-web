@@ -17,7 +17,7 @@
       "7 years"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$A = A_0 (1/2)^{t/T}$</katex>. <katex>$1/5 = (1/2)^{t/3}$</katex>. <katex>$5 = 2^{t/3}$</katex>. <katex>$\\ln 5 = (t/3) \\ln 2$</katex>. <katex>$1.609 = (t/3) (0.693)$</katex>. <katex>$t = 3 \\times 2.32 \\approx 6.96$</katex> years. Approx 7 years."
   ],

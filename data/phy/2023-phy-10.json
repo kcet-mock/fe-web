@@ -18,7 +18,7 @@
       "images/2023-phy-10-5.png"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "As the loop enters, flux increases, inducing negative EMF (by Lenz's law logic or coordinate convention). Once fully inside (from t=1s to t=5s given dimensions), flux is constant, EMF is zero. As it exits, flux decreases, inducing positive EMF. The graph shows a negative pulse, then zero, then a positive pulse."
   ],

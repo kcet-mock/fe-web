@@ -17,7 +17,7 @@
       "Primary wavefronts are lesser than those of secondary wavelets"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "According to Huygens' principle, secondary wavelets spread out with the speed of light in that medium, which is the same as the speed of propagation of the primary wavefront."
   ],

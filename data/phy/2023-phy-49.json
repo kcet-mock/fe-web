@@ -17,7 +17,7 @@
       "<katex>$V_{1}>V_{2}$</katex>, <katex>$C_{1}>C_{2}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Since the battery remains connected, potential difference remains constant (<katex>$V_1 = V_2$</katex>). Removing the dielectric decreases capacitance (<katex>$C_1 > C_2$</katex>)."
   ],

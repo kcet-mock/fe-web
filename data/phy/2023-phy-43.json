@@ -17,7 +17,7 @@
       "<katex>$10^{\\circ}C$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Heat released by water to reach <katex>$0^{\\circ}C$</katex>: <katex>$Q_1 = ms\\Delta T = 0.1 \\times 4200 \\times 100 = 42000$</katex> J. Heat required to melt ice: <katex>$Q_2 = mL = 0.1 \\times 336000 = 33600$</katex> J. Remaining heat <katex>$42000 - 33600 = 8400$</katex> J heats the total mass (200g). <katex>$8400 = (0.2) \\times 4200 \\times T$</katex>. <katex>$8400 = 840 T$</katex>. <katex>$T = 10^{\\circ}C$</katex>."
   ],

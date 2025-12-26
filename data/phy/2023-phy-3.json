@@ -17,7 +17,7 @@
       "1:4"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The radius of the circular path is <katex>$r = \\frac{mv}{qB}$</katex>. Since <katex>$v$</katex> and <katex>$B$</katex> are the same, <katex>$r \\propto \\frac{m}{q}$</katex>. For proton (<katex>$p$</katex>): <katex>$m_p, q_p = e$</katex>. For alpha (<katex>$\\alpha$</katex>): <katex>$m_\\alpha = 4m_p, q_\\alpha = 2e$</katex>. Ratio <katex>$\\frac{r_p}{r_\\alpha} = \\frac{m_p/e}{4m_p/2e} = \\frac{1}{2}$</katex>."
   ],

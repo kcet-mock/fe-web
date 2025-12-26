@@ -17,7 +17,7 @@
       "<katex>$5~ms^{-2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Friction force <katex>$f = \\mu mg = 0.5 \\times 10 \\times 10 = 50$</katex> N. Net force <katex>$F_{net} = F_{app} - f = 60 - 50 = 10$</katex> N. Acceleration <katex>$a = F_{net}/m = 10/10 = 1$</katex> m/s²."
   ],

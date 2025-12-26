@@ -17,7 +17,7 @@
       "<katex>$\\frac{5}{\\sqrt{21}}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Speed of sound <katex>$v = \\sqrt{\\gamma RT/M}$</katex>. RMS speed <katex>$v_{rms} = \\sqrt{3RT/M}$</katex>. Ratio <katex>$X = v/v_{rms} = \\sqrt{\\gamma/3}$</katex>. For He (monoatomic), <katex>$\\gamma = 5/3$</katex>. <katex>$X = \\sqrt{5/9}$</katex>. For O2 (diatomic), <katex>$\\gamma = 7/5$</katex>. <katex>$X' = \\sqrt{7/15}$</katex>. Ratio <katex>$X/X' = \\sqrt{5/9} / \\sqrt{7/15} = \\sqrt{\\frac{5}{9} \\times \\frac{15}{7}} = \\sqrt{\\frac{25}{21}} = \\frac{5}{\\sqrt{21}}$</katex>."
   ],

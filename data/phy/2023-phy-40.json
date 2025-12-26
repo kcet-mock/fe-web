@@ -17,7 +17,7 @@
       "Linear momentum and aerial velocity are constant."
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "According to Kepler's laws and conservation of angular momentum, the angular momentum and areal velocity are constant."
   ],

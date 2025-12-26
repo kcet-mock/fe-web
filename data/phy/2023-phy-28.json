@@ -17,7 +17,7 @@
       "127"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "In beta decay (<katex>$e^-$</katex>), the atomic number Z increases by 1, mass number A remains same. <katex>$X$</katex> will be <katex>${}_{84}^{210}Po$</katex>. Number of neutrons <katex>$N = A - Z = 210 - 84 = 126$</katex>."
   ],

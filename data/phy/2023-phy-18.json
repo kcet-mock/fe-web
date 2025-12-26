@@ -17,7 +17,7 @@
       "Red"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Critical angle <katex>$\\sin C = 1/n$</katex>. Refractive index <katex>$n$</katex> is lowest for Red light and highest for Violet light (Cauchy's equation). Since <katex>$n$</katex> is lowest for Red, <katex>$\\sin C$</katex> is highest, so the critical angle is maximum for Red."
   ],

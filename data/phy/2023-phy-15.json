@@ -18,7 +18,7 @@
       "2.5"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Quality factor <katex>$Q = \\frac{\\omega_0}{\\Delta \\omega}$</katex>. From the graph, resonant frequency <katex>$\\omega_0 = 500$</katex> rad/s. The bandwidth <katex>$\\Delta \\omega$</katex> corresponds to frequencies where <katex>$Z = \\sqrt{2}Z_{min}$</katex>, which are 400 and 600. So <katex>$\\Delta \\omega = 600 - 400 = 200$</katex>. <katex>$Q = 500/200 = 2.5$</katex>."
   ],

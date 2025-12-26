@@ -18,7 +18,7 @@
       "<katex>$q[V_{A}+Ex]$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Potential decreases in direction of field. <katex>$V_B = V_A - Ex$</katex>. Potential energy <katex>$U_B = qV_B = q(V_A - Ex)$</katex>."
   ],

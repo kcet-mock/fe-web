@@ -17,7 +17,7 @@
       "25"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "In a full-wave rectifier, <katex>$D_1$</katex> conducts during the positive half cycles and <katex>$D_2$</katex> during negative half cycles. For a 50 Hz AC, there are 50 positive half cycles per second. Thus <katex>$D_1$</katex> conducts 50 times."
   ],

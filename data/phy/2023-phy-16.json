@@ -17,7 +17,7 @@
       "<katex>$10^{5}ms^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The ratio <katex>$E/B = c$</katex>, where <katex>$c$</katex> is the speed of light in vacuum, approx <katex>$3 \\times 10^8$</katex> m/s."
   ],

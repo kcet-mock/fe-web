@@ -17,7 +17,7 @@
       "<katex>$1\\times10^{5}J~m^{-3}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Poisson's ratio <katex>$\\sigma = \\text{lateral strain} / \\text{longitudinal strain}$</katex>. Long. strain <katex>$\\epsilon = \\epsilon_l / \\sigma = 10^{-3} / 0.25 = 4 \\times 10^{-3}$</katex>. Energy density <katex>$u = \\frac{1}{2} Y \\epsilon^2 = \\frac{1}{2} (2 \\times 10^{11}) (4 \\times 10^{-3})^2 = 10^{11} (16 \\times 10^{-6}) = 16 \\times 10^5$</katex>."
   ],

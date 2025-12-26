@@ -17,7 +17,7 @@
       "<katex>$\\frac{\\epsilon^{2}t}{R}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Work done by battery <katex>$W = \\text{EMF} \\times \\text{Charge} = \\epsilon (It)$</katex>."
   ],

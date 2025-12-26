@@ -17,7 +17,7 @@
       "<katex>$\\overline{v}=\\frac{v^{2}+v_{0}^{2}}{2at}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Average velocity for constant acceleration is <katex>$\\frac{v+v_0}{2}$</katex>. Also <katex>$v^2 - v_0^2 = 2as \\Rightarrow s = \\frac{v^2-v_0^2}{2a}$</katex>. Average velocity <katex>$\\bar{v} = s/t = \\frac{v^2-v_0^2}{2at}$</katex>."
   ],

@@ -17,7 +17,7 @@
       "5.4 MeV"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Kinetic energy of alpha particle <katex>$K_\\alpha = \\frac{A - 4}{A} Q$</katex>. <katex>$K_\\alpha = \\frac{220 - 4}{220} \\times 5.5 = \\frac{216}{220} \\times 5.5 = 5.4$</katex> MeV."
   ],

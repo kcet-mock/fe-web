@@ -17,7 +17,7 @@
       "3"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "According to Curie-Weiss law for ferromagnetic materials above Curie temperature, <katex>$\\chi \\propto \\frac{1}{T - T_c}$</katex>. Ratio <katex>$\\frac{\\chi_{Co}}{\\chi_{Fe}} = \\frac{T - (T_c)_{Fe}}{T - (T_c)_{Co}} = \\frac{1600 - 1000}{1600 - 1400} = \\frac{600}{200} = 3$</katex>."
   ],

@@ -17,7 +17,7 @@
       "<katex>$2\\times10^{20}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Power <katex>$P = n (hc/\\lambda)$</katex>. <katex>$n = P\\lambda / hc = \\frac{60 \\times 662.5 \\times 10^{-9}}{6.625 \\times 10^{-34} \\times 3 \\times 10^8} = \\frac{60 \\times 10^{-7}}{10^{-34} \\times 3 \\times 10^8} \\times \\frac{662.5}{6.625}$</katex>. <katex>662.5/6.625 = 100</katex>. <katex>n = \\frac{60 \\times 100 \\times 10^{-9}}{3 \\times 10^{-26}} = 20 \\times 100 \\times 10^{17} = 2 \\times 10^{20}$</katex>."
   ],

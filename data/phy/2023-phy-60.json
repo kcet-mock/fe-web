@@ -17,7 +17,7 @@
       "<katex>$v_{d}$</katex> remains the same, <katex>$\\mu$</katex> increases"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$I = n A e v_d$</katex>. If I increases, <katex>$v_d$</katex> increases. Mobility <katex>$\\mu = v_d/E = (e\\tau/m)$</katex> depends on material and temperature (relaxation time), so it remains constant at constant temperature."
   ],
