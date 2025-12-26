@@ -5,28 +5,26 @@
   ],
   "choices": [
     [
-      "<katex>$0.4396 \\times 10^{-5} T$</katex>"
+      "<katex>$0.4396 \\times 10^{-5}$</katex> T"
     ],
     [
-      "<katex>$4.396 \\times 10^{-2} T$</katex>"
+      "<katex>$4.396 \\times 10^{-2}$</katex> T"
     ],
     [
-      "<katex>$43.96 \\times 10^{-2} T$</katex>"
+      "<katex>$43.96 \\times 10^{-2}$</katex> T"
     ],
     [
       "439.6 T"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "images/2025-phy-29-1.png",
-    "Total turns <katex>$N = 5 \\times 1000 = 5000$</katex>.",
-    "Turn density <katex>$n = N/L = 5000/1 = 5000$</katex> turns/m.",
-    "<katex>$B = \\mu_0 n I = 4\\pi \\times 10^{-7} \\times 5000 \\times 7$</katex>",
-    "<katex>$B = 4 \\times 3.14 \\times 35 \\times 10^{-4}$</katex>",
-    "<katex>$B \\approx 4.4 \\times 10^{-2}$</katex> T."
+    "<katex>$l=1m; r=2cm; N=5000; i=7A$</katex>. [cite: 480]",
+    "<katex>$B = \\frac{\\mu_0 N i}{l}$</katex>. [cite: 482]",
+    "<katex>$B = \\frac{4\\pi \\times 10^{-7} \\times 5000 \\times 7}{1}$</katex>. [cite: 488]",
+    "<katex>$B = 4.396 \\times 10^{-2}$</katex> T. [cite: 489]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

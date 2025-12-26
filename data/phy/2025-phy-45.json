@@ -1,30 +1,30 @@
 {
   "id": "2025-phy-45",
   "question": [
-    "If r and <katex>$r'$</katex> denotes the angles inside the prism having angle of prism <katex>$50^{\\circ}$</katex> considering that during interval of time from t=0 to t=t, r varies with time as <katex>$r=10^{\\circ}+t^2$</katex>. During the time <katex>$r'$</katex> will vary with time as",
+    "If r and <katex>$r^1$</katex> denotes the angles inside the prism having angle of prism <katex>$50^{\\circ}$</katex> considering that during interval of time from <katex>$t=0$</katex> to <katex>$t=t$</katex>, r varies with time as <katex>$r = 10^{\\circ} + t^2$</katex>. During the time <katex>$r^1$</katex> will vary with time as",
     "images/2025-phy-45-1.png"
   ],
   "choices": [
     [
-      "<katex>$40^{\\circ}+t^2$</katex>"
+      "<katex>$40^{\\circ} + t^2$</katex>"
     ],
     [
-      "<katex>$50^{\\circ}-t^2$</katex>"
+      "<katex>$50^{\\circ} - t^2$</katex>"
     ],
     [
-      "<katex>$50^{\\circ}+t^2$</katex>"
+      "<katex>$50^{\\circ} + t^2$</katex>"
     ],
     [
-      "<katex>$40^{\\circ}-t^2$</katex>"
+      "<katex>$40^{\\circ} - t^2$</katex>"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "For a prism <katex>$A = r + r'$</katex>.",
-    "<katex>$50 = (10 + t^2) + r'$</katex>",
-    "<katex>$r' = 50 - 10 - t^2 = 40 - t^2$</katex>."
+    "<katex>$r + r^1 = 50$</katex>. [cite: 695]",
+    "<katex>$(10 + t^2) + r^1 = 50$</katex>. [cite: 696]",
+    "<katex>$r^1 = 50 - 10 - t^2 = 40 - t^2$</katex>. [cite: 697, 698]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

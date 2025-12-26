@@ -20,12 +20,12 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Let junction temperature be <katex>$T_x$</katex>.",
-    "Current conservation at junction: <katex>$H_{in} = H_{out}$</katex> or net current leaving is zero.",
-    "<katex>$\\frac{T_x - 0}{R} + \\frac{T_x - 90}{R} + \\frac{T_x - 90}{R} = 0$</katex> (Assuming currents leave x)",
-    "Or <katex>$\\frac{90-T_x}{R} + \\frac{90-T_x}{R} = \\frac{T_x-0}{R}$</katex>",
-    "<katex>$180 - 2T_x = T_x$</katex>",
-    "<katex>$3T_x = 180 \\Rightarrow T_x = 60^{\\circ}C$</katex>."
+    "Let the temperature of the junction be <katex>$T_x$</katex>. [cite: 195]",
+    "Heat current <katex>$H = H_1 + H_2$</katex> assuming flow direction towards lower temp, or simply sum of currents leaving/entering. [cite: 195]",
+    "Equation: <katex>$\\frac{T_x - 0}{R} = \\frac{90 - T_x}{R} + \\frac{90 - T_x}{R}$</katex> (assuming heat flows from 90 to x, and x to 0). [cite: 196]",
+    "<katex>$T_x = 90 - T_x + 90 - T_x$</katex>",
+    "<katex>$3T_x = 180$</katex> [cite: 197]",
+    "<katex>$T_x = 60^{\\circ}C$</katex>. [cite: 198]"
   ],
   "years": [
     2025

@@ -11,7 +11,7 @@
       "<katex>$I^{2}Rt$</katex>"
     ],
     [
-      "<katex>$\\epsilon It$</katex>"
+      "<katex>$\\epsilon I t$</katex>"
     ],
     [
       "<katex>$\\frac{\\epsilon^{2}t}{R}$</katex>"
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Work done by battery <katex>$W = \\text{EMF} \\times \\text{Charge} = \\epsilon (It)$</katex>."
   ],
   "years": [
     2023

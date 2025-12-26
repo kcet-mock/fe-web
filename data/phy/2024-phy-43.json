@@ -19,8 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The net charge enclosed by a surface containing a dipole is zero (<katex>$+q -q = 0$</katex>).",
-    "According to Gauss's Law, total flux <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0} = 0$</katex>."
+    "An electric dipole consists of two equal and opposite charges (+q and -q).",
+    "Total charge enclosed by the surface is <katex>$+q - q = 0$</katex>.",
+    "According to Gauss's Law, flux <katex>$\\phi = \\frac{Q_{enclosed}}{\\epsilon_0} = 0$</katex>."
   ],
   "years": [
     2024

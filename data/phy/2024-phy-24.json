@@ -1,7 +1,7 @@
 {
   "id": "2024-phy-24",
   "question": [
-    "A p-n junction diode is connected to a battery of emf 5.7 V in series with a resistance 5 <katex>$\\Omega$</katex> (or k<katex>$\\Omega$</katex>) such that it is forward biased. If the barrier potential of the diode is 0.7 V, neglecting the diode resistance, the current in the circuit is"
+    "A p-n junction diode is connected to a battery of emf 5.7 V in series with a resistance <katex>$5~k\\Omega$</katex> such that it is forward biased. If the barrier potential of the diode is 0.7 V, neglecting the diode resistance, the current in the circuit is"
   ],
   "choices": [
     [
@@ -20,8 +20,8 @@
   "correctAnswer": 0,
   "explanation": [
     "Net voltage <katex>$V = 5.7 - 0.7 = 5.0$</katex> V.",
-    "Given the answer choices, the resistance is likely 5 k<katex>$\\Omega$</katex>.",
-    "Current <katex>$I = \\frac{V}{R} = \\frac{5}{5000} = 10^{-3}$</katex> A = 1 mA."
+    "Resistance <katex>$R = 5~k\\Omega = 5000~\\Omega$</katex>.",
+    "Current <katex>$I = \\frac{V}{R} = \\frac{5}{5000} = 10^{-3} A = 1$</katex> mA."
   ],
   "years": [
     2024

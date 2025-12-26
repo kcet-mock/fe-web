@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "<katex>$g' = \\frac{g}{(1 + h/R)^2}$</katex>. Here <katex>$h = R/2$</katex>.",
-    "<katex>$g' = \\frac{9.8}{(1 + 0.5)^2} = \\frac{9.8}{2.25} \\approx 4.35$</katex> m/s<katex>$^2$</katex>."
+    "<katex>$g_h = \\frac{g}{(1 + h/R)^2}$</katex>. Here <katex>$h = R/2$</katex>.",
+    "<katex>$g_h = \\frac{9.8}{(1 + 0.5)^2} = \\frac{9.8}{2.25} \\approx 4.35$</katex>."
   ],
   "years": [
     2024

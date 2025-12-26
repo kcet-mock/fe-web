@@ -20,12 +20,11 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Total charge <katex>$Q$</katex> = Area under I-t graph.",
-    "Area = Trapezium (0-10s) + Rectangle (10-20s).",
-    "Trapezium: <katex>$\\frac{1}{2}(100+300) \\times 10 = 2000$</katex> mC = 2 C.",
-    "Rectangle: <katex>$300 \\times 10 = 3000$</katex> mC = 3 C.",
-    "Total <katex>$Q = 5$</katex> C.",
-    "Number of electrons <katex>$n = \\frac{Q}{e} = \\frac{5}{1.6 \\times 10^{-19}} = 3.125 \\times 10^{19}$</katex>."
+    "Total charge Q = Area under I-t graph.",
+    "Area 1 (Trapezium 0-10s): <katex>$\\frac{1}{2}(100+300) \\times 10 = 2000$</katex> mC = 2 C.",
+    "Area 2 (Rectangle 10-20s): <katex>$300 \\times 10 = 3000$</katex> mC = 3 C.",
+    "Total Q = 5 C.",
+    "Number of electrons <katex>$n = Q/e = 5 / (1.6 \\times 10^{-19}) = 3.125 \\times 10^{19}$</katex>."
   ],
   "years": [
     2024

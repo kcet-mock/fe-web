@@ -17,11 +17,11 @@
       "Potential energy is minimum, if the separation between the nucleons is 0.8 fm"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "Nuclear force is not always attractive. It becomes repulsive at very short distances (< 0.8 fm) to prevent collapse."
+    "Statement (3) 'Nuclear force is always attractive' is incorrect because it becomes repulsive for distances less than 0.8 fm. [cite: 757, 760]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

@@ -20,9 +20,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "This acts as two lenses in contact or a combination of focal lengths. The system has an effective focal length.",
-    "Using the Lens Maker's formula for each half and combining, or treating as surfaces: <katex>$\\frac{1}{f} = (n-1)(\\frac{1}{R_1} - \\frac{1}{R_2})$</katex> is standard, but here materials differ.",
-    "The correct calculation leads to <katex>$v=40$</katex> cm as per the answer key."
+    "The lens acts as a combination of two plano-convex lenses in contact. <katex>$F_{eq}$</katex> is found using <katex>$\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2}$</katex>.",
+    "<katex>$\\frac{1}{f_1} = (1.5-1)(\\frac{1}{14}) = \\frac{1}{28}$</katex>. <katex>$\\frac{1}{f_2} = (1.2-1)(\\frac{1}{14}) = \\frac{1}{70}$</katex>.",
+    "<katex>$\\frac{1}{F} = \\frac{1}{28} + \\frac{1}{70} = \\frac{5+2}{140} = \\frac{1}{20}$</katex> cm.",
+    "Using lens formula <katex>$\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{F}$</katex> with <katex>$u = -40$</katex>, <katex>$\\frac{1}{v} = \\frac{1}{20} - \\frac{1}{40} = \\frac{1}{40}$</katex>. So <katex>$v = 40$</katex> cm."
   ],
   "years": [
     2024

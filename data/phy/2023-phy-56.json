@@ -6,7 +6,7 @@
   ],
   "choices": [
     [
-      "Inside <katex>$D_{1}$</katex>, <katex>$D_{2}$</katex> and the gaps"
+      "Inside <katex>$D_{1}$</katex> <katex>$D_{2}$</katex> and the gaps"
     ],
     [
       "Only inside <katex>$D_{1}$</katex>"
@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Acceleration (increase in speed) happens due to the electric field, which exists only in the gap between the Dees. Inside the Dees, field is zero (shielding) and particle moves in constant speed circular path."
   ],
   "years": [
     2023

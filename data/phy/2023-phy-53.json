@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-53",
   "question": [
-    "A uniform electric field vector <katex>$\\vec{E}$</katex> exists along horizontal direction as shown. The electric potential at A is <katex>$V_{A}$</katex>. A small point charge q is slowly taken from A to B along the curved path as shown. The potential energy of the charge when it is at point B is",
+    "A uniform electric field vector <katex>$\\vec{E}$</katex> exists along horizontal direction as shown. The electric potential at A is <katex>$V_{A}$</katex> A small point charge q is slowly taken from A to B along the curved path as shown. The potential energy of the charge when it is at point B is",
     "images/2023-phy-53-1.png"
   ],
   "choices": [
@@ -9,10 +9,10 @@
       "<katex>$q[Ex-V_{A}]$</katex>"
     ],
     [
-      "<katex>$qEx$</katex>"
+      "qEx"
     ],
     [
-      "<katex>$q[V_{A}-Ex]$</katex>"
+      "<katex>$q[V_{A}-E_{X}]$</katex>"
     ],
     [
       "<katex>$q[V_{A}+Ex]$</katex>"
@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Potential decreases in direction of field. <katex>$V_B = V_A - Ex$</katex>. Potential energy <katex>$U_B = qV_B = q(V_A - Ex)$</katex>."
   ],
   "years": [
     2023

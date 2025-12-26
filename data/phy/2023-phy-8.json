@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Answer key: D"
+    "EMF <katex>$|\\varepsilon| = L \\frac{di}{dt}$</katex>. Given <katex>$\\varepsilon = 1$</katex>, <katex>$di = 5 - 2 = 3$</katex> A, <katex>$dt = 0.3$</katex> s. <katex>$1 = L \\times (3/0.3) = 10L$</katex>. <katex>$L = 0.1$</katex> H = 100 mH."
   ],
   "years": [
     2023

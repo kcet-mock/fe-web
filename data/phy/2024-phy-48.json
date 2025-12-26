@@ -20,8 +20,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Solving the equivalent resistance of the symmetric network or using nodal analysis.",
-    "According to the answer key, the current is <katex>$\\frac{V_0}{3R}$</katex>."
+    "The circuit consists of two balanced Wheatstone bridges in series.",
+    "Left bridge equivalent resistance = R. Right bridge equivalent resistance = 2R.",
+    "Total Resistance = R + 2R = 3R.",
+    "Current <katex>$I = \\frac{V_0}{3R}$</katex>."
   ],
   "years": [
     2024

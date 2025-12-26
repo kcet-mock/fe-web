@@ -17,12 +17,12 @@
       "Zero radian"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "In a transverse wave, particles oscillate perpendicular to the direction of wave propagation.",
-    "Therefore, the angle is <katex>$\\frac{\\pi}{2}$</katex> radians."
+    "In a transverse wave, particles oscillate perpendicular to the direction of propagation of the wave. [cite: 253]",
+    "Hence angle is <katex>$\\frac{\\pi}{2}$</katex> radian. [cite: 254]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

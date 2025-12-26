@@ -11,17 +11,17 @@
       "<katex>$N = N_0 e^{-\\lambda t}$</katex>"
     ],
     [
-      "<katex>$F = 6\\pi \\eta r v$</katex>"
+      "<katex>$F = 6\\pi\\eta rv$</katex>"
     ],
     [
       "<katex>$s = ut + \\frac{1}{2}at^2$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "Stoke's law (<katex>$F = 6\\pi \\eta r v$</katex>) is a classic example of a formula derived using dimensional analysis by checking dependencies on viscosity, radius, and velocity."
+    "Dimensional analysis can typically deduce product relations like <katex>$F = 6\\pi\\eta rv$</katex> (Stokes' law) up to a constant. [cite: 861]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

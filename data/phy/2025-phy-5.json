@@ -20,14 +20,14 @@
       "I and II only"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "I. Correct: In elastic collision, total initial KE equals total final KE.",
-    "II. Correct: Linear momentum is always conserved in collisions (no external forces).",
-    "III. Correct: During the brief collision time, some KE is stored as elastic potential energy, so instantaneous KE is not conserved.",
-    "Therefore, all statements are correct."
+    "I. In an elastic collision, the total kinetic energy before collision equals the total kinetic energy after collision (Final total kinetic energy equals initial). [cite: 65, 75]",
+    "II. Linear momentum is always conserved. [cite: 66, 76]",
+    "III. During the brief interaction time <katex>$\\Delta t$</katex>, some kinetic energy is partly converted to potential energy of deformation. Thus, kinetic energy is not conserved *during* the collision process itself. [cite: 67, 77]",
+    "All statements are correct. [cite: 78]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

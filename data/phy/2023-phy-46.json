@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-46",
   "question": [
-    "A block of mass m is connected to a light spring of force constant k. The system is placed inside a damping medium of damping constant b. The instantaneous values of displacement, acceleration and energy of the block are x, a and E respectively. The initial amplitude of oscillation is A and <katex>$\\omega^{\\prime}$</katex> is the angular frequency of oscillations. The incorrect expression related to the damped oscillation is"
+    "A block of mass m is connected to a light spring of force constant k. The system is placed inside a damping medium of damping constant b. The instantaneous values of displacement, acceleration and energy of the block are x, a and E respectively. The initial amplitude of oscillation is A and <katex>$\\Theta^{\\prime}$</katex> is the angular frequency of oscillations. The incorrect expression related to the damped oscillation is"
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "The damping term in the exponent should be <katex>$-bt/2m$</katex> for amplitude. The energy decay is <katex>$-bt/m$</katex>. Option C has <katex>$b/m$</katex> (positive and wrong factor) in exponent. Also A has positive exponent which implies growth, but C is definitely wrong form."
   ],
   "years": [
     2023

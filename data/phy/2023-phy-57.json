@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Answer key: D"
+    "4.7 k<katex>$\\Omega$</katex> = <katex>$47 \\times 10^2 \\Omega$</katex>. Bands: 1st (4-Yellow), 2nd (7-Violet), 3rd (Multiplier <katex>$10^2$</katex>). <katex>$10^2$</katex> corresponds to Red."
   ],
   "years": [
     2023

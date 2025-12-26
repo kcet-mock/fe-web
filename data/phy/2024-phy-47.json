@@ -19,8 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Microscopic form of Ohm's law: <katex>$\\vec{j} = \\sigma \\vec{E}$</katex>.",
-    "Since <katex>$\\rho = 1/\\sigma$</katex>, we have <katex>$\\vec{E} = \\rho \\vec{j}$</katex>."
+    "Microscopic form of Ohm's law: <katex>$\\vec{j} = \\sigma \\vec{E}$</katex> or <katex>$\\vec{E} = \\frac{1}{\\sigma} \\vec{j} = \\rho \\vec{j}$</katex>."
   ],
   "years": [
     2024

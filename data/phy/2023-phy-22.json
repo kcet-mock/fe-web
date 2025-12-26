@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-22",
   "question": [
-    "In the Young's double slit experiment, the intensity of light passing through each of the two double slits is <katex>$2\\times10^{-2}Wm^{-2}$</katex>. The screen-slit distance is very large in comparison with slit-slit distance. The fringe width is <katex>$\\beta$</katex>. The distance between the central maximum and a point P on the screen is <katex>$x=\\frac{\\beta}{3}.$</katex> Then the total light intensity at that point is"
+    "In the Young's double slit experiment, the intensity of light passing through each of the two double slits is <katex>$2\\times10^{-2}Wm^{-2}$</katex>. The screen-slit distance is very large in comparison with slit-slit distance. The fringe width is <katex>$\\beta$</katex>. The distance between the central maximum and a point P on the screen is <katex>$x=\\frac{\\beta}{3}$</katex>. Then the total light intensity at that point is"
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Phase difference <katex>$\\phi = \\frac{2\\pi}{\\lambda} \\Delta x = \\frac{2\\pi}{\\lambda} (d \\sin \\theta) \\approx \\frac{2\\pi}{\\lambda} \\frac{xd}{D}$</katex>. Since <katex>$\\beta = \\lambda D / d$</katex>, <katex>$\\phi = \\frac{2\\pi x}{\\beta}$</katex>. Given <katex>$x = \\beta/3$</katex>, <katex>$\\phi = 2\\pi/3$</katex>. Resultant intensity <katex>$I_R = I_{max} \\cos^2(\\phi/2) = 4I_0 \\cos^2(\\phi/2)$</katex>. <katex>$I_R = 4(2\\times10^{-2}) \\cos^2(\\pi/3) = 8\\times10^{-2} (1/2)^2 = 2\\times10^{-2}$</katex>."
   ],
   "years": [
     2023

@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-37",
   "question": [
-    "A square loop of side 2m lies in the Y-Z plane in a region having a magnetic field <katex>$\\vec{B}=(5\\hat{i}+3\\hat{j}-4\\hat{k})T$</katex>. The magnitude of magnetic flux through the square loop is"
+    "A square loop of side 2m lies in the Y-Z plane in a region having a magnetic field <katex>$\\overline{B} = (5\\hat{i} + 3\\hat{j} - 4\\hat{k})$</katex> T. The magnitude of magnetic flux through the square loop is"
   ],
   "choices": [
     [
@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Area vector <katex>$\\vec{A}$</katex> is perpendicular to Y-Z plane, so it is in X-direction.",
-    "<katex>$\\vec{A} = (2 \\times 2) \\hat{i} = 4\\hat{i}$</katex>.",
-    "Flux <katex>$\\phi = \\vec{B} \\cdot \\vec{A} = (5\\hat{i}+3\\hat{j}-4\\hat{k}) \\cdot (4\\hat{i}) = 20$</katex> Wb."
+    "Area vector <katex>$\\overline{A} = (2 \\times 2) \\hat{i} = 4\\hat{i}$</katex> (as loop is in y-z plane). [cite: 581, 582, 583]",
+    "Flux <katex>$\\phi = \\overline{B} \\cdot \\overline{A} = (5\\hat{i} + 3\\hat{j} - 4\\hat{k}) \\cdot 4\\hat{i}$</katex>. [cite: 586]",
+    "<katex>$\\phi = 20$</katex> Wb. [cite: 587]"
   ],
   "years": [
     2025

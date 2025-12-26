@@ -17,13 +17,13 @@
       "images/2025-phy-27-4.png"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "Resistance <katex>$R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi (D/2)^2} = \\frac{4\\rho l}{\\pi D^2}$</katex>.",
-    "So, <katex>$R \\propto \\frac{1}{D^2}$</katex>.",
-    "The graph of R vs D is a hyperbola curve dropping sharply (Option 3)."
+    "Resistance <katex>$R = \\frac{\\rho l}{A} = \\frac{\\rho l}{\\pi r^2}$</katex>. [cite: 454]",
+    "Since <katex>$r = D/2$</katex>, <katex>$R \\propto \\frac{1}{D^2}$</katex>. [cite: 454]",
+    "The graph is a curve decreasing with D (hyperbolic type), corresponding to graph (3). [cite: 441, 450]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Velocity after 2s is <katex>$v = gt = 10 \\times 2 = 20$</katex> m/s. Induced emf <katex>$\\varepsilon = B_H l v = 3 \\times 10^{-5} \\times 1 \\times 20 = 60 \\times 10^{-5} = 6 \\times 10^{-4}$</katex> V."
   ],
   "years": [
     2023

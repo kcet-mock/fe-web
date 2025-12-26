@@ -17,13 +17,12 @@
       "Current, electric field and drift speed"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "In a series circuit (or single wire), conservation of charge dictates that the current (I) is the same at every cross-section.",
-    "Drift speed <katex>$v_d = I/(nAq)$</katex> depends on Area A, so it varies.",
-    "Electric field depends on A, so it varies."
+    "Current at every cross section is same irrespective of area of cross section. [cite: 434]",
+    "Drift speed and electric field depend on area."
   ],
   "years": [
-    2024
+    2025
   ]
 }

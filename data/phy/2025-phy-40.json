@@ -1,7 +1,8 @@
 {
   "id": "2025-phy-40",
   "question": [
-    "A series LCR circuit containing an AC source of 100V has an inductor and a capacitor of reactances <katex>$24\\Omega$</katex> and <katex>$16\\Omega$</katex> respectively. If a resistance of <katex>$6\\Omega$</katex> is connected in series, then the potential difference across the series combination of inductor and capacitor only is"
+    "A series LCR circuit containing an AC source of 100V has an inductor and a capacitor of reactances <katex>$24\\Omega$</katex> and <katex>$16\\Omega$</katex> respectively. If a resistance of <katex>$6\\Omega$</katex> is connected in series, then the potential difference across the series combination of inductor and capacitor only is",
+    "images/2025-phy-40-1.png"
   ],
   "choices": [
     [
@@ -19,13 +20,12 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "<katex>$Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{6^2 + (24-16)^2} = \\sqrt{36+64} = 10 \\Omega$</katex>.",
-    "Current <katex>$I = V/Z = 100/10 = 10$</katex> A.",
-    "Net reactance of L and C: <katex>$X_{net} = X_L - X_C = 8 \\Omega$</katex>.",
-    "Voltage across L-C combination <katex>$V_{LC} = I \\times X_{net} = 10 \\times 8 = 80$</katex> V.",
-    "images/2025-phy-40-1.png"
+    "<katex>$X_C = 24\\Omega, X_L = 16\\Omega, R = 6\\Omega$</katex> (Text actually swaps values in calc, <katex>$24-16$</katex>, so net reactance is 8). [cite: 617, 618, 619]",
+    "<katex>$Z = \\sqrt{R^2 + (X_C - X_L)^2} = \\sqrt{6^2 + 8^2} = 10\\Omega$</katex>. [cite: 620, 621]",
+    "Current <katex>$i = \\frac{100}{10} = 10$</katex> A. [cite: 630]",
+    "Net voltage across capacitor and inductor <katex>$= i(X_C - X_L) = 10(8) = 80$</katex> V. [cite: 631, 634, 635]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

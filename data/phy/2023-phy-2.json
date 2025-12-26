@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: B"
+    "The horizontal component <katex>$B_H = B \\cos \\delta$</katex>. Given <katex>$B_H = 3 \\times 10^{-5} T$</katex> and <katex>$\\delta = 45^{\\circ}$</katex>, we have <katex>$B = \\frac{B_H}{\\cos 45^{\\circ}} = \\frac{3 \\times 10^{-5}}{1/\\sqrt{2}} = 3\\sqrt{2} \\times 10^{-5} T$</katex>."
   ],
   "years": [
     2023

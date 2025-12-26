@@ -1,7 +1,7 @@
 {
   "id": "2024-phy-41",
   "question": [
-    "A point of charge A of +10 µC and another point charge B of +20 µC are kept 1 m apart in free space. The electrostatic force on A due to B is <katex>$\\vec{F}_{1}$</katex> and the electrostatic force on B due to A is <katex>$\\vec{F}_{2}$</katex>. Then"
+    "A point of charge A of +10 µC and another point charge B of +20 µC are kept 1 m apart in free space. The electrostatic force on A due to B is <katex>$\\vec{F}_{1}$</katex> and the electrostatic force on B due to A is <katex>$\\vec{F}_{2}$</katex> Then"
   ],
   "choices": [
     [
@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Electrostatic forces obey Newton's Third Law (Action-Reaction pair).",
-    "The force exerted by A on B is equal in magnitude and opposite in direction to the force exerted by B on A."
+    "According to Coulomb's law and Newton's third law, the forces between two point charges are equal in magnitude and opposite in direction.",
+    "Therefore, <katex>$\\vec{F}_{1} = -\\vec{F}_{2}$</katex>."
   ],
   "years": [
     2024

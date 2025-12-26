@@ -17,12 +17,12 @@
       "2r"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "Bohr radius <katex>$r_n \\propto n^2$</katex>.",
-    "For <katex>$n=2$</katex>, <katex>$r_2 = 2^2 r_1 = 4r$</katex>."
+    "<katex>$r \\propto n^2$</katex>. [cite: 737]",
+    "<katex>$n=2; r_2 = 2^2 r = 4r$</katex>. [cite: 738]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

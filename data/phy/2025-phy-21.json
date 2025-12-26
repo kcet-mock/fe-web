@@ -19,9 +19,8 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "An equipotential surface has the same potential at every point.",
-    "Work done <katex>$W = q\\Delta V = q(0) = 0$</katex>.",
-    "Statement (1) claims work done is 'not zero', which is false (not true)."
+    "Equipotential surface is having same potential at every point so work done in moving a charge from one point to other is 0. [cite: 362]",
+    "Thus, statement (1) claiming it is 'not zero' is incorrect."
   ],
   "years": [
     2025

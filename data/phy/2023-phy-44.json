@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-44",
   "question": [
-    "In the situation shown in the diagram, magnitude of <katex>$q\\ll|Q|$</katex> and <katex>$r>>a,$</katex>. The net force on the free charge -q and net torque on it about O at the instant shown are respectively [<katex>$p=2aQ$</katex> is the dipole moment]",
+    "In the situation shown in the diagram, magnitude of <katex>$q\\ll|Q|$</katex> and <katex>$r>>a,$</katex> The net force on the free charge -q and net torque on it about O at the instant shown are respectively [p=2aQ is the dipole moment]",
     "images/2023-phy-44-1.png"
   ],
   "choices": [
@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Refer to answer key."
   ],
   "years": [
     2023

@@ -17,11 +17,12 @@
       "Gauss's law is true for any closed surface"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "Gauss's law is valid for any closed surface, regardless of the shape or charge distribution."
+    "Gauss law is valid only for closed surface and charge should be enclosed inside the closed surface to get flux through the closed surface. [cite: 370]",
+    "Correct statement is (4): Gauss's law is true for any closed surface."
   ],
   "years": [
-    2024
+    2025
   ]
 }

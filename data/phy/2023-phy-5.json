@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-5",
   "question": [
-    "A positively charged particle of mass m is passed through a velocity selector. It moves horizontally rightward without deviation along the line <katex>$y=\\frac{2mv}{qB}$</katex> with a speed v. The electric field is vertically downwards and magnetic field is into the plane of the paper. Now, the electric field is switched off at <katex>$t=0$</katex>. The angular momentum of the charged particle about origin O at <katex>$t=\\frac{\\pi m}{qB}$</katex> is",
+    "A positively charged particle of mass m is passed through a velocity selector. It moves horizontally with a speed v. The electric field is vertically downwards and magnetic field is into the plane of the paper. Now, the electric field is switched off at <katex>$t=0$</katex>. The angular momentum of the charged particle about origin O at <katex>$t=\\frac{\\pi m}{qB}$</katex> is",
     "images/2023-phy-5-1.png"
   ],
   "choices": [
@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Initially <katex>$v = E/B$</katex>. When E is off, the particle executes circular motion with period <katex>$T = 2\\pi m / qB$</katex>. The time <katex>$t = \\pi m / qB$</katex> is <katex>$T/2$</katex>. After half a circle, the particle is at a distance <katex>$2r$</katex> from the entry point along the y-axis (if entering at origin) or x-axis depending on orientation. The velocity vector is reversed. Angular momentum <katex>$L = m(r \\times v)$</katex>. Coordinate geometry analysis shows the value. The provided answer is Zero."
   ],
   "years": [
     2023

@@ -19,10 +19,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Better tuning (sharpness of resonance) implies a higher Quality Factor (Q-factor).",
-    "The Q-factor is given by <katex>$Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$</katex>.",
-    "To maximize Q, we need low <katex>$R$</katex>, high <katex>$L$</katex>, and low <katex>$C$</katex>.",
-    "Option (D) has the lowest resistance (<katex>$15~\\Omega$</katex>), highest inductance (<katex>$3.5~H$</katex>), and lowest capacitance (<katex>$30~\\mu F$</katex>), yielding the highest Q-factor."
+    "Better tuning implies a higher Quality Factor (Q-factor).",
+    "<katex>$Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$</katex>.",
+    "To maximize Q, we need low R, high L, and low C.",
+    "Option (D) has the lowest R (15) and highest L (3.5), giving the highest Q-value."
   ],
   "years": [
     2024

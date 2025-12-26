@@ -17,12 +17,11 @@
       "Momentum"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "de-Broglie wavelength <katex>$\\lambda = \\frac{h}{p}$</katex>.",
-    "If <katex>$\\lambda$</katex> is same, then momentum <katex>$p$</katex> must be the same."
+    "<katex>$\\lambda = \\frac{h}{p}$</katex>. If <katex>$\\lambda$</katex> is same then P i.e., momentum is same. [cite: 541]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

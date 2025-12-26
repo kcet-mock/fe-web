@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-49",
   "question": [
-    "A parallel plate capacitor of capacitance <katex>$C_{1}$</katex> with a dielectric slab in between its plates is connected to a battery. It has a potential difference <katex>$V_{1}$</katex> across its plates. When the dielectric slab is removed, keeping the capacitor connected to the battery, the new capacitance and potential difference are <katex>$C_{2}$</katex> and <katex>$V_{2}$</katex> respectively. Then,"
+    "A parallel plate capacitor of capacitance <katex>$C_{1}$</katex> with a dielectric slab in between its plates is connected to a battery. It has a potential difference across its plates. When the dielectric slab is removed, keeping the capacitor connected to the battery, the new capacitance and potential difference are <katex>$C_{2}$</katex> and <katex>$V_{2}$</katex> respectively. Then,"
   ],
   "choices": [
     [
@@ -14,12 +14,12 @@
       "<katex>$V_{1}=V_{2},C_{1}<C_{2}$</katex>"
     ],
     [
-      "<katex>$V_{1}>V_{2}, C_{1}>C_{2}$</katex>"
+      "<katex>$V_{1}>V_{2}$</katex>, <katex>$C_{1}>C_{2}$</katex>"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: B"
+    "Since the battery remains connected, potential difference remains constant (<katex>$V_1 = V_2$</katex>). Removing the dielectric decreases capacitance (<katex>$C_1 > C_2$</katex>)."
   ],
   "years": [
     2023

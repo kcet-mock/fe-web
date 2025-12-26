@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-14",
   "question": [
-    "The variations of kinetic energy K(x), potential energy U(x) and total energy E as a function of displacement of a particle in SHM is as shown in the figure. The value of <katex>$|x_0|$</katex> is",
+    "The variations of kinetic energy <katex>$K(x)$</katex>, potential energy <katex>$U(x)$</katex> and total energy as a function of displacement of a particle in SHM is as shown in the figure. The value of <katex>$|x_0|$</katex> is",
     "images/2025-phy-14-1.png"
   ],
   "choices": [
@@ -18,14 +18,14 @@
       "<katex>$\\frac{A}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "At point <katex>$x_0$</katex>, the Kinetic Energy graph and Potential Energy graph intersect, meaning <katex>$KE = PE$</katex>.",
-    "<katex>$\\frac{1}{2}m\\omega^2(A^2 - x^2) = \\frac{1}{2}m\\omega^2 x^2$</katex>",
-    "<katex>$A^2 - x^2 = x^2 \\Rightarrow 2x^2 = A^2$</katex>",
-    "<katex>$x = \\frac{A}{\\sqrt{2}}$</katex>"
+    "The point <katex>$x_0$</katex> is where the Kinetic Energy graph intersects the Potential Energy graph. At this point, <katex>$KE = PE$</katex>. [cite: 238]",
+    "<katex>$\\frac{1}{2} m \\omega^2 (A^2 - x^2) = \\frac{1}{2} m \\omega^2 x^2$</katex>. [cite: 239]",
+    "<katex>$A^2 - x^2 = x^2 \\Rightarrow 2x^2 = A^2$</katex>. [cite: 240]",
+    "<katex>$x = \\frac{A}{\\sqrt{2}}$</katex>. [cite: 241]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

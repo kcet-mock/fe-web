@@ -20,10 +20,10 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Assuming V is on y-axis and I on x-axis (Resistance = slope): <katex>$R_{100} = \\tan 30^{\\circ} = \\frac{1}{\\sqrt{3}}$</katex>, <katex>$R_{400} = \\tan 45^{\\circ} = 1$</katex>.",
-    "<katex>$R_{400} = R_{100}(1 + \\alpha \\Delta T)$</katex>.",
-    "<katex>$\\sqrt{3} = 1(1 + \\alpha (300))$</katex>. <katex>$\\alpha = \\frac{\\sqrt{3}-1}{300} = \\frac{0.732}{300} \\approx 2.44 \\times 10^{-3}$</katex>.",
-    "Closest option is <katex>$3 \\times 10^{-3}$</katex>."
+    "Assume V is on Y-axis (Standard V-I plot gives slope R). <katex>$R_{100} = \\tan 30^{\\circ} = 1/\\sqrt{3}$</katex>. <katex>$R_{400} = \\tan 45^{\\circ} = 1$</katex>.",
+    "Use <katex>$R_2 = R_1 (1 + \\alpha \\Delta T)$</katex>. <katex>$1 = \\frac{1}{\\sqrt{3}} (1 + \\alpha(300))$</katex>.",
+    "<katex>$\\sqrt{3} - 1 = 300\\alpha \\implies 0.732 = 300\\alpha$</katex>.",
+    "<katex>$\\alpha \\approx 2.44 \\times 10^{-3}$</katex>, closest to <katex>$3 \\times 10^{-3}$</katex>."
   ],
   "years": [
     2024

@@ -20,9 +20,10 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Intensity after P1: <katex>$I_1 = I_0/2$</katex>.",
-    "Intensity after P2 (angle <katex>$30^{\\circ}$</katex> with P1): <katex>$I_2 = I_1 \\cos^2(30^{\\circ}) = (I_0/2) (\\frac{\\sqrt{3}}{2})^2 = \\frac{3I_0}{8}$</katex>.",
-    "Intensity after P3 (angle between P2 and P3 is <katex>$90^{\\circ} - 30^{\\circ} = 60^{\\circ}$</katex>): <katex>$I_3 = I_2 \\cos^2(60^{\\circ}) = (\\frac{3I_0}{8}) (\\frac{1}{2})^2 = \\frac{3I_0}{32}$</katex>."
+    "After sheet 1: <katex>$I_1 = I_0/2$</katex>.",
+    "After sheet 2 (angle <katex>$30^{\\circ}$</katex>): <katex>$I_2 = I_1 \\cos^2(30^{\\circ}) = \\frac{I_0}{2} (\\frac{\\sqrt{3}}{2})^2 = \\frac{3I_0}{8}$</katex>.",
+    "Angle between sheet 2 and 3: Sheet 2 is at <katex>$30^{\\circ}$</katex>, Sheet 3 is at <katex>$90^{\\circ}$</katex>. Angle <katex>$\\theta = 60^{\\circ}$</katex>.",
+    "After sheet 3: <katex>$I_3 = I_2 \\cos^2(60^{\\circ}) = \\frac{3I_0}{8} (\\frac{1}{2})^2 = \\frac{3I_0}{32}$</katex>."
   ],
   "years": [
     2024

@@ -19,8 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Area vector <katex>$\\vec{A}$</katex> is perpendicular to the plane (Z-X), so it is along the Y-axis. <katex>$\\vec{A} = (0.1 \\times 0.3) \\hat{j} = 0.03 \\hat{j}$</katex> m<katex>$^2$</katex>.",
-    "Flux <katex>$\\phi = \\vec{E} \\cdot \\vec{A} = (3 \\times 10^5 \\hat{j}) \\cdot (0.03 \\hat{j}) = 9 \\times 10^3$</katex> Vm."
+    "Area <katex>$A = 10 \\times 30 = 300~cm^2 = 3 \\times 10^{-2}~m^2$</katex>.",
+    "The plane is parallel to Z-X, so its area vector is along the Y-axis, parallel to E.",
+    "Flux <katex>$\\phi = EA = 3 \\times 10^5 \\times 3 \\times 10^{-2} = 9 \\times 10^3~Vm$</katex>."
   ],
   "years": [
     2024

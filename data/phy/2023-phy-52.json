@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Answer key: D"
+    "This is a balanced Wheatstone bridge of capacitors. The central capacitor is effectively open. The circuit becomes two series pairs in parallel. <katex>$(1 \\text{ series } 1) = 0.5$</katex>. <katex>$0.5 + 0.5 = 1 \\mu F$</katex>."
   ],
   "years": [
     2023

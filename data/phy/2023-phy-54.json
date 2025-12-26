@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-54",
   "question": [
-    "Ten identical cells each emf 2V and internal resistance <katex>$1\\Omega$</katex> are connected in series with two cells wrongly connected. A resistor of <katex>$10\\Omega$</katex> is connected to the combination. What is the current through the resistor?"
+    "Ten identical cells each emf 2V and internal resistance 1 <katex>$\\Omega$</katex> are connected in series with two cells wrongly connected. A resistor of 10 <katex>$\\Omega$</katex> is connected to the combination. What is the current through the resistor?"
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Total cells n = 10. Wrongly connected m = 2. Effective emf <katex>$E_{eff} = (n - 2m)E = (10 - 4) \\times 2 = 12$</katex> V. Total resistance <katex>$R_{total} = R + nr = 10 + 10(1) = 20 \\Omega$</katex>. Current <katex>$I = 12/20 = 0.6$</katex> A."
   ],
   "years": [
     2023

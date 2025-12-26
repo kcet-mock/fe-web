@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Gray (8), Red (2), Gold (<katex>$10^{-1}$</katex>), Gold (5%). Value: <katex>$82 \\times 10^{-1} = 8.2 \\Omega$</katex>. Tolerance 5%."
   ],
   "years": [
     2023

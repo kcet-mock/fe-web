@@ -18,13 +18,12 @@
       "<katex>$-q/\\epsilon_0$</katex>"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "Sphere A encloses only the charge -q.",
-    "According to Gauss's Law, Flux <katex>$\\phi = \\frac{q_{enclosed}}{\\epsilon_0}$</katex>.",
-    "Therefore, <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>."
+    "By Gauss's Law, charge enclosed by sphere A is <katex>$-q$</katex>. [cite: 295, 296]",
+    "Flux <katex>$\\phi = \\frac{-q}{\\epsilon_0}$</katex>. [cite: 298]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

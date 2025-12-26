@@ -20,10 +20,12 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Work done is the area enclosed by the cycle in the PV diagram.",
-    "Area = Area of triangle = <katex>$\\frac{1}{2} \\times \\text{base} \\times \\text{height}$</katex>.",
-    "Base = <katex>$3V_0 - V_0 = 2V_0$</katex>. Height = <katex>$3P_0 - P_0 = 2P_0$</katex>.",
-    "Area = <katex>$\\frac{1}{2} (2V_0) (2P_0) = 2 P_0 V_0$</katex>."
+    "Work done is the area enclosed by the cycle in P-V diagram.",
+    "Area of triangle = <katex>$\\frac{1}{2} \\times \\text{base} \\times \\text{height}$</katex>.",
+    "Base = <katex>$3V_0 - V_0 = 2V_0$</katex>.",
+    "Height = <katex>$3P_0 - P_0 = 2P_0$</katex>.",
+    "Area = <katex>$\\frac{1}{2} \\times 2V_0 \\times 2P_0 = 2 P_0 V_0$</katex>.",
+    "The cycle is clockwise, so work is positive."
   ],
   "years": [
     2024

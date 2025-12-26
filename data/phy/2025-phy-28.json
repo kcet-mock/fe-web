@@ -17,12 +17,12 @@
       "Attract each other with a force per unit length of <katex>$\\frac{\\mu_0 I^2}{2\\pi r^2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "Force per unit length <katex>$\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi r} = \\frac{\\mu_0 I^2}{2\\pi r}$</katex>.",
-    "Parallel currents attract; Anti-parallel (opposite direction) currents repel."
+    "Force per unit length <katex>$\\frac{f}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi r}$</katex>. [cite: 468]",
+    "If they carry opposite current they repel each other. [cite: 469]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

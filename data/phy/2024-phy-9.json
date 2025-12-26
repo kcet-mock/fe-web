@@ -20,10 +20,10 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Using the refraction formula at a spherical surface: <katex>$\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$</katex>.",
-    "Here <katex>$u = -2R = -20$</katex> cm, <katex>$R = +10$</katex> cm (convex towards rarer).",
-    "<katex>$\\frac{3/2}{v} - \\frac{4/3}{-20} = \\frac{3/2 - 4/3}{10}$</katex>. Solving for <katex>$v$</katex> gives <katex>$v = -30$</katex> cm.",
-    "The negative sign indicates the image is formed in the medium of incidence (<katex>$n_1$</katex>), which is the rarer medium."
+    "Formula: <katex>$\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$</katex>. Here <katex>$u = -2R = -20$</katex> cm, <katex>$R = +10$</katex> cm.",
+    "<katex>$\\frac{1.5}{v} - \\frac{1.33}{-20} = \\frac{1.5 - 1.33}{10}$</katex>.",
+    "Solving gives <katex>$v = -30$</katex> cm.",
+    "A negative sign indicates the image is formed in the first medium (from which light is incident), which is <katex>$n_1 = 4/3$</katex> (rarer medium compared to 3/2)."
   ],
   "years": [
     2024

@@ -19,10 +19,10 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Speed of cyclist <katex>$v_s = 18$</katex> km/h <katex>$= 5$</katex> m/s.",
-    "Frequency of reflected sound heard by cyclist: <katex>$f' = f \\left(\\frac{v+v_o}{v-v_s}\\right)$</katex> where <katex>$v_o=v_s=5$</katex>.",
-    "<katex>$f' = 325 \\left(\\frac{330+5}{330-5}\\right) = 325 \\left(\\frac{335}{325}\\right) = 335$</katex> Hz.",
-    "Beats = <katex>$335 - 325 = 10$</katex>."
+    "Speed of source <katex>$v_s = 18~km/h = 5~m/s$</katex>.",
+    "Reflected frequency heard by motorcyclist <katex>$f' = f \\left(\\frac{v+v_s}{v-v_s}\\right)$</katex>.",
+    "<katex>$f' = 325 \\left(\\frac{330+5}{330-5}\\right) = 325 \\times \\frac{335}{325} = 335$</katex> Hz.",
+    "Beats = <katex>$f' - f = 335 - 325 = 10$</katex>."
   ],
   "years": [
     2024

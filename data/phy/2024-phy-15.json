@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Threshold wavelength <katex>$\\lambda_0 = \\frac{1240}{\\phi(eV)} \\approx \\frac{1240}{2.4} \\approx 517$</katex> nm.",
-    "Photoemission occurs only if incident <katex>$\\lambda < \\lambda_0$</katex>.",
-    "700 nm is greater than 517 nm, so emission does not take place."
+    "Threshold wavelength <katex>$\\lambda_0 = \\frac{1240}{\\phi(eV)} = \\frac{1240}{2.4} \\approx 517$</katex> nm.",
+    "Emission occurs for <katex>$\\lambda < \\lambda_0$</katex>.",
+    "700 nm is greater than 517 nm, so it has less energy than the work function and will not cause emission."
   ],
   "years": [
     2024

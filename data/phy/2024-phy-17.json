@@ -5,24 +5,26 @@
   ],
   "choices": [
     [
-      "<katex>$1:16$</katex>"
+      "1:16"
     ],
     [
-      "<katex>$1:4$</katex>"
+      "1:4"
     ],
     [
-      "<katex>$4:1$</katex>"
+      "4:1"
     ],
     [
-      "<katex>$16:1$</katex>"
+      "16:1"
     ]
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Radius of Bohr orbit <katex>$r_n \\propto n^2$</katex>.",
+    "Radius of orbit <katex>$r_n \\propto n^2$</katex>.",
     "Area of orbit <katex>$A \\propto r^2 \\propto (n^2)^2 = n^4$</katex>.",
-    "Ground state <katex>$n=1$</katex>, First excited state <katex>$n=2$</katex>.",
-    "Ratio <katex>$A_2 : A_1 = 2^4 : 1^4 = 16 : 1$</katex>."
+    "For ground state, <katex>$n=1, A_1 \\propto 1$</katex>.",
+    "For first excited state, <katex>$n=2, A_2 \\propto 2^4 = 16$</katex>.",
+    "Ratio <katex>$A_2 : A_1 = 16:1$</katex>.",
+    "(Note: The official key is C (4:1), which corresponds to the ratio of radii <katex>$n^2$</katex> or circumference, but the question asks for area)."
   ],
   "years": [
     2024

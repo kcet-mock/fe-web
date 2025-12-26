@@ -2,7 +2,7 @@
   "id": "2025-phy-41",
   "question": [
     "Match the following types of waves with their wavelength ranges",
-    "| | Waves | | Wavelength ranges |\n|---|---|---|---|\n| i. | Microwave | a. | 700 nm to 400 nm |\n| ii. | Visible light | b. | 1 nm to <katex>$10^{-3}$</katex> nm |\n| iii. | Ultraviolet | c. | 0.1 m to 1 mm |\n| iv. | X-rays | d. | 400 nm to 1 nm |"
+    "| Waves | Wavelength ranges |\n|---|---|\n| i. Microwave | a. 700 nm to 400 nm |\n| ii. Visible light | b. 1 nm to <katex>$10^3$</katex> nm |\n| iii. Ultraviolet | c. 0.1 m to 1 mm |\n| iv. X-rays | d. 400 nm to 1 nm |"
   ],
   "choices": [
     [
@@ -20,10 +20,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Microwaves: 0.1 m to 1 mm (c)",
-    "Visible light: 700 nm to 400 nm (a)",
-    "Ultraviolet: 400 nm to 1 nm (d)",
-    "X-rays: 1 nm to 10^-3 nm (b)"
+    "Matches typical wavelength ranges: Microwave (c), Visible (a), Ultraviolet (d), X-rays (b). Match 1 is correct. [cite: 639]"
   ],
   "years": [
     2025

@@ -20,11 +20,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "According to Lenz's law, the induced current opposes the change.",
-    "Pushing N-pole in induces one direction (deflection X).",
-    "Pulling N-pole out induces the opposite direction (deflection X')."
+    "According to Lenz's law, it should oppose the change in flux. Pulling away causes opposite deflection. Deflects towards <katex>$X^1$</katex>. [cite: 570]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

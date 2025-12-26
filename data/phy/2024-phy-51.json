@@ -5,23 +5,23 @@
   ],
   "choices": [
     [
-      "50 <katex>$\\Omega$</katex>"
+      "<katex>$50\\Omega$</katex>"
     ],
     [
-      "100 <katex>$\\Omega$</katex>"
+      "<katex>$100\\Omega$</katex>"
     ],
     [
-      "200 <katex>$\\Omega$</katex>"
+      "<katex>$200\\Omega$</katex>"
     ],
     [
-      "288 <katex>$\\Omega$</katex>"
+      "<katex>$288\\Omega$</katex>"
     ]
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Rated current <katex>$I = \\frac{P}{V} = \\frac{60}{120} = 0.5$</katex> A.",
-    "Voltage drop required across series resistor <katex>$V_R = 220 - 120 = 100$</katex> V.",
-    "Resistance <katex>$R = \\frac{V_R}{I} = \\frac{100}{0.5} = 200~\\Omega$</katex>."
+    "Current required <katex>$I = P/V = 60/120 = 0.5$</katex> A.",
+    "Voltage drop needed across resistor = <katex>$220 - 120 = 100$</katex> V.",
+    "Resistance <katex>$R = V/I = 100/0.5 = 200~\\Omega$</katex>."
   ],
   "years": [
     2024

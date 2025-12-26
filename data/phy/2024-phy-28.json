@@ -19,10 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Check if the block moves: Limiting friction condition.",
-    "Component of gravity down the incline <katex>$mg \\sin 30^{\\circ} = 0.5 mg$</katex>.",
-    "Max static friction <katex>$\\mu_s mg \\cos 30^{\\circ} = 0.6 \\times mg \\times 0.866 \\approx 0.52 mg$</katex>.",
-    "Since applied force (<katex>$0.5 mg$</katex>) < max static friction (<katex>$0.52 mg$</katex>), the block does not move. Acceleration is zero."
+    "Check if block moves: Downward component <katex>$g \\sin 30 = 10(0.5) = 5$</katex>.",
+    "Max static friction <katex>$f_s = \\mu_s g \\cos 30 = 0.6 \\times 10 \\times 0.866 = 5.196$</katex>.",
+    "Since <katex>$g \\sin 30 < f_s$</katex>, the block does not move. Acceleration is zero."
   ],
   "years": [
     2024

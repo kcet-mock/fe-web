@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Answer key: D"
+    "Let initial velocity be <katex>$v_0$</katex>. Energy at impact <katex>$E_1 = \\frac{1}{2}mv_0^2 + mgh$</katex>. After losing 50%, energy is <katex>$0.5 E_1$</katex>. This energy is sufficient to rise to height <katex>$h$</katex>. So <katex>$0.5(\\frac{1}{2}mv_0^2 + mgh) = mgh$</katex>. <katex>$\\frac{1}{2}mv_0^2 + mgh = 2mgh$</katex>. <katex>$\\frac{1}{2}v_0^2 = gh$</katex>. <katex>$v_0 = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 10} = 14.14$</katex> m/s. Approx 14 m/s."
   ],
   "years": [
     2023

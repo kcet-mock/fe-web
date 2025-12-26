@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Answer key: D"
+    "Accuracy is closeness to true value (3.678). A (3.5) is closer than B (3.38). So A is more accurate. Precision is resolution (decimal places). B (3.38) has higher resolution than A (3.5). So B is more precise."
   ],
   "years": [
     2023

@@ -18,12 +18,11 @@
       "<katex>$\\frac{Q}{\\epsilon_0}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "Inside a metallic (conducting) sphere, the electric field is zero due to electrostatic shielding.",
-    "Therefore, the flux at any point inside the metal of the sphere is zero."
+    "Since spheres are electrostatically shielded from each other, <katex>$\\phi = 0$</katex>. [cite: 281]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

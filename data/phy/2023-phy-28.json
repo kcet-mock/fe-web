@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-28",
   "question": [
-    "In the following equation representing <katex>$\\beta$</katex> decay, the number of neutrons in the nucleus X is: <katex>${}_{83}^{210}Bi\\rightarrow X+e^{-1}+\\overline{V}$</katex>"
+    "In the following equation representing decay, the number of neutrons in the nucleus X is <katex>${}_{83}^{210}Bi\\rightarrow X+e^{-1}+\\overline{V}$</katex>"
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "In beta decay (<katex>$e^-$</katex>), the atomic number Z increases by 1, mass number A remains same. <katex>$X$</katex> will be <katex>${}_{84}^{210}Po$</katex>. Number of neutrons <katex>$N = A - Z = 210 - 84 = 126$</katex>."
   ],
   "years": [
     2023

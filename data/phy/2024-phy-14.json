@@ -19,9 +19,10 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Max kinetic energy <katex>$K_{max} = E - \\phi = E - \\frac{E}{3} = \\frac{2E}{3}$</katex>.",
-    "Kinetic energy of photoelectrons ranges from 0 to <katex>$K_{max}$</katex> due to collisions within the metal.",
-    "So, <katex>$0 \\le K \\le \\frac{2E}{3}$</katex>."
+    "Einstein's photoelectric equation: <katex>$K_{max} = E - \\phi$</katex>.",
+    "<katex>$K_{max} = E - E/3 = 2E/3$</katex>.",
+    "The kinetic energy of photoelectrons ranges from 0 to <katex>$K_{max}$</katex>.",
+    "Thus, <katex>$0 \\le K \\le \\frac{2E}{3}$</katex>."
   ],
   "years": [
     2024

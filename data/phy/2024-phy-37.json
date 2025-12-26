@@ -20,7 +20,7 @@
   "correctAnswer": 0,
   "explanation": [
     "Oxygen is a diatomic gas.",
-    "For diatomic gases, <katex>$\\gamma = \\frac{C_p}{C_v} = 1.4$</katex>."
+    "For diatomic gases, <katex>$\\gamma = C_p / C_v = 1.4$</katex>."
   ],
   "years": [
     2024

@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "The resonance frequency is given by <katex>$f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$</katex>.",
+    "Resonance frequency is given by <katex>$f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$</katex>.",
     "This implies <katex>$f_0 \\propto \\frac{1}{\\sqrt{C}}$</katex>.",
-    "The graph of <katex>$f_0$</katex> versus <katex>$C$</katex> is a rectangular hyperbola-like curve where <katex>$f_0$</katex> decreases as <katex>$C$</katex> increases, which corresponds to graph (C)."
+    "The graph of <katex>$f_0$</katex> vs <katex>$C$</katex> will be a curve that decreases as C increases, similar to a rectangular hyperbola but sharper. Graph (C) correctly represents this inverse relationship."
   ],
   "years": [
     2024

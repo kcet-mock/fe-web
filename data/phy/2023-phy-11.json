@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "At resonance, the inductive reactance equals capacitive reactance (<katex>$X_L = X_C$</katex>). The circuit behaves as a purely resistive circuit, so voltage and current are in phase (phase difference is zero)."
   ],
   "years": [
     2023

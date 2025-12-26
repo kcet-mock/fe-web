@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-24",
   "question": [
-    "Two cells of emfs <katex>$E_1$</katex> and <katex>$E_2$</katex> and internal resistances <katex>$r_1$</katex> and <katex>$r_2$</katex> <katex>$(E_2 > E_1$</katex> and <katex>$r_2 > r_1)$</katex> respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is <katex>$E_{eq}$</katex>. Then",
+    "Two cells of emfs <katex>$E_1$</katex> and <katex>$E_2$</katex> and internal resistances <katex>$r_1$</katex> and <katex>$r_2$</katex> (<katex>$E_2 > E_1$</katex> and <katex>$r_2 > r_1$</katex>) respectively, are connected in parallel as shown in figure. The equivalent emf of the combination is <katex>$E_{eq}$</katex>. Then",
     "images/2025-phy-24-1.png"
   ],
   "choices": [
@@ -18,13 +18,13 @@
       "<katex>$E_1 < E_{eq} < E_2$</katex> and <katex>$E_{eq}$</katex> is nearer <katex>$E_1$</katex>"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "Equivalent EMF <katex>$E_{eq} = \\frac{\\frac{E_1}{r_1} + \\frac{E_2}{r_2}}{\\frac{1}{r_1} + \\frac{1}{r_2}}$</katex>.",
-    "The value lies between <katex>$E_1$</katex> and <katex>$E_2$</katex>.",
-    "Since <katex>$r_2 > r_1$</katex>, the term with <katex>$r_1$</katex> (i.e., <katex>$E_1$</katex>) has more weight/dominance. Thus, <katex>$E_{eq}$</katex> is closer to <katex>$E_1$</katex>."
+    "<katex>$E_{eq} = \\frac{\\frac{E_1}{r_1} + \\frac{E_2}{r_2}}{\\frac{1}{r_1} + \\frac{1}{r_2}} = \\frac{E_1 r_2 + E_2 r_1}{r_1 + r_2}$</katex>. [cite: 406]",
+    "This value lies between <katex>$E_1$</katex> and <katex>$E_2$</katex>. [cite: 407]",
+    "Since <katex>$r_2 > r_1$</katex>, the term <katex>$E_1$</katex> is weighted more heavily (by <katex>$r_2$</katex>). Thus <katex>$E_{eq}$</katex> is nearer to <katex>$E_1$</katex>. [cite: 400]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

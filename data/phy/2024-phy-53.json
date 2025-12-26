@@ -19,8 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "A charged particle produces an electric field.",
-    "A moving charged particle constitutes a current and produces a magnetic field."
+    "A charge produces an electric field. A moving charge (current) produces a magnetic field. Thus, a moving electron produces both."
   ],
   "years": [
     2024

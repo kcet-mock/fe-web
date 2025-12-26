@@ -17,14 +17,13 @@
       "Equal"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "Shunt resistance <katex>$S = \\frac{I_g G}{I - I_g}$</katex>.",
-    "For Ammeter, range I is large (e.g., 1A). For Milliammeter, range I is small (e.g., 1mA).",
-    "Since S is inversely proportional to <katex>$(I - I_g)$</katex>, a larger Range I requires a smaller Shunt S.",
-    "Thus, Ammeter shunt < Milliammeter shunt."
+    "<katex>$i = i_g(\\frac{G}{S} + 1)$</katex>. [cite: 500]",
+    "More 'i', less S. [cite: 501]",
+    "Ammeter measures more current than milliammeter, so it will have Less shunt resistance. [cite: 502]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

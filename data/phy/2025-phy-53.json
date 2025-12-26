@@ -18,14 +18,14 @@
       "0"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "Diode <katex>$D_1$</katex> is reverse biased (open circuit).",
-    "Diode <katex>$D_2$</katex> is forward biased (short circuit).",
-    "Total resistance = <katex>$30 (at D_2) + 70 = 100 \\Omega$</katex>.",
-    "Current <katex>$I = V/R = 3/100 = 0.03$</katex> A."
+    "<katex>$D_1$</katex> is reverse biased (open circuit). [cite: 799, 801]",
+    "<katex>$D_2$</katex> is forward biased. [cite: 800]",
+    "<katex>$R_{eq} = 30 + 70 = 100\\Omega$</katex>. [cite: 803]",
+    "<katex>$I = \\frac{3}{100} = 0.03$</katex> A. [cite: 806]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

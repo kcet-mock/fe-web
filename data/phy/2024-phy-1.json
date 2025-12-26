@@ -1,27 +1,27 @@
 {
   "id": "2024-phy-1",
   "question": [
-    "An induced current of 2 A flows through a coil. The resistance of the coil is 10 <katex>$\\Omega$</katex>. What is the change in magnetic flux associated with the coil in 1 ms?"
+    "An induced current of 2 A flows through a coil. The resistance of the coil is <katex>$10~\\Omega$</katex>. What is the change in magnetic flux associated with the coil in 1 ms?"
   ],
   "choices": [
     [
-      "<katex>$0.2\\times10^{-2}Wb$</katex>"
+      "<katex>$0.2\\times10^{-2}~Wb$</katex>"
     ],
     [
-      "<katex>$2\\times10^{-2}Wb$</katex>"
+      "<katex>$2\\times10^{-2}~Wb$</katex>"
     ],
     [
-      "<katex>$22\\times10^{-2}Wb$</katex>"
+      "<katex>$22\\times10^{-2}~Wb$</katex>"
     ],
     [
-      "<katex>$0.22\\times10^{-2}Wb$</katex>"
+      "<katex>$0.22\\times10^{-2}~Wb$</katex>"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The induced current is given by <katex>$I = \\frac{\\varepsilon}{R} = \\frac{1}{R} \\frac{d\\phi}{dt}$</katex>.",
-    "Therefore, the change in flux is <katex>$d\\phi = I \\cdot R \\cdot dt$</katex>.",
-    "Substituting the values: <katex>$d\\phi = 2 \\times 10 \\times 1 \\times 10^{-3} = 20 \\times 10^{-3} = 2 \\times 10^{-2} Wb$</katex>."
+    "Induced emf <katex>$\\varepsilon = I R = 2 \\times 10 = 20~V$</katex>.",
+    "From Faraday's law, <katex>$\\varepsilon = \\frac{d\\phi}{dt}$</katex>.",
+    "<katex>$d\\phi = \\varepsilon dt = 20 \\times 1 \\times 10^{-3} = 20 \\times 10^{-3} = 2 \\times 10^{-2}~Wb$</katex>."
   ],
   "years": [
     2024

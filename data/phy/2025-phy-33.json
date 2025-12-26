@@ -17,13 +17,12 @@
       "images/2025-phy-33-4.png"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "For a straight wire, <katex>$B = \\frac{\\mu_0 I}{2\\pi r}$</katex>.",
-    "Thus, <katex>$B \\propto \\frac{1}{r}$</katex>.",
-    "This corresponds to a rectangular hyperbola graph."
+    "<katex>$B = \\frac{\\mu_0 i}{2\\pi r}$</katex>. [cite: 532]",
+    "<katex>$B \\propto \\frac{1}{r}$</katex>. Graph is rectangular hyperbola. [cite: 533]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

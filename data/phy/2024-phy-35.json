@@ -1,7 +1,8 @@
 {
   "id": "2024-phy-35",
   "question": [
-    "A solid cube of mass m at a temperature <katex>$\\theta_{0}$</katex> is heated at a constant rate. It becomes liquid at temperature <katex>$\\theta_{1}$</katex> and vapour at temperature <katex>$\\theta_{2}$</katex>. Let <katex>$s_{1}$</katex> and <katex>$s_{2}$</katex> be specific heats in its solid and liquid states respectively. If <katex>$L_f$</katex> and <katex>$L_{v}$</katex> are latent heats of fusion and vaporisation respectively, then the minimum heat energy supplied to the cube until it vaporises is"
+    "A solid cube of mass m at a temperature <katex>$\\theta_{0}$</katex> is heated at a constant rate. It becomes liquid at temperature <katex>$\\theta_{1}$</katex> and vapour at temperature <katex>$\\theta_{2}$</katex>. Let <katex>$s_{1}$</katex> and <katex>$s_{2}$</katex> be specific heats in its solid and liquid states respectively. If <katex>$L_f$</katex> and <katex>$L_{v}$</katex> are latent heats of fusion and vaporisation respectively, then the minimum heat energy supplied to the cube until it vaporises is",
+    "images/2024-phy-35-1.png"
   ],
   "choices": [
     [
@@ -19,11 +20,8 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Heat to raise solid to MP: <katex>$ms_1(\\theta_1 - \\theta_0)$</katex>.",
-    "Heat to melt: <katex>$mL_f$</katex>.",
-    "Heat to raise liquid to BP: <katex>$ms_2(\\theta_2 - \\theta_1)$</katex>.",
-    "Heat to vaporize: <katex>$mL_v$</katex>.",
-    "Total: Sum of all four terms."
+    "Heat = Heat to raise solid to melting pt + Latent heat of fusion + Heat to raise liquid to boiling pt + Latent heat of vaporization.",
+    "<katex>$Q = m s_1 (\\theta_1 - \\theta_0) + m L_f + m s_2 (\\theta_2 - \\theta_1) + m L_v$</katex>."
   ],
   "years": [
     2024

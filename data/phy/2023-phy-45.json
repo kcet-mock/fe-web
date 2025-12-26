@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "For an ideal gas, pressure is proportional to temperature (<katex>$P \\propto T$</katex>) at constant volume. The total internal energy (which is purely kinetic for ideal gas) is also proportional to <katex>$T$</katex> (<katex>$U \\propto T$</katex>). Thus <katex>$P$</katex> is proportional to total energy."
   ],
   "years": [
     2023

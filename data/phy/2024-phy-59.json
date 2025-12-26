@@ -9,21 +9,21 @@
       "<katex>$\\phi_{S_{1}}=-20\\mu Wb, \\phi_{S_{2}}=+20\\mu Wb$</katex>"
     ],
     [
-      "<katex>$\\phi_{S_{l}}=+20\\mu Wb, \\phi_{S_{2}}=-20\\mu Wb$</katex>"
+      "<katex>$\\phi_{S_{1}}=+20\\mu Wb, \\phi_{S_{2}}=-20\\mu Wb$</katex>"
     ],
     [
-      "<katex>$\\phi_{S_{1}}=-40\\mu~Wb, \\phi_{S_{z}}=+40\\mu Wb$</katex>"
+      "<katex>$\\phi_{S_{1}}=-40\\mu Wb, \\phi_{S_{2}}=+40\\mu Wb$</katex>"
     ],
     [
-      "<katex>$\\phi_{s_{1}}=+40\\mu Wb, \\phi_{S_{2}}=-40\\mu Wb$</katex>"
+      "<katex>$\\phi_{S_{1}}=+40\\mu Wb, \\phi_{S_{2}}=-40\\mu Wb$</katex>"
     ]
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Flux through projected circular area <katex>$A = \\pi R^2 = \\pi (\\frac{10}{\\sqrt{\\pi}})^2 = 100$</katex> (unit likely cm<katex>$^2$</katex> given the values, let's assume <katex>$10^{-2}$</katex> m).",
-    "If <katex>$R$</katex> is in cm, <katex>$A = 100$</katex> cm<katex>$^2 = 10^{-2}$</katex> m<katex>$^2$</katex>.",
-    "Flux <katex>$\\phi = B A = 2 \\times 10^{-3} \\times 10^{-2} = 20 \\times 10^{-6}$</katex> Wb = 20 <katex>$\\mu$</katex>Wb.",
-    "Field is downwards. <katex>$S_1$</katex> is top surface (entering), flux is negative. <katex>$S_2$</katex> is bottom surface (leaving), flux is positive."
+    "Radius <katex>$R = 10/\\sqrt{\\pi}$</katex> cm (assuming cm to match options). Area <katex>$A = \\pi R^2 = 100$</katex> cm<katex>$^2 = 0.01$</katex> m<katex>$^2$</katex>.",
+    "Flux <katex>$\\phi = B A = 2 \\times 10^{-3} \\times 10^{-2} = 20 \\times 10^{-6} = 20 \\mu Wb$</katex>.",
+    "For S1 (top), B enters (opposite to normal), so negative.",
+    "For S2 (bottom), B leaves (along normal), so positive."
   ],
   "years": [
     2024

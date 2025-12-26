@@ -5,7 +5,7 @@
   ],
   "choices": [
     [
-      "The electric field on the surface of a charged conductor is <katex>$\\frac{\\sigma}{2\\epsilon_{0}}$</katex> where <katex>$\\sigma$</katex> is the surface charge density"
+      "The electric field on the surface of a charged conductor is <katex>$\\frac{\\sigma}{2\\epsilon_{0}}$</katex>"
     ],
     [
       "The electric potential inside a charged conductor is always zero"
@@ -19,8 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "In electrostatics, any excess charge placed on a conductor moves to its exterior surface.",
-    "Field is <katex>$\\sigma/\\epsilon_0$</katex> (not /2), potential is constant (not zero), and field is normal (not tangential)."
+    "In electrostatics, any excess charge given to a conductor resides entirely on its outer surface."
   ],
   "years": [
     2024

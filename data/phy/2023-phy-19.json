@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "The scattering angle <katex>$\\theta$</katex> is related to impact parameter <katex>$b$</katex> by <katex>$b \\propto \\cot(\\theta/2)$</katex>. As <katex>$b$</katex> increases (particle passes further from nucleus), the scattering angle <katex>$\\theta$</katex> decreases."
   ],
   "years": [
     2023

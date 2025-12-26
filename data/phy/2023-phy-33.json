@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Moment of inertia <katex>$I = \\sum mr^2$</katex> depends on mass, distribution of mass (shape/size), and the position/orientation of the axis of rotation."
   ],
   "years": [
     2023

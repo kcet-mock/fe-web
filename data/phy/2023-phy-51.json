@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-51",
   "question": [
-    "Electric field at a distance 'r' from an infinitely long uniformly charged straight conductor, having linear charge density <katex>$\\lambda$</katex> is <katex>$E_{1}$</katex>. Another uniformly charged conductor having same linear charge density <katex>$\\lambda$</katex> is bent into a semicircle of radius 'r'. The electric field at its centre is <katex>$E_{2}$</katex>. Then"
+    "Electric field at a distance 'r' from an infinitely long uniformly charged straight conductor, having linear charge density <katex>$\\lambda$</katex> is <katex>$E_{1}$</katex> Another uniformly charged conductor having same linear charge density <katex>$\\lambda$</katex> is bent into a semicircle of radius 'r'. The electric field at its centre is <katex>$E_{2}$</katex>. Then"
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Field due to infinite line: <katex>$E_1 = \\frac{2k\\lambda}{r}$</katex>. Field at center of semicircle: <katex>$E_2 = \\frac{2k\\lambda}{r}$</katex>. Thus <katex>$E_1 = E_2$</katex>."
   ],
   "years": [
     2023

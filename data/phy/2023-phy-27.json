@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Momentum <katex>$p = E/c$</katex>. <katex>$E = 2.4$</katex> eV <katex>$= 2.4 \\times 1.6 \\times 10^{-19}$</katex> J. <katex>$c = 3 \\times 10^8$</katex> m/s. <katex>$p = (3.84 \\times 10^{-19}) / (3 \\times 10^8) \\approx 1.28 \\times 10^{-27}$</katex>."
   ],
   "years": [
     2023

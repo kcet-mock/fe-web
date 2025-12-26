@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-55",
   "question": [
-    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resistance of <katex>$5200\\Omega$</katex> in R. When <katex>$K_1$</katex> is closed and <katex>$K_2$</katex> is open, the deflection observed in the galvanometer is 26 div. When <katex>$K_2$</katex> is also closed and a resistance of <katex>$90\\Omega$</katex> is removed in S, the deflection becomes 13 div. The resistance of galvanometer is nearly",
+    "In an experiment to determine the figure of merit of a galvanometer by half deflection method, a student constructed the following circuit. He unplugged a resistance of <katex>$5200\\Omega$</katex> in R. When <katex>$K_1$</katex> is closed and <katex>$K_2$</katex> is open, the deflection observed in the galvanometer is 26 div. When <katex>$K_2$</katex> is also closed and a resistance of <katex>$90\\Omega$</katex> is removed in S, the deflection between 13 div. The resistance of galvanometer is nearly",
     "images/2025-phy-55-1.png"
   ],
   "choices": [
@@ -18,15 +18,13 @@
       "116.0 <katex>$\\Omega$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "In half deflection method, <katex>$G = \\frac{R S}{R - S}$</katex> if deflection is exactly half. However, formula used is typically <katex>$G = S$</katex> if R >> G. Or using standard formula:",
-    "Source Solution uses <katex>$G = \\frac{S'}{\\frac{\\theta_1}{\\theta_2} - 1}$</katex>.",
-    "<katex>$\\theta_1 = 26, \\theta_2 = 13$</katex>, so ratio is 2.",
-    "<katex>$G = \\frac{90}{2-1} = 90 \\Omega$</katex>.",
-    "The closest option is 91.6 <katex>$\\Omega$</katex>. (Exact formula is <katex>$G = \\frac{RS}{R-S}$</katex> usually, but with <katex>$R=5200$</katex> and <katex>$S=90$</katex>, <katex>$G \\approx 90$</katex>)."
+    "<katex>$G = \\frac{S'}{\\frac{\\theta_1}{\\theta_2} - 1}$</katex>. [cite: 833]",
+    "<katex>$G = \\frac{90}{\\frac{26}{13} - 1} = 90\\Omega$</katex>. [cite: 833]",
+    "Approx <katex>$91.6\\Omega$</katex>. [cite: 833]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

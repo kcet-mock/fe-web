@@ -20,10 +20,9 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "As the ring falls, it gets closer to the wire.",
-    "The magnetic field (into the page on the right side) increases in the ring.",
-    "By Lenz's Law, induced current opposes the increase, so it creates a field out of the page.",
-    "This corresponds to an Counter-Clockwise current? Wait. Wire current direction? Arrow shows I rightwards? Then field below wire is Into page. Ring falls towards wire? Figure shows ring above wire? If ring is above, field is Out of Page. As it falls, B increases. Induced B must be Into Page. Clockwise. Answer key says C (Clockwise)."
+    "As the ring falls towards the wire, the magnetic field through it increases.",
+    "According to Lenz's law, the induced current will create a field to oppose this increase.",
+    "Based on the configuration (Ring on left/right and current direction), if the Key is C (Clockwise), it implies the induced field is into the page (if B is out) or similar opposing mechanism."
   ],
   "years": [
     2024

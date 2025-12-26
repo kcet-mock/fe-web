@@ -19,9 +19,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Fringe width <katex>$\\beta \\propto \\lambda$</katex>.",
-    "De Broglie wavelength <katex>$\\lambda = \\frac{h}{mv}$</katex>. Since <katex>$m_p > m_e$</katex>, <katex>$\\lambda_p < \\lambda_e$</katex>.",
-    "Therefore, <katex>$\\beta_2$</katex> (protons) < <katex>$\\beta_1$</katex> (electrons), or <katex>$\\beta_1 > \\beta_2$</katex>."
+    "Fringe width <katex>$\\beta \\propto \\lambda$</katex>. De Broglie wavelength <katex>$\\lambda = \\frac{h}{mv}$</katex>.",
+    "Mass of proton <katex>$m_p$</katex> is much greater than mass of electron <katex>$m_e$</katex>.",
+    "For same speed, <katex>$\\lambda_p < \\lambda_e$</katex>.",
+    "Therefore, <katex>$\\beta_2 < \\beta_1$</katex> or <katex>$\\beta_1 > \\beta_2$</katex>."
   ],
   "years": [
     2024

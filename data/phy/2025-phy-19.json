@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "For a conducting sphere, the electric field inside (<katex>$r < R$</katex>) is zero.",
-    "Outside (<katex>$r \\ge R$</katex>), the field behaves as <katex>$E \\propto \\frac{1}{r^2}$</katex>.",
-    "Graph 1 shows E=0 until r=R, then decreasing, which is correct."
+    "For a conducting sphere, <katex>$E=0$</katex> for <katex>$r < R$</katex>. [cite: 334, 335]",
+    "For <katex>$r \\ge R$</katex>, <katex>$E = \\frac{kQ}{r^2}$</katex>, so <katex>$E \\propto \\frac{1}{r^2}$</katex>. [cite: 336, 337]",
+    "So graph must be (1). [cite: 338]"
   ],
   "years": [
     2025

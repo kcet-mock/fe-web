@@ -8,18 +8,18 @@
       "<katex>$60^{\\circ}$</katex>"
     ],
     [
-      "<katex>$45^{\\circ}$</katex>"
+      "<katex>$30^{\\circ}$</katex>"
     ],
     [
-      "<katex>$30^{\\circ}$</katex>"
+      "<katex>$45^{\\circ}$</katex>"
     ],
     [
       "<katex>$0^{\\circ}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
-    "Answer key: C. (Note: The OCR choice order was A, B, D, C, mapped correctly here)."
+    "Intensity after first polaroid <katex>$I_1 = I/2$</katex>. By Malus' Law, intensity after second is <katex>$I_2 = I_1 \\cos^2 \\theta = (I/2) \\cos^2 \\theta$</katex>. Given <katex>$I_2 = I/4$</katex>, so <katex>$(I/2) \\cos^2 \\theta = I/4 \\Rightarrow \\cos^2 \\theta = 1/2 \\Rightarrow \\cos \\theta = 1/\\sqrt{2} \\Rightarrow \\theta = 45^{\\circ}$</katex>."
   ],
   "years": [
     2023

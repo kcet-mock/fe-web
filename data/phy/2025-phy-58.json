@@ -17,17 +17,15 @@
       "<katex>$\\frac{H}{g\\Delta t}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "<katex>$S_1 = \\frac{1}{2}g t_0^2$</katex>",
-    "<katex>$S_2 = \\frac{1}{2}g (t_0 - \\Delta t)^2$</katex>",
-    "<katex>$H = S_1 - S_2 = \\frac{g}{2} [t_0^2 - (t_0 - \\Delta t)^2]$</katex>",
-    "<katex>$H = \\frac{g}{2} [t_0^2 - (t_0^2 + \\Delta t^2 - 2t_0\\Delta t)]$</katex>",
-    "<katex>$H = \\frac{g}{2} [2t_0\\Delta t - \\Delta t^2] = g t_0 \\Delta t - \\frac{g \\Delta t^2}{2}$</katex>",
-    "<katex>$H + \\frac{g \\Delta t^2}{2} = g t_0 \\Delta t$</katex>",
-    "<katex>$t_0 = \\frac{H}{g \\Delta t} + \\frac{\\Delta t}{2}$</katex>"
+    "<katex>$S_1 = \\frac{1}{2}gt_0^2$</katex>. [cite: 869]",
+    "<katex>$S_2 = \\frac{1}{2}g(t_0 - \\Delta t)^2$</katex>. [cite: 870]",
+    "<katex>$H = S_1 - S_2 = \\frac{1}{2}g t_0^2 - \\frac{1}{2}g(t_0 - \\Delta t)^2$</katex>. [cite: 870]",
+    "<katex>$H = gt_0\\Delta t - \\frac{1}{2}g\\Delta t^2$</katex>. [cite: 878]",
+    "<katex>$t_0 = \\frac{H}{g\\Delta t} + \\frac{1}{2}\\Delta t$</katex>. [cite: 878]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

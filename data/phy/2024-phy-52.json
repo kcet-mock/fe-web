@@ -20,10 +20,10 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "At <katex>$0^{\\circ}C$</katex>, <katex>$\\frac{R_0}{S} = \\frac{50}{50} \\implies R_0 = 4~\\Omega$</katex>.",
-    "At <katex>$100^{\\circ}C$</katex>, <katex>$\\frac{R_{100}}{S} = \\frac{60}{40} \\implies R_{100} = 4 \\times 1.5 = 6~\\Omega$</katex>.",
-    "<katex>$R_{100} = R_0(1 + \\alpha \\Delta T) \\implies 6 = 4(1 + 100\\alpha)$</katex>.",
-    "<katex>$\\alpha = \\frac{1.5 - 1}{100} = 0.005^{\\circ}C^{-1}$</katex>."
+    "At 0°C: <katex>$X_0/4 = 50/50 \\implies X_0 = 4$</katex>.",
+    "At 100°C: <katex>$X_{100}/4 = 60/40 = 1.5 \\implies X_{100} = 6$</katex>.",
+    "<katex>$6 = 4(1 + \\alpha \\times 100)$</katex>.",
+    "<katex>$1.5 = 1 + 100\\alpha \\implies \\alpha = 0.5/100 = 0.005$</katex>."
   ],
   "years": [
     2024

@@ -19,9 +19,11 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Magnetic field at center <katex>$B = \\frac{\\mu_0 NI}{2R}$</katex>.",
-    "Length of wire <katex>$L = N_1 (2\\pi R_1) = N_2 (2\\pi R_2)$</katex>. <katex>$9 R_1 = 3 R_2 \\implies R_2 = 3 R_1$</katex>.",
-    "<katex>$\\frac{B_2}{B_1} = \\frac{N_2/R_2}{N_1/R_1} = \\frac{3/(3R_1)}{9/R_1} = \\frac{1}{9}$</katex>."
+    "Length is constant: <katex>$9(2\\pi r_1) = 3(2\\pi r_2) \\implies r_2 = 3r_1$</katex>.",
+    "<katex>$B \\propto N/r$</katex>.",
+    "<katex>$B_1 \\propto 9/r_1$</katex>.",
+    "<katex>$B_2 \\propto 3/r_2 = 3/(3r_1) = 1/r_1$</katex>.",
+    "<katex>$B_2 = B_1 / 9$</katex>."
   ],
   "years": [
     2024

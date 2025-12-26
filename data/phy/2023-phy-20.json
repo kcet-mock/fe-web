@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: B"
+    "Energy <katex>$E = hc/\\lambda$</katex>. The energy gap for <katex>$\\lambda_2$</katex> (largest gap) is sum of gaps for <katex>$\\lambda_1$</katex> and <katex>$\\lambda_3$</katex>. <katex>$E_2 = E_1 + E_3$</katex> (assuming indices correspond to gaps). <katex>$\\frac{hc}{\\lambda_2} = \\frac{hc}{\\lambda_1} + \\frac{hc}{\\lambda_3}$</katex>. <katex>$\\frac{1}{\\lambda_2} = \\frac{1}{\\lambda_1} + \\frac{1}{\\lambda_3}$</katex>. Solving gives <katex>$\\lambda_2 = \\frac{\\lambda_1 \\lambda_3}{\\lambda_1 + \\lambda_3}$</katex>."
   ],
   "years": [
     2023

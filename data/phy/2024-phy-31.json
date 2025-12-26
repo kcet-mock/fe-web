@@ -20,10 +20,10 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Using conservation of energy or dynamics. Note the pulley has mass.",
-    "If we treat the pulley as a disk (Mass M=2kg) and block (m=1kg).",
-    "Loss in PE = Gain in Trans KE + Gain in Rot KE? Or is it a simple Atwood? The diagram shows the string fixed at one end, pulley moving? No, diagram shows pulley fixed? 'Pulley of mass 2kg'.",
-    "Using standard result <katex>$v = \\sqrt{\\frac{2gh}{1 + M/2m}}$</katex> for massive pulley? No, string passes over. If fixed pulley: <katex>$v = \\sqrt{\\frac{2gh}{1+I/mR^2}}$</katex>. <katex>$I = MR^2/2$</katex>. <katex>$v = \\sqrt{\\frac{2gh}{1 + M/2m}} = \\sqrt{\\frac{2(10)(1.6)}{1 + 2/2}} = \\sqrt{\\frac{32}{2}} = 4$</katex> m/s."
+    "Acceleration <katex>$a = \\frac{mg}{m + M/2}$</katex> where m=1kg, M=2kg (pulley).",
+    "<katex>$a = \\frac{1 \\times 10}{1 + 2/2} = \\frac{10}{2} = 5~ms^{-2}$</katex>.",
+    "Using <katex>$v^2 = u^2 + 2ah$</katex>, <katex>$v^2 = 0 + 2(5)(1.6) = 16$</katex>.",
+    "<katex>$v = 4~ms^{-1}$</katex>."
   ],
   "years": [
     2024

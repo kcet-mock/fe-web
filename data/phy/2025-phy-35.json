@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-35",
   "question": [
-    "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the variation of photo current I with the frequency v of incident light is"
+    "The anode voltage of a photocell is kept fixed. The frequency of the light falling on the cathode is gradually increased. Then the correct graph which shows the variation of photo current I with the frequency <katex>$\\nu$</katex> of incident light is"
   ],
   "choices": [
     [
@@ -19,11 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Photo current depends on intensity (number of photons), not frequency, provided <katex>$\\nu > \\nu_0$</katex>.",
-    "Once emission starts (<katex>$\\nu > \\nu_0$</katex>), if intensity is constant, the current remains constant regardless of increasing frequency.",
-    "The graph shows current starting at threshold <katex>$\\nu_0$</katex> and remaining constant."
+    "Photoelectric effect requires a threshold frequency. The graph starts from <katex>$\\nu_0$</katex>. Theoretical curve (1) shows current constant after threshold (assuming intensity constant). [cite: 559]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

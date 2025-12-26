@@ -19,8 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "The radiation pressure exerted by an electromagnetic wave on a perfectly reflecting surface is <katex>$P = \\frac{2I}{c}$</katex>.",
-    "The force is Pressure <katex>$\\times$</katex> Area: <katex>$F = P \\times A = \\frac{2IA}{c}$</katex>."
+    "For a perfectly reflecting surface, the change in momentum is double that of an absorbing surface.",
+    "Momentum delivered per second (Force) <katex>$F = \\frac{2P}{c}$</katex> where <katex>$P = IA$</katex> is the power.",
+    "Therefore, <katex>$F = \\frac{2IA}{c}$</katex>."
   ],
   "years": [
     2024

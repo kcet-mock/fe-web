@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-13",
   "question": [
-    "A point object is moving at a constant speed of <katex>$1ms^{-1}$</katex> along the principal axis of a convex lens of focal length 10cm. The speed of the image is also <katex>$1ms^{-1}$</katex>, when the object is at ___ cm from the optic centre of the lens."
+    "A point object is moving at a constant speed of <katex>$1ms^{-1}$</katex> along the principal axis of a convex lens of focal length 10cm. The speed of the image is also <katex>$1ms^{-1}$</katex>, when the object is at cm from the optic centre of the lens."
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "Image speed <katex>$v_i = m^2 v_o$</katex>. Since <katex>$v_i = v_o$</katex>, <katex>$m^2 = 1 \\Rightarrow m = \\pm 1$</katex>. For real image in convex lens, <katex>$m = -1$</katex>. This occurs when object is at <katex>$2f$</katex>. <katex>$2f = 2 \\times 10 = 20$</katex> cm."
   ],
   "years": [
     2023

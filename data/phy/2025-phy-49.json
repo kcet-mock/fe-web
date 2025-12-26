@@ -2,7 +2,7 @@
   "id": "2025-phy-49",
   "question": [
     "Match the following types of nuclei with examples shown",
-    "| | Column I | | Column II |\n|---|---|---|---|\n| A. | Isotopes | i. | <katex>$Li^7, Be^7$</katex> |\n| B. | Isobars | ii. | <katex>$O^{18}, F^{19}$</katex> |\n| C. | Isotones | iii. | <katex>$H^1, H^2$</katex> |"
+    "| Column-I | Column-II |\n|---|---|\n| A. Isotopes | i. <katex>$Li^7, Be^7$</katex> |\n| B. Isobars | ii. <katex>$O^{18}, F^{19}$</katex> |\n| C. Isotones | iii. <katex>$H^1, H^2$</katex> |"
   ],
   "choices": [
     [
@@ -18,14 +18,14 @@
       "A-iii, B-i, C-ii"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "Isotopes (Same Z): <katex>$H^1, H^2$</katex> (iii)",
-    "Isobars (Same A): <katex>$Li^7, Be^7$</katex> (i)",
-    "Isotones (Same neutrons A-Z): <katex>$O^{18} (18-8=10), F^{19} (19-9=10)$</katex> (ii)",
-    "Match: A-iii, B-i, C-ii"
+    "Isotopes: <katex>$H^1, H^2$</katex> (Same Z). [cite: 751]",
+    "Isobars: <katex>$Li^7, Be^7$</katex> (Same A). [cite: 752]",
+    "Isotone: <katex>$O^{18}, F^{19}$</katex> Same (A-Z). [cite: 754]",
+    "Correct match: A-iii, B-i, C-ii. [cite: 744]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

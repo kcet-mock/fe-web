@@ -1,10 +1,9 @@
 {
   "id": "2025-phy-6",
   "question": [
-    "Two fly wheels are connected by a non-slipping belt as shown in the figure.",
+    "Two fly wheels are connected by a non-slipping belt as shown in the figure. <katex>$r_1 = 20$</katex> cm, <katex>$I_1 = 4$</katex> kg m<katex>$^2$</katex>, <katex>$I_2 = 20$</katex> kg m<katex>$^2$</katex> and <katex>$r_2 = 30$</katex> cm. A torque of 10 Nm is applied on the smaller wheel. Then match the entries of column I with appropriate entries of column II.",
     "images/2025-phy-6-1.png",
-    "<katex>$I_1=4~kg~m^2, r_1=20cm, I_2=20~kg~m^2$</katex> and <katex>$r_2=30cm$</katex>. A torque of 10 Nm is applied on the smaller wheel. Then match the entries of column I with appropriate entries of column II.",
-    "| | Column I (Quantities) | | Column II (Numerical Values in SI) |\n|---|---|---|---|\n| (a) | Angular acceleration of smaller wheel | (i) | <katex>$\\frac{5}{3}$</katex> |\n| (b) | Torque on the larger wheel | (ii) | <katex>$\\frac{100}{3}$</katex> |\n| (c) | Angular acceleration of larger wheel | (iii) | <katex>$\\frac{5}{2}$</katex> |"
+    "| Column I (Quantities) | Column II (Numerical Values in SI units) |\n|---|---|\n| (a) Angular acceleration of smaller wheel | (i) <katex>$\\frac{5}{3}$</katex> |\n| (b) Torque on the larger wheel | (ii) <katex>$\\frac{100}{3}$</katex> |\n| (c) Angular acceleration of larger wheel | (iii) <katex>$\\frac{5}{2}$</katex> |"
   ],
   "choices": [
     [
@@ -20,14 +19,17 @@
       "a-iii, b-ii, c-i"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "For smaller wheel: <katex>$\\tau_1 = I_1 \\alpha_1 \\Rightarrow 10 = 4 \\alpha_1 \\Rightarrow \\alpha_1 = 2.5 = \\frac{5}{2}$</katex> rad/s². (Matches a-iii)",
-    "Linear acceleration matches at contact: <katex>$a = r_1 \\alpha_1 = r_2 \\alpha_2$</katex>",
-    "<katex>$0.2 \\times \\frac{5}{2} = 0.3 \\times \\alpha_2 \\Rightarrow 0.5 = 0.3 \\alpha_2 \\Rightarrow \\alpha_2 = \\frac{5}{3}$</katex> rad/s². (Matches c-i)",
-    "Torque on larger wheel: <katex>$\\tau_2 = I_2 \\alpha_2 = 20 \\times \\frac{5}{3} = \\frac{100}{3}$</katex> Nm. (Matches b-ii)"
+    "For the smaller wheel: <katex>$\\tau_1 = I_1 \\alpha_1$</katex> [cite: 108]",
+    "<katex>$10 = 4 \\times \\alpha_1 \\Rightarrow \\alpha_1 = \\frac{10}{4} = \\frac{5}{2}$</katex> rad/s<katex>$^2$</katex>. (Matches iii) [cite: 111, 113]",
+    "Since they are connected by a non-slipping belt, linear acceleration at the rim is same: <katex>$\\alpha_2 r_2 = \\alpha_1 r_1$</katex> [cite: 108]",
+    "<katex>$\\alpha_2 \\times 0.3 = \\frac{5}{2} \\times 0.2$</katex> [cite: 112]",
+    "<katex>$\\alpha_2 = \\frac{5}{3}$</katex> SI. (Matches i) [cite: 114]",
+    "Torque on larger wheel: <katex>$\\tau_2 = I_2 \\alpha_2 = 20 \\times \\frac{5}{3} = \\frac{100}{3}$</katex> SI. (Matches ii) [cite: 115]",
+    "Correct match: a-iii, b-ii, c-i. [cite: 105, 106]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

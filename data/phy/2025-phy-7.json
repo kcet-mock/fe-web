@@ -1,29 +1,30 @@
 {
   "id": "2025-phy-7",
   "question": [
-    "If <katex>$v_p, r_p, L_p$</katex> and <katex>$v_a, r_a, L_a$</katex> are velocities, radii and angular momenta of a planet at perihelion and aphelion of its elliptical orbit around the Sun respectively, then"
+    "If <katex>$v_p, L_p, r_p$</katex> and <katex>$v_a, L_a, r_a$</katex> are radii, velocities and angular momenta of a planet at perihelion and aphelion of its elliptical orbit around the Sun respectively, then"
   ],
   "choices": [
     [
-      "<katex>$r_p > r_a, v_p > v_a, L_p > L_a$</katex>"
+      "<katex>$r_p < r_a, v_p > v_a, L_a = L_p$</katex>"
     ],
     [
-      "<katex>$r_p < r_a, v_p > v_a, L_p = L_a$</katex>"
+      "<katex>$r_p > r_a, v_p > v_a, L_a > L_p$</katex>"
     ],
     [
-      "<katex>$r_p > r_a, v_p < v_a, L_p = L_a$</katex>"
+      "<katex>$r_p > r_a, v_p < v_a, L_a = L_p$</katex>"
     ],
     [
-      "<katex>$r_p < r_a, v_p < v_a, L_p < L_a$</katex>"
+      "<katex>$r_p < r_a, v_p < v_a, L_a < L_p$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "Angular momentum is conserved, so <katex>$L_p = L_a$</katex>.",
-    "Perihelion is the closest point, so <katex>$r_p < r_a$</katex>.",
-    "Since <katex>$L = mvr$</katex>, and <katex>$r_p < r_a$</katex>, then <katex>$v_p > v_a$</katex> to keep L constant."
+    "Angular momentum is conserved in planetary motion: <katex>$L_p = L_a$</katex>. [cite: 127, 128]",
+    "Perihelion is the point closest to the sun, so <katex>$r_p < r_a$</katex>. [cite: 129, 130]",
+    "Since angular momentum <katex>$L = mvr$</katex> is constant, <katex>$mv_p r_p = mv_a r_a$</katex>. [cite: 131]",
+    "Therefore, <katex>$v_p > v_a$</katex>. [cite: 132]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

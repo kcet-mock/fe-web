@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-10",
   "question": [
-    "A horizontal pipe carries water in a streamlined flow. At a point along the pipe, where the cross-sectional area is <katex>$10~cm^2$</katex>, the velocity of water is <katex>$1~ms^{-1}$</katex> and the pressure is 2000 Pa. What is the pressure of water at another point where the cross-sectional area is <katex>$5~cm^2$</katex>? [Density of water = <katex>$1000~kgm^{-3}$</katex>]"
+    "A horizontal pipe carries water in a streamlined flow. At a point along the pipe, where the cross-sectional area is <katex>$10~cm^2$</katex>, the velocity of water is <katex>$1~ms^{-1}$</katex> and the pressure is 2000 Pa. What is the pressure of water at another point where the cross-sectional area is <katex>$5~cm^2$</katex>? [Density of water <katex>$= 1000~kgm^{-3}$</katex>]"
   ],
   "choices": [
     [
@@ -17,16 +17,14 @@
       "200 Pa"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 1,
   "explanation": [
-    "By continuity equation: <katex>$A_1V_1 = A_2V_2$</katex>.",
-    "<katex>$10 \\times 1 = 5 \\times V_2 \\Rightarrow V_2 = 2 m/s$</katex>.",
-    "By Bernoulli's principle for horizontal pipe: <katex>$P_1 + \\frac{1}{2}\\rho V_1^2 = P_2 + \\frac{1}{2}\\rho V_2^2$</katex>.",
-    "<katex>$2000 + \\frac{1}{2}(1000)(1)^2 = P_2 + \\frac{1}{2}(1000)(2)^2$</katex>.",
-    "<katex>$2000 + 500 = P_2 + 2000$</katex>.",
-    "<katex>$P_2 = 500$</katex> Pa."
+    "Using continuity equation: <katex>$A_1 V_1 = A_2 V_2$</katex>. <katex>$V_2 = \\frac{A_1 V_1}{A_2} = \\frac{10 \\times 1}{5} = 2$</katex> m/s. [cite: 170]",
+    "Using Bernoulli's equation for horizontal flow: <katex>$P_2 + \\frac{1}{2}\\rho V_2^2 = P_1 + \\frac{1}{2}\\rho V_1^2$</katex>. [cite: 171]",
+    "<katex>$P_2 = 2000 + \\frac{1}{2} \\times 1000 \\times (1^2 - 2^2) = 2000 + 500(1 - 4)$</katex>. [cite: 172]",
+    "<katex>$P_2 = 2000 - 1500 = 500$</katex> Pa. (Correction: The source calculation shows <katex>$P_2 = 500$</katex> Pa, effectively <katex>$2000 + 500(1-4)$</katex> results in 500. Wait, <katex>$1-4 = -3$</katex>, <katex>$-3*500 = -1500$</katex>, <katex>$2000-1500=500$</katex>). [cite: 172]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

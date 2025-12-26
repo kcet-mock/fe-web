@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "The system consists of 6 outer discs revolving around the central axis. (Note: Question says 'system of six discs', implying the central one is excluded or maybe included? Usually it implies the whole assembly, but let's check values). Moment of inertia of one outer disc about central axis using parallel axis theorem: <katex>$I_{disk} = I_{CM} + Md^2 = \\frac{1}{2}mR^2 + m(2R)^2 = \\frac{1}{2}mR^2 + 4mR^2 = \\frac{9}{2}mR^2$</katex>. For 6 discs: <katex>$6 \\times \\frac{9}{2}mR^2 = 27mR^2 = \\frac{54}{2}mR^2$</katex>. Wait, if central disc is included, add <katex>$\\frac{1}{2}mR^2$</katex> -> <katex>$\\frac{55}{2}mR^2$</katex>. The key A is <katex>$55/2$</katex>, so it includes all 7 discs (or the question wording implies the whole pattern). 'System of six discs about an axis passing through the center of central disc' might imply excluding the central one, but the answer matches 7 discs."
   ],
   "years": [
     2023

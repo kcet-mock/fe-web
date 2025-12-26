@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: B"
+    "Focal length in medium <katex>$f_m$</katex> is related to air <katex>$f_a$</katex> by <katex>$\\frac{f_m}{f_a} = \\frac{n_g - 1}{n_g/n_w - 1}$</katex>. <katex>$\\frac{f_w}{f} = \\frac{1.5 - 1}{(1.5/1.33) - 1} = \\frac{0.5}{1.125 - 1} = \\frac{0.5}{0.125} = 4$</katex>. So <katex>$f_w = 4f$</katex>. Change is <katex>$4f - f = 3f$</katex>. Percentage increase = <katex>$\\frac{3f}{f} \\times 100 = 300\\%$</katex>."
   ],
   "years": [
     2023

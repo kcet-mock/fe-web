@@ -1,7 +1,7 @@
 {
   "id": "2023-phy-7",
   "question": [
-    "An ideal transformer has a turns ratio of 10. When the primary is connected to 220V, 50 Hz ac source, the power output is"
+    "An ideal transfomer has a turns ratio of 10. When the primary is connected to 220V, 50 Hz ac source, the power output is"
   ],
   "choices": [
     [
@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A"
+    "For an ideal transformer, there is no power loss. Therefore, Power Output = Power Input."
   ],
   "years": [
     2023

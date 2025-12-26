@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 2,
   "explanation": [
-    "Distance of closest approach <katex>$d$</katex> is obtained by equating initial KE to potential energy at closest approach: <katex>$\\frac{1}{2}mv^2 = \\frac{kQq}{d}$</katex>.",
-    "This implies <katex>$d \\propto \\frac{1}{v^2}$</katex>.",
-    "If <katex>$v$</katex> is doubled (<katex>$2v$</katex>), <katex>$d$</katex> becomes <katex>$\\frac{1}{(2)^2} = \\frac{1}{4}$</katex> of the original value."
+    "At closest approach, kinetic energy converts to potential energy: <katex>$\\frac{1}{2}mv^2 = \\frac{kQq}{d}$</katex>.",
+    "Thus, <katex>$d \\propto \\frac{1}{v^2}$</katex>.",
+    "If v is doubled (<katex>$2v$</katex>), <katex>$d'$</katex> becomes <katex>$\\frac{1}{(2)^2}d = \\frac{d}{4}$</katex>."
   ],
   "years": [
     2024

@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "The torque (<katex>$\\tau$</katex>) on a magnetic dipole is given by <katex>$\\tau = MB \\sin \\theta$</katex>. For the torque to be zero, <katex>$\\sin \\theta$</katex> must be zero, which implies <katex>$\\theta = 0^{\\circ}$</katex> or <katex>$180^{\\circ}$</katex>."
   ],
   "years": [
     2023

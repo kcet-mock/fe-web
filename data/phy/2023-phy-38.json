@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Answer key: C"
+    "Friction force <katex>$f = \\mu mg = 0.5 \\times 10 \\times 10 = 50$</katex> N. Net force <katex>$F_{net} = F_{app} - f = 60 - 50 = 10$</katex> N. Acceleration <katex>$a = F_{net}/m = 10/10 = 1$</katex> m/s²."
   ],
   "years": [
     2023

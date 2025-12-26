@@ -19,8 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "At mean position (<katex>$x=0$</katex>), potential energy is min, velocity is max.",
-    "Acceleration <katex>$a = -\\omega^2 x = 0$</katex>."
+    "At mean position (<katex>$x=0$</katex>), velocity is maximum (<katex>$v = \\omega A$</katex>) and acceleration is zero (<katex>$a = \\omega^2 x = 0$</katex>)."
   ],
   "years": [
     2024

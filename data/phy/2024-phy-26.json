@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Radius <katex>$R = 40$</katex> m.",
-    "Distance = <katex>$\\frac{3}{4} \\times 2\\pi R = \\frac{3}{2} \\pi (40) = 60\\pi$</katex> m.",
-    "Displacement = Chord length connecting points separated by <katex>$90^{\\circ}$</katex> (since <katex>$\\frac{3}{4}$</katex> of circle leaves <katex>$\\frac{1}{4}$</katex> gap). <katex>$\\text{Disp} = \\sqrt{R^2 + R^2} = R\\sqrt{2} = 40\\sqrt{2}$</katex> m."
+    "Radius <katex>$r = 40$</katex> m.",
+    "Distance = <katex>$\\frac{3}{4} \\times 2\\pi r = \\frac{3}{2} \\pi (40) = 60\\pi$</katex>.",
+    "Displacement corresponds to the chord connecting points at <katex>$0^{\\circ}$</katex> and <katex>$270^{\\circ}$</katex>. Magnitude = <katex>$\\sqrt{r^2 + r^2} = r\\sqrt{2} = 40\\sqrt{2}$</katex>."
   ],
   "years": [
     2024

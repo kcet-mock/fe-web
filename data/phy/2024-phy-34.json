@@ -20,9 +20,8 @@
   "correctAnswer": 1,
   "explanation": [
     "Flow rate <katex>$Q = A v$</katex>.",
-    "<katex>$0.314 = \\pi r^2 v = 3.14 \\times (0.1)^2 \\times v$</katex>.",
-    "<katex>$0.314 = 3.14 \\times 0.01 \\times v = 0.0314 v$</katex>.",
-    "<katex>$v = 10$</katex> m/s."
+    "<katex>$0.314 = \\pi (0.1)^2 v$</katex>.",
+    "<katex>$v = \\frac{0.314}{3.14 \\times 0.01} = \\frac{0.314}{0.0314} = 10~ms^{-1}$</katex>."
   ],
   "years": [
     2024

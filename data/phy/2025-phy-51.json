@@ -5,25 +5,23 @@
   ],
   "choices": [
     [
-      "<katex>$\\rho \\rightarrow 10^{-5}-10^{-6} \\Omega m, \\sigma \\rightarrow 10^5-10^6 Sm^{-1}$</katex>"
+      "<katex>$\\rho \\rightarrow 10^{-5} - 10^{-6} \\Omega m$</katex>, <katex>$\\sigma \\rightarrow 10^5 - 10^6 Sm^{-1}$</katex>"
     ],
     [
-      "<katex>$\\rho \\rightarrow 10^{11}-10^{19} \\Omega m, \\sigma \\rightarrow 10^{-11}-10^{-19} Sm^{-1}$</katex>"
+      "<katex>$\\rho \\rightarrow 10^{11} - 10^{19} \\Omega m$</katex>, <katex>$\\sigma \\rightarrow 10^{-11} - 10^{-19} Sm^{-1}$</katex>"
     ],
     [
-      "<katex>$\\rho \\rightarrow 10^2-10^8 \\Omega m, \\sigma \\rightarrow 10^{-2}-10^{-8} Sm^{-1}$</katex>"
+      "<katex>$\\rho \\rightarrow 10^2 - 10^8 \\Omega m$</katex>, <katex>$\\sigma \\rightarrow 10^{-2} - 10^{-8} Sm^{-1}$</katex>"
     ],
     [
-      "<katex>$\\rho \\rightarrow 10^{-2}-10^{-8} \\Omega m, \\sigma \\rightarrow 10^2-10^8 Sm^{-1}$</katex>"
+      "<katex>$\\rho \\rightarrow 10^{-2} - 10^{-8} \\Omega m$</katex>, <katex>$\\sigma \\rightarrow 10^2 - 10^8 Sm^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 3,
+  "correctAnswer": 2,
   "explanation": [
-    "Metals are good conductors.",
-    "Resistivity <katex>$\\rho$</katex> is very low (<katex>$10^{-2}$</katex> to <katex>$10^{-8} \\Omega m$</katex>).",
-    "Conductivity <katex>$\\sigma$</katex> is very high (<katex>$10^2$</katex> to <katex>$10^8 Sm^{-1}$</katex>)."
+    "For metals, <katex>$\\rho \\rightarrow 10^{-2} - 10^{-8} \\Omega m$</katex> and <katex>$\\sigma \\rightarrow 10^2 - 10^8 Sm^{-1}$</katex>. [cite: 772, 774]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

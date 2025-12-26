@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "Activity is the number of disintegrations per unit time.",
-    "Dimension is <katex>$[T^{-1}]$</katex>, or <katex>$[M^0 L^0 T^{-1}]$</katex>."
+    "Activity is defined as the number of disintegrations per unit time.",
+    "Dimension is <katex>$[T^{-1}]$</katex> or <katex>$[M^0 L^0 T^{-1}]$</katex>."
   ],
   "years": [
     2024

@@ -19,7 +19,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: A (Note: This seems to be the key provided, although strictly displacement is zero. If the key says A, we output A)."
+    "Note: The provided answer key is A. However, physically, for one complete revolution: Average speed is non-zero (circumference/time). Average velocity is zero (displacement is zero). Displacement is zero. Average acceleration is zero (integral of vector change over period is zero). Option A seems incorrect as a true statement, but B, C, D are candidates. B and D are physically correct. Following source key A."
   ],
   "years": [
     2023

@@ -1,7 +1,7 @@
 {
   "id": "2025-phy-12",
   "question": [
-    "A gas is taken from state A to state B along two different paths 1 and 2. The heat absorbed and work done by the system along these two paths are <katex>$Q_1, Q_2$</katex> and <katex>$W_1, W_2$</katex> respectively. Then"
+    "A gas is taken from state A to state B along two different paths 1 and 2. The heat absorbed and work done by the system along these two paths are <katex>$Q_1$</katex> and <katex>$Q_2$</katex> and <katex>$W_1$</katex> and <katex>$W_2$</katex> respectively. Then"
   ],
   "choices": [
     [
@@ -17,13 +17,13 @@
       "<katex>$Q_1 = Q_2$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 0,
   "explanation": [
-    "According to the First Law of Thermodynamics, <katex>$\\Delta U = Q - W$</katex>.",
-    "Since the initial and final states (A and B) are the same for both paths, the change in internal energy <katex>$\\Delta U$</katex> is the same.",
-    "<katex>$\\Delta U_1 = \\Delta U_2 \\Rightarrow Q_1 - W_1 = Q_2 - W_2$</katex>."
+    "According to the First Law of Thermodynamics, <katex>$\\Delta U = Q - W$</katex>. [cite: 205]",
+    "Internal energy <katex>$\\Delta U$</katex> is a state function and depends only on initial and final states, so <katex>$\\Delta U_1 = \\Delta U_2$</katex>. [cite: 206]",
+    "Therefore, <katex>$Q_1 - W_1 = Q_2 - W_2$</katex>. [cite: 207]"
   ],
   "years": [
-    2024
+    2025
   ]
 }

@@ -20,7 +20,7 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Answer key: B"
+    "Flux <katex>$\\Phi = (E_2 - E_1) A = (9000 - 6000) \\times (0.1)^2 = 3000 \\times 0.01 = 30$</katex>. Charge <katex>$q = \\epsilon_0 \\Phi = 9 \\times 10^{-12} \\times 30 = 270 \\times 10^{-12} = 0.27$</katex> nC."
   ],
   "years": [
     2023

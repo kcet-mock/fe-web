@@ -19,9 +19,9 @@
   ],
   "correctAnswer": 0,
   "explanation": [
-    "Using the Doppler shift formula for light: <katex>$\\frac{\\Delta \\lambda}{\\lambda} = \\frac{v}{c}$</katex>.",
-    "<katex>$\\Delta \\lambda = 601 - 600 = 1$</katex> nm.",
-    "<katex>$v = c \\times \\frac{1}{600} = 3 \\times 10^8 \\times \\frac{1}{600} = 0.5 \\times 10^6$</katex> m/s = <katex>$500$</katex> km/s."
+    "Doppler shift formula: <katex>$\\frac{\\Delta \\lambda}{\\lambda} = \\frac{v}{c}$</katex>.",
+    "<katex>$\\frac{601-600}{600} = \\frac{v}{3 \\times 10^5}$</katex> (using c in km/s).",
+    "<katex>$\\frac{1}{600} = \\frac{v}{300000} \\implies v = \\frac{300000}{600} = 500~km~s^{-1}$</katex>."
   ],
   "years": [
     2024

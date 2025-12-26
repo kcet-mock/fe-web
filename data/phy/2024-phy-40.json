@@ -19,8 +19,8 @@
   ],
   "correctAnswer": 1,
   "explanation": [
-    "<katex>$Q = ne$</katex>.",
-    "<katex>$n = \\frac{Q}{e} = \\frac{3.2 \\times 10^{-6}}{1.6 \\times 10^{-19}} = 2 \\times 10^{13}$</katex>."
+    "<katex>$Q = ne \\implies n = Q/e$</katex>.",
+    "<katex>$n = \\frac{3.2 \\times 10^{-6}}{1.6 \\times 10^{-19}} = 2 \\times 10^{13}$</katex>."
   ],
   "years": [
     2024
