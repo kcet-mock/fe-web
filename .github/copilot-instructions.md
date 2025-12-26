@@ -1,4 +1,4 @@
-**Version: 1.0.3**
+**Version: 1.0.4**
 
 # Copilot Instructions for KCET Question Generation
 
