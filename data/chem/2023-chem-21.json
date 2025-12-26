@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-21",
+  "question": [
+    "The correct order of first ionisation enthalpy of given elements is"
+  ],
+  "choices": [
+    [
+      "<katex>$C<B<Be<Li$</katex>"
+    ],
+    [
+      "<katex>$Li<Be<B<C$</katex>"
+    ],
+    [
+      "<katex>$Li<B<Be<C$</katex>"
+    ],
+    [
+      "<katex>$Be<Li<B<C$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "General trend: Ionisation enthalpy increases across a period.",
+    "Order of elements in Period 2: Li, Be, B, C.",
+    "Anomaly: Be (<katex>$1s^2 2s^2$</katex>) has a stable fully filled s-orbital, so it has higher IE than Boron (<katex>$1s^2 2s^2 2p^1$</katex>).",
+    "Correct order: <katex>$Li < B < Be < C$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

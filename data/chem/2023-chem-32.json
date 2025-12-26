@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-32",
+  "question": [
+    "Match the column A (type of crystalline solid) with the column B (example for each type):\n\n| Column A | Column B |\n|---|---|\n| P. Molecular Solid | i. SiC |\n| Q. Ionic Solid | ii. Mg |\n| R. Metallic Solid | iii. <katex>$H_2O$</katex> |\n| S. Network Solid | iv. MgO |"
+  ],
+  "choices": [
+    [
+      "P-ii, Q-iv, R - iii, S - i"
+    ],
+    [
+      "P-iii, Q- iv, R - ii, S - i"
+    ],
+    [
+      "P- iii, Q-i, R - ii, S - iv"
+    ],
+    [
+      "P-iv, Q-iii, R - ii, S - i"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "P. Molecular Solid -> <katex>$H_2O$</katex> (Ice) (iii)",
+    "Q. Ionic Solid -> MgO (iv)",
+    "R. Metallic Solid -> Mg (ii)",
+    "S. Network (Covalent) Solid -> SiC (Silicon Carbide) (i)",
+    "Correct match: P-iii, Q-iv, R-ii, S-i."
+  ],
+  "years": [
+    2023
+  ]
+}

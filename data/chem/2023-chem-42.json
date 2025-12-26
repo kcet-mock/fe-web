@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-42",
+  "question": [
+    "For the formation of which compound in Ellingham diagram <katex>$\\Delta G^{\\circ}$</katex> becomes more and more negative with increase in temperature ?"
+  ],
+  "choices": [
+    [
+      "ZnO"
+    ],
+    [
+      "<katex>$Cu_{2}O$</katex>"
+    ],
+    [
+      "CO"
+    ],
+    [
+      "FeO"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In the Ellingham diagram, the slope is equal to <katex>$-\\Delta S$</katex>.",
+    "For the reaction <katex>$2C(s) + O_2(g) \\rightarrow 2CO(g)$</katex>, there is an increase in the number of gaseous moles (<katex>$\\Delta n_g = 1$</katex>), so entropy increases (<katex>$\\Delta S > 0$</katex>).",
+    "Since <katex>$\\Delta G = \\Delta H - T\\Delta S$</katex>, as T increases, the <katex>$-T\\Delta S$</katex> term becomes more negative.",
+    "Thus, the line for **CO** slopes downwards (becomes more negative)."
+  ],
+  "years": [
+    2023
+  ]
+}

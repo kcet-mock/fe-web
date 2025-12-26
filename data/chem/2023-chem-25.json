@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-25",
+  "question": [
+    "Which one of the following gases converts haemoglobin into carboxy haemoglobin?"
+  ],
+  "choices": [
+    [
+      "NO"
+    ],
+    [
+      "<katex>$CO_2$</katex>"
+    ],
+    [
+      "CO"
+    ],
+    [
+      "<katex>$O_2$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "**Carbon monoxide (CO)** binds to haemoglobin about 300 times more strongly than oxygen, forming a stable complex called carboxyhaemoglobin.",
+    "This prevents haemoglobin from carrying oxygen."
+  ],
+  "years": [
+    2023
+  ]
+}

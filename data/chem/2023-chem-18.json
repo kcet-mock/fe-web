@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-18",
+  "question": [
+    "A weak acid with <katex>$pK_{a}$</katex> 5.9 and weak base with <katex>$pK_{b}$</katex> 5.8 are mixed in equal proportions pH of the resulting solution is"
+  ],
+  "choices": [
+    [
+      "7"
+    ],
+    [
+      "7.05"
+    ],
+    [
+      "7.005"
+    ],
+    [
+      "7.5"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "For a salt of a weak acid and a weak base, the pH is given by:",
+    "<katex>$pH = 7 + \\frac{1}{2}(pK_a - pK_b)$</katex>",
+    "<katex>$pH = 7 + \\frac{1}{2}(5.9 - 5.8)$</katex>",
+    "<katex>$pH = 7 + \\frac{1}{2}(0.1) = 7 + 0.05 = 7.05$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

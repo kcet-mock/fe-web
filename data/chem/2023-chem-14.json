@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-14",
+  "question": [
+    "Receptors are proteins and crucial to body communication process. These receptors are embedded in"
+  ],
+  "choices": [
+    [
+      "Endocrine gland"
+    ],
+    [
+      "Chromosomes"
+    ],
+    [
+      "Cell membrane"
+    ],
+    [
+      "Protein"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Receptors are proteins that are embedded in the **cell membrane**.",
+    "Their active site projects to the outside of the cell membrane to bind with chemical messengers."
+  ],
+  "years": [
+    2023
+  ]
+}

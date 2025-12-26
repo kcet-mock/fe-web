@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-24",
+  "question": [
+    "Among the following:\nI. Cyclopentadienyl anion\nII. Cycloheptatrienyl cation (Tropylium)\nIII. Cyclooctatetraene\nIV. Benzene\nV. Cyclopentadienyl cation\nThe set which represents aromatic species is"
+  ],
+  "choices": [
+    [
+      "II and III"
+    ],
+    [
+      "I, II and IV"
+    ],
+    [
+      "I, II and III"
+    ],
+    [
+      "III, IV and V"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "**I. Cyclopentadienyl anion:** 6 <katex>$\\pi$</katex> electrons, planar, cyclic. **Aromatic**.",
+    "**II. Tropylium cation:** 6 <katex>$\\pi$</katex> electrons, planar, cyclic. **Aromatic**.",
+    "**III. Cyclooctatetraene:** 8 <katex>$\\pi$</katex> electrons (4n), tub shape (non-planar). **Non-aromatic**.",
+    "**IV. Benzene:** 6 <katex>$\\pi$</katex> electrons. **Aromatic**.",
+    "The set of aromatic species is I, II, and IV."
+  ],
+  "years": [
+    2023
+  ]
+}

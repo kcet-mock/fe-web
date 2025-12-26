@@ -1,0 +1,34 @@
+{
+  "id": "2023-chem-1",
+  "question": [
+    "Compounds P and R in the following reaction are",
+    "<katex>$$CH_{3}CHO \\xrightarrow[(ii)H_{3}O^{+ }]{(i)CH_{3}MgBr} P \\xrightarrow[heat]{conc H_{2}SO_{4}} Q \\xrightarrow[(ii)H_{2}O_{2}/OH^{-}]{(i)B_{2}H_{6}} R$$</katex>"
+  ],
+  "choices": [
+    [
+      "Metamers"
+    ],
+    [
+      "Identical"
+    ],
+    [
+      "Position isomers"
+    ],
+    [
+      "Functional isomers"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "**Step 1:** Reaction of Acetaldehyde (<katex>$CH_3CHO$</katex>) with Grignard reagent followed by hydrolysis gives Propan-2-ol (P).",
+    "<katex>$CH_3CHO + CH_3MgBr \\rightarrow CH_3CH(OMgBr)CH_3 \\xrightarrow{H_3O^+} CH_3CH(OH)CH_3$</katex> (P)",
+    "**Step 2:** Dehydration of P gives Propene (Q).",
+    "<katex>$CH_3CH(OH)CH_3 \\xrightarrow{H_2SO_4} CH_3CH=CH_2$</katex> (Q)",
+    "**Step 3:** Hydroboration-oxidation of Q gives Propan-1-ol (R). This reaction follows anti-Markovnikov addition.",
+    "<katex>$CH_3CH=CH_2 \\xrightarrow{B_2H_6, H_2O_2} CH_3CH_2CH_2OH$</katex> (R)",
+    "**Conclusion:** P is Propan-2-ol and R is Propan-1-ol. They differ in the position of the -OH group, so they are **Position isomers**."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-20",
+  "question": [
+    "The number of protons, neutrons and electrons in the ion <katex>${}_{16}^{32}S^{2-}$</katex> respectively are"
+  ],
+  "choices": [
+    [
+      "18, 16, 16"
+    ],
+    [
+      "16, 16, 16"
+    ],
+    [
+      "16, 18, 16"
+    ],
+    [
+      "16, 16, 18"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Atomic number (Z) = 16 (Protons).",
+    "Mass number (A) = 32.",
+    "Neutrons = A - Z = 32 - 16 = 16.",
+    "Electrons = Protons + Charge = 16 + 2 = 18 (since charge is 2-).",
+    "Order: Protons, Neutrons, Electrons -> 16, 16, 18."
+  ],
+  "years": [
+    2023
+  ]
+}

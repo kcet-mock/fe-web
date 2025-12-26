@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-41",
+  "question": [
+    "In which one of the following reactions, rate constant has the unit mol <katex>$L^{-1}s^{-1}$</katex>."
+  ],
+  "choices": [
+    [
+      "<katex>$2NO_{(g)}+O_{2_{(g)}}\\rightarrow2NO_{2_{(g)}}$</katex>"
+    ],
+    [
+      "Decomposition of HI on the surface of Gold"
+    ],
+    [
+      "Acid catalysed hydrolysis of <katex>$CH_{3}COOCH_{3}$</katex>"
+    ],
+    [
+      "<katex>$CHCl_{3}+Cl_{2}\\rightarrow CCl_{4}+HCl$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "The unit **mol L<katex>$^{-1}$</katex> s<katex>$^{-1}$</katex>** corresponds to a **Zero Order** reaction.",
+    "The decomposition of HI on the surface of Gold is a classic example of a zero-order reaction (surface catalysis at high pressure)."
+  ],
+  "years": [
+    2023
+  ]
+}

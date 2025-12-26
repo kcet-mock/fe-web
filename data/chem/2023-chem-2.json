@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-2",
+  "question": [
+    "Aniline does not undergo"
+  ],
+  "choices": [
+    [
+      "Friedel-Craft reaction"
+    ],
+    [
+      "Bromination"
+    ],
+    [
+      "Nitration"
+    ],
+    [
+      "Sulphonation"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Aniline does not undergo Friedel-Crafts reaction.",
+    "This is because aniline is a Lewis base (due to the lone pair on Nitrogen) and reacts with the Lewis acid catalyst (<katex>$AlCl_3$</katex>) used in Friedel-Crafts reactions to form a salt.",
+    "This deactivates the benzene ring towards electrophilic substitution."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-30",
+  "question": [
+    "The swelling in feet and ankles of an aged person due to sitting continuously for long hours during travel, is reduced by soaking the feet in warm salt water. This is because of:"
+  ],
+  "choices": [
+    [
+      "Edema"
+    ],
+    [
+      "Diffusion"
+    ],
+    [
+      "Reverse Osmosis"
+    ],
+    [
+      "Osmosis"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Swelling (Edema) is due to fluid retention in tissues.",
+    "Soaking feet in salt water (hypertonic solution) causes water to move out of the cells/tissues into the salt water bath.",
+    "This process is **Osmosis** (specifically exosmosis)."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-47",
+  "question": [
+    "The reducing agent in the given equations :\n<katex>$4~Ag_{(s)}+8~CN_{(aq)}^{-}+2H_{2}O_{(aq)}+O_{2_{(g)}}\\rightarrow4[Ag(CN)_{2}]_{(aq)}^{-}+4~OH_{(aq)}^{-}$</katex>\n<katex>$2[Ag(CN)_{2}]_{(aq)}+Zn_{(s)}\\rightarrow[Zn(CN)_{4}]_{(aq)}^{2-}+2Ag_{(s)}$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$H_{2}O$</katex>"
+    ],
+    [
+      "<katex>$CN^{-}$</katex>"
+    ],
+    [
+      "Zn"
+    ],
+    [
+      "<katex>$O_{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In the second step of the Mac-Arthur Forrest Cyanide process, Zinc (Zn) displaces Silver (Ag) from the complex.",
+    "Zn goes from oxidation state 0 to +2 (Oxidation).",
+    "Ag goes from +1 to 0 (Reduction).",
+    "Therefore, **Zn acts as the reducing agent**."
+  ],
+  "years": [
+    2023
+  ]
+}

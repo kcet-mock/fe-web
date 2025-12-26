@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-28",
+  "question": [
+    "A pair of amphoteric oxides is"
+  ],
+  "choices": [
+    [
+      "BeO, MgO"
+    ],
+    [
+      "BeO, ZnO"
+    ],
+    [
+      "<katex>$Al_{2}O_{3}, Li_{2}O$</katex>"
+    ],
+    [
+      "BeO, <katex>$BO_{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Amphoteric oxides can react with both acids and bases.",
+    "**BeO** and **ZnO** are both well-known amphoteric oxides.",
+    "MgO and Li2O are basic. B2O3 is acidic."
+  ],
+  "years": [
+    2023
+  ]
+}

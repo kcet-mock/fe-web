@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-40",
+  "question": [
+    "The resistance of 0.1 M weak acid HA in a conductivity cell is <katex>$2\\times10^{3}$</katex> Ohm. The cell constant of the cell is <katex>$0.78~cm^{-1}$</katex> and <katex>$\\Lambda_{m}^{\\circ}$</katex> of acid HA is 390 S cm² mol⁻¹. The pH of the solution is"
+  ],
+  "choices": [
+    [
+      "5"
+    ],
+    [
+      "3"
+    ],
+    [
+      "3.3"
+    ],
+    [
+      "4.2"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "1. Conductivity (<katex>$\\kappa$</katex>) = Cell Constant / R = <katex>$0.78 / 2000 = 3.9 \\times 10^{-4} S cm^{-1}$</katex>.",
+    "2. Molar Conductivity (<katex>$\\Lambda_m$</katex>) = <katex>$\\frac{\\kappa \\times 1000}{M} = \\frac{3.9 \\times 10^{-4} \times 1000}{0.1} = 3.9 S cm^2 mol^{-1}$</katex>.",
+    "3. Degree of dissociation (<katex>$\\alpha$</katex>) = <katex>$\\frac{\\Lambda_m}{\\Lambda_m^{\\circ}} = \\frac{3.9}{390} = 0.01$</katex>.",
+    "4. <katex>$[H^+] = C \\alpha = 0.1 \\times 0.01 = 0.001 = 10^{-3} M$</katex>.",
+    "5. pH = <katex>$-\\log[H^+] = 3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

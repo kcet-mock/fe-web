@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-36",
+  "question": [
+    "For a reaction, the value of rate constant at 300 K is <katex>$6.0\\times10^{5}s^{-1}$</katex>. The value of Arrhenius factor A at infinitely high temperature is :"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{6\\times10^{-5}}{300}$</katex>"
+    ],
+    [
+      "<katex>$6\\times10^{5}$</katex>"
+    ],
+    [
+      "<katex>$6\\times10^{5}\\times e^{-Ea/300R}$</katex>"
+    ],
+    [
+      "<katex>$e^{-Ea/300R}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "According to the Arrhenius equation: <katex>$k = A e^{-E_a/RT}$</katex>.",
+    "At infinitely high temperature (<katex>$T \\rightarrow \\infty$</katex>), the term <katex>$\\frac{-E_a}{RT} \\rightarrow 0$</katex>.",
+    "So, <katex>$e^0 = 1$</katex>, and <katex>$k \\rightarrow A$</katex>.",
+    "The question implies that if <katex>$k_{300} = 6.0 \\times 10^5$</katex>, and assuming <katex>$k$</katex> approaches <katex>$A$</katex> or the given value IS <katex>$A$</katex> (implying activation energy is negligible or the question provides the pre-exponential factor directly).",
+    "Given the options, the value <katex>$6 \\times 10^5$</katex> corresponds to A."
+  ],
+  "years": [
+    2023
+  ]
+}

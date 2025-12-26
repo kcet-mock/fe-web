@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-11",
+  "question": [
+    "Which of the following monomers form biodegradable polymers?"
+  ],
+  "choices": [
+    [
+      "Phenol and formaldehyde"
+    ],
+    [
+      "3-hydroxybutanoic acid and 3-hydroxypentanoic acid"
+    ],
+    [
+      "Ethylene glycol and pthalic acid"
+    ],
+    [
+      "Caprolactum and 1,3- Butadiene"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "**3-hydroxybutanoic acid and 3-hydroxypentanoic acid** copolymerize to form **PHBV** (Poly <katex>$\\beta$</katex>-hydroxybutyrate-co-<katex>$\\beta$</katex>-hydroxyvalerate), which is a biodegradable polymer.",
+    "Phenol and formaldehyde form Bakelite (non-biodegradable).",
+    "Ethylene glycol and phthalic acid form Glyptal (non-biodegradable).",
+    "Caprolactum forms Nylon-6 (non-biodegradable)."
+  ],
+  "years": [
+    2023
+  ]
+}

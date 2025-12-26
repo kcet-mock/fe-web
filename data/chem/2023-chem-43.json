@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-43",
+  "question": [
+    "Which of the following compound does not give dinitrogen on heating?"
+  ],
+  "choices": [
+    [
+      "<katex>$NH_{4}NO_{3}$</katex>"
+    ],
+    [
+      "<katex>$(NH_{4})_{2}Cr_{2}O_{7}$</katex>"
+    ],
+    [
+      "<katex>$Ba(N_{3})_{2}$</katex>"
+    ],
+    [
+      "<katex>$NH_{4}NO_{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$NH_4NO_3 \\xrightarrow{\\Delta} N_2O + 2H_2O$</katex> (Nitrous Oxide).",
+    "<katex>$(NH_4)_2Cr_2O_7 \\xrightarrow{\\Delta} N_2 + Cr_2O_3 + 4H_2O$</katex>.",
+    "<katex>$Ba(N_3)_2 \\xrightarrow{\\Delta} Ba + 3N_2$</katex>.",
+    "<katex>$NH_4NO_2 \\xrightarrow{\\Delta} N_2 + 2H_2O$</katex>.",
+    "Only Ammonium Nitrate (<katex>$NH_4NO_3$</katex>) gives <katex>$N_2O$</katex>, not <katex>$N_2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

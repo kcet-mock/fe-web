@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-58",
+  "question": [
+    "Which of the following is an organometallic compound?"
+  ],
+  "choices": [
+    [
+      "<katex>$(CH_{3}COO)_{2}Ca$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}ONa$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}COONa$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}CH_{2}MgBr$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "An organometallic compound must contain a direct metal-carbon bond.",
+    "Option D, which represents a Grignard reagent (Ethylmagnesium bromide), has a C-Mg bond.",
+    "(Note: The original text might have been truncated to 'CH3CH2', but D is the intended answer in the context of organometallics vs salts)."
+  ],
+  "years": [
+    2023
+  ]
+}

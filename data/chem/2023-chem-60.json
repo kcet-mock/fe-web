@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-60",
+  "question": [
+    "Identify A, B and C in the sequence:",
+    "<katex>$$CH_{3}CH_{2}Br \\xrightarrow{KCN(alc)} A \\xrightarrow{LiAlH_{4}} B \\xrightarrow{HNO_{2}, 0^{\\circ}C} C$$</katex>"
+  ],
+  "choices": [
+    [
+      "<katex>$CH_{3}CH_{2}CN, C_{2}H_{5}OH, C_{2}H_{5}N_{2}Cl$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}CH_{2}CN, CH_{3}CH_{2}NH_{2}, C_2H_5OH$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}CH_{2}CN, CH_{3}CH_{2}CH_{2}NH_{2}, CH_{3}CH_{2}CH_{2}OH$</katex>"
+    ],
+    [
+      "<katex>$CH_{3}CH_{2}NC, CH_{3}CH_{2}OH, CH_2CH_2CH_2NH_2$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "1. <katex>$CH_3CH_2Br + KCN \\rightarrow CH_3CH_2CN$</katex> (Propanenitrile) (A).",
+    "2. Reduction of A with <katex>$LiAlH_4$</katex> gives <katex>$CH_3CH_2CH_2NH_2$</katex> (Propan-1-amine) (B).",
+    "3. Reaction of primary aliphatic amine B with <katex>$HNO_2$</katex> (nitrous acid) gives alcohol: <katex>$CH_3CH_2CH_2OH$</katex> (Propan-1-ol) (C)."
+  ],
+  "years": [
+    2023
+  ]
+}

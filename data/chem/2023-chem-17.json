@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-17",
+  "question": [
+    "At 500 K, for a reversible reaction <katex>$A_{2(g)}+B_{2(g)}\\rightleftharpoons2AB_{(g)}$</katex> in a closed container, <katex>$K_{C}=2\\times10^{-5}$</katex>. In the presence of catalyst, the equilibrium is attaining 10 times faster. The equilibrium constant <katex>$K_{C}$</katex> in the presence of catalyst at the same temperature is"
+  ],
+  "choices": [
+    [
+      "<katex>$2\\times10^{-10}$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{-5}$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{-4}$</katex>"
+    ],
+    [
+      "<katex>$2\\times10^{-6}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "A catalyst increases the rate of both forward and backward reactions equally.",
+    "It helps attain equilibrium faster but **does not alter the value of the equilibrium constant (<katex>$K_C$</katex>)**.",
+    "<katex>$K_C$</katex> depends only on temperature.",
+    "Therefore, <katex>$K_C$</katex> remains <katex>$2 \\times 10^{-5}$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

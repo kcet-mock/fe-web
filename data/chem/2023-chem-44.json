@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-44",
+  "question": [
+    "Aqueous solution of raw sugar when passed over beds of animal charcoal, it becomes colourless. Pick the correct set of terminologies that can be used for the above example."
+  ],
+  "choices": [
+    [
+      "Adsorbent: Animal Charcoal, Adsorbate: Colouring Substance, Process: Adsorption"
+    ],
+    [
+      "Adsorbent: Colouring Substance, Adsorbate: Animal Charcoal, Process: Adsorption"
+    ],
+    [
+      "Adsorbent: Solution of Sugar, Adsorbate: Animal Charcoal, Process: Sorption"
+    ],
+    [
+      "Adsorbent: Animal Charcoal, Adsorbate: Solution of Sugar, Process: Absorption"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "**Adsorbent:** The surface where adsorption takes place (Animal Charcoal).",
+    "**Adsorbate:** The substance being adsorbed (Colouring Substance).",
+    "**Process:** Adsorption (Surface phenomenon)."
+  ],
+  "years": [
+    2023
+  ]
+}

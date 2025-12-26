@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-13",
+  "question": [
+    "Which one of the following is a non-narcotic analgesic?"
+  ],
+  "choices": [
+    [
+      "Aspirin"
+    ],
+    [
+      "Morphine"
+    ],
+    [
+      "Heroin"
+    ],
+    [
+      "Codeine"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "**Aspirin** is a non-narcotic (non-addictive) analgesic.",
+    "Morphine, Heroin, and Codeine are narcotic analgesics (derivatives of opium)."
+  ],
+  "years": [
+    2023
+  ]
+}

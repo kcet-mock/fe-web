@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-53",
+  "question": [
+    "Which one of the following oxoacids of phosphorus can reduce <katex>$AgNO_{3}$</katex> to metallic silver?"
+  ],
+  "choices": [
+    [
+      "<katex>$H_{4}P_{2}O_{6}$</katex>"
+    ],
+    [
+      "<katex>$H_{3}PO_{4}$</katex>"
+    ],
+    [
+      "<katex>$H_{3}PO_{2}$</katex>"
+    ],
+    [
+      "<katex>$H_{4}P_{2}O_{7}$</katex>"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Reducing property of phosphorus oxoacids depends on the number of P-H bonds.",
+    "**<katex>$H_3PO_2$</katex> (Hypophosphorous acid)** contains two P-H bonds, making it a strong reducing agent capable of reducing <katex>$AgNO_3$</katex> to Ag."
+  ],
+  "years": [
+    2023
+  ]
+}

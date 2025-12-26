@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-45",
+  "question": [
+    "For Freundlich adsorption isotherm, a graph of <katex>$log(x/m)$</katex> Vs. <katex>$log(P)$</katex> gives a straight line. The slope of line and its Y-axis intercept respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$log(\\frac{1}{n}), log~K$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{n}, K$</katex>"
+    ],
+    [
+      "<katex>$log(\\frac{1}{n}), K$</katex>"
+    ],
+    [
+      "<katex>$\\frac{1}{n}, log~K$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Freundlich isotherm equation: <katex>$\\frac{x}{m} = K P^{1/n}$</katex>.",
+    "Taking log on both sides: <katex>$\\log(\\frac{x}{m}) = \\log K + \\frac{1}{n} \\log P$</katex>.",
+    "This is in the form of <katex>$y = c + mx$</katex>.",
+    "Slope (<katex>$m$</katex>) = <katex>$\\frac{1}{n}$</katex>.",
+    "Intercept (<katex>$c$</katex>) = <katex>$\\log K$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

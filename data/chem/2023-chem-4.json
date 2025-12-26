@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-4",
+  "question": [
+    "Y in the following reaction is",
+    "<katex>$$Phenol \\xrightarrow{NaOH} A \\xrightarrow[(ii)H^+]{(i)CO_2} B \\xrightarrow[(ii)H^+]{(i)(CH_3CO)_2O} Y \\text{ (Major product)}$$</katex>"
+  ],
+  "choices": [
+    [
+      "Cumene"
+    ],
+    [
+      "Picric acid"
+    ],
+    [
+      "Salicylaldehyde"
+    ],
+    [
+      "Aspirin"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "1. Phenol reacts with NaOH to form Sodium Phenoxide.",
+    "2. Sodium Phenoxide reacts with <katex>$CO_2$</katex> followed by acidification (Kolbe's reaction) to form Salicylic acid (B).",
+    "3. Salicylic acid reacts with Acetic anhydride (<katex>$(CH_3CO)_2O$</katex>) in acidic medium (Acetylation) to form Acetylsalicylic acid.",
+    "4. Acetylsalicylic acid is commonly known as **Aspirin** (Y)."
+  ],
+  "years": [
+    2023
+  ]
+}

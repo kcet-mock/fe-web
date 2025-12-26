@@ -1,0 +1,32 @@
+{
+  "id": "2023-chem-39",
+  "question": [
+    "Consider the following 4 electrodes:\n<katex>$A:Ag^{+}(0.0001M)/Ag_{(s)}$</katex>\n<katex>$B:Ag^{+}(0.1M)/Ag_{(s)}$</katex>\n<katex>$C:Ag^{+}(0.01M)/Ag_{(s)}$</katex>\n<katex>$D:Ag^{+}(0.001M)/Ag_{(s)}$</katex>\nThen reduction potential in volts of the electrodes in the order"
+  ],
+  "choices": [
+    [
+      "A > D > C > B"
+    ],
+    [
+      "A > B > C > D"
+    ],
+    [
+      "B > C > D > A"
+    ],
+    [
+      "C > D > A > B"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "According to Nernst Equation for <katex>$Ag^+ + e^- \\rightarrow Ag$</katex>:",
+    "<katex>$E = E^{\\circ} - \\frac{0.059}{1} \\log \\frac{1}{[Ag^+]} = E^{\\circ} + 0.059 \\log [Ag^+]$</katex>",
+    "The reduction potential <katex>$E$</katex> is directly proportional to <katex>$\\log [Ag^+]$</katex>.",
+    "Higher concentration <katex>$[Ag^+]$</katex> means higher reduction potential.",
+    "Concentrations: B(0.1) > C(0.01) > D(0.001) > A(0.0001).",
+    "Order of Potential: B > C > D > A."
+  ],
+  "years": [
+    2023
+  ]
+}

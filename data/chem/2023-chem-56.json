@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-56",
+  "question": [
+    "<katex>$CH_{3}-CH=CH-CH_{2}OH \\xrightarrow{PCC} CH_{3}-CH=CH-CHO$</katex>\nHybridisation change involved at C-1 in the above reaction"
+  ],
+  "choices": [
+    [
+      "<katex>$sp^{2}$</katex> to <katex>$sp^{3}$</katex>"
+    ],
+    [
+      "sp to <katex>$sp^{2}$</katex>"
+    ],
+    [
+      "<katex>$sp^{3}$</katex> to sp"
+    ],
+    [
+      "<katex>$sp^{3}$</katex> to <katex>$sp^{2}$</katex>"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Reactant (Alcohol): The C-1 carbon (<katex>$-CH_2OH$</katex>) forms 4 sigma bonds (2 to H, 1 to C, 1 to O). Hybridisation is **<katex>$sp^3$</katex>**.",
+    "Product (Aldehyde): The C-1 carbon (<katex>$-CHO$</katex>) forms 3 sigma bonds and 1 pi bond (C=O). Hybridisation is **<katex>$sp^2$</katex>**.",
+    "Change: <katex>$sp^3 \\rightarrow sp^2$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

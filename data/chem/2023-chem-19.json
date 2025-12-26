@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-19",
+  "question": [
+    "Temperature of <katex>$25^{\\circ}C$</katex> in Fahrenheit and Kelvin scale respectively are"
+  ],
+  "choices": [
+    [
+      "<katex>$45^{\\circ}F$</katex> and 260.15 K"
+    ],
+    [
+      "<katex>$47^{\\circ}F$</katex> and 312.15 K"
+    ],
+    [
+      "<katex>$77^{\\circ}F$</katex> and 298.15 K"
+    ],
+    [
+      "<katex>$17^{\\circ}F$</katex> and 298.15 K"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "To Kelvin: <katex>$K = ^\\circ C + 273.15 = 25 + 273.15 = 298.15$</katex> K.",
+    "To Fahrenheit: <katex>$^\\circ F = (^\\circ C \\times \\frac{9}{5}) + 32$</katex>",
+    "<katex>$^\\circ F = (25 \\times 1.8) + 32 = 45 + 32 = 77^{\\circ}F$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2023-chem-52",
+  "question": [
+    "The correct decreasing order of basicity of hydrides of Group - 15 elements is"
+  ],
+  "choices": [
+    [
+      "<katex>$AsH_{3}>SbH_{3}>NH_{3}>PH_{3}$</katex>"
+    ],
+    [
+      "<katex>$NH_{3}>PH_{3}>AsH_{3}>SbH_{3}$</katex>"
+    ],
+    [
+      "<katex>$SbH_{3}>AsH_{3}>PH_{3}>NH_{3}$</katex>"
+    ],
+    [
+      "<katex>$PH_{3}>AsH_{3}>SbH_{3}>NH_{3}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Basicity depends on the electron density on the central atom to donate the lone pair.",
+    "As we go down Group 15, the size of the central atom increases, and the electron density decreases.",
+    "Therefore, basicity decreases down the group: <katex>$NH_3 > PH_3 > AsH_3 > SbH_3$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

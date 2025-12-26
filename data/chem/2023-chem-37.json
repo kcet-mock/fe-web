@@ -1,0 +1,33 @@
+{
+  "id": "2023-chem-37",
+  "question": [
+    "The rate constants <katex>$k_{1}$</katex> and <katex>$k_{2}$</katex> for two different reactions are <katex>$10^{16}\\times e^{-2000/T}$</katex> and <katex>$10^{15}\\times e^{-1000/T}$</katex> respectively. The temperature at which <katex>$k_{1}=k_{2}$</katex> is:"
+  ],
+  "choices": [
+    [
+      "<katex>$\\frac{1000}{2.303}K$</katex>"
+    ],
+    [
+      "1000 K"
+    ],
+    [
+      "<katex>$\\frac{2000}{2.303}K$</katex>"
+    ],
+    [
+      "2000 K"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "<katex>$k_1 = k_2$</katex>",
+    "<katex>$10^{16} e^{-2000/T} = 10^{15} e^{-1000/T}$</katex>",
+    "Dividing by <katex>$10^{15}$</katex>: <katex>$10 e^{-2000/T} = e^{-1000/T}$</katex>",
+    "<katex>$10 = e^{2000/T} \\cdot e^{-1000/T} = e^{1000/T}$</katex>",
+    "Taking natural log (ln): <katex>$\\ln(10) = \\frac{1000}{T}$</katex>",
+    "<katex>$2.303 = \\frac{1000}{T}$</katex>",
+    "<katex>$T = \\frac{1000}{2.303}$</katex> K."
+  ],
+  "years": [
+    2023
+  ]
+}

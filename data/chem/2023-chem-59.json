@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-59",
+  "question": [
+    "A pair of compounds having the same boiling points are"
+  ],
+  "choices": [
+    [
+      "Benzene and naphthalene"
+    ],
+    [
+      "(+) butan-2-ol and (-) butan-2-ol"
+    ],
+    [
+      "cis but-2-ene and trans but-2-ene"
+    ],
+    [
+      "n-hexane and neo-hexane"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Enantiomers have identical physical properties (boiling point, melting point, density, refractive index) in an achiral environment.",
+    "**(+) butan-2-ol and (-) butan-2-ol** are enantiomers, so they have the same boiling point."
+  ],
+  "years": [
+    2023
+  ]
+}

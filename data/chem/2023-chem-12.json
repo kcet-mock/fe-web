@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-12",
+  "question": [
+    "Match the List-I with List-II in the following\n\n| List-I (Monomer) | List-II (Polymer Unit) |\n|---|---|\n| 1. Caprolactum | a. <katex>$-(CH_2-CH(C_6H_5))-$</katex> (Polystyrene structure) |\n| 2. Vinyl chloride | b. <katex>$-(CH_2-CH(CH_3))-$</katex> (Polypropene structure) |\n| 3. Styrene | c. <katex>$-(CH_2-CH(Cl))-$</katex> (PVC structure) |\n| 4. Propene | d. <katex>$-(NH-(CH_2)_5-CO)-$</katex> (Nylon-6 structure) |"
+  ],
+  "choices": [
+    [
+      "1-d, 2-c, 3-a, 4-b"
+    ],
+    [
+      "1-d, 2-c, 3-b, 4-a"
+    ],
+    [
+      "1-c, 2-d, 3-a, 4-b"
+    ],
+    [
+      "1-a, 2-d, 3-c, 4-b"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "1. Caprolactum polymerizes to Nylon-6: <katex>$-(NH-(CH_2)_5-CO)-$</katex> (d).",
+    "2. Vinyl chloride polymerizes to PVC: <katex>$-(CH_2-CH(Cl))-$</katex> (c).",
+    "3. Styrene polymerizes to Polystyrene: <katex>$-(CH_2-CH(C_6H_5))-$</katex> (a).",
+    "4. Propene polymerizes to Polypropene: <katex>$-(CH_2-CH(CH_3))-$</katex> (b).",
+    "Correct match: 1-d, 2-c, 3-a, 4-b."
+  ],
+  "years": [
+    2023
+  ]
+}

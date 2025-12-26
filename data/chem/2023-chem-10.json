@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-10",
+  "question": [
+    "The correct order of match between column X and column Y is:\n\n| X | Y |\n|---|---|\n| I. Vitamin A | i. Muscular weakness |\n| II. Vitamin D | ii. Increased blood clotting time |\n| III. Vitamin E | iii. Night-blindness |\n| IV. Vitamin K | iv. Osteomalacia |"
+  ],
+  "choices": [
+    [
+      "I-iii, II-ii, III - iv, IV - i"
+    ],
+    [
+      "I-iii, II - iv, III - i, IV - ii"
+    ],
+    [
+      "I- iv, II- iii, III - ii, IV - i"
+    ],
+    [
+      "I-ii, II-i, III - iii, IV - iv"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "I. Vitamin A deficiency causes Night-blindness (iii).",
+    "II. Vitamin D deficiency causes Osteomalacia/Rickets (iv).",
+    "III. Vitamin E deficiency causes Muscular weakness (i).",
+    "IV. Vitamin K deficiency causes Increased blood clotting time (ii).",
+    "Correct match: I-iii, II-iv, III-i, IV-ii."
+  ],
+  "years": [
+    2023
+  ]
+}

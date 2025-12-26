@@ -1,0 +1,32 @@
+{
+  "id": "2023-chem-49",
+  "question": [
+    "<katex>$aMnO_{4}^{-}+bS_{2}O_{3}^{-2}+H_{2}O\\rightarrow xMnO_{2}+ySO_{4}^{-2}+zOH^{-}$</katex> a and y respectively are"
+  ],
+  "choices": [
+    [
+      "3; 6"
+    ],
+    [
+      "8; 8"
+    ],
+    [
+      "8; 3"
+    ],
+    [
+      "8; 6"
+    ]
+  ],
+  "correctAnswer": 2,
+  "explanation": [
+    "Balancing by ion-electron method:",
+    "Reduction: <katex>$MnO_4^- \\rightarrow MnO_2$</katex> (change of 3e- per Mn).",
+    "Oxidation: <katex>$S_2O_3^{2-} \\rightarrow 2SO_4^{2-}$</katex> (S goes +2 to +6; change of 8e- per <katex>$S_2O_3$</katex>).",
+    "Cross multiply: 8 <katex>$\\times$</katex> Reduction and 3 <katex>$\\times$</katex> Oxidation.",
+    "<katex>$8MnO_4^- + 3S_2O_3^{2-} \\rightarrow 8MnO_2 + 6SO_4^{2-}$</katex>.",
+    "Coefficients: <katex>$a = 8$</katex>, <katex>$y = 6$</katex>."
+  ],
+  "years": [
+    2023
+  ]
+}

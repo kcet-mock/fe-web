@@ -1,0 +1,31 @@
+{
+  "id": "2023-chem-23",
+  "question": [
+    "IUPAC name of the compound with structure corresponding to tetramethylethene is"
+  ],
+  "choices": [
+    [
+      "1, 1, 2, 2- tetra methylethene"
+    ],
+    [
+      "2,3-dimethylbut-2-ene"
+    ],
+    [
+      "2,3-dimethylbut-2-ene"
+    ],
+    [
+      "2,3-dimethylbutyne"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "Tetramethylethene has the structure <katex>$(CH_3)_2C=C(CH_3)_2$</katex>.",
+    "The longest chain containing the double bond has 4 carbons.",
+    "Numbering gives the double bond at C2.",
+    "There are methyl groups at C2 and C3.",
+    "IUPAC Name: **2,3-dimethylbut-2-ene**."
+  ],
+  "years": [
+    2023
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2023-chem-35",
+  "question": [
+    "Dimerisation of solute molecules in low dielectric constant solvent is due to :"
+  ],
+  "choices": [
+    [
+      "Co-ordinate bond"
+    ],
+    [
+      "Ionic bond"
+    ],
+    [
+      "Hydrogen bond"
+    ],
+    [
+      "Covalent bond"
+    ]
+  ],
+  "correctAnswer": 1,
+  "explanation": [
+    "In solvents with low dielectric constants (like benzene), solute molecules like carboxylic acids (e.g., acetic acid) undergo association or dimerisation.",
+    "This is mainly due to the formation of intermolecular **Hydrogen bonds**."
+  ],
+  "years": [
+    2023
+  ]
+}

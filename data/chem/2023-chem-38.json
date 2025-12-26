@@ -1,0 +1,30 @@
+{
+  "id": "2023-chem-38",
+  "question": [
+    "During the electrolysis of brine, by using inert electrodes,"
+  ],
+  "choices": [
+    [
+      "Na deposits on cathode"
+    ],
+    [
+      "<katex>$Cl_{2}$</katex> liberates at anode"
+    ],
+    [
+      "<katex>$O_{2}$</katex> liberates at anode"
+    ],
+    [
+      "<katex>$H_{2}$</katex> liberates at anode"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Electrolysis of Brine (Aqueous NaCl):",
+    "**Anode:** <katex>$Cl^-$</katex> is oxidized to <katex>$Cl_2$</katex> gas. (Although oxidation of water to O2 is possible, Cl2 formation is preferred due to overpotential).",
+    "**Cathode:** Water is reduced to <katex>$H_2$</katex> gas (since discharge potential of H+ is lower than Na+).",
+    "Result: <katex>$Cl_2$</katex> at anode, <katex>$H_2$</katex> at cathode, NaOH in solution."
+  ],
+  "years": [
+    2023
+  ]
+}

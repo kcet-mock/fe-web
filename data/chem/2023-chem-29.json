@@ -1,0 +1,27 @@
+{
+  "id": "2023-chem-29",
+  "question": [
+    "The composition of water gas is"
+  ],
+  "choices": [
+    [
+      "<katex>$CO_{(g)}+H_{2}O_{(g)}$</katex>"
+    ],
+    [
+      "<katex>$CO_{(g)}+H_{2_{(g)}}$</katex>"
+    ],
+    [
+      "<katex>$CO_{(g)}+N_{2_{(g)}}$</katex>"
+    ],
+    [
+      "<katex>$CH_{4_{(g)}}$</katex>"
+    ]
+  ],
+  "correctAnswer": 0,
+  "explanation": [
+    "Water gas (or synthesis gas) is a mixture of Carbon monoxide (**CO**) and Hydrogen (**<katex>$H_2$</katex>**)."
+  ],
+  "years": [
+    2023
+  ]
+}
