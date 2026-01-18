@@ -18,7 +18,7 @@
       "M-Activation energy without enzyme, N-Activation energy with enzyme"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Curve M represents the reaction pathway with higher energy barrier (Without Enzyme). Curve N represents the pathway with lower energy barrier (With Enzyme)."
   ],
