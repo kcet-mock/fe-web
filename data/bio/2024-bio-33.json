@@ -17,11 +17,8 @@
       "Polymerase"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Restriction Endonucleases are used to cut (cleave) DNA at specific recognition sites, such as cutting a plasmid to insert a gene."
-  ],
-  "years": [
-    2024
   ]
 }

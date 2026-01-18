@@ -17,11 +17,8 @@
       "Q and R"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "In Griffith's experiment:\n- R strain (Rough, non-virulent) -> Mice live (Statement R is Correct).\n- S strain (Smooth, virulent) -> Mice die.\n- R strain -> Mice die is incorrect (P is incorrect).\n- Heat-killed S strain -> Mice live (Statement Q is incorrect)."
-  ],
-  "years": [
-    2024
   ]
 }

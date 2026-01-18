@@ -17,14 +17,11 @@
       "1-s, 2-p, 3-q, 4-r"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "1. Fertilizers cause Eutrophication (q).",
     "2. Carbon dioxide causes Greenhouse effect (r).",
     "3. Carbon monoxide is an Air pollutant (s).",
     "4. CFCs cause Ozone depletion (p)."
-  ],
-  "years": [
-    2024
   ]
 }

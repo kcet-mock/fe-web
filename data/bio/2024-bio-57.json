@@ -17,14 +17,11 @@
       "1-t, 2-p, 3-r, 4-s"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "1. Chlorophyll b: Yellow green (t).",
     "2. Carotenoids: Yellow orange (p).",
     "3. Chlorophyll a: Blue green (s).",
     "4. Xanthophylls: Yellow (r)."
-  ],
-  "years": [
-    2024
   ]
 }

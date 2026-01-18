@@ -17,11 +17,8 @@
       "3:3"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Considering only the seed shape character (Round vs Wrinkled) in the <katex>$F_2$</katex> generation of a dihybrid cross, the ratio follows the monohybrid segregation of 3:1 (12 Round : 4 Wrinkled)."
-  ],
-  "years": [
-    2024
   ]
 }

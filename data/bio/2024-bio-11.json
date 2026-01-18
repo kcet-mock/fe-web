@@ -17,13 +17,10 @@
       "1:2"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "1 Primary Spermatocyte produces 4 Spermatozoa. So, 2 produce 8.",
     "1 Primary Oocyte produces 1 Ovum. So, 2 produce 2.",
     "Ratio = 8 : 2 = 4 : 1."
-  ],
-  "years": [
-    2024
   ]
 }

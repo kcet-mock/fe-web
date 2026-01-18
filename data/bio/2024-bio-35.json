@@ -17,11 +17,8 @@
       "Both non-transformants and transformants will grow"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Since the transformants have acquired the Ampicillin resistance gene, they will survive and grow on the medium containing Ampicillin, while non-transformants will die."
-  ],
-  "years": [
-    2024
   ]
 }

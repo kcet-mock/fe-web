@@ -17,11 +17,8 @@
       "Gel Electrophoresis"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "ELISA (Enzyme Linked Immunosorbent Assay) works on the principle of antigen-antibody interaction to detect the presence of pathogens or antibodies."
-  ],
-  "years": [
-    2024
   ]
 }

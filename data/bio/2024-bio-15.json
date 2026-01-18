@@ -17,11 +17,8 @@
       "9:3:3:1"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "In incomplete dominance, the genotypic and phenotypic ratios are identical. For the <katex>$F_2$</katex> generation, the ratio is 1:2:1 (1 Homozygous Dominant : 2 Heterozygous : 1 Homozygous Recessive)."
-  ],
-  "years": [
-    2024
   ]
 }
