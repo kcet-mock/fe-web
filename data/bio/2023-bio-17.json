@@ -17,11 +17,8 @@
       "It helps in accumulation of superior genes."
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Inbreeding increases homozygosity (pure lines). It does not decrease it. It is used to accumulate superior genes and eliminate less desirable ones."
-  ],
-  "years": [
-    2023
   ]
 }

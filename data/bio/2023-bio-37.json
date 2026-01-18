@@ -25,11 +25,8 @@
       "I, II, IV, VI, VIII"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "To clone a bacterial gene into animal cells: Restriction enzymes (Endonuclease - I) to cut DNA. Ligase (II) to join. Microinjection (IV) is a direct method for animal cells. Lysozyme (VI) to break bacterial cell wall to isolate DNA. Electrophoresis (VIII) to separate DNA fragments. *A. tumefaciens* and Gene gun are typically for plants. Cellulase is for plant cells."
-  ],
-  "years": [
-    2023
   ]
 }

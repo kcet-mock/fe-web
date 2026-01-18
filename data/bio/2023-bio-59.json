@@ -23,11 +23,8 @@
       "<katex>$1-s, 2-r, 3-p, 4-q$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Head (1) -> Contains haploid nucleus (s). Acrosome (2) -> Filled with enzyme (p). Middle piece (3) -> Contains mitochondria (q). Tail (4) -> Sperm motility (r)."
-  ],
-  "years": [
-    2023
   ]
 }

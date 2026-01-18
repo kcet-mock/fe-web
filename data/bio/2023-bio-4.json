@@ -17,11 +17,8 @@
       "Change in whole set of chromosomes is called aneuploidy."
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Haemophilia is an X-linked recessive disorder. A carrier female (heterozygous) can transmit the defective X chromosome to her sons, causing the disease."
-  ],
-  "years": [
-    2023
   ]
 }

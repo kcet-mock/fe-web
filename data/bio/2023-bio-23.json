@@ -17,11 +17,8 @@
       "Elution"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Elution is the process of extracting bands of DNA from the agarose gel. It is not a method of transformation or making cells competent. Biolistics, Micro-injection, and using disarmed vectors are methods to introduce DNA into host cells."
-  ],
-  "years": [
-    2023
   ]
 }

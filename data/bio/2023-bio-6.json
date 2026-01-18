@@ -19,11 +19,8 @@
       "Statement (1) is incorrect. Statement (2) is correct."
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Statement (1) is correct (Pleiotropy). Statement (2) is incorrect because AB blood group is an example of co-dominance where both alleles (<katex>$I^A$</katex> and <katex>$I^B$</katex>) are dominant and express themselves fully."
-  ],
-  "years": [
-    2023
   ]
 }

@@ -18,11 +18,8 @@
       "p-AVN, q-SAN, r-Interventricular septum, s-Bundle of His"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "In the standard diagram of the heart's conducting system: 'p' (upper right atrium) is the Sino-atrial Node (SAN), 'q' (lower left of right atrium) is the Atrio-ventricular Node (AVN), 'r' represents the Bundle of His arising from AVN, and 's' points towards the interventricular septum/bundle branches."
-  ],
-  "years": [
-    2023
   ]
 }

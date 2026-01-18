@@ -23,11 +23,8 @@
       "<katex>$1-r, 2-s, 3-p, 4-q$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Haemophilus influenzae (1) -> Pneumonia (r). Entamoeba histolytica (2) -> Amoebiasis (s). Plasmodium falciparum (3) -> Malignant malaria (p). Wuchereria bancrofti (4) -> Elephantiasis (q)."
-  ],
-  "years": [
-    2023
   ]
 }

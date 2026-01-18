@@ -17,11 +17,8 @@
       "Promoter on Renin-Angiotension mechanism"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "ANF is a vasodilator and acts as a check on the Renin-Angiotensin mechanism (which increases blood pressure). ANF lowers blood pressure."
-  ],
-  "years": [
-    2023
   ]
 }

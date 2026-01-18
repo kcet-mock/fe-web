@@ -17,11 +17,8 @@
       "DNA ligation"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "PCR (Polymerase Chain Reaction) is used for the amplification of DNA."
-  ],
-  "years": [
-    2023
   ]
 }

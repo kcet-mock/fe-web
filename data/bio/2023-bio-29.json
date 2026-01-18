@@ -17,11 +17,8 @@
       "more than <katex>$15~g/cm^{3}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Heavy metals are defined as elements with a density greater than <katex>$5~g/cm^3$</katex> (e.g., mercury, cadmium, copper, lead)."
-  ],
-  "years": [
-    2023
   ]
 }

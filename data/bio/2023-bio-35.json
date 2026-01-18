@@ -23,11 +23,8 @@
       "(D)"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Ringworm is caused by fungi (Microsporum, Trichophyton, Epidermophyton) and affects the skin. Filariasis is caused by Wuchereria (Filarial worm), not round worm (Ascaris). Typhoid affects the intestine, not lungs."
-  ],
-  "years": [
-    2023
   ]
 }

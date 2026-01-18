@@ -21,8 +21,5 @@
   "correctAnswer": 0,
   "explanation": [
     "Biochemical Oxygen Demand (BOD) is a measure of organic pollution. The higher the BOD, the more polluted the water. <katex>$6~mg/L$</katex> is the highest value among the options."
-  ],
-  "years": [
-    2023
   ]
 }

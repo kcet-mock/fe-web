@@ -23,11 +23,8 @@
       "<katex>$1-r, 2-p, 3-s, 4-q$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Bryophyta -> Sphagnum (r). Gymnosperm -> Pinus (p). Algae -> Ectocarpus (s). Pteridophyta -> Adiantum (q)."
-  ],
-  "years": [
-    2023
   ]
 }

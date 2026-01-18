@@ -17,11 +17,8 @@
       "High variation from year-to-year."
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "David Tilman found that plots with more species showed less year-to-year variation in total biomass (increased stability)."
-  ],
-  "years": [
-    2023
   ]
 }

@@ -17,11 +17,8 @@
       "Enzyme DNA dependent RNA polymerase always catalyses the polymerisation <katex>$3'\\rightarrow5'$</katex> directions."
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "RNA polymerase catalyzes polymerization only in the <katex>$5' \\rightarrow 3'$</katex> direction. Therefore, the DNA strand with <katex>$3' \\rightarrow 5'$</katex> polarity acts as the template."
-  ],
-  "years": [
-    2023
   ]
 }
