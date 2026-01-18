@@ -17,11 +17,8 @@
       "Polygenic inheritance"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Pleiotropy occurs when a single gene influences multiple phenotypic traits."
-  ],
-  "years": [
-    2025
   ]
 }

@@ -17,11 +17,8 @@
       "Cyclosporin-A, Monascus purpureus"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Cyclosporin-A is used as an immunosuppressive agent in organ transplant patients. It is produced by the fungus *Trichoderma polysporum*."
-  ],
-  "years": [
-    2025
   ]
 }

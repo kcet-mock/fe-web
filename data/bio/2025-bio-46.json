@@ -17,11 +17,8 @@
       "a-i, b-ii, c-iii,d-iv"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "a (Radial, tetrarch) -> ii (Dicot root). b (Conjoint, open) -> iii (Dicot stem). c (Radial, polyarch) -> iv (Monocot root - correction, text says Monocot Stem in option? No, Polyarch is Monocot Root. The option 'iv' is likely Monocot Root in correct biology). d (Conjoint, closed) -> i (Monocot stem). Matches option 2."
-  ],
-  "years": [
-    2025
   ]
 }

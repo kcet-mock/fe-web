@@ -17,11 +17,8 @@
       "a-i, b-ii, c-iii, d-iv"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Abscisic acid = Carotenoid derivative (iii). Gibberellins = Terpenes (iv). Kinetin (Cytokinin) = Adenine derivative (i). Auxin = Indole compounds/IAA (ii). Correct match: a-iii, b-iv, c-i, d-ii. This matches Option 1? Wait, Key says Ans 2. Option 2: a-iii, b-iv, c-i, d-ii. The OCR has \"(2) a-iii, b-iv, c-i, d-ii\". Yes. Correct."
-  ],
-  "years": [
-    2025
   ]
 }

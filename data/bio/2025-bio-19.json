@@ -17,11 +17,8 @@
       "a, b and e are correct"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Statement (c) is incorrect because Darwinian fitness refers to reproductive fitness, not just physical. Statement (e) is incorrect because Alfred Wallace worked in the Malay Archipelago, not Hugo De Vries. Statements a, b, and d are correct."
-  ],
-  "years": [
-    2025
   ]
 }

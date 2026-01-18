@@ -17,11 +17,8 @@
       "A-peptide"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Pro-insulin contains A, B, and C peptides. During maturation, the C-peptide is removed, so mature insulin contains only A and B peptides."
-  ],
-  "years": [
-    2025
   ]
 }

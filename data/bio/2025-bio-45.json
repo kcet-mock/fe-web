@@ -18,11 +18,8 @@
       "a- Vexillary, b- Twisted, c- Imbricate, d- Valvate"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Diagram 'a' is Vexillary (large standard petal). 'b' is Imbricate (overlapping margins but not regular). 'c' is Twisted (regular overlap). 'd' is Valvate (touching, no overlap). Sequence: Vexillary, Imbricate, Twisted, Valvate."
-  ],
-  "years": [
-    2025
   ]
 }

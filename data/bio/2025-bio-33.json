@@ -17,11 +17,8 @@
       "0.01 individual/time interval"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Death rate = Change in number / Initial number = 8 / 80 = 0.1."
-  ],
-  "years": [
-    2025
   ]
 }

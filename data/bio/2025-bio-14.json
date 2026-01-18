@@ -17,11 +17,8 @@
       "tRNA"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "RNA polymerase II transcribes precursor of mRNA, the heterogeneous nuclear RNA (hnRNA)."
-  ],
-  "years": [
-    2025
   ]
 }

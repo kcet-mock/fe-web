@@ -17,11 +17,8 @@
       "Ori site"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The 'rop' gene codes for the proteins involved in the replication of the plasmid."
-  ],
-  "years": [
-    2025
   ]
 }

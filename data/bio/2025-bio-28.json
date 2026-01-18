@@ -17,11 +17,8 @@
       "Lysozyme, Cellulase and Chitinase"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Fungal cell wall (Chitin) requires Chitinase. Bacterial cell wall (Peptidoglycan) requires Lysozyme. Plant cell wall (Cellulose) requires Cellulase."
-  ],
-  "years": [
-    2025
   ]
 }
