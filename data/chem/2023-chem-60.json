@@ -18,7 +18,7 @@
       "<katex>$CH_{3}CH_{2}NC, CH_{3}CH_{2}OH, CH_2CH_2CH_2NH_2$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "1. <katex>$CH_3CH_2Br + KCN \\rightarrow CH_3CH_2CN$</katex> (Propanenitrile) (A).",
     "2. Reduction of A with <katex>$LiAlH_4$</katex> gives <katex>$CH_3CH_2CH_2NH_2$</katex> (Propan-1-amine) (B).",

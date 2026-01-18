@@ -19,12 +19,9 @@
       "Clemmensen reduction, Sandmeyer reaction"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "1. The conversion of Nitrile (<katex>$C_6H_5CN$</katex>) to Aldehyde (<katex>$C_6H_5CHO$</katex>, X) using <katex>$SnCl_2 + HCl$</katex> is known as the **Stephen reaction**.",
     "2. The reaction of Benzaldehyde (X) (which lacks alpha-hydrogens) with concentrated KOH to form an alcohol and a salt of carboxylic acid (Y + Z) is known as the **Cannizzaro reaction**."
-  ],
-  "years": [
-    2023
   ]
 }

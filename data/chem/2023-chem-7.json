@@ -19,7 +19,7 @@
       "<katex>$NaNO_{2}+con.HCl, F_{2}, Cu+NaNO_{3}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "This sequence describes the Balz-Schiemann reaction and diazotization.",
     "**P:** Aniline is converted to Benzene Diazonium Chloride using **<katex>$NaNO_2 + dil. HCl$</katex>** at 0-5°C.",

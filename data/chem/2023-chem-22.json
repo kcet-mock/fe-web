@@ -17,7 +17,7 @@
       "Bond order of <katex>$O_{2}^{+}$</katex> < Bond order of <katex>$O_{2}^{2-}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Bond orders calculated from MOT:",
     "<katex>$O_2$</katex> (16e): BO = 2.",

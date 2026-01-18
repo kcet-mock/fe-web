@@ -17,7 +17,7 @@
       "<katex>$17^{\\circ}F$</katex> and 298.15 K"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "To Kelvin: <katex>$K = ^\\circ C + 273.15 = 25 + 273.15 = 298.15$</katex> K.",
     "To Fahrenheit: <katex>$^\\circ F = (^\\circ C \\times \\frac{9}{5}) + 32$</katex>",

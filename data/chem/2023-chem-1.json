@@ -18,7 +18,7 @@
       "Functional isomers"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "**Step 1:** Reaction of Acetaldehyde (<katex>$CH_3CHO$</katex>) with Grignard reagent followed by hydrolysis gives Propan-2-ol (P).",
     "<katex>$CH_3CHO + CH_3MgBr \\rightarrow CH_3CH(OMgBr)CH_3 \\xrightarrow{H_3O^+} CH_3CH(OH)CH_3$</katex> (P)",

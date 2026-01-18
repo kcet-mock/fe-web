@@ -17,7 +17,7 @@
       "6 atm"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Given: <katex>$P_1 = 2$</katex> atm, <katex>$T_1 = 25^{\\circ}C = 298$</katex> K.",
     "<katex>$T_2 = 323^{\\circ}C = 323 + 273 = 596$</katex> K.",

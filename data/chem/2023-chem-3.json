@@ -17,14 +17,11 @@
       "Picric acid, Phenol"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "**Step 1:** Cleavage of Phenyl methyl ether (Anisole) with HI gives Phenol (A) and Methyl iodide.",
     "<katex>$C_6H_5OCH_3 + HI \\rightarrow C_6H_5OH + CH_3I$</katex>",
     "**Step 2:** Phenol (A) reacts with concentrated nitric acid to give 2,4,6-trinitrophenol, commonly known as Picric acid (B).",
     "So, A is Phenol and B is Picric acid."
-  ],
-  "years": [
-    2023
   ]
 }

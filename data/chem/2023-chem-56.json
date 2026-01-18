@@ -17,7 +17,7 @@
       "<katex>$sp^{3}$</katex> to <katex>$sp^{2}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Reactant (Alcohol): The C-1 carbon (<katex>$-CH_2OH$</katex>) forms 4 sigma bonds (2 to H, 1 to C, 1 to O). Hybridisation is **<katex>$sp^3$</katex>**.",
     "Product (Aldehyde): The C-1 carbon (<katex>$-CHO$</katex>) forms 3 sigma bonds and 1 pi bond (C=O). Hybridisation is **<katex>$sp^2$</katex>**.",

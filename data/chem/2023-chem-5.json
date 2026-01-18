@@ -17,7 +17,7 @@
       "Alkaline <katex>$KMnO_{4}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Strong oxidizing agents like Acidified <katex>$K_{2}Cr_{2}O_{7}$</katex> or Alkaline <katex>$KMnO_{4}$</katex> oxidize primary alcohols directly to carboxylic acids.",
     "**PCC (Pyridinium Chlorochromate)** is a mild oxidizing agent that selectively oxidizes primary alcohols to aldehydes without further oxidation to carboxylic acids."

@@ -17,7 +17,7 @@
       "<katex>$CH_{3}CH_{2}MgBr$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "An organometallic compound must contain a direct metal-carbon bond.",
     "Option D, which represents a Grignard reagent (Ethylmagnesium bromide), has a C-Mg bond.",

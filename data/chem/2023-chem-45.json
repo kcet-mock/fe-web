@@ -17,7 +17,7 @@
       "<katex>$\\frac{1}{n}, log~K$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Freundlich isotherm equation: <katex>$\\frac{x}{m} = K P^{1/n}$</katex>.",
     "Taking log on both sides: <katex>$\\log(\\frac{x}{m}) = \\log K + \\frac{1}{n} \\log P$</katex>.",
