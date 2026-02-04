@@ -17,7 +17,7 @@
       "12"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "The maximum value of <katex>$\\cos^{-1} x$</katex> is <katex>$\\pi$</katex>.",
     "For the sum to be <katex>$3\\pi$</katex>, each term must be <katex>$\\pi$</katex>.",

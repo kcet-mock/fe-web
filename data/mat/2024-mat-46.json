@@ -17,7 +17,7 @@
       "<katex>$y+x-3=(x+1)log(x+1)$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$\\frac{dy}{dx} = \\ln(x+1)$</katex>.",
     "<katex>$y = \\int \\ln(x+1) dx = (x+1)\\ln(x+1) - (x+1) + C$</katex> (Integration by parts).",

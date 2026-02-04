@@ -17,7 +17,7 @@
       "<katex>$(2n-1)\\frac{\\pi}{2}, n\\in N$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Let <katex>$z = \\frac{1-i\\sin\\alpha}{1+2i\\sin\\alpha}$</katex>.",
     "Multiply numerator and denominator by <katex>$1-2i\\sin\\alpha$</katex>.",

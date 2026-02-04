@@ -19,7 +19,7 @@
       "8, 7"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Let the number of elements in the first set be <katex>$m$</katex> and in the second set be <katex>$n$</katex>.",
     "Number of subsets of first set = <katex>$2^m$</katex>.",

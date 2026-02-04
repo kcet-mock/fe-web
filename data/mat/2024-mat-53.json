@@ -17,7 +17,7 @@
       "4 units"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Rewrite second plane: <katex>$2x+3y+4z=6$</katex>.",
     "Distance <katex>$d = \\frac{|d_1 - d_2|}{\\sqrt{a^2+b^2+c^2}} = \\frac{|4-6|}{\\sqrt{4+9+16}} = \\frac{2}{\\sqrt{29}}$</katex>."

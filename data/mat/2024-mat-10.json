@@ -17,7 +17,7 @@
       "<katex>$x^{2}-10x+16=0$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Let roots be <katex>$\\alpha, \\beta$</katex>.",
     "A.M. = <katex>$\\frac{\\alpha+\\beta}{2} = 5 \\Rightarrow \\alpha+\\beta = 10$</katex>.",

@@ -17,7 +17,7 @@
       "<katex>$\\sqrt{288}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Median <katex>$\\vec{AM} = \\frac{\\vec{AB} + \\vec{AC}}{2}$</katex>.",
     "<katex>$\\vec{AM} = \\frac{(3+5)i + (0-2)j + (4+4)k}{2} = \\frac{8i - 2j + 8k}{2} = 4i - j + 4k$</katex>.",

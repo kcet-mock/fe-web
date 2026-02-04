@@ -17,7 +17,7 @@
       "S"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Standard deviation is independent of change of origin.",
     "Adding a constant <katex>$k$</katex> to all observations does not change the dispersion (spread) of the data.",

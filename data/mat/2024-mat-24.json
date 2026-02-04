@@ -17,13 +17,10 @@
       "2"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The value of this determinant is constant or zero based on typical problem patterns in this exam. Given the answer key indicates Bonus or option matching 0/constant.",
     "Assuming <katex>$f(x)$</katex> simplifies to 0 (since <katex>$C_2$</katex> involves <katex>$x^2$</katex> and <katex>$C_1$</katex> involves <katex>$x$</katex>, linear dependence often constructed).",
     "If <katex>$f(x) = 0$</katex>, then the expression is 0."
-  ],
-  "years": [
-    2024
   ]
 }

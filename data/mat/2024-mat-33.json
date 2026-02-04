@@ -17,7 +17,7 @@
       "<katex>$\\frac{1}{4}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Let <katex>$x = 2\\cos 2\\theta$</katex>.",
     "<katex>$\\sqrt{\\frac{2+2\\cos 2\\theta}{2-2\\cos 2\\theta}} = \\sqrt{\\frac{1+\\cos 2\\theta}{1-\\cos 2\\theta}} = \\cot \\theta$</katex>.",

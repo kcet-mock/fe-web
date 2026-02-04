@@ -17,7 +17,7 @@
       "The graph of the logarithm function is decreasing as we move from left to right."
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "For <katex>$\\log_b x$</katex>:",
     "Domain is <katex>$(0, \\infty)$</katex> (positive reals).",

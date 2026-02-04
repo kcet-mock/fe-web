@@ -17,7 +17,7 @@
       "A pair of parallel planes"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$xy=0$</katex> means <katex>$x=0$</katex> or <katex>$y=0$</katex>.",
     "<katex>$x=0$</katex> is the YZ-plane, <katex>$y=0$</katex> is the XZ-plane.",

@@ -18,7 +18,7 @@
       "<katex>$\\theta=\\frac{\\pi}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$|\\vec{a}+\\vec{b}|^2 = 1 \\Rightarrow |a|^2 + |b|^2 + 2|a||b|\\cos\\theta = 1$</katex>.",
     "<katex>$1 + 1 + 2\\cos\\theta = 1 \\Rightarrow 2\\cos\\theta = -1 \\Rightarrow \\cos\\theta = -1/2$</katex>.",

@@ -17,13 +17,10 @@
       "<katex>$\\frac{1}{r^{n}-1}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$S_n = \\frac{a(r^n-1)}{r-1}$</katex>.",
     "<katex>$S_{2n} = \\frac{a(r^{2n}-1)}{r-1} = \\frac{a(r^n-1)(r^n+1)}{r-1}$</katex>.",
     "<katex>$\\frac{S_n}{S_{2n}} = \\frac{\\frac{a(r^n-1)}{r-1}}{\\frac{a(r^n-1)(r^n+1)}{r-1}} = \\frac{1}{r^n+1}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

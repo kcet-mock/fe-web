@@ -18,7 +18,7 @@
       "7"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "The condition <katex>$ad=bc$</katex> is equivalent to <katex>$\\frac{a}{b} = \\frac{c}{d}$</katex>.",
     "We want pairs <katex>$(x,y) \\in A \\times A$</katex> such that <katex>$\\frac{x}{y} = \\frac{3}{2}$</katex>.",

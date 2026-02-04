@@ -17,7 +17,7 @@
       "<katex>$\\frac{4}{13}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Let the arc length be <katex>$l$</katex>.",
     "For the first circle: <katex>$l = r_1 \\theta_1$</katex>.",
@@ -25,8 +25,5 @@
     "Given <katex>$\\theta_1 = 30^{\\circ}$</katex> and <katex>$\\theta_2 = 78^{\\circ}$</katex>.",
     "<katex>$r_1 \\times 30 = r_2 \\times 78$</katex>.",
     "<katex>$\\frac{r_1}{r_2} = \\frac{78}{30} = \\frac{13}{5}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

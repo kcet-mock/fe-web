@@ -17,14 +17,11 @@
       "2"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Taking <katex>$x$</katex> common from <katex>$C_2$</katex>: <katex>$f(x) = x |\\begin{matrix}\\cos x & 1 & 1 \\\\ 2\\sin x & 1 & 2x \\\\ \\sin x & 1 & x\\end{matrix}|$</katex>.",
     "Apply <katex>$R_2 \\to R_2 - R_3$</katex>: <katex>$f(x) = x |\\begin{matrix}\\cos x & 1 & 1 \\\\ \\sin x & 0 & x \\\\ \\sin x & 1 & x\\end{matrix}|$</katex>.",
     "Evaluate determinant approx <katex>$x \\to 0$</katex>: <katex>$\\cos x \\approx 1, \\sin x \\approx x$</katex>.",
     "Limit evaluates to 0."
-  ],
-  "years": [
-    2024
   ]
 }

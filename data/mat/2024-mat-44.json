@@ -17,13 +17,10 @@
       "5"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Intersection: <katex>$x^2 = 3x \\Rightarrow x=0, 3$</katex>.",
     "Area <katex>$\\int_0^3 (3x - x^2) dx = [\\frac{3x^2}{2} - \\frac{x^3}{3}]_0^3$</katex>.",
     "<katex>$= (\\frac{27}{2} - 9) = \\frac{27-18}{2} = \\frac{9}{2}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

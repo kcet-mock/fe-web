@@ -17,7 +17,7 @@
       "<katex>$\\frac{2}{3}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$f(0) = 0$</katex>, <katex>$f(2) = 2(1)^2 = 2$</katex>.",
     "<katex>$f'(c) = \\frac{f(2)-f(0)}{2-0} = \\frac{2}{2} = 1$</katex>.",
@@ -25,8 +25,5 @@
     "<katex>$f'(x) = 3x^2-4x+1$</katex>.",
     "<katex>$3c^2-4c+1 = 1 \\Rightarrow 3c^2-4c = 0 \\Rightarrow c(3c-4)=0$</katex>.",
     "<katex>$c=0$</katex> or <katex>$c=4/3$</katex>. Since <katex>$c \\in (0,2)$</katex>, <katex>$c=4/3$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

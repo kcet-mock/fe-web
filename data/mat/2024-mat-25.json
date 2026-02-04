@@ -17,7 +17,7 @@
       "0"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "We know <katex>$|\\text{adj } A| = |A|^{n-1}$</katex>.",
     "Here <katex>$|P| = |A|^2 = 4^2 = 16$</katex>.",

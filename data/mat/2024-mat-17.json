@@ -17,7 +17,7 @@
       "{4,-4},{2,-2}"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "For pre-image of 17: <katex>$x^2 + 1 = 17 \\Rightarrow x^2 = 16 \\Rightarrow x = \\pm 4$</katex>. Set is <katex>$\\{4, -4\\}$</katex>.",
     "For pre-image of -3: <katex>$x^2 + 1 = -3 \\Rightarrow x^2 = -4$</katex>. No real solution. Set is <katex>$\\phi$</katex>."

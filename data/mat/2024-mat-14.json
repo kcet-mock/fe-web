@@ -17,7 +17,7 @@
       "There exists at least one real number x such that <katex>$x^{2}+5$</katex> is positive"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "The negation of a universal quantifier (\"For every\") is an existential quantifier (\"There exists\").",
     "The negation of \"P is true\" is \"P is not true\".",

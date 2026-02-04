@@ -17,7 +17,7 @@
       "<katex>$\\frac{1}{\\sqrt{2}}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "This is a 0/0 form limit. Using L'Hopital's rule:",
     "Differentiate numerator: <katex>$\\sqrt{2}(-\\sin x)$</katex>.",

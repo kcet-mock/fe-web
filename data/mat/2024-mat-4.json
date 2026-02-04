@@ -17,7 +17,7 @@
       "<katex>$\\frac{b^{2}}{ac}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Since angle C is <katex>$90^{\\circ}$</katex>, <katex>$A + B = 90^{\\circ}$</katex>, so <katex>$B = 90^{\\circ} - A$</katex>.",
     "<katex>$\\tan A + \\tan B = \\tan A + \\tan(90^{\\circ}-A) = \\tan A + \\cot A$</katex>.",

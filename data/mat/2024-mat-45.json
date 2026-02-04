@@ -17,7 +17,7 @@
       "0.5 sq. units"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Intersection: <katex>$x^3=x \\Rightarrow x=0, 1, -1$</katex>.",
     "Area is symmetric. Total Area <katex>$2 \\int_0^1 (x-x^3) dx$</katex>.",

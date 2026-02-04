@@ -17,7 +17,7 @@
       "0"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Let <katex>$A = 2\\sin^{-1}x - 3\\cos^{-1}x = 4$</katex>.",
     "We know <katex>$\\cos^{-1}x = \\frac{\\pi}{2} - \\sin^{-1}x$</katex>.",
@@ -26,8 +26,5 @@
     "<katex>$B = 2(\\sin^{-1}x + \\cos^{-1}x) + \\cos^{-1}x = 2(\\frac{\\pi}{2}) + \\cos^{-1}x = \\pi + \\cos^{-1}x$</katex>.",
     "From first eq, <katex>$\\cos^{-1}x = \\frac{\\pi}{2} - \\frac{4 + 3\\pi/2}{5} = \\frac{\\pi}{2} - \\frac{8+3\\pi}{10} = \\frac{5\\pi - 8 - 3\\pi}{10} = \\frac{2\\pi - 8}{10} = \\frac{\\pi-4}{5}$</katex>.",
     "So <katex>$B = \\pi + \\frac{\\pi-4}{5} = \\frac{5\\pi + \\pi - 4}{5} = \\frac{6\\pi-4}{5}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

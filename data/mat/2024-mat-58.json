@@ -17,7 +17,7 @@
       "<katex>$\\frac{1}{1024}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "P(Odd) = 1/2. P(Even) = 1/2.",
     "P(At least one odd) = 1 - P(No odd) = 1 - P(All even).",

@@ -17,7 +17,7 @@
       "0"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Let <katex>$f(x) = (1-x^2)\\sin x \\cos^2 x$</katex>.",
     "<katex>$f(-x) = (1-(-x)^2)\\sin(-x)\\cos^2(-x) = (1-x^2)(-\\sin x)\\cos^2 x = -f(x)$</katex>.",

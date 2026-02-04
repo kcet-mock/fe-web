@@ -17,7 +17,7 @@
       "<katex>$I-7A$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Expand <katex>$(I+A)^3 = I^3 + A^3 + 3I^2A + 3IA^2$</katex>.",
     "Given <katex>$A^2=A$</katex>, so <katex>$A^3 = A^2 \\cdot A = A \\cdot A = A$</katex>.",

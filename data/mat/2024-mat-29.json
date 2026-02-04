@@ -17,14 +17,11 @@
       "Not differentiable everywhere"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The modulus function <katex>$|t|$</katex> is continuous everywhere but not differentiable at <katex>$t=0$</katex>.",
     "Here <katex>$t = \\cos x$</katex>. So it is not differentiable where <katex>$\\cos x = 0$</katex>.",
     "<katex>$\\cos x = 0$</katex> at <katex>$x = (2n+1)\\frac{\\pi}{2}$</katex>.",
     "It is continuous everywhere."
-  ],
-  "years": [
-    2024
   ]
 }

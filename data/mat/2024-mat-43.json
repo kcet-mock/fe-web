@@ -17,7 +17,7 @@
       "<katex>$\\frac{\\pi}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Last term <katex>$\\frac{1}{5n} = \\frac{n}{5n^2} = \\frac{n}{n^2+(2n)^2}$</katex>.",
     "Sum is <katex>$\\sum_{r=1}^{2n} \\frac{n}{n^2+r^2} = \\sum_{r=1}^{2n} \\frac{1}{n} \\frac{1}{1+(r/n)^2}$</katex>.",
