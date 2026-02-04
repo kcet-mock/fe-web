@@ -1,7 +1,8 @@
 {
   "id": "2024-phy-28",
   "question": [
-    "A block of certain mass is placed on a rough inclined plane. The angle between the plane and the horizontal is <katex>$30^{\\circ}$</katex>. The coefficients of static and kinetic frictions between the block and the inclined plane are 0.6 and 0.5 respectively. Then the magnitude of the acceleration of the block is [Take <katex>$g=10~ms^{-2}$</katex>]"
+    "A block of certain mass is placed on a rough inclined plane. The angle between the plane and the horizontal is <katex>$30^{\\circ}$</katex>. The coefficients of static and kinetic frictions between the block and the inclined plane are 0.6 and 0.5 respectively. Then the magnitude of the acceleration of the block is [Take <katex>$g=10~ms^{-2}$</katex>]",
+    "images/2024-phy-28-1.png"
   ],
   "choices": [
     [
@@ -22,8 +23,5 @@
     "Check if block moves: Downward component <katex>$g \\sin 30 = 10(0.5) = 5$</katex>.",
     "Max static friction <katex>$f_s = \\mu_s g \\cos 30 = 0.6 \\times 10 \\times 0.866 = 5.196$</katex>.",
     "Since <katex>$g \\sin 30 < f_s$</katex>, the block does not move. Acceleration is zero."
-  ],
-  "years": [
-    2024
   ]
 }

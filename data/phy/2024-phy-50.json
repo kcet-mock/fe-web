@@ -24,8 +24,5 @@
     "Use <katex>$R_2 = R_1 (1 + \\alpha \\Delta T)$</katex>. <katex>$1 = \\frac{1}{\\sqrt{3}} (1 + \\alpha(300))$</katex>.",
     "<katex>$\\sqrt{3} - 1 = 300\\alpha \\implies 0.732 = 300\\alpha$</katex>.",
     "<katex>$\\alpha \\approx 2.44 \\times 10^{-3}$</katex>, closest to <katex>$3 \\times 10^{-3}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

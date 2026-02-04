@@ -24,8 +24,5 @@
     "At 100°C: <katex>$X_{100}/4 = 60/40 = 1.5 \\implies X_{100} = 6$</katex>.",
     "<katex>$6 = 4(1 + \\alpha \\times 100)$</katex>.",
     "<katex>$1.5 = 1 + 100\\alpha \\implies \\alpha = 0.5/100 = 0.005$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

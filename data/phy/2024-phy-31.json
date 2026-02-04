@@ -24,8 +24,5 @@
     "<katex>$a = \\frac{1 \\times 10}{1 + 2/2} = \\frac{10}{2} = 5~ms^{-2}$</katex>.",
     "Using <katex>$v^2 = u^2 + 2ah$</katex>, <katex>$v^2 = 0 + 2(5)(1.6) = 16$</katex>.",
     "<katex>$v = 4~ms^{-1}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

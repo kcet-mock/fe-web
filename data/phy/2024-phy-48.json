@@ -24,8 +24,5 @@
     "Left bridge equivalent resistance = R. Right bridge equivalent resistance = 2R.",
     "Total Resistance = R + 2R = 3R.",
     "Current <katex>$I = \\frac{V_0}{3R}$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

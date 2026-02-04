@@ -24,8 +24,5 @@
     "<katex>$\\frac{1}{f_1} = (1.5-1)(\\frac{1}{14}) = \\frac{1}{28}$</katex>. <katex>$\\frac{1}{f_2} = (1.2-1)(\\frac{1}{14}) = \\frac{1}{70}$</katex>.",
     "<katex>$\\frac{1}{F} = \\frac{1}{28} + \\frac{1}{70} = \\frac{5+2}{140} = \\frac{1}{20}$</katex> cm.",
     "Using lens formula <katex>$\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{F}$</katex> with <katex>$u = -40$</katex>, <katex>$\\frac{1}{v} = \\frac{1}{20} - \\frac{1}{40} = \\frac{1}{40}$</katex>. So <katex>$v = 40$</katex> cm."
-  ],
-  "years": [
-    2024
   ]
 }

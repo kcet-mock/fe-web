@@ -24,8 +24,5 @@
     "<katex>$\\frac{1.5}{v} - \\frac{1.33}{-20} = \\frac{1.5 - 1.33}{10}$</katex>.",
     "Solving gives <katex>$v = -30$</katex> cm.",
     "A negative sign indicates the image is formed in the first medium (from which light is incident), which is <katex>$n_1 = 4/3$</katex> (rarer medium compared to 3/2)."
-  ],
-  "years": [
-    2024
   ]
 }

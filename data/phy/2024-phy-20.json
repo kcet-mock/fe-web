@@ -23,8 +23,5 @@
     "From graph, at <katex>$t=0, \\ln R = 2 \\implies R_0 = e^2 = 7.5$</katex>.",
     "Slope <katex>$-\\lambda = \\frac{1-2}{10000-0} = -10^{-4} \\implies \\lambda = 10^{-4}$</katex>.",
     "<katex>$R_0 = \\lambda N_0 \\implies N_0 = \\frac{R_0}{\\lambda} = \\frac{7.5}{10^{-4}} = 75,000$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }
