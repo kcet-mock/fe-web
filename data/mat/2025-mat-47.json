@@ -17,7 +17,7 @@
       "1"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$\\frac{dy}{dt} = 3a\\sin^2 t \\cos t$</katex>.",
     "<katex>$\\frac{dx}{dt} = 3a\\cos^2 t (-\\sin t)$</katex>.",

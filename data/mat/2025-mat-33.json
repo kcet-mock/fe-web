@@ -17,14 +17,11 @@
       "3"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "We know <katex>$|adj A| = |A|^{n-1}$</katex>.",
     "Here order n = 2. So <katex>$|B| = |adj A| = |A|^{2-1} = |A| = 2$</katex>.",
     "Determinant of B: <katex>$1(\\alpha) - 3(1) = \\alpha - 3$</katex>.",
     "<katex>$\\alpha - 3 = 2 \\Rightarrow \\alpha = 5$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

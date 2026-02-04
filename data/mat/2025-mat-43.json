@@ -21,7 +21,7 @@
       "Both b and d are correct"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Method 1: Quotient rule. <katex>$y' = \\frac{-\\sin x(1+\\sin x) - \\cos x(\\cos x)}{(1+\\sin x)^2} = \\frac{-\\sin x - \\sin^2 x - \\cos^2 x}{(1+\\sin x)^2} = \\frac{-(1+\\sin x)}{(1+\\sin x)^2} = \\frac{-1}{1+\\sin x}$</katex>. So (a) is correct.",
     "Method 2: Simplify y first. <katex>$y = \\tan(\\frac{\\pi}{4} - \\frac{x}{2})$</katex>.",

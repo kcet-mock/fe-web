@@ -17,7 +17,7 @@
       "0"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Let <katex>$f(x) = \\sin^5 x \\cos^4 x$</katex>.",
     "<katex>$f(-x) = (\\sin(-x))^5 (\\cos(-x))^4 = (-\\sin x)^5 (\\cos x)^4 = -\\sin^5 x \\cos^4 x = -f(x)$</katex>.",

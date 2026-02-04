@@ -17,14 +17,11 @@
       "<katex>$(-\\infty,3]\\cup(5,\\infty)$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "For <katex>$f(x)$</katex> to be defined, the term inside the square root must be strictly positive (since it is in the denominator).",
     "<katex>$(x-2)(x-5) > 0$</katex>",
     "Using the method of intervals (wavy curve method), the expression is positive when <katex>$x < 2$</katex> or <katex>$x > 5$</katex>.",
     "Therefore, the domain is <katex>$(-\\infty, 2) \\cup (5, \\infty)$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

@@ -17,7 +17,7 @@
       "4"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Smallest equivalence relation containing (b,c) must contain (c,b) and diagonals: <katex>$R_1 = \\{(a,a), (b,b), (c,c), (b,c), (c,b)\\}$</katex>.",
     "Largest is <katex>$R_2 = A \\times A$</katex>.",

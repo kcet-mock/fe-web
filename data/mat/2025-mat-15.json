@@ -17,7 +17,7 @@
       "40"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Find corner points of the feasible region:",
     "1. Intersection of <katex>$x+y=40$</katex> and <katex>$x+2y=60$</katex>: Subtracting gives <katex>$y=20$</katex>, so <katex>$x=20$</katex>. Point: (20, 20).",

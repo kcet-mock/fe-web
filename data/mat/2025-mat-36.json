@@ -17,7 +17,7 @@
       "16"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Identity: <katex>$|\\vec{a}\\times\\vec{b}|^2 + (\\vec{a}\\cdot\\vec{b})^2 = |\\vec{a}|^2 |\\vec{b}|^2$</katex>.",
     "<katex>$|\\vec{a}\\times\\vec{b}|^2 + 12^2 = 10^2 \\times 2^2$</katex>.",

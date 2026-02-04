@@ -8,7 +8,7 @@
       "<katex>$\\frac{1}{2}$</katex>"
     ],
     [
-      "<katex>-\\frac{1}{2}$</katex>"
+      "<katex>$-\\frac{1}{2}$</katex>"
     ],
     [
       "-2"
@@ -17,15 +17,12 @@
       "2"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Slope of given line <katex>$x+6y=5$</katex> is <katex>$-1/6$</katex>.",
     "Slope of perpendicular line is 6.",
     "Equation: <katex>$y - (-3) = 6(x - (-1)) \\Rightarrow y+3 = 6x + 6$</katex>.",
     "<katex>$y = 6x + 3$</katex>.",
     "For x-intercept, put <katex>$y=0$</katex>: <katex>$0 = 6x + 3 \\Rightarrow 6x = -3 \\Rightarrow x = -1/2$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

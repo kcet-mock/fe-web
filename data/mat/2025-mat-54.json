@@ -17,7 +17,7 @@
       "<katex>$-(\\frac{x^{4}+1}{x^{4}})^{1/4}+c$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Factor out <katex>$x^4$</katex> from the bracket: <katex>$(x^4(1+x^{-4}))^{3/4} = x^3(1+x^{-4})^{3/4}$</katex>.",
     "Denominator becomes <katex>$x^2 \\cdot x^3 (1+x^{-4})^{3/4} = x^5 (1+x^{-4})^{3/4}$</katex>.",

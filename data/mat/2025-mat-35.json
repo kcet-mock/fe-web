@@ -17,7 +17,7 @@
       "0"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Wait, in the question <katex>$\\vec{c}$</katex> is identical to <katex>$\\vec{a}$</katex> in the OCR text. Let's assume standard problem type. If <katex>$\\vec{a} = \\vec{c}$</katex>, then <katex>$(\\vec{a} + \\lambda \\vec{b}) \\cdot \\vec{a} = 0$</katex>.",
     "<katex>$\\vec{a} \\cdot \\vec{a} + \\lambda (\\vec{b} \\cdot \\vec{a}) = 0$</katex>.",

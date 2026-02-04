@@ -17,7 +17,7 @@
       "<katex>$|Z_{1}+Z_{2}|\\ge|Z_{1}|+|Z_{2}|$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Options 1, 2, and 3 are standard properties of complex numbers.",
     "Option 4 states the Triangle Inequality incorrectly. The correct Triangle Inequality is <katex>$|Z_{1}+Z_{2}| \\le |Z_{1}|+|Z_{2}|$</katex>.",

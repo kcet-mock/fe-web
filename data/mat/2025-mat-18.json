@@ -17,7 +17,7 @@
       "<katex>$P(A)=P(B)$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Since <katex>$A \\subset B$</katex>, <katex>$A \\cap B = A$</katex>.",
     "<katex>$P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{P(A)}{P(B)}$</katex>.",

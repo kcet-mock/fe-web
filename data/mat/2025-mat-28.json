@@ -17,12 +17,9 @@
       "A skew symmetric matrix has all diagonal elements equal to zero"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "A diagonal matrix is a square matrix where all non-diagonal elements are zero. The diagonal elements can be non-zero.",
     "The statement saying diagonal elements must be equal to zero is incorrect (that would be a zero matrix if all are zero)."
-  ],
-  "years": [
-    2025
   ]
 }

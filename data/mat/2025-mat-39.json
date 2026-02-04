@@ -17,7 +17,7 @@
       "<katex>$\\frac{x}{3}=\\frac{y-1}{-4}=\\frac{z-2}{3}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Let the required line have direction ratios <katex>$a, b, c$</katex>.",
     "It passes through (0,1,2), so eqn is <katex>$\\frac{x}{a} = \\frac{y-1}{b} = \\frac{z-2}{c}$</katex>.",
@@ -26,8 +26,5 @@
     "1) <katex>$3(2) + 4(3) - 3(-2) = 6 + 12 + 6 \\ne 0$</katex>",
     "2) <katex>$-3(2) + 4(3) + 3(-2) = -6 + 12 - 6 = 0$</katex>. This works.",
     "The direction ratios (-3, 4, 3) satisfy the perpendicularity condition."
-  ],
-  "years": [
-    2025
   ]
 }

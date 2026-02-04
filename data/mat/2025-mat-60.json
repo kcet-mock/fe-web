@@ -17,7 +17,7 @@
       "3 units"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Distance of <katex>$(x,y,z)$</katex> from yz-plane is <katex>$|x|$</katex>.",
     "Here <katex>$x = -3$</katex>.",

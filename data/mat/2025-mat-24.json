@@ -17,7 +17,7 @@
       "9"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "The number of terms in the expansion of <katex>$(a+b)^m$</katex> is <katex>$m+1$</katex>.",
     "Here, exponent is <katex>$3n$</katex>.",

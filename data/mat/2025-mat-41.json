@@ -17,7 +17,7 @@
       "24 units"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Divide by 12: <katex>$\\frac{x^2}{12} + \\frac{y^2}{4} = 1$</katex>.",
     "<katex>$a^2 = 12, b^2 = 4$</katex>.",

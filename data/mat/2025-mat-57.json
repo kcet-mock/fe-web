@@ -17,12 +17,9 @@
       "<katex>$\\frac{128}{3}$</katex> sq. units"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Symmetric about y-axis. Area = <katex>$2 \\int_0^{16} x dy = 2 \\int_0^{16} \\sqrt{y} dy$</katex>.",
     "<katex>$= 2 [\\frac{y^{3/2}}{3/2}]_0^{16} = \\frac{4}{3} [16^{3/2}] = \\frac{4}{3} [64] = \\frac{256}{3}$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

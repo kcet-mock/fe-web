@@ -17,7 +17,7 @@
       "<katex>$4\\times4$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Let order of A be <katex>$m \\times n$</katex>.",
     "Order of B is <katex>$3 \\times 4$</katex>.",

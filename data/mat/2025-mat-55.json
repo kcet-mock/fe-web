@@ -17,7 +17,7 @@
       "<katex>$\\log_{e}(\\frac{1}{2})$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$\\frac{1}{x}-1 = \\frac{1-x}{x}$</katex>.",
     "<katex>$I = \\int_0^1 \\log(\\frac{1-x}{x}) dx$</katex>.",
@@ -25,8 +25,5 @@
     "<katex>$I = \\int_0^1 \\log(\\frac{1-(1-x)}{1-x}) dx = \\int_0^1 \\log(\\frac{x}{1-x}) dx$</katex>.",
     "<katex>$I = \\int_0^1 -\\log(\\frac{1-x}{x}) dx = -I$</katex>.",
     "<katex>$2I = 0 \\Rightarrow I = 0$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

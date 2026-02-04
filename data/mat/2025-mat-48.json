@@ -17,12 +17,9 @@
       "<katex>$\\frac{\\cos x}{x}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Let <katex>$u = \\sin x$</katex>, <katex>$v = \\log x$</katex>.",
     "<katex>$\\frac{du}{dv} = \\frac{du/dx}{dv/dx} = \\frac{\\cos x}{1/x} = x \\cos x$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

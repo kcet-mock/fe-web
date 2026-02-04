@@ -17,7 +17,7 @@
       "<katex>$\\log|\\frac{x+1}{x+2}|+c$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Partial fractions: <katex>$\\frac{1}{(x+1)(x+2)} = \\frac{A}{x+1} + \\frac{B}{x+2}$</katex>.",
     "<katex>$1 = A(x+2) + B(x+1)$</katex>.",

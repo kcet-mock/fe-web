@@ -17,7 +17,7 @@
       "<katex>$a=3, b=-1$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Continuity at 0: <katex>$\\lim_{x\\to 0^-} (e^x+ax) = 1$</katex>. <katex>$\\lim_{x\\to 0^+} b(x-1)^2 = b$</katex>. So <katex>$b=1$</katex>.",
     "Differentiability at 0: LHD = derivative of <katex>$e^x+ax$</katex> at 0 is <katex>$e^0+a = 1+a$</katex>.",

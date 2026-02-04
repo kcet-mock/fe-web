@@ -20,7 +20,7 @@
       "Both the statements are false"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Statement I: It is a standard property that if E, F are independent, then their complements E', F' are also independent.",
     "Statement II: If A and B are mutually exclusive, <katex>$P(A \\cap B) = 0$</katex>. If they are independent, <katex>$P(A \\cap B) = P(A)P(B)$</katex>. Since <katex>$P(A) \\neq 0$</katex> and <katex>$P(B) \\neq 0$</katex>, <katex>$P(A)P(B) \\neq 0$</katex>. Thus they cannot be both mutually exclusive and independent. Statement II is true."
