@@ -17,7 +17,7 @@
       "decomposes <katex>$\\text{Na}_2\\text{S}$</katex> and NaCN, if formed"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Boiling with conc. <katex>$\\text{HNO}_3$</katex> decomposes sulphides (<katex>$\\text{Na}_2\\text{S}$</katex>) and cyanides (NaCN) which would otherwise interfere with the silver nitrate test for halogens."
   ],

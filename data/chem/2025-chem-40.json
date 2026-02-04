@@ -17,7 +17,7 @@
       "<katex>$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g)$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$\\Delta H = \\Delta U + \\Delta n_g RT$</katex>.",
     "For <katex>$\\Delta H = \\Delta U$</katex>, <katex>$\\Delta n_g$</katex> must be zero.",

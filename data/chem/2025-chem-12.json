@@ -18,14 +18,11 @@
       "a-iii, b-ii, c-i, d-iv"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Acetic anhydride reacts with OH groups -> confirms 5 OH groups (iii).",
     "Bromine water oxidizes aldehyde -> confirms aldehyde group (i).",
     "Hydroiodic acid reduces to n-hexane -> confirms straight chain (ii).",
     "HCN forms cyanohydrin -> confirms carbonyl group (iv)."
-  ],
-  "years": [
-    2025
   ]
 }

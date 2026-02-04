@@ -17,7 +17,7 @@
       "Sodium chloride"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Boiling point elevation <katex>$\\Delta T_b \\propto i$</katex> (Van't Hoff factor).",
     "<katex>$\\text{AlCl}_3$</katex>: i=4",

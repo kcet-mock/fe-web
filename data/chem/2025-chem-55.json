@@ -24,8 +24,5 @@
     "<katex>$\\Delta H = E_a(\\text{forward}) - E_a(\\text{reverse})$</katex>",
     "<katex>$90 = 215 - E_a(\\text{reverse})$</katex>",
     "<katex>$E_a(\\text{reverse}) = 215 - 90 = 125 \\text{kJ}$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

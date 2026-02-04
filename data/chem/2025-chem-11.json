@@ -17,7 +17,7 @@
       "3"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Oxalate (<katex>$C_2O_4^{2-}$</katex>) is a bidentate ligand.",
     "Since there are 3 oxalate ligands, the coordination number is <katex>$3 \\times 2 = 6$</katex>."

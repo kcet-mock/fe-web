@@ -17,7 +17,7 @@
       "<katex>$7.16 \\times 10^{-3}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Henry's Law: <katex>$P = K_H \\cdot x$</katex>.",
     "<katex>$0.987 = 76480 \\times x$</katex> (converting kbar to bar).",

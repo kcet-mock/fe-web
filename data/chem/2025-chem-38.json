@@ -17,7 +17,7 @@
       "<katex>$5.2 \\times 10^{-29} \\text{m}^2\\text{s}^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$\\Delta v \\cdot \\Delta x = \\frac{h}{4\\pi m}$</katex>",
     "<katex>$\\Delta v \\cdot \\Delta x = \\frac{6.626 \\times 10^{-34}}{4 \\times 3.14 \\times 10^{-6}} \\approx 5.2 \\times 10^{-29} \\text{m}^2\\text{s}^{-1}$</katex>"

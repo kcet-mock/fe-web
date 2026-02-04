@@ -18,7 +18,7 @@
       "a-iii, b-ii, c-i, d-iv"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Combination reaction: <katex>$\\text{CH}_{4(g)} + 2\\text{O}_{2(g)} \\rightarrow \\text{CO}_{2(g)} + 2\\text{H}_2\\text{O}_{(l)}$</katex> (Combustion is a type of combination in broad terms, though strictly oxidation. Here it matches best by elimination or typo in source question). *Correction based on standard classification*: The provided solution maps 'a' to 'iii'.",
     "Decomposition reaction: <katex>$2\\text{H}_2\\text{O}_{(l)} \\rightarrow 2\\text{H}_{2(g)} + \\text{O}_{2(g)}$</katex> (iv)",

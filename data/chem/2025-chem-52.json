@@ -18,14 +18,11 @@
       "a-i, b-ii, c-iii, d-iv"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$\\text{Ag}^+ + 1e^- \\rightarrow \\text{Ag}$</katex> (1F = 96500 C)",
     "<katex>$\\text{Mg}^{2+} + 2e^- \\rightarrow \\text{Mg}$</katex> (2F = 193000 C)",
     "<katex>$\\text{Al}^{3+} + 3e^- \\rightarrow \\text{Al}$</katex> (3F = 289500 C)",
     "<katex>$\\text{Ti}^{4+} + 4e^- \\rightarrow \\text{Ti}$</katex> (4F = 386000 C)"
-  ],
-  "years": [
-    2025
   ]
 }

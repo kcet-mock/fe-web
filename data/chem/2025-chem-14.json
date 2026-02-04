@@ -17,12 +17,9 @@
       "Glucose and Fructose"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Starch consists of Amylose and Amylopectin, both of which contain <katex>$\\alpha$</katex>-glycosidic linkages.",
     "Cellulose contains <katex>$\\beta$</katex>-linkages."
-  ],
-  "years": [
-    2025
   ]
 }

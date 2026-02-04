@@ -17,11 +17,8 @@
       "Size of the ions"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Electronic (metallic) conductance depends on the nature of the metal and the number of valence electrons per atom. The other options refer to electrolytic conductance."
-  ],
-  "years": [
-    2025
   ]
 }

@@ -17,11 +17,8 @@
       "Increases the potential energy barrier"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "A positive catalyst provides an alternative pathway with lower activation energy, thereby increasing the reaction rate."
-  ],
-  "years": [
-    2025
   ]
 }

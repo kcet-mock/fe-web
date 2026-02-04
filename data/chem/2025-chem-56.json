@@ -17,7 +17,7 @@
       "<katex>$4 \\times 10^{-3}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Rate of disappearance of <katex>$\\text{N}_2\\text{O}_5 = -\\Delta[\\text{N}_2\\text{O}_5]/\\Delta t = -(1.4 - 2.0)/300 = 0.6/300 = 2 \\times 10^{-3}$</katex>.",
     "Rate of reaction = <katex>$\\frac{1}{2} \\times \\text{Rate}(\\text{N}_2\\text{O}_5) = \\frac{1}{4} \\times \\text{Rate}(\\text{NO}_2)$</katex>.",

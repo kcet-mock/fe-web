@@ -17,7 +17,7 @@
       "<katex>$(\\text{CH}_3)_3\\text{CD}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Grignard reagents react with active hydrogen sources (like water) to form hydrocarbons.",
     "<katex>$(\\text{CH}_3)_3\\text{C}^- \\text{MgBr}^+ + \\text{D}_2\\text{O} \\rightarrow (\\text{CH}_3)_3\\text{CD} + \\text{Mg(OD)Br}$</katex>"

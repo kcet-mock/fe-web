@@ -18,7 +18,7 @@
       "<katex>$A=\\text{CH}_3\\text{I}, B=\\text{tert-Butyl iodide}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Reaction of tert-alkyl ethers with HI follows SN1 mechanism.",
     "The stable tert-butyl carbocation is formed, which reacts with iodide.",

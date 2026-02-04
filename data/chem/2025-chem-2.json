@@ -20,7 +20,7 @@
       "<katex>$X_2Y$</katex>, covalent bond"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "X corresponds to Phosphorus (P, Z=15) with valency 3 or 5.",
     "Y corresponds to Chlorine (Cl, Z=17) with valency 1.",

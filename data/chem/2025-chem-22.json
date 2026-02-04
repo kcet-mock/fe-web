@@ -18,11 +18,8 @@
       "Alkyl halide"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The halogen is attached to a carbon atom next to a benzene ring (benzylic position), making it a benzyl halide."
-  ],
-  "years": [
-    2025
   ]
 }

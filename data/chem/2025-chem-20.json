@@ -18,7 +18,7 @@
       "Hexa-3,5-dien-1-yne"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Numbering starts from the end giving the double bond the lowest number according to priority rules when both double and triple bonds are at equivalent positions, or generally double bonds get preference in naming if locants are same set. Here: <katex>$\\text{CH}_2=\\text{CH-CH=CH-C}\\equiv\\text{CH}$</katex>.",
     "Numbering: 1, 2 (double), 3, 4 (double), 5, 6 (triple).",

@@ -17,7 +17,7 @@
       "<katex>$\\text{H}_2\\text{S}$</katex> is oxidised to S, <katex>$\\text{MnO}_4^-$</katex> is reduced to <katex>$\\text{Mn}^{2+}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Reaction: <katex>$\\text{H}_2\\text{S} + \\text{MnO}_4^- + \\text{H}^+ \\rightarrow \\text{S} + \\text{Mn}^{2+} + \\text{H}_2\\text{O}$</katex>",
     "Sulphide is oxidised to Sulphur (S) and Permanganate is reduced to Manganese(II) ion."

@@ -1,29 +1,25 @@
 {
   "id": "2025-chem-21",
   "question": [
-    "Among the following, identify the compound that is not an isomer of hexane",
-    "images/2025-chem-21-1.png"
+    "Among the following, identify the compound that is not an isomer of hexane"
   ],
   "choices": [
     [
-      "images/2025-chem-21-2.png"
+      "images/2025-chem-21-1.png"
     ],
     [
-      "images/2025-chem-21-3.png"
+      "images/2025-chem-21-2.png"
     ],
     [
       "images/2025-chem-21-4.png"
     ],
     [
-      "images/2025-chem-21-5.png"
+      "images/2025-chem-21-3.png"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Isomers of hexane must have the molecular formula <katex>$\\text{C}_6\\text{H}_{14}$</katex>.",
     "The compound in option (3) likely has a different carbon count or formula (<katex>$\\text{C}_6\\text{H}_{12}$</katex> or similar) based on the solution."
-  ],
-  "years": [
-    2025
   ]
 }

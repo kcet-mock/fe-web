@@ -22,13 +22,10 @@
       "a and e only"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "(b) is incorrect: Enthalpy change depends on intermolecular forces.",
     "(d) is incorrect: Enthalpy is a state function, independent of path.",
     "(e) is incorrect: For many ionic compounds, dissolution is endothermic (positive), though for some it is exothermic. The generalization that it is negative 'for most' is often considered incorrect in this context compared to hydration energy logic."
-  ],
-  "years": [
-    2025
   ]
 }

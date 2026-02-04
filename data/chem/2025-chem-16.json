@@ -17,11 +17,8 @@
       "<katex>$\\text{Ca}^{2+}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$\\text{NH}_4\\text{Cl}$</katex> and <katex>$\\text{NH}_4\\text{OH}$</katex> are group reagents for Group III cations, which include <katex>$\\text{Al}^{3+}, \\text{Fe}^{3+}, \\text{Cr}^{3+}$</katex>."
-  ],
-  "years": [
-    2025
   ]
 }

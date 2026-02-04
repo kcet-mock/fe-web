@@ -17,7 +17,7 @@
       "Increase"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Nernst equation: <katex>$E = E^\\circ - \\frac{RT}{nF} \\ln \\frac{1}{[Al^{3+}]}$</katex>",
     "<katex>$E = E^\\circ + \\frac{RT}{nF} \\ln [Al^{3+}]$</katex>",

@@ -17,11 +17,8 @@
       "Decrease the melting point of the compound"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The purpose of sodium fusion (Lassaigne's test) is to convert elements like N, S, and halogens present in the organic compound (covalent form) into their corresponding ionic sodium salts (ionic form) for detection."
-  ],
-  "years": [
-    2025
   ]
 }

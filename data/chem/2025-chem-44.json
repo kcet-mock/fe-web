@@ -17,14 +17,11 @@
       "0.818"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "At equilibrium, <katex>$K_c = \\frac{(1+x)(1+x)}{(1-x)(1-x)} = 100$</katex>",
     "Taking square root: <katex>$\\frac{1+x}{1-x} = 10$</katex>",
     "<katex>$1+x = 10 - 10x \\Rightarrow 11x = 9 \\Rightarrow x = 9/11 \\approx 0.818$</katex>",
     "Concentration of D = <katex>$1+x = 1.818$</katex> M."
-  ],
-  "years": [
-    2025
   ]
 }

@@ -17,7 +17,7 @@
       "0.2 M"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Number of half-lives <katex>$n = 80 / 20 = 4$</katex>.",
     "Concentration left <katex>$= [A]_0 \\times (1/2)^n = 0.2 \\times (1/2)^4 = 0.2 / 16 = 0.0125 \\text{M}$</katex>."

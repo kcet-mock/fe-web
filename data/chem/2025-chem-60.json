@@ -18,12 +18,9 @@
       "<katex>$sp^3$</katex> to <katex>$sp^2$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$\\text{AlCl}_3$</katex> has 3 bond pairs, 0 lone pairs -> <katex>$sp^2$</katex> (Trigonal planar).",
     "<katex>$\\text{AlCl}_4^-$</katex> has 4 bond pairs, 0 lone pairs -> <katex>$sp^3$</katex> (Tetrahedral)."
-  ],
-  "years": [
-    2025
   ]
 }
