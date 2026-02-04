@@ -22,8 +22,5 @@
   "correctAnswer": 0,
   "explanation": [
     "The answer key indicates 'Bonus' for this question, suggesting an error in the question paper or options. However, based on the structure typically associated with this question in KCET papers, it refers to Saccharin (C). We have set the index to 0 for schema compliance."
-  ],
-  "years": [
-    2024
   ]
 }
