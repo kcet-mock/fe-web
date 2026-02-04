@@ -2,12 +2,7 @@
   "id": "2023-bio-44",
   "question": [
     "Match List-I and List-II with respect to proteins and their functions and select the correct option.",
-    "| List-I | List-II |",
-    "|---|---|",
-    "| 1. Collagen | p. Fights infectious agents |",
-    "| 2. Trypsin | q. Hormone |",
-    "| 3. Insulin | r. Enzyme |",
-    "| 4. Antibody | s. Intercellular ground substance |"
+    "| List-I | List-II |\n|---|---|\n| 1. Collagen | p. Fights infectious agents |\n| 2. Trypsin | q. Hormone |\n| 3. Insulin | r. Enzyme |\n| 4. Antibody | s. Intercellular ground substance |"
   ],
   "choices": [
     [

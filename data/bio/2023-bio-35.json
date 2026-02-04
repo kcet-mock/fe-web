@@ -2,12 +2,7 @@
   "id": "2023-bio-35",
   "question": [
     "Find out the correct match.",
-    "| | Disease | Pathogen | Main organ affected |",
-    "|---|---|---|---|",
-    "| (A) | Filariasis | Common round worm | Small intestine |",
-    "| (B) | Ringworm | Fungus | Skin |",
-    "| (C) | Dysentery | Protozoa | Liver |",
-    "| (D) | Typhoid | Bacteria | Lungs |"
+    "| | Disease | Pathogen | Main organ affected |\n|---|---|---|---|\n| (A) | Filariasis | Common round worm | Small intestine |\n| (B) | Ringworm | Fungus | Skin |\n| (C) | Dysentery | Protozoa | Liver |\n| (D) | Typhoid | Bacteria | Lungs |"
   ],
   "choices": [
     [
