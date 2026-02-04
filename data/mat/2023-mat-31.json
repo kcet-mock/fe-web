@@ -17,7 +17,7 @@
       "<katex>$\\sqrt{29}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Point <katex>$P(3, -1, 11)$</katex>. Line passes through <katex>$A(0, 2, 3)$</katex> with direction <katex>$\\vec{b} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$</katex>.",
     "Vector <katex>$\\vec{AP} = (3-0)\\hat{i} + (-1-2)\\hat{j} + (11-3)\\hat{k} = 3\\hat{i} - 3\\hat{j} + 8\\hat{k}$</katex>.",
@@ -25,8 +25,5 @@
     "Length of perpendicular <katex>$d = \\sqrt{|\\vec{AP}|^2 - (\\text{proj})^2}$</katex>.",
     "<katex>$|\\vec{AP}|^2 = 3^2 + (-3)^2 + 8^2 = 9 + 9 + 64 = 82$</katex>.",
     "<katex>$d = \\sqrt{82 - 29} = \\sqrt{53}$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

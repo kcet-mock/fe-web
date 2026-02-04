@@ -17,14 +17,11 @@
       "<katex>$27.4\\pi$</katex> cm<katex>$^2$</katex>/sec"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Area <katex>$A = \\pi r^2$</katex>.",
     "<katex>$\\frac{dA}{dt} = 2\\pi r \\frac{dr}{dt}$</katex>.",
     "Given <katex>$\\frac{dr}{dt} = 0.05$</katex> and <katex>$r = 5.2$</katex>.",
     "<katex>$\\frac{dA}{dt} = 2\\pi (5.2) (0.05) = 2(0.05)(5.2)\\pi = 0.1(5.2)\\pi = 0.52\\pi$</katex> cm<katex>$^2$</katex>/sec."
-  ],
-  "years": [
-    2023
   ]
 }

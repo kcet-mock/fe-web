@@ -17,7 +17,7 @@
       "II or IV"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Equation: <katex>$\\frac{x^2}{16} + \\frac{y^2}{4} = 1$</katex>. Differentiating w.r.t t: <katex>$\\frac{2x}{16}\\frac{dx}{dt} + \\frac{2y}{4}\\frac{dy}{dt} = 0$</katex>.",
     "<katex>$\\frac{x}{8}\\frac{dx}{dt} + \\frac{y}{2}\\frac{dy}{dt} = 0$</katex>.",

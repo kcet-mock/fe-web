@@ -17,7 +17,7 @@
       "If two lines are parallel then they intersect in the same plane"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Statement: <katex>$p \\rightarrow q$</katex>. <katex>$p$</katex>: Lines do not intersect. <katex>$q$</katex>: Lines are parallel.",
     "Contrapositive: <katex>$\\sim q \\rightarrow \\sim p$</katex>.",

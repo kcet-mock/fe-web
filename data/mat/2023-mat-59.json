@@ -17,7 +17,7 @@
       "<katex>$252500$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Variance <katex>$\\sigma^2 = 5^2 = 25$</katex>.",
     "<katex>$\\sigma^2 = \\frac{\\sum x^2}{N} - (\\bar{x})^2$</katex>.",

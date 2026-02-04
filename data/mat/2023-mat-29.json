@@ -17,7 +17,7 @@
       "<katex>$\\frac{7}{2}$</katex> sq. units"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Area = <katex>$\\int_3^5 (x+1) dx = [\\frac{x^2}{2} + x]_3^5$</katex>.",
     "Upper limit: <katex>$\\frac{25}{2} + 5 = 12.5 + 5 = 17.5$</katex>.",

@@ -17,7 +17,7 @@
       "<katex>$x\\in[\\frac{-\\pi}{8},\\frac{\\pi}{8}]$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$f(x) = \\sqrt{2} \\sin(2x+\\pi/4)$</katex>.",
     "<katex>$g(f(x)) = (f(x))^2 - 1 = (\\sin 2x+\\cos 2x)^2 - 1 = 1 + \\sin 4x - 1 = \\sin 4x$</katex>.",

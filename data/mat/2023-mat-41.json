@@ -17,7 +17,7 @@
       "<katex>$6$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Total coins = <katex>$2n+1$</katex>.",
     "Event E: Head.",
@@ -28,8 +28,5 @@
     "<katex>$42(3n+1) = 31(4n+2)$</katex>.",
     "<katex>$126n + 42 = 124n + 62$</katex>.",
     "<katex>$2n = 20 \\implies n = 10$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

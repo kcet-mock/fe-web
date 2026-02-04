@@ -17,7 +17,7 @@
       "<katex>$2AB$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Given <katex>$AB=B$</katex> and <katex>$BA=A$</katex>.",
     "Consider <katex>$A^2 = A \\cdot A = (BA)A = B(AA) = B(A^2)$</katex>. This path is circular.",

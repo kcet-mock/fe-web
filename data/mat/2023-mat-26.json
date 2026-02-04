@@ -17,7 +17,7 @@
       "<katex>$\\vec{a}$</katex> and <katex>$\\vec{b}$</katex> are parallel"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Square both sides: <katex>$|\\vec{a}+\\vec{b}|^2 = |\\vec{a}-\\vec{b}|^2$</katex>.",
     "<katex>$a^2 + b^2 + 2\\vec{a}\\cdot\\vec{b} = a^2 + b^2 - 2\\vec{a}\\cdot\\vec{b}$</katex>.",

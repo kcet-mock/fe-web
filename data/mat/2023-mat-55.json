@@ -17,7 +17,7 @@
       "<katex>$\\frac{3x^{2}-5}{9x^{4}-6x^{2}+26}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$gof(x) = g(f(x)) = g(3x^2-5)$</katex>.",
     "<katex>$g(y) = \\frac{y}{y^2+1}$</katex>.",

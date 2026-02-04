@@ -17,7 +17,7 @@
       "<katex>$3$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "To find degree, remove radicals. Cube both sides.",
     "<katex>$(1 + (y')^2 + (y'')^2)^3 = y'' + 1$</katex>.",

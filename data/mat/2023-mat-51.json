@@ -17,7 +17,7 @@
       "<katex>$1, 2$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Apply L'Hospital's rule or expansion.",
     "<katex>$\\lim \\frac{\\cos(2+x) - \\cos(2-x)(-1)}{1} = \\cos 2 + \\cos 2 = 2\\cos 2$</katex>.",

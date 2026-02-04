@@ -17,7 +17,7 @@
       "<katex>${}^{6}P_{3} \\times {}^{4}P_{2}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "3 women choose from 6 chairs (1-6). Order matters (who sits where). Ways = <katex>${}^6P_3$</katex>.",
     "Remaining chairs = <katex>$10 - 3 = 7$</katex>. Men choose from remaining. The question says 'men choose the chairs from the remaining'.",

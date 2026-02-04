@@ -17,7 +17,7 @@
       "<katex>$3$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Lagrange's identity: <katex>$|\\vec{a}\\times\\vec{b}|^2 + (\\vec{a}\\cdot\\vec{b})^2 = |\\vec{a}|^2 |\\vec{b}|^2$</katex>.",
     "<katex>$144 = (4)^2 |\\vec{b}|^2$</katex>.",

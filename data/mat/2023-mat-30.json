@@ -17,7 +17,7 @@
       "<katex>$(3,0)$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Slope of tangent <katex>$\\frac{dy}{dx}$</katex>.",
     "Given: <katex>$x \\cdot \\frac{dy}{dx} = y$</katex>.",

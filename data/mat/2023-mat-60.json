@@ -17,7 +17,7 @@
       "<katex>$(fog)(-4)=4$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$(fog)(x) = f(g(x)) = f(\\sqrt{x}) = (\\sqrt{x})^2 = x$</katex> (for <katex>$x \\ge 0$</katex>).",
     "<katex>$(gof)(x) = g(f(x)) = g(x^2) = \\sqrt{x^2} = |x|$</katex>.",

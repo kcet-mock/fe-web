@@ -17,7 +17,7 @@
       "<katex>$\\{x=2n\\pi;n\\in Z\\}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$\\cot x = \\frac{\\cos x}{\\sin x}$</katex>.",
     "Discontinuity occurs when <katex>$\\sin x = 0$</katex>.",

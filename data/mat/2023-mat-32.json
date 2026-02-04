@@ -17,7 +17,7 @@
       "<katex>$2x-3y+4z-27=0$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Points <katex>$A(2,1,0), B(3,2,-2), C(3,1,7)$</katex>.",
     "<katex>$\\vec{AB} = (1, 1, -2)$</katex>. <katex>$\\vec{AC} = (1, 0, 7)$</katex>.",
@@ -26,8 +26,5 @@
     "Equation: <katex>$7(x-2) - 9(y-1) - 1(z-0) = 0$</katex>.",
     "<katex>$7x - 14 - 9y + 9 - z = 0$</katex>.",
     "<katex>$7x - 9y - z - 5 = 0$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

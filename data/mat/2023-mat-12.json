@@ -17,13 +17,10 @@
       "<katex>$2$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$u = \\sin^{-1}(\\frac{2x}{1+x^2}) = 2\\tan^{-1}x$</katex>.",
     "<katex>$v = \\tan^{-1}(\\frac{2x}{1-x^2}) = 2\\tan^{-1}x$</katex>.",
     "Since <katex>$u = v$</katex>, <katex>$\\frac{du}{dv} = 1$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

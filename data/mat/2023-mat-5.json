@@ -17,7 +17,7 @@
       "<katex>$\\frac{a}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "We know <katex>$\\sin^{-1}(\\frac{2a}{1+a^2}) = 2\\tan^{-1}a$</katex>.",
     "We know <katex>$\\cos^{-1}(\\frac{1-a^2}{1+a^2}) = 2\\tan^{-1}a$</katex>.",
@@ -25,8 +25,5 @@
     "So, <katex>$2\\tan^{-1}a + 2\\tan^{-1}a = 2\\tan^{-1}x \\implies 4\\tan^{-1}a = 2\\tan^{-1}x \\implies 2\\tan^{-1}a = \\tan^{-1}x$</katex>.",
     "Therefore <katex>$\\tan^{-1}(\\frac{2a}{1-a^2}) = \\tan^{-1}x$</katex>.",
     "Thus <katex>$x = \\frac{2a}{1-a^2}$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

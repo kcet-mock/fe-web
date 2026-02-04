@@ -17,7 +17,7 @@
       "<katex>$n(n-1)2^{n-2}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "The given series is the binomial expansion of <katex>$(1+x)^n$</katex>.",
     "So, <katex>$f(x) = (1+x)^n$</katex>.",

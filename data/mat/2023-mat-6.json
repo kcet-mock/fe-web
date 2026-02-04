@@ -17,15 +17,12 @@
       "<katex>$\\frac{x}{2}-\\pi$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Use <katex>$1+\\sin x = (\\cos \\frac{x}{2} + \\sin \\frac{x}{2})^2$</katex> and <katex>$1-\\sin x = (\\cos \\frac{x}{2} - \\sin \\frac{x}{2})^2$</katex>.",
     "Since <katex>$x \\in (0, \\pi/4)$</katex>, <katex>$\\cos \\frac{x}{2} > \\sin \\frac{x}{2}$</katex>, so <katex>$\\sqrt{1-\\sin x} = \\cos \\frac{x}{2} - \\sin \\frac{x}{2}$</katex>.",
     "Numerator: <katex>$(\\cos \\frac{x}{2} + \\sin \\frac{x}{2}) + (\\cos \\frac{x}{2} - \\sin \\frac{x}{2}) = 2\\cos \\frac{x}{2}$</katex>.",
     "Denominator: <katex>$(\\cos \\frac{x}{2} + \\sin \\frac{x}{2}) - (\\cos \\frac{x}{2} - \\sin \\frac{x}{2}) = 2\\sin \\frac{x}{2}$</katex>.",
     "Expression becomes <katex>$\\cot^{-1}(\\frac{2\\cos (x/2)}{2\\sin (x/2)}) = \\cot^{-1}(\\cot \\frac{x}{2}) = \\frac{x}{2}$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

@@ -17,7 +17,7 @@
       "<katex>$\\cos^{2}\\alpha/2 \\cdot A$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$B = A^{-1} = \\frac{1}{|A|} \\text{adj} A$</katex>",
     "<katex>$|A| = 1 - (-\\tan^2 \\alpha/2) = 1 + \\tan^2 \\alpha/2 = \\sec^2 \\alpha/2$</katex>.",

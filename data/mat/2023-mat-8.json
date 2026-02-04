@@ -17,7 +17,7 @@
       "<katex>$\\frac{5}{2}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "For <katex>$f(x) = \\frac{1}{x+2}$</katex> to be defined, <katex>$x \\neq -2$</katex>.",
     "For <katex>$f(f(x))$</katex> to be defined, <katex>$f(x) \\neq -2$</katex>.",

@@ -17,7 +17,7 @@
       "<katex>$-6$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "For a singular matrix, the determinant is zero.",
     "<katex>$|A| = (2-k)(3-k) - 2(1) = 0$</katex>",

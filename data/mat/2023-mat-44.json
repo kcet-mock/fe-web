@@ -17,7 +17,7 @@
       "<katex>$\\frac{a}{x} \\ge \\frac{b}{x}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Dividing an inequality by a negative number reverses the sign.",
     "<katex>$a < b$</katex>.",

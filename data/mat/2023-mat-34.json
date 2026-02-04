@@ -17,7 +17,7 @@
       "<katex>$2x+y+2z-1=0$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Normal vector <katex>$\\vec{n}$</katex> is vector from <katex>$(4,2,1)$</katex> to <katex>$(2,3,-1)$</katex> or vice versa.",
     "<katex>$\\vec{n} = (4-2, 2-3, 1-(-1)) = (2, -1, 2)$</katex>.",

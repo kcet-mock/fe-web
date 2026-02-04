@@ -17,7 +17,7 @@
       "<katex>$\\frac{\\pi}{3}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$\\cos^2 \\alpha + \\cos^2 \\beta + \\cos^2 \\gamma = 1$</katex>.",
     "<katex>$\\cos^2(\\pi/3) + \\cos^2(\\pi/3) + \\cos^2 \\gamma = 1$</katex>.",
@@ -25,8 +25,5 @@
     "<katex>$1/4 + 1/4 + \\cos^2 \\gamma = 1 \\implies 1/2 + \\cos^2 \\gamma = 1$</katex>.",
     "<katex>$\\cos^2 \\gamma = 1/2 \\implies \\cos \\gamma = \\frac{1}{\\sqrt{2}}$</katex>.",
     "<katex>$\\gamma = \\pi/4$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

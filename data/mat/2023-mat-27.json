@@ -17,15 +17,12 @@
       "<katex>$6$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Component of <katex>$\\vec{a}$</katex> on <katex>$\\vec{b}$</katex> is <katex>$\\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{b}|}$</katex>.",
     "<katex>$\\vec{a} = \\hat{i}$</katex>, <katex>$\\vec{b} = \\hat{i}+\\hat{j}+2\\hat{k}$</katex>.",
     "<katex>$\\vec{a}\\cdot\\vec{b} = 1(1) + 0 + 0 = 1$</katex>.",
     "<katex>$|\\vec{b}| = \\sqrt{1^2+1^2+2^2} = \\sqrt{6}$</katex>.",
     "Component is <katex>$\\frac{1}{\\sqrt{6}} = \\frac{\\sqrt{6}}{6}$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

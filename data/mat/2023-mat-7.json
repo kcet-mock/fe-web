@@ -17,7 +17,7 @@
       "<katex>$x=4, y=-3$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "We have the system of equations:",
     "<katex>$3x + y = 15$</katex>",

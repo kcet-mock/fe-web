@@ -17,7 +17,7 @@
       "<katex>$\\{x:x^{2}+1=0,x\\in R\\}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "<katex>$x^2 - 9 = 0 \\implies x = \\pm 3$</katex> (Real).",
     "<katex>$x^2 - x - 2 = 0 \\implies (x-2)(x+1)=0 \\implies x=2, -1$</katex> (Real).",

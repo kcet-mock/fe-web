@@ -17,7 +17,7 @@
       "<katex>$\\{(0,\\frac{27}{2}),(1,12),(3,9),(5,6),(7,3)\\}$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "<katex>$2b = 27 - 3a = 3(9-a)$</katex>.",
     "Since <katex>$2b$</katex> is even, <katex>$3(9-a)$</katex> must be even. So <katex>$9-a$</katex> even, <katex>$a$</katex> must be odd.",

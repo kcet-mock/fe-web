@@ -17,7 +17,7 @@
       "<katex>$\\frac{x^{2}}{4}-\\frac{y^{2}}{9}=1$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Distance between foci <katex>$2ae = 16$</katex>. Given <katex>$e = \\sqrt{2}$</katex>.",
     "<katex>$2a(\\sqrt{2}) = 16 \\implies a\\sqrt{2} = 8 \\implies a = 4\\sqrt{2}$</katex>.",

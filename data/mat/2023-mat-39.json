@@ -17,7 +17,7 @@
       "<katex>$x+y\\ge7, 2x-3y+6\\le0, x\\ge0, y\\ge0$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "The region is bounded by lines passing through <katex>$(0,7)-(7,0)$</katex> and <katex>$(0,2)-(-3,0)$</katex>. Point <katex>$(3,4)$</katex> is the intersection.",
     "Line 1: <katex>$(0,7), (7,0) \\implies x+y=7$</katex>. The region is below this line (origin side), so <katex>$x+y \\le 7$</katex>.",
