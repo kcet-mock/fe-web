@@ -18,11 +18,8 @@
       "3207.6 torr"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Moles Glucose = 18/180 = 0.1. Moles Water = 178.2/18 = 9.9. Mole fraction water = 9.9/10 = 0.99. VP = 760 * 0.99 = 752.4 torr."
-  ],
-  "years": [
-    2024
   ]
 }

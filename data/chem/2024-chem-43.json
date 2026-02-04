@@ -17,7 +17,7 @@
       "4.0 g"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "Time = 3600 + 47*60 + 13 = 6433 sec. Q = It = 3 * 6433 = 19299 C. Ca requires 2F (193000 C) for 40g. Mass = (19299/193000) * 40 approx 4.0 g."
   ],

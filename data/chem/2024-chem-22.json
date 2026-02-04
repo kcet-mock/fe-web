@@ -17,7 +17,7 @@
       "<katex>$[Cr(H_{2}O)_{6}Cl_{3}]$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Moles of Complex = 0.1 * 0.1 = 0.01 mol. Moles of AgCl = 2.86/143.5 = 0.02 mol. Ratio 1:2. So 2 Cl- ions are outside the coordination sphere."
   ],

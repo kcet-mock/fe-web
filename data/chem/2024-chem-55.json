@@ -19,7 +19,7 @@
       "+15J"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "Hess's Law: <katex>$\\Delta H(A \\rightarrow C) = \\Delta H(A \\rightarrow 2B) + \\Delta H(2B \\rightarrow C) = 10 + 25 = 35$</katex>. So <katex>$\\Delta H(C \\rightarrow A) = -35 J$</katex>."
   ],

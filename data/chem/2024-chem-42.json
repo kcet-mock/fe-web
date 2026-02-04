@@ -17,11 +17,8 @@
       "<katex>$9.65\\times10^{3}C$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "<katex>$H_2O \\rightarrow 2H^+ + \\frac{1}{2}O_2 + 2e^-$</katex>. 2 Faradays per mole. For 0.1 mole, 0.2 F. <katex>$0.2 \\times 96500 = 19300 C = 1.93 \\times 10^4 C$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }

@@ -17,11 +17,8 @@
       "Geometrical isomers"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Propanone (Ketone) and Propanal (Aldehyde) have the same molecular formula <katex>$C_3H_6O$</katex> but different functional groups."
-  ],
-  "years": [
-    2024
   ]
 }

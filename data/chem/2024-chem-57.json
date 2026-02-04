@@ -20,11 +20,8 @@
       "I-i, II-iii, III-ii"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Zn2+ is d10 (Colourless). Cu2+ is d9 (1 unpaired e-, 1.73 BM). Ni2+ is d8."
-  ],
-  "years": [
-    2024
   ]
 }

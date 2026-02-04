@@ -17,11 +17,8 @@
       "Glycosidic linkage"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Nucleotides in nucleic acids are linked by 3'-5' phosphodiester linkages."
-  ],
-  "years": [
-    2024
   ]
 }

@@ -17,11 +17,8 @@
       "Quaternary ammonium salt"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Adrenaline and ephedrine both contain a secondary amino group (<katex>$-NHCH_3$</katex>)."
-  ],
-  "years": [
-    2024
   ]
 }

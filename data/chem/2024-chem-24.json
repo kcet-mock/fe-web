@@ -21,11 +21,8 @@
       "II, III and IV"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Fluoride is a weak field ligand, so it forms an outer orbital (<katex>$sp^3d^2$</katex>), high spin, octahedral complex. Co is in +3 state, CN is 6. So II is false."
-  ],
-  "years": [
-    2024
   ]
 }

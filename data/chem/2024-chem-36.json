@@ -17,11 +17,8 @@
       "Potassium dichromate"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "These are dimensions of a Hexagonal unit cell. Graphite crystalizes in hexagonal lattice."
-  ],
-  "years": [
-    2024
   ]
 }

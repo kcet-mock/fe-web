@@ -17,7 +17,7 @@
       "<katex>$k=A~e^{Ea/RT}$</katex>"
     ]
   ],
-  "correctAnswer": 2,
+  "correctAnswer": 3,
   "explanation": [
     "The exponent must be negative (-Ea/RT)."
   ],

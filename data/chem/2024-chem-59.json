@@ -17,7 +17,7 @@
       "<katex>$HI>HF>HBr>HCl$</katex>"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "HF has highest boiling point due to H-bonding. For others, BP increases with size/mass (HI > HBr > HCl)."
   ],

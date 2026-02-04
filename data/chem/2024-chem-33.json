@@ -17,7 +17,7 @@
       "87.5"
     ]
   ],
-  "correctAnswer": 1,
+  "correctAnswer": 2,
   "explanation": [
     "%C = <katex>$\\frac{12}{44} \\times \\frac{\\text{Mass of } CO_2}{\\text{Mass of Compound}} \\times 100 = \\frac{12}{44} \\times \\frac{0.22}{0.48} \\times 100 = 12.5$</katex>%"
   ],

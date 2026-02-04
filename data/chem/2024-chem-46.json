@@ -17,11 +17,8 @@
       "<katex>$2.0~mol~L^{-1}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Rate = k[A]. [A] = Rate/k = <katex>$1.02 \\times 10^{-4} / 3.4 \\times 10^{-5} = 3.0$</katex>."
-  ],
-  "years": [
-    2024
   ]
 }
