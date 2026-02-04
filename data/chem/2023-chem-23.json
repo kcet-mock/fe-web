@@ -1,7 +1,8 @@
 {
   "id": "2023-chem-23",
   "question": [
-    "IUPAC name of the compound with structure corresponding to tetramethylethene is"
+    "IUPAC name of the compound is",
+    "images/2023-chem-23-1.png"
   ],
   "choices": [
     [
@@ -24,8 +25,5 @@
     "Numbering gives the double bond at C2.",
     "There are methyl groups at C2 and C3.",
     "IUPAC Name: **2,3-dimethylbut-2-ene**."
-  ],
-  "years": [
-    2023
   ]
 }

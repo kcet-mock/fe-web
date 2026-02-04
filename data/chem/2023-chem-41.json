@@ -17,12 +17,9 @@
       "<katex>$CHCl_{3}+Cl_{2}\\rightarrow CCl_{4}+HCl$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The unit **mol L<katex>$^{-1}$</katex> s<katex>$^{-1}$</katex>** corresponds to a **Zero Order** reaction.",
     "The decomposition of HI on the surface of Gold is a classic example of a zero-order reaction (surface catalysis at high pressure)."
-  ],
-  "years": [
-    2023
   ]
 }

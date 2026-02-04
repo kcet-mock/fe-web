@@ -17,13 +17,10 @@
       "<katex>$PH_{3}>AsH_{3}>SbH_{3}>NH_{3}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Basicity depends on the electron density on the central atom to donate the lone pair.",
     "As we go down Group 15, the size of the central atom increases, and the electron density decreases.",
     "Therefore, basicity decreases down the group: <katex>$NH_3 > PH_3 > AsH_3 > SbH_3$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

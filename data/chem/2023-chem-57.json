@@ -17,7 +17,7 @@
       "300nm and 475 nm"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The ligand field strength of 'en' is greater than 'H2O'.",
     "As more 'en' ligands are added (I -> II -> III), the crystal field splitting (<katex>$\\Delta_o$</katex>) increases.",
@@ -25,8 +25,5 @@
     "Wavelength absorbed (<katex>$\\lambda$</katex>) decreases.",
     "So, <katex>$\\lambda_{absorbed}$</katex> (I) > <katex>$\\lambda_{absorbed}$</katex> (III).",
     "Comparing options, only B fits: 600 nm > 535 nm."
-  ],
-  "years": [
-    2023
   ]
 }

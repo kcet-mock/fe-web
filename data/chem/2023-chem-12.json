@@ -17,15 +17,12 @@
       "1-a, 2-d, 3-c, 4-b"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "1. Caprolactum polymerizes to Nylon-6: <katex>$-(NH-(CH_2)_5-CO)-$</katex> (d).",
     "2. Vinyl chloride polymerizes to PVC: <katex>$-(CH_2-CH(Cl))-$</katex> (c).",
     "3. Styrene polymerizes to Polystyrene: <katex>$-(CH_2-CH(C_6H_5))-$</katex> (a).",
     "4. Propene polymerizes to Polypropene: <katex>$-(CH_2-CH(CH_3))-$</katex> (b).",
     "Correct match: 1-d, 2-c, 3-a, 4-b."
-  ],
-  "years": [
-    2023
   ]
 }

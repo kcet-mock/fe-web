@@ -17,7 +17,7 @@
       "+4"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Structure of <katex>$H_2S_2O_8$</katex> (Marshall's acid) contains a peroxide linkage (<katex>$-O-O-$</katex>).",
     "Structure: <katex>$HO-SO_2-O-O-SO_2-OH$</katex>.",
@@ -25,8 +25,5 @@
     "<katex>$2(+1) + 2x + 6(-2) + 2(-1) = 0$</katex>",
     "<katex>$2 + 2x - 12 - 2 = 0$</katex>",
     "<katex>$2x = 12 \\Rightarrow x = +6$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

@@ -2,7 +2,7 @@
   "id": "2023-chem-7",
   "question": [
     "In the reaction:",
-    "<katex>$$Aniline \\xrightarrow{P} N_2Cl \\xrightarrow{Q} N_2BF_4 \\xrightarrow{R} Fluorobenzene$$</katex>",
+    "images/2023-chem-7-1.png",
     "P, Q and R respectively are:"
   ],
   "choices": [
@@ -25,8 +25,5 @@
     "**P:** Aniline is converted to Benzene Diazonium Chloride using **<katex>$NaNO_2 + dil. HCl$</katex>** at 0-5°C.",
     "**Q:** Benzene Diazonium Chloride reacts with Fluoroboric acid (**<katex>$HBF_4$</katex>**) to form Benzene Diazonium Fluoroborate.",
     "**R:** Heating the fluoroborate salt gives Fluorobenzene. (Note: The option C lists <katex>$Cu+NaNO_2$</katex> for R, which is typically for nitrobenzene synthesis in Sandmeyer, but in the context of the options provided, the reagents for P and Q are the primary identifiers. <katex>$HBF_4$</katex> is the distinct reagent for introducing Fluorine)."
-  ],
-  "years": [
-    2023
   ]
 }

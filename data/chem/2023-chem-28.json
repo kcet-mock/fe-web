@@ -17,13 +17,10 @@
       "BeO, <katex>$BO_{3}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Amphoteric oxides can react with both acids and bases.",
     "**BeO** and **ZnO** are both well-known amphoteric oxides.",
     "MgO and Li2O are basic. B2O3 is acidic."
-  ],
-  "years": [
-    2023
   ]
 }

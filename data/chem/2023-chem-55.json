@@ -17,15 +17,12 @@
       "Cd, Hg"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "The configuration <katex>$(n-1)d^{10} ns^2$</katex> corresponds to Group 12 elements (Zn, Cd, Hg, Cn).",
     "Option B contains **Cu** (Copper) and Zn (Zinc).",
     "Copper has the configuration <katex>$3d^{10} 4s^1$</katex>, which is NOT <katex>$(n-1)d^{10} ns^2$</katex>.",
     "Therefore, this pair contains an element that does not match the configuration.",
     "(Note: The question phrasing implies finding the pair where the rule fails. Since Cu fails, B is the correct choice)."
-  ],
-  "years": [
-    2023
   ]
 }

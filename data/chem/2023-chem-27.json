@@ -17,14 +17,11 @@
       "'10 volume' hydrogen peroxide"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "30% <katex>$H_2O_2$</katex> means 30g <katex>$H_2O_2$</katex> in 100ml solution.",
     "Molarity = <katex>$\\frac{300 g/L}{34 g/mol} \\approx 8.8 M$</katex>.",
     "Volume strength = <katex>$11.2 \\times M = 11.2 \\times 8.8 \\approx 98.5$</katex>.",
     "It is approximately **100 volume** hydrogen peroxide."
-  ],
-  "years": [
-    2023
   ]
 }

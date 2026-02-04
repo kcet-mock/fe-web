@@ -17,15 +17,12 @@
       "I-ii, II-i, III - iii, IV - iv"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "I. Vitamin A deficiency causes Night-blindness (iii).",
     "II. Vitamin D deficiency causes Osteomalacia/Rickets (iv).",
     "III. Vitamin E deficiency causes Muscular weakness (i).",
     "IV. Vitamin K deficiency causes Increased blood clotting time (ii).",
     "Correct match: I-iii, II-iv, III-i, IV-ii."
-  ],
-  "years": [
-    2023
   ]
 }

@@ -17,15 +17,12 @@
       "P-iv, Q-iii, R - ii, S - i"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "P. Molecular Solid -> <katex>$H_2O$</katex> (Ice) (iii)",
     "Q. Ionic Solid -> MgO (iv)",
     "R. Metallic Solid -> Mg (ii)",
     "S. Network (Covalent) Solid -> SiC (Silicon Carbide) (i)",
     "Correct match: P-iii, Q-iv, R-ii, S-i."
-  ],
-  "years": [
-    2023
   ]
 }

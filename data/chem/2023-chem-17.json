@@ -17,14 +17,11 @@
       "<katex>$2\\times10^{-6}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "A catalyst increases the rate of both forward and backward reactions equally.",
     "It helps attain equilibrium faster but **does not alter the value of the equilibrium constant (<katex>$K_C$</katex>)**.",
     "<katex>$K_C$</katex> depends only on temperature.",
     "Therefore, <katex>$K_C$</katex> remains <katex>$2 \\times 10^{-5}$</katex>."
-  ],
-  "years": [
-    2023
   ]
 }

@@ -17,11 +17,8 @@
       "<katex>$CH_{4_{(g)}}$</katex>"
     ]
   ],
-  "correctAnswer": 0,
+  "correctAnswer": 1,
   "explanation": [
     "Water gas (or synthesis gas) is a mixture of Carbon monoxide (**CO**) and Hydrogen (**<katex>$H_2$</katex>**)."
-  ],
-  "years": [
-    2023
   ]
 }

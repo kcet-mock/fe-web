@@ -2,7 +2,7 @@
   "id": "2023-chem-1",
   "question": [
     "Compounds P and R in the following reaction are",
-    "<katex>$$CH_{3}CHO \\xrightarrow[(ii)H_{3}O^{+ }]{(i)CH_{3}MgBr} P \\xrightarrow[heat]{conc H_{2}SO_{4}} Q \\xrightarrow[(ii)H_{2}O_{2}/OH^{-}]{(i)B_{2}H_{6}} R$$</katex>"
+    "<katex>$CH_3CHO \\xrightarrow{\\text{(i) } CH_3MgBr \\text{(ii) } H_3O^+} P \\xrightarrow{\\text{conc } H_2SO_4, \\text{ heat}} Q \\xrightarrow{\\text{(i) } B_2H_6 \\text{(ii) } H_2O_2/OH^-} R$</katex>"
   ],
   "choices": [
     [

@@ -2,7 +2,7 @@
   "id": "2023-chem-4",
   "question": [
     "Y in the following reaction is",
-    "<katex>$$Phenol \\xrightarrow{NaOH} A \\xrightarrow[(ii)H^+]{(i)CO_2} B \\xrightarrow[(ii)H^+]{(i)(CH_3CO)_2O} Y \\text{ (Major product)}$$</katex>"
+    "<katex>$Phenol \\xrightarrow{NaOH} A \\xrightarrow[(ii)H^+]{(i)CO_2} B \\xrightarrow[(ii)H^+]{(i)(CH_3CO)_2O} Y \\text{ (Major product)}$</katex>"
   ],
   "choices": [
     [
