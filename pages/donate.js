@@ -37,13 +37,18 @@ export default function DonatePage() {
           <div style={{ marginBottom: '2rem', textAlign: 'center' }}>
             <h2 className="page-section-title">Donate via UPI</h2>
             <div style={{ margin: '1.5rem 0' }}>
-              {/* TODO: Place your UPI QR code image below */}
-              <div style={{ width: 180, height: 180, margin: '0 auto', background: '#f3f4f6', borderRadius: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1.5px dashed #bbb' }}>
-                <span style={{ color: '#888', fontSize: '1.1rem' }}>UPI QR Code<br />Coming Soon</span>
+              <div style={{ width: 220, height: 220, margin: '0 auto', borderRadius: 12, border: '1px solid #e5e7eb', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
+                <Image
+                  src="/images/upi-qr.jpeg"
+                  alt="UPI donation QR"
+                  width={200}
+                  height={200}
+                  style={{ borderRadius: 10 }}
+                />
               </div>
             </div>
             <div style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>
-              <strong>UPI ID:</strong> <span style={{ fontFamily: 'monospace' }}>your-upi@bank</span>
+              <strong>UPI ID:</strong> <span style={{ fontFamily: 'monospace' }}>kcet.mock@axl</span>
             </div>
             <div style={{ color: '#888', fontSize: '0.95rem' }}>
               (Scan the QR code or use the UPI ID above to donate any amount)
