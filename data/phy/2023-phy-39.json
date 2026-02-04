@@ -2,7 +2,7 @@
   "id": "2023-phy-39",
   "question": [
     "The P-V diagram of a Carnot's engine is shown in the graph below. The engine uses 1 mole of an ideal gas as working substance. From the graph, the area enclosed by the <katex>$P-V$</katex> diagram is [The heat supplied to the gas is 8000 J]",
-    "images/2023-phy-39-1.png"
+    "images/2023-phy-39-2.png"
   ],
   "choices": [
     [
@@ -21,8 +21,5 @@
   "correctAnswer": 0,
   "explanation": [
     "Refer to answer key. Area enclosed represents work done per cycle."
-  ],
-  "years": [
-    2023
   ]
 }

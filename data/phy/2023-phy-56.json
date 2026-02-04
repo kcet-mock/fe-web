@@ -21,8 +21,5 @@
   "correctAnswer": 2,
   "explanation": [
     "Acceleration (increase in speed) happens due to the electric field, which exists only in the gap between the Dees. Inside the Dees, field is zero (shielding) and particle moves in constant speed circular path."
-  ],
-  "years": [
-    2023
   ]
 }
