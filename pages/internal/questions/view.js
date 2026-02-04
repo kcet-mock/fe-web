@@ -88,9 +88,9 @@ export default function InternalQuestionViewPage() {
           </div>
         </header>
 
-        <div className="test-layout" style={{ display: 'flex', alignItems: 'stretch', position: 'relative' }}>
+        <div className="test-layout" style={{ display: 'grid', gridTemplateColumns: '56px 1fr 56px', alignItems: 'stretch' }}>
           {/* Left Arrow */}
-          <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'sticky', top: 120, alignSelf: 'start' }}>
             {(() => {
               if (id) {
                 // id format: 2024-phy-18
@@ -115,7 +115,6 @@ export default function InternalQuestionViewPage() {
                           boxShadow: '0 2px 8px #0001',
                           zIndex: 2,
                           cursor: 'pointer',
-                          marginRight: 8,
                         }}
                         onClick={() => router.replace(`/internal/questions/view?subject=${subject}&id=${prevId}`)}
                       >
@@ -129,7 +128,7 @@ export default function InternalQuestionViewPage() {
             })()}
           </div>
           {/* Main question content */}
-          <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ minWidth: 0 }}>
             {/* Edit button on the right side of the card, above question content */}
             {id ? (
               <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
@@ -252,7 +251,7 @@ export default function InternalQuestionViewPage() {
             )}
           </div>
           {/* Right Arrow */}
-          <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'sticky', top: 120, alignSelf: 'start' }}>
             {(() => {
               if (id) {
                 // id format: 2024-phy-18
@@ -276,7 +275,6 @@ export default function InternalQuestionViewPage() {
                         boxShadow: '0 2px 8px #0001',
                         zIndex: 2,
                         cursor: 'pointer',
-                        marginLeft: 8,
                       }}
                       onClick={() => router.replace(`/internal/questions/view?subject=${subject}&id=${nextId}`)}
                     >

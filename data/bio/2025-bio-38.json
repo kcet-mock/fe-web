@@ -2,7 +2,7 @@
   "id": "2025-bio-38",
   "question": [
     "In a practical examination, the following pedigree chart was given as a spotter for identification. The students identify the given pedigree chart as",
-    "images/2025-bio-38-1.png"
+    "images/2025-bio-38-2.png"
   ],
   "choices": [
     [
@@ -21,8 +21,5 @@
   "correctAnswer": 0,
   "explanation": [
     "The chart likely depicts an Autosomal Recessive trait (like Sickle cell anaemia) as it shows skipping of generations or affected offspring from unaffected parents (carriers)."
-  ],
-  "years": [
-    2025
   ]
 }
